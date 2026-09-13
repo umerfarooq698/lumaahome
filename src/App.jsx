@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ARTICLES } from './data/articles';
+import { ARTICLES, CATEGORIES } from './data/articles';
 import TopBar from './components/TopBar';
 import Header from './components/Header';
 import CoverHero from './components/CoverHero';
@@ -10,7 +10,6 @@ import SubscribeModal from './components/SubscribeModal';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [activeLocation, setActiveLocation] = useState('london');
   const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArticle, setSelectedArticle] = useState(null);
@@ -18,12 +17,11 @@ export default function App() {
   const [savedIds, setSavedIds] = useState(() => {
     try {
       const saved = localStorage.getItem('lumaa_saved_articles');
-      return saved ? JSON.parse(saved) : ['kensington-townhouse', 'diy-wall-panelling-masterclass'];
+      return saved ? JSON.parse(saved) : ['kensington-townhouse'];
     } catch (e) {
       return ['kensington-townhouse'];
     }
   });
-  const [showSavedOnly, setShowSavedOnly] = useState(false);
 
   // Save to localStorage
   useEffect(() => {
@@ -44,23 +42,17 @@ export default function App() {
 
   // Filter articles
   const filteredArticles = ARTICLES.filter((article) => {
-    // If show saved only
-    if (showSavedOnly && !savedIds.includes(article.id)) {
-      return false;
-    }
-
     // Category filter
     if (activeCategory !== 'all') {
-      const catMatch =
-        article.category.toLowerCase().replace(/ /g, '-') === activeCategory ||
-        article.category.toLowerCase() === activeCategory.replace(/-/g, ' ');
-      if (!catMatch) return false;
+      if (article.category !== activeCategory) {
+        return false;
+      }
     }
 
     // Search query
     if (searchQuery.trim() !== '') {
       const q = searchQuery.toLowerCase();
-      const matchText = (article.title + ' ' + article.excerpt + ' ' + article.author + ' ' + article.category).toLowerCase();
+      const matchText = (article.title + ' ' + article.excerpt + ' ' + article.author + ' ' + (article.categoryName || article.category)).toLowerCase();
       if (!matchText.includes(q)) return false;
     }
 
@@ -71,30 +63,18 @@ export default function App() {
   const stackedArticles = ARTICLES.filter((a) => a.isStacked);
   const gridArticles = filteredArticles.filter((a) => !a.isCover);
 
+  const currentCategoryObj = CATEGORIES.find(c => c.id === activeCategory);
+
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
       <div>
-        {/* Top Location & Meta Bar */}
-        <TopBar
-          activeLocation={activeLocation}
-          setActiveLocation={(loc) => {
-            setActiveLocation(loc);
-            setShowSavedOnly(false);
-          }}
-          savedCount={savedIds.length}
-          onOpenSaved={() => {
-            setShowSavedOnly(!showSavedOnly);
-            setActiveCategory('all');
-          }}
-        />
+        {/* Top Meta Bar (Clean date, UK edition & social links) */}
+        <TopBar />
 
         {/* Resident.com Style Centered Header */}
         <Header
           activeCategory={activeCategory}
-          setActiveCategory={(cat) => {
-            setActiveCategory(cat);
-            setShowSavedOnly(false);
-          }}
+          setActiveCategory={setActiveCategory}
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
@@ -102,24 +82,9 @@ export default function App() {
 
         {/* Main Content Area */}
         <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8 space-y-12">
-          
-          {/* Saved notification banner */}
-          {showSavedOnly && (
-            <div className="bg-gray-100 p-4 border-l-4 border-black flex items-center justify-between">
-              <span className="font-serif font-bold text-sm uppercase tracking-wider">
-                Viewing Bookmarked Stories ({filteredArticles.length})
-              </span>
-              <button
-                onClick={() => setShowSavedOnly(false)}
-                className="text-xs font-bold text-[#C8102E] uppercase hover:underline"
-              >
-                View All Stories ✕
-              </button>
-            </div>
-          )}
 
-          {/* Hero Section (shown when no search and on 'all' category) */}
-          {!showSavedOnly && activeCategory === 'all' && searchQuery.trim() === '' && (
+          {/* Hero Section (shown when on 'all' category and no active search) */}
+          {activeCategory === 'all' && searchQuery.trim() === '' && (
             <CoverHero
               coverArticle={coverArticle}
               stackedArticles={stackedArticles}
@@ -129,13 +94,11 @@ export default function App() {
 
           {/* Main Editorial Articles Grid */}
           <EditorialGrid
-            articles={activeCategory === 'all' && searchQuery.trim() === '' && !showSavedOnly ? gridArticles : filteredArticles}
+            articles={activeCategory === 'all' && searchQuery.trim() === '' ? gridArticles : filteredArticles}
             onSelectArticle={(art) => setSelectedArticle(art)}
             sectionTitle={
-              showSavedOnly
-                ? "BOOKMARKED UK FEATURES"
-                : activeCategory !== 'all'
-                ? `CATEGORY: ${activeCategory.toUpperCase().replace(/-/g, ' ')}`
+              activeCategory !== 'all'
+                ? `CATEGORY: ${currentCategoryObj ? currentCategoryObj.name.toUpperCase() : activeCategory.toUpperCase()}`
                 : searchQuery.trim() !== ''
                 ? `SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`
                 : "LATEST EDITORIAL STORIES"
@@ -150,14 +113,7 @@ export default function App() {
 
       {/* Luxury Footer */}
       <Footer
-        onSelectCategory={(cat) => {
-          setActiveCategory(cat);
-          setShowSavedOnly(false);
-        }}
-        onSelectLocation={(loc) => {
-          setActiveLocation(loc);
-          setShowSavedOnly(false);
-        }}
+        onSelectCategory={setActiveCategory}
       />
 
       {/* Single Article Reader Modal */}

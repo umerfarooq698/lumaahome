@@ -1,17 +1,13 @@
-export const LOCATIONS = [
-  { id: 'london', name: 'LONDON', badge: 'Flagship Edition' },
-  { id: 'edinburgh', name: 'EDINBURGH', badge: 'Scottish Heritage' },
-  { id: 'cotswolds', name: 'COTSWOLDS', badge: 'Country Estates' },
-  { id: 'manchester', name: 'MANCHESTER', badge: 'Urban Living' },
-];
-
 export const CATEGORIES = [
   { id: 'all', name: 'ALL STORIES' },
-  { id: 'luxury-home', name: 'LUXURY HOME' },
+  { id: 'living-room', name: 'Living Room' },
+  { id: 'bedroom', name: 'Bedroom' },
+  { id: 'kitchen', name: 'Kitchen' },
+  { id: 'bathroom', name: 'Bathroom' },
+  { id: 'garden', name: 'Garden' },
   { id: 'interiors', name: 'INTERIORS' },
-  { id: 'diy-guides', name: 'DIY GUIDES' },
-  { id: 'period-homes', name: 'PERIOD PROPERTIES' },
-  { id: 'lifestyle', name: 'LIFESTYLE & TRAVEL' },
+  { id: 'diy', name: 'DIY' },
+  { id: 'buying-guides', name: 'Buying Guides' },
 ];
 
 export const ARTICLES = [
@@ -19,9 +15,9 @@ export const ARTICLES = [
     id: 'kensington-townhouse',
     title: 'Inside a Restored 19th-Century Victorian Townhouse in Kensington',
     slug: 'inside-restored-victorian-townhouse-kensington',
-    category: 'LUXURY HOME',
-    categoryLabel: 'COVER STORY • UK INTERIORS',
-    location: 'london',
+    category: 'living-room',
+    categoryName: 'Living Room',
+    categoryLabel: 'COVER STORY • LIVING ROOM',
     author: 'Eleanor Vance',
     role: 'Senior Architectural Editor',
     date: 'September 12, 2026',
@@ -50,9 +46,9 @@ export const ARTICLES = [
     id: 'alcove-joinery-masterclass',
     title: 'The Art of Bespoke Alcove Joinery in British Living Rooms',
     slug: 'art-bespoke-alcove-joinery-british-living-rooms',
-    category: 'INTERIORS',
-    categoryLabel: 'LUXURY DESIGN',
-    location: 'london',
+    category: 'interiors',
+    categoryName: 'INTERIORS',
+    categoryLabel: 'LUXURY DESIGN • INTERIORS',
     author: 'Sarah Jenkins',
     role: 'London Interior Stylist',
     date: 'September 10, 2026',
@@ -76,9 +72,9 @@ export const ARTICLES = [
     id: 'rental-elegance-hacks',
     title: 'Rental Elegance: Non-Damaging Interior Upgrades for UK Tenants',
     slug: 'rental-elegance-non-damaging-upgrades-uk-tenants',
-    category: 'PERIOD PROPERTIES',
-    categoryLabel: 'REAL ESTATE & RENTALS',
-    location: 'manchester',
+    category: 'bedroom',
+    categoryName: 'Bedroom',
+    categoryLabel: 'BEDROOM RETREAT',
     author: 'Alex Turner',
     role: 'Design Columnist',
     date: 'September 08, 2026',
@@ -102,9 +98,9 @@ export const ARTICLES = [
     id: 'diy-wall-panelling-masterclass',
     title: 'Step-by-Step Wall Panelling Masterclass for British Homes',
     slug: 'step-by-step-wall-panelling-masterclass',
-    category: 'DIY GUIDES',
-    categoryLabel: 'UK DIY GUIDES',
-    location: 'cotswolds',
+    category: 'diy',
+    categoryName: 'DIY',
+    categoryLabel: 'UK DIY MASTERCLASS',
     author: 'Sarah Jenkins',
     role: 'DIY & Restoration Lead',
     date: 'September 06, 2026',
@@ -133,37 +129,112 @@ export const ARTICLES = [
     keyTakeaway: 'Always use MR (Green-core) MDF when panelling in bathrooms or hallway areas prone to seasonal UK humidity changes.'
   },
   {
-    id: 'insulating-sash-windows',
-    title: 'Insulating Single-Glazed Sash Windows in Historic UK Properties',
-    slug: 'insulating-single-glazed-sash-windows-uk',
-    category: 'PERIOD PROPERTIES',
-    categoryLabel: 'PERIOD PROPERTIES',
-    location: 'edinburgh',
-    author: 'David Miller',
-    role: 'Conservation Specialist',
+    id: 'shaker-kitchen-design',
+    title: 'Crafting the Ultimate British Shaker Kitchen: Layout & Materials Guide',
+    slug: 'ultimate-british-shaker-kitchen-guide',
+    category: 'kitchen',
+    categoryName: 'Kitchen',
+    categoryLabel: 'KITCHEN ARCHITECTURE',
+    author: 'Marcus Cole',
+    role: 'Kitchen Design Architect',
+    date: 'September 05, 2026',
+    readTime: '5 min read',
+    views: '16.3k',
+    excerpt: 'Timeless cabinetry proportions, unlacquered brass hardware, and honed Carrara marble worktops for modern British homes.',
+    heroImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>The British Shaker kitchen remains an enduring design icon. Its beauty lies in unadorned simplicity, authentic craftsmanship, and functional proportions.</p>
+      
+      <h3>Pared-Back In-Frame Cabinetry</h3>
+      <p>Traditional in-frame construction features doors set within a hardwood frame. When finished in muted tones like deep charcoal, soft olive, or off-white, the kitchen feels established rather than trendy.</p>
+
+      <h3>Natural Worktop Surfaces</h3>
+      <p>Pair painted timber cabinets with honed natural stone—whether Welsh slate, honed limestone, or Carrara marble—which patinate gracefully with age.</p>
+    `,
+    keyTakeaway: 'Incorporate deep pan drawers with solid oak dovetailed joints for optimal utensil organisation.'
+  },
+  {
+    id: 'luxury-bathroom-sanctuary',
+    title: 'Transforming Compact UK Bathrooms into Spa Sanctuaries',
+    slug: 'transforming-compact-uk-bathrooms-spa-sanctuaries',
+    category: 'bathroom',
+    categoryName: 'Bathroom',
+    categoryLabel: 'BATHROOM DESIGN',
+    author: 'Clara Hughes',
+    role: 'Wellness & Spa Consultant',
     date: 'September 04, 2026',
     readTime: '5 min read',
-    views: '11.4k',
-    excerpt: 'Preserving authentic timber box sash frames while eliminating draughts and reducing heat loss during damp Scottish and English winters.',
-    heroImage: 'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=1200&q=80',
+    views: '14.1k',
+    excerpt: 'Space-saving fluted glass screens, concealed thermostatic valves, and microcement finishes for modern British bathrooms.',
+    heroImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
     content: `
-      <p>Historic timber sash windows represent some of the most charming exterior facades across Edinburgh, Bath, and London. However, seasonal shrinkage leads to draughts.</p>
+      <p>British bathrooms in Victorian terraces and urban flats often possess compact footprints. By utilizing reflective surfaces and seamless wetroom systems, even a small 2m x 2m bathroom transforms into an oasis.</p>
       
-      <h3>Brush Pile Draught-Proofing Strips</h3>
-      <p>Rather than unsightly expanding foam, install concealed brush pile carrier seals routed into the parting beads and meeting rails. This preserves smooth sash movement while blocking 90% of draughts.</p>
+      <h3>Walk-In Crittall or Fluted Wetroom Screens</h3>
+      <p>Replacing bulky shower enclosures with minimalist fluted glass screens maximizes visual space while providing tactile privacy.</p>
 
-      <h3>Thermal Secondary Glazing</h3>
-      <p>Discreet magnetic acrylic secondary glazing panels attach inside the timber staff bead during winter months and store flat during summer, complying fully with Grade II listed building constraints.</p>
+      <h3>Wall-Hung Vanity Units</h3>
+      <p>Elevating cabinetry off the floor reveals continuous floor tiling beneath, immediately giving the perception of a larger room.</p>
     `,
-    keyTakeaway: 'Never paint over historic sash cords or brass pulleys, as friction buildup leads to premature cord snapping.'
+    keyTakeaway: 'Always install underfloor heating before tiling compact bathrooms to accelerate drying and prevent dampness.'
+  },
+  {
+    id: 'cottage-garden-outdoor-living',
+    title: 'English Cottage Gardens: Designing Year-Round Outdoor Living Spaces',
+    slug: 'english-cottage-gardens-outdoor-living',
+    category: 'garden',
+    categoryName: 'Garden',
+    categoryLabel: 'GARDEN & OUTDOOR',
+    author: 'Hugh Montgomery',
+    role: 'Landscape Designer',
+    date: 'September 03, 2026',
+    readTime: '6 min read',
+    views: '13.7k',
+    excerpt: 'Gravel courtyards, heritage pergolas, and hardy perennial borders designed to thrive in the changing British climate.',
+    heroImage: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>An authentic English garden is a natural extension of the home interior. Blending structured boxwood hedging with free-flowing lavender, delphiniums, and rambling roses creates an enchanting setting.</p>
+      
+      <h3>Cotswold Gravel Patios</h3>
+      <p>Gravel courtyards offer excellent drainage during wet UK seasons and provide an informal, rustic foundation for teak dining furniture.</p>
+
+      <h3>Sheltered Timber Pergolas</h3>
+      <p>Installing an oak pergola trained with wisteria or honeysuckle creates essential dappled shade during summer and shelter on breezy evenings.</p>
+    `,
+    keyTakeaway: 'Layer evergreen structural shrubs among flowering perennials to maintain architectural interest during winter.'
+  },
+  {
+    id: 'buying-guide-sofas',
+    title: 'The Ultimate UK Sofa Buying Guide: Quality, Fabrics & Proportions',
+    slug: 'ultimate-uk-sofa-buying-guide',
+    category: 'buying-guides',
+    categoryName: 'Buying Guides',
+    categoryLabel: 'EXPERT BUYING GUIDE',
+    author: 'Eleanor Vance',
+    role: 'Senior Architectural Editor',
+    date: 'September 02, 2026',
+    readTime: '6 min read',
+    views: '19.8k',
+    excerpt: 'What to look for in kiln-dried hardwood frames, feather-wrapped foam cushions, and stain-resistant Belgian linen weaves.',
+    heroImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>A sofa is the centerpiece investment of any British living room. Understanding frame construction and fabric durability ensures your piece endures for decades.</p>
+      
+      <h3>Frame Construction: Hardwood vs Softwood</h3>
+      <p>Always verify the frame is crafted from FSC-certified kiln-dried beech or birch hardwood with dowelled and glued corner blocks. Avoid staples or particleboard frames.</p>
+
+      <h3>Choosing the Right Fabric Martindale Score</h3>
+      <p>For daily family living, select upholstery fabrics with a Martindale rub count of at least 30,000 cycles. Performance linen and wool blends offer luxury hand-feel with remarkable longevity.</p>
+    `,
+    keyTakeaway: 'Always measure doorway clearance, hallway turns, and stairwells before finalizing delivery dimensions.'
   },
   {
     id: 'sage-terracotta-palette',
     title: 'Sage & Cotswold Terracotta: 2026 British Color Edit',
     slug: 'sage-cotswold-terracotta-color-edit',
-    category: 'INTERIORS',
-    categoryLabel: 'DESIGN TRENDS',
-    location: 'cotswolds',
+    category: 'interiors',
+    categoryName: 'INTERIORS',
+    categoryLabel: 'DESIGN TRENDS • INTERIORS',
     author: 'Editorial Desk',
     role: 'Trend Forecast Team',
     date: 'September 01, 2026',

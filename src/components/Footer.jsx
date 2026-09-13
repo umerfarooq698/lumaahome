@@ -1,7 +1,7 @@
 import React from 'react';
-import { LOCATIONS, CATEGORIES } from '../data/articles';
+import { CATEGORIES } from '../data/articles';
 
-export default function Footer({ onSelectCategory, onSelectLocation }) {
+export default function Footer({ onSelectCategory }) {
   return (
     <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-gray-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -19,47 +19,55 @@ export default function Footer({ onSelectCategory, onSelectLocation }) {
           </div>
         </div>
 
-        {/* Col 2: Locations */}
+        {/* Col 2: Categories Part 1 */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
-            EDITIONS & LOCATIONS
+            ROOMS & SPACES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
-            {LOCATIONS.map((loc) => (
-              <li key={loc.id}>
-                <button
-                  onClick={() => {
-                    onSelectLocation(loc.id);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="hover:text-black hover:underline transition uppercase"
-                >
-                  {loc.name} EDITION ({loc.badge})
-                </button>
-              </li>
-            ))}
+            {['living-room', 'bedroom', 'kitchen', 'bathroom', 'garden'].map((catId) => {
+              const cat = CATEGORIES.find(c => c.id === catId);
+              if (!cat) return null;
+              return (
+                <li key={cat.id}>
+                  <button
+                    onClick={() => {
+                      onSelectCategory(cat.id);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="hover:text-black hover:underline transition uppercase"
+                  >
+                    {cat.name}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
 
-        {/* Col 3: Editorial */}
+        {/* Col 3: Categories Part 2 */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
-            EDITORIAL SECTIONS
+            EDITORIAL & GUIDES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
-            {CATEGORIES.filter(c => c.id !== 'all').map((cat) => (
-              <li key={cat.id}>
-                <button
-                  onClick={() => {
-                    onSelectCategory(cat.id);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                  }}
-                  className="hover:text-black hover:underline transition uppercase"
-                >
-                  {cat.name}
-                </button>
-              </li>
-            ))}
+            {['interiors', 'diy', 'buying-guides'].map((catId) => {
+              const cat = CATEGORIES.find(c => c.id === catId);
+              if (!cat) return null;
+              return (
+                <li key={cat.id}>
+                  <button
+                    onClick={() => {
+                      onSelectCategory(cat.id);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }}
+                    className="hover:text-black hover:underline transition uppercase"
+                  >
+                    {cat.name}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </div>
 

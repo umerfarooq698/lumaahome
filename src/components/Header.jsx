@@ -1,6 +1,6 @@
 import React from 'react';
 import { CATEGORIES } from '../data/articles';
-import { Search, Menu } from 'lucide-react';
+import { Search } from 'lucide-react';
 
 export default function Header({ 
   activeCategory, 
@@ -23,12 +23,12 @@ export default function Header({
         </a>
       </div>
 
-      {/* Bordered Horizontal Navigation Ribbon (Resident.com style) */}
+      {/* Bordered Horizontal Navigation Ribbon with New Categories */}
       <div className="mt-6 border-t border-b border-gray-900 py-2.5 bg-white sticky top-0 z-30 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between gap-4">
           
           {/* Categories Nav */}
-          <nav className="flex items-center gap-6 sm:gap-8 overflow-x-auto text-[11px] sm:text-xs font-bold tracking-widest uppercase text-black py-1">
+          <nav className="flex items-center gap-5 sm:gap-7 overflow-x-auto text-[11px] sm:text-xs font-bold tracking-widest uppercase text-black py-1 no-scrollbar">
             {CATEGORIES.map((cat) => (
               <button
                 key={cat.id}
@@ -46,13 +46,13 @@ export default function Header({
 
           {/* Search & Subscribe */}
           <div className="flex items-center gap-3 shrink-0">
-            <div className="relative hidden md:block">
+            <div className="relative hidden xl:block">
               <input
                 type="text"
                 placeholder="Search..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-7 pr-3 py-1 text-xs border border-gray-300 focus:outline-none focus:border-black w-32 lg:w-44 transition text-black"
+                className="pl-7 pr-3 py-1 text-xs border border-gray-300 focus:outline-none focus:border-black w-28 lg:w-36 transition text-black"
               />
               <Search className="w-3.5 h-3.5 absolute left-2 top-2 text-gray-400" />
             </div>
