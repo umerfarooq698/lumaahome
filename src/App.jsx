@@ -8,9 +8,25 @@ import CategoryPage from './components/CategoryPage';
 import NewsletterBanner from './components/NewsletterBanner';
 import ArticleModal from './components/ArticleModal';
 import SubscribeModal from './components/SubscribeModal';
+import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
 
 export default function App() {
+  const [articlesList, setArticlesList] = useState(() => {
+    try {
+      const saved = localStorage.getItem('lumaa_gemini_articles');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          return [...parsed, ...ARTICLES];
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    return ARTICLES;
+  });
+
   const [activeCategory, setActiveCategory] = useState(() => {
     // Check URL hash on load
     const hash = window.location.hash.replace('#/category/', '').replace('#/', '');
@@ -21,6 +37,7 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
+  const [isAIGeneratorOpen, setIsAIGeneratorOpen] = useState(false);
   const [savedIds, setSavedIds] = useState(() => {
     try {
       const saved = localStorage.getItem('lumaa_saved_articles');
@@ -70,8 +87,22 @@ export default function App() {
     );
   };
 
+  const handleArticleCreated = (newArticle) => {
+    setArticlesList((prev) => {
+      const updated = [newArticle, ...prev];
+      try {
+        const customOnly = updated.filter(a => a.id.startsWith('ai-'));
+        localStorage.setItem('lumaa_gemini_articles', JSON.stringify(customOnly));
+      } catch (e) {
+        console.error(e);
+      }
+      return updated;
+    });
+    setSelectedArticle(newArticle);
+  };
+
   // Filter articles
-  const filteredArticles = ARTICLES.filter((article) => {
+  const filteredArticles = articlesList.filter((article) => {
     if (activeCategory !== 'all') {
       if (article.category !== activeCategory) {
         return false;
@@ -87,15 +118,15 @@ export default function App() {
     return true;
   });
 
-  const coverArticle = ARTICLES.find((a) => a.isCover);
-  const stackedArticles = ARTICLES.filter((a) => a.isStacked);
+  const coverArticle = articlesList.find((a) => a.isCover) || articlesList[0];
+  const stackedArticles = articlesList.filter((a) => a.isStacked);
   const gridArticles = filteredArticles.filter((a) => !a.isCover);
 
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
       <div>
-        {/* Top Meta Bar */}
-        <TopBar />
+        {/* Top Meta Bar with AI Studio Trigger */}
+        <TopBar onOpenAIGenerator={() => setIsAIGeneratorOpen(true)} />
 
         {/* Resident.com Style Centered Header */}
         <Header
@@ -166,6 +197,13 @@ export default function App() {
       <SubscribeModal
         isOpen={isSubscribeOpen}
         onClose={() => setIsSubscribeOpen(false)}
+      />
+
+      {/* Gemini AI Editorial Studio Modal */}
+      <AIGeneratorModal
+        isOpen={isAIGeneratorOpen}
+        onClose={() => setIsAIGeneratorOpen(false)}
+        onArticleCreated={handleArticleCreated}
       />
     </div>
   );
