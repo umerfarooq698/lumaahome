@@ -1,6 +1,7 @@
 import React from 'react';
 import { CATEGORIES } from '../data/articles';
 import { Search } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Header({ 
   activeCategory, 
@@ -11,15 +12,20 @@ export default function Header({
 }) {
   return (
     <header className="py-6 border-b border-gray-900 bg-white">
-      {/* Centered Brand Title */}
-      <div className="max-w-7xl mx-auto px-4 text-center space-y-1">
-        <a href="/" className="inline-block group">
-          <h1 className="font-serif text-4xl sm:text-6xl font-black tracking-tight text-black uppercase transition group-hover:opacity-90">
-            Lumaa Home<span className="text-sm align-top text-[#C8102E] font-normal">™</span>
-          </h1>
-          <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.25em] text-gray-500 block uppercase mt-1">
-            A Luxury Home Decor and DIY Magazine • UK Edition
-          </span>
+      {/* Centered Brand Logo & Title */}
+      <div className="max-w-7xl mx-auto px-4 text-center">
+        <a 
+          href="/" 
+          onClick={(e) => {
+            if (activeCategory !== 'all') {
+              e.preventDefault();
+              setActiveCategory('all');
+              window.location.hash = '';
+            }
+          }}
+          className="inline-block group cursor-pointer"
+        >
+          <Logo />
         </a>
       </div>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { CATEGORIES } from '../data/articles';
+import Logo from './Logo';
 
 export default function Footer({ onSelectCategory }) {
   return (
@@ -8,9 +9,7 @@ export default function Footer({ onSelectCategory }) {
         
         {/* Col 1: Brand */}
         <div className="space-y-4">
-          <div className="font-serif text-2xl font-black text-black uppercase tracking-tight">
-            LUMAA HOME<span className="text-sm text-[#C8102E]">™</span>
-          </div>
+          <Logo size="small" />
           <p className="text-[11px] leading-relaxed text-gray-500 font-light">
             The UK's premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine. Printed and published digitally in London, UK.
           </p>
