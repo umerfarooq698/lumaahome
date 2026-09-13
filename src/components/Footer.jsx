@@ -1,0 +1,87 @@
+import React from 'react';
+import { LOCATIONS, CATEGORIES } from '../data/articles';
+
+export default function Footer({ onSelectCategory, onSelectLocation }) {
+  return (
+    <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-gray-600">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        
+        {/* Col 1: Brand */}
+        <div className="space-y-4">
+          <div className="font-serif text-2xl font-black text-black uppercase tracking-tight">
+            LUMAA HOME<span className="text-sm text-[#C8102E]">™</span>
+          </div>
+          <p className="text-[11px] leading-relaxed text-gray-500 font-light">
+            The UK's premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine. Printed and published digitally in London, UK.
+          </p>
+          <div className="text-[10px] uppercase font-bold text-gray-400 tracking-widest">
+            ISSN 2849-1029 • LONDON, UK
+          </div>
+        </div>
+
+        {/* Col 2: Locations */}
+        <div className="space-y-3">
+          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
+            EDITIONS & LOCATIONS
+          </h4>
+          <ul className="space-y-1.5 text-[11px]">
+            {LOCATIONS.map((loc) => (
+              <li key={loc.id}>
+                <button
+                  onClick={() => {
+                    onSelectLocation(loc.id);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="hover:text-black hover:underline transition uppercase"
+                >
+                  {loc.name} EDITION ({loc.badge})
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Col 3: Editorial */}
+        <div className="space-y-3">
+          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
+            EDITORIAL SECTIONS
+          </h4>
+          <ul className="space-y-1.5 text-[11px]">
+            {CATEGORIES.filter(c => c.id !== 'all').map((cat) => (
+              <li key={cat.id}>
+                <button
+                  onClick={() => {
+                    onSelectCategory(cat.id);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="hover:text-black hover:underline transition uppercase"
+                >
+                  {cat.name}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Col 4: Corporate & Legal */}
+        <div className="space-y-3">
+          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
+            LEGAL & CONTACT
+          </h4>
+          <p className="text-[11px] text-gray-500 leading-relaxed font-light">
+            Editorial inquiries: <span className="text-black font-semibold">editor@lumaahome.co.uk</span>
+          </p>
+          <p className="text-[11px] text-gray-400">
+            © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP. ALL RIGHTS RESERVED.
+          </p>
+          <div className="pt-2 flex items-center gap-3 text-[10px] text-gray-400 uppercase tracking-wider">
+            <a href="#" className="hover:text-black">Privacy Policy</a>
+            <span>•</span>
+            <a href="#" className="hover:text-black">Terms of Service</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+  );
+}
