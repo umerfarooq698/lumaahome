@@ -135,6 +135,7 @@ export default function App() {
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
+          onOpenAIGenerator={() => setIsAIGeneratorOpen(true)}
         />
 
         {/* Main Content Area */}

@@ -8,7 +8,8 @@ export default function Header({
   setActiveCategory, 
   searchQuery, 
   setSearchQuery, 
-  onOpenSubscribe 
+  onOpenSubscribe,
+  onOpenAIGenerator
 }) {
   return (
     <header className="pt-8 pb-4 sm:pt-10 sm:pb-6 border-b border-gray-900 bg-white">
@@ -62,6 +63,13 @@ export default function Header({
               />
               <Search className="w-3.5 h-3.5 absolute left-2 top-2 text-gray-400" />
             </div>
+
+            <button
+              onClick={onOpenAIGenerator}
+              className="bg-[#C8102E] text-white px-3 py-1.5 text-[10px] uppercase font-bold tracking-widest hover:bg-black transition shadow-sm flex items-center gap-1.5"
+            >
+              <span>✨ AI STUDIO</span>
+            </button>
 
             <button
               onClick={onOpenSubscribe}
