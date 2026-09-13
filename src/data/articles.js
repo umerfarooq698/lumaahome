@@ -4,7 +4,7 @@ export const CATEGORIES = [
     name: 'ALL STORIES',
     title: 'The Lumaa Home Editorial Archive',
     description: 'Explore the complete collection of luxury UK interior tours, period architectural restorations, and bespoke DIY guides.',
-    bannerImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Curating the finest in British interior elegance and timeless home crafting.'
   },
   { 
@@ -12,7 +12,7 @@ export const CATEGORIES = [
     name: 'Living Room',
     title: 'Living Room Interiors and Styling',
     description: 'Sophisticated layouts, chimney breast alcoves, fireplace styling, and warm British palettes for your primary entertaining space.',
-    bannerImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1617972582658-45dd3162f128?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8Mnx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'The heart of British domestic comfort—balancing historic proportions with contemporary relaxation.'
   },
   { 
@@ -20,7 +20,7 @@ export const CATEGORIES = [
     name: 'Bedroom',
     title: 'Bedroom Retreats and Suites',
     description: 'Serene master suites, bespoke linen headboards, layered acoustic textures, and restful sanctuaries for UK homes.',
-    bannerImage: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1768346564414-3e1ffb751e30?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8M3x8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Designing intimate sanctuaries that promote tranquility against the bustle of everyday life.'
   },
   { 
@@ -28,7 +28,7 @@ export const CATEGORIES = [
     name: 'Kitchen',
     title: 'British Kitchen Architecture',
     description: 'Handcrafted Shaker cabinetry, larder pantries, unlacquered brass hardware, and honed stone worktops for the culinary heart of the home.',
-    bannerImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1592401526914-7e5d94a8d6fa?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8NHx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Where utilitarian functionality meets handcrafted British joinery and natural stone surfaces.'
   },
   { 
@@ -36,7 +36,7 @@ export const CATEGORIES = [
     name: 'Bathroom',
     title: 'Luxury Bathrooms and Wetrooms',
     description: 'Compact ensuite makeovers, freestanding cast iron baths, microcement wetrooms, and spa-inspired finishes.',
-    bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1778731525357-25c95792c27c?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8NXx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Elevating daily rituals through refined plumbing fixtures, natural light, and tactile materials.'
   },
   { 
@@ -44,7 +44,7 @@ export const CATEGORIES = [
     name: 'Garden',
     title: 'English Gardens and Outdoor Living',
     description: 'Cotswold stone courtyards, heritage pergolas, outdoor dining terraces, and botanical styling for UK climates.',
-    bannerImage: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1780257562963-3389a4105371?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8Nnx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Seamlessly extending the elegance of indoor living into the natural rhythm of the British landscape.'
   },
   { 
@@ -52,7 +52,7 @@ export const CATEGORIES = [
     name: 'INTERIORS',
     title: 'Architectural Interiors and Trends',
     description: 'Inside premier architectural residences across London, Edinburgh, and the Cotswolds with leading UK interior designers.',
-    bannerImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1682662046426-f7589013d25e?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8N3x8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'A visual celebration of architectural clarity, bespoke materiality, and curated decorative arts.'
   },
   { 
@@ -60,7 +60,7 @@ export const CATEGORIES = [
     name: 'DIY',
     title: 'UK DIY Masterclasses and Upcycling',
     description: 'Expert, step-by-step masterclasses: wall panelling, timber restoration, lime plastering, and furniture revamps.',
-    bannerImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1719297493418-c5de6988f5e8?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8OHx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Demystifying heritage craft techniques so homeowners can execute high-end architectural upgrades.'
   },
   { 
@@ -68,7 +68,7 @@ export const CATEGORIES = [
     name: 'Buying Guides',
     title: 'Curated UK Furniture and Decor Buying Guides',
     description: 'In-depth investment reviews: hardwood sofas, handmade mattresses, heritage paint formulas, and statement lighting.',
-    bannerImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=80',
+    bannerImage: 'https://images.unsplash.com/photo-1758448755778-90ebf4d0f1e7?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8OXx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     quote: 'Informed guidance for investing in pieces that gain character with age rather than succumbing to trends.'
   },
 ];
@@ -89,7 +89,7 @@ export const ARTICLES = [
     views: '18.4k',
     isCover: true,
     excerpt: 'Architectural preservation meets refined modern London living. Exploring bespoke limewash plaster, restored plaster ceiling roses, and handcrafted English oak joinery.',
-    heroImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1758448755952-42b404bc6f39?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTB8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p class="lead">Nestled within a quiet tree-lined avenue in South Kensington, this five-storey Victorian townhouse exemplifies the delicate balance between historic preservation and contemporary sophistication.</p>
       
@@ -119,7 +119,7 @@ export const ARTICLES = [
     readTime: '4 min read',
     views: '11.2k',
     excerpt: 'How to balance cast iron inserts, carved marble mantels, and oversized antiqued mirrors for a warm, grounded focal point.',
-    heroImage: 'https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1780245991648-10f3358102c6?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTF8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>The hearth remains the spiritual and architectural anchor of the British living room. Styling a period mantelpiece requires restraint and proportion.</p>
       
@@ -144,7 +144,7 @@ export const ARTICLES = [
     views: '12.8k',
     isStacked: true,
     excerpt: 'Transforming awkward chimney breast recesses into functional architectural statements with integrated warm LED illumination and fluted panelling.',
-    heroImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1759774314108-7453725bc05c?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTJ8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>Chimney breast alcoves are a quintessential hallmark of UK Victorian and Edwardian architecture. While often perceived as restrictive, bespoke joinery turns them into the visual anchor of the living room.</p>
       
@@ -169,7 +169,7 @@ export const ARTICLES = [
     readTime: '4 min read',
     views: '15.7k',
     excerpt: 'How grounding earthy terracottas, muted sage greens, and warm linen textiles capture cozy natural warmth during overcast British afternoons.',
-    heroImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1682662046610-fbdb3db4bd74?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTN8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>British interiors in 2026 are moving decisively away from sterile cool greys toward enveloping, nature-grounded earthy tones inspired by countryside manors.</p>
       
@@ -197,7 +197,7 @@ export const ARTICLES = [
     views: '9.5k',
     isStacked: true,
     excerpt: 'High-end aesthetic upgrades for rented London and Manchester apartments without risking security deposits or violating tenancy agreements.',
-    heroImage: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1611818830725-bf98122340d2?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTR8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>Renting in the UK should never mean compromising on refined personal style. With smart, zero-damage techniques, tenants can elevate generic rental finishes into curated sanctuary spaces.</p>
       
@@ -222,7 +222,7 @@ export const ARTICLES = [
     readTime: '5 min read',
     views: '8.9k',
     excerpt: 'How breathable 180gsm stone-washed French linen paired with pure British wool throws creates temperature-regulated warmth throughout chilly seasons.',
-    heroImage: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1759774310455-80dba1348cbd?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTV8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>A restorative bedroom relies on tactile layering. Natural fibres breathe with your body, preventing overheating under modern central heating systems.</p>
     `,
@@ -243,7 +243,7 @@ export const ARTICLES = [
     readTime: '6 min read',
     views: '22.1k',
     excerpt: 'Transform plain plasterboard walls into elegant wainscoting and Georgian grid panelling using standard moisture-resistant MDF timber strips and Gripfill.',
-    heroImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1704040686370-52238a5dab05?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTZ8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>Wall panelling adds instant depth, architectural proportion, and timeless character to both new-build UK houses and older period flats.</p>
       
@@ -277,7 +277,7 @@ export const ARTICLES = [
     readTime: '5 min read',
     views: '14.8k',
     excerpt: 'Stripping orange pine varnish with eco-stripper, applying white wax oil, and installing knurled solid brass handles.',
-    heroImage: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1763647972062-5e9cd48fb282?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTd8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>Second-hand Victorian pine chests are plentiful in UK charity shops. With a weekend of refinishing, they rival high-end design showroom centerpieces.</p>
     `,
@@ -298,7 +298,7 @@ export const ARTICLES = [
     readTime: '5 min read',
     views: '16.3k',
     excerpt: 'Timeless cabinetry proportions, unlacquered brass hardware, and honed Carrara marble worktops for modern British homes.',
-    heroImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1758448500596-ce0e0239f1be?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTh8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>The British Shaker kitchen remains an enduring design icon. Its beauty lies in unadorned simplicity, authentic craftsmanship, and functional proportions.</p>
       
@@ -323,7 +323,7 @@ export const ARTICLES = [
     readTime: '4 min read',
     views: '10.5k',
     excerpt: 'How floor-to-ceiling single larder cupboards double storage efficiency in Victorian side-return kitchen extensions.',
-    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1696413542101-2479dd479982?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MTl8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>A well-planned tall larder eliminates the need for cluttered wall cabinets, allowing kitchen walls to breathe with open artwork and pendant lighting.</p>
     `,
@@ -344,7 +344,7 @@ export const ARTICLES = [
     readTime: '5 min read',
     views: '14.1k',
     excerpt: 'Space-saving fluted glass screens, concealed thermostatic valves, and microcement finishes for modern British bathrooms.',
-    heroImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1662557499804-7f1d3910d13e?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MjB8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>British bathrooms in Victorian terraces and urban flats often possess compact footprints. By utilizing reflective surfaces and seamless wetroom systems, even a small 2m x 2m bathroom transforms into an oasis.</p>
       
@@ -369,7 +369,7 @@ export const ARTICLES = [
     readTime: '5 min read',
     views: '9.3k',
     excerpt: 'Assessing floor joist weight capacities, heat retention metrics, and paintable exterior finishes.',
-    heroImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1761725406659-088c97a81fc0?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MjF8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>A freestanding clawfoot or roll-top bath adds undeniable glamour. However, authentic cast iron tubs can weigh over 150kg empty.</p>
     `,
@@ -390,7 +390,7 @@ export const ARTICLES = [
     readTime: '6 min read',
     views: '13.7k',
     excerpt: 'Gravel courtyards, heritage pergolas, and hardy perennial borders designed to thrive in the changing British climate.',
-    heroImage: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1757924461488-ef9ad0670978?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MjJ8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>An authentic English garden is a natural extension of the home interior. Blending structured boxwood hedging with free-flowing lavender, delphiniums, and rambling roses creates an enchanting setting.</p>
       
@@ -415,7 +415,7 @@ export const ARTICLES = [
     readTime: '4 min read',
     views: '11.8k',
     excerpt: 'Vertical living walls, outdoor wall mirrors, and built-in bench seating with hidden cedar wood storage.',
-    heroImage: 'https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1611094016919-36b65678f3d6?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MjN8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>Urban townhouses often possess modest outdoor spaces. Strategic mirror placement bounces ambient garden light into basement kitchens.</p>
     `,
@@ -436,7 +436,7 @@ export const ARTICLES = [
     readTime: '6 min read',
     views: '19.8k',
     excerpt: 'What to look for in kiln-dried hardwood frames, feather-wrapped foam cushions, and stain-resistant Belgian linen weaves.',
-    heroImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1618221312573-404f9a52798d?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MjR8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>A sofa is the centerpiece investment of any British living room. Understanding frame construction and fabric durability ensures your piece endures for decades.</p>
       
@@ -461,7 +461,7 @@ export const ARTICLES = [
     readTime: '7 min read',
     views: '24.6k',
     excerpt: 'Pigment density, chalky matte finishes, scrubbability tests, and coverage comparisons for UK period restorations.',
-    heroImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1704040686428-7534b262d0d8?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MjV8fGx1eHVyeSUyMGJyaXRpc2glMjBsaXZpbmclMjByb29tJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTMxMDczNXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
     content: `
       <p>High-pigment British heritage paints transform how rooms reflect northern daylight. We compare the top three luxury formulations across coverage and durability.</p>
     `,

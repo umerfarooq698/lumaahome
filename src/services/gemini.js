@@ -1,4 +1,5 @@
 import { GoogleGenAI } from '@google/genai';
+import { fetchUniqueUnsplashImage } from './unsplash';
 
 // Active Gemini API key with seamless fallback
 const FALLBACK_KEY = typeof atob === 'function' 
@@ -78,6 +79,9 @@ Return ONLY valid JSON with this exact structure:
     // Final safety check: replace any stray & with 'and'
     const sanitize = (str) => typeof str === 'string' ? str.replace(/&/g, 'and') : str;
     
+    // Fetch unique, non-repeating Unsplash photo using the user's Unsplash API
+    const unsplashPhoto = await fetchUniqueUnsplashImage(data.title || topic, category);
+
     return {
       id: `ai-${Date.now()}`,
       title: sanitize(data.title),
@@ -85,7 +89,10 @@ Return ONLY valid JSON with this exact structure:
       readTime: sanitize(data.readTime || '5 min read'),
       author: sanitize(data.author || 'Lumaa Home Editorial Team'),
       date: sanitize(data.date || 'September 2026'),
-      image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85',
+      image: unsplashPhoto.url,
+      imageAlt: unsplashPhoto.alt,
+      photographer: unsplashPhoto.photographer,
+      photographerUrl: unsplashPhoto.photographerUrl,
       excerpt: sanitize(data.excerpt),
       content: Array.isArray(data.content) 
         ? data.content.map(c => ({ heading: sanitize(c.heading), body: sanitize(c.body) }))
