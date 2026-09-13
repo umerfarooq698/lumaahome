@@ -11,7 +11,7 @@ export default function Header({
   onOpenSubscribe 
 }) {
   return (
-    <header className="py-6 border-b border-gray-900 bg-white">
+    <header className="pt-8 pb-4 sm:pt-10 sm:pb-6 border-b border-gray-900 bg-white">
       {/* Centered Brand Logo & Title */}
       <div className="max-w-7xl mx-auto px-4 text-center">
         <a 
