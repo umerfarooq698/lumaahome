@@ -3,29 +3,23 @@ import React from 'react';
 export default function Logo({ size = "default", className = "" }) {
   if (size === "small") {
     return (
-      <div className={`inline-flex items-center gap-3 ${className}`}>
-        {/* Clean Free-Standing Minimalist Icon */}
-        <div className="relative w-7 h-7 shrink-0">
-          <svg
-            viewBox="0 0 40 40"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full text-black"
-          >
-            {/* Architectural Gable Roof */}
-            <path d="M4 22L20 6L36 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-            {/* Interior Archway */}
-            <path d="M14 36V22C14 18.686 16.686 16 20 16C23.314 16 26 18.686 26 22V36" stroke="currentColor" strokeWidth="1.75" />
-            {/* Radiant Lamp Spark */}
-            <polygon points="20,10 22,13 20,16 18,13" fill="#C8102E" />
+      <div className={`inline-flex items-center gap-2.5 ${className}`}>
+        {/* Sculptural LH Minimalist Mark */}
+        <div className="w-7 h-7 shrink-0 text-black">
+          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
+            {/* Minimalist Architectural L-H Monogram */}
+            <path d="M14 12V52H32" stroke="currentColor" strokeWidth="4" strokeLinecap="square" />
+            <path d="M32 12V52" stroke="currentColor" strokeWidth="4" strokeLinecap="square" />
+            <path d="M50 12V52" stroke="currentColor" strokeWidth="4" strokeLinecap="square" />
+            <path d="M32 32H50" stroke="currentColor" strokeWidth="4" />
+            <circle cx="23" cy="18" r="3" fill="#C8102E" />
           </svg>
         </div>
-        
         <div className="flex flex-col">
           <span className="font-serif text-lg font-black tracking-[0.15em] uppercase text-black leading-none">
             LUMAA HOME<span className="text-[10px] text-[#C8102E] font-normal align-top ml-0.5">™</span>
           </span>
-          <span className="text-[8px] font-bold tracking-[0.25em] text-gray-400 uppercase mt-0.5">
+          <span className="text-[8px] font-bold tracking-[0.2em] text-gray-400 uppercase mt-0.5">
             UK MAGAZINE
           </span>
         </div>
@@ -35,95 +29,111 @@ export default function Logo({ size = "default", className = "" }) {
 
   return (
     <div className={`flex flex-col items-center justify-center text-center ${className}`}>
-      {/* Free-Standing Grand Luxury Architectural Brand Mark (No Circle, Pure Elegance) */}
-      <div className="relative mb-2.5 inline-block group cursor-pointer">
+      {/* Unique Bespoke Luxury Brand Mark (Sculptural Architectural LH Ribbon & Arch) */}
+      <div className="relative mb-3 inline-block group cursor-pointer">
         <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 mx-auto transition-transform duration-500 group-hover:scale-105">
           <svg
-            viewBox="0 0 120 120"
+            viewBox="0 0 100 100"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-full h-full"
+            className="w-full h-full drop-shadow-sm"
           >
-            {/* Top Crown Keystone Finial */}
-            <polygon points="60,4 64,11 60,18 56,11" fill="#C8102E" />
-            <circle cx="60" cy="11" r="1.5" fill="#FFFFFF" />
-
-            {/* Primary Grand Gable Roofline */}
-            <path
-              d="M12 52L60 12L108 52"
-              stroke="#111111"
-              strokeWidth="2.75"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
+            {/* The Master Crest: An Interlocking Geometric Home & 'LH' Monogram Sculpture */}
             
-            {/* Secondary Floating Eaves Line */}
+            {/* Stylized Modernist Pitched Roofline (Golden Ratio Apex) */}
             <path
-              d="M24 54L60 24L96 54"
-              stroke="#71717A"
-              strokeWidth="1"
+              d="M18 42L50 14L82 42"
+              stroke="#111111"
+              strokeWidth="4.5"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeDasharray="3 2"
             />
 
-            {/* Architectural Classical Archway (Grand Living Entrance) */}
+            {/* Radiant Ruby Keystone Diamond at Apex */}
+            <polygon points="50,6 54.5,12 50,18 45.5,12" fill="#C8102E" />
+            <circle cx="50" cy="12" r="1.5" fill="#FFFFFF" />
+
+            {/* Left Wing ('L' & Column of the House) */}
             <path
-              d="M38 108V58C38 45.85 47.85 36 60 36C72.15 36 82 45.85 82 58V108"
+              d="M28 34V76H46"
               stroke="#111111"
-              strokeWidth="2.5"
+              strokeWidth="4"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+
+            {/* Right Wing ('H' with Architectural Crossbeam) */}
+            <path
+              d="M54 34V76"
+              stroke="#111111"
+              strokeWidth="4"
               strokeLinecap="round"
             />
             <path
-              d="M44 108V60C44 51.163 51.163 44 60 44C68.837 44 76 51.163 76 60V108"
+              d="M72 34V76"
+              stroke="#111111"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+            {/* Connecting Crossbeam creating the 'H' and Interior Horizon */}
+            <line
+              x1="54"
+              y1="54"
+              x2="72"
+              y2="54"
+              stroke="#111111"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+
+            {/* Central Luminous Sun / Warm Pendant Light (The 'Lumaa' Essence) */}
+            <circle cx="50" cy="42" r="5" fill="#C8102E" />
+            <circle cx="50" cy="42" r="9" stroke="#C8102E" strokeWidth="1" strokeDasharray="2 2" />
+
+            {/* Foundation Plinth Line */}
+            <line
+              x1="20"
+              y1="84"
+              x2="80"
+              y2="84"
+              stroke="#111111"
+              strokeWidth="3"
+              strokeLinecap="round"
+            />
+            <line
+              x1="32"
+              y1="89"
+              x2="68"
+              y2="89"
               stroke="#A1A1AA"
-              strokeWidth="1"
+              strokeWidth="1.5"
               strokeLinecap="round"
             />
-
-            {/* Radiant Pendant Chandelier / Luminescence ("Lumaa" Glow) */}
-            <line x1="60" y1="36" x2="60" y2="54" stroke="#111111" strokeWidth="1.5" />
-            <circle cx="60" cy="60" r="4.5" fill="#C8102E" />
-            <circle cx="60" cy="60" r="8" stroke="#111111" strokeWidth="1" strokeDasharray="2 2" />
-            
-            {/* Light Rays */}
-            <line x1="48" y1="60" x2="45" y2="60" stroke="#C8102E" strokeWidth="1.25" strokeLinecap="round" />
-            <line x1="72" y1="60" x2="75" y2="60" stroke="#C8102E" strokeWidth="1.25" strokeLinecap="round" />
-            <line x1="51" y1="51" x2="49" y2="49" stroke="#C8102E" strokeWidth="1.25" strokeLinecap="round" />
-            <line x1="69" y1="51" x2="71" y2="49" stroke="#C8102E" strokeWidth="1.25" strokeLinecap="round" />
-
-            {/* Twin Classical Fluted Column Accents */}
-            <line x1="26" y1="58" x2="26" y2="108" stroke="#111111" strokeWidth="2" strokeLinecap="round" />
-            <line x1="94" y1="58" x2="94" y2="108" stroke="#111111" strokeWidth="2" strokeLinecap="round" />
-
-            {/* Plinth Base / Foundation Steps */}
-            <line x1="16" y1="108" x2="104" y2="108" stroke="#111111" strokeWidth="3" strokeLinecap="round" />
-            <line x1="10" y1="114" x2="110" y2="114" stroke="#111111" strokeWidth="1.5" strokeLinecap="round" />
           </svg>
         </div>
       </div>
 
-      {/* Main Brand Title & Typography */}
-      <div className="space-y-1.5 max-w-2xl mx-auto">
-        {/* Brand Name with Refined Serif Tracking */}
-        <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl font-bold tracking-[0.06em] text-black uppercase transition-all duration-300 hover:tracking-[0.08em] leading-none">
-          Lumaa Home<span className="text-sm sm:text-lg align-top text-[#C8102E] font-normal ml-1">™</span>
+      {/* Main Luxury Brand Typography */}
+      <div className="space-y-2 max-w-2xl mx-auto">
+        {/* Brand Name */}
+        <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl font-black tracking-[0.14em] sm:tracking-[0.18em] text-black uppercase transition-all duration-300 hover:tracking-[0.2em] leading-none pl-1">
+          LUMAA HOME<span className="text-xs sm:text-base align-top text-[#C8102E] font-normal ml-1">™</span>
         </h1>
 
-        {/* Elegant Clean Editorial Hairline Divider with Crimson Diamond */}
+        {/* Bespoke Editorial Line with Red Diamond */}
         <div className="flex items-center justify-center gap-3 sm:gap-4 max-w-md mx-auto pt-1">
-          <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-gray-400 to-black"></div>
+          <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-gray-300 to-black"></div>
           <span className="w-1.5 h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
-          <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.28em] text-gray-800 uppercase whitespace-nowrap">
-            Luxury Interiors and DIY Magazine
+          <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.32em] text-gray-900 uppercase whitespace-nowrap">
+            Luxury British Interiors and DIY
           </span>
           <span className="w-1.5 h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
-          <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-gray-400 to-black"></div>
+          <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-gray-300 to-black"></div>
         </div>
 
-        {/* Clean UK Edition Tagline */}
-        <span className="text-[9px] sm:text-[10px] tracking-[0.22em] text-gray-500 uppercase block font-medium">
-          Period Living • Bespoke Architecture • UK Edition
+        {/* Minimalist Sub-tagline */}
+        <span className="text-[9px] sm:text-[10px] tracking-[0.24em] text-gray-500 uppercase block font-medium">
+          Editorial Magazine • London, UK
         </span>
       </div>
     </div>
