@@ -22,7 +22,7 @@ export default function Footer({ onSelectCategory }) {
         {/* Col 2: Categories Part 1 */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
-            ROOMS & SPACES
+            ROOMS AND SPACES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
             {['living-room', 'bedroom', 'kitchen', 'bathroom', 'garden'].map((catId) => {
@@ -48,7 +48,7 @@ export default function Footer({ onSelectCategory }) {
         {/* Col 3: Categories Part 2 */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
-            EDITORIAL & GUIDES
+            EDITORIAL AND GUIDES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
             {['interiors', 'diy', 'buying-guides'].map((catId) => {
@@ -74,7 +74,7 @@ export default function Footer({ onSelectCategory }) {
         {/* Col 4: Corporate & Legal */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
-            LEGAL & CONTACT
+            LEGAL AND CONTACT
           </h4>
           <p className="text-[11px] text-gray-500 leading-relaxed font-light">
             Editorial inquiries: <span className="text-black font-semibold">editor@lumaahome.co.uk</span>

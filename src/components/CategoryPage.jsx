@@ -188,7 +188,7 @@ export default function CategoryPage({
       {/* CATEGORY EXPLORER PILLS (QUICK NAVIGATE TO OTHER ROOMS) */}
       <section className="bg-[#FDFBF7] p-8 border border-gray-200 space-y-4 text-center my-8">
         <span className="text-[10px] font-black uppercase tracking-widest text-gray-500 block">
-          EXPLORE OTHER ROOMS & TOPICS
+          EXPLORE OTHER ROOMS AND TOPICS
         </span>
         <div className="flex flex-wrap items-center justify-center gap-2">
           {CATEGORIES.filter(c => c.id !== 'all' && c.id !== category).map((cat) => (

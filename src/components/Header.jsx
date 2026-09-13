@@ -18,7 +18,7 @@ export default function Header({
             Lumaa Home<span className="text-sm align-top text-[#C8102E] font-normal">™</span>
           </h1>
           <span className="text-[10px] sm:text-[11px] font-bold tracking-[0.25em] text-gray-500 block uppercase mt-1">
-            A Luxury Home Decor & DIY Magazine • UK Edition
+            A Luxury Home Decor and DIY Magazine • UK Edition
           </span>
         </a>
       </div>

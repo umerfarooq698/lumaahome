@@ -10,7 +10,7 @@ export const CATEGORIES = [
   { 
     id: 'living-room', 
     name: 'Living Room',
-    title: 'Living Room Interiors & Styling',
+    title: 'Living Room Interiors and Styling',
     description: 'Sophisticated layouts, chimney breast alcoves, fireplace styling, and warm British palettes for your primary entertaining space.',
     bannerImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
     quote: 'The heart of British domestic comfort—balancing historic proportions with contemporary relaxation.'
@@ -18,7 +18,7 @@ export const CATEGORIES = [
   { 
     id: 'bedroom', 
     name: 'Bedroom',
-    title: 'Bedroom Retreats & Suites',
+    title: 'Bedroom Retreats and Suites',
     description: 'Serene master suites, bespoke linen headboards, layered acoustic textures, and restful sanctuaries for UK homes.',
     bannerImage: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80',
     quote: 'Designing intimate sanctuaries that promote tranquility against the bustle of everyday life.'
@@ -34,7 +34,7 @@ export const CATEGORIES = [
   { 
     id: 'bathroom', 
     name: 'Bathroom',
-    title: 'Luxury Bathrooms & Wetrooms',
+    title: 'Luxury Bathrooms and Wetrooms',
     description: 'Compact ensuite makeovers, freestanding cast iron baths, microcement wetrooms, and spa-inspired finishes.',
     bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80',
     quote: 'Elevating daily rituals through refined plumbing fixtures, natural light, and tactile materials.'
@@ -42,7 +42,7 @@ export const CATEGORIES = [
   { 
     id: 'garden', 
     name: 'Garden',
-    title: 'English Gardens & Outdoor Living',
+    title: 'English Gardens and Outdoor Living',
     description: 'Cotswold stone courtyards, heritage pergolas, outdoor dining terraces, and botanical styling for UK climates.',
     bannerImage: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=80',
     quote: 'Seamlessly extending the elegance of indoor living into the natural rhythm of the British landscape.'
@@ -50,7 +50,7 @@ export const CATEGORIES = [
   { 
     id: 'interiors', 
     name: 'INTERIORS',
-    title: 'Architectural Interiors & Trends',
+    title: 'Architectural Interiors and Trends',
     description: 'Inside premier architectural residences across London, Edinburgh, and the Cotswolds with leading UK interior designers.',
     bannerImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80',
     quote: 'A visual celebration of architectural clarity, bespoke materiality, and curated decorative arts.'
@@ -58,7 +58,7 @@ export const CATEGORIES = [
   { 
     id: 'diy', 
     name: 'DIY',
-    title: 'UK DIY Masterclasses & Upcycling',
+    title: 'UK DIY Masterclasses and Upcycling',
     description: 'Expert, step-by-step masterclasses: wall panelling, timber restoration, lime plastering, and furniture revamps.',
     bannerImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80',
     quote: 'Demystifying heritage craft techniques so homeowners can execute high-end architectural upgrades.'
@@ -66,7 +66,7 @@ export const CATEGORIES = [
   { 
     id: 'buying-guides', 
     name: 'Buying Guides',
-    title: 'Curated UK Furniture & Decor Buying Guides',
+    title: 'Curated UK Furniture and Decor Buying Guides',
     description: 'In-depth investment reviews: hardwood sofas, handmade mattresses, heritage paint formulas, and statement lighting.',
     bannerImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=80',
     quote: 'Informed guidance for investing in pieces that gain character with age rather than succumbing to trends.'
@@ -98,17 +98,17 @@ export const ARTICLES = [
       
       <blockquote>"True British luxury in architecture lies in knowing what to restore with reverence, and where to introduce modern stillness." — Claire Sterling</blockquote>
 
-      <h3>The Palette: Cotswold Stone & Warm Terracotta</h3>
-      <p>Rather than stark brilliant whites, the interiors celebrate nuanced heritage pigments—Farrow & Ball's School House White on cornices paired with custom limewashed stone textures that absorb the soft British daylight.</p>
+      <h3>The Palette: Cotswold Stone and Warm Terracotta</h3>
+      <p>Rather than stark brilliant whites, the interiors celebrate nuanced heritage pigments—Farrow and Ball's School House White on cornices paired with custom limewashed stone textures that absorb the soft British daylight.</p>
       
-      <h3>Bespoke Joinery & Modern Comfort</h3>
+      <h3>Bespoke Joinery and Modern Comfort</h3>
       <p>Concealed beneath the period elegance lies state-of-the-art climate zoning, acoustic soundproofing, and bespoke fluted oak cabinetry that houses an understated collection of contemporary British ceramics.</p>
     `,
     keyTakeaway: 'Heritage Victorian homes achieve their highest aesthetic when original plasterwork and timber proportions are preserved with understated contemporary furnishings.'
   },
   {
     id: 'living-room-fireplace-styling',
-    title: '5 Period Fireplace Styling Rules for Victorian & Edwardian Living Rooms',
+    title: '5 Period Fireplace Styling Rules for Victorian and Edwardian Living Rooms',
     slug: 'period-fireplace-styling-rules-uk',
     category: 'living-room',
     categoryName: 'Living Room',
@@ -158,7 +158,7 @@ export const ARTICLES = [
   },
   {
     id: 'sage-terracotta-palette',
-    title: 'Sage & Cotswold Terracotta: 2026 British Color Edit',
+    title: 'Sage and Cotswold Terracotta: 2026 British Color Edit',
     slug: 'sage-cotswold-terracotta-color-edit',
     category: 'interiors',
     categoryName: 'INTERIORS',
@@ -211,7 +211,7 @@ export const ARTICLES = [
   },
   {
     id: 'luxury-linen-bedding-guide',
-    title: 'The Art of Layering Belgian Linen & Wool for UK Winters',
+    title: 'The Art of Layering Belgian Linen and Wool for UK Winters',
     slug: 'art-layering-belgian-linen-wool-uk-winters',
     category: 'bedroom',
     categoryName: 'Bedroom',
@@ -238,7 +238,7 @@ export const ARTICLES = [
     categoryName: 'DIY',
     categoryLabel: 'UK DIY MASTERCLASS',
     author: 'Sarah Jenkins',
-    role: 'DIY & Restoration Lead',
+    role: 'DIY and Restoration Lead',
     date: 'September 06, 2026',
     readTime: '6 min read',
     views: '22.1k',
@@ -259,7 +259,7 @@ export const ARTICLES = [
       <h3>Step 1: Calculating Spacing</h3>
       <p>Measure the total wall width in millimetres. Subtract the combined width of all vertical stiles, then divide by the desired number of panels (typically 4 to 6 panels per average 3.5m British wall).</p>
 
-      <h3>Step 2: Fixing & Caulking</h3>
+      <h3>Step 2: Fixing and Caulking</h3>
       <p>Apply generous S-beads of adhesive to the rear of each MDF strip. Press firmly against the wall and check alignment with your spirit level. Allow 24 hours before filling seam joints and applying your primer.</p>
     `,
     keyTakeaway: 'Always use MR (Green-core) MDF when panelling in bathrooms or hallway areas prone to seasonal UK humidity changes.'
@@ -270,9 +270,9 @@ export const ARTICLES = [
     slug: 'upcycling-vintage-pine-drawers-scandi-sideboard',
     category: 'diy',
     categoryName: 'DIY',
-    categoryLabel: 'DIY & UPCYCLING',
+    categoryLabel: 'DIY AND UPCYCLING',
     author: 'Sarah Jenkins',
-    role: 'DIY & Restoration Lead',
+    role: 'DIY and Restoration Lead',
     date: 'September 05, 2026',
     readTime: '5 min read',
     views: '14.8k',
@@ -287,7 +287,7 @@ export const ARTICLES = [
   // KITCHEN
   {
     id: 'shaker-kitchen-design',
-    title: 'Crafting the Ultimate British Shaker Kitchen: Layout & Materials Guide',
+    title: 'Crafting the Ultimate British Shaker Kitchen: Layout and Materials Guide',
     slug: 'ultimate-british-shaker-kitchen-guide',
     category: 'kitchen',
     categoryName: 'Kitchen',
@@ -339,7 +339,7 @@ export const ARTICLES = [
     categoryName: 'Bathroom',
     categoryLabel: 'BATHROOM DESIGN',
     author: 'Clara Hughes',
-    role: 'Wellness & Spa Consultant',
+    role: 'Wellness and Spa Consultant',
     date: 'September 04, 2026',
     readTime: '5 min read',
     views: '14.1k',
@@ -383,7 +383,7 @@ export const ARTICLES = [
     slug: 'english-cottage-gardens-outdoor-living',
     category: 'garden',
     categoryName: 'Garden',
-    categoryLabel: 'GARDEN & OUTDOOR',
+    categoryLabel: 'GARDEN AND OUTDOOR',
     author: 'Hugh Montgomery',
     role: 'Landscape Designer',
     date: 'September 03, 2026',
@@ -425,7 +425,7 @@ export const ARTICLES = [
   // BUYING GUIDES
   {
     id: 'buying-guide-sofas',
-    title: 'The Ultimate UK Sofa Buying Guide: Quality, Fabrics & Proportions',
+    title: 'The Ultimate UK Sofa Buying Guide: Quality, Fabrics and Proportions',
     slug: 'ultimate-uk-sofa-buying-guide',
     category: 'buying-guides',
     categoryName: 'Buying Guides',
@@ -450,7 +450,7 @@ export const ARTICLES = [
   },
   {
     id: 'buying-guide-heritage-paint',
-    title: 'British Heritage Paint Review: Farrow & Ball vs Little Greene vs Paint & Paper Library',
+    title: 'British Heritage Paint Review: Farrow and Ball vs Little Greene vs Paint and Paper Library',
     slug: 'british-heritage-paint-review-comparison',
     category: 'buying-guides',
     categoryName: 'Buying Guides',

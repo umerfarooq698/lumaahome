@@ -30,7 +30,7 @@ export default function SubscribeModal({ isOpen, onClose }) {
         </button>
 
         <span className="text-[10px] font-black uppercase tracking-[0.25em] text-[#C8102E] block">
-          LUMAA HOME™ PRINT & DIGITAL
+          LUMAA HOME™ PRINT AND DIGITAL
         </span>
 
         <h2 className="font-serif text-2xl sm:text-3xl font-bold text-black">
