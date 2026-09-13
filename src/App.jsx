@@ -4,13 +4,20 @@ import TopBar from './components/TopBar';
 import Header from './components/Header';
 import CoverHero from './components/CoverHero';
 import EditorialGrid from './components/EditorialGrid';
+import CategoryPage from './components/CategoryPage';
 import NewsletterBanner from './components/NewsletterBanner';
 import ArticleModal from './components/ArticleModal';
 import SubscribeModal from './components/SubscribeModal';
 import Footer from './components/Footer';
 
 export default function App() {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState(() => {
+    // Check URL hash on load
+    const hash = window.location.hash.replace('#/category/', '').replace('#/', '');
+    const validCategory = CATEGORIES.find(c => c.id === hash);
+    return validCategory ? validCategory.id : 'all';
+  });
+
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedArticle, setSelectedArticle] = useState(null);
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
@@ -22,6 +29,29 @@ export default function App() {
       return ['kensington-townhouse'];
     }
   });
+
+  // Sync category changes with URL hash and scroll to top
+  const handleCategoryChange = (catId) => {
+    setActiveCategory(catId);
+    setSearchQuery('');
+    if (catId === 'all') {
+      window.history.pushState(null, '', '/');
+    } else {
+      window.history.pushState(null, '', `#/category/${catId}`);
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Listen to browser back/forward buttons
+  useEffect(() => {
+    const handlePopState = () => {
+      const hash = window.location.hash.replace('#/category/', '').replace('#/', '');
+      const validCategory = CATEGORIES.find(c => c.id === hash);
+      setActiveCategory(validCategory ? validCategory.id : 'all');
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
 
   // Save to localStorage
   useEffect(() => {
@@ -42,14 +72,12 @@ export default function App() {
 
   // Filter articles
   const filteredArticles = ARTICLES.filter((article) => {
-    // Category filter
     if (activeCategory !== 'all') {
       if (article.category !== activeCategory) {
         return false;
       }
     }
 
-    // Search query
     if (searchQuery.trim() !== '') {
       const q = searchQuery.toLowerCase();
       const matchText = (article.title + ' ' + article.excerpt + ' ' + article.author + ' ' + (article.categoryName || article.category)).toLowerCase();
@@ -63,18 +91,16 @@ export default function App() {
   const stackedArticles = ARTICLES.filter((a) => a.isStacked);
   const gridArticles = filteredArticles.filter((a) => !a.isCover);
 
-  const currentCategoryObj = CATEGORIES.find(c => c.id === activeCategory);
-
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
       <div>
-        {/* Top Meta Bar (Clean date, UK edition & social links) */}
+        {/* Top Meta Bar */}
         <TopBar />
 
         {/* Resident.com Style Centered Header */}
         <Header
           activeCategory={activeCategory}
-          setActiveCategory={setActiveCategory}
+          setActiveCategory={handleCategoryChange}
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
@@ -83,27 +109,37 @@ export default function App() {
         {/* Main Content Area */}
         <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8 space-y-12">
 
-          {/* Hero Section (shown when on 'all' category and no active search) */}
-          {activeCategory === 'all' && searchQuery.trim() === '' && (
-            <CoverHero
-              coverArticle={coverArticle}
-              stackedArticles={stackedArticles}
+          {/* If a specific category is active and no active search query, render dedicated CategoryPage! */}
+          {activeCategory !== 'all' && searchQuery.trim() === '' ? (
+            <CategoryPage
+              category={activeCategory}
+              articles={filteredArticles}
               onSelectArticle={(art) => setSelectedArticle(art)}
+              onSelectCategory={handleCategoryChange}
             />
-          )}
+          ) : (
+            <>
+              {/* Homepage Cover Hero (shown on 'all' with no search) */}
+              {activeCategory === 'all' && searchQuery.trim() === '' && (
+                <CoverHero
+                  coverArticle={coverArticle}
+                  stackedArticles={stackedArticles}
+                  onSelectArticle={(art) => setSelectedArticle(art)}
+                />
+              )}
 
-          {/* Main Editorial Articles Grid */}
-          <EditorialGrid
-            articles={activeCategory === 'all' && searchQuery.trim() === '' ? gridArticles : filteredArticles}
-            onSelectArticle={(art) => setSelectedArticle(art)}
-            sectionTitle={
-              activeCategory !== 'all'
-                ? `CATEGORY: ${currentCategoryObj ? currentCategoryObj.name.toUpperCase() : activeCategory.toUpperCase()}`
-                : searchQuery.trim() !== ''
-                ? `SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`
-                : "LATEST EDITORIAL STORIES"
-            }
-          />
+              {/* Main Editorial Articles Grid */}
+              <EditorialGrid
+                articles={activeCategory === 'all' && searchQuery.trim() === '' ? gridArticles : filteredArticles}
+                onSelectArticle={(art) => setSelectedArticle(art)}
+                sectionTitle={
+                  searchQuery.trim() !== ''
+                    ? `SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`
+                    : "LATEST EDITORIAL STORIES"
+                }
+              />
+            </>
+          )}
 
           {/* Luxury Newsletter VIP Section */}
           <NewsletterBanner />
@@ -113,7 +149,7 @@ export default function App() {
 
       {/* Luxury Footer */}
       <Footer
-        onSelectCategory={setActiveCategory}
+        onSelectCategory={handleCategoryChange}
       />
 
       {/* Single Article Reader Modal */}

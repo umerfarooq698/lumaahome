@@ -1,16 +1,80 @@
 export const CATEGORIES = [
-  { id: 'all', name: 'ALL STORIES' },
-  { id: 'living-room', name: 'Living Room' },
-  { id: 'bedroom', name: 'Bedroom' },
-  { id: 'kitchen', name: 'Kitchen' },
-  { id: 'bathroom', name: 'Bathroom' },
-  { id: 'garden', name: 'Garden' },
-  { id: 'interiors', name: 'INTERIORS' },
-  { id: 'diy', name: 'DIY' },
-  { id: 'buying-guides', name: 'Buying Guides' },
+  { 
+    id: 'all', 
+    name: 'ALL STORIES',
+    title: 'The Lumaa Home Editorial Archive',
+    description: 'Explore the complete collection of luxury UK interior tours, period architectural restorations, and bespoke DIY guides.',
+    bannerImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Curating the finest in British interior elegance and timeless home crafting.'
+  },
+  { 
+    id: 'living-room', 
+    name: 'Living Room',
+    title: 'Living Room Interiors & Styling',
+    description: 'Sophisticated layouts, chimney breast alcoves, fireplace styling, and warm British palettes for your primary entertaining space.',
+    bannerImage: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
+    quote: 'The heart of British domestic comfort—balancing historic proportions with contemporary relaxation.'
+  },
+  { 
+    id: 'bedroom', 
+    name: 'Bedroom',
+    title: 'Bedroom Retreats & Suites',
+    description: 'Serene master suites, bespoke linen headboards, layered acoustic textures, and restful sanctuaries for UK homes.',
+    bannerImage: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Designing intimate sanctuaries that promote tranquility against the bustle of everyday life.'
+  },
+  { 
+    id: 'kitchen', 
+    name: 'Kitchen',
+    title: 'British Kitchen Architecture',
+    description: 'Handcrafted Shaker cabinetry, larder pantries, unlacquered brass hardware, and honed stone worktops for the culinary heart of the home.',
+    bannerImage: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Where utilitarian functionality meets handcrafted British joinery and natural stone surfaces.'
+  },
+  { 
+    id: 'bathroom', 
+    name: 'Bathroom',
+    title: 'Luxury Bathrooms & Wetrooms',
+    description: 'Compact ensuite makeovers, freestanding cast iron baths, microcement wetrooms, and spa-inspired finishes.',
+    bannerImage: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Elevating daily rituals through refined plumbing fixtures, natural light, and tactile materials.'
+  },
+  { 
+    id: 'garden', 
+    name: 'Garden',
+    title: 'English Gardens & Outdoor Living',
+    description: 'Cotswold stone courtyards, heritage pergolas, outdoor dining terraces, and botanical styling for UK climates.',
+    bannerImage: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Seamlessly extending the elegance of indoor living into the natural rhythm of the British landscape.'
+  },
+  { 
+    id: 'interiors', 
+    name: 'INTERIORS',
+    title: 'Architectural Interiors & Trends',
+    description: 'Inside premier architectural residences across London, Edinburgh, and the Cotswolds with leading UK interior designers.',
+    bannerImage: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=80',
+    quote: 'A visual celebration of architectural clarity, bespoke materiality, and curated decorative arts.'
+  },
+  { 
+    id: 'diy', 
+    name: 'DIY',
+    title: 'UK DIY Masterclasses & Upcycling',
+    description: 'Expert, step-by-step masterclasses: wall panelling, timber restoration, lime plastering, and furniture revamps.',
+    bannerImage: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Demystifying heritage craft techniques so homeowners can execute high-end architectural upgrades.'
+  },
+  { 
+    id: 'buying-guides', 
+    name: 'Buying Guides',
+    title: 'Curated UK Furniture & Decor Buying Guides',
+    description: 'In-depth investment reviews: hardwood sofas, handmade mattresses, heritage paint formulas, and statement lighting.',
+    bannerImage: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=80',
+    quote: 'Informed guidance for investing in pieces that gain character with age rather than succumbing to trends.'
+  },
 ];
 
 export const ARTICLES = [
+  // LIVING ROOM
   {
     id: 'kensington-townhouse',
     title: 'Inside a Restored 19th-Century Victorian Townhouse in Kensington',
@@ -43,6 +107,30 @@ export const ARTICLES = [
     keyTakeaway: 'Heritage Victorian homes achieve their highest aesthetic when original plasterwork and timber proportions are preserved with understated contemporary furnishings.'
   },
   {
+    id: 'living-room-fireplace-styling',
+    title: '5 Period Fireplace Styling Rules for Victorian & Edwardian Living Rooms',
+    slug: 'period-fireplace-styling-rules-uk',
+    category: 'living-room',
+    categoryName: 'Living Room',
+    categoryLabel: 'LIVING ROOM • STYLING',
+    author: 'Marcus Cole',
+    role: 'Interiors Editor',
+    date: 'September 11, 2026',
+    readTime: '4 min read',
+    views: '11.2k',
+    excerpt: 'How to balance cast iron inserts, carved marble mantels, and oversized antiqued mirrors for a warm, grounded focal point.',
+    heroImage: 'https://images.unsplash.com/photo-1540518614846-7ede433c4ef0?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>The hearth remains the spiritual and architectural anchor of the British living room. Styling a period mantelpiece requires restraint and proportion.</p>
+      
+      <h3>The Rule of Asymmetric Balance</h3>
+      <p>Instead of rigid pairs, balance an off-center handmade ceramic vase filled with dried eucalyptus against a stack of vintage art monographs and brass candleholders.</p>
+    `,
+    keyTakeaway: 'Always choose hearth tiles that match the undertone of your wall paint to avoid visual clash.'
+  },
+
+  // INTERIORS
+  {
     id: 'alcove-joinery-masterclass',
     title: 'The Art of Bespoke Alcove Joinery in British Living Rooms',
     slug: 'art-bespoke-alcove-joinery-british-living-rooms',
@@ -69,8 +157,35 @@ export const ARTICLES = [
     keyTakeaway: 'Always measure wall plumbness before ordering custom timber strips, as historical British brickwork often contains gentle bowing.'
   },
   {
+    id: 'sage-terracotta-palette',
+    title: 'Sage & Cotswold Terracotta: 2026 British Color Edit',
+    slug: 'sage-cotswold-terracotta-color-edit',
+    category: 'interiors',
+    categoryName: 'INTERIORS',
+    categoryLabel: 'DESIGN TRENDS • INTERIORS',
+    author: 'Editorial Desk',
+    role: 'Trend Forecast Team',
+    date: 'September 01, 2026',
+    readTime: '4 min read',
+    views: '15.7k',
+    excerpt: 'How grounding earthy terracottas, muted sage greens, and warm linen textiles capture cozy natural warmth during overcast British afternoons.',
+    heroImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>British interiors in 2026 are moving decisively away from sterile cool greys toward enveloping, nature-grounded earthy tones inspired by countryside manors.</p>
+      
+      <h3>The Power of Sage Green</h3>
+      <p>Muted sage green acts as a gentle botanical neutral. When applied in low-sheen Dead Flat or Estate Emulsion formulations, it softens harsh northern daylight.</p>
+
+      <h3>Warm Terracotta Accents</h3>
+      <p>Pairing sage walls with hand-thrown terracotta table lamps, wool bouclé throws, and natural jute floor runners introduces tactile depth and visual warmth.</p>
+    `,
+    keyTakeaway: 'Test paint sample patches on both north and south-facing walls, observing shifts between 10am morning light and 4pm dusk.'
+  },
+
+  // BEDROOM
+  {
     id: 'rental-elegance-hacks',
-    title: 'Rental Elegance: Non-Damaging Interior Upgrades for UK Tenants',
+    title: 'Rental Elegance: Non-Damaging Bedroom Upgrades for UK Tenants',
     slug: 'rental-elegance-non-damaging-upgrades-uk-tenants',
     category: 'bedroom',
     categoryName: 'Bedroom',
@@ -94,6 +209,27 @@ export const ARTICLES = [
     `,
     keyTakeaway: 'Layering ambient table lamps and floor rugs conceals bland developer finishes without permanent alterations.'
   },
+  {
+    id: 'luxury-linen-bedding-guide',
+    title: 'The Art of Layering Belgian Linen & Wool for UK Winters',
+    slug: 'art-layering-belgian-linen-wool-uk-winters',
+    category: 'bedroom',
+    categoryName: 'Bedroom',
+    categoryLabel: 'BEDROOM COMFORT',
+    author: 'Eleanor Vance',
+    role: 'Senior Architectural Editor',
+    date: 'September 07, 2026',
+    readTime: '5 min read',
+    views: '8.9k',
+    excerpt: 'How breathable 180gsm stone-washed French linen paired with pure British wool throws creates temperature-regulated warmth throughout chilly seasons.',
+    heroImage: 'https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>A restorative bedroom relies on tactile layering. Natural fibres breathe with your body, preventing overheating under modern central heating systems.</p>
+    `,
+    keyTakeaway: 'Opt for un-ironed crinkled linen textures to evoke effortless relaxed elegance.'
+  },
+
+  // DIY
   {
     id: 'diy-wall-panelling-masterclass',
     title: 'Step-by-Step Wall Panelling Masterclass for British Homes',
@@ -129,6 +265,27 @@ export const ARTICLES = [
     keyTakeaway: 'Always use MR (Green-core) MDF when panelling in bathrooms or hallway areas prone to seasonal UK humidity changes.'
   },
   {
+    id: 'upcycling-pine-chest-drawers',
+    title: 'Upcycling Vintage Pine Drawers into a High-End Scandi Sideboard',
+    slug: 'upcycling-vintage-pine-drawers-scandi-sideboard',
+    category: 'diy',
+    categoryName: 'DIY',
+    categoryLabel: 'DIY & UPCYCLING',
+    author: 'Sarah Jenkins',
+    role: 'DIY & Restoration Lead',
+    date: 'September 05, 2026',
+    readTime: '5 min read',
+    views: '14.8k',
+    excerpt: 'Stripping orange pine varnish with eco-stripper, applying white wax oil, and installing knurled solid brass handles.',
+    heroImage: 'https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>Second-hand Victorian pine chests are plentiful in UK charity shops. With a weekend of refinishing, they rival high-end design showroom centerpieces.</p>
+    `,
+    keyTakeaway: 'Always sand in the direction of the timber grain with 120-grit followed by 240-grit sandpaper.'
+  },
+
+  // KITCHEN
+  {
     id: 'shaker-kitchen-design',
     title: 'Crafting the Ultimate British Shaker Kitchen: Layout & Materials Guide',
     slug: 'ultimate-british-shaker-kitchen-guide',
@@ -153,6 +310,27 @@ export const ARTICLES = [
     `,
     keyTakeaway: 'Incorporate deep pan drawers with solid oak dovetailed joints for optimal utensil organisation.'
   },
+  {
+    id: 'small-kitchen-pantry-storage',
+    title: 'Bespoke Larder Pantries for Narrow UK Terrace Kitchens',
+    slug: 'bespoke-larder-pantries-narrow-kitchens',
+    category: 'kitchen',
+    categoryName: 'Kitchen',
+    categoryLabel: 'KITCHEN EFFICIENCY',
+    author: 'Sarah Jenkins',
+    role: 'London Interior Stylist',
+    date: 'September 03, 2026',
+    readTime: '4 min read',
+    views: '10.5k',
+    excerpt: 'How floor-to-ceiling single larder cupboards double storage efficiency in Victorian side-return kitchen extensions.',
+    heroImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>A well-planned tall larder eliminates the need for cluttered wall cabinets, allowing kitchen walls to breathe with open artwork and pendant lighting.</p>
+    `,
+    keyTakeaway: 'Install shallow door-mounted spice and condiment racks to utilize every square centimeter.'
+  },
+
+  // BATHROOM
   {
     id: 'luxury-bathroom-sanctuary',
     title: 'Transforming Compact UK Bathrooms into Spa Sanctuaries',
@@ -179,6 +357,27 @@ export const ARTICLES = [
     keyTakeaway: 'Always install underfloor heating before tiling compact bathrooms to accelerate drying and prevent dampness.'
   },
   {
+    id: 'freestanding-baths-guide',
+    title: 'Cast Iron vs Acrylic: The Ultimate Freestanding Bath Dilemma',
+    slug: 'cast-iron-vs-acrylic-freestanding-baths',
+    category: 'bathroom',
+    categoryName: 'Bathroom',
+    categoryLabel: 'BATHROOM FIXTURES',
+    author: 'Marcus Cole',
+    role: 'Interiors Architect',
+    date: 'September 02, 2026',
+    readTime: '5 min read',
+    views: '9.3k',
+    excerpt: 'Assessing floor joist weight capacities, heat retention metrics, and paintable exterior finishes.',
+    heroImage: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>A freestanding clawfoot or roll-top bath adds undeniable glamour. However, authentic cast iron tubs can weigh over 150kg empty.</p>
+    `,
+    keyTakeaway: 'Ensure floor joists are reinforced if positioning a cast iron tub on upper floors.'
+  },
+
+  // GARDEN
+  {
     id: 'cottage-garden-outdoor-living',
     title: 'English Cottage Gardens: Designing Year-Round Outdoor Living Spaces',
     slug: 'english-cottage-gardens-outdoor-living',
@@ -203,6 +402,27 @@ export const ARTICLES = [
     `,
     keyTakeaway: 'Layer evergreen structural shrubs among flowering perennials to maintain architectural interest during winter.'
   },
+  {
+    id: 'small-courtyard-urban-garden',
+    title: '7 Space-Saving Tricks for Compact London Courtyards',
+    slug: 'small-courtyard-urban-garden-tricks',
+    category: 'garden',
+    categoryName: 'Garden',
+    categoryLabel: 'URBAN GARDENS',
+    author: 'Hugh Montgomery',
+    role: 'Landscape Designer',
+    date: 'September 01, 2026',
+    readTime: '4 min read',
+    views: '11.8k',
+    excerpt: 'Vertical living walls, outdoor wall mirrors, and built-in bench seating with hidden cedar wood storage.',
+    heroImage: 'https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=1200&q=80',
+    content: `
+      <p>Urban townhouses often possess modest outdoor spaces. Strategic mirror placement bounces ambient garden light into basement kitchens.</p>
+    `,
+    keyTakeaway: 'Choose weather-proof composite decking or porcelain paving for minimal moss maintenance.'
+  },
+
+  // BUYING GUIDES
   {
     id: 'buying-guide-sofas',
     title: 'The Ultimate UK Sofa Buying Guide: Quality, Fabrics & Proportions',
@@ -229,28 +449,22 @@ export const ARTICLES = [
     keyTakeaway: 'Always measure doorway clearance, hallway turns, and stairwells before finalizing delivery dimensions.'
   },
   {
-    id: 'sage-terracotta-palette',
-    title: 'Sage & Cotswold Terracotta: 2026 British Color Edit',
-    slug: 'sage-cotswold-terracotta-color-edit',
-    category: 'interiors',
-    categoryName: 'INTERIORS',
-    categoryLabel: 'DESIGN TRENDS • INTERIORS',
-    author: 'Editorial Desk',
-    role: 'Trend Forecast Team',
-    date: 'September 01, 2026',
-    readTime: '4 min read',
-    views: '15.7k',
-    excerpt: 'How grounding earthy terracottas, muted sage greens, and warm linen textiles capture cozy natural warmth during overcast British afternoons.',
-    heroImage: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80',
+    id: 'buying-guide-heritage-paint',
+    title: 'British Heritage Paint Review: Farrow & Ball vs Little Greene vs Paint & Paper Library',
+    slug: 'british-heritage-paint-review-comparison',
+    category: 'buying-guides',
+    categoryName: 'Buying Guides',
+    categoryLabel: 'BUYING GUIDE • PAINTS',
+    author: 'Sarah Jenkins',
+    role: 'London Interior Stylist',
+    date: 'August 30, 2026',
+    readTime: '7 min read',
+    views: '24.6k',
+    excerpt: 'Pigment density, chalky matte finishes, scrubbability tests, and coverage comparisons for UK period restorations.',
+    heroImage: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=1200&q=80',
     content: `
-      <p>British interiors in 2026 are moving decisively away from sterile cool greys toward enveloping, nature-grounded earthy tones inspired by countryside manors.</p>
-      
-      <h3>The Power of Sage Green</h3>
-      <p>Muted sage green acts as a gentle botanical neutral. When applied in low-sheen Dead Flat or Estate Emulsion formulations, it softens harsh northern daylight.</p>
-
-      <h3>Warm Terracotta Accents</h3>
-      <p>Pairing sage walls with hand-thrown terracotta table lamps, wool bouclé throws, and natural jute floor runners introduces tactile depth and visual warmth.</p>
+      <p>High-pigment British heritage paints transform how rooms reflect northern daylight. We compare the top three luxury formulations across coverage and durability.</p>
     `,
-    keyTakeaway: 'Test paint sample patches on both north and south-facing walls, observing shifts between 10am morning light and 4pm dusk.'
+    keyTakeaway: 'Use Intelligent Matt or Modern Emulsion in hallways and kitchens for effortless wipe-clean durability.'
   }
 ];
