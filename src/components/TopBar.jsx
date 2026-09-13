@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function TopBar({ onOpenAIGenerator }) {
+export default function TopBar() {
   const currentDate = new Date().toLocaleDateString('en-GB', {
     weekday: 'long',
     day: 'numeric',
@@ -20,15 +20,8 @@ export default function TopBar({ onOpenAIGenerator }) {
           <span className="text-gray-500 font-medium">{currentDate}</span>
         </div>
 
-        {/* Social Links and AI Studio */}
+        {/* Social Links */}
         <div className="flex items-center gap-4 text-[11px] text-gray-500 font-medium">
-          <button
-            onClick={onOpenAIGenerator}
-            className="flex items-center gap-1 text-[#C8102E] font-bold hover:underline transition uppercase text-[10px] tracking-wider"
-          >
-            <span>✨ AI STUDIO</span>
-          </button>
-          <span>•</span>
           <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-black transition">Instagram</a>
           <span>•</span>
           <a href="https://pinterest.com" target="_blank" rel="noreferrer" className="hover:text-black transition">Pinterest</a>

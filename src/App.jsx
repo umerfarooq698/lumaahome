@@ -125,8 +125,8 @@ export default function App() {
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
       <div>
-        {/* Top Meta Bar with AI Studio Trigger */}
-        <TopBar onOpenAIGenerator={() => setIsAIGeneratorOpen(true)} />
+        {/* Top Meta Bar */}
+        <TopBar />
 
         {/* Resident.com Style Centered Header */}
         <Header
@@ -135,7 +135,6 @@ export default function App() {
           searchQuery={searchQuery}
           setSearchQuery={setSearchQuery}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
-          onOpenAIGenerator={() => setIsAIGeneratorOpen(true)}
         />
 
         {/* Main Content Area */}
