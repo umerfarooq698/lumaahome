@@ -7,6 +7,7 @@ import CoverHero from './components/CoverHero';
 import EditorialGrid from './components/EditorialGrid';
 import CategoryPage from './components/CategoryPage';
 import AuthorPage from './components/AuthorPage';
+import ArticlePage from './components/ArticlePage';
 import NewsletterBanner from './components/NewsletterBanner';
 import ArticleModal from './components/ArticleModal';
 import SubscribeModal from './components/SubscribeModal';
@@ -29,6 +30,17 @@ export default function App() {
     return ARTICLES;
   });
 
+  // 1. Check if hash matches an article slug or id
+  const [activeArticle, setActiveArticle] = useState(() => {
+    const hash = window.location.hash;
+    if (hash.startsWith('#/article/')) {
+      const slug = hash.replace('#/article/', '').trim();
+      return ARTICLES.find(a => a.slug === slug || a.id === slug) || null;
+    }
+    return null;
+  });
+
+  // 2. Check if hash matches an author profile
   const [activeAuthor, setActiveAuthor] = useState(() => {
     const hash = window.location.hash;
     if (hash.startsWith('#/author/')) {
@@ -39,6 +51,7 @@ export default function App() {
     return null;
   });
 
+  // 3. Check if hash matches a category
   const [activeCategory, setActiveCategory] = useState(() => {
     const hash = window.location.hash;
     if (hash.startsWith('#/category/')) {
@@ -50,16 +63,6 @@ export default function App() {
   });
 
   const [searchQuery, setSearchQuery] = useState('');
-  
-  const [selectedArticle, setSelectedArticle] = useState(() => {
-    const hash = window.location.hash;
-    if (hash.startsWith('#/article/')) {
-      const artId = hash.replace('#/article/', '').trim();
-      return ARTICLES.find(a => a.id === artId || a.slug === artId) || null;
-    }
-    return null;
-  });
-
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
   const [isAIGeneratorOpen, setIsAIGeneratorOpen] = useState(false);
   const [savedIds, setSavedIds] = useState(() => {
@@ -71,30 +74,21 @@ export default function App() {
     }
   });
 
-  // Open Article with shareable URL hash
+  // Navigation to an Article via clean SEO URL slug
   const handleSelectArticle = (article) => {
-    setSelectedArticle(article);
-    if (article) {
-      window.history.pushState(null, '', `#/article/${article.id}`);
-    }
-  };
-
-  // Close Article and restore background URL hash
-  const handleCloseArticle = () => {
-    setSelectedArticle(null);
-    if (activeAuthor) {
-      window.history.pushState(null, '', `#/author/${activeAuthor}`);
-    } else if (activeCategory !== 'all') {
-      window.history.pushState(null, '', `#/category/${activeCategory}`);
-    } else {
-      window.history.pushState(null, '', '/');
-    }
-  };
-
-  // Sync category changes
-  const handleCategoryChange = (catId) => {
+    if (!article) return;
+    setActiveArticle(article);
     setActiveAuthor(null);
-    setSelectedArticle(null);
+    setSearchQuery('');
+    const seoSlug = article.slug || article.id;
+    window.history.pushState(null, '', `#/article/${seoSlug}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Navigation to Category
+  const handleCategoryChange = (catId) => {
+    setActiveArticle(null);
+    setActiveAuthor(null);
     setActiveCategory(catId);
     setSearchQuery('');
     if (catId === 'all') {
@@ -105,41 +99,43 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Sync author profile navigation
+  // Navigation to Author Profile
   const handleAuthorChange = (authorId) => {
+    setActiveArticle(null);
     setActiveAuthor(authorId);
-    setSelectedArticle(null);
     setSearchQuery('');
     window.history.pushState(null, '', `#/author/${authorId}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Listen to browser back/forward buttons and direct URL hash changes
+  // Listen to browser back/forward and direct hash changes
   useEffect(() => {
     const handlePopState = () => {
       const hash = window.location.hash;
       if (hash.startsWith('#/article/')) {
-        const artId = hash.replace('#/article/', '').trim();
-        const found = articlesList.find(a => a.id === artId || a.slug === artId);
-        if (found) setSelectedArticle(found);
+        const slug = hash.replace('#/article/', '').trim();
+        const found = articlesList.find(a => a.slug === slug || a.id === slug);
+        setActiveArticle(found || null);
+        setActiveAuthor(null);
+      } else if (hash.startsWith('#/author/')) {
+        const authorId = hash.replace('#/author/', '').trim();
+        const valid = AUTHORS.find(a => a.id === authorId);
+        setActiveAuthor(valid ? valid.id : null);
+        setActiveArticle(null);
+        setActiveCategory('all');
+      } else if (hash.startsWith('#/category/')) {
+        const catId = hash.replace('#/category/', '').trim();
+        const validCategory = CATEGORIES.find(c => c.id === catId);
+        setActiveCategory(validCategory ? validCategory.id : 'all');
+        setActiveArticle(null);
+        setActiveAuthor(null);
       } else {
-        setSelectedArticle(null);
-        if (hash.startsWith('#/author/')) {
-          const authorId = hash.replace('#/author/', '').trim();
-          const valid = AUTHORS.find(a => a.id === authorId);
-          setActiveAuthor(valid ? valid.id : null);
-          setActiveCategory('all');
-        } else if (hash.startsWith('#/category/')) {
-          const catId = hash.replace('#/category/', '').trim();
-          const validCategory = CATEGORIES.find(c => c.id === catId);
-          setActiveCategory(validCategory ? validCategory.id : 'all');
-          setActiveAuthor(null);
-        } else {
-          setActiveCategory('all');
-          setActiveAuthor(null);
-        }
+        setActiveArticle(null);
+        setActiveAuthor(null);
+        setActiveCategory('all');
       }
     };
+
     window.addEventListener('popstate', handlePopState);
     window.addEventListener('hashchange', handlePopState);
     return () => {
@@ -148,7 +144,7 @@ export default function App() {
     };
   }, [articlesList]);
 
-  // Save to localStorage
+  // Save bookmarks to localStorage
   useEffect(() => {
     try {
       localStorage.setItem('lumaa_saved_articles', JSON.stringify(savedIds));
@@ -179,7 +175,7 @@ export default function App() {
     handleSelectArticle(newArticle);
   };
 
-  // Filter articles
+  // Filter articles for category and search
   const filteredArticles = articlesList.filter((article) => {
     if (activeCategory !== 'all') {
       if (article.category !== activeCategory) {
@@ -211,15 +207,33 @@ export default function App() {
           activeCategory={activeCategory}
           setActiveCategory={handleCategoryChange}
           searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
+          setSearchQuery={(q) => {
+            setSearchQuery(q);
+            if (q) {
+              setActiveArticle(null);
+              setActiveAuthor(null);
+            }
+          }}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
         />
 
         {/* Main Content Area */}
         <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8 space-y-12">
 
-          {/* 1. AUTHOR PROFILE VIEW */}
-          {activeAuthor && searchQuery.trim() === '' ? (
+          {/* 1. DEDICATED FULL ARTICLE PAGE VIEW (SEO URL SLUG) */}
+          {activeArticle && searchQuery.trim() === '' ? (
+            <ArticlePage
+              article={activeArticle}
+              allArticles={articlesList}
+              onSelectArticle={handleSelectArticle}
+              onSelectAuthor={handleAuthorChange}
+              onSelectCategory={handleCategoryChange}
+              onBackToHome={() => handleCategoryChange('all')}
+              isSaved={savedIds.includes(activeArticle.id)}
+              onToggleSave={toggleSaveArticle}
+            />
+          ) : activeAuthor && searchQuery.trim() === '' ? (
+            /* 2. DEDICATED AUTHOR PROFILE VIEW */
             <AuthorPage
               authorId={activeAuthor}
               articles={articlesList}
@@ -228,7 +242,7 @@ export default function App() {
               onBackToHome={() => handleCategoryChange('all')}
             />
           ) : activeCategory !== 'all' && searchQuery.trim() === '' ? (
-            /* 2. CATEGORY ARCHIVE VIEW */
+            /* 3. DEDICATED CATEGORY ARCHIVE VIEW */
             <CategoryPage
               category={activeCategory}
               articles={filteredArticles}
@@ -237,7 +251,7 @@ export default function App() {
               onSelectAuthor={handleAuthorChange}
             />
           ) : (
-            /* 3. HOMEPAGE / SEARCH RESULTS VIEW */
+            /* 4. HOMEPAGE OR SEARCH RESULTS VIEW */
             <>
               {/* Homepage Cover Hero (shown on 'all' with no search) */}
               {activeCategory === 'all' && searchQuery.trim() === '' && (
@@ -274,17 +288,6 @@ export default function App() {
         onSelectCategory={handleCategoryChange}
         onSelectAuthor={handleAuthorChange}
       />
-
-      {/* Single Article Reader Modal */}
-      {selectedArticle && (
-        <ArticleModal
-          article={selectedArticle}
-          onClose={handleCloseArticle}
-          isSaved={savedIds.includes(selectedArticle.id)}
-          onToggleSave={toggleSaveArticle}
-          onSelectAuthor={handleAuthorChange}
-        />
-      )}
 
       {/* Subscribe Modal */}
       <SubscribeModal
