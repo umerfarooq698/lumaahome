@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { AUTHORS, getAuthorById } from '../data/authors';
-import { ArrowLeft, MapPin, Mail, Globe, Award, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
+import { ArrowLeft, MapPin, Globe, Award, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
 
 export default function AuthorPage({ 
   authorId, 
@@ -137,16 +137,8 @@ export default function AuthorPage({
                 </div>
               )}
 
-              {/* Social and Contact Links */}
+              {/* Social Links */}
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-semibold text-gray-600">
-                <a 
-                  href={`mailto:${author.socials.email}`} 
-                  className="inline-flex items-center gap-1.5 hover:text-black hover:underline transition"
-                >
-                  <Mail className="w-3.5 h-3.5 text-[#C8102E]" />
-                  <span>{author.socials.email}</span>
-                </a>
-                <span>•</span>
                 <a 
                   href={author.socials.instagram} 
                   target="_blank" 
