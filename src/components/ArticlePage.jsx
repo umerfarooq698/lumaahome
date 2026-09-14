@@ -89,12 +89,6 @@ export default function ArticlePage({
           {article.title}
         </h1>
 
-        {article.excerpt && (
-          <p className="font-serif italic text-lg sm:text-xl text-gray-700 leading-relaxed font-normal max-w-2xl mx-auto pt-1">
-            {article.excerpt}
-          </p>
-        )}
-
         {/* Byline and Meta Info */}
         <div className="flex flex-wrap items-center justify-between gap-4 py-3.5 border-t border-b border-gray-200 text-xs text-black mt-6">
           <div className="flex items-center gap-3">
