@@ -27,13 +27,14 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API
 const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY || process.env.VITE_UNSPLASH_ACCESS_KEY || Buffer.from('TVlBSVBpbXJuLUVwQUhQckROTDg2b2J3a2t1bGlTZ2o4ejBHOXJ5cjJ6TQ==', 'base64').toString('utf-8');
 
 const GEMINI_MODELS = [
-  'gemini-2.5-flash',
-  'gemini-2.0-flash',
-  'gemini-1.5-flash',
-  'gemini-2.5-flash-lite',
   'gemini-3.6-flash',
+  'gemini-3.5-flash-lite',
   'gemini-3.5-flash',
-  'gemini-flash-latest'
+  'gemini-3.8-flash',
+  'gemini-3.1-flash-lite',
+  'gemini-flash-latest',
+  'gemini-flash-lite-latest',
+  'gemini-pro-latest'
 ];
 
 const AUTHORS_POOL = [
@@ -292,22 +293,28 @@ Return ONLY valid JSON matching this exact structure:
 
   let articleData = null;
   for (const model of GEMINI_MODELS) {
-    try {
-      console.log(`[Gemini] Attempting generation with model ${model}...`);
-      const response = await ai.models.generateContent({
-        model,
-        contents: prompt,
-        config: {
-          responseMimeType: 'application/json'
+    for (let attempt = 1; attempt <= 3; attempt++) {
+      try {
+        console.log(`[Gemini] Attempting generation with model ${model} (attempt ${attempt}/3)...`);
+        const response = await ai.models.generateContent({
+          model,
+          contents: prompt,
+          config: {
+            responseMimeType: 'application/json'
+          }
+        });
+        const text = (response.text || '').replace(/```json/g, '').replace(/```/g, '').trim();
+        articleData = JSON.parse(text);
+        console.log(`[Gemini] Successfully generated article structure with ${model}!`);
+        break;
+      } catch (e) {
+        console.warn(`[Gemini] Model ${model} attempt ${attempt} failed:`, e.message);
+        if (attempt < 3) {
+          await new Promise(r => setTimeout(r, 2500 * attempt));
         }
-      });
-      const text = (response.text || '').replace(/```json/g, '').replace(/```/g, '').trim();
-      articleData = JSON.parse(text);
-      console.log(`[Gemini] Successfully generated article structure with ${model}!`);
-      break;
-    } catch (e) {
-      console.warn(`[Gemini] Model ${model} failed:`, e.message);
+      }
     }
+    if (articleData) break;
   }
 
   if (!articleData) {
