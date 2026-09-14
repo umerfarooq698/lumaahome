@@ -1,6 +1,6 @@
 import { GoogleGenAI } from '@google/genai';
-import { fetchUniqueUnsplashImage } from './unsplash';
-import { INITIAL_PRIVACY_POLICY, INITIAL_TERMS_OF_SERVICE } from '../data/legal';
+import { fetchUniqueUnsplashImage } from './unsplash.js';
+import { INITIAL_PRIVACY_POLICY, INITIAL_TERMS_OF_SERVICE } from '../data/legal.js';
 
 // Active Gemini API key with seamless fallback
 const FALLBACK_KEY = typeof atob === 'function' 
