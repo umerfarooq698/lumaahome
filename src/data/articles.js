@@ -89,10 +89,10 @@ export const ARTICLES = [
     "views": "18.2k",
     "isFeatured": true,
     "excerpt": "A masterclass in British dining chair design: balancing architectural ergonomics, solid hardwood joinery, tactile textiles, and curated silhouettes.",
-    "heroImage": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1600&q=85",
-    "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1600&q=85",
-    "heroImageAlt": "Handcrafted solid oak dining chairs gathered around a bespoke timber dining table in a light-filled British open plan home",
-    "imageAlt": "Handcrafted solid oak dining chairs gathered around a bespoke timber dining table in a light-filled British open plan home",
+    "heroImage": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1600&q=85",
+    "heroImageAlt": "Handcrafted solid oak dining chairs gathered around a natural timber dining table in an elegant British residence",
+    "imageAlt": "Handcrafted solid oak dining chairs gathered around a natural timber dining table in an elegant British residence",
     "photographer": "Lumaa Home Editorial Curation",
     "photographerUrl": "https://unsplash.com",
     "content": [
@@ -115,8 +115,8 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Solid Hardwood Joinery for Resilient Dining Chairs",
         "body": "Beneath soft tactile upholstery and elegant timber curves lies the uncompromising structural foundation of the piece. Dining chairs endure continual mechanical stress, cyclical weight shifts, and daily family use far exceeding almost any other household furniture item. Sourcing dining chairs crafted from kiln-dried European hardwoods guarantees structural stability and dimensional resilience throughout shifting British seasonal humidity, preventing the loose joints, annoying creaks, and frame failure that inevitably plague mass-manufactured seating assemblies.",
-        "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1600&q=85",
-        "imageAlt": "Artisan workshop detail showing handcrafted solid timber dining chair joints and steam bent curves",
+        "image": "https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Handcrafted solid timber dining chair backrest and curved joinery craftsmanship detail",
         "imageCaption": "Solid European oak frames with mortise and tenon joinery endure decades of daily domestic use without structural fatigue."
       },
       {

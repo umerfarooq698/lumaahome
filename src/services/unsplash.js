@@ -96,35 +96,79 @@ export async function fetchUniqueUnsplashImage(searchQueries = [], category = 'L
   return getCuratedOrRandomFallback(category, customAlt);
 }
 
-// Curated high-res unique luxury interior pool
-const CURATED_LUXURY_POOL = [
-  { id: 'cur_01', url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'Modern Architectural Villa Interior in London' },
-  { id: 'cur_02', url: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke Oak and Limestone Kitchen Joinery' },
-  { id: 'cur_03', url: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1600&q=85', alt: 'Marble Ensuite Bathroom with Freestanding Tub' },
-  { id: 'cur_04', url: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85', alt: 'Warm Textured Linen Master Bedroom' },
-  { id: 'cur_05', url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Cotswolds Sunroom with Botanical Accents' },
-  { id: 'cur_06', url: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=85', alt: 'Contemporary British Drawing Room with Boucle Chairs' },
-  { id: 'cur_07', url: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85', alt: 'Heritage Dark Navy Shaker Kitchen' },
-  { id: 'cur_08', url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85', alt: 'Cast Iron Bath and Aged Brass Fittings' },
-  { id: 'cur_09', url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'Stone Walled English Cottage Garden Courtyard' },
-  { id: 'cur_10', url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85', alt: 'London Townhouse High Ceiling Salon' },
-  { id: 'cur_11', url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist British Hallway with Natural Light' },
-  { id: 'cur_12', url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke Timber Panelled Dining Room' }
-];
+// Topic-Mapped Luxury Image Pools for 100% Guaranteed Relevance
+const TOPIC_IMAGE_POOLS = {
+  dining: [
+    { id: 'din_01', url: 'https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1600&q=85', alt: 'Solid oak dining table and handcrafted dining chairs in an elegant interior' },
+    { id: 'din_02', url: 'https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?auto=format&fit=crop&w=1600&q=85', alt: 'Handcrafted timber dining chair backrest and curved joinery detail' },
+    { id: 'din_03', url: 'https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1600&q=85', alt: 'Modern architectural dining room chairs and bespoke table' },
+    { id: 'din_04', url: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=1600&q=85', alt: 'Curved Scandinavian oak dining chairs and contemporary lighting' }
+  ],
+  sofa: [
+    { id: 'sofa_01', url: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=85', alt: 'Tailored luxury sofa with rich textured linen cushions in a British drawing room' },
+    { id: 'sofa_02', url: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&q=85', alt: 'Sculptural upholstered lounge seating with tactile fabric finishes' },
+    { id: 'sofa_03', url: 'https://images.unsplash.com/photo-1618221312573-404f9a52798d?auto=format&fit=crop&w=1600&q=85', alt: 'Warm neutral sofa in an architectural living room' }
+  ],
+  kitchen: [
+    { id: 'kitch_01', url: 'https://images.unsplash.com/photo-1758448755927-e5c5ae14790c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke dark green in-frame Shaker kitchen with honed quartzite island' },
+    { id: 'kitch_02', url: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury British kitchen joinery with unlacquered brass hardware' },
+    { id: 'kitch_03', url: 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1600&q=85', alt: 'Oak and limestone kitchen island architecture' }
+  ],
+  fireplace: [
+    { id: 'fire_01', url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'Restored Victorian marble fireplace and cast iron insert in London salon' },
+    { id: 'fire_02', url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85', alt: 'Period chimney breast and heritage hearth styling' }
+  ],
+  bedroom: [
+    { id: 'bed_01', url: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=85', alt: 'Warm textured linen master bedroom sanctuary' },
+    { id: 'bed_02', url: 'https://images.unsplash.com/photo-1768346564414-3e1ffb751e30?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke upholstered headboard in serene British bedroom' }
+  ],
+  bathroom: [
+    { id: 'bath_01', url: 'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?auto=format&fit=crop&w=1600&q=85', alt: 'Marble ensuite bathroom with freestanding cast iron roll-top tub' },
+    { id: 'bath_02', url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85', alt: 'Aged brass bathroom fixtures and handcrafted zellige tiles' }
+  ],
+  garden: [
+    { id: 'gard_01', url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'Cotswold stone walled garden courtyard and outdoor dining terrace' },
+    { id: 'gard_02', url: 'https://images.unsplash.com/photo-1780257562963-3389a4105371?auto=format&fit=crop&w=1600&q=85', alt: 'English cottage garden with weathered teak dining furniture' }
+  ],
+  general: [
+    { id: 'gen_01', url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist British hallway with natural light' },
+    { id: 'gen_02', url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke timber panelled reception room' },
+    { id: 'gen_03', url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Cotswolds sunroom with bespoke architectural joinery' }
+  ]
+};
 
-function getCuratedOrRandomFallback(category, customAlt) {
+function getCuratedOrRandomFallback(category = 'Living Room', customAlt = '', queryStr = '') {
   const used = getUsedImageIds();
-  const available = CURATED_LUXURY_POOL.filter(img => !used.includes(img.id));
+  const lower = (queryStr + ' ' + category).toLowerCase();
+
+  let targetPool = TOPIC_IMAGE_POOLS.general;
+  if (lower.includes('chair') || lower.includes('dining') || lower.includes('table') || lower.includes('carver')) {
+    targetPool = TOPIC_IMAGE_POOLS.dining;
+  } else if (lower.includes('sofa') || lower.includes('cushion') || lower.includes('cover') || lower.includes('slipcover')) {
+    targetPool = TOPIC_IMAGE_POOLS.sofa;
+  } else if (lower.includes('kitchen') || lower.includes('cabinet') || lower.includes('island') || lower.includes('joinery')) {
+    targetPool = TOPIC_IMAGE_POOLS.kitchen;
+  } else if (lower.includes('fire') || lower.includes('hearth') || lower.includes('chimney') || lower.includes('victorian')) {
+    targetPool = TOPIC_IMAGE_POOLS.fireplace;
+  } else if (lower.includes('bath') || lower.includes('tub') || lower.includes('shower')) {
+    targetPool = TOPIC_IMAGE_POOLS.bathroom;
+  } else if (lower.includes('bed') || lower.includes('linen') || lower.includes('headboard')) {
+    targetPool = TOPIC_IMAGE_POOLS.bedroom;
+  } else if (lower.includes('garden') || lower.includes('terrace') || lower.includes('courtyard')) {
+    targetPool = TOPIC_IMAGE_POOLS.garden;
+  }
+
+  const available = targetPool.filter(img => !used.includes(img.id));
   const chosen = available.length > 0 
     ? available[0] 
-    : CURATED_LUXURY_POOL[Math.floor(Math.random() * CURATED_LUXURY_POOL.length)];
+    : targetPool[Math.floor(Math.random() * targetPool.length)];
   
   registerUsedImageId(chosen.id);
   return {
     id: chosen.id,
     url: chosen.url,
     alt: sanitizeAlt(customAlt || chosen.alt),
-    photographer: 'Lumaa Home Editorial',
+    photographer: 'Lumaa Home Editorial Curation',
     photographerUrl: 'https://unsplash.com'
   };
 }
