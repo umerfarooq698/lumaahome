@@ -130,11 +130,6 @@ export default function Logo({ size = "default", className = "" }) {
           <span className="w-1.5 h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
           <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-gray-300 to-black"></div>
         </div>
-
-        {/* Minimalist Sub-tagline */}
-        <span className="text-[9px] sm:text-[10px] tracking-[0.24em] text-gray-500 uppercase block font-medium">
-          Editorial Magazine • London, UK
-        </span>
       </div>
     </div>
   );
