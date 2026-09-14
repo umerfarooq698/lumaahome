@@ -112,13 +112,13 @@ export default function AuthorPage({
                 {author.name}
               </h1>
 
-              <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-gray-700">
+              <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-black">
                 {author.role}
               </p>
 
               {/* Short Summary */}
               {author.shortDescription && (
-                <p className="text-xs sm:text-sm text-gray-600 font-serif leading-relaxed max-w-2xl pt-0.5">
+                <p className="text-sm sm:text-base text-[#111111] font-serif leading-relaxed max-w-2xl pt-0.5">
                   {author.shortDescription}
                 </p>
               )}
@@ -129,7 +129,7 @@ export default function AuthorPage({
                   {author.specialties.map((spec, i) => (
                     <span 
                       key={i}
-                      className="bg-white border border-gray-200 text-[9px] font-bold uppercase tracking-wider px-2.5 py-1 text-gray-700"
+                      className="bg-white border border-gray-300 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 text-black shadow-sm"
                     >
                       {spec}
                     </span>
@@ -138,7 +138,7 @@ export default function AuthorPage({
               )}
 
               {/* Social Links */}
-              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-semibold text-gray-600">
+              <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-bold text-black">
                 <a 
                   href={author.socials.instagram} 
                   target="_blank" 

@@ -72,18 +72,18 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                 {article.title}
               </h3>
               
-              <div className="text-[10px] font-bold text-gray-400 tracking-wider uppercase pt-1 flex items-center gap-2">
+              <div className="text-[10px] font-bold text-black tracking-wider uppercase pt-1 flex items-center gap-2">
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
                     if (onSelectAuthor) onSelectAuthor(article.authorId || 'eleanor-vance');
                   }}
-                  className="hover:text-black hover:underline transition"
+                  className="hover:text-[#C8102E] hover:underline transition"
                 >
                   BY {article.author.toUpperCase()}
                 </button>
-                <span>•</span>
-                <span>{article.date}</span>
+                <span className="text-gray-400">•</span>
+                <span className="text-gray-700">{article.date}</span>
               </div>
             </div>
           ))}

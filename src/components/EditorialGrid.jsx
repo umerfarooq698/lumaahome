@@ -20,7 +20,7 @@ export default function EditorialGrid({
         <h2 className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-black uppercase">
           {sectionTitle}
         </h2>
-        <span className="text-[10px] font-bold text-gray-500 tracking-widest uppercase">
+        <span className="text-[10px] font-black text-black tracking-widest uppercase">
           {articles.length} ARTICLES
         </span>
       </div>
@@ -30,11 +30,11 @@ export default function EditorialGrid({
           <article
             key={article.id}
             onClick={() => onSelectArticle(article)}
-            className="group cursor-pointer flex flex-col justify-between border-b border-gray-200 pb-6 transition"
+            className="group cursor-pointer flex flex-col justify-between border-b-2 border-gray-200 pb-6 transition"
           >
             <div className="space-y-3">
               {/* Photo Container */}
-              <div className="relative aspect-[16/10] overflow-hidden bg-gray-100">
+              <div className="relative aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
                 <img
                   src={article.heroImage || article.image}
                   alt={article.title}
@@ -43,7 +43,7 @@ export default function EditorialGrid({
                 />
               </div>
 
-              {/* Tag & Title */}
+              {/* Tag and Title */}
               <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#C8102E] block">
                 {article.categoryLabel || article.categoryName || article.category}
               </span>
@@ -53,19 +53,19 @@ export default function EditorialGrid({
               </h3>
             </div>
 
-            {/* Author & Date Footer */}
-            <div className="pt-3 text-[10px] font-bold text-gray-400 tracking-wider uppercase border-t border-gray-100 flex items-center gap-2">
+            {/* Author and Date Footer */}
+            <div className="pt-3 text-[10px] font-bold text-black tracking-wider uppercase border-t border-gray-200 flex items-center gap-2">
               <button
                 onClick={(e) => {
                   e.stopPropagation();
                   if (onSelectAuthor) onSelectAuthor(article.authorId || 'sarah-jenkins');
                 }}
-                className="hover:text-black hover:underline transition"
+                className="hover:text-[#C8102E] hover:underline transition"
               >
                 BY {article.author.toUpperCase()}
               </button>
-              <span>•</span>
-              <span>{article.date}</span>
+              <span className="text-gray-400">•</span>
+              <span className="text-gray-700">{article.date}</span>
             </div>
           </article>
         ))}

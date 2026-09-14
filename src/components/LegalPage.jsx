@@ -75,29 +75,29 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
               {data.title}
             </h1>
             
-            <p className="font-serif italic text-gray-600 text-sm sm:text-base mt-2">
+            <p className="font-serif italic text-black text-sm sm:text-base mt-2 font-medium">
               {data.subtitle}
             </p>
           </div>
 
           {/* Quick Tab Switcher */}
-          <div className="flex items-center gap-2 border border-black p-1 bg-white shrink-0">
+          <div className="flex items-center gap-2 border-2 border-black p-1 bg-white shrink-0">
             <button
               onClick={() => onNavigateLegal('privacy-policy')}
-              className={`px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider transition ${
+              className={`px-3.5 py-1.5 text-[10px] font-bold uppercase tracking-wider transition ${
                 isPrivacy 
                   ? 'bg-black text-white' 
-                  : 'text-gray-600 hover:text-black'
+                  : 'text-black hover:bg-gray-100'
               }`}
             >
               Privacy Policy
             </button>
             <button
               onClick={() => onNavigateLegal('terms-of-service')}
-              className={`px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider transition ${
+              className={`px-3.5 py-1.5 text-[10px] font-bold uppercase tracking-wider transition ${
                 !isPrivacy 
                   ? 'bg-black text-white' 
-                  : 'text-gray-600 hover:text-black'
+                  : 'text-black hover:bg-gray-100'
               }`}
             >
               Terms of Service
@@ -106,7 +106,7 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
         </div>
 
         {/* Metadata Meta Strip */}
-        <div className="flex flex-wrap items-center gap-4 text-[11px] text-gray-500 pt-3 border-t border-gray-100 font-mono">
+        <div className="flex flex-wrap items-center gap-4 text-[11px] text-gray-800 pt-3 border-t border-gray-200 font-mono">
           <span>PUBLISHED BY: <strong className="text-black">LUMAA HOME™ DIGITAL MEDIA GROUP</strong></span>
           <span>•</span>
           <span>LAST UPDATED: <strong className="text-black">{data.lastUpdated.toUpperCase()}</strong></span>
@@ -116,47 +116,47 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
       </div>
 
       {/* 2. COMPLIANCE ASSURANCE BANNER */}
-      <div className="bg-gray-50 border border-gray-200 p-6 space-y-4">
+      <div className="bg-[#FBFBFA] border-2 border-gray-300 p-6 sm:p-8 space-y-4 shadow-sm">
         <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-black">
           {isPrivacy ? <ShieldCheck className="w-4 h-4 text-[#C8102E]" /> : <Scale className="w-4 h-4 text-[#C8102E]" />}
           <span>{isPrivacy ? 'Google AdSense and UK GDPR Assurance' : 'Editorial and DIY Safety Governance'}</span>
         </div>
         
-        <p className="text-xs text-gray-600 leading-relaxed font-light">
+        <p className="text-sm sm:text-base text-[#111111] leading-relaxed font-normal">
           {data.introduction}
         </p>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-[10px] uppercase font-bold tracking-wider text-gray-700">
-          <div className="flex items-center gap-2 bg-white p-2.5 border border-gray-200">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2 text-[11px] uppercase font-bold tracking-wider text-black">
+          <div className="flex items-center gap-2 bg-white p-3 border border-gray-300">
+            <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
             <span>Google AdSense Compliant</span>
           </div>
-          <div className="flex items-center gap-2 bg-white p-2.5 border border-gray-200">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+          <div className="flex items-center gap-2 bg-white p-3 border border-gray-300">
+            <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
             <span>UK GDPR and Data Act 2018</span>
           </div>
-          <div className="flex items-center gap-2 bg-white p-2.5 border border-gray-200">
-            <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+          <div className="flex items-center gap-2 bg-white p-3 border border-gray-300">
+            <CheckCircle2 className="w-4 h-4 text-emerald-700 shrink-0" />
             <span>English Law Governed</span>
           </div>
         </div>
       </div>
 
       {/* 3. LEGAL SECTIONS BODY */}
-      <div className="space-y-10 divide-y divide-gray-100">
+      <div className="space-y-10 divide-y divide-gray-200">
         {data.sections.map((section, idx) => (
           <section
             key={section.id || idx}
             id={section.id || `sec-${idx}`}
             className="pt-8 space-y-4 scroll-mt-24"
           >
-            <h2 className="font-serif text-xl sm:text-2xl font-bold text-black tracking-tight">
+            <h2 className="font-serif text-2xl sm:text-3xl font-black text-black tracking-tight">
               {section.heading}
             </h2>
 
-            <div className="space-y-3 text-xs sm:text-sm text-gray-700 leading-relaxed font-light">
+            <div className="space-y-4 text-sm sm:text-base text-[#111111] leading-relaxed font-normal">
               {section.content.map((paragraph, pIdx) => (
-                <p key={pIdx} className="whitespace-pre-line">
+                <p key={pIdx} className="whitespace-pre-line text-[#111111]">
                   {paragraph}
                 </p>
               ))}

@@ -94,18 +94,18 @@ export default function CategoryPage({
                   </h4>
                 </div>
 
-                <div className="pt-3 text-[10px] font-bold text-gray-400 tracking-wider uppercase border-t border-gray-100 flex items-center gap-2">
+                <div className="pt-3 text-[10px] font-bold text-black tracking-wider uppercase border-t border-gray-200 flex items-center gap-2">
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
                       if (onSelectAuthor) onSelectAuthor(art.authorId || 'sarah-jenkins');
                     }}
-                    className="hover:text-black hover:underline transition"
+                    className="hover:text-[#C8102E] hover:underline transition"
                   >
                     BY {art.author.toUpperCase()}
                   </button>
-                  <span>•</span>
-                  <span>{art.date}</span>
+                  <span className="text-gray-400">•</span>
+                  <span className="text-gray-700">{art.date}</span>
                 </div>
               </article>
             ))}

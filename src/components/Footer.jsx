@@ -5,13 +5,13 @@ import Logo from './Logo';
 
 export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLegal }) {
   return (
-    <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-gray-600">
+    <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
         
         {/* Col 1: Brand and Masthead */}
         <div className="space-y-4">
           <Logo size="small" />
-          <p className="text-[11px] leading-relaxed text-gray-500 font-light">
+          <p className="text-[11px] leading-relaxed text-[#111111] font-normal">
             The UK's premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine. Printed and published digitally in London, UK.
           </p>
           
@@ -27,7 +27,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                     if (onSelectAuthor) onSelectAuthor(author.id);
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                   }}
-                  className="text-gray-500 hover:text-[#C8102E] transition"
+                  className="text-black font-medium hover:text-[#C8102E] transition"
                 >
                   {author.name}
                 </button>
@@ -35,14 +35,14 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
             </div>
           </div>
 
-          <div className="text-[10px] uppercase font-bold text-gray-400 tracking-widest pt-1">
+          <div className="text-[10px] uppercase font-bold text-gray-700 tracking-widest pt-1">
             ISSN 2849-1029 • LONDON, UK
           </div>
         </div>
 
         {/* Col 2: Categories Part 1 */}
         <div className="space-y-3">
-          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
+          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b-2 border-black pb-1.5">
             ROOMS AND SPACES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
@@ -56,7 +56,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                       onSelectCategory(cat.id);
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}
-                    className="hover:text-black hover:underline transition uppercase"
+                    className="text-[#111111] font-medium hover:text-[#C8102E] hover:underline transition uppercase"
                   >
                     {cat.name}
                   </button>
@@ -68,7 +68,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
 
         {/* Col 3: Categories Part 2 */}
         <div className="space-y-3">
-          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
+          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b-2 border-black pb-1.5">
             EDITORIAL AND GUIDES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
@@ -82,7 +82,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                       onSelectCategory(cat.id);
                       window.scrollTo({ top: 0, behavior: 'smooth' });
                     }}
-                    className="hover:text-black hover:underline transition uppercase"
+                    className="text-[#111111] font-medium hover:text-[#C8102E] hover:underline transition uppercase"
                   >
                     {cat.name}
                   </button>
@@ -94,16 +94,16 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
 
         {/* Col 4: Corporate and Legal */}
         <div className="space-y-3">
-          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
+          <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b-2 border-black pb-1.5">
             LEGAL AND CONTACT
           </h4>
-          <p className="text-[11px] text-gray-500 leading-relaxed font-light">
-            Editorial inquiries: <span className="text-black font-semibold">info.lumaahome@gmail.com</span>
+          <p className="text-[11px] text-[#111111] leading-relaxed font-normal">
+            Editorial inquiries: <span className="text-black font-bold">info.lumaahome@gmail.com</span>
           </p>
-          <p className="text-[11px] text-gray-400">
+          <p className="text-[11px] text-gray-800 font-medium">
             © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP. ALL RIGHTS RESERVED.
           </p>
-          <div className="pt-2 flex items-center gap-3 text-[10px] text-gray-500 uppercase tracking-wider font-semibold">
+          <div className="pt-2 flex items-center gap-3 text-[10px] text-black uppercase tracking-wider font-bold">
             <a
               href="/privacy-policy"
               onClick={(e) => {
@@ -112,7 +112,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                   onNavigateLegal('privacy-policy');
                 }
               }}
-              className="hover:text-[#C8102E] transition"
+              className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
             >
               Privacy Policy
             </a>
@@ -125,7 +125,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                   onNavigateLegal('terms-of-service');
                 }
               }}
-              className="hover:text-[#C8102E] transition"
+              className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
             >
               Terms of Service
             </a>
