@@ -95,15 +95,15 @@ export const ARTICLES = [
     imageAlt: 'Bespoke modern British luxury kitchen with in-frame dark green cabinetry, honed quartzite island, and unlacquered brass pendant lighting in a London residence',
     content: [
       {
-        heading: '1. The Architectural Rise of the Kitchen Anchor',
+        heading: 'The Architectural Rise of the Culinary Hearth',
         body: 'The contemporary British residence has undergone an extraordinary architectural transformation over the past decade. Where cooking spaces were once relegated to utilitarian back quarters of Victorian townhouses and Georgian terraces, the culinary hearth has now emerged as the primary social, functional, and aesthetic anchor of the modern home. Establishing your residence with a true modern kitchen leader requires moving past transient social media fads to embrace enduring architectural proportion, tactile authenticity, and bespoke construction methods. Today, high-end British kitchens are designed to integrate effortlessly with surrounding reception rooms, dining spaces, and garden terraces. A commanding layout sets the craftsmanship benchmark for the entire property while accommodating both the complex rhythms of daily family life and the refined theatre of evening entertaining.'
       },
       {
-        heading: '2. Bespoke In-Frame Cabinetry and Hardwood Joinery',
+        heading: 'In-Frame Cabinetry and Artisan Hardwood Joinery',
         body: 'At the heart of every commanding luxury kitchen is traditional in-frame cabinetry. Unlike mass-manufactured modular flat-pack carcasses, authentic British in-frame joinery mounts solid hardwood door leaves directly onto mortise and tenon timber face frames using heavy-gauge solid brass butt hinges. This time-honoured construction prevents door sag over decades of heavy daily usage and provides an indelible architectural substance that contemporary frameless kitchens simply cannot replicate. Experienced cabinetmakers select sustainably sourced European oak, tulipwood, or hard maple for drawer boxes, joining them with hand-cut dovetails and soft-closing concealed undermount runners. Finishing cabinets with multiple coats of hand-brushed heritage paints from Farrow and Ball, Little Greene, or Edward Bulmer allows homeowners to re-glaze or refresh woodwork in future decades without replacing the fundamental joinery structure.'
       },
       {
-        heading: '3. Honed Natural Stone Worktops and Tactile Surfaces',
+        heading: 'Honed Natural Stone and Tactile Worktop Materials',
         body: 'When interior designers analyze the physical elements that distinguish a premier kitchen leader, the choice of horizontal work surfaces is paramount. Polished artificial composite quartzes are increasingly superseded by tactile natural stones with satin-honed, brushed, or leathered finishes that gently absorb ambient daylight rather than producing harsh specular reflections. Dense Brazilian Taj Mahal quartzite, Belgian blue limestone, and British Portland stone offer remarkable heat resistance and subtle geological movement that pairs beautifully with hand-painted timber cabinetry. Maintaining natural stone requires regular breathable impregnating sealers that prevent red wine and citrus oil staining while preserving the micro-porous texture of the stone, allowing it to develop a graceful patina that enriches the kitchen as it matures over years of culinary use.',
         sectionImageQuery: 'luxury honed marble kitchen island unlacquered brass taps',
         image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85',
@@ -111,23 +111,23 @@ export const ARTICLES = [
         imageCaption: 'Honed natural stone paired with living brass hardware introduces timeless organic depth.'
       },
       {
-        heading: '4. Ergonomic Zoning and Multi-Cook Island Proportions',
+        heading: 'Ergonomic Zoning and Multi-Cook Island Proportions',
         body: 'A truly successful culinary layout operates on rigorous ergonomic science rather than decorative symmetry alone. While traditional interior manuals advocated a strict cooking work triangle, modern large-scale British kitchens utilize dynamic zone planning comprising dedicated preparation, hot cookery, dry storage, wet cleanup, and social hospitality areas. The central kitchen island serves as the pivotal fulcrum between these functional zones. To maintain comfortable circulation during busy dinner parties and family gatherings, generous passage clearances between 1,100mm and 1,200mm are maintained around all island perimeters. Installing an induction cooktop with integrated downdraft extraction or a secondary prep sink on the island keeps the host facing guest seating, transforming routine meal preparation into an inclusive social experience.'
       },
       {
-        heading: '5. Concealed Breakfast Pantries and Larder Architecture',
+        heading: 'Concealed Breakfast Pantries and Larder Architecture',
         body: 'A defining hallmark of high-end British kitchen architecture is the bespoke double-door breakfast larder. Designed to house high-use countertop appliances such as artisan espresso machines, toasters, and stand mixers, these tall cupboards keep perimeter work surfaces completely free of visual clutter. Pocket doors or bi-folding leaves glide smoothly into concealed side recesses when in use, revealing integrated warm LED illumination, cold marble pastry slabs, solid walnut spice racks, and dedicated power tracks. Concealing high-tech clutter behind hand-crafted timber doors ensures the main living area retains a serene, gallery-like composure whether during a casual weekday morning breakfast or a formal evening dinner party.'
       },
       {
-        heading: '6. Layered Architectural Lighting and Warm Ambience',
+        heading: 'Layered Architectural Illumination and Ambience',
         body: 'Illumination in an open-plan luxury kitchen must fulfill both rigorous task precision and atmospheric evening warmth without relying on harsh grid patterns of ceiling spotlights. Architectural lighting schemes divide illumination across four distinct control circuits: high-CRI 3000K recessed directional downlights focused directly over prep sinks and range cookers; concealed 2700K warm LED ribbons routed beneath wall cabinets and open reeded oak display shelves; hand-blown fluted glass or reeded brass pendant lights suspended low over the central island; and discreet low-level plinth kick lights that cast a soft floor wash during late-night hours. Dimmable smart scene controls allow instant transitions from bright culinary preparation to moody dining ambience at the touch of a button.'
       },
       {
-        heading: '7. Living Finishes: Unlacquered Brass and Aged Hardware',
+        heading: 'Living Finishes: Unlacquered Brass and Aged Hardware',
         body: 'The tactile hardware adorning drawers, pantries, and tapware represents the jewellery of the culinary environment. Luxury British interiors deliberately avoid sterile chrome or sealed synthetic lacquers in favour of unlacquered living brass, burnished bronze, and hand-forged blackened iron. Because these metals lack artificial clear-coat sealants, they react organically with atmospheric oxygen and hand contact, developing an authentic, rich golden-brown patina over time that reflects true artisanal heritage. Pairing unlacquered brass deck-mounted bridge taps with deep fireclay Belfast sinks creates a grounded, tactile contrast against dark heritage paint colours such as Studio Green, Railings, or Oxford Stone.'
       },
       {
-        heading: '8. Long-Term Investment Value and Heritage Longevity',
+        heading: 'Heritage Longevity and Enduring Property Value',
         body: 'Investing in a bespoke British in-frame kitchen represents one of the most substantial capital enhancements a homeowner can make to a UK residential property. By prioritizing solid timber framing, honest natural materials, precision German refrigeration systems, and serviceable gas or induction appliances, a well-executed kitchen avoids the rapid obsolescence of trend-driven interiors. When every proportion, bespoke drawer dovetail, and lighting circuit works in effortless harmony, the space naturally commands respect as a premier kitchen leader that will continue to deliver pleasure, aesthetic pride, and functional excellence for generations to come.'
       }
     ],
@@ -154,15 +154,15 @@ export const ARTICLES = [
     imageAlt: 'Tailored neutral linen sofa seat covers fitted neatly on a deep cushion sofa in a bright London townhouse living room',
     content: [
       {
-        heading: '1. Revitalising Tired Living Rooms with Bespoke Slipcovers',
+        heading: 'The Case for Bespoke Cushion Rejuvenation',
         body: 'Every British homeowner knows the quiet disappointment of a sagging, stained, or dated sofa cushion. When the underlying hardwood frame remains structurally sound, discarding the entire sofa is an unnecessary financial expense and an avoidable environmental waste. Investing in high quality bespoke sofa seat covers offers an intelligent architectural solution to rejuvenate your main living space without the disruption of a complete furniture overhaul. Whether your interior aesthetic leans toward relaxed Cotswolds country charm, Georgian symmetry, or tailored Mayfair minimalism, updated seat casings allow you to introduce rich tactile depth into your seating arrangements. By replacing tired, faded fabrics with crisp Belgian linens, heavyweight bouclé, or deep jewel-toned velvets, you instantly transform the visual presence of your room while shielding valuable high-density foam and duck feather cushion cores from daily wear and tear.'
       },
       {
-        heading: '2. Choosing Between Tailored Individual Covers and Stretch Fabrics',
+        heading: 'Tailored Slipcovers Versus Mass Market Stretch Fabrics',
         body: 'When exploring replacement options, homeowners generally encounter two distinct construction styles. Universal stretch covers crafted from elastane-polyester blends offer a quick, low-cost update, but they frequently slip out of place, lose elasticity after laundering, and require frustrating daily re-tucking after family use. In contrast, discerning interior designers advocate for bespoke tailored slipcovers fashioned from non-stretch woven textiles. Tailored covers feature individually cut panels, heavy-gauge concealed YKK zip fastenings, reinforced French seams, and traditional piped edging that precisely echoes the contours of the original seat. While custom tailoring requires careful initial specification and craftsmanship, the resulting clean silhouette remains immaculately taut, delivering the refined finish of a professionally reupholstered suite that enhances your room proportion.'
       },
       {
-        heading: '3. Selecting Durable Fabrics for Family Homes and Pets',
+        heading: 'Textile Selection for Family Living and Pets',
         body: 'Residential living spaces demand upholstery textiles capable of withstanding active households, pet claws, and occasional beverage spills. Heavyweight Belgian linen remains a perennial favourite among British stylists, providing a breathable, tactile texture that softens gracefully with laundering while naturally repelling dust mites. For homes with dogs or cats, dense cotton velvet is an exceptional choice; its tightly sheared pile prevents claws from snagging in the weave and resists immediate liquid penetration when treated promptly with a dry cloth. Alternatively, pure British wool tweed offers natural stain repellency courtesy of organic lanolin fibres, combined with remarkable abrasion resistance exceeding 40,000 Martindale rubs. Avoid loose jacquards or delicate silks on primary seat cushions, as high-friction friction zones will cause premature pilling and seam distortion.',
         sectionImageQuery: 'velvet sofa cushion detail',
         image: 'https://images.unsplash.com/photo-1638191376884-f371a22c719f?auto=format&fit=crop&w=1600&q=85',
@@ -170,19 +170,19 @@ export const ARTICLES = [
         imageCaption: 'Dense cotton velvet and tailored piped seams deliver durable protection with timeless elegance.'
       },
       {
-        heading: '4. Mastering Precise Measurements for Box and T-Cushions',
+        heading: 'The Anatomy of a Precision Cushion Measurement',
         body: 'The difference between an ill-fitting cover and a bespoke masterpiece lies in meticulous measurement. When recording dimensions, always remove the old covers and measure the interior foam or down core directly while resting on a level surface, as stretched fabric casings provide deceptive numbers. Record the maximum width across the front edge, the width across the rear, the depth from front to back, and the vertical boxing depth between seam lines. For asymmetrical T-cushions common on traditional Howard-style sofas, carefully measure the projection and width of the front wing extensions. Be sure to account for cushion crown fullness by measuring across the deepest central point. Providing these precise measurements to your upholsterer guarantees that the new sofa seat covers slip snugly over the filling without unsightly fabric pooling or seam strain.'
       },
       {
-        heading: '5. Navigating UK Furniture and Fire Safety Regulations',
+        heading: 'Navigating British Furniture and Fire Safety Regulations',
         body: 'Safety compliance is a critical consideration when introducing new soft furnishings into UK residences. Under the Furniture and Furnishings (Fire) (Safety) Regulations 1988, all permanent and loose upholstered covers supplied in Great Britain must satisfy stringent cigarette and match resistance criteria outlined in BS 5852. While synthetic blends are frequently treated with flame-retardant chemistry, natural linens and untreated wools must be paired with an approved Schedule 3 fire-resistant interliner cloth positioned between the outer cover and the cushion filling. Ensuring that your replacement sofa seat covers comply with British safety certifications guarantees both legal peace of mind and essential protection for your household, especially when updating rental properties or heritage holiday cottages.'
       },
       {
-        heading: '6. Practical Maintenance and Seasonal Fabric Rotation',
+        heading: 'Caring for Fine Upholstery Through the Seasons',
         body: 'To preserve the crisp elegance of your tailored seat covers, establish a straightforward seasonal maintenance routine. Rotate and flip reversible cushions fortnightly to distribute compression evenly across the filling and prevent localized fabric shading. When cleaning is required, verify whether your textile permits a gentle cold machine wash or mandates specialist eco-dry cleaning to prevent dimensional shrinkage. For everyday upkeep, use a soft velvet brush attachment on your vacuum cleaner to lift dust from piping crevices. Immediate blot cleaning with an absorbent white cotton cloth prevents spills from setting into deeper fibres. Investing in dual seasonal sets—lightweight oyster linen for summer and textured warm wool for British winters—ensures your sofa remains a captivating focal point for years to come.'
       },
       {
-        heading: '7. Colour Curation and Harmonising with UK Interior Palettes',
+        heading: 'Harmonising Cushion Tones with British Interior Palettes',
         body: 'Selecting the ideal shade for your sofa seat covers requires careful consideration of ambient light and adjacent architectural features. In north-facing British drawing rooms where natural daylight is often cool and grey, introduce warming tones such as Cotswold ochre, warm terracotta, soft fawn, or muted moss green to inject welcoming visual depth. Conversely, south-facing living areas benefit from calm oyster neutrals, deep indigo, or chalky mineral tones that maintain their composure under bright sunshine. Ensure the fabric tone harmonises with existing heritage wall colours from Farrow and Ball or Little Greene, such as Setting Plaster, Inchyra Blue, or School House White. Layering textured linen scatter cushions and a pure cashmere throw over your newly covered seat creates an inviting, tactile sanctuary designed for elegant British living.'
       }
     ],
@@ -221,15 +221,15 @@ export const ARTICLES = [
     imageAlt: 'Restored Victorian cast iron fireplace with carved white marble mantelpiece and encaustic hearth tiles in a London townhouse',
     content: [
       {
-        heading: '1. Assessing Period Authenticity and Flue Safety',
+        heading: 'Assessing Period Authenticity and Flue Safety',
         body: 'The chimney breast is both the architectural anchor and the historical soul of 19th-century British residential architecture. In Victorian and Edwardian properties across London, Edinburgh, and Bath, an authentic fireplace is often the primary focal point that defines the entire proportion of the drawing room. Before embarking on aesthetic restoration of an original cast iron grate or carved Carrara marble surround, safety and structural viability must be established first. Homeowners should commission a registered HETAS chimney professional to carry out a comprehensive CCTV flue inspection, a Type 1 smoke draw test, and an extraction sweep to eliminate decades of toxic creosote and bird nesting debris. Under UK Building Regulations Approved Document J, all functional flues serving decorative solid fuel fires or modern bioethanol conversions require unobstructed draught channels, verified ventilation air bricks, and certified non-combustible hearth depths extending at least 300mm in front of the fire opening.'
       },
       {
-        heading: '2. Stripping Decades of Paint from Cast Iron Grates',
+        heading: 'Stripping Decades of Paint from Cast Iron Grates',
         body: 'Throughout the mid-20th century, thousands of ornate Victorian cast iron inserts were carelessly coated in thick layers of white gloss or modern acrylic radiator paints, obliterating delicate acanthus leaf relief patterns, classical urns, and foundry stamps. Mechanical wire wheels, sandblasting, and angle grinders must never be used on historic ironwork, as high-friction abrasion permanently erodes sharp metallurgical detailing and causes irreversible micro-fracturing. Instead, the most effective conservation technique utilizes a non-caustic, paste-based poultice paint remover such as PeelAway 1 or 7. Applied generously across the ironwork and sealed under specialist laminated blanket paper for 24 to 48 hours, the paste gently softens twenty coats of historic lead-based paint, allowing the residue to be lifted away smoothly down to the raw iron substrate without releasing airborne hazardous particulate matter into your living space.'
       },
       {
-        heading: '3. Reviving Bare Ironwork with Traditional Graphite Polish',
+        heading: 'Reviving Bare Ironwork with Traditional Graphite Polish',
         body: 'Once the bare iron has been thoroughly neutralized with clean water and allowed to dry completely, any light residual surface corrosion should be buffed away with ultrafine grade 0000 wire wool moistened in mineral white spirit. Avoid modern aerosol stove paints, which dry into a flat, artificial, chalky black finish that looks modern and lifeless in a heritage interior. Traditional restoration relies on authentic graphite wax paste, historically known as black lead or grate polish. Applied evenly with a small stiff-bristled stencil brush into every ornate groove and allowed to cure for several hours, the paste bonds intimately with the porous iron pores. Once buffed by hand using a lint-free cotton cloth, the graphite transforms into a lustrous, deep gunmetal pewter sheen that highlights ornate three-dimensional carvings while creating a durable barrier against chimney condensation.',
         sectionImageQuery: 'unlacquered brass fireplace fender detail',
         image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85',
@@ -237,19 +237,19 @@ export const ARTICLES = [
         imageCaption: 'Traditional graphite iron wax paired with unlacquered brass creates an authentic period hearth.'
       },
       {
-        heading: '4. Sourcing and Bedding Heritage Encaustic Hearth Tiles',
+        heading: 'Sourcing and Bedding Heritage Encaustic Hearth Tiles',
         body: 'Authentic mid-to-late Victorian tiled inserts feature striking vertical five-tile runs crafted by revered historic makers such as Minton, Maw and Co, or Craven Dunnill. When repairing broken hearths or restoring missing side panels, look for salvaged antique originals or authentic heritage replicas that utilize traditional dust-pressed clay with deep bottle green, cobalt blue, and rich burgundy mineral glazes. Never bed period hearth tiles with modern inflexible rapid-set polymer adhesives over timber floorboards, as normal subfloor thermal deflection will inevitably crack antique glazes within months. The correct heritage practice requires laying a reinforced non-combustible base plate followed by a breathable hydraulic lime screed bedding layer, which provides natural micro-flexibility and handles thermal expansion cycles without stressing delicate ceramic tile bodies.'
       },
       {
-        heading: '5. Restoring Carved Marble and Slate Mantelpieces',
+        heading: 'Restoring Carved Marble and Slate Mantelpieces',
         body: 'Whether your period fireplace features an opulent carved statuary marble surround or a handsome enamelled Welsh slate mantelpiece, specialized restoration methods are essential to avoid surface deterioration. Historic Carrara marble is inherently porous and prone to yellowing from acidic atmospheric soot. Clean the stone using a neutral pH conservation wash, followed by a poultice of diatomaceous earth and hydrogen peroxide to draw out deep-set soot stains without etching the stone. For black enamelled slate surrounds common in Victorian terraced houses, avoid solvent strippers that dissolve the original marbled enamel finish. Instead, revive dull slate by gentle cleaning with warm water, followed by a light application of raw linseed oil or microcrystalline Renaissance wax to restore its deep, satiny Victorian lustre.'
       },
       {
-        heading: '6. Overcoming Masonry Damp and Lime Plaster Mistakes',
+        heading: 'Overcoming Masonry Damp and Lime Plaster Mistakes',
         body: 'The single most common error encountered during period home living room restorations is sealing historical chimney breasts with modern synthetic damp-proof membranes or gypsum plaster skim coats. Solid 9-inch Victorian brickwork must breathe to manage seasonal ground moisture and airborne atmospheric dampness. When modern gypsum is applied over a dormant flue, trapped moisture accumulates behind the plaster, causing unsightly bubbling paintwork, white salt efflorescence, and perimeter mould in adjacent alcoves. Always finish chimney breasts with traditional three-coat lime plaster or breathable mineral clay paints. If a chimney flue is decommissioned and left unlit, ensure a vented terracotta chimney cowl is fitted at the roofline and a discreet ventilation grille is installed at the hearth base to maintain natural airflow through the chimney stack.'
       },
       {
-        heading: '7. Mantelpiece Proportions and Contemporary Living Rules',
+        heading: 'Mantelpiece Proportions and Contemporary Living Rules',
         body: 'Styling a restored Victorian fireplace requires thoughtful spatial balance so that the historic ironwork and artisan masonry remain the undisputed heroes of the room. Rather than overcrowding the mantel shelf with clutter, adopt an asymmetric styling philosophy: place an oversized hand-thrown stoneware vase on the left to add organic height, balanced by a pair of low unlacquered solid brass candleholders and stacked art books on the right. When selecting an over-mantel mirror, choose an archtop or reeded gilt frame that spans between sixty and seventy percent of the total mantel shelf width. Pair the hearth with a low-profile unlacquered brass fender and warm 2700K ambient picture lights to cast a soft, golden radiance across the restored chimney breast each evening.'
       }
     ],
