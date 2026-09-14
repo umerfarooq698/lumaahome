@@ -265,6 +265,33 @@ export default function ArticlePage({
             ) : null}
           </div>
 
+          {/* Frequently Asked Questions (Topic-Specific Reader FAQ) */}
+          {Array.isArray(article.faqs) && article.faqs.length > 0 && (
+            <section className="space-y-6 pt-6 border-t border-gray-200">
+              <div className="space-y-1">
+                <span className="text-[10px] font-bold uppercase tracking-widest text-[#C8102E]">
+                  EXPERT ADVICE
+                </span>
+                <h3 className="font-serif text-2xl sm:text-3xl font-normal text-black">
+                  Frequently Asked Questions
+                </h3>
+              </div>
+
+              <div className="divide-y divide-gray-200 border-t border-b border-gray-200">
+                {article.faqs.map((faq, fIdx) => (
+                  <div key={fIdx} className="py-4 space-y-2">
+                    <h4 className="font-serif text-base sm:text-lg font-bold text-[#111111] leading-snug">
+                      {faq.question}
+                    </h4>
+                    <p className="text-sm sm:text-base text-gray-700 leading-relaxed font-sans">
+                      {faq.answer}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {/* Editorial Separator */}
           <div className="text-center py-6 text-gray-400 font-serif text-lg tracking-[0.5em]">
             • • •

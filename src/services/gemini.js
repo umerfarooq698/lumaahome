@@ -66,30 +66,30 @@ async function generateWithModelFallback(requestConfig) {
 export async function generateArticleWithGemini({ topic, category = 'Living Room' }) {
   try {
     
-    const prompt = `You are the Senior Editorial Director and Heritage Copywriter of LUMAA HOME™, a premier British luxury home decor, architectural living, and bespoke DIY magazine based in London, UK.
+    const prompt = `You are a master British interior journalist and copywriter for LUMAA HOME™, creating a completely original, reader-first informational article on the topic / keyword: "${topic}" for the category: "${category}".
 
-Generate an authoritative, richly detailed luxury editorial article on the topic / keyword: "${topic}" for the category: "${category}".
-
-CRITICAL EDITORIAL AND SEO SPECIFICATIONS:
-1. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words across all content sections. Do not write shallow summaries. Ensure every section provides thorough, practical, and highly engaging depth.
-2. ARTICLE STRUCTURE: Provide 6 to 8 comprehensive sub-sections in the "content" array. Each section must contain 120 to 170 words of authentic, natural narrative covering practical techniques, materials, UK building standards, proportion rules, and step-by-step guidance.
-3. TITLE LENGTH AND SEO: The title must be STRICTLY 55 to 60 characters in length (count every letter and space). The primary keyword must fit smoothly and naturally into the title.
-4. BANNED PHRASES: NEVER use AI clichés or overused buzzwords such as "The Ultimate", "Unleash", "Unlock", "Delve", "Dive into", "Revolutionize", "Game-changer", "Tapestry", "Supercharge", or "AI".
-5. NO AMPERSAND: NEVER use the '&' symbol anywhere in the output (always use the word 'and').
-6. UK LANGUAGE AND VOCABULARY: Use authentic British English spelling throughout (colour, grey, labour, mould, timber, joinery, hearth, skirting boards, architraves, lime screed, Farrow and Ball, Edwardian/Victorian/Georgian period features).
-7. HIGH-RESOLUTION UNSPLASH QUERIES: Provide 3 exact, descriptive 2-4 word English visual queries for photography curation (e.g. "victorian cast iron hearth", "carved marble mantelpiece detail", "unlacquered brass companion set").
-8. SEO ALT TEXT: Provide an in-depth descriptive ALT text without ampersands for the hero image detailing room architecture, textures, materials, and lighting.
+CORE RULES AND PRINCIPLES:
+1. SEARCH INTENT: Understand the keyword and its exact search intent first. Deliver useful, specific, and practical information that directly satisfies what the reader is looking for.
+2. COMPLETELY ORIGINAL AND NO FIXED TEMPLATES: Create the article completely from scratch. Never follow a fixed article template or predictable H2/H3 pattern. Structure the flow, section order, heading phrasing, and narrative angle uniquely tailored to this specific keyword.
+3. HEADINGS: Generate headings specifically for "${topic}". Avoid generic titles or repeating past structures.
+4. VARIETY AND VOCABULARY: Avoid repetitive wording within the article. Use natural British vocabulary variation (colour, grey, labour, mould, timber, joinery, hearth, plaster). Avoid reusing stale transitions, generic explanations, or filler.
+5. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words across all content sections. Provide real depth, steps, material specs, and design nuances.
+6. TITLE SPECIFICATIONS: Title must be STRICTLY 55 to 60 characters in length with the primary keyword positioned naturally.
+7. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like "The Ultimate", "Unleash", "Unlock", "Delve", "Dive into", "Revolutionize", "Game-changer", "Tapestry", "Supercharge", or "AI". Never mention AI or content generation.
+8. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
+9. TOPIC-SPECIFIC FAQS: Add 3 to 4 concise, practical FAQs directly addressing common questions readers ask about "${topic}".
+10. VISUAL CURATION: Provide 3 high-precision 2-4 word English search phrases for photography and a descriptive, SEO-optimized hero image ALT text without ampersands.
 
 Return ONLY valid JSON matching this exact structure:
 {
-  "title": "Title with exactly 55 to 60 characters and no ampersands",
+  "title": "Title with exactly 55 to 60 characters without ampersands",
   "category": "${category}",
   "readTime": "7 min read",
-  "author": "Marcus Cole",
-  "authorId": "marcus-cole",
-  "role": "Interiors and Period Restoration Editor",
+  "author": "Sarah Jenkins",
+  "authorId": "sarah-jenkins",
+  "role": "London Interior Stylist and Joinery Specialist",
   "date": "September 2026",
-  "heroImageAlt": "Detailed descriptive SEO alt text explaining the architectural proportions, historic materials, and lighting without any ampersands",
+  "heroImageAlt": "Detailed descriptive SEO alt text explaining the room architecture, materials, and lighting without ampersands",
   "unsplashSearchQueries": [
     "precise 2-4 word query 1",
     "precise 2-4 word query 2",
@@ -97,34 +97,48 @@ Return ONLY valid JSON matching this exact structure:
   ],
   "content": [
     {
-      "heading": "1. In-Depth Practical Subheading",
-      "body": "Comprehensive 120 to 170 word section body with rich British architectural context and practical DIY restoration advice."
+      "heading": "Custom Topic-Specific Subheading 1",
+      "body": "Detailed paragraph exploring the practical aspects, background, and specific requirements."
     },
     {
-      "heading": "2. Sourcing Materials and Heritage Techniques",
-      "body": "Detailed 120 to 170 word section on specifications, tools, safety regulations, and authentic finishes.",
+      "heading": "Custom Topic-Specific Subheading 2",
+      "body": "Detailed advice covering materials, craftsmanship, and actionable guidance.",
       "sectionImageQuery": "specific search query for interior details",
       "sectionImageAlt": "Descriptive alt text for detail photo without ampersands",
       "sectionImageCaption": "Subtle editorial caption for detail photo"
     },
     {
-      "heading": "3. UK Building Standards and Flue Safety",
-      "body": "Detailed 120 to 170 word section covering UK Building Regulations, ventilation, and expert execution."
+      "heading": "Custom Topic-Specific Subheading 3",
+      "body": "Detailed expert insights, proportions, or installation steps."
     },
     {
-      "heading": "4. Proportions, Scale, and Mantelpiece Curation",
-      "body": "Detailed 120 to 170 word section on visual balance, contemporary styling, and historic preservation."
+      "heading": "Custom Topic-Specific Subheading 4",
+      "body": "Detailed considerations, UK regulations, or technical specifications."
     },
     {
-      "heading": "5. Common Renovation Mistakes to Avoid",
-      "body": "Detailed 120 to 170 word section highlighting structural pitfalls, moisture management, and lime plaster."
+      "heading": "Custom Topic-Specific Subheading 5",
+      "body": "Detailed common pitfalls, preservation advice, or styling recommendations."
     },
     {
-      "heading": "6. Long-Term Maintenance and Conservation",
-      "body": "Detailed 120 to 170 word concluding masterclass on seasonal care, traditional waxes, and enduring elegance."
+      "heading": "Custom Topic-Specific Subheading 6",
+      "body": "Comprehensive closing guidance tailored to this unique topic."
     }
   ],
-  "tags": ["Living Room", "Period Restoration", "Heritage Crafts", "British Interior"]
+  "faqs": [
+    {
+      "question": "Topic-specific question 1?",
+      "answer": "Concise, highly practical answer addressing the question directly."
+    },
+    {
+      "question": "Topic-specific question 2?",
+      "answer": "Concise, highly practical answer addressing the question directly."
+    },
+    {
+      "question": "Topic-specific question 3?",
+      "answer": "Concise, highly practical answer addressing the question directly."
+    }
+  ],
+  "tags": ["UK Interior", "Craftsmanship", "Home Design"]
 }`;
 
     const response = await generateWithModelFallback({
