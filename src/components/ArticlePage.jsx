@@ -227,16 +227,22 @@ export default function ArticlePage({
           </figure>
 
           {/* Main Article Body */}
-          <div className="text-[#1a1a1a] text-base sm:text-lg leading-[1.85] font-sans space-y-6 pt-2 [&>p]:leading-[1.85] [&>p]:text-[#1a1a1a] [&>p.lead]:text-xl [&>p.lead]:font-serif [&>p.lead]:leading-relaxed [&>p.lead]:text-[#111111] [&>h3]:font-serif [&>h3]:text-2xl sm:[&>h3]:text-[1.65rem] [&>h3]:font-medium [&>h3]:text-[#111111] [&>h3]:pt-8 [&>h3]:mb-3 [&>h3]:leading-snug [&>blockquote]:my-8 [&>blockquote]:py-4 [&>blockquote]:px-6 [&>blockquote]:border-l-2 [&>blockquote]:border-[#C8102E] [&>blockquote]:bg-[#FAF9F6] [&>blockquote]:font-serif [&>blockquote]:italic [&>blockquote]:text-xl sm:[&>blockquote]:text-2xl [&>blockquote]:text-[#111111] [&>blockquote]:leading-relaxed [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:space-y-2 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:space-y-2">
+          <div className="text-[#1a1a1a] text-base sm:text-lg leading-[1.85] font-sans space-y-6 pt-2 [&>p]:leading-[1.85] [&>p]:text-[#1a1a1a] [&>p.lead]:text-xl [&>p.lead]:font-serif [&>p.lead]:leading-relaxed [&>p.lead]:text-[#111111] [&>h2]:font-serif [&>h2]:text-2xl sm:[&>h2]:text-3xl [&>h2]:font-semibold [&>h2]:text-[#111111] [&>h2]:pt-10 [&>h2]:pb-2 [&>h2]:border-b [&>h2]:border-gray-200 [&>h2]:mb-4 [&>h2]:leading-snug [&>h3]:font-serif [&>h3]:text-xl sm:[&>h3]:text-2xl [&>h3]:font-medium [&>h3]:text-[#222222] [&>h3]:pt-6 [&>h3]:mb-3 [&>h3]:leading-snug [&>blockquote]:my-8 [&>blockquote]:py-4 [&>blockquote]:px-6 [&>blockquote]:border-l-2 [&>blockquote]:border-[#C8102E] [&>blockquote]:bg-[#FAF9F6] [&>blockquote]:font-serif [&>blockquote]:italic [&>blockquote]:text-xl sm:[&>blockquote]:text-2xl [&>blockquote]:text-[#111111] [&>blockquote]:leading-relaxed [&>ul]:list-disc [&>ul]:pl-6 [&>ul]:space-y-2 [&>ol]:list-decimal [&>ol]:pl-6 [&>ol]:space-y-2">
             {article.content && typeof article.content === 'string' ? (
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
             ) : Array.isArray(article.content) ? (
               article.content.map((section, idx) => (
                 <div key={idx} className="space-y-4">
                   {section.heading && (
-                    <h3 className="font-serif text-2xl sm:text-[1.65rem] font-medium text-[#111111] pt-8 mb-3 leading-snug">
-                      {section.heading}
-                    </h3>
+                    section.level === 'h3' ? (
+                      <h3 className="font-serif text-xl sm:text-[1.4rem] font-medium text-[#222222] pt-4 mb-2 leading-snug">
+                        {section.heading}
+                      </h3>
+                    ) : (
+                      <h2 className="font-serif text-2xl sm:text-[1.75rem] font-semibold text-[#111111] pt-8 pb-1.5 border-b border-gray-100 mb-3 leading-snug">
+                        {section.heading}
+                      </h2>
+                    )
                   )}
 
                   {section.image && (
@@ -257,9 +263,13 @@ export default function ArticlePage({
                     </figure>
                   )}
 
-                  <p className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal">
-                    {section.body}
-                  </p>
+                  {typeof section.body === 'string' && (
+                    section.body.split(/\n\n+/).map((pText, pIdx) => (
+                      <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal">
+                        {pText.trim()}
+                      </p>
+                    ))
+                  )}
                 </div>
               ))
             ) : null}

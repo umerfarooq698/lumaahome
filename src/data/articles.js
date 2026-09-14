@@ -88,44 +88,76 @@ export const ARTICLES = [
     "readTime": "7 min read",
     "views": "18.2k",
     "isFeatured": true,
-    "excerpt": "A British guide to choosing dining chairs that balance ergonomic proportion, solid hardwood craftsmanship, and tactile upholstery.",
+    "excerpt": "A masterclass in British dining chair design: balancing architectural ergonomics, solid hardwood joinery, tactile textiles, and curated silhouettes.",
     "heroImage": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1600&q=85",
     "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1600&q=85",
-    "heroImageAlt": "Elegant British dining room with handcrafted solid oak dining chairs around a bespoke timber table in an open plan London residence",
-    "imageAlt": "Elegant British dining room with handcrafted solid oak dining chairs around a bespoke timber table in an open plan London residence",
+    "heroImageAlt": "Handcrafted solid oak dining chairs gathered around a bespoke timber dining table in a light-filled British open plan home",
+    "imageAlt": "Handcrafted solid oak dining chairs gathered around a bespoke timber dining table in a light-filled British open plan home",
     "photographer": "Lumaa Home Editorial Curation",
     "photographerUrl": "https://unsplash.com",
     "content": [
       {
-        "heading": "The Golden Architectural Proportions of Dining",
-        "body": "A dining room should cultivate lingering conversations, yet spatial discomfort quickly dismantles even the most hospitable gathering. The foundational discipline of dining chair selection lies in millimetre precision. Interior architects champion the golden thirty centimetre rule: the vertical distance from the compressed top of the chair seat to the underside of the dining tabletop must measure between twenty-five and thirty centimetres. This clearance permits generous thigh room while keeping elbows effortlessly poised above the table surface. When selecting carvers or armchairs, pay meticulous attention to the table apron and underside framework. A low apron rail can obstruct armrests, forcing the chair to protrude awkwardly into primary circulation paths when tucked away. Furthermore, factor in human breadth; allocate at least sixty centimetres of lateral table perimeter per guest to avert jostled cutlery and constrained posture. Achieving these measured clearances transforms everyday dining from an exercise in tolerance into a deeply comforting, ergonomic domestic ritual."
+        "level": "h2",
+        "heading": "Architectural Proportions and Spatial Ergonomics",
+        "body": "A dining room is fundamentally an architectural arena for slow hospitality, celebratory dinners, and extended evening conversation. When seating fails to support human posture with effortless ease, even the most generous dinner party quickly dissolves into restlessness and physical fatigue. Establishing true comfort begins not with superficial styling, but with millimetre-calibrated spatial geometry that respects both human anatomy and the underlying dining table framework. Understanding the precise relationship between seat height, table aprons, perimeter boundaries, and room circulation corridors ensures that your dining environment feels expansive, balanced, and supremely welcoming for every guest."
       },
       {
-        "heading": "Hardwood Integrity and Traditional British Joinery",
-        "body": "Beneath soft upholstery and sculptural silhouettes lies the essential structural integrity of solid timber. In a discerning British home, dining chairs must endure cyclical weight transfers, enthusiastic dinner parties, and restless family breakfasts. True resilience demands kiln-dried hardwoods such as FSC-certified European oak, American walnut, or native ash, prized for their dense cellular grain and natural shock-absorbing resilience. Discard flimsy dowelled flat-pack assemblies in favour of authentic bench-made joinery executed by skilled cabinetmakers. Look for classic mortise and tenon connections reinforced with screwed corner blocks under the seat frame. These traditional joinery methods accommodate natural thermal expansion throughout shifting British seasons without developing structural looseness or irritating creaks. Hand-shaped curves, steam-bent backrests, and smoothly sculpted transitions reveal the maker’s hand, ensuring the chair behaves not as a transient disposable commodity, but as a collectable work of craft designed to mature gracefully through decades of constant companionship.",
+        "level": "h3",
+        "heading": "The Golden Thirty Centimetre Rule",
+        "body": "Interior architects consistently champion the golden thirty centimetre clearance standard: the vertical distance between the compressed top of the chair seat and the underside of the dining tabletop must measure between twenty-five and thirty centimetres. This precise elevation provides generous thigh clearance while ensuring forearms rest naturally upon the table surface without awkward shoulder hunching or slouching. When assessing dimensions, always account for cushion compression on upholstered models; high-density foam or feather-wrapped seats can compress by three to five centimetres when occupied, significantly altering your working dining posture and overall comfort during protracted dinners."
+      },
+      {
+        "level": "h3",
+        "heading": "Carver Armchair Clearances and Perimeter Spacing",
+        "body": "Introducing carver chairs with supportive armrests brings sculptural presence and commanding authority to the table ends, yet they introduce critical clearance considerations. Meticulously inspect the dining table apron rail; an obstructive framework prevents armrests from sliding cleanly beneath the tabletop, forcing chairs to protrude into primary circulation routes when unoccupied. Furthermore, allocate a minimum of sixty centimetres of lateral perimeter per seated guest, expanding to seventy-five centimetres for carvers to ensure unrestricted elbow movement, effortless posture, and seamless wine pouring during lively multi-course entertaining."
+      },
+      {
+        "level": "h2",
+        "heading": "Hardwood Joinery and Structural Craftsmanship",
+        "body": "Beneath soft tactile upholstery and elegant timber curves lies the uncompromising structural foundation of the piece. Dining chairs endure continual mechanical stress, cyclical weight shifts, and daily family use far exceeding almost any other household furniture item. Sourcing furniture crafted from kiln-dried European hardwoods guarantees structural stability and dimensional resilience throughout shifting British seasonal humidity, preventing the loose joints, annoying creaks, and frame failure that inevitably plague mass-manufactured seating assemblies.",
         "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1600&q=85",
-        "imageAlt": "Handcrafted solid timber dining chair frame with traditional mortise and tenon joinery in an artisan workshop",
-        "imageCaption": "Solid timber frames with mortise and tenon joints guarantee decades of dinner party comfort."
+        "imageAlt": "Artisan workshop detail showing handcrafted solid timber dining chair joints and steam bent curves",
+        "imageCaption": "Solid European oak frames with mortise and tenon joinery endure decades of daily domestic use without structural fatigue."
       },
       {
-        "heading": "Tactile Textiles versus Practical Longevity",
-        "body": "Texture defines the dining experience, bridging visual refinement and everyday sensory comfort. When selecting upholstery, one must carefully weigh tactile softness against the realities of domestic hospitality. Belgian linen exudes relaxed sophistication, architectural drape, and breathability, though it demands gentle care in residences hosting young children. Heavyweight textured bouclé introduces contemporary tactile warmth and depth, yet loop snags require consideration around domestic pets. For high-traffic family dining rooms, contract-grade performance velvet is an exceptional choice, resisting pile crushing and liquid spills with surprising resilience. Alternatively, vegetable-tanned saddle leather presents an irreplaceable, durable alternative; natural hide breathes, wipes clean after casual culinary mishaps, and acquires a luminous patina that deepens with age. If opting for exposed timber or woven cane seats, accompany them with bespoke tied cushions in British woven wool to impart intermediate comfort while preserving the chair’s architectural purity."
+        "level": "h3",
+        "heading": "Traditional Mortise and Tenon Construction",
+        "body": "Reject disposable flat-pack alternatives joined solely with metal brackets or dowels in favour of authentic bench-made joinery executed by skilled cabinetmakers. Exceptional dining chairs incorporate hand-fitted mortise and tenon connections reinforced by glued and screwed corner blocks concealed beneath the seat rail. This proven construction accommodates natural microscopic timber movement while preventing frame loosening, wobbles, and annoying creaks across decades of constant companionship, lively family celebrations, and quiet morning coffees."
       },
       {
-        "heading": "Curating Statement Silhouettes and Unified Sets",
-        "body": "The contemporary British interior has evolved past the rigid orthodoxy of identical seating suites, embracing nuanced curations that evoke curated collectors’ homes. Balancing mismatched silhouettes requires architectural discipline to avoid visual discord. The secret lies in establishing a unifying thread across disparate elements. You might introduce sculpturally distinct vintage carvers at the table heads to anchor the setting, while flanking the lengths with uniform side chairs that share identical timber finishes or leg profiles. Alternatively, maintain identical modern chair silhouettes while dressing them in subtle tonal variations of muted moss, charcoal, and warm stone upholstery. Crucially, ensure that seat heights across disparate models remain uniform within a single centimetre; otherwise, guests will sit at differing visual and social levels. This intentional contrast softens the stern formality of elongated tables, infusing grand dining spaces with conversational charm, individual character, and visual lightness."
+        "level": "h3",
+        "heading": "Selecting Enduring Timber Species",
+        "body": "FSC-certified European oak, American walnut, and native ash remain the preeminent timber species for luxury seating. Oak offers extraordinary cellular density and pronounced grain character, responding beautifully to natural beeswax and subtle liming treatments. Walnut introduces rich chocolate undertones and silky tactile warmth that enriches period dining rooms, while close-grained ash permits dramatic steam-bent curved backrests that cradle the spine with organic fluidity, lightweight agility, and architectural grace."
       },
       {
-        "heading": "Weight and Spatial Mobility in Daily Living",
-        "body": "Dining chairs must negotiate a delicate balance between structural gravity and effortless relocation. British domestic spaces demand furniture that transitions smoothly from formal dining settings to relaxed living environments. Our engineering achieves a calibrated mass, ensuring the chair remains firmly planted during use while allowing individuals to lift and reposition it with minimal physical strain. Joinery and timber selection are optimised to reduce superfluous heft without compromising foundational strength. The ergonomics of the underframe and backrest support natural postural shifts throughout extended gatherings. Every piece is meticulously balanced so that daily interaction feels instinctive and fluid, respecting both the floor surfaces beneath and the physical well-being of the occupant. This thoughtful approach transforms a functional seat into a responsive, highly adaptable component of contemporary interior architecture."
+        "level": "h2",
+        "heading": "Tactile Textiles and Acoustic Balance",
+        "body": "Texture defines the immediate physical intimacy of a dining chair, setting the mood between formal elegance and relaxed modern living. In expansive contemporary UK open-plan layouts characterized by polished concrete, marble countertops, glazed bifold doors, and intricate herringbone oak parquet, upholstered dining chairs also play a vital architectural function in dampening harsh acoustic reverberations and softening domestic chatter, transforming echoing halls into warm, acoustically balanced sanctuaries."
       },
       {
-        "heading": "Acoustic Softness and Tactile Floor Protection",
-        "body": "Contemporary UK living frequently centres upon expansive open-plan kitchen and dining zones characterized by hard surfaces: poured polished concrete, marble countertops, and intricate herringbone oak parquet. Without acoustic intervention, the scraping of chair legs and echoing chatter can generate mental fatigue. Upholstered dining chairs serve an essential architectural function here, absorbing high-frequency sound reverberations and softening domestic acoustics during lively gatherings. Equally vital is safeguarding your timber floors against relentless mechanical friction. Avoid generic plastic caps that trap grit and etch fine lines into delicate oil-finished boards. Instead, specify dense, industrial-grade wool felt glides mechanically inserted or countersunk into the base of each timber leg. These high-density buffers dampen harsh scraping sounds when sliding back from the table, allowing seamless, silent movement while preserving delicate heritage finishes across years of domestic entertaining."
+        "level": "h3",
+        "heading": "Upholstery Selections: Velvet, Linen, and Leather",
+        "body": "Selecting upholstery requires balancing tactile allure with everyday practicality. Heavyweight performance velvet with a Martindale rub count exceeding 40,000 cycles resists liquid spills and pile crushing effortlessly, making it an ideal candidate for busy family homes. Belgian linen provides relaxed architectural drape and breathability for calm breakfast rooms, while vegetable-tanned saddle leather offers an indestructible surface that breathes, wipes clean after culinary mishaps, and gathers a luminous patina over decades of affectionate use."
       },
       {
-        "heading": "Enduring Investment for the Contemporary British Home",
-        "body": "Selecting an exceptional dining chair is fundamentally an architectural investment in how you live, host, and unwind. Rather than following ephemeral design fads that exhaust their charm after a few seasons, prioritise enduring proportions, sustainable sourcing, and honest materials. A well-crafted chair balances ergonomics, robust joinery, and tactile materiality to effortlessly support leisurely Sunday roasts as well as focused home working sessions. Periodic care will reward your investment; treat solid timber frames with natural beeswax once a year, brush upholstery weaves regularly, and moisturise leather surfaces to prevent dehydration in central heated rooms. When chosen with discerning restraint, dining chairs outlive their initial dining table companions, migrating through successive residences and gathering rich memories across decades of shared meals, celebratory family toasts, and quiet morning reflections."
+        "level": "h3",
+        "heading": "Floor Protection for Timber and Parquet",
+        "body": "Sliding heavy hardwood chairs across delicate oil-finished oak floorboards can quickly cause irreversible scratching, dulling, and gouging. Discard hard plastic feet that trap abrasive grit and etch dull trails into natural timber. Instead, install dense industrial wool felt glides, mechanically screwed or countersunk into the base of each timber leg. These high-density buffers ensure silent movement, eliminate scraping noise, and preserve heritage parquet flooring for generations."
+      },
+      {
+        "level": "h2",
+        "heading": "The Art of Curating Statement Silhouettes",
+        "body": "Modern British interior design has moved decisively away from matching showroom dining sets, favouring curated collections that feel gathered over time with connoisseurial intent. Achieving visual cohesion across contrasting chair designs requires discipline, balance, and intentional focal points rather than arbitrary mixing, ensuring the dining zone feels curated rather than chaotic, dynamic rather than disjointed, and deeply personal."
+      },
+      {
+        "level": "h3",
+        "heading": "Harmonising Varied Silhouettes and Heights",
+        "body": "To curate mismatched seating without visual chaos, anchor the arrangement with a single unifying characteristic. You might pair sculptural vintage leather carvers at the table heads with minimalist oak spindle chairs along the sides, tied together by matching timber stains or identical brass leg ferrules. Crucially, ensure seat heights across all disparate designs align within one centimetre, preserving social parity and comfortable eye-line alignment across the table during animated dinner conversations."
+      },
+      {
+        "level": "h3",
+        "heading": "Long-Term Preservation and Heirloom Care",
+        "body": "An exceptional dining chair is a true heirloom investment that transcends fleeting decor trends. Nourish solid timber surfaces annually with pure organic beeswax to maintain moisture balance in centrally heated rooms. Lightly vacuum fabric weaves monthly with a soft brush attachment, and treat leather with specialized balms to preserve suppleness. When chosen with discernment and cared for with reverence, dining chairs will gracefully accompany your family through countless memorable feasts, milestone celebrations, and generational gatherings."
       }
     ],
     "faqs": [
@@ -144,12 +176,11 @@ export const ARTICLES = [
     ],
     "tags": [
       "Dining Chairs",
-      "Furniture Guide",
-      "Interior Joinery",
-      "UK Dining Room"
+      "Furniture Architecture",
+      "Joinery Craftsmanship",
+      "Buying Guide"
     ]
   },
-  // LATEST LEAD COVER STORY
   {
     id: 'kitchen-leader-british-luxury',
     title: 'The Modern Kitchen Leader: Defining British Luxury Homes',
