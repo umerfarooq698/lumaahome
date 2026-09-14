@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { ARTICLES, CATEGORIES } from './data/articles';
 import { AUTHORS } from './data/authors';
 import TopBar from './components/TopBar';
@@ -9,10 +9,81 @@ import CategoryPage from './components/CategoryPage';
 import AuthorPage from './components/AuthorPage';
 import ArticlePage from './components/ArticlePage';
 import NewsletterBanner from './components/NewsletterBanner';
-import ArticleModal from './components/ArticleModal';
 import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
+
+// Universal SEO Route Parser for Articles, Categories, and Authors
+function parseCurrentRoute(articlesList) {
+  let hash = window.location.hash.trim();
+  
+  // Normalize leading hash
+  if (hash.startsWith('#/')) {
+    hash = hash.slice(2);
+  } else if (hash.startsWith('#')) {
+    hash = hash.slice(1);
+  }
+
+  // Normalize trailing slash
+  if (hash.endsWith('/')) {
+    hash = hash.slice(0, -1);
+  }
+
+  // 1. Article Route: 'article/:slug'
+  if (hash.startsWith('article/')) {
+    const rawSlug = decodeURIComponent(hash.replace('article/', '')).trim().toLowerCase();
+    const foundArticle = articlesList.find((a) => {
+      const slugMatch = a.slug && a.slug.toLowerCase() === rawSlug;
+      const idMatch = a.id && a.id.toLowerCase() === rawSlug;
+      return slugMatch || idMatch;
+    });
+
+    return {
+      view: 'article',
+      article: foundArticle || null,
+      authorId: null,
+      category: 'all',
+      rawSlug
+    };
+  }
+
+  // 2. Author Profile Route: 'author/:authorId'
+  if (hash.startsWith('author/')) {
+    const rawAuthor = decodeURIComponent(hash.replace('author/', '')).trim().toLowerCase();
+    const foundAuthor = AUTHORS.find((a) => a.id.toLowerCase() === rawAuthor || a.name.toLowerCase() === rawAuthor);
+
+    return {
+      view: 'author',
+      article: null,
+      authorId: foundAuthor ? foundAuthor.id : null,
+      category: 'all',
+      rawSlug: rawAuthor
+    };
+  }
+
+  // 3. Category Archive Route: 'category/:catId'
+  if (hash.startsWith('category/')) {
+    const rawCat = decodeURIComponent(hash.replace('category/', '')).trim().toLowerCase();
+    const foundCat = CATEGORIES.find((c) => c.id.toLowerCase() === rawCat || c.name.toLowerCase() === rawCat);
+
+    return {
+      view: 'category',
+      article: null,
+      authorId: null,
+      category: foundCat ? foundCat.id : 'all',
+      rawSlug: rawCat
+    };
+  }
+
+  // 4. Default: Home Archive
+  return {
+    view: 'home',
+    article: null,
+    authorId: null,
+    category: 'all',
+    rawSlug: ''
+  };
+}
 
 export default function App() {
   const [articlesList, setArticlesList] = useState(() => {
@@ -30,38 +101,8 @@ export default function App() {
     return ARTICLES;
   });
 
-  // 1. Check if hash matches an article slug or id
-  const [activeArticle, setActiveArticle] = useState(() => {
-    const hash = window.location.hash;
-    if (hash.startsWith('#/article/')) {
-      const slug = hash.replace('#/article/', '').trim();
-      return ARTICLES.find(a => a.slug === slug || a.id === slug) || null;
-    }
-    return null;
-  });
-
-  // 2. Check if hash matches an author profile
-  const [activeAuthor, setActiveAuthor] = useState(() => {
-    const hash = window.location.hash;
-    if (hash.startsWith('#/author/')) {
-      const authorId = hash.replace('#/author/', '').trim();
-      const valid = AUTHORS.find(a => a.id === authorId);
-      return valid ? valid.id : null;
-    }
-    return null;
-  });
-
-  // 3. Check if hash matches a category
-  const [activeCategory, setActiveCategory] = useState(() => {
-    const hash = window.location.hash;
-    if (hash.startsWith('#/category/')) {
-      const catId = hash.replace('#/category/', '').trim();
-      const validCategory = CATEGORIES.find(c => c.id === catId);
-      return validCategory ? validCategory.id : 'all';
-    }
-    return 'all';
-  });
-
+  // Current Active Route State
+  const [routeState, setRouteState] = useState(() => parseCurrentRoute(ARTICLES));
   const [searchQuery, setSearchQuery] = useState('');
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
   const [isAIGeneratorOpen, setIsAIGeneratorOpen] = useState(false);
@@ -74,85 +115,78 @@ export default function App() {
     }
   });
 
-  // Navigation to an Article via clean SEO URL slug
-  const handleSelectArticle = (article) => {
-    if (!article) return;
-    setActiveArticle(article);
-    setActiveAuthor(null);
-    setSearchQuery('');
-    const seoSlug = article.slug || article.id;
-    window.history.pushState(null, '', `#/article/${seoSlug}`);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // Navigation to Category
-  const handleCategoryChange = (catId) => {
-    setActiveArticle(null);
-    setActiveAuthor(null);
-    setActiveCategory(catId);
-    setSearchQuery('');
-    if (catId === 'all') {
-      window.history.pushState(null, '', '/');
-    } else {
-      window.history.pushState(null, '', `#/category/${catId}`);
-    }
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // Navigation to Author Profile
-  const handleAuthorChange = (authorId) => {
-    setActiveArticle(null);
-    setActiveAuthor(authorId);
-    setSearchQuery('');
-    window.history.pushState(null, '', `#/author/${authorId}`);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-
-  // Listen to browser back/forward and direct hash changes
-  useEffect(() => {
-    const handlePopState = () => {
-      const hash = window.location.hash;
-      if (hash.startsWith('#/article/')) {
-        const slug = hash.replace('#/article/', '').trim();
-        const found = articlesList.find(a => a.slug === slug || a.id === slug);
-        setActiveArticle(found || null);
-        setActiveAuthor(null);
-      } else if (hash.startsWith('#/author/')) {
-        const authorId = hash.replace('#/author/', '').trim();
-        const valid = AUTHORS.find(a => a.id === authorId);
-        setActiveAuthor(valid ? valid.id : null);
-        setActiveArticle(null);
-        setActiveCategory('all');
-      } else if (hash.startsWith('#/category/')) {
-        const catId = hash.replace('#/category/', '').trim();
-        const validCategory = CATEGORIES.find(c => c.id === catId);
-        setActiveCategory(validCategory ? validCategory.id : 'all');
-        setActiveArticle(null);
-        setActiveAuthor(null);
-      } else {
-        setActiveArticle(null);
-        setActiveAuthor(null);
-        setActiveCategory('all');
-      }
-    };
-
-    window.addEventListener('popstate', handlePopState);
-    window.addEventListener('hashchange', handlePopState);
-    return () => {
-      window.removeEventListener('popstate', handlePopState);
-      window.removeEventListener('hashchange', handlePopState);
-    };
+  // Handle Route Changes from Hash Events
+  const syncRouteFromURL = useCallback(() => {
+    const parsed = parseCurrentRoute(articlesList);
+    setRouteState(parsed);
   }, [articlesList]);
 
-  // Save bookmarks to localStorage
   useEffect(() => {
-    try {
-      localStorage.setItem('lumaa_saved_articles', JSON.stringify(savedIds));
-    } catch (e) {
-      console.error(e);
-    }
-  }, [savedIds]);
+    syncRouteFromURL();
+    window.addEventListener('popstate', syncRouteFromURL);
+    window.addEventListener('hashchange', syncRouteFromURL);
+    return () => {
+      window.removeEventListener('popstate', syncRouteFromURL);
+      window.removeEventListener('hashchange', syncRouteFromURL);
+    };
+  }, [syncRouteFromURL]);
 
+  // Navigate to an Article with SEO slug
+  const handleSelectArticle = (article) => {
+    if (!article) return;
+    const seoSlug = article.slug || article.id;
+    window.history.pushState(null, '', `#/article/${seoSlug}`);
+    setRouteState({
+      view: 'article',
+      article: article,
+      authorId: null,
+      category: article.category || 'all',
+      rawSlug: seoSlug
+    });
+    setSearchQuery('');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Navigate to a Category
+  const handleCategoryChange = (catId) => {
+    setSearchQuery('');
+    if (catId === 'all') {
+      window.history.pushState(null, '', '#/');
+      setRouteState({
+        view: 'home',
+        article: null,
+        authorId: null,
+        category: 'all',
+        rawSlug: ''
+      });
+    } else {
+      window.history.pushState(null, '', `#/category/${catId}`);
+      setRouteState({
+        view: 'category',
+        article: null,
+        authorId: null,
+        category: catId,
+        rawSlug: catId
+      });
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Navigate to an Author Profile
+  const handleAuthorChange = (authorId) => {
+    setSearchQuery('');
+    window.history.pushState(null, '', `#/author/${authorId}`);
+    setRouteState({
+      view: 'author',
+      article: null,
+      authorId: authorId,
+      category: 'all',
+      rawSlug: authorId
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Save/Bookmark toggle
   const toggleSaveArticle = (articleId) => {
     setSavedIds((prev) =>
       prev.includes(articleId)
@@ -160,6 +194,15 @@ export default function App() {
         : [...prev, articleId]
     );
   };
+
+  // Save Bookmarks to LocalStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem('lumaa_saved_articles', JSON.stringify(savedIds));
+    } catch (e) {
+      console.error(e);
+    }
+  }, [savedIds]);
 
   const handleArticleCreated = (newArticle) => {
     setArticlesList((prev) => {
@@ -175,26 +218,28 @@ export default function App() {
     handleSelectArticle(newArticle);
   };
 
-  // Filter articles for category and search
-  const filteredArticles = articlesList.filter((article) => {
-    if (activeCategory !== 'all') {
-      if (article.category !== activeCategory) {
+  // Filter articles for category pages and search
+  const filteredCategoryArticles = articlesList.filter((article) => {
+    if (routeState.category !== 'all') {
+      if (article.category !== routeState.category) {
         return false;
       }
     }
+    return true;
+  });
 
+  const searchedArticles = articlesList.filter((article) => {
     if (searchQuery.trim() !== '') {
       const q = searchQuery.toLowerCase();
       const matchText = (article.title + ' ' + article.excerpt + ' ' + article.author + ' ' + (article.categoryName || article.category)).toLowerCase();
-      if (!matchText.includes(q)) return false;
+      return matchText.includes(q);
     }
-
     return true;
   });
 
   const coverArticle = articlesList.find((a) => a.isCover) || articlesList[0];
   const stackedArticles = articlesList.filter((a) => a.isStacked);
-  const gridArticles = filteredArticles.filter((a) => !a.isCover);
+  const homeGridArticles = articlesList.filter((a) => !a.isCover);
 
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
@@ -204,14 +249,13 @@ export default function App() {
 
         {/* Resident.com Style Centered Header */}
         <Header
-          activeCategory={activeCategory}
+          activeCategory={routeState.view === 'category' ? routeState.category : 'all'}
           setActiveCategory={handleCategoryChange}
           searchQuery={searchQuery}
           setSearchQuery={(q) => {
             setSearchQuery(q);
             if (q) {
-              setActiveArticle(null);
-              setActiveAuthor(null);
+              window.history.pushState(null, '', '#/');
             }
           }}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
@@ -220,59 +264,59 @@ export default function App() {
         {/* Main Content Area */}
         <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8 space-y-12">
 
-          {/* 1. DEDICATED FULL ARTICLE PAGE VIEW (SEO URL SLUG) */}
-          {activeArticle && searchQuery.trim() === '' ? (
+          {/* Search Results Overlay (If user is typing in search bar) */}
+          {searchQuery.trim() !== '' ? (
+            <EditorialGrid
+              articles={searchedArticles}
+              onSelectArticle={handleSelectArticle}
+              onSelectAuthor={handleAuthorChange}
+              sectionTitle={`SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`}
+            />
+          ) : routeState.view === 'article' && routeState.article ? (
+            /* 1. DEDICATED FULL ARTICLE VIEW */
             <ArticlePage
-              article={activeArticle}
+              article={routeState.article}
               allArticles={articlesList}
               onSelectArticle={handleSelectArticle}
               onSelectAuthor={handleAuthorChange}
               onSelectCategory={handleCategoryChange}
               onBackToHome={() => handleCategoryChange('all')}
-              isSaved={savedIds.includes(activeArticle.id)}
+              isSaved={savedIds.includes(routeState.article.id)}
               onToggleSave={toggleSaveArticle}
             />
-          ) : activeAuthor && searchQuery.trim() === '' ? (
+          ) : routeState.view === 'author' && routeState.authorId ? (
             /* 2. DEDICATED AUTHOR PROFILE VIEW */
             <AuthorPage
-              authorId={activeAuthor}
+              authorId={routeState.authorId}
               articles={articlesList}
               onSelectArticle={handleSelectArticle}
               onSelectAuthor={handleAuthorChange}
               onBackToHome={() => handleCategoryChange('all')}
             />
-          ) : activeCategory !== 'all' && searchQuery.trim() === '' ? (
+          ) : routeState.view === 'category' && routeState.category !== 'all' ? (
             /* 3. DEDICATED CATEGORY ARCHIVE VIEW */
             <CategoryPage
-              category={activeCategory}
-              articles={filteredArticles}
+              category={routeState.category}
+              articles={filteredCategoryArticles}
               onSelectArticle={handleSelectArticle}
               onSelectCategory={handleCategoryChange}
               onSelectAuthor={handleAuthorChange}
             />
           ) : (
-            /* 4. HOMEPAGE OR SEARCH RESULTS VIEW */
+            /* 4. HOMEPAGE VIEW */
             <>
-              {/* Homepage Cover Hero (shown on 'all' with no search) */}
-              {activeCategory === 'all' && searchQuery.trim() === '' && (
-                <CoverHero
-                  coverArticle={coverArticle}
-                  stackedArticles={stackedArticles}
-                  onSelectArticle={handleSelectArticle}
-                  onSelectAuthor={handleAuthorChange}
-                />
-              )}
-
-              {/* Main Editorial Articles Grid */}
-              <EditorialGrid
-                articles={activeCategory === 'all' && searchQuery.trim() === '' ? gridArticles : filteredArticles}
+              <CoverHero
+                coverArticle={coverArticle}
+                stackedArticles={stackedArticles}
                 onSelectArticle={handleSelectArticle}
                 onSelectAuthor={handleAuthorChange}
-                sectionTitle={
-                  searchQuery.trim() !== ''
-                    ? `SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`
-                    : "LATEST EDITORIAL STORIES"
-                }
+              />
+
+              <EditorialGrid
+                articles={homeGridArticles}
+                onSelectArticle={handleSelectArticle}
+                onSelectAuthor={handleAuthorChange}
+                sectionTitle="LATEST EDITORIAL STORIES"
               />
             </>
           )}
