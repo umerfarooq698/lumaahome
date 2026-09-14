@@ -36,10 +36,10 @@ export default function ArticlePage({
 
   const author = getAuthorById(article.authorId || article.author);
 
-  // 5-6 latest articles for the left sidebar (excluding current article)
+  // 5 latest articles for the left sidebar (excluding current article)
   const latestArticles = allArticles
     .filter((a) => a.id !== article.id)
-    .slice(0, 6);
+    .slice(0, 5);
 
   // Related articles in the same category
   const relatedArticles = allArticles.filter(
