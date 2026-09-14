@@ -8,7 +8,6 @@ import EditorialGrid from './components/EditorialGrid';
 import CategoryPage from './components/CategoryPage';
 import AuthorPage from './components/AuthorPage';
 import ArticlePage from './components/ArticlePage';
-import NewsletterBanner from './components/NewsletterBanner';
 import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
@@ -351,9 +350,6 @@ export default function App() {
               />
             </>
           )}
-
-          {/* Luxury Newsletter VIP Section */}
-          <NewsletterBanner />
 
         </main>
       </div>
