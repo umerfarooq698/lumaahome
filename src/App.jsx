@@ -176,9 +176,9 @@ export default function App() {
   const [savedIds, setSavedIds] = useState(() => {
     try {
       const saved = localStorage.getItem('lumaa_saved_articles');
-      return saved ? JSON.parse(saved) : ['kensington-townhouse'];
+      return saved ? JSON.parse(saved) : [];
     } catch (e) {
-      return ['kensington-townhouse'];
+      return [];
     }
   });
 
