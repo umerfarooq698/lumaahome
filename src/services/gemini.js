@@ -82,7 +82,7 @@ STRICT EDITORIAL AND WRITING STANDARDS:
 9. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Game-changer', 'Tapestry', 'Supercharge', or 'AI'. Never mention AI or content generation.
 10. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
 11. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
-12. TOPIC-SPECIFIC FAQS: Add 3 to 4 concise, practical FAQs at the end.
+12. TOPIC-SPECIFIC FAQS (SHORT QUESTIONS AND SHORT CRISP ANSWERS): Add 3 to 4 concise, practical FAQs. Both the question and answer must be short, punchy, and direct (question under 10-12 words, answer strictly 1 to 2 crisp sentences delivering immediate practical value).
 13. VISUAL CURATION: Provide 3 high-precision 2-4 word English visual queries for photography and a descriptive SEO ALT text without ampersands.
 
 Return ONLY valid JSON matching this exact structure:
@@ -137,16 +137,16 @@ Return ONLY valid JSON matching this exact structure:
   ],
   "faqs": [
     {
-      "question": "Topic-specific question 1?",
-      "answer": "Concise, highly practical answer."
+      "question": "What is the ideal seat-to-table clearance?",
+      "answer": "Maintain a 25 to 30 centimetre gap between the seat and table underside for comfortable legroom."
     },
     {
-      "question": "Topic-specific question 2?",
-      "answer": "Concise, highly practical answer."
+      "question": "Can you mix different chair styles?",
+      "answer": "Yes, ensure seat heights are aligned and tie different shapes together with matching wood tones or fabric palettes."
     },
     {
-      "question": "Topic-specific question 3?",
-      "answer": "Concise, highly practical answer."
+      "question": "Which fabric offers the highest durability?",
+      "answer": "Contract-grade performance velvet and treated saddle leather provide the best stain resistance and longevity."
     }
   ],
   "tags": ["UK Interior", "Craftsmanship", "Home Design"]

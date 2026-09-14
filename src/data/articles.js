@@ -162,16 +162,16 @@ export const ARTICLES = [
     ],
     "faqs": [
       {
-        "question": "What is the standard height gap between a dining chair and table?",
-        "answer": "The ideal clearance between the compressed top of the dining chair seat and the underside of the dining table is twenty-five to thirty centimetres, allowing ample thigh room and comfortable posture."
+        "question": "What is the ideal seat-to-table clearance?",
+        "answer": "Maintain a 25 to 30 centimetre gap between the seat top and table underside for optimal legroom."
       },
       {
-        "question": "How do you mix and match different dining chair styles successfully?",
-        "answer": "Anchor the layout with a unifying element, such as matching wood tones, identical seat heights, or a harmonious upholstery colour palette across varied silhouettes."
+        "question": "Can you mix different dining chair styles?",
+        "answer": "Yes, keep seat heights identical and unify different designs with matching timber finishes or fabric tones."
       },
       {
-        "question": "Which upholstery fabric is most durable for family dining spaces?",
-        "answer": "High-rub performance velvet, tightly woven wool blends, and treated saddle leather offer exceptional stain resistance, easy cleaning, and longevity for everyday dining."
+        "question": "Which dining chair fabric lasts longest?",
+        "answer": "Contract-grade performance velvet and treated saddle leather offer the highest stain resistance and durability."
       }
     ],
     "tags": [
