@@ -66,48 +66,65 @@ async function generateWithModelFallback(requestConfig) {
 export async function generateArticleWithGemini({ topic, category = 'Living Room' }) {
   try {
     
-    const prompt = `You are the Editor-in-Chief of LUMAA HOME™, a premier British luxury home decor, architectural living, and bespoke DIY magazine based in London, UK.
+    const prompt = `You are the Senior Editorial Director and Heritage Copywriter of LUMAA HOME™, a premier British luxury home decor, architectural living, and bespoke DIY magazine based in London, UK.
 
-Generate a comprehensive, beautifully written luxury editorial article on the topic: "${topic}" for the category: "${category}".
+Generate an authoritative, richly detailed luxury editorial article on the topic / keyword: "${topic}" for the category: "${category}".
 
-IMPORTANT EDITORIAL RULES:
-1. NEVER use the '&' character anywhere in the entire output. Always use the word 'and'.
-2. Tone: Sophisticated British luxury, authoritative, inspiring, elegant, practical for UK homes (Victorian, Georgian, Edwardian, contemporary flats, Cotswolds cottages).
-3. Provide realistic British interior details (Farrow and Ball palettes, Edwardian moldings, limestone flags, bespoke joinery, brass fixtures).
-4. Provide 3 specific, high-precision English search phrases for the Unsplash photo search (e.g. "bespoke in frame kitchen joinery", "honed marble kitchen island", "luxury british kitchen").
-5. Provide a custom, detailed, SEO-optimized ALT text describing the architecture, lighting, textures, and British styling of the room without any ampersands.
+CRITICAL EDITORIAL AND SEO SPECIFICATIONS:
+1. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words across all content sections. Do not write shallow summaries. Ensure every section provides thorough, practical, and highly engaging depth.
+2. ARTICLE STRUCTURE: Provide 6 to 8 comprehensive sub-sections in the "content" array. Each section must contain 120 to 170 words of authentic, natural narrative covering practical techniques, materials, UK building standards, proportion rules, and step-by-step guidance.
+3. TITLE LENGTH AND SEO: The title must be STRICTLY 55 to 60 characters in length (count every letter and space). The primary keyword must fit smoothly and naturally into the title.
+4. BANNED PHRASES: NEVER use AI clichés or overused buzzwords such as "The Ultimate", "Unleash", "Unlock", "Delve", "Dive into", "Revolutionize", "Game-changer", "Tapestry", "Supercharge", or "AI".
+5. NO AMPERSAND: NEVER use the '&' symbol anywhere in the output (always use the word 'and').
+6. UK LANGUAGE AND VOCABULARY: Use authentic British English spelling throughout (colour, grey, labour, mould, timber, joinery, hearth, skirting boards, architraves, lime screed, Farrow and Ball, Edwardian/Victorian/Georgian period features).
+7. HIGH-RESOLUTION UNSPLASH QUERIES: Provide 3 exact, descriptive 2-4 word English visual queries for photography curation (e.g. "victorian cast iron hearth", "carved marble mantelpiece detail", "unlacquered brass companion set").
+8. SEO ALT TEXT: Provide an in-depth descriptive ALT text without ampersands for the hero image detailing room architecture, textures, materials, and lighting.
 
-Return ONLY valid JSON with this exact structure:
+Return ONLY valid JSON matching this exact structure:
 {
-  "title": "Article Title without any ampersands",
+  "title": "Title with exactly 55 to 60 characters and no ampersands",
   "category": "${category}",
-  "readTime": "6 min read",
-  "author": "Author Name, Title (e.g. Eleanor Vance, Architectural Editor)",
+  "readTime": "7 min read",
+  "author": "Marcus Cole",
+  "authorId": "marcus-cole",
+  "role": "Interiors and Period Restoration Editor",
   "date": "September 2026",
-  "heroImageAlt": "Detailed descriptive SEO alt text explaining the room architecture, materials, and styling without any ampersands",
+  "heroImageAlt": "Detailed descriptive SEO alt text explaining the architectural proportions, historic materials, and lighting without any ampersands",
   "unsplashSearchQueries": [
-    "precise 2-3 word query 1",
-    "precise 2-3 word query 2",
-    "precise 2-3 word query 3"
+    "precise 2-4 word query 1",
+    "precise 2-4 word query 2",
+    "precise 2-4 word query 3"
   ],
   "content": [
     {
-      "heading": "Section Heading",
-      "body": "Detailed paragraph discussing design philosophy, materials, and architectural considerations."
+      "heading": "1. In-Depth Practical Subheading",
+      "body": "Comprehensive 120 to 170 word section body with rich British architectural context and practical DIY restoration advice."
     },
     {
-      "heading": "Design Principles and Styling Notes",
-      "body": "Actionable design rules, proportion advice, and lighting curation.",
+      "heading": "2. Sourcing Materials and Heritage Techniques",
+      "body": "Detailed 120 to 170 word section on specifications, tools, safety regulations, and authentic finishes.",
       "sectionImageQuery": "specific search query for interior details",
       "sectionImageAlt": "Descriptive alt text for detail photo without ampersands",
       "sectionImageCaption": "Subtle editorial caption for detail photo"
     },
     {
-      "heading": "The British Artisan Perspective",
-      "body": "UK heritage context, sourcing bespoke craftsmanship, and sustainable luxury."
+      "heading": "3. UK Building Standards and Flue Safety",
+      "body": "Detailed 120 to 170 word section covering UK Building Regulations, ventilation, and expert execution."
+    },
+    {
+      "heading": "4. Proportions, Scale, and Mantelpiece Curation",
+      "body": "Detailed 120 to 170 word section on visual balance, contemporary styling, and historic preservation."
+    },
+    {
+      "heading": "5. Common Renovation Mistakes to Avoid",
+      "body": "Detailed 120 to 170 word section highlighting structural pitfalls, moisture management, and lime plaster."
+    },
+    {
+      "heading": "6. Long-Term Maintenance and Conservation",
+      "body": "Detailed 120 to 170 word concluding masterclass on seasonal care, traditional waxes, and enduring elegance."
     }
   ],
-  "tags": ["Living Room", "UK Design", "Heritage", "Lighting"]
+  "tags": ["Living Room", "Period Restoration", "Heritage Crafts", "British Interior"]
 }`;
 
     const response = await generateWithModelFallback({
