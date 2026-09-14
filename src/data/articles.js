@@ -89,6 +89,7 @@ export const ARTICLES = [
     "views": "18.2k",
     "isFeatured": true,
     "excerpt": "A masterclass in British dining chair design: balancing architectural ergonomics, solid hardwood joinery, tactile textiles, and curated silhouettes.",
+    "metaDescription": "Select dining chairs with solid European oak joinery, precise thirty centimetre clearances, durable upholstery, and parquet floor buffers.",
     "heroImage": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1600&q=85",
     "image": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1600&q=85",
     "heroImageAlt": "Handcrafted solid oak dining chairs gathered around a natural timber dining table in an elegant British residence",

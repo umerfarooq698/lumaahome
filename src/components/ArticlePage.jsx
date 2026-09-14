@@ -16,7 +16,20 @@ export default function ArticlePage({
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [article?.id, article?.slug]);
+    if (article?.title) {
+      document.title = `${article.title} | LUMAA HOME™`;
+    }
+    const metaDesc = article?.metaDescription || article?.excerpt;
+    if (metaDesc) {
+      let tag = document.querySelector('meta[name="description"]');
+      if (!tag) {
+        tag = document.createElement('meta');
+        tag.name = 'description';
+        document.head.appendChild(tag);
+      }
+      tag.content = metaDesc;
+    }
+  }, [article?.id, article?.slug, article?.title, article?.metaDescription, article?.excerpt]);
 
   if (!article) {
     return (
