@@ -136,6 +136,73 @@ export const ARTICLES = [
 
   // LIVING ROOM
   {
+    id: 'sofa-seat-covers-buying-guide',
+    title: 'Styling and Fitting Luxury Sofa Seat Covers in UK Homes',
+    slug: 'styling-and-fitting-luxury-sofa-seat-covers-uk-homes',
+    category: 'living-room',
+    categoryName: 'Living Room',
+    categoryLabel: 'BUYING GUIDE • LIVING ROOM',
+    author: 'Sarah Jenkins',
+    authorId: 'sarah-jenkins',
+    role: 'London Interior Stylist and Joinery Specialist',
+    date: 'September 14, 2026',
+    readTime: '7 min read',
+    views: '16.2k',
+    excerpt: 'A British guide to choosing, measuring, and styling bespoke sofa seat covers to protect cushion cores and elevate your living room.',
+    heroImage: 'https://images.unsplash.com/photo-1759722665610-e13e59aa117b?auto=format&fit=crop&w=1600&q=85',
+    heroImageAlt: 'Tailored neutral linen sofa seat covers fitted neatly on a deep cushion sofa in a bright London townhouse living room',
+    imageAlt: 'Tailored neutral linen sofa seat covers fitted neatly on a deep cushion sofa in a bright London townhouse living room',
+    content: [
+      {
+        heading: '1. Revitalising Tired Living Rooms with Bespoke Slipcovers',
+        body: 'Every British homeowner knows the quiet disappointment of a sagging, stained, or dated sofa cushion. When the underlying hardwood frame remains structurally sound, discarding the entire sofa is an unnecessary financial expense and an avoidable environmental waste. Investing in high quality bespoke sofa seat covers offers an intelligent architectural solution to rejuvenate your main living space without the disruption of a complete furniture overhaul. Whether your interior aesthetic leans toward relaxed Cotswolds country charm, Georgian symmetry, or tailored Mayfair minimalism, updated seat casings allow you to introduce rich tactile depth into your seating arrangements. By replacing tired, faded fabrics with crisp Belgian linens, heavyweight bouclé, or deep jewel-toned velvets, you instantly transform the visual presence of your room while shielding valuable high-density foam and duck feather cushion cores from daily wear and tear.'
+      },
+      {
+        heading: '2. Choosing Between Tailored Individual Covers and Stretch Fabrics',
+        body: 'When exploring replacement options, homeowners generally encounter two distinct construction styles. Universal stretch covers crafted from elastane-polyester blends offer a quick, low-cost update, but they frequently slip out of place, lose elasticity after laundering, and require frustrating daily re-tucking after family use. In contrast, discerning interior designers advocate for bespoke tailored slipcovers fashioned from non-stretch woven textiles. Tailored covers feature individually cut panels, heavy-gauge concealed YKK zip fastenings, reinforced French seams, and traditional piped edging that precisely echoes the contours of the original seat. While custom tailoring requires careful initial specification and craftsmanship, the resulting clean silhouette remains immaculately taut, delivering the refined finish of a professionally reupholstered suite that enhances your room proportion.'
+      },
+      {
+        heading: '3. Selecting Durable Fabrics for Family Homes and Pets',
+        body: 'Residential living spaces demand upholstery textiles capable of withstanding active households, pet claws, and occasional beverage spills. Heavyweight Belgian linen remains a perennial favourite among British stylists, providing a breathable, tactile texture that softens gracefully with laundering while naturally repelling dust mites. For homes with dogs or cats, dense cotton velvet is an exceptional choice; its tightly sheared pile prevents claws from snagging in the weave and resists immediate liquid penetration when treated promptly with a dry cloth. Alternatively, pure British wool tweed offers natural stain repellency courtesy of organic lanolin fibres, combined with remarkable abrasion resistance exceeding 40,000 Martindale rubs. Avoid loose jacquards or delicate silks on primary seat cushions, as high-friction friction zones will cause premature pilling and seam distortion.',
+        sectionImageQuery: 'velvet sofa cushion detail',
+        image: 'https://images.unsplash.com/photo-1638191376884-f371a22c719f?auto=format&fit=crop&w=1600&q=85',
+        imageAlt: 'Detail of tailored velvet sofa cushion upholstery with neat piped edge seams',
+        imageCaption: 'Dense cotton velvet and tailored piped seams deliver durable protection with timeless elegance.'
+      },
+      {
+        heading: '4. Mastering Precise Measurements for Box and T-Cushions',
+        body: 'The difference between an ill-fitting cover and a bespoke masterpiece lies in meticulous measurement. When recording dimensions, always remove the old covers and measure the interior foam or down core directly while resting on a level surface, as stretched fabric casings provide deceptive numbers. Record the maximum width across the front edge, the width across the rear, the depth from front to back, and the vertical boxing depth between seam lines. For asymmetrical T-cushions common on traditional Howard-style sofas, carefully measure the projection and width of the front wing extensions. Be sure to account for cushion crown fullness by measuring across the deepest central point. Providing these precise measurements to your upholsterer guarantees that the new sofa seat covers slip snugly over the filling without unsightly fabric pooling or seam strain.'
+      },
+      {
+        heading: '5. Navigating UK Furniture and Fire Safety Regulations',
+        body: 'Safety compliance is a critical consideration when introducing new soft furnishings into UK residences. Under the Furniture and Furnishings (Fire) (Safety) Regulations 1988, all permanent and loose upholstered covers supplied in Great Britain must satisfy stringent cigarette and match resistance criteria outlined in BS 5852. While synthetic blends are frequently treated with flame-retardant chemistry, natural linens and untreated wools must be paired with an approved Schedule 3 fire-resistant interliner cloth positioned between the outer cover and the cushion filling. Ensuring that your replacement sofa seat covers comply with British safety certifications guarantees both legal peace of mind and essential protection for your household, especially when updating rental properties or heritage holiday cottages.'
+      },
+      {
+        heading: '6. Practical Maintenance and Seasonal Fabric Rotation',
+        body: 'To preserve the crisp elegance of your tailored seat covers, establish a straightforward seasonal maintenance routine. Rotate and flip reversible cushions fortnightly to distribute compression evenly across the filling and prevent localized fabric shading. When cleaning is required, verify whether your textile permits a gentle cold machine wash or mandates specialist eco-dry cleaning to prevent dimensional shrinkage. For everyday upkeep, use a soft velvet brush attachment on your vacuum cleaner to lift dust from piping crevices. Immediate blot cleaning with an absorbent white cotton cloth prevents spills from setting into deeper fibres. Investing in dual seasonal sets—lightweight oyster linen for summer and textured warm wool for British winters—ensures your sofa remains a captivating focal point for years to come.'
+      },
+      {
+        heading: '7. Colour Curation and Harmonising with UK Interior Palettes',
+        body: 'Selecting the ideal shade for your sofa seat covers requires careful consideration of ambient light and adjacent architectural features. In north-facing British drawing rooms where natural daylight is often cool and grey, introduce warming tones such as Cotswold ochre, warm terracotta, soft fawn, or muted moss green to inject welcoming visual depth. Conversely, south-facing living areas benefit from calm oyster neutrals, deep indigo, or chalky mineral tones that maintain their composure under bright sunshine. Ensure the fabric tone harmonises with existing heritage wall colours from Farrow and Ball or Little Greene, such as Setting Plaster, Inchyra Blue, or School House White. Layering textured linen scatter cushions and a pure cashmere throw over your newly covered seat creates an inviting, tactile sanctuary designed for elegant British living.'
+      }
+    ],
+    faqs: [
+      {
+        question: 'Can I order custom sofa seat covers for irregular T-shaped cushions?',
+        answer: 'Yes, bespoke makers regularly produce tailored covers for T-cushions by taking separate measurements for the main body depth, back width, and the extended front ear projections.'
+      },
+      {
+        question: 'Which fabric is best for sofa seat covers in homes with pets?',
+        answer: 'Heavy cotton velvet and tightly woven performance linens are best because the absence of loose woven loops prevents claws from catching and snagging the fabric.'
+      },
+      {
+        question: 'Do replacement loose covers need to comply with UK fire regulations?',
+        answer: 'Yes, loose sofa covers sold in the UK must pass BS 5852 ignition tests or be used in conjunction with a certified fire-resistant barrier interliner.'
+      }
+    ],
+    tags: ['Living Room', 'Sofa Seat Covers', 'Home Styling', 'Upholstery Guide']
+  },
+  {
     id: 'victorian-fireplace-restoration-advice',
     title: 'Victorian Fireplace Restoration: Advice for Period Homes',
     slug: 'victorian-fireplace-restoration-advice-period-homes',
