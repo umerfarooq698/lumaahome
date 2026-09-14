@@ -6,7 +6,8 @@ export default function CategoryPage({
   category, 
   articles, 
   onSelectArticle, 
-  onSelectCategory 
+  onSelectCategory,
+  onSelectAuthor 
 }) {
   const categoryInfo = CATEGORIES.find(c => c.id === category) || {
     id: category,
@@ -121,7 +122,15 @@ export default function CategoryPage({
               </p>
 
               <div className="pt-4 border-t border-gray-200 flex items-center justify-between text-[11px] text-gray-500 uppercase tracking-wider font-bold">
-                <span>BY {leadArticle.author}</span>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    if (onSelectAuthor) onSelectAuthor(leadArticle.authorId || 'eleanor-vance');
+                  }}
+                  className="hover:text-black hover:underline transition"
+                >
+                  BY {leadArticle.author}
+                </button>
                 <span className="text-black group-hover:text-[#C8102E] flex items-center gap-1">
                   READ FEATURE →
                 </span>
@@ -154,7 +163,7 @@ export default function CategoryPage({
                 <div className="space-y-3">
                   <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black transition">
                     <img
-                      src={art.heroImage}
+                      src={art.heroImage || art.image}
                       alt={art.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                     />
@@ -174,7 +183,15 @@ export default function CategoryPage({
                 </div>
 
                 <div className="pt-3 text-[10px] font-bold text-gray-400 tracking-wider uppercase border-t border-gray-100 flex items-center justify-between">
-                  <span>BY {art.author.toUpperCase()}</span>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      if (onSelectAuthor) onSelectAuthor(art.authorId || 'eleanor-vance');
+                    }}
+                    className="hover:text-black hover:underline transition"
+                  >
+                    BY {art.author.toUpperCase()}
+                  </button>
                   <span className="text-black group-hover:text-[#C8102E]">
                     {art.readTime} • READ →
                   </span>

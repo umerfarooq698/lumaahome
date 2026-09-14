@@ -1,41 +1,45 @@
 import React from 'react';
 
-export default function EditorialGrid({ articles, onSelectArticle, sectionTitle = "LATEST EDITORIAL STORIES" }) {
+export default function EditorialGrid({ 
+  articles, 
+  onSelectArticle, 
+  onSelectAuthor,
+  sectionTitle = "LATEST EDITORIAL STORIES" 
+}) {
   if (!articles || articles.length === 0) {
     return (
-      <div className="text-center py-16 text-gray-500 text-sm">
-        No articles found matching your query.
+      <div className="py-12 text-center text-gray-500 font-serif">
+        No articles found.
       </div>
     );
   }
 
   return (
-    <section className="space-y-8">
-      {/* Section Header */}
-      <div className="flex items-center justify-between border-b-2 border-black pb-3">
-        <h2 className="font-serif text-xl sm:text-2xl font-black uppercase tracking-wider text-black">
+    <section className="space-y-6">
+      <div className="border-b-2 border-black pb-2 flex items-center justify-between">
+        <h2 className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-black uppercase">
           {sectionTitle}
         </h2>
-        <span className="text-xs text-gray-400 font-bold uppercase tracking-widest hidden sm:inline">
-          UK VOLUME N°12
+        <span className="text-[10px] font-bold text-gray-500 tracking-widest uppercase">
+          {articles.length} ARTICLES
         </span>
       </div>
 
-      {/* 3-Column Luxury Card Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {articles.map((article) => (
           <article
             key={article.id}
             onClick={() => onSelectArticle(article)}
-            className="space-y-4 group cursor-pointer flex flex-col justify-between"
+            className="group cursor-pointer flex flex-col justify-between border-b border-gray-200 pb-6 transition"
           >
             <div className="space-y-3">
-              {/* Card Image */}
-              <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black transition">
+              {/* Photo Container */}
+              <div className="relative aspect-[16/10] overflow-hidden bg-gray-100">
                 <img
-                  src={article.heroImage}
+                  src={article.heroImage || article.image}
                   alt={article.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500 ease-out"
+                  className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-out"
+                  loading="lazy"
                 />
               </div>
 
@@ -55,7 +59,15 @@ export default function EditorialGrid({ articles, onSelectArticle, sectionTitle 
 
             {/* Author Footer */}
             <div className="pt-3 text-[10px] font-bold text-gray-400 tracking-wider uppercase border-t border-gray-100 flex items-center justify-between">
-              <span>BY {article.author.toUpperCase()}</span>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (onSelectAuthor) onSelectAuthor(article.authorId || 'eleanor-vance');
+                }}
+                className="hover:text-black hover:underline transition"
+              >
+                BY {article.author.toUpperCase()}
+              </button>
               <span className="text-black group-hover:text-[#C8102E] font-bold">
                 READ ARTICLE →
               </span>

@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { ARTICLES, CATEGORIES } from './data/articles';
+import { AUTHORS } from './data/authors';
 import TopBar from './components/TopBar';
 import Header from './components/Header';
 import CoverHero from './components/CoverHero';
 import EditorialGrid from './components/EditorialGrid';
 import CategoryPage from './components/CategoryPage';
+import AuthorPage from './components/AuthorPage';
 import NewsletterBanner from './components/NewsletterBanner';
 import ArticleModal from './components/ArticleModal';
 import SubscribeModal from './components/SubscribeModal';
@@ -27,11 +29,24 @@ export default function App() {
     return ARTICLES;
   });
 
+  const [activeAuthor, setActiveAuthor] = useState(() => {
+    const hash = window.location.hash;
+    if (hash.startsWith('#/author/')) {
+      const authorId = hash.replace('#/author/', '').trim();
+      const valid = AUTHORS.find(a => a.id === authorId);
+      return valid ? valid.id : null;
+    }
+    return null;
+  });
+
   const [activeCategory, setActiveCategory] = useState(() => {
-    // Check URL hash on load
-    const hash = window.location.hash.replace('#/category/', '').replace('#/', '');
-    const validCategory = CATEGORIES.find(c => c.id === hash);
-    return validCategory ? validCategory.id : 'all';
+    const hash = window.location.hash;
+    if (hash.startsWith('#/category/')) {
+      const catId = hash.replace('#/category/', '').trim();
+      const validCategory = CATEGORIES.find(c => c.id === catId);
+      return validCategory ? validCategory.id : 'all';
+    }
+    return 'all';
   });
 
   const [searchQuery, setSearchQuery] = useState('');
@@ -47,8 +62,9 @@ export default function App() {
     }
   });
 
-  // Sync category changes with URL hash and scroll to top
+  // Sync category changes
   const handleCategoryChange = (catId) => {
+    setActiveAuthor(null);
     setActiveCategory(catId);
     setSearchQuery('');
     if (catId === 'all') {
@@ -59,12 +75,32 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Sync author profile navigation
+  const handleAuthorChange = (authorId) => {
+    setActiveAuthor(authorId);
+    setSearchQuery('');
+    window.history.pushState(null, '', `#/author/${authorId}`);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   // Listen to browser back/forward buttons
   useEffect(() => {
     const handlePopState = () => {
-      const hash = window.location.hash.replace('#/category/', '').replace('#/', '');
-      const validCategory = CATEGORIES.find(c => c.id === hash);
-      setActiveCategory(validCategory ? validCategory.id : 'all');
+      const hash = window.location.hash;
+      if (hash.startsWith('#/author/')) {
+        const authorId = hash.replace('#/author/', '').trim();
+        const valid = AUTHORS.find(a => a.id === authorId);
+        setActiveAuthor(valid ? valid.id : null);
+        setActiveCategory('all');
+      } else if (hash.startsWith('#/category/')) {
+        const catId = hash.replace('#/category/', '').trim();
+        const validCategory = CATEGORIES.find(c => c.id === catId);
+        setActiveCategory(validCategory ? validCategory.id : 'all');
+        setActiveAuthor(null);
+      } else {
+        setActiveCategory('all');
+        setActiveAuthor(null);
+      }
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
@@ -140,15 +176,26 @@ export default function App() {
         {/* Main Content Area */}
         <main className="max-w-7xl mx-auto px-4 sm:px-6 mt-8 space-y-12">
 
-          {/* If a specific category is active and no active search query, render dedicated CategoryPage! */}
-          {activeCategory !== 'all' && searchQuery.trim() === '' ? (
+          {/* 1. AUTHOR PROFILE VIEW */}
+          {activeAuthor && searchQuery.trim() === '' ? (
+            <AuthorPage
+              authorId={activeAuthor}
+              articles={articlesList}
+              onSelectArticle={(art) => setSelectedArticle(art)}
+              onSelectAuthor={handleAuthorChange}
+              onBackToHome={() => handleCategoryChange('all')}
+            />
+          ) : activeCategory !== 'all' && searchQuery.trim() === '' ? (
+            /* 2. CATEGORY ARCHIVE VIEW */
             <CategoryPage
               category={activeCategory}
               articles={filteredArticles}
               onSelectArticle={(art) => setSelectedArticle(art)}
               onSelectCategory={handleCategoryChange}
+              onSelectAuthor={handleAuthorChange}
             />
           ) : (
+            /* 3. HOMEPAGE / SEARCH RESULTS VIEW */
             <>
               {/* Homepage Cover Hero (shown on 'all' with no search) */}
               {activeCategory === 'all' && searchQuery.trim() === '' && (
@@ -156,6 +203,7 @@ export default function App() {
                   coverArticle={coverArticle}
                   stackedArticles={stackedArticles}
                   onSelectArticle={(art) => setSelectedArticle(art)}
+                  onSelectAuthor={handleAuthorChange}
                 />
               )}
 
@@ -163,6 +211,7 @@ export default function App() {
               <EditorialGrid
                 articles={activeCategory === 'all' && searchQuery.trim() === '' ? gridArticles : filteredArticles}
                 onSelectArticle={(art) => setSelectedArticle(art)}
+                onSelectAuthor={handleAuthorChange}
                 sectionTitle={
                   searchQuery.trim() !== ''
                     ? `SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`
@@ -181,6 +230,7 @@ export default function App() {
       {/* Luxury Footer */}
       <Footer
         onSelectCategory={handleCategoryChange}
+        onSelectAuthor={handleAuthorChange}
       />
 
       {/* Single Article Reader Modal */}
@@ -190,6 +240,7 @@ export default function App() {
           onClose={() => setSelectedArticle(null)}
           isSaved={savedIds.includes(selectedArticle.id)}
           onToggleSave={toggleSaveArticle}
+          onSelectAuthor={handleAuthorChange}
         />
       )}
 

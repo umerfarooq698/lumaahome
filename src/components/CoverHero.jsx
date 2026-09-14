@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function CoverHero({ coverArticle, stackedArticles, onSelectArticle }) {
+export default function CoverHero({ coverArticle, stackedArticles, onSelectArticle, onSelectAuthor }) {
   if (!coverArticle) return null;
 
   return (
@@ -34,7 +34,15 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
               </p>
               
               <div className="text-[11px] text-gray-300 tracking-wider uppercase pt-3 border-t border-gray-700/80 flex items-center gap-4">
-                <span className="font-bold text-white">BY {coverArticle.author.toUpperCase()}</span>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    if (onSelectAuthor) onSelectAuthor(coverArticle.authorId || 'eleanor-vance');
+                  }}
+                  className="font-bold text-white hover:text-[#C8102E] transition underline decoration-gray-500 hover:decoration-[#C8102E]"
+                >
+                  BY {coverArticle.author.toUpperCase()}
+                </button>
                 <span>•</span>
                 <span>{coverArticle.date}</span>
                 <span>•</span>
@@ -75,7 +83,15 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
               </p>
               
               <div className="text-[10px] font-bold text-gray-400 tracking-wider uppercase pt-1 flex items-center justify-between">
-                <span>BY {article.author.toUpperCase()}</span>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    if (onSelectAuthor) onSelectAuthor(article.authorId || 'eleanor-vance');
+                  }}
+                  className="hover:text-black hover:underline transition"
+                >
+                  BY {article.author.toUpperCase()}
+                </button>
                 <span className="text-black group-hover:text-[#C8102E]">{article.readTime}</span>
               </div>
             </div>

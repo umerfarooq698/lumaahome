@@ -1,19 +1,41 @@
 import React from 'react';
 import { CATEGORIES } from '../data/articles';
+import { AUTHORS } from '../data/authors';
 import Logo from './Logo';
 
-export default function Footer({ onSelectCategory }) {
+export default function Footer({ onSelectCategory, onSelectAuthor }) {
   return (
     <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-gray-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
         
-        {/* Col 1: Brand */}
+        {/* Col 1: Brand & Masthead */}
         <div className="space-y-4">
           <Logo size="small" />
           <p className="text-[11px] leading-relaxed text-gray-500 font-light">
             The UK's premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine. Printed and published digitally in London, UK.
           </p>
-          <div className="text-[10px] uppercase font-bold text-gray-400 tracking-widest">
+          
+          <div className="pt-2">
+            <span className="text-[10px] font-bold text-black uppercase tracking-widest block mb-2">
+              MASTHEAD EDITORS
+            </span>
+            <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]">
+              {AUTHORS.map((author) => (
+                <button
+                  key={author.id}
+                  onClick={() => {
+                    if (onSelectAuthor) onSelectAuthor(author.id);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }}
+                  className="text-gray-500 hover:text-[#C8102E] transition"
+                >
+                  {author.name}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="text-[10px] uppercase font-bold text-gray-400 tracking-widest pt-1">
             ISSN 2849-1029 • LONDON, UK
           </div>
         </div>
