@@ -50,7 +50,16 @@ export default function App() {
   });
 
   const [searchQuery, setSearchQuery] = useState('');
-  const [selectedArticle, setSelectedArticle] = useState(null);
+  
+  const [selectedArticle, setSelectedArticle] = useState(() => {
+    const hash = window.location.hash;
+    if (hash.startsWith('#/article/')) {
+      const artId = hash.replace('#/article/', '').trim();
+      return ARTICLES.find(a => a.id === artId || a.slug === artId) || null;
+    }
+    return null;
+  });
+
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
   const [isAIGeneratorOpen, setIsAIGeneratorOpen] = useState(false);
   const [savedIds, setSavedIds] = useState(() => {
@@ -62,9 +71,30 @@ export default function App() {
     }
   });
 
+  // Open Article with shareable URL hash
+  const handleSelectArticle = (article) => {
+    setSelectedArticle(article);
+    if (article) {
+      window.history.pushState(null, '', `#/article/${article.id}`);
+    }
+  };
+
+  // Close Article and restore background URL hash
+  const handleCloseArticle = () => {
+    setSelectedArticle(null);
+    if (activeAuthor) {
+      window.history.pushState(null, '', `#/author/${activeAuthor}`);
+    } else if (activeCategory !== 'all') {
+      window.history.pushState(null, '', `#/category/${activeCategory}`);
+    } else {
+      window.history.pushState(null, '', '/');
+    }
+  };
+
   // Sync category changes
   const handleCategoryChange = (catId) => {
     setActiveAuthor(null);
+    setSelectedArticle(null);
     setActiveCategory(catId);
     setSearchQuery('');
     if (catId === 'all') {
@@ -78,33 +108,45 @@ export default function App() {
   // Sync author profile navigation
   const handleAuthorChange = (authorId) => {
     setActiveAuthor(authorId);
+    setSelectedArticle(null);
     setSearchQuery('');
     window.history.pushState(null, '', `#/author/${authorId}`);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Listen to browser back/forward buttons
+  // Listen to browser back/forward buttons and direct URL hash changes
   useEffect(() => {
     const handlePopState = () => {
       const hash = window.location.hash;
-      if (hash.startsWith('#/author/')) {
-        const authorId = hash.replace('#/author/', '').trim();
-        const valid = AUTHORS.find(a => a.id === authorId);
-        setActiveAuthor(valid ? valid.id : null);
-        setActiveCategory('all');
-      } else if (hash.startsWith('#/category/')) {
-        const catId = hash.replace('#/category/', '').trim();
-        const validCategory = CATEGORIES.find(c => c.id === catId);
-        setActiveCategory(validCategory ? validCategory.id : 'all');
-        setActiveAuthor(null);
+      if (hash.startsWith('#/article/')) {
+        const artId = hash.replace('#/article/', '').trim();
+        const found = articlesList.find(a => a.id === artId || a.slug === artId);
+        if (found) setSelectedArticle(found);
       } else {
-        setActiveCategory('all');
-        setActiveAuthor(null);
+        setSelectedArticle(null);
+        if (hash.startsWith('#/author/')) {
+          const authorId = hash.replace('#/author/', '').trim();
+          const valid = AUTHORS.find(a => a.id === authorId);
+          setActiveAuthor(valid ? valid.id : null);
+          setActiveCategory('all');
+        } else if (hash.startsWith('#/category/')) {
+          const catId = hash.replace('#/category/', '').trim();
+          const validCategory = CATEGORIES.find(c => c.id === catId);
+          setActiveCategory(validCategory ? validCategory.id : 'all');
+          setActiveAuthor(null);
+        } else {
+          setActiveCategory('all');
+          setActiveAuthor(null);
+        }
       }
     };
     window.addEventListener('popstate', handlePopState);
-    return () => window.removeEventListener('popstate', handlePopState);
-  }, []);
+    window.addEventListener('hashchange', handlePopState);
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('hashchange', handlePopState);
+    };
+  }, [articlesList]);
 
   // Save to localStorage
   useEffect(() => {
@@ -134,7 +176,7 @@ export default function App() {
       }
       return updated;
     });
-    setSelectedArticle(newArticle);
+    handleSelectArticle(newArticle);
   };
 
   // Filter articles
@@ -181,7 +223,7 @@ export default function App() {
             <AuthorPage
               authorId={activeAuthor}
               articles={articlesList}
-              onSelectArticle={(art) => setSelectedArticle(art)}
+              onSelectArticle={handleSelectArticle}
               onSelectAuthor={handleAuthorChange}
               onBackToHome={() => handleCategoryChange('all')}
             />
@@ -190,7 +232,7 @@ export default function App() {
             <CategoryPage
               category={activeCategory}
               articles={filteredArticles}
-              onSelectArticle={(art) => setSelectedArticle(art)}
+              onSelectArticle={handleSelectArticle}
               onSelectCategory={handleCategoryChange}
               onSelectAuthor={handleAuthorChange}
             />
@@ -202,7 +244,7 @@ export default function App() {
                 <CoverHero
                   coverArticle={coverArticle}
                   stackedArticles={stackedArticles}
-                  onSelectArticle={(art) => setSelectedArticle(art)}
+                  onSelectArticle={handleSelectArticle}
                   onSelectAuthor={handleAuthorChange}
                 />
               )}
@@ -210,7 +252,7 @@ export default function App() {
               {/* Main Editorial Articles Grid */}
               <EditorialGrid
                 articles={activeCategory === 'all' && searchQuery.trim() === '' ? gridArticles : filteredArticles}
-                onSelectArticle={(art) => setSelectedArticle(art)}
+                onSelectArticle={handleSelectArticle}
                 onSelectAuthor={handleAuthorChange}
                 sectionTitle={
                   searchQuery.trim() !== ''
@@ -237,7 +279,7 @@ export default function App() {
       {selectedArticle && (
         <ArticleModal
           article={selectedArticle}
-          onClose={() => setSelectedArticle(null)}
+          onClose={handleCloseArticle}
           isSaved={savedIds.includes(selectedArticle.id)}
           onToggleSave={toggleSaveArticle}
           onSelectAuthor={handleAuthorChange}
