@@ -75,6 +75,100 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "edinburgh-castle-architectural-history",
+    "title": "Restoring Heritage Spaces: Lessons from Edinburgh Castle",
+    "slug": "architectural-history-edinburgh-castle-scottish-heritage",
+    "category": "interiors",
+    "categoryName": "Interiors",
+    "categoryLabel": "HERITAGE ARCHITECTURE • HISTORIC INTERIORS",
+    "author": "Eleanor Vance",
+    "authorId": "eleanor-vance",
+    "role": "Senior Architectural Historian and Heritage Curator",
+    "date": "September 14, 2026",
+    "readTime": "8 min read",
+    "views": "21.5k",
+    "isFeatured": true,
+    "excerpt": "An architectural exploration of Edinburgh Castle, examining volcanic basalt masonry, medieval hammerbeam timber roofs, and historic interiors.",
+    "metaDescription": "Explore Edinburgh Castle architectural history from volcanic basalt masonry to medieval hammerbeam roofs and apply those lessons today.",
+    "heroImage": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1600&q=85",
+    "heroImageAlt": "Dramatic view of Edinburgh Castle standing atop volcanic Castle Rock under atmospheric skies in Edinburgh Scotland",
+    "imageAlt": "Dramatic view of Edinburgh Castle standing atop volcanic Castle Rock under atmospheric skies in Edinburgh Scotland",
+    "photographer": "Lumaa Home Editorial Curation",
+    "photographerUrl": "https://unsplash.com",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "The Volcanic Foundations and Geological Mastery of Edinburgh Castle",
+        "body": "Perched dramatically above the Scottish capital, Edinburgh Castle occupies a formidable basalt plug shaped by ancient volcanic activity and glacial erosion. This colossal geological formation, known as Castle Rock, provided an impenetrable natural fortification that dictated centuries of military architecture and defensive planning. Master masons utilised the local igneous rock alongside imported sandstone to construct thick curtain walls that harmonised with the rugged topography. Understanding this geological context allows modern heritage specialists to appreciate how early builders integrated raw stone into domestic and military design. The sheer scale of the rock face required innovative foundation techniques, ensuring that loadbearing walls remained stable across centuries of weathering and seismic shifts. For owners of historic British homes, observing these ancient structural techniques highlights the vital importance of respecting local geology when planning sympathetic restorations."
+      },
+      {
+        "level": "h3",
+        "heading": "Norman Ashlar Stonework in St Margarets Chapel",
+        "body": "Dating back to the early twelfth century, St Margaret's Chapel stands as the oldest surviving building within the fortress complex. Its exquisite Norman ashlar stone masonry showcases precise jointing and rounded decorative arches that reflect exceptional medieval craftsmanship. The diminutive proportions of the chapel create an intimate interior atmosphere, contrasting sharply with the harsh military function of the surrounding ramparts. Daylight filters through deep-set arched windows, illuminating carefully carved chevron motifs on the chancel arch and revealing the tactile qualities of squared freestone blocks. Preserving such ancient masonry demands specialised conservation methods, particularly when replacing deteriorated mortar with breathable lime formulations that prevent moisture retention inside the thick stone walls. Period homeowners can draw inspiration from this enduring stonework, prioritising breathable materials that maintain the structural health of historic masonry over time."
+      },
+      {
+        "level": "h3",
+        "heading": "The Royal Splendour of Crown Square Palace Chambers",
+        "body": "Crown Square forms the historic courtyard heart of the complex, enclosed by grand palace chambers that once hosted Scottish monarchs and political elites. The interior architecture of these royal rooms reflects a fascinating evolution from medieval defensibility to Renaissance elegance and comfort. High ceilings, monumental stone fireplaces, and panelled timber walls demonstrate how interior spaces transitioned to project political power through aesthetic refinement. Conservation teams working within these historic chambers must balance the preservation of original fabric with the technical demands of modern climate control and public exhibition. Original lime plasters and decorative finishes require meticulous consolidation to prevent dusting and flaking, ensuring that the authentic textures of the royal interior remain intact. This meticulous approach to interior preservation serves as a gold standard for restoring heritage residential properties across Britain today."
+      },
+      {
+        "level": "h2",
+        "heading": "Medieval Joinery and Timber Conservation Inside Edinburgh Castle",
+        "body": "Commissioned by King James IV and completed in 1511, the Great Hall represents a masterpiece of late medieval timber engineering. The magnificent hammerbeam roof structure spans the cavernous hall without vertical tie beams, relying on complex joinery principles that distribute heavy roof loads downward. Master carpenters utilised seasoned oak timbers, locking them together with wooden pegs to create a flexible yet immensely strong framework capable of resisting fierce Scottish winds. Maintaining such historic joinery requires continuous environmental monitoring to protect the aging wood from humidity fluctuations and biological attack. Historic timber conservation focuses on minimal intervention, repairing decayed beam ends with matched oak rather than replacing entire structural assemblies. These rigorous heritage preservation strategies offer valuable insights for modern custodians tasked with safeguarding vulnerable roof timbers in period British houses.",
+        "image": "https://images.unsplash.com/photo-1564507592333-c60657eea523?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Medieval hammerbeam timber roof carpentry and historic stone hearth inside the Great Hall",
+        "imageCaption": "The medieval hammerbeam timber roof of the Great Hall demonstrates extraordinary sixteenth century Scottish carpentry.",
+        "bullets": [
+          "Always employ breathable lime mortar matching historic aggregate ratios during masonry consolidation",
+          "Inspect medieval hammerbeam roof timbers regularly for signs of excessive moisture and movement",
+          "Prioritize minimal timber intervention by splicing healthy wood instead of full replacements",
+          "Maintain stable interior humidity levels to protect ancient wall finishes and exposed beams"
+        ]
+      },
+      {
+        "level": "h3",
+        "heading": "The Architectural Legacy of the Great Hall Roof",
+        "body": "The hammerbeam ceiling of the Great Hall remains one of the finest surviving examples of northern European medieval carpentry. Carved stone corbels support the soaring wooden trusses, adorned with grotesque figures and heraldic symbols that celebrate royal lineage and artistic ambition. The steep pitch of the roof was deliberately engineered to shed heavy rain and snow efficiently, protecting the vast interior space below from water ingress. Modern structural engineers marvel at the geometric precision required to fabricate such a massive timber system using only hand tools and rudimentary lifting equipment. For contemporary architects and heritage restorers, studying this roof structure emphasizes the enduring viability of traditional timber engineering principles in large-scale building conservation projects."
+      },
+      {
+        "level": "h2",
+        "heading": "Translating Fortress Conservation Lessons to British Period Homes",
+        "body": "The complex architectural evolution of Edinburgh Castle provides a masterclass in how to manage historic fabric across multiple centuries of stylistic change. Every era left its physical imprint, from medieval defensive fortifications and Renaissance royal apartments to eighteenth-century military barracks. Conservation philosophy at the site prioritises authenticity, ensuring that repairs remain legible and distinct from original historic material while maintaining overall visual harmony. Homeowners undertaking period property restorations can apply these same philosophical tenets by avoiding overly aggressive modern interventions that strip away historical character. Respecting the patina of age, retaining original joinery, and choosing traditional building materials ensure that domestic architecture retains its unique narrative depth. Ultimately, the careful stewardship demonstrated at this iconic Scottish fortress inspires a more thoughtful, respectful approach to heritage conservation in residential architecture across the entire country."
+      },
+      {
+        "level": "h3",
+        "heading": "Breathable Masonry and Historic Wall Maintenance",
+        "body": "Managing moisture is the single most critical challenge in preserving ancient stone buildings and residential period properties alike. Historic walls constructed with lime mortar are designed to absorb and release moisture naturally, acting as a dynamic thermal and hydronic buffer. Modern cementitious renders and synthetic paints often trap moisture inside the masonry, leading to accelerated frost damage, internal dampness, and structural stone decay. Adopting traditional lime pointing techniques ensures that historic walls can breathe properly, safeguarding structural integrity for future generations. Heritage practitioners working on domestic restorations must always test existing mortar compositions to match aggregate size, colour, and binder proportions accurately before undertaking any repointing work."
+      },
+      {
+        "level": "h3",
+        "heading": "Authentic Materiality in Historic Interior Design",
+        "body": "True heritage interior design relies heavily on authentic materiality, celebrating the natural imperfections and tactile qualities of stone, wood, lime plaster, and wrought iron. The interior chambers of the fortress demonstrate how raw, unvarnished materials create a profound sense of permanence and grounded elegance that synthetic finishes simply cannot replicate. Homeowners wishing to emulate this historic aesthetic should source reclaimed timbers, traditional distemper paints, and hand-forged hardware rather than mass-produced replicas. This commitment to genuine craftsmanship honours the legacy of historic builders while enhancing the aesthetic and monetary value of period residential properties. By embracing these timeless design principles, we connect our modern living spaces to a rich, enduring lineage of British architectural heritage."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When was Edinburgh Castle Great Hall built?",
+        "answer": "King James IV completed the Great Hall in 1511, showcasing one of Britain's finest medieval hammerbeam roofs."
+      },
+      {
+        "question": "What stone makes up Castle Rock?",
+        "answer": "The fortress rests upon a 350-million-year-old basalt volcanic plug, providing natural defensive elevation."
+      },
+      {
+        "question": "What is the oldest building inside the castle?",
+        "answer": "St Margaret's Chapel, constructed during the early twelfth century, represents the oldest surviving Norman stone architecture."
+      }
+    ],
+    "tags": [
+      "Edinburgh Castle",
+      "Scottish Heritage",
+      "Historic Interiors",
+      "Stone Architecture"
+    ]
+  },
+  {
     "id": "luxury-dining-chair-selection-guide",
     "title": "The Art of Choosing the Perfect Dining Chair for Your Home",
     "slug": "choosing-luxury-dining-chairs-uk-home-guide",
