@@ -269,7 +269,7 @@ export default function App() {
   // Always dynamic: Newest article is #1 Cover Story, next 2 are Stacked Features
   const coverArticle = articlesList[0];
   const stackedArticles = articlesList.slice(1, 3);
-  const homeGridArticles = articlesList.slice(1);
+  const homeGridArticles = articlesList.slice(1, 19);
 
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
