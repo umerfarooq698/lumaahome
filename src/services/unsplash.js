@@ -131,9 +131,10 @@ const TOPIC_IMAGE_POOLS = {
     { id: 'gard_02', url: 'https://images.unsplash.com/photo-1780257562963-3389a4105371?auto=format&fit=crop&w=1600&q=85', alt: 'English cottage garden with weathered teak dining furniture' }
   ],
   castle: [
-    { id: 'cas_01', url: 'https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1600&q=85', alt: 'Edinburgh Castle atop volcanic Castle Rock under Scottish skies' },
-    { id: 'cas_02', url: 'https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=85', alt: 'Medieval stone great hall interior with timber beamed roof and historic masonry arches' },
-    { id: 'cas_03', url: 'https://images.unsplash.com/photo-1533158307587-828f0a76ef46?auto=format&fit=crop&w=1600&q=85', alt: 'Historic stone fortress ramparts and heritage architecture' }
+    { id: 'cas_01', url: 'https://images.unsplash.com/photo-1648397831904-24e068d84b05?auto=format&fit=crop&w=1600&q=85', alt: 'Iconic view of Edinburgh Castle standing atop volcanic Castle Rock in Edinburgh Scotland' },
+    { id: 'cas_02', url: 'https://images.unsplash.com/photo-1636360286346-68a0a9a30144?auto=format&fit=crop&w=1600&q=85', alt: 'Dramatic stone ramparts and fortress architecture of Edinburgh Castle in Scotland' },
+    { id: 'cas_03', url: 'https://images.unsplash.com/photo-1780618611939-5279fc292bb9?auto=format&fit=crop&w=1600&q=85', alt: 'Edinburgh Castle viewed from Princes Street Gardens in Edinburgh Scotland' },
+    { id: 'cas_04', url: 'https://images.unsplash.com/photo-1763137642028-ad455c4582b1?auto=format&fit=crop&w=1600&q=85', alt: 'Edinburgh Castle at twilight on Castle Rock in Edinburgh Scotland' }
   ],
   general: [
     { id: 'gen_01', url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist British hallway with natural light' },
