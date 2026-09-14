@@ -71,20 +71,21 @@ export async function generateArticleWithGemini({ topic, category = 'Living Room
     const prompt = `You are a Senior Editor and Feature Writer for LUMAA HOME™, crafting an authentic, immersive, reader-first editorial feature on the keyword: "${topic}" for the category: "${category}".
 
 STRICT EDITORIAL AND WRITING STANDARDS:
-1. HIERARCHICAL HEADING STRUCTURE (H2 AND H3): Organize the article into major thematic pillars ('level': 'h2') and, where appropriate, delve deeper with focused sub-topics ('level': 'h3') rather than a flat repetitive list of equal headings.
-2. NATURAL KEYWORD INTEGRATION IN H2 HEADINGS: Naturally weave the primary keyword (or its natural semantic variations) into the H2 major headings (e.g. 'Architectural Dining Chair Proportions', 'Joinery Standards for Luxury Dining Chairs') and create authoritative, in-depth content directly answering each keyword-focused pillar.
-3. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings — write organic, unnumbered editorial subheadings instead.
-4. CONDITIONAL MINIMAL BULLET POINTS: Use minimal, high-value bullet points (3 to 4 concise items in the 'bullets' array of a section) ONLY when the topic genuinely warrants a quick checklist, technical specification, or key dimension summary. Do NOT force bullets in every article if the prose flows better as pure narrative.
-5. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
-6. DYNAMIC PARAGRAPH FLOW: Vary paragraph length naturally. Blend background context, detailed material analysis, step-by-step nuances, and styling advice.
-7. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words.
-8. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed.
-9. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Game-changer', 'Tapestry', 'Supercharge', or 'AI'. Never mention AI or content generation.
-10. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
-11. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
-12. TOPIC-SPECIFIC FAQS (SHORT QUESTIONS AND SHORT CRISP ANSWERS): Add 3 to 4 concise, practical FAQs. Both the question and answer must be short, punchy, and direct (question under 10-12 words, answer strictly 1 to 2 crisp sentences delivering immediate practical value).
-13. VISUAL CURATION (STRICT TOPIC AND LOCATION RELEVANCE): Provide 3 high-precision 2 to 4 word English visual queries for photography that strictly and specifically match the primary subject and location/city (e.g. for 'edinburgh castle', queries MUST include 'Edinburgh Castle Scotland', 'Edinburgh Castle Rock fortress'; for 'dining chair', queries MUST include 'luxury dining chair', 'solid oak dining chairs'). NEVER provide generic one-word queries. Also provide descriptive SEO ALT text without ampersands.
-14. META DESCRIPTION (STRICTLY 140 CHARACTERS): Create a completely original, high-intent SEO meta description of STRICTLY 135 to 140 characters in length. NEVER use AI or promotional filler words like 'Expand', 'Learn more', 'In-depth', 'Discover', 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', or 'AI'. Never reuse templates or default strings.
+1. SHORT, DIGESTIBLE PARAGRAPHS (MANDATORY): Never write long monolithic blocks of text. Every section's 'body' must consist of 2 to 3 SHORT, BREATHABLE PARAGRAPHS separated by double newlines ('\\n\\n'). Each paragraph must be strictly 40 to 65 words in length (approx 2 to 4 sentences) for high visual readability and natural magazine pacing.
+2. AUTHENTIC HUMAN EDITORIAL VOICE: Write with genuine British design journalism flair (in the spirit of The World of Interiors and House and Garden). Use vivid sensory details, conversational cadence, concrete trade techniques, and real homeowner scenarios. Banish robotic AI essay phrases (NEVER say 'Understanding this allows...', 'It is worth noting...', 'Furthermore...', 'Moreover...', 'In conclusion...', 'plays a vital role...').
+3. HIERARCHICAL HEADING STRUCTURE (H2 AND H3): Organize the article into major thematic pillars ('level': 'h2') and, where appropriate, delve deeper with focused sub-topics ('level': 'h3') rather than a flat repetitive list of equal headings.
+4. NATURAL KEYWORD INTEGRATION IN H2 HEADINGS: Naturally weave the primary keyword (or its natural semantic variations) into the H2 major headings (e.g. 'Architectural Dining Chair Proportions', 'Joinery Standards for Luxury Dining Chairs') and create authoritative, in-depth content directly answering each keyword-focused pillar.
+5. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings — write organic, unnumbered editorial subheadings instead.
+6. CONDITIONAL MINIMAL BULLET POINTS: Use minimal, high-value bullet points (3 to 4 concise items in the 'bullets' array of a section) ONLY when the topic genuinely warrants a quick checklist, technical specification, or key dimension summary. Do NOT force bullets in every article if the prose flows better as pure narrative.
+7. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
+8. WORD COUNT: Total article body word count across all sections MUST be strictly between 850 and 1200 words.
+9. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed.
+10. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Game-changer', 'Tapestry', 'Supercharge', or 'AI'. Never mention AI or content generation.
+11. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
+12. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
+13. TOPIC-SPECIFIC FAQS (SHORT QUESTIONS AND SHORT CRISP ANSWERS): Add 3 to 4 concise, practical FAQs. Both the question and answer must be short, punchy, and direct (question under 10-12 words, answer strictly 1 to 2 crisp sentences delivering immediate practical value).
+14. VISUAL CURATION (STRICT TOPIC AND LOCATION RELEVANCE): Provide 3 high-precision 2 to 4 word English visual queries for photography that strictly and specifically match the primary subject and location/city (e.g. for 'edinburgh castle', queries MUST include 'Edinburgh Castle Scotland', 'Edinburgh Castle Rock fortress'; for 'dining chair', queries MUST include 'luxury dining chair', 'solid oak dining chairs'). NEVER provide generic one-word queries. Also provide descriptive SEO ALT text without ampersands.
+15. META DESCRIPTION (STRICTLY 140 CHARACTERS): Create a completely original, high-intent SEO meta description of STRICTLY 135 to 140 characters in length. NEVER use AI or promotional filler words like 'Expand', 'Learn more', 'In-depth', 'Discover', 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', or 'AI'. Never reuse templates or default strings.
 
 Return ONLY valid JSON matching this exact structure:
 {
@@ -106,12 +107,12 @@ Return ONLY valid JSON matching this exact structure:
     {
       "level": "h2",
       "heading": "Major Architectural Theme",
-      "body": "Rich, multi-faceted narrative exploring practical aspects and context."
+      "body": "First short paragraph of 45-60 words setting the scene with sensory British design details.\\n\\nSecond short paragraph providing specific material insights, trade nuances, or practical homeowner context."
     },
     {
       "level": "h3",
       "heading": "Focused Sub-Topic Analysis",
-      "body": "Detailed advice covering textures, specifications, and actionable guidance.",
+      "body": "First concise paragraph focusing on joinery, proportions, or craftsmanship details.\\n\\nSecond concise paragraph explaining longevity and maintenance.",
       "bullets": [
         "Concise technical checklist item or measurement rule",
         "Second practical decision factor without ampersands",
@@ -121,7 +122,7 @@ Return ONLY valid JSON matching this exact structure:
     {
       "level": "h2",
       "heading": "Material and Craftsmanship Focus",
-      "body": "Detailed expert insights, proportions, or joinery nuances.",
+      "body": "First short paragraph highlighting authentic materials and bespoke finishes.\\n\\nSecond short paragraph exploring architectural balance.",
       "sectionImageQuery": "specific search query for interior details",
       "sectionImageAlt": "Descriptive alt text for detail photo without ampersands",
       "sectionImageCaption": "Subtle editorial caption for detail photo"
@@ -129,12 +130,12 @@ Return ONLY valid JSON matching this exact structure:
     {
       "level": "h3",
       "heading": "Specific Material Nuance",
-      "body": "In-depth craftsmanship analysis."
+      "body": "Crisp paragraph on tactile timber or stone qualities.\\n\\nFollow-up paragraph on long-term patina and care."
     },
     {
       "level": "h2",
       "heading": "Architectural Longevity and Care",
-      "body": "Comprehensive styling, maintenance, and investment considerations tailored uniquely to this subject."
+      "body": "First short paragraph discussing heirloom value and timeless styling.\\n\\nSecond short closing paragraph offering actionable takeaway advice."
     }
   ],
   "faqs": [

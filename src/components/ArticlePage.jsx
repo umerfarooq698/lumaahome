@@ -276,13 +276,19 @@ export default function ArticlePage({
                     </figure>
                   )}
 
-                  {typeof section.body === 'string' && (
-                    section.body.split(/\n\n+/).map((pText, pIdx) => (
-                      <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal">
+                  {Array.isArray(section.body) ? (
+                    section.body.map((pText, pIdx) => (
+                      <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
                         {pText.trim()}
                       </p>
                     ))
-                  )}
+                  ) : typeof section.body === 'string' ? (
+                    section.body.split(/\n+/).filter(p => Boolean(p.trim())).map((pText, pIdx) => (
+                      <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
+                        {pText.trim()}
+                      </p>
+                    ))
+                  ) : null}
 
                   {Array.isArray(section.bullets) && section.bullets.length > 0 && (
                     <ul className="my-5 space-y-2.5 pl-1">
