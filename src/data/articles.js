@@ -86,29 +86,52 @@ export const ARTICLES = [
     authorId: 'sarah-jenkins',
     role: 'London Interior Stylist and Joinery Specialist',
     date: 'September 14, 2026',
-    readTime: '5 min read',
+    readTime: '7 min read',
     views: '24.8k',
     isCover: true,
     excerpt: 'The contemporary culinary space has emerged as the architectural anchor of the home. Exploring in-frame bespoke joinery, honed stone, and chef-grade ergonomics.',
     heroImage: 'https://images.unsplash.com/photo-1758448755927-e5c5ae14790c?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwYmVzcG9rZSUyMG1vZGVybiUyMGtpdGNoZW4lMjBpc2xhbmQlMjBqb2luZXJ5JTIwc3RvbmV8ZW58MHwwfHx8MTc4OTM4MDAxN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85',
-    content: `
-      <p class="lead">The contemporary British residence has undergone a quiet architectural revolution. Where cooking spaces were once relegated to utilitarian back quarters of Victorian and Georgian townhouses, the culinary hearth has now emerged as the primary social and aesthetic anchor of the property. Establishing your home with a true <strong>kitchen leader</strong> in layout and material integrity transforms how modern families inhabit and celebrate their living spaces.</p>
-
-      <h3>1. Handcrafted Cabinetry: The Backbone of Bespoke British Joinery</h3>
-      <p>At the heart of any commanding culinary space is bespoke in-frame cabinetry. Unlike mass-manufactured modular units, traditional British in-frame construction mounts solid hardwood doors directly onto mortise and tenon timber face frames using butt hinges.</p>
-      
-      <blockquote>"A kitchen does not compete with adjacent drawing or dining rooms; instead, it establishes the benchmark of craftsmanship for the entire residence." — Sarah Jenkins</blockquote>
-
-      <h3>2. Natural Stone and Tactile Material Curation</h3>
-      <p>When interior curators examine what elevates a contemporary space into an authentic <strong>kitchen leader</strong>, the dialogue between natural stone and unlacquered metalwork is paramount. Honed Taj Mahal quartzite and British Portland limestone offer dense, heat-resistant work surfaces with soft matte finishes that avoid the harsh glare of polished artificial stone.</p>
-
-      <h3>3. The Central Island as Social and Culinary Fulcrum</h3>
-      <p>The kitchen island has evolved far beyond a prep counter; it is the stage around which modern hospitality unfolds. Maintain a minimum clearance of 1,100mm to 1,200mm between island perimeters and perimeter base units for seamless multi-cook movement.</p>
-
-      <h3>4. Layered Architectural Lighting</h3>
-      <p>A sophisticated cooking environment requires precision task lighting with high CRI ratings, 2700K concealed joinery LED strips routed beneath open display shelving, and hand-blown reeded glass hanging pendants over the central island.</p>
-    `,
-    keyTakeaway: 'When every proportion, bespoke drawer dovetail, and lighting circuit works in effortless harmony, your home naturally commands respect as a premier kitchen leader.'
+    heroImageAlt: 'Bespoke modern British luxury kitchen with in-frame dark green cabinetry, honed quartzite island, and unlacquered brass pendant lighting in a London residence',
+    imageAlt: 'Bespoke modern British luxury kitchen with in-frame dark green cabinetry, honed quartzite island, and unlacquered brass pendant lighting in a London residence',
+    content: [
+      {
+        heading: '1. The Architectural Rise of the Kitchen Anchor',
+        body: 'The contemporary British residence has undergone an extraordinary architectural transformation over the past decade. Where cooking spaces were once relegated to utilitarian back quarters of Victorian townhouses and Georgian terraces, the culinary hearth has now emerged as the primary social, functional, and aesthetic anchor of the modern home. Establishing your residence with a true modern kitchen leader requires moving past transient social media fads to embrace enduring architectural proportion, tactile authenticity, and bespoke construction methods. Today, high-end British kitchens are designed to integrate effortlessly with surrounding reception rooms, dining spaces, and garden terraces. A commanding layout sets the craftsmanship benchmark for the entire property while accommodating both the complex rhythms of daily family life and the refined theatre of evening entertaining.'
+      },
+      {
+        heading: '2. Bespoke In-Frame Cabinetry and Hardwood Joinery',
+        body: 'At the heart of every commanding luxury kitchen is traditional in-frame cabinetry. Unlike mass-manufactured modular flat-pack carcasses, authentic British in-frame joinery mounts solid hardwood door leaves directly onto mortise and tenon timber face frames using heavy-gauge solid brass butt hinges. This time-honoured construction prevents door sag over decades of heavy daily usage and provides an indelible architectural substance that contemporary frameless kitchens simply cannot replicate. Experienced cabinetmakers select sustainably sourced European oak, tulipwood, or hard maple for drawer boxes, joining them with hand-cut dovetails and soft-closing concealed undermount runners. Finishing cabinets with multiple coats of hand-brushed heritage paints from Farrow and Ball, Little Greene, or Edward Bulmer allows homeowners to re-glaze or refresh woodwork in future decades without replacing the fundamental joinery structure.'
+      },
+      {
+        heading: '3. Honed Natural Stone Worktops and Tactile Surfaces',
+        body: 'When interior designers analyze the physical elements that distinguish a premier kitchen leader, the choice of horizontal work surfaces is paramount. Polished artificial composite quartzes are increasingly superseded by tactile natural stones with satin-honed, brushed, or leathered finishes that gently absorb ambient daylight rather than producing harsh specular reflections. Dense Brazilian Taj Mahal quartzite, Belgian blue limestone, and British Portland stone offer remarkable heat resistance and subtle geological movement that pairs beautifully with hand-painted timber cabinetry. Maintaining natural stone requires regular breathable impregnating sealers that prevent red wine and citrus oil staining while preserving the micro-porous texture of the stone, allowing it to develop a graceful patina that enriches the kitchen as it matures over years of culinary use.',
+        sectionImageQuery: 'luxury honed marble kitchen island unlacquered brass taps',
+        image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85',
+        imageAlt: 'Honed natural quartzite worktop with unlacquered brass deck mounted bridge tap and fluted oak kitchen island',
+        imageCaption: 'Honed natural stone paired with living brass hardware introduces timeless organic depth.'
+      },
+      {
+        heading: '4. Ergonomic Zoning and Multi-Cook Island Proportions',
+        body: 'A truly successful culinary layout operates on rigorous ergonomic science rather than decorative symmetry alone. While traditional interior manuals advocated a strict cooking work triangle, modern large-scale British kitchens utilize dynamic zone planning comprising dedicated preparation, hot cookery, dry storage, wet cleanup, and social hospitality areas. The central kitchen island serves as the pivotal fulcrum between these functional zones. To maintain comfortable circulation during busy dinner parties and family gatherings, generous passage clearances between 1,100mm and 1,200mm are maintained around all island perimeters. Installing an induction cooktop with integrated downdraft extraction or a secondary prep sink on the island keeps the host facing guest seating, transforming routine meal preparation into an inclusive social experience.'
+      },
+      {
+        heading: '5. Concealed Breakfast Pantries and Larder Architecture',
+        body: 'A defining hallmark of high-end British kitchen architecture is the bespoke double-door breakfast larder. Designed to house high-use countertop appliances such as artisan espresso machines, toasters, and stand mixers, these tall cupboards keep perimeter work surfaces completely free of visual clutter. Pocket doors or bi-folding leaves glide smoothly into concealed side recesses when in use, revealing integrated warm LED illumination, cold marble pastry slabs, solid walnut spice racks, and dedicated power tracks. Concealing high-tech clutter behind hand-crafted timber doors ensures the main living area retains a serene, gallery-like composure whether during a casual weekday morning breakfast or a formal evening dinner party.'
+      },
+      {
+        heading: '6. Layered Architectural Lighting and Warm Ambience',
+        body: 'Illumination in an open-plan luxury kitchen must fulfill both rigorous task precision and atmospheric evening warmth without relying on harsh grid patterns of ceiling spotlights. Architectural lighting schemes divide illumination across four distinct control circuits: high-CRI 3000K recessed directional downlights focused directly over prep sinks and range cookers; concealed 2700K warm LED ribbons routed beneath wall cabinets and open reeded oak display shelves; hand-blown fluted glass or reeded brass pendant lights suspended low over the central island; and discreet low-level plinth kick lights that cast a soft floor wash during late-night hours. Dimmable smart scene controls allow instant transitions from bright culinary preparation to moody dining ambience at the touch of a button.'
+      },
+      {
+        heading: '7. Living Finishes: Unlacquered Brass and Aged Hardware',
+        body: 'The tactile hardware adorning drawers, pantries, and tapware represents the jewellery of the culinary environment. Luxury British interiors deliberately avoid sterile chrome or sealed synthetic lacquers in favour of unlacquered living brass, burnished bronze, and hand-forged blackened iron. Because these metals lack artificial clear-coat sealants, they react organically with atmospheric oxygen and hand contact, developing an authentic, rich golden-brown patina over time that reflects true artisanal heritage. Pairing unlacquered brass deck-mounted bridge taps with deep fireclay Belfast sinks creates a grounded, tactile contrast against dark heritage paint colours such as Studio Green, Railings, or Oxford Stone.'
+      },
+      {
+        heading: '8. Long-Term Investment Value and Heritage Longevity',
+        body: 'Investing in a bespoke British in-frame kitchen represents one of the most substantial capital enhancements a homeowner can make to a UK residential property. By prioritizing solid timber framing, honest natural materials, precision German refrigeration systems, and serviceable gas or induction appliances, a well-executed kitchen avoids the rapid obsolescence of trend-driven interiors. When every proportion, bespoke drawer dovetail, and lighting circuit works in effortless harmony, the space naturally commands respect as a premier kitchen leader that will continue to deliver pleasure, aesthetic pride, and functional excellence for generations to come.'
+      }
+    ],
+    tags: ['Kitchen Architecture', 'Bespoke Joinery', 'British Luxury', 'Interior Design']
   },
 
   // LIVING ROOM
