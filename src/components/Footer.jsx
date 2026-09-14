@@ -3,12 +3,12 @@ import { CATEGORIES } from '../data/articles';
 import { AUTHORS } from '../data/authors';
 import Logo from './Logo';
 
-export default function Footer({ onSelectCategory, onSelectAuthor }) {
+export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLegal }) {
   return (
     <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-gray-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
         
-        {/* Col 1: Brand & Masthead */}
+        {/* Col 1: Brand and Masthead */}
         <div className="space-y-4">
           <Logo size="small" />
           <p className="text-[11px] leading-relaxed text-gray-500 font-light">
@@ -92,7 +92,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor }) {
           </ul>
         </div>
 
-        {/* Col 4: Corporate & Legal */}
+        {/* Col 4: Corporate and Legal */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b border-gray-200 pb-1.5">
             LEGAL AND CONTACT
@@ -103,10 +103,32 @@ export default function Footer({ onSelectCategory, onSelectAuthor }) {
           <p className="text-[11px] text-gray-400">
             © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP. ALL RIGHTS RESERVED.
           </p>
-          <div className="pt-2 flex items-center gap-3 text-[10px] text-gray-400 uppercase tracking-wider">
-            <a href="#" className="hover:text-black">Privacy Policy</a>
+          <div className="pt-2 flex items-center gap-3 text-[10px] text-gray-500 uppercase tracking-wider font-semibold">
+            <a
+              href="/privacy-policy"
+              onClick={(e) => {
+                e.preventDefault();
+                if (onNavigateLegal) {
+                  onNavigateLegal('privacy-policy');
+                }
+              }}
+              className="hover:text-[#C8102E] transition"
+            >
+              Privacy Policy
+            </a>
             <span>•</span>
-            <a href="#" className="hover:text-black">Terms of Service</a>
+            <a
+              href="/terms-of-service"
+              onClick={(e) => {
+                e.preventDefault();
+                if (onNavigateLegal) {
+                  onNavigateLegal('terms-of-service');
+                }
+              }}
+              className="hover:text-[#C8102E] transition"
+            >
+              Terms of Service
+            </a>
           </div>
         </div>
 

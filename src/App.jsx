@@ -8,11 +8,12 @@ import EditorialGrid from './components/EditorialGrid';
 import CategoryPage from './components/CategoryPage';
 import AuthorPage from './components/AuthorPage';
 import ArticlePage from './components/ArticlePage';
+import LegalPage from './components/LegalPage';
 import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
 
-// Universal SEO Route Parser for Articles, Categories, and Authors (Clean HTML5 Pathname Routing)
+// Universal SEO Route Parser for Articles, Categories, Authors, and Legal Pages (Clean HTML5 Pathname Routing)
 function parseCurrentRoute(articlesList) {
   let path = window.location.pathname.trim();
   let hash = window.location.hash.trim();
@@ -45,6 +46,27 @@ function parseCurrentRoute(articlesList) {
       authorId: null,
       category: 'all',
       rawSlug: ''
+    };
+  }
+
+  // 1. Legal and Compliance Routes: 'privacy-policy', 'terms-of-service'
+  if (route === 'privacy-policy' || route === 'privacy') {
+    return {
+      view: 'privacy-policy',
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: 'privacy-policy'
+    };
+  }
+
+  if (route === 'terms-of-service' || route === 'terms' || route === 'terms-and-conditions') {
+    return {
+      view: 'terms-of-service',
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: 'terms-of-service'
     };
   }
 
@@ -209,6 +231,21 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  // Navigate to Legal and Compliance Pages (Privacy Policy / Terms of Service)
+  const handleNavigateLegal = (legalType) => {
+    setSearchQuery('');
+    const slug = legalType === 'terms-of-service' || legalType === 'terms' ? 'terms-of-service' : 'privacy-policy';
+    window.history.pushState(null, '', `/${slug}`);
+    setRouteState({
+      view: slug,
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: slug
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   // Save/Bookmark toggle
   const toggleSaveArticle = (articleId) => {
     setSavedIds((prev) =>
@@ -302,6 +339,13 @@ export default function App() {
               onSelectAuthor={handleAuthorChange}
               sectionTitle={`SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`}
             />
+          ) : routeState.view === 'privacy-policy' || routeState.view === 'terms-of-service' ? (
+            /* 0. DEDICATED LEGAL AND COMPLIANCE VIEW */
+            <LegalPage
+              type={routeState.view}
+              onBackToHome={() => handleCategoryChange('all')}
+              onNavigateLegal={handleNavigateLegal}
+            />
           ) : routeState.view === 'article' && routeState.article ? (
             /* 1. DEDICATED FULL ARTICLE VIEW */
             <ArticlePage
@@ -358,6 +402,7 @@ export default function App() {
       <Footer
         onSelectCategory={handleCategoryChange}
         onSelectAuthor={handleAuthorChange}
+        onNavigateLegal={handleNavigateLegal}
       />
 
       {/* Subscribe Modal */}
