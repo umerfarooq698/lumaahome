@@ -3,7 +3,12 @@ import { CATEGORIES } from '../data/articles';
 import { AUTHORS } from '../data/authors';
 import Logo from './Logo';
 
-export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLegal }) {
+export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLegal, onNavigatePage }) {
+  const handleNav = (page) => {
+    if (onNavigatePage) onNavigatePage(page);
+    else if (onNavigateLegal) onNavigateLegal(page);
+  };
+
   return (
     <footer className="mt-20 border-t-2 border-black bg-white py-14 text-xs text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
@@ -91,22 +96,50 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
         {/* Col 4: Corporate and Legal */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b-2 border-black pb-1.5">
-            LEGAL AND CONTACT
+            ABOUT AND CONTACT
           </h4>
-          <p className="text-[11px] text-[#111111] leading-relaxed font-normal">
-            Editorial inquiries: <span className="text-black font-bold">info.lumaahome@gmail.com</span>
-          </p>
-          <p className="text-[11px] text-gray-800 font-medium">
-            © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP. ALL RIGHTS RESERVED.
-          </p>
-          <div className="pt-2 flex items-center gap-3 text-[10px] text-black uppercase tracking-wider font-bold">
+          <ul className="space-y-1.5 text-[11px] font-medium text-[#111111] uppercase">
+            <li>
+              <a
+                href="/about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('about');
+                }}
+                className="hover:text-[#C8102E] hover:underline transition"
+              >
+                About LUMAA HOME™
+              </a>
+            </li>
+            <li>
+              <a
+                href="/contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('contact');
+                }}
+                className="hover:text-[#C8102E] hover:underline transition"
+              >
+                Contact Editorial Desk
+              </a>
+            </li>
+          </ul>
+
+          <div className="pt-2 border-t border-gray-200 text-[11px] space-y-1">
+            <p className="text-[#111111] font-normal">
+              Editorial inquiries: <a href="mailto:info.lumaahome@gmail.com" className="text-black font-bold hover:text-[#C8102E] underline">info.lumaahome@gmail.com</a>
+            </p>
+            <p className="text-[10px] text-gray-700 font-medium">
+              © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP.
+            </p>
+          </div>
+
+          <div className="pt-1 flex items-center gap-3 text-[10px] text-black uppercase tracking-wider font-bold">
             <a
               href="/privacy-policy"
               onClick={(e) => {
                 e.preventDefault();
-                if (onNavigateLegal) {
-                  onNavigateLegal('privacy-policy');
-                }
+                handleNav('privacy-policy');
               }}
               className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
             >
@@ -117,9 +150,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               href="/terms-of-service"
               onClick={(e) => {
                 e.preventDefault();
-                if (onNavigateLegal) {
-                  onNavigateLegal('terms-of-service');
-                }
+                handleNav('terms-of-service');
               }}
               className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
             >

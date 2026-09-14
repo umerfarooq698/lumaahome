@@ -8,12 +8,14 @@ import EditorialGrid from './components/EditorialGrid';
 import CategoryPage from './components/CategoryPage';
 import AuthorPage from './components/AuthorPage';
 import ArticlePage from './components/ArticlePage';
+import AboutPage from './components/AboutPage';
+import ContactPage from './components/ContactPage';
 import LegalPage from './components/LegalPage';
 import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
 
-// Universal SEO Route Parser for Articles, Categories, Authors, and Legal Pages (Clean HTML5 Pathname Routing)
+// Universal SEO Route Parser for Articles, Categories, Authors, Legal, About, and Contact Pages (Clean HTML5 Pathname Routing)
 function parseCurrentRoute(articlesList) {
   let path = window.location.pathname.trim();
   let hash = window.location.hash.trim();
@@ -49,7 +51,27 @@ function parseCurrentRoute(articlesList) {
     };
   }
 
-  // 1. Legal and Compliance Routes: 'privacy-policy', 'terms-of-service'
+  // 1. Static Pages: 'about', 'about-us', 'contact', 'contact-us', 'privacy-policy', 'terms-of-service'
+  if (route === 'about' || route === 'about-us') {
+    return {
+      view: 'about',
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: 'about'
+    };
+  }
+
+  if (route === 'contact' || route === 'contact-us') {
+    return {
+      view: 'contact',
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: 'contact'
+    };
+  }
+
   if (route === 'privacy-policy' || route === 'privacy') {
     return {
       view: 'privacy-policy',
@@ -231,10 +253,15 @@ export default function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  // Navigate to Legal and Compliance Pages (Privacy Policy / Terms of Service)
-  const handleNavigateLegal = (legalType) => {
+  // Navigate to Dedicated Pages (About Us, Contact Us, Privacy Policy, Terms of Service)
+  const handleNavigatePage = (pageName) => {
     setSearchQuery('');
-    const slug = legalType === 'terms-of-service' || legalType === 'terms' ? 'terms-of-service' : 'privacy-policy';
+    let slug = pageName;
+    if (pageName === 'about' || pageName === 'about-us') slug = 'about';
+    if (pageName === 'contact' || pageName === 'contact-us') slug = 'contact';
+    if (pageName === 'privacy' || pageName === 'privacy-policy') slug = 'privacy-policy';
+    if (pageName === 'terms' || pageName === 'terms-of-service') slug = 'terms-of-service';
+
     window.history.pushState(null, '', `/${slug}`);
     setRouteState({
       view: slug,
@@ -312,7 +339,7 @@ export default function App() {
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
       <div>
         {/* Top Meta Bar */}
-        <TopBar />
+        <TopBar onNavigatePage={handleNavigatePage} />
 
         {/* Resident.com Style Centered Header */}
         <Header
@@ -339,15 +366,27 @@ export default function App() {
               onSelectAuthor={handleAuthorChange}
               sectionTitle={`SEARCH RESULTS FOR "${searchQuery.toUpperCase()}"`}
             />
+          ) : routeState.view === 'about' || routeState.view === 'about-us' ? (
+            /* 1. DEDICATED ABOUT US VIEW */
+            <AboutPage
+              onBackToHome={() => handleCategoryChange('all')}
+              onSelectAuthor={handleAuthorChange}
+            />
+          ) : routeState.view === 'contact' || routeState.view === 'contact-us' ? (
+            /* 2. DEDICATED CONTACT US VIEW */
+            <ContactPage
+              onBackToHome={() => handleCategoryChange('all')}
+              onNavigateAbout={() => handleNavigatePage('about')}
+            />
           ) : routeState.view === 'privacy-policy' || routeState.view === 'terms-of-service' ? (
-            /* 0. DEDICATED LEGAL AND COMPLIANCE VIEW */
+            /* 3. DEDICATED LEGAL AND COMPLIANCE VIEW */
             <LegalPage
               type={routeState.view}
               onBackToHome={() => handleCategoryChange('all')}
-              onNavigateLegal={handleNavigateLegal}
+              onNavigateLegal={handleNavigatePage}
             />
           ) : routeState.view === 'article' && routeState.article ? (
-            /* 1. DEDICATED FULL ARTICLE VIEW */
+            /* 4. DEDICATED FULL ARTICLE VIEW */
             <ArticlePage
               article={routeState.article}
               allArticles={articlesList}
@@ -359,7 +398,7 @@ export default function App() {
               onToggleSave={toggleSaveArticle}
             />
           ) : routeState.view === 'author' && routeState.authorId ? (
-            /* 2. DEDICATED AUTHOR PROFILE VIEW */
+            /* 5. DEDICATED AUTHOR PROFILE VIEW */
             <AuthorPage
               authorId={routeState.authorId}
               articles={articlesList}
@@ -368,7 +407,7 @@ export default function App() {
               onBackToHome={() => handleCategoryChange('all')}
             />
           ) : routeState.view === 'category' && routeState.category !== 'all' ? (
-            /* 3. DEDICATED CATEGORY ARCHIVE VIEW */
+            /* 6. DEDICATED CATEGORY ARCHIVE VIEW */
             <CategoryPage
               category={routeState.category}
               articles={filteredCategoryArticles}
@@ -377,7 +416,7 @@ export default function App() {
               onSelectAuthor={handleAuthorChange}
             />
           ) : (
-            /* 4. HOMEPAGE VIEW */
+            /* 7. HOMEPAGE VIEW */
             <>
               <CoverHero
                 coverArticle={coverArticle}
@@ -402,7 +441,8 @@ export default function App() {
       <Footer
         onSelectCategory={handleCategoryChange}
         onSelectAuthor={handleAuthorChange}
-        onNavigateLegal={handleNavigateLegal}
+        onNavigateLegal={handleNavigatePage}
+        onNavigatePage={handleNavigatePage}
       />
 
       {/* Subscribe Modal */}
