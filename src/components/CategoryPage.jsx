@@ -27,24 +27,36 @@ export default function CategoryPage({
       <div className="space-y-3 border-b-2 border-black pb-4">
         <div className="flex items-center justify-between text-xs font-bold uppercase tracking-widest text-gray-500">
           <div className="flex items-center gap-2">
-            <button 
-              onClick={() => onSelectCategory('all')} 
-              className="hover:text-black transition"
+            <a 
+              href="/" 
+              onClick={(e) => {
+                if (!e.ctrlKey && !e.metaKey) {
+                  e.preventDefault();
+                  onSelectCategory('all');
+                }
+              }}
+              className="hover:text-black transition cursor-pointer"
             >
               HOME
-            </button>
+            </a>
             <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
             <span className="text-gray-400">CATEGORIES</span>
             <ChevronRight className="w-3.5 h-3.5 text-gray-400" />
             <span className="text-[#C8102E] font-black">{categoryInfo.name}</span>
           </div>
 
-          <button
-            onClick={() => onSelectCategory('all')}
-            className="text-[10px] font-black uppercase tracking-wider text-black hover:text-[#C8102E] transition flex items-center gap-1"
+          <a
+            href="/"
+            onClick={(e) => {
+              if (!e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                onSelectCategory('all');
+              }
+            }}
+            className="text-[10px] font-black uppercase tracking-wider text-black hover:text-[#C8102E] transition flex items-center gap-1 cursor-pointer"
           >
             ← ALL STORIES
-          </button>
+          </a>
         </div>
 
         <div className="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 pt-1">
@@ -73,10 +85,18 @@ export default function CategoryPage({
             {articles.map((art) => (
               <article
                 key={art.id}
-                onClick={() => onSelectArticle(art)}
-                className="space-y-3 group cursor-pointer flex flex-col justify-between border-b border-gray-200 pb-5"
+                className="space-y-3 flex flex-col justify-between border-b border-gray-200 pb-5"
               >
-                <div className="space-y-3">
+                <a
+                  href={`/${art.slug}`}
+                  onClick={(e) => {
+                    if (!e.ctrlKey && !e.metaKey) {
+                      e.preventDefault();
+                      onSelectArticle(art);
+                    }
+                  }}
+                  className="space-y-3 group cursor-pointer block"
+                >
                   <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black transition">
                     <img
                       src={art.heroImage || art.image}
@@ -92,18 +112,21 @@ export default function CategoryPage({
                   <h4 className="font-serif text-lg font-bold text-black group-hover:text-[#C8102E] transition leading-snug">
                     {art.title}
                   </h4>
-                </div>
+                </a>
 
                 <div className="pt-3 text-[10px] font-bold text-black tracking-wider uppercase border-t border-gray-200 flex items-center gap-2">
-                  <button
+                  <a
+                    href={`/author/${art.authorId || 'marcus-cole'}`}
                     onClick={(e) => {
-                      e.stopPropagation();
-                      if (onSelectAuthor) onSelectAuthor(art.authorId || 'sarah-jenkins');
+                      if (!e.ctrlKey && !e.metaKey) {
+                        e.preventDefault();
+                        if (onSelectAuthor) onSelectAuthor(art.authorId || 'marcus-cole');
+                      }
                     }}
-                    className="hover:text-[#C8102E] hover:underline transition"
+                    className="hover:text-[#C8102E] hover:underline transition cursor-pointer"
                   >
                     BY {art.author.toUpperCase()}
-                  </button>
+                  </a>
                   <span className="text-gray-400">•</span>
                   <span className="text-gray-700">{art.date}</span>
                 </div>

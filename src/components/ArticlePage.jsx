@@ -97,28 +97,46 @@ export default function ArticlePage({
       {/* 1. TOP BREADCRUMB NAVIGATION */}
       <div className="flex items-center justify-between border-b border-gray-200 pb-4 text-xs">
         <nav className="flex items-center gap-2 text-gray-500 uppercase tracking-widest text-[10px] font-bold">
-          <button 
-            onClick={onBackToHome}
+          <a 
+            href="/"
+            onClick={(e) => {
+              if (!e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                onBackToHome();
+              }
+            }}
             className="hover:text-black transition"
           >
             HOME
-          </button>
+          </a>
           <span>/</span>
-          <button 
-            onClick={() => onSelectCategory(article.category)}
+          <a 
+            href={`/category/${article.category}`}
+            onClick={(e) => {
+              if (!e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                onSelectCategory(article.category);
+              }
+            }}
             className="text-gray-500 hover:text-black transition"
           >
             {article.categoryName || article.category}
-          </button>
+          </a>
         </nav>
 
-        <button
-          onClick={() => onSelectCategory(article.category)}
+        <a
+          href={`/category/${article.category}`}
+          onClick={(e) => {
+            if (!e.ctrlKey && !e.metaKey) {
+              e.preventDefault();
+              onSelectCategory(article.category);
+            }
+          }}
           className="inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-widest text-black hover:text-[#C8102E] transition"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
           <span>BACK TO {article.categoryName ? article.categoryName.toUpperCase() : 'STORIES'}</span>
-        </button>
+        </a>
       </div>
 
       {/* 2. TWO-COLUMN LAYOUT: LEFT SIDEBAR + RIGHT MAIN ARTICLE */}
@@ -137,13 +155,17 @@ export default function ArticlePage({
 
           <div className="divide-y divide-gray-200">
             {latestArticles.map((item) => (
-              <article
+              <a
                 key={item.id}
-                onClick={() => {
-                  onSelectArticle(item);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                href={`/${item.slug}`}
+                onClick={(e) => {
+                  if (!e.ctrlKey && !e.metaKey) {
+                    e.preventDefault();
+                    onSelectArticle(item);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
                 }}
-                className="py-3.5 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 items-start transition"
+                className="py-3.5 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 items-start transition block"
               >
                 {/* Thumbnail */}
                 <div className="w-20 aspect-[4/3] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black shrink-0 transition">
@@ -169,7 +191,7 @@ export default function ArticlePage({
                     <span className="text-black font-semibold">{item.readTime}</span>
                   </div>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </aside>
@@ -190,8 +212,14 @@ export default function ArticlePage({
             {/* Byline and Meta Info */}
             <div className="flex flex-wrap items-center justify-between gap-4 py-3.5 border-t border-b border-gray-200 text-xs text-black">
               <div className="flex items-center gap-3">
-                <button
-                  onClick={() => onSelectAuthor(author.id)}
+                <a
+                  href={`/author/${author.id}`}
+                  onClick={(e) => {
+                    if (!e.ctrlKey && !e.metaKey) {
+                      e.preventDefault();
+                      onSelectAuthor(author.id);
+                    }
+                  }}
                   className="flex items-center gap-2.5 hover:text-[#C8102E] transition text-left group"
                 >
                   <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-300 group-hover:border-[#C8102E] transition shrink-0 bg-white">
@@ -204,7 +232,7 @@ export default function ArticlePage({
                   <span className="font-bold text-[11px] uppercase tracking-wider text-black group-hover:text-[#C8102E]">
                     BY {author.name}
                   </span>
-                </button>
+                </a>
 
                 <span className="text-gray-300">•</span>
                 <span className="text-gray-600 text-[11px]">{article.date}</span>
@@ -372,12 +400,18 @@ export default function ArticlePage({
                     <span className="font-bold uppercase text-[11px] sm:text-xs tracking-wider text-gray-900 mr-2">
                       {(relatedInternalArticle.categoryName || relatedInternalArticle.category || 'ARCHITECTURE')}:
                     </span>
-                    <button
-                      onClick={() => onSelectArticle(relatedInternalArticle)}
-                      className="font-serif font-bold text-[#C8102E] hover:underline text-left inline hover:text-[#9b0b22] transition-colors"
+                    <a
+                      href={`/${relatedInternalArticle.slug}`}
+                      onClick={(e) => {
+                        if (!e.ctrlKey && !e.metaKey) {
+                          e.preventDefault();
+                          onSelectArticle(relatedInternalArticle);
+                        }
+                      }}
+                      className="font-serif font-bold text-[#C8102E] hover:underline text-left inline hover:text-[#9b0b22] transition-colors cursor-pointer"
                     >
                       {relatedInternalArticle.title}
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -404,12 +438,18 @@ export default function ArticlePage({
                   <h3 className="font-serif text-base font-bold text-black">
                     {author.name}
                   </h3>
-                  <button
-                    onClick={() => onSelectAuthor(author.id)}
-                    className="text-[10px] font-bold uppercase tracking-wider text-[#C8102E] hover:underline"
+                  <a
+                    href={`/author/${author.id}`}
+                    onClick={(e) => {
+                      if (!e.ctrlKey && !e.metaKey) {
+                        e.preventDefault();
+                        onSelectAuthor(author.id);
+                      }
+                    }}
+                    className="text-[10px] font-bold uppercase tracking-wider text-[#C8102E] hover:underline cursor-pointer"
                   >
                     VIEW PROFILE →
-                  </button>
+                  </a>
                 </div>
                 <p className="text-xs text-gray-600 font-medium">
                   {author.role} • {author.location}
@@ -431,23 +471,33 @@ export default function ArticlePage({
             <h3 className="font-serif text-xl sm:text-2xl font-bold uppercase text-black">
               More in {article.categoryName || article.category}
             </h3>
-            <button
-              onClick={() => onSelectCategory(article.category)}
-              className="text-[10px] font-bold uppercase tracking-widest text-[#C8102E] hover:underline"
+            <a
+              href={`/category/${article.category}`}
+              onClick={(e) => {
+                if (!e.ctrlKey && !e.metaKey) {
+                  e.preventDefault();
+                  onSelectCategory(article.category);
+                }
+              }}
+              className="text-[10px] font-bold uppercase tracking-widest text-[#C8102E] hover:underline cursor-pointer"
             >
               EXPLORE ALL →
-            </button>
+            </a>
           </div>
 
           <div className="grid sm:grid-cols-3 gap-6">
             {relatedArticles.map((rel) => (
-              <article
+              <a
                 key={rel.id}
-                onClick={() => {
-                  onSelectArticle(rel);
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                href={`/${rel.slug}`}
+                onClick={(e) => {
+                  if (!e.ctrlKey && !e.metaKey) {
+                    e.preventDefault();
+                    onSelectArticle(rel);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
                 }}
-                className="group cursor-pointer space-y-3 flex flex-col justify-between border-b border-gray-200 pb-4"
+                className="group cursor-pointer space-y-3 flex flex-col justify-between border-b border-gray-200 pb-4 block"
               >
                 <div className="space-y-2">
                   <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black transition">
@@ -468,7 +518,7 @@ export default function ArticlePage({
                   <span>BY {rel.author}</span>
                   <span className="text-black font-bold">{rel.readTime}</span>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </section>

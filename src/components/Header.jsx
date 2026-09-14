@@ -35,19 +35,28 @@ export default function Header({
           
           {/* Categories Nav */}
           <nav className="flex items-center gap-5 sm:gap-7 overflow-x-auto text-[11px] sm:text-xs font-bold tracking-widest uppercase text-black py-1 no-scrollbar">
-            {CATEGORIES.map((cat) => (
-              <button
-                key={cat.id}
-                onClick={() => setActiveCategory(cat.id)}
-                className={`transition shrink-0 pb-0.5 ${
-                  activeCategory === cat.id
-                    ? 'text-[#C8102E] border-b-2 border-[#C8102E]'
-                    : 'text-black hover:text-[#C8102E]'
-                }`}
-              >
-                {cat.name}
-              </button>
-            ))}
+            {CATEGORIES.map((cat) => {
+              const href = cat.id === 'all' ? '/' : `/category/${cat.id}`;
+              return (
+                <a
+                  key={cat.id}
+                  href={href}
+                  onClick={(e) => {
+                    if (!e.ctrlKey && !e.metaKey) {
+                      e.preventDefault();
+                      setActiveCategory(cat.id);
+                    }
+                  }}
+                  className={`transition shrink-0 pb-0.5 cursor-pointer ${
+                    activeCategory === cat.id
+                      ? 'text-[#C8102E] border-b-2 border-[#C8102E]'
+                      : 'text-black hover:text-[#C8102E]'
+                  }`}
+                >
+                  {cat.name}
+                </a>
+              );
+            })}
           </nav>
 
           {/* Search & Subscribe */}

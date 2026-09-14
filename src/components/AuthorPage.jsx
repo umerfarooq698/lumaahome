@@ -39,25 +39,37 @@ export default function AuthorPage({
       {/* 1. BREADCRUMBS AND BACK BUTTON */}
       <div className="flex flex-wrap items-center justify-between gap-4 border-b border-gray-200 pb-4 text-xs font-semibold">
         <nav className="flex items-center gap-2 text-gray-500 uppercase tracking-widest text-[10px]">
-          <button 
-            onClick={onBackToHome}
-            className="hover:text-black transition"
+          <a 
+            href="/"
+            onClick={(e) => {
+              if (!e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                onBackToHome();
+              }
+            }}
+            className="hover:text-black transition cursor-pointer"
           >
             HOME
-          </button>
+          </a>
           <span>/</span>
           <span className="text-gray-400">MASTHEAD EDITORS</span>
           <span>/</span>
           <span className="text-[#C8102E] font-bold">{author.name.toUpperCase()}</span>
         </nav>
 
-        <button
-          onClick={onBackToHome}
-          className="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-black hover:text-[#C8102E] transition border border-gray-300 px-3.5 py-1.5 hover:border-black"
+        <a
+          href="/"
+          onClick={(e) => {
+            if (!e.ctrlKey && !e.metaKey) {
+              e.preventDefault();
+              onBackToHome();
+            }
+          }}
+          className="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest text-black hover:text-[#C8102E] transition border border-gray-300 px-3.5 py-1.5 hover:border-black cursor-pointer"
         >
           <ArrowLeft className="w-3.5 h-3.5" />
           <span>RETURN TO MAGAZINE</span>
-        </button>
+        </a>
       </div>
 
       {/* 2. COMPACT AUTHOR MASTHEAD */}
@@ -209,10 +221,18 @@ export default function AuthorPage({
             {authorArticles.map((art) => (
               <article
                 key={art.id}
-                onClick={() => onSelectArticle(art)}
-                className="group cursor-pointer flex flex-col justify-between border-b border-gray-200 pb-6 transition"
+                className="flex flex-col justify-between border-b border-gray-200 pb-6 transition"
               >
-                <div className="space-y-3">
+                <a
+                  href={`/${art.slug}`}
+                  onClick={(e) => {
+                    if (!e.ctrlKey && !e.metaKey) {
+                      e.preventDefault();
+                      onSelectArticle(art);
+                    }
+                  }}
+                  className="space-y-3 group cursor-pointer block"
+                >
                   {/* Photo Container */}
                   <div className="relative aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
                     <img
@@ -237,7 +257,7 @@ export default function AuthorPage({
                   <h3 className="font-serif text-lg font-bold text-black group-hover:text-[#C8102E] transition leading-snug line-clamp-2">
                     {art.title}
                   </h3>
-                </div>
+                </a>
               </article>
             ))}
           </div>
@@ -257,13 +277,17 @@ export default function AuthorPage({
 
         <div className="grid sm:grid-cols-2 max-w-2xl mx-auto gap-6 pt-2">
           {otherAuthors.map((other) => (
-            <button
+            <a
               key={other.id}
-              onClick={() => {
-                onSelectAuthor(other.id);
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+              href={`/author/${other.id}`}
+              onClick={(e) => {
+                if (!e.ctrlKey && !e.metaKey) {
+                  e.preventDefault();
+                  onSelectAuthor(other.id);
+                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
               }}
-              className="bg-white p-5 border border-gray-200 hover:border-black transition text-center group flex flex-col items-center space-y-3 shadow-sm"
+              className="bg-white p-5 border border-gray-200 hover:border-black transition text-center group flex flex-col items-center space-y-3 shadow-sm cursor-pointer block"
             >
               <div className="w-20 h-20 rounded-none border-2 border-gray-200 group-hover:border-[#C8102E] transition overflow-hidden">
                 <img 
@@ -283,7 +307,7 @@ export default function AuthorPage({
               <span className="text-[9px] font-bold uppercase tracking-wider text-black group-hover:text-[#C8102E] underline">
                 VIEW PROFILE →
               </span>
-            </button>
+            </a>
           ))}
         </div>
       </section>

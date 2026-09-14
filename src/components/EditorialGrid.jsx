@@ -29,10 +29,18 @@ export default function EditorialGrid({
         {articles.map((article) => (
           <article
             key={article.id}
-            onClick={() => onSelectArticle(article)}
-            className="group cursor-pointer flex flex-col justify-between border-b-2 border-gray-200 pb-6 transition"
+            className="flex flex-col justify-between border-b-2 border-gray-200 pb-6 transition"
           >
-            <div className="space-y-3">
+            <a
+              href={`/${article.slug}`}
+              onClick={(e) => {
+                if (!e.ctrlKey && !e.metaKey) {
+                  e.preventDefault();
+                  onSelectArticle(article);
+                }
+              }}
+              className="group cursor-pointer block space-y-3"
+            >
               {/* Photo Container */}
               <div className="relative aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
                 <img
@@ -51,19 +59,22 @@ export default function EditorialGrid({
               <h3 className="font-serif text-lg sm:text-xl font-bold text-black group-hover:text-[#C8102E] transition leading-snug">
                 {article.title}
               </h3>
-            </div>
+            </a>
 
             {/* Author and Date Footer */}
             <div className="pt-3 text-[10px] font-bold text-black tracking-wider uppercase border-t border-gray-200 flex items-center gap-2">
-              <button
+              <a
+                href={`/author/${article.authorId || 'marcus-cole'}`}
                 onClick={(e) => {
-                  e.stopPropagation();
-                  if (onSelectAuthor) onSelectAuthor(article.authorId || 'sarah-jenkins');
+                  if (!e.ctrlKey && !e.metaKey) {
+                    e.preventDefault();
+                    if (onSelectAuthor) onSelectAuthor(article.authorId || 'marcus-cole');
+                  }
                 }}
-                className="hover:text-[#C8102E] hover:underline transition"
+                className="hover:text-[#C8102E] hover:underline transition cursor-pointer"
               >
                 BY {article.author.toUpperCase()}
-              </button>
+              </a>
               <span className="text-gray-400">•</span>
               <span className="text-gray-700">{article.date}</span>
             </div>
