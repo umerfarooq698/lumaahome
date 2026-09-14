@@ -59,6 +59,30 @@ export default function ArticlePage({
     (a) => a.category === article.category && a.id !== article.id
   ).slice(0, 3);
 
+  // Single most relevant internal link for below FAQ
+  const relatedInternalArticle = React.useMemo(() => {
+    if (!Array.isArray(allArticles) || allArticles.length === 0) return null;
+    const candidates = allArticles.filter(a => a.id !== article.id && a.slug !== article.slug);
+    if (candidates.length === 0) return null;
+
+    // Priority 1: Same category
+    const sameCat = candidates.find(a => 
+      (a.category && article.category && a.category.toLowerCase() === article.category.toLowerCase()) ||
+      (a.categoryName && article.categoryName && a.categoryName.toLowerCase() === article.categoryName.toLowerCase())
+    );
+    if (sameCat) return sameCat;
+
+    // Priority 2: Tag match
+    const currentTags = (article.tags || []).map(t => t.toLowerCase());
+    const tagMatch = candidates.find(a => 
+      (a.tags || []).some(t => currentTags.includes(t.toLowerCase()))
+    );
+    if (tagMatch) return tagMatch;
+
+    // Priority 3: Latest candidate
+    return candidates[0];
+  }, [article?.id, article?.slug, article?.category, article?.tags, allArticles]);
+
   const handleShare = () => {
     if (navigator.clipboard) {
       navigator.clipboard.writeText(window.location.href);
@@ -330,6 +354,37 @@ export default function ArticlePage({
                 ))}
               </div>
             </section>
+          )}
+
+          {/* Contextual Single Relevant Internal Link (Below FAQ) */}
+          {relatedInternalArticle && (
+            <div className="my-8 rounded-r-lg border-l-4 border-[#C8102E] bg-[#fcfbf9] border-y border-r border-gray-200/90 p-5 sm:p-6 shadow-sm">
+              <div className="space-y-2.5">
+                <div className="flex items-center gap-2">
+                  <Bookmark className="w-4 h-4 text-[#C8102E] shrink-0 fill-[#C8102E]/10" />
+                  <span className="text-xs sm:text-[13px] font-bold uppercase tracking-wider text-[#C8102E]">
+                    READ ALSO THIS • RELATED INVESTIGATIVE REPORTS
+                  </span>
+                </div>
+                <p className="text-xs text-gray-500 font-sans">
+                  Continue reading in-depth architectural coverage from LUMAA HOME:
+                </p>
+                <div className="pt-2 border-t border-gray-100 flex items-start gap-2.5 text-sm sm:text-[15px] leading-relaxed">
+                  <span className="text-[#C8102E] font-bold text-base leading-tight select-none">•</span>
+                  <div className="font-sans">
+                    <span className="font-bold uppercase text-[11px] sm:text-xs tracking-wider text-gray-900 mr-2">
+                      {(relatedInternalArticle.categoryName || relatedInternalArticle.category || 'ARCHITECTURE')}:
+                    </span>
+                    <button
+                      onClick={() => onSelectArticle(relatedInternalArticle)}
+                      className="font-serif font-bold text-[#C8102E] hover:underline text-left inline hover:text-[#9b0b22] transition-colors"
+                    >
+                      {relatedInternalArticle.title}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           )}
 
           {/* Editorial Separator */}
