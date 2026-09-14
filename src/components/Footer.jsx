@@ -96,36 +96,10 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
         {/* Col 4: Corporate and Legal */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b-2 border-black pb-1.5">
-            ABOUT AND CONTACT
+            LEGAL AND CONTACT
           </h4>
-          <ul className="space-y-1.5 text-[11px] font-medium text-[#111111] uppercase">
-            <li>
-              <a
-                href="/about"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNav('about');
-                }}
-                className="hover:text-[#C8102E] hover:underline transition"
-              >
-                About LUMAA HOME™
-              </a>
-            </li>
-            <li>
-              <a
-                href="/contact"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNav('contact');
-                }}
-                className="hover:text-[#C8102E] hover:underline transition"
-              >
-                Contact Editorial Desk
-              </a>
-            </li>
-          </ul>
 
-          <div className="pt-2 border-t border-gray-200 text-[11px] space-y-1">
+          <div className="text-[11px] space-y-1">
             <p className="text-[#111111] font-normal">
               Editorial inquiries: <a href="mailto:info.lumaahome@gmail.com" className="text-black font-bold hover:text-[#C8102E] underline">info.lumaahome@gmail.com</a>
             </p>
@@ -134,28 +108,54 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
             </p>
           </div>
 
-          <div className="pt-1 flex items-center gap-3 text-[10px] text-black uppercase tracking-wider font-bold">
-            <a
-              href="/privacy-policy"
-              onClick={(e) => {
-                e.preventDefault();
-                handleNav('privacy-policy');
-              }}
-              className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
-            >
-              Privacy Policy
-            </a>
-            <span>•</span>
-            <a
-              href="/terms-of-service"
-              onClick={(e) => {
-                e.preventDefault();
-                handleNav('terms-of-service');
-              }}
-              className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
-            >
-              Terms of Service
-            </a>
+          <div className="pt-2 border-t border-gray-200 space-y-1 text-[10px] text-black uppercase tracking-wider font-bold">
+            <div className="flex items-center gap-3">
+              <a
+                href="/privacy-policy"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('privacy-policy');
+                }}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
+              >
+                Privacy Policy
+              </a>
+              <span>•</span>
+              <a
+                href="/terms-of-service"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('terms-of-service');
+                }}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
+              >
+                Terms of Service
+              </a>
+            </div>
+
+            <div className="flex items-center gap-3 pt-0.5">
+              <a
+                href="/about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('about');
+                }}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
+              >
+                About Us
+              </a>
+              <span>•</span>
+              <a
+                href="/contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('contact');
+                }}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
+              >
+                Contact Us
+              </a>
+            </div>
           </div>
         </div>
 

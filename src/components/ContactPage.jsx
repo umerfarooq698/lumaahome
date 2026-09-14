@@ -64,7 +64,7 @@ export default function ContactPage({ onBackToHome, onNavigateAbout }) {
             DIRECT EDITORIAL DESK
           </span>
           <h1 className="font-serif text-3xl sm:text-5xl font-black text-black tracking-tight uppercase">
-            Contact LUMAA HOME™
+            Contact Us
           </h1>
           <p className="font-serif italic text-black text-base sm:text-lg mt-2 font-medium">
             Reach our editors, writers, and technical specialists directly via email.

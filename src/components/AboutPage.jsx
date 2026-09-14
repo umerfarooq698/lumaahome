@@ -34,7 +34,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
             THE EDITORIAL MASTHEAD
           </span>
           <h1 className="font-serif text-3xl sm:text-5xl font-black text-black tracking-tight uppercase">
-            About LUMAA HOME™
+            About Us
           </h1>
           <p className="font-serif italic text-black text-base sm:text-lg mt-2 font-medium">
             The independent British journal dedicated to period architecture, bespoke joinery, and refined DIY living.
