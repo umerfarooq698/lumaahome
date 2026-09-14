@@ -13,24 +13,33 @@ import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
 
-// Universal SEO Route Parser for Articles, Categories, and Authors
+// Universal SEO Route Parser for Articles, Categories, and Authors (Clean HTML5 Pathname Routing)
 function parseCurrentRoute(articlesList) {
+  let path = window.location.pathname.trim();
   let hash = window.location.hash.trim();
-  
-  // Normalize leading hash
+
+  // Normalize hash if present (backward compatibility)
   if (hash.startsWith('#/')) {
     hash = hash.slice(2);
   } else if (hash.startsWith('#')) {
     hash = hash.slice(1);
   }
 
+  // Determine active route string (pathname takes priority over hash)
+  let route = '';
+  if (path && path !== '/' && path !== '/index.html') {
+    route = path.startsWith('/') ? path.slice(1) : path;
+  } else if (hash) {
+    route = hash;
+  }
+
   // Normalize trailing slash
-  if (hash.endsWith('/')) {
-    hash = hash.slice(0, -1);
+  if (route.endsWith('/')) {
+    route = route.slice(0, -1);
   }
 
   // If empty, return home
-  if (!hash) {
+  if (!route) {
     return {
       view: 'home',
       article: null,
@@ -41,8 +50,8 @@ function parseCurrentRoute(articlesList) {
   }
 
   // 1. Author Profile Route: 'author/:authorId'
-  if (hash.startsWith('author/')) {
-    const rawAuthor = decodeURIComponent(hash.replace('author/', '')).trim().toLowerCase();
+  if (route.startsWith('author/')) {
+    const rawAuthor = decodeURIComponent(route.replace('author/', '')).trim().toLowerCase();
     const foundAuthor = AUTHORS.find((a) => a.id.toLowerCase() === rawAuthor || a.name.toLowerCase() === rawAuthor);
 
     return {
@@ -55,8 +64,8 @@ function parseCurrentRoute(articlesList) {
   }
 
   // 2. Category Archive Route: 'category/:catId'
-  if (hash.startsWith('category/')) {
-    const rawCat = decodeURIComponent(hash.replace('category/', '')).trim().toLowerCase();
+  if (route.startsWith('category/')) {
+    const rawCat = decodeURIComponent(route.replace('category/', '')).trim().toLowerCase();
     const foundCat = CATEGORIES.find((c) => c.id.toLowerCase() === rawCat || c.name.toLowerCase() === rawCat);
 
     return {
@@ -68,8 +77,8 @@ function parseCurrentRoute(articlesList) {
     };
   }
 
-  // 3. Article Route (Direct '#/:slug' or legacy 'article/:slug')
-  let rawSlug = decodeURIComponent(hash).trim().toLowerCase();
+  // 3. Article Route (Direct '/:slug' or legacy 'article/:slug')
+  let rawSlug = decodeURIComponent(route).trim().toLowerCase();
   if (rawSlug.startsWith('article/')) {
     rawSlug = rawSlug.replace('article/', '').trim();
   }
@@ -146,11 +155,11 @@ export default function App() {
     };
   }, [syncRouteFromURL]);
 
-  // Navigate to an Article with clean direct SEO slug (e.g. #/slug-name)
+  // Navigate to an Article with clean direct SEO slug (e.g. /slug-name)
   const handleSelectArticle = (article) => {
     if (!article) return;
     const seoSlug = article.slug || article.id;
-    window.history.pushState(null, '', `#/${seoSlug}`);
+    window.history.pushState(null, '', `/${seoSlug}`);
     setRouteState({
       view: 'article',
       article: article,
@@ -166,7 +175,7 @@ export default function App() {
   const handleCategoryChange = (catId) => {
     setSearchQuery('');
     if (catId === 'all') {
-      window.history.pushState(null, '', '#/');
+      window.history.pushState(null, '', '/');
       setRouteState({
         view: 'home',
         article: null,
@@ -175,7 +184,7 @@ export default function App() {
         rawSlug: ''
       });
     } else {
-      window.history.pushState(null, '', `#/category/${catId}`);
+      window.history.pushState(null, '', `/category/${catId}`);
       setRouteState({
         view: 'category',
         article: null,
@@ -190,7 +199,7 @@ export default function App() {
   // Navigate to an Author Profile
   const handleAuthorChange = (authorId) => {
     setSearchQuery('');
-    window.history.pushState(null, '', `#/author/${authorId}`);
+    window.history.pushState(null, '', `/author/${authorId}`);
     setRouteState({
       view: 'author',
       article: null,
@@ -277,7 +286,7 @@ export default function App() {
           setSearchQuery={(q) => {
             setSearchQuery(q);
             if (q) {
-              window.history.pushState(null, '', '#/');
+              window.history.pushState(null, '', '/');
             }
           }}
           onOpenSubscribe={() => setIsSubscribeOpen(true)}
