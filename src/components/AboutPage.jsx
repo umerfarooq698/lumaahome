@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronRight, Award, Compass, Sparkles, BookOpen, Hammer, Mail } from 'lucide-react';
+import { ChevronRight, Award, Compass, Sparkles, BookOpen, Hammer } from 'lucide-react';
 import { AUTHORS } from '../data/authors';
 
 export default function AboutPage({ onBackToHome, onSelectAuthor }) {
@@ -169,28 +169,6 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
               </div>
             </article>
           ))}
-        </div>
-      </section>
-
-      {/* 4. EDITORIAL INQUIRY CONTACT STRIP */}
-      <section className="bg-black text-white p-8 sm:p-10 space-y-4 text-center">
-        <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-[#C8102E] block">
-          CONNECT WITH THE MASTHEAD
-        </span>
-        <h3 className="font-serif text-2xl sm:text-3xl font-bold text-white tracking-tight">
-          Have an Architectural Story or Restoration to Share?
-        </h3>
-        <p className="text-xs sm:text-sm text-gray-200 max-w-xl mx-auto leading-relaxed font-light">
-          We welcome submissions from architects, interior designers, period restorers, and master joiners across the United Kingdom.
-        </p>
-        <div className="pt-2">
-          <a
-            href="mailto:info.lumaahome@gmail.com"
-            className="inline-flex items-center gap-2 bg-[#C8102E] text-white px-8 py-3 text-xs font-bold uppercase tracking-widest hover:bg-white hover:text-black transition shadow-sm"
-          >
-            <Mail className="w-4 h-4" />
-            <span>EMAIL US: info.lumaahome@gmail.com</span>
-          </a>
         </div>
       </section>
 
