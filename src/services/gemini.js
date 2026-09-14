@@ -71,26 +71,27 @@ export async function generateArticleWithGemini({ topic, category = 'Living Room
     const prompt = `You are a Senior Editor and Feature Writer for LUMAA HOME™, crafting an authentic, immersive, reader-first editorial feature on the keyword: "${topic}" for the category: "${category}".
 
 STRICT EDITORIAL AND WRITING STANDARDS:
-1. NO NUMBERED LISTICLES OR FORMULAS: NEVER number your headings (do NOT write "1. Heading", "2. Heading", "3. Title", or "Step 1"). Do not follow a predictable 5-point or 7-point formula. Write fluid, organic British journalism like Architectural Digest or The World of Interiors.
-2. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
-3. UNNUMBERED EVOCATIVE HEADINGS: Craft custom, unnumbered section headings specifically tailored to the topic (e.g., "The Case for Bespoke Reupholstery", "Linen Against Velvet: A Material Discourse", "Navigating British Fire Safety Benchmarks").
-4. DYNAMIC PARAGRAPH FLOW: Vary paragraph length naturally. Blend background context, detailed material analysis, step-by-step nuances, and styling advice rather than identical uniform blocks.
-5. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words.
-6. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed.
-7. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like "The Ultimate", "Unleash", "Unlock", "Delve", "Dive into", "Revolutionize", "Game-changer", "Tapestry", "Supercharge", or "AI". Never mention AI or content generation.
-8. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
-9. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
-10. TOPIC-SPECIFIC FAQS: Add 3 to 4 concise, practical FAQs at the end.
-11. VISUAL CURATION: Provide 3 high-precision 2-4 word English visual queries for photography and a descriptive SEO ALT text without ampersands.
+1. HIERARCHICAL HEADING STRUCTURE (H2 AND H3): Organize the article into major thematic pillars ('level': 'h2') and, where appropriate, delve deeper with focused sub-topics ('level': 'h3') rather than a flat repetitive list of equal headings.
+2. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings — write organic, unnumbered editorial subheadings instead.
+3. CONDITIONAL MINIMAL BULLET POINTS: Use minimal, high-value bullet points (3 to 4 concise items in the 'bullets' array of a section) ONLY when the topic genuinely warrants a quick checklist, technical specification, or key dimension summary. Do NOT force bullets in every article if the prose flows better as pure narrative.
+4. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
+5. DYNAMIC PARAGRAPH FLOW: Vary paragraph length naturally. Blend background context, detailed material analysis, step-by-step nuances, and styling advice.
+6. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words.
+7. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed.
+8. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Game-changer', 'Tapestry', 'Supercharge', or 'AI'. Never mention AI or content generation.
+9. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
+10. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
+11. TOPIC-SPECIFIC FAQS: Add 3 to 4 concise, practical FAQs at the end.
+12. VISUAL CURATION: Provide 3 high-precision 2-4 word English visual queries for photography and a descriptive SEO ALT text without ampersands.
 
 Return ONLY valid JSON matching this exact structure:
 {
   "title": "Title with exactly 55 to 60 characters without ampersands",
   "category": "${category}",
   "readTime": "7 min read",
-  "author": "Sarah Jenkins",
-  "authorId": "sarah-jenkins",
-  "role": "London Interior Stylist and Joinery Specialist",
+  "author": "Marcus Cole",
+  "authorId": "marcus-cole",
+  "role": "Senior Interiors Architect and Joinery Curator",
   "date": "September 2026",
   "heroImageAlt": "Detailed descriptive SEO alt text explaining the room architecture, materials, and lighting without ampersands",
   "unsplashSearchQueries": [
@@ -100,23 +101,37 @@ Return ONLY valid JSON matching this exact structure:
   ],
   "content": [
     {
-      "heading": "Evocative Unnumbered Subheading",
-      "body": "Rich, multi-faceted narrative exploring practical aspects and context without any numbers in the heading."
+      "level": "h2",
+      "heading": "Major Architectural Theme",
+      "body": "Rich, multi-faceted narrative exploring practical aspects and context."
     },
     {
-      "heading": "Material and Craftsmanship Focus",
+      "level": "h3",
+      "heading": "Focused Sub-Topic Analysis",
       "body": "Detailed advice covering textures, specifications, and actionable guidance.",
+      "bullets": [
+        "Concise technical checklist item or measurement rule",
+        "Second practical decision factor without ampersands",
+        "Third high-value takeaway"
+      ]
+    },
+    {
+      "level": "h2",
+      "heading": "Material and Craftsmanship Focus",
+      "body": "Detailed expert insights, proportions, or joinery nuances.",
       "sectionImageQuery": "specific search query for interior details",
       "sectionImageAlt": "Descriptive alt text for detail photo without ampersands",
       "sectionImageCaption": "Subtle editorial caption for detail photo"
     },
     {
-      "heading": "Practical Execution and Technical Insight",
-      "body": "Detailed expert insights, proportions, or installation steps."
+      "level": "h3",
+      "heading": "Specific Material Nuance",
+      "body": "In-depth craftsmanship analysis."
     },
     {
-      "heading": "Architectural Harmony and Longevity",
-      "body": "Comprehensive styling, care, and investment considerations tailored uniquely to this subject."
+      "level": "h2",
+      "heading": "Architectural Longevity and Care",
+      "body": "Comprehensive styling, maintenance, and investment considerations tailored uniquely to this subject."
     }
   ],
   "faqs": [
@@ -164,9 +179,14 @@ Return ONLY valid JSON matching this exact structure:
     if (Array.isArray(data.content)) {
       for (const c of data.content) {
         const sectionObj = {
+          level: c.level || 'h2',
           heading: sanitize(c.heading),
           body: sanitize(c.body)
         };
+
+        if (Array.isArray(c.bullets) && c.bullets.length > 0) {
+          sectionObj.bullets = c.bullets.map(sanitize);
+        }
 
         if (c.sectionImageQuery && !sectionObj.image) {
           try {
