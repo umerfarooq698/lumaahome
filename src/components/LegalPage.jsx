@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronRight, ShieldCheck, Scale, Sparkles, RefreshCw, FileText, CheckCircle2 } from 'lucide-react';
+import { ChevronRight, ShieldCheck, Scale, CheckCircle2 } from 'lucide-react';
 import { INITIAL_PRIVACY_POLICY, INITIAL_TERMS_OF_SERVICE } from '../data/legal';
-import { generateLegalContentWithGemini } from '../services/gemini';
 
 export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNavigateLegal }) {
   const isPrivacy = type === 'privacy-policy' || type === 'privacy';
   const initialData = isPrivacy ? INITIAL_PRIVACY_POLICY : INITIAL_TERMS_OF_SERVICE;
 
   const [data, setData] = useState(initialData);
-  const [loading, setLoading] = useState(false);
-  const [activeSection, setActiveSection] = useState('');
 
   // Synchronize when type prop changes
   useEffect(() => {
@@ -17,24 +14,10 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [type, isPrivacy]);
 
-  const handleRegenerateWithGemini = async () => {
-    setLoading(true);
-    try {
-      const generated = await generateLegalContentWithGemini(isPrivacy ? 'privacy' : 'terms');
-      if (generated && generated.sections && generated.sections.length > 0) {
-        setData(generated);
-      }
-    } catch (err) {
-      console.error('Failed to regenerate legal document with Gemini:', err);
-    } finally {
-      setLoading(false);
-    }
-  };
-
   return (
     <div className="max-w-4xl mx-auto space-y-12 animate-fadeIn pb-16">
       
-      {/* 1. BREADCRUMBS & NAVIGATION */}
+      {/* 1. BREADCRUMBS AND NAVIGATION */}
       <div className="space-y-4 border-b-2 border-black pb-6">
         <div className="flex items-center justify-between text-xs font-bold uppercase tracking-widest text-gray-500">
           <div className="flex items-center gap-2">
@@ -58,7 +41,7 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
           </button>
         </div>
 
-        {/* Header Title & Badges */}
+        {/* Header Title and Badges */}
         <div className="pt-2 flex flex-col sm:flex-row sm:items-end justify-between gap-6">
           <div>
             <div className="flex items-center gap-2 mb-2">
@@ -165,41 +148,15 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
         ))}
       </div>
 
-      {/* 5. GEMINI AI COMPLIANCE REFRESH TOOL */}
-      <div className="border-t-2 border-black pt-8 mt-12 bg-white p-6 border space-y-4 shadow-sm">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="space-y-1">
-            <div className="flex items-center gap-2">
-              <Sparkles className="w-4 h-4 text-[#C8102E]" />
-              <span className="text-[11px] font-black uppercase tracking-widest text-black">
-                Gemini AI Compliance Engine
-              </span>
-            </div>
-            <p className="text-[11px] text-gray-500">
-              Refresh and audit this legal policy with Google's latest AdSense and UK regulatory standards via Gemini 2.5.
-            </p>
-          </div>
-
-          <button
-            onClick={handleRegenerateWithGemini}
-            disabled={loading}
-            className="inline-flex items-center gap-2 bg-black text-white px-5 py-2.5 text-[10px] uppercase font-bold tracking-widest hover:bg-[#C8102E] transition disabled:opacity-50 shrink-0"
-          >
-            <RefreshCw className={`w-3 h-3 ${loading ? 'animate-spin' : ''}`} />
-            {loading ? 'ANALYZING WITH GEMINI...' : 'REFRESH VIA GEMINI AI'}
-          </button>
-        </div>
-      </div>
-
-      {/* 6. LEGAL INQUIRY FOOTNOTE */}
-      <div className="text-center text-xs text-gray-500 space-y-2 pt-4">
-        <p>
+      {/* 4. LEGAL INQUIRY FOOTNOTE */}
+      <div className="text-center text-xs text-black space-y-2 pt-10 border-t-2 border-black">
+        <p className="font-medium">
           For formal legal notices or Data Subject Access Requests (DSAR), please email{' '}
-          <a href={`mailto:${data.contactEmail}`} className="text-black font-semibold underline hover:text-[#C8102E]">
+          <a href={`mailto:${data.contactEmail}`} className="text-black font-bold underline hover:text-[#C8102E]">
             {data.contactEmail}
           </a>.
         </p>
-        <p className="text-[10px] text-gray-400 font-mono">
+        <p className="text-[10px] text-gray-700 font-mono font-semibold">
           LUMAA HOME™ DIGITAL MEDIA GROUP • REGISTERED IN ENGLAND AND WALES
         </p>
       </div>
