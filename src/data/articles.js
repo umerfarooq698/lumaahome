@@ -113,6 +113,55 @@ export const ARTICLES = [
 
   // LIVING ROOM
   {
+    id: 'victorian-fireplace-restoration-advice',
+    title: 'Victorian Fireplace Restoration: Advice for Period Homes',
+    slug: 'victorian-fireplace-restoration-advice-period-homes',
+    category: 'living-room',
+    categoryName: 'Living Room',
+    categoryLabel: 'LIVING ROOM • PERIOD RESTORATION',
+    author: 'Marcus Cole',
+    authorId: 'marcus-cole',
+    role: 'Interiors and Heritage Restoration Editor',
+    date: 'September 14, 2026',
+    readTime: '6 min read',
+    views: '14.2k',
+    excerpt: 'A practical British guide to stripping layered paint, applying graphite wax to cast iron grates, and sourcing period-correct hearth tiles.',
+    heroImage: 'https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=85',
+    heroImageAlt: 'Restored Victorian cast iron fireplace with carved white marble mantelpiece and encaustic hearth tiles in a London townhouse',
+    imageAlt: 'Restored Victorian cast iron fireplace with carved white marble mantelpiece and encaustic hearth tiles in a London townhouse',
+    content: [
+      {
+        heading: '1. Assessing Period Authenticity and Flue Safety',
+        body: 'The chimney breast is the spiritual and structural heart of 19th-century British residential architecture. Before undertaking aesthetic restoration on an original Victorian cast iron insert or Carrera marble mantelpiece, safety and structural integrity must take precedence. Engage a HETAS-registered chimney sweep to conduct a thorough flue inspection, smoke pressure test, and sweep away decades of soot buildup. Under UK Building Regulations Approved Document J, all flues serving solid fuel appliances or decorative gas conversions must have adequate permanent ventilation and an unobstructed draught pathway.'
+      },
+      {
+        heading: '2. Stripping Decades of Paint from Cast Ironwork',
+        body: 'Many Victorian fireplaces in London and Edinburgh townhouses have been obscured beneath layers of modern acrylic or oil-based gloss paint. Never use mechanical wire wheels or angle grinders, as these tools permanently scratch the fine relief patterns and floral castings crafted by Victorian foundries. Instead, apply a non-caustic poultice paint stripper such as PeelAway 1 or 7, allowing the paste to dissolve historic coatings down to the bare ironwork before peeling away cleanly. Always wear appropriate PPE to guard against historic lead paint particles.'
+      },
+      {
+        heading: '3. Reviving Ironwork with Traditional Graphite Polish',
+        body: 'Once the bare iron is exposed and neutralized, remove any surface rust using fine grade 0000 wire wool dipped in white spirit. Rather than applying modern stove spray paint which produces a flat, artificial texture, apply traditional graphite wax paste using a stiff bristle brush. Once dried, buffing the ironwork with a soft cotton cloth yields a rich, authentic deep pewter sheen that highlights ornate detailing while forming a protective barrier against chimney damp.',
+        sectionImageQuery: 'unlacquered brass fireplace fender detail',
+        image: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85',
+        imageAlt: 'Handcrafted unlacquered brass fireplace companion set and graphite polished iron insert',
+        imageCaption: 'Traditional graphite iron wax paired with unlacquered brass creates an authentic period hearth.'
+      },
+      {
+        heading: '4. Sourcing and Bedding Encaustic Hearth Tiles',
+        body: 'Authentic Victorian fireplaces often feature vibrant 6-inch encaustic or majolica glazed side tiles with botanical motifs. When replacing cracked or missing tiles, source salvaged originals or heritage reproductions with deep bottle green, burgundy, and cobalt glaze formulations. Bed hearth tiles on a breathable, heat-resistant lime screed rather than modern inflexible polymer adhesives to allow natural structural movement in period suspended timber floors.'
+      },
+      {
+        heading: '5. Mantelpiece Styling Rules for Modern British Living',
+        body: 'Styling a period fireplace requires restraint so the historic craftsmanship remains the primary focus. Avoid rigid symmetry; instead, practice asymmetric balance by placing a single sculptural studio ceramic vessel on one side balanced against stacked linen art monographs on the other. Ensure any over-mantel mirror does not exceed two-thirds the width of the mantel shelf, and introduce low-glare 2700K warm illumination to accentuate the natural texture of historic lime plaster walls.'
+      },
+      {
+        heading: '6. Historic Masonry Mistakes to Avoid',
+        body: 'The most damaging mistake made in period property restorations is sealing the chimney breast with impermeable modern gypsum plasters or synthetic damp-proof membranes. Historical British brickwork relies on breathable lime mortars to manage moisture cycles. Sealing a dormant flue without installing a vented chimney cowl at the roofline inevitably causes moisture buildup, leading to salt efflorescence and flaking paintwork within living room alcoves.'
+      }
+    ],
+    tags: ['Living Room', 'Period Restoration', 'Heritage Crafts', 'Victorian Home']
+  },
+  {
     id: 'kensington-townhouse',
     title: 'Inside a Restored 19th-Century Victorian Townhouse in Kensington',
     slug: 'inside-restored-victorian-townhouse-kensington',
