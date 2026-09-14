@@ -156,7 +156,7 @@ MANDATORY RULES:
    - Children's Online Privacy Protection (COPPA) declaration (no data collected from children under 13/16).
    - Log files, Google Analytics, web beacons, and cookie technologies.
    - Editorial independence and affiliate marketing transparency.
-    - Contact email: info.lumaahome@gmail.com and address: 10 Berkeley Square, Mayfair, London W1J 6AA, UK.
+    - Contact email: info.lumaahome@gmail.com.
 
 Return ONLY valid JSON matching this schema:
 {
@@ -175,7 +175,7 @@ Return ONLY valid JSON matching this schema:
     }
   ]
 }`
-      : `You are the Lead Legal Counsel for LUMAA HOME™ Digital Media Group, London, UK.
+      : `You are the Lead Legal Counsel for LUMAA HOME™ Digital Media Group.
 Generate a comprehensive, legally binding Terms of Service document for LUMAA HOME™ (lumaahome.vercel.app).
 
 MANDATORY RULES:
@@ -183,11 +183,11 @@ MANDATORY RULES:
 2. Must strictly comply with:
    - Governing law: Laws of England and Wales.
    - Copyright and Intellectual Property rights of LUMAA HOME™ Digital Media Group.
-   - Editorial and DIY Home Renovation safety disclaimers (users undertake DIY, electrical, plumbing, or structural advice at their own risk; certified UK tradespeople recommended).
+   - Editorial and DIY Home Renovation safety disclaimers (users undertake DIY, electrical, plumbing, or structural advice at their own risk; certified tradespeople recommended).
    - User conduct, acceptable use, and prohibited actions.
    - Third-party links, advertising networks (including Google), and affiliate disclaimer.
    - Limitation of liability and disclaimer of warranties under English law.
-   - Contact email: info.lumaahome@gmail.com and address: 10 Berkeley Square, Mayfair, London W1J 6AA, UK.
+   - Contact email: info.lumaahome@gmail.com.
 
 Return ONLY valid JSON matching this schema:
 {

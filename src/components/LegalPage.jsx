@@ -48,10 +48,6 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
               <span className="text-[10px] font-black uppercase tracking-[0.25em] text-[#C8102E] block">
                 OFFICIAL LEGAL DOCUMENT
               </span>
-              <span className="text-gray-300">•</span>
-              <span className="text-[10px] font-bold text-gray-500 uppercase tracking-widest">
-                LONDON, UK
-              </span>
             </div>
             
             <h1 className="font-serif text-3xl sm:text-5xl font-black text-black tracking-tight uppercase">
@@ -157,7 +153,7 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
           </a>.
         </p>
         <p className="text-[10px] text-gray-700 font-mono font-semibold">
-          LUMAA HOME™ DIGITAL MEDIA GROUP • REGISTERED IN ENGLAND AND WALES
+          LUMAA HOME™ DIGITAL MEDIA GROUP
         </p>
       </div>
 

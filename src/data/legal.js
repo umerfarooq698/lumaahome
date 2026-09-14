@@ -11,7 +11,6 @@ export const INITIAL_PRIVACY_POLICY = {
   companyName: "LUMAA HOME™ Digital Media Group",
   contactEmail: "info.lumaahome@gmail.com",
   dpoEmail: "info.lumaahome@gmail.com",
-  address: "10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom",
   introduction: "At LUMAA HOME™ (accessible from lumaahome.vercel.app and related domains), the privacy of our readers and visitors is of utmost importance. This Privacy Policy document outlines the types of personal data collected and recorded by LUMAA HOME™ and how we use, safeguard, and disclose that information in full compliance with the UK General Data Protection Regulation (UK GDPR), the Data Protection Act 2018, and Google Publisher and AdSense Policies.",
   sections: [
     {
@@ -81,7 +80,7 @@ export const INITIAL_PRIVACY_POLICY = {
       heading: "8. Contact Our Legal and Privacy Department",
       content: [
         "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact our legal team:",
-        "LUMAA HOME™ Digital Media Group\nAttention: Legal and Compliance Officer\n10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom\nEmail: info.lumaahome@gmail.com"
+        "LUMAA HOME™ Digital Media Group\nAttention: Legal and Compliance Department\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]
@@ -94,8 +93,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
   effectiveDate: "September 1, 2026",
   companyName: "LUMAA HOME™ Digital Media Group",
   contactEmail: "info.lumaahome@gmail.com",
-  address: "10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom",
-  introduction: "Welcome to LUMAA HOME™ (the 'Website', 'Magazine', or 'Service'), operated by LUMAA HOME™ Digital Media Group in London, United Kingdom. By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
+  introduction: "Welcome to LUMAA HOME™ (the 'Website', 'Magazine', or 'Service'), operated by LUMAA HOME™ Digital Media Group. By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
   sections: [
     {
       id: "acceptance-terms",
@@ -118,7 +116,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       heading: "3. Editorial and DIY Renovation Safety Disclaimer",
       content: [
         "The tutorials, architectural commentary, woodworking instructions, and restoration masterclasses on LUMAA HOME™ are provided for informational, creative, and educational purposes only.",
-        "Home renovation, electrical work, plumbing modifications, and structural alterations carry inherent physical risks. Readers must always exercise proper precautions, wear certified protective gear, and consult qualified, certified UK tradespeople (such as NICEIC electricians and Gas Safe engineers) before undertaking any significant structural or hazardous work.",
+        "Home renovation, electrical work, plumbing modifications, and structural alterations carry inherent physical risks. Readers must always exercise proper precautions, wear certified protective gear, and consult qualified, certified tradespeople before undertaking any significant structural or hazardous work.",
         "LUMAA HOME™ and its editorial contributors assume no liability for any personal injury, property damage, structural failure, or financial loss resulting from the application of advice, tools, or techniques showcased on this Website."
       ]
     },
@@ -143,7 +141,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       heading: "6. Limitation of Liability and Disclaimer of Warranties",
       content: [
         "The Website and all editorial content are provided on an 'as is' and 'as available' basis without warranties of any kind, either express or implied, including warranties of merchantability, fitness for a particular architectural purpose, or non-infringement.",
-        "To the fullest extent permitted by English law, LUMAA HOME™ Digital Media Group, its directors, editors, and contributors shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of the Service."
+        "To the fullest extent permitted by law, LUMAA HOME™ Digital Media Group, its directors, editors, and contributors shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of the Service."
       ]
     },
     {
@@ -158,8 +156,8 @@ export const INITIAL_TERMS_OF_SERVICE = {
       id: "legal-inquiries",
       heading: "8. Legal Inquiries and Contact Information",
       content: [
-        "For legal notices, copyright permissions, or contractual inquiries, please contact our London legal office:",
-        "LUMAA HOME™ Digital Media Group\nLegal Department\n10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom\nEmail: info.lumaahome@gmail.com"
+        "For legal notices, copyright permissions, or contractual inquiries, please contact our legal team:",
+        "LUMAA HOME™ Digital Media Group\nLegal Department\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]

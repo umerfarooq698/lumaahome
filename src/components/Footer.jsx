@@ -12,7 +12,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
         <div className="space-y-4">
           <Logo size="small" />
           <p className="text-[11px] leading-relaxed text-[#111111] font-normal">
-            The UK's premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine. Printed and published digitally in London, UK.
+            The premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine.
           </p>
           
           <div className="pt-2">
@@ -33,10 +33,6 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                 </button>
               ))}
             </div>
-          </div>
-
-          <div className="text-[10px] uppercase font-bold text-gray-700 tracking-widest pt-1">
-            ISSN 2849-1029 • LONDON, UK
           </div>
         </div>
 
