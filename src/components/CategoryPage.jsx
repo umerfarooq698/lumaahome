@@ -117,23 +117,18 @@ export default function CategoryPage({
                 {leadArticle.title}
               </h2>
 
-              <p className="text-xs text-gray-600 leading-relaxed font-light line-clamp-3">
-                {leadArticle.excerpt}
-              </p>
-
-              <div className="pt-4 border-t border-gray-200 flex items-center justify-between text-[11px] text-gray-500 uppercase tracking-wider font-bold">
+              <div className="pt-3 border-t border-gray-200 flex items-center gap-2 text-[10px] text-gray-500 uppercase tracking-wider font-bold">
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    if (onSelectAuthor) onSelectAuthor(leadArticle.authorId || 'eleanor-vance');
+                    if (onSelectAuthor) onSelectAuthor(leadArticle.authorId || 'sarah-jenkins');
                   }}
                   className="hover:text-black hover:underline transition"
                 >
                   BY {leadArticle.author}
                 </button>
-                <span className="text-black group-hover:text-[#C8102E] flex items-center gap-1">
-                  READ FEATURE →
-                </span>
+                <span>•</span>
+                <span>{leadArticle.date}</span>
               </div>
             </div>
           </div>
@@ -158,7 +153,7 @@ export default function CategoryPage({
               <article
                 key={art.id}
                 onClick={() => onSelectArticle(art)}
-                className="space-y-3 group cursor-pointer flex flex-col justify-between"
+                className="space-y-3 group cursor-pointer flex flex-col justify-between border-b border-gray-200 pb-5"
               >
                 <div className="space-y-3">
                   <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black transition">
@@ -176,25 +171,20 @@ export default function CategoryPage({
                   <h4 className="font-serif text-lg font-bold text-black group-hover:text-[#C8102E] transition leading-snug">
                     {art.title}
                   </h4>
-
-                  <p className="text-xs text-gray-600 line-clamp-3 leading-relaxed">
-                    {art.excerpt}
-                  </p>
                 </div>
 
-                <div className="pt-3 text-[10px] font-bold text-gray-400 tracking-wider uppercase border-t border-gray-100 flex items-center justify-between">
+                <div className="pt-3 text-[10px] font-bold text-gray-400 tracking-wider uppercase border-t border-gray-100 flex items-center gap-2">
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
-                      if (onSelectAuthor) onSelectAuthor(art.authorId || 'eleanor-vance');
+                      if (onSelectAuthor) onSelectAuthor(art.authorId || 'sarah-jenkins');
                     }}
                     className="hover:text-black hover:underline transition"
                   >
                     BY {art.author.toUpperCase()}
                   </button>
-                  <span className="text-black group-hover:text-[#C8102E]">
-                    {art.readTime} • READ →
-                  </span>
+                  <span>•</span>
+                  <span>{art.date}</span>
                 </div>
               </article>
             ))}

@@ -237,16 +237,6 @@ export default function AuthorPage({
                   <h3 className="font-serif text-lg font-bold text-black group-hover:text-[#C8102E] transition leading-snug line-clamp-2">
                     {art.title}
                   </h3>
-
-                  {/* Excerpt */}
-                  <p className="text-xs text-gray-600 line-clamp-2 font-light leading-relaxed">
-                    {art.excerpt}
-                  </p>
-                </div>
-
-                <div className="mt-4 pt-3 border-t border-gray-100 flex items-center justify-between text-[10px] font-black uppercase tracking-widest text-black group-hover:text-[#C8102E]">
-                  <span>READ STORY</span>
-                  <ChevronRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
                 </div>
               </article>
             ))}
