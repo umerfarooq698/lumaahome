@@ -130,6 +130,11 @@ const TOPIC_IMAGE_POOLS = {
     { id: 'gard_01', url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'Cotswold stone walled garden courtyard and outdoor dining terrace' },
     { id: 'gard_02', url: 'https://images.unsplash.com/photo-1780257562963-3389a4105371?auto=format&fit=crop&w=1600&q=85', alt: 'English cottage garden with weathered teak dining furniture' }
   ],
+  castle: [
+    { id: 'cas_01', url: 'https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=1600&q=85', alt: 'Edinburgh Castle atop volcanic Castle Rock under Scottish skies' },
+    { id: 'cas_02', url: 'https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?auto=format&fit=crop&w=1600&q=85', alt: 'Medieval stone great hall interior with timber beamed roof and historic masonry arches' },
+    { id: 'cas_03', url: 'https://images.unsplash.com/photo-1533158307587-828f0a76ef46?auto=format&fit=crop&w=1600&q=85', alt: 'Historic stone fortress ramparts and heritage architecture' }
+  ],
   general: [
     { id: 'gen_01', url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist British hallway with natural light' },
     { id: 'gen_02', url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke timber panelled reception room' },
@@ -142,7 +147,9 @@ function getCuratedOrRandomFallback(category = 'Living Room', customAlt = '', qu
   const lower = (queryStr + ' ' + category).toLowerCase();
 
   let targetPool = TOPIC_IMAGE_POOLS.general;
-  if (lower.includes('chair') || lower.includes('dining') || lower.includes('table') || lower.includes('carver')) {
+  if (lower.includes('castle') || lower.includes('edinburgh') || lower.includes('fortress') || lower.includes('scot') || lower.includes('heritage')) {
+    targetPool = TOPIC_IMAGE_POOLS.castle;
+  } else if (lower.includes('chair') || lower.includes('dining') || lower.includes('table') || lower.includes('carver')) {
     targetPool = TOPIC_IMAGE_POOLS.dining;
   } else if (lower.includes('sofa') || lower.includes('cushion') || lower.includes('cover') || lower.includes('slipcover')) {
     targetPool = TOPIC_IMAGE_POOLS.sofa;
