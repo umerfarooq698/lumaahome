@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AUTHORS, getAuthorById } from '../data/authors';
 import { ArrowLeft, MapPin, Mail, Globe, Award, BookOpen, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
 
@@ -11,6 +11,20 @@ export default function AuthorPage({
 }) {
   const author = getAuthorById(authorId);
   
+  // Dynamic SEO Meta Description (Injected into HTML head without rendering visibly in page body)
+  useEffect(() => {
+    if (author && author.metaDescription) {
+      document.title = `${author.name} | Editorial Masthead | LUMAA HOME`;
+      let meta = document.querySelector('meta[name="description"]');
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.name = 'description';
+        document.head.appendChild(meta);
+      }
+      meta.content = author.metaDescription;
+    }
+  }, [author]);
+
   // Filter articles written by this author
   const authorArticles = articles.filter(
     (a) => (a.authorId === author.id) || (a.author && a.author.toLowerCase() === author.name.toLowerCase())
@@ -101,6 +115,13 @@ export default function AuthorPage({
               <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-gray-700">
                 {author.role}
               </p>
+
+              {/* Short Description (Visible in UI) */}
+              {author.shortDescription && (
+                <p className="text-xs sm:text-sm text-gray-600 font-serif leading-relaxed max-w-2xl pt-1">
+                  {author.shortDescription}
+                </p>
+              )}
 
               {/* Social and Contact Links */}
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-semibold text-gray-600">
