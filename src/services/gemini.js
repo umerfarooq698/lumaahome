@@ -22,13 +22,45 @@ function getAIClient() {
   return aiInstance;
 }
 
+// Ordered Gemini models cascade: Latest flagship first, followed by stable fallbacks
+const GEMINI_MODELS_CASCADE = [
+  'gemini-2.5-flash',
+  'gemini-2.0-flash',
+  'gemini-1.5-flash',
+  'gemini-1.5-pro'
+];
+
+/**
+ * Executes a Gemini generateContent request with automatic fallback cascade.
+ * Tries the latest model first (gemini-2.5-flash), and if it encounters errors or rate limits,
+ * seamlessly falls back to the next model in the cascade (gemini-2.0-flash, gemini-1.5-flash, etc.).
+ */
+async function generateWithModelFallback(requestConfig) {
+  const ai = getAIClient();
+  let lastError = null;
+
+  for (const modelName of GEMINI_MODELS_CASCADE) {
+    try {
+      const response = await ai.models.generateContent({
+        ...requestConfig,
+        model: modelName
+      });
+      return response;
+    } catch (err) {
+      console.warn(`[Gemini Cascade] Model ${modelName} failed, falling back to next available model:`, err?.message || err);
+      lastError = err;
+    }
+  }
+
+  throw lastError || new Error('All Gemini models in fallback cascade failed.');
+}
+
 /**
  * Generates a full luxury UK Home Decor / DIY Editorial article using Gemini API.
  * Adheres strictly to the rule: NEVER use the '&' symbol (always use 'and').
  */
 export async function generateArticleWithGemini({ topic, category = 'Living Room' }) {
   try {
-    const ai = getAIClient();
     
     const prompt = `You are the Editor-in-Chief of LUMAA HOME™, a premier British luxury home decor, architectural living, and bespoke DIY magazine based in London, UK.
 
@@ -74,8 +106,7 @@ Return ONLY valid JSON with this exact structure:
   "tags": ["Living Room", "UK Design", "Heritage", "Lighting"]
 }`;
 
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+    const response = await generateWithModelFallback({
       contents: prompt,
       config: {
         responseMimeType: 'application/json'
@@ -154,7 +185,6 @@ Return ONLY valid JSON with this exact structure:
  */
 export async function askAIDesignConsultant(userQuestion) {
   try {
-    const ai = getAIClient();
     const prompt = `You are the Chief Architectural and Interior Design Consultant at LUMAA HOME™ Magazine in London, UK.
 Answer the following homeowner/decorator question with tailored British luxury interior design advice:
 "${userQuestion}"
@@ -163,8 +193,7 @@ RULES:
 1. NEVER use the '&' symbol anywhere. Always spell out 'and'.
 2. Provide concise, expert, sophisticated UK-focused recommendations (heritage colours, natural materials, proportion, architectural details).`;
 
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+    const response = await generateWithModelFallback({
       contents: prompt,
     });
 
@@ -183,7 +212,6 @@ export async function generateLegalContentWithGemini(type = 'privacy') {
   const sanitize = (str) => typeof str === 'string' ? str.replace(/&/g, 'and') : str;
 
   try {
-    const ai = getAIClient();
     const isPrivacy = type === 'privacy';
 
     const prompt = isPrivacy
@@ -250,8 +278,7 @@ Return ONLY valid JSON matching this schema:
   ]
 }`;
 
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.5-flash',
+    const response = await generateWithModelFallback({
       contents: prompt,
       config: {
         responseMimeType: 'application/json'
