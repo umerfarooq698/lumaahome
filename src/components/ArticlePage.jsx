@@ -356,19 +356,16 @@ export default function ArticlePage({
             </section>
           )}
 
-          {/* Contextual Single Relevant Internal Link (Below FAQ) */}
+          {/* Contextual Single Relevant Internal Link (Inside Article Body, Below FAQ) */}
           {relatedInternalArticle && (
-            <div className="my-8 rounded-r-lg border-l-4 border-[#C8102E] bg-[#fcfbf9] border-y border-r border-gray-200/90 p-5 sm:p-6 shadow-sm">
-              <div className="space-y-2.5">
+            <div className="my-8 rounded-r-lg border-l-4 border-[#C8102E] bg-[#fcfbf9] border-y border-r border-gray-200/90 p-4 sm:p-5 shadow-sm">
+              <div className="space-y-2">
                 <div className="flex items-center gap-2">
                   <Bookmark className="w-4 h-4 text-[#C8102E] shrink-0 fill-[#C8102E]/10" />
                   <span className="text-xs sm:text-[13px] font-bold uppercase tracking-wider text-[#C8102E]">
-                    READ ALSO THIS • RELATED INVESTIGATIVE REPORTS
+                    READ ALSO THIS
                   </span>
                 </div>
-                <p className="text-xs text-gray-500 font-sans">
-                  Continue reading in-depth architectural coverage from LUMAA HOME:
-                </p>
                 <div className="pt-2 border-t border-gray-100 flex items-start gap-2.5 text-sm sm:text-[15px] leading-relaxed">
                   <span className="text-[#C8102E] font-bold text-base leading-tight select-none">•</span>
                   <div className="font-sans">
