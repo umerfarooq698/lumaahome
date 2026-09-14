@@ -54,12 +54,12 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
 
         {/* Right Stacked Features (4 cols) */}
         <div className="lg:col-span-4 space-y-6">
-          {stackedArticles.map((article, idx) => (
+          {stackedArticles.slice(0, 2).map((article, idx, arr) => (
             <div
               key={article.id}
               onClick={() => onSelectArticle(article)}
               className={`group cursor-pointer space-y-2.5 pb-6 ${
-                idx === 0 ? 'border-b border-gray-200' : ''
+                idx < arr.length - 1 ? 'border-b border-gray-200' : ''
               }`}
             >
               <div className="aspect-[16/9] bg-gray-100 overflow-hidden mb-3">
