@@ -5,22 +5,22 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
 
   return (
     <section className="pb-10 border-b border-gray-200">
-      <div className="grid lg:grid-cols-12 gap-8 items-start">
+      <div className="grid lg:grid-cols-12 gap-8 items-stretch">
         
-        {/* Main Cover Feature (8 cols) */}
+        {/* Main Cover Feature (8 cols) - Stretches full height */}
         <div
           onClick={() => onSelectArticle(coverArticle)}
-          className="lg:col-span-8 group cursor-pointer space-y-4"
+          className="lg:col-span-8 group cursor-pointer flex flex-col h-full"
         >
-          <div className="relative overflow-hidden bg-gray-950 aspect-[16/10] sm:aspect-[16/9] flex items-end">
+          <div className="relative overflow-hidden bg-gray-950 flex-1 min-h-[480px] sm:min-h-[540px] lg:min-h-full flex items-end shadow-sm">
             <img
               src={coverArticle.heroImage}
               alt={coverArticle.title}
-              className="absolute inset-0 w-full h-full object-cover opacity-80 group-hover:scale-105 transition duration-700 ease-out"
+              className="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:scale-105 transition duration-700 ease-out"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/45 to-transparent"></div>
             
-            <div className="relative z-10 p-6 sm:p-10 space-y-3 text-white">
+            <div className="relative z-10 p-6 sm:p-10 space-y-3.5 text-white w-full">
               <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#C8102E] bg-white px-3 py-1 inline-block shadow-sm">
                 {coverArticle.categoryLabel}
               </span>
@@ -29,7 +29,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                 {coverArticle.title}
               </h2>
               
-              <p className="text-xs sm:text-sm text-gray-300 max-w-2xl leading-relaxed font-light line-clamp-2">
+              <p className="text-xs sm:text-sm text-gray-300 max-w-2xl leading-relaxed font-light line-clamp-3">
                 {coverArticle.excerpt}
               </p>
               
@@ -37,7 +37,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    if (onSelectAuthor) onSelectAuthor(coverArticle.authorId || 'eleanor-vance');
+                    if (onSelectAuthor) onSelectAuthor(coverArticle.authorId || 'sarah-jenkins');
                   }}
                   className="font-bold text-white hover:text-[#C8102E] transition underline decoration-gray-500 hover:decoration-[#C8102E]"
                 >
@@ -53,36 +53,38 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
         </div>
 
         {/* Right Stacked Features (4 cols) */}
-        <div className="lg:col-span-4 space-y-6">
+        <div className="lg:col-span-4 flex flex-col justify-between space-y-6">
           {stackedArticles.slice(0, 2).map((article, idx, arr) => (
             <div
               key={article.id}
               onClick={() => onSelectArticle(article)}
-              className={`group cursor-pointer space-y-2.5 pb-6 ${
+              className={`group cursor-pointer flex flex-col justify-between flex-1 pb-6 ${
                 idx < arr.length - 1 ? 'border-b border-gray-200' : ''
               }`}
             >
-              <div className="aspect-[16/9] bg-gray-100 overflow-hidden mb-3">
-                <img
-                  src={article.heroImage}
-                  alt={article.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
-                />
-              </div>
+              <div className="space-y-2.5">
+                <div className="aspect-[16/9] bg-gray-100 overflow-hidden mb-2.5">
+                  <img
+                    src={article.heroImage}
+                    alt={article.title}
+                    className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+                  />
+                </div>
 
-              <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
-                {article.categoryLabel}
-              </span>
+                <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
+                  {article.categoryLabel}
+                </span>
+                
+                <h3 className="font-serif text-lg sm:text-xl font-bold text-black group-hover:text-[#C8102E] transition leading-snug">
+                  {article.title}
+                </h3>
+                
+                <p className="text-xs text-gray-600 line-clamp-2 leading-relaxed">
+                  {article.excerpt}
+                </p>
+              </div>
               
-              <h3 className="font-serif text-lg sm:text-xl font-bold text-black group-hover:text-[#C8102E] transition leading-snug">
-                {article.title}
-              </h3>
-              
-              <p className="text-xs text-gray-600 line-clamp-2 leading-relaxed">
-                {article.excerpt}
-              </p>
-              
-              <div className="text-[10px] font-bold text-gray-400 tracking-wider uppercase pt-1 flex items-center justify-between">
+              <div className="text-[10px] font-bold text-gray-400 tracking-wider uppercase pt-3 flex items-center justify-between">
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
