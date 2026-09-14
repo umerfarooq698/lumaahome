@@ -29,25 +29,18 @@ function parseCurrentRoute(articlesList) {
     hash = hash.slice(0, -1);
   }
 
-  // 1. Article Route: 'article/:slug'
-  if (hash.startsWith('article/')) {
-    const rawSlug = decodeURIComponent(hash.replace('article/', '')).trim().toLowerCase();
-    const foundArticle = articlesList.find((a) => {
-      const slugMatch = a.slug && a.slug.toLowerCase() === rawSlug;
-      const idMatch = a.id && a.id.toLowerCase() === rawSlug;
-      return slugMatch || idMatch;
-    });
-
+  // If empty, return home
+  if (!hash) {
     return {
-      view: 'article',
-      article: foundArticle || null,
+      view: 'home',
+      article: null,
       authorId: null,
       category: 'all',
-      rawSlug
+      rawSlug: ''
     };
   }
 
-  // 2. Author Profile Route: 'author/:authorId'
+  // 1. Author Profile Route: 'author/:authorId'
   if (hash.startsWith('author/')) {
     const rawAuthor = decodeURIComponent(hash.replace('author/', '')).trim().toLowerCase();
     const foundAuthor = AUTHORS.find((a) => a.id.toLowerCase() === rawAuthor || a.name.toLowerCase() === rawAuthor);
@@ -61,7 +54,7 @@ function parseCurrentRoute(articlesList) {
     };
   }
 
-  // 3. Category Archive Route: 'category/:catId'
+  // 2. Category Archive Route: 'category/:catId'
   if (hash.startsWith('category/')) {
     const rawCat = decodeURIComponent(hash.replace('category/', '')).trim().toLowerCase();
     const foundCat = CATEGORIES.find((c) => c.id.toLowerCase() === rawCat || c.name.toLowerCase() === rawCat);
@@ -72,6 +65,28 @@ function parseCurrentRoute(articlesList) {
       authorId: null,
       category: foundCat ? foundCat.id : 'all',
       rawSlug: rawCat
+    };
+  }
+
+  // 3. Article Route (Direct '#/:slug' or legacy 'article/:slug')
+  let rawSlug = decodeURIComponent(hash).trim().toLowerCase();
+  if (rawSlug.startsWith('article/')) {
+    rawSlug = rawSlug.replace('article/', '').trim();
+  }
+
+  const foundArticle = articlesList.find((a) => {
+    const slugMatch = a.slug && a.slug.toLowerCase() === rawSlug;
+    const idMatch = a.id && a.id.toLowerCase() === rawSlug;
+    return slugMatch || idMatch;
+  });
+
+  if (foundArticle) {
+    return {
+      view: 'article',
+      article: foundArticle,
+      authorId: null,
+      category: foundArticle.category || 'all',
+      rawSlug
     };
   }
 
@@ -131,11 +146,11 @@ export default function App() {
     };
   }, [syncRouteFromURL]);
 
-  // Navigate to an Article with SEO slug
+  // Navigate to an Article with clean direct SEO slug (e.g. #/slug-name)
   const handleSelectArticle = (article) => {
     if (!article) return;
     const seoSlug = article.slug || article.id;
-    window.history.pushState(null, '', `#/article/${seoSlug}`);
+    window.history.pushState(null, '', `#/${seoSlug}`);
     setRouteState({
       view: 'article',
       article: article,
