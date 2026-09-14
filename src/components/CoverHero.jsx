@@ -12,36 +12,43 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
           onClick={() => onSelectArticle(coverArticle)}
           className="lg:col-span-8 group cursor-pointer space-y-4"
         >
-          <div className="relative overflow-hidden bg-gray-950 aspect-[16/10] sm:aspect-[16/9] flex items-end">
+          {/* Crisp Image without dark gradient overlay */}
+          <div className="relative overflow-hidden bg-gray-100 aspect-[16/10] sm:aspect-[16/9] border border-gray-200">
             <img
               src={coverArticle.heroImage}
               alt={coverArticle.title}
-              className="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:scale-105 transition duration-700 ease-out"
+              className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-out"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+          </div>
+
+          {/* Clean Typography Below Image */}
+          <div className="space-y-2.5">
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#C8102E] block">
+              {coverArticle.categoryLabel}
+            </span>
             
-            <div className="relative z-10 p-6 sm:p-8 space-y-3 text-white w-full">
-              <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#C8102E] bg-white px-3 py-1 inline-block shadow-sm">
-                {coverArticle.categoryLabel}
-              </span>
-              
-              <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold leading-tight group-hover:text-gray-200 transition">
-                {coverArticle.title}
-              </h2>
-              
-              <div className="text-[11px] text-gray-300 tracking-wider uppercase pt-2 border-t border-gray-700/80 flex items-center gap-3">
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    if (onSelectAuthor) onSelectAuthor(coverArticle.authorId || 'sarah-jenkins');
-                  }}
-                  className="font-bold text-white hover:text-[#C8102E] transition underline decoration-gray-500 hover:decoration-[#C8102E]"
-                >
-                  BY {coverArticle.author.toUpperCase()}
-                </button>
-                <span>•</span>
-                <span>{coverArticle.date}</span>
-              </div>
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-normal text-black group-hover:text-[#C8102E] transition leading-tight">
+              {coverArticle.title}
+            </h2>
+
+            {coverArticle.excerpt && (
+              <p className="text-sm sm:text-base text-[#222222] leading-relaxed font-normal line-clamp-2">
+                {coverArticle.excerpt}
+              </p>
+            )}
+            
+            <div className="text-[10px] font-bold text-black tracking-wider uppercase pt-1 border-t border-gray-200 flex items-center gap-2">
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (onSelectAuthor) onSelectAuthor(coverArticle.authorId || 'sarah-jenkins');
+                }}
+                className="hover:text-[#C8102E] hover:underline transition"
+              >
+                BY {coverArticle.author.toUpperCase()}
+              </button>
+              <span className="text-gray-400">•</span>
+              <span className="text-gray-600">{coverArticle.date}</span>
             </div>
           </div>
         </div>
@@ -56,7 +63,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                 idx < arr.length - 1 ? 'border-b border-gray-200' : ''
               }`}
             >
-              <div className="aspect-[16/10] bg-gray-100 overflow-hidden mb-2">
+              <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200">
                 <img
                   src={article.heroImage}
                   alt={article.title}
@@ -64,7 +71,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                 />
               </div>
 
-              <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-[#C8102E] block">
                 {article.categoryLabel}
               </span>
               
@@ -83,7 +90,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                   BY {article.author.toUpperCase()}
                 </button>
                 <span className="text-gray-400">•</span>
-                <span className="text-gray-700">{article.date}</span>
+                <span className="text-gray-600">{article.date}</span>
               </div>
             </div>
           ))}
