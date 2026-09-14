@@ -75,6 +75,90 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "crafting-bespoke-diy-kitchens-the-british-fitting-guide-guide",
+    "title": "Crafting Bespoke DIY Kitchens: The British Fitting Guide",
+    "slug": "crafting-bespoke-diy-kitchens-the-british-fitting-guide",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "September 14, 2026",
+    "readTime": "8 min read",
+    "views": "19.6k",
+    "isFeatured": true,
+    "excerpt": "Achieving bespoke craftsmanship in self-installed cabinetry requires rigorous attention to structural tolerances, architectural proportion, and premium timber joinery.",
+    "metaDescription": "Master the installation of diy kitchens using British building standards, precise joinery calculations, and enduring structural materials.",
+    "heroImage": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHNoYWtlciUyMGtpdGNoZW58ZW58MHwwfHx8MTc4OTQyNjgzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHNoYWtlciUyMGtpdGNoZW58ZW58MHwwfHx8MTc4OTQyNjgzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Modern British kitchen interior featuring handmade navy blue shaker cabinetry solid oak worktops and brass hardware",
+    "imageAlt": "Modern British kitchen interior featuring handmade navy blue shaker cabinetry solid oak worktops and brass hardware",
+    "photographer": "Ambitious Studio* | Rick Barrett",
+    "photographerUrl": "https://unsplash.com/@weareambitious",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Precision Engineering in Modern DIY Kitchens",
+        "body": "Executing high-level joinery in self-installed cabinetry requires rigorous adherence to precise architectural tolerances. Successful projects rely on robust 18mm exterior-grade birch plywood carcasses rather than standard low-density chipboard. Before securing any base cabinetry, fitters must establish a precise horizontal datum line using a 360-degree green laser level, compensating for uneven timber subfloors to prevent structural racking across extended runs of joinery.\n\nManaging structural irregularities in older British masonry walls demands specialized fitting techniques. Standard base cabinet frames benefit from an adjustable 42mm rear service void, providing generous space for recessed plumbing conduits and electrical rewiring. End scribing panels should be meticulously trimmed directly to uneven lime plaster walls using a traditional washer and pencil tracing method, eliminating unsightly gaps without relying on excessive silicone sealant.\n\nLong-term mechanical integrity hinges on selecting heavy-duty hardware that easily withstands daily household stresses over prolonged periods. Integrating Blum soft-close drawer runners rated for dynamic load capacities between 40kg and 70kg ensures heavy cast iron cookware remains fully supported. This structural foresight prevents runner sag, maintaining flawless glide operation, crisp alignment, and smooth tactile feedback across decades of intensive domestic utility."
+      },
+      {
+        "level": "h3",
+        "heading": "Spatial Planning and Service Voids",
+        "body": "Ergonomic success within self-installed layouts requires strict adherence to clear circulation zones throughout the kitchen floor plan. A functional layout demands a minimum distance of 900mm to 1200mm between opposing cabinet runs or central island units. Incorporating dedicated rear service voids allows heavy copper pipework and high-voltage electrical cabling to pass unhindered behind base units, protecting internal storage volume while simplifying future utility access.\n\nSecuring base carcasses onto solid foundations prevents long-term structural settlement and subsequent cabinet door misalignment. Heavy-duty adjustable support legs must be load-tested and mechanically anchored to C24 structural timber battens fixed directly into solid brickwork using heavy masonry bolts. This rigid anchoring foundation stabilizes heavy natural stone worktops and prevents joint separation along perimeter wall junctions during natural building movement.\n\nCeiling-height cabinetry integration requires careful management of vertical expansion tolerances and ambient airflow. Leaving a continuous 20mm shadow gap above tall wall cabinets prevents ceiling structural deflection from compressing upper unit frames. Additionally, integrating concealed ventilation grilles behind integrated tall appliance housings facilitates effective heat dissipation, preventing compressor overheating and prolonging appliance operational lifespans significantly.",
+        "bullets": [
+          "Maintain a 50mm rear service void behind base cabinets for pipework and cabling.",
+          "Ensure a minimum 900mm aisle clearance between facing cabinet fronts and kitchen islands.",
+          "Utilise 18mm exterior-grade birch plywood carcasses for enhanced dimensional stability.",
+          "Set base unit plinth heights to 150mm for seamless appliance panel integration."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Selecting Superior Joinery for DIY Kitchens",
+        "body": "The structural lifespan of custom cabinetry depends heavily on the carcass joinery methods chosen during initial layout planning. While standard off-the-shelf flat-pack units rely on simple cam-and-dowel fixings, premium self-installed systems utilize factory-assembled mortise and tenon joints or pocket-hole reinforced timber framing. These traditional woodworking connections distribute heavy mechanical loads evenly, preventing cabinet squareness from degrading over time under heavy granite tops.\n\nManaging ambient moisture levels around sink units and integrated dishwashers requires water-resistant material selection. Specifying moisture-resistant medium-density fibreboard or exterior birch marine plywood prevents core swelling in damp British environments. Sealing exposed timber edges with high-performance polyurethane edge banding blocks steam infiltration, preserving structural panel integrity and preventing paint finish delamination near high-humidity splash zones over extended use.\n\nAcoustic comfort is an essential yet frequently overlooked metric in modern open-plan British living spaces. Installing high-density butyl acoustic dampening mats inside integrated appliance housings attenuates low-frequency refrigerator motor hums by up to 12 decibels. Coupling this acoustic isolation barrier with soft-closing door buffers creates a remarkably tranquil domestic environment free from harsh mechanical vibration or cabinet reverberation during operation.",
+        "image": "https://images.unsplash.com/photo-1544691560-fc2053d97726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMHRpbWJlciUyMGNhYmluZXQlMjBqb2luZXJ5fGVufDB8MHx8fDE3ODk0MjY4MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Detailed close up of handcrafted timber mortise and tenon cabinet joinery",
+        "imageCaption": "Precision mortise and tenon joinery delivers superior structural stability across self-installed cabinetry.",
+        "imageCredit": {
+          "name": "Julian Hochgesang",
+          "link": "https://unsplash.com/@julianhochgesang"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Worktop Calibration and Environmental Stability",
+        "body": "Integrating solid timber or engineered quartz worktops onto installed base carcasses demands careful environmental expansion planning. Solid oak work surfaces expand and contract seasonally across their wood grain, requiring a mandatory 3mm to 5mm expansion gap along all perimeter walls. Filling this expansion gap with high-modulus neutral-cure silicone allows natural timber movement without bowing cabinet frames or cracking delicate wall plasterwork over time.\n\nPreserving natural timber work surfaces requires disciplined surface preparation and breathable protective oil finishes. Applying three initial coats of microporous hardwax oil seals the wood grain against liquid spills while maintaining tactile grain warmth. Keeping indoor relative humidity strictly between 45 and 60 percent prevents timber warping, ensuring worktops remain perfectly flat and structurally sound throughout wet British winters and warm summers.\n\nUndermount sink cutouts in timber worktops require rigorous edge waterproofing to prevent timber rot and black mould growth. Sanding timber cutouts down to a smooth 240-grit finish before applying multiple coats of end-grain sealing wax creates an impenetrable barrier against standing water. Installing stainless steel drip channels under the front lip directs water droplets away from underlying cabinet timber faces effectively."
+      },
+      {
+        "level": "h2",
+        "heading": "Architectural Longevity and Care for DIY Kitchens",
+        "body": "Creating an enduring visual aesthetic relies on timeless colour palettes and meticulous multi-coat paint application techniques. Neutral heritage shades like warm stone grey or deep forest green applied over shellac-based stain-blocking primers provide superior long-term resistance to scuffs, moisture, and cooking grease. Hand-brushing durable eggshell topcoats allows easy localized touch-ups in high-traffic zones over time without requiring complete cabinet door stripping or professional recoating.\n\nMaintaining precise shadow gaps requires periodic fine-tuning of concealed three-way adjustable door hinges. Adjusting integrated side, height, and depth screws maintains uniform 2mm margins between door fronts and face frames across the entire installation. Correct hinge alignment prevents premature mechanical wear, eliminates door binding against adjacent drawers, and preserves the clean, tailored aesthetic of bespoke architectural joinery for years to come.\n\nLong-term maintenance involves simple routine inspections and gentle non-abrasive cleaning routines across all working surfaces. Recoating solid timber work surfaces biannually with fresh hardwax oil maintains robust water resistance without stripping existing finishes. By combining robust structural joinery with disciplined surface care, self-fitted cabinetry ages gracefully, transforming everyday cooking spaces into cherished architectural centerpieces that stand the test of time."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the ideal aisle width for diy kitchens?",
+        "answer": "Maintain a minimum clearance of 900 to 1200 millimetres between facing cabinet runs to ensure comfortable circulation and full door opening."
+      },
+      {
+        "question": "How do you protect solid timber worktops from moisture?",
+        "answer": "Apply three initial coats of microporous hardwax oil and maintain indoor relative humidity between 45 and 60 percent."
+      },
+      {
+        "question": "Which timber carcass material offers maximum durability?",
+        "answer": "Exterior-grade 18 millimetre birch plywood provides superior dimensional stability, screw holding strength, and water resistance compared to standard chipboard."
+      }
+    ],
+    "tags": [
+      "diy kitchens",
+      "Luxury Kitchen",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "crafting-timeless-spaces-with-quality-bedroom-furniture-guide",
     "title": "Crafting Timeless Spaces With Quality Bedroom Furniture",
     "slug": "crafting-timeless-spaces-with-quality-bedroom-furniture",
@@ -87,7 +171,7 @@ export const ARTICLES = [
     "date": "September 14, 2026",
     "readTime": "8 min read",
     "views": "16.9k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Explore how thoughtfully chosen bedroom furniture elevates architectural proportions and brings lasting British craftsmanship into your home.",
     "metaDescription": "Discover how bespoke bedroom furniture transforms British interiors through expert joinery, precise spatial planning, and enduring timber.",
     "heroImage": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bWluaW1hbGlzdCUyMG9hayUyMGJlZCUyMGZyYW1lfGVufDB8MHx8fDE3ODk0MTI0NzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -103,7 +187,7 @@ export const ARTICLES = [
         "body": "Selecting bedroom furniture requires a careful evaluation of spatial dimensions to balance circulation routes and storage capacities within standard British architectural footprints. A standard UK double room measuring 3500 by 2700 millimetres demands judicious placement of wardrobes and beds to prevent spatial congestion. Leaving a comfortable 600 millimetre walking perimeter around the primary bed frame ensures daily ease of movement and preserves a sense of airy volume.\n\nIntegrating bespoke wardrobes with a depth of 600 millimetres allows bulky winter coats and folded linens to be stored efficiently without encroaching on floor space. Opting for sliding doors rather than traditional hinged variants saves roughly 500 millimetres of swing clearance, making them ideal for compact Victorian terraced homes. Thoughtful positioning near natural window light enhances the visual warmth of timber finishes throughout the waking hours.\n\nLong-term durability depends on anchoring tall storage units securely to structural masonry or timber stud walls using heavy-duty brackets rated for dynamic loads. This prevents accidental tipping and ensures that drawers glide smoothly on concealed undermount runners equipped with soft-closing dampeners. Routine maintenance involves checking wall fixings annually and wiping surfaces with a damp, lint-free cloth to eliminate abrasive dust accumulation.",
         "image": "https://images.unsplash.com/photo-1649361811423-a55616f7ab11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGZpdHRlZCUyMHdhcmRyb2JlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTQxMjQ3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Custom fitted wooden wardrobe showing precise internal joinery and shelving",
-        "imageCaption": "Precision internal layout designed for optimal daily functionality",
+        "imageCaption": "Precision internal layout designed for optimal daily functionality"
       },
       {
         "level": "h3",
