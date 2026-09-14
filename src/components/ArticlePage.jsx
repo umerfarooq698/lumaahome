@@ -232,12 +232,31 @@ export default function ArticlePage({
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
             ) : Array.isArray(article.content) ? (
               article.content.map((section, idx) => (
-                <div key={idx} className="space-y-3">
+                <div key={idx} className="space-y-4">
                   {section.heading && (
                     <h3 className="font-serif text-2xl sm:text-[1.65rem] font-medium text-[#111111] pt-8 mb-3 leading-snug">
                       {section.heading}
                     </h3>
                   )}
+
+                  {section.image && (
+                    <figure className="my-6 space-y-2">
+                      <div className="aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
+                        <img
+                          src={section.image}
+                          alt={section.imageAlt || section.heading || article.title}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
+                      {section.imageCaption && (
+                        <figcaption className="text-center font-serif italic text-xs text-gray-500 pt-1">
+                          {section.imageCaption}
+                        </figcaption>
+                      )}
+                    </figure>
+                  )}
+
                   <p className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal">
                     {section.body}
                   </p>

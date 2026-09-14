@@ -38,6 +38,8 @@ IMPORTANT EDITORIAL RULES:
 1. NEVER use the '&' character anywhere in the entire output. Always use the word 'and'.
 2. Tone: Sophisticated British luxury, authoritative, inspiring, elegant, practical for UK homes (Victorian, Georgian, Edwardian, contemporary flats, Cotswolds cottages).
 3. Provide realistic British interior details (Farrow and Ball palettes, Edwardian moldings, limestone flags, bespoke joinery, brass fixtures).
+4. Provide 3 specific, high-precision English search phrases for the Unsplash photo search (e.g. "bespoke in frame kitchen joinery", "honed marble kitchen island", "luxury british kitchen").
+5. Provide a custom, detailed, SEO-optimized ALT text describing the architecture, lighting, textures, and British styling of the room without any ampersands.
 
 Return ONLY valid JSON with this exact structure:
 {
@@ -46,7 +48,12 @@ Return ONLY valid JSON with this exact structure:
   "readTime": "6 min read",
   "author": "Author Name, Title (e.g. Eleanor Vance, Architectural Editor)",
   "date": "September 2026",
-  "excerpt": "A two-sentence compelling summary of the piece without ampersands.",
+  "heroImageAlt": "Detailed descriptive SEO alt text explaining the room architecture, materials, and styling without any ampersands",
+  "unsplashSearchQueries": [
+    "precise 2-3 word query 1",
+    "precise 2-3 word query 2",
+    "precise 2-3 word query 3"
+  ],
   "content": [
     {
       "heading": "Section Heading",
@@ -54,7 +61,10 @@ Return ONLY valid JSON with this exact structure:
     },
     {
       "heading": "Design Principles and Styling Notes",
-      "body": "Actionable design rules, proportion advice, and lighting curation."
+      "body": "Actionable design rules, proportion advice, and lighting curation.",
+      "sectionImageQuery": "specific search query for interior details",
+      "sectionImageAlt": "Descriptive alt text for detail photo without ampersands",
+      "sectionImageCaption": "Subtle editorial caption for detail photo"
     },
     {
       "heading": "The British Artisan Perspective",
@@ -80,8 +90,41 @@ Return ONLY valid JSON with this exact structure:
     // Final safety check: replace any stray & with 'and'
     const sanitize = (str) => typeof str === 'string' ? str.replace(/&/g, 'and') : str;
     
-    // Fetch unique, non-repeating Unsplash photo using the user's Unsplash API
-    const unsplashPhoto = await fetchUniqueUnsplashImage(data.title || topic, category);
+    // Fetch unique, non-repeating Unsplash photo using Gemini's tailored search queries & Gemini's custom ALT text
+    const searchQueries = Array.isArray(data.unsplashSearchQueries) && data.unsplashSearchQueries.length > 0
+      ? data.unsplashSearchQueries.map(sanitize)
+      : [sanitize(data.title) || topic, category];
+
+    const heroImageAlt = sanitize(data.heroImageAlt) || `Luxury British ${category} interior architecture and bespoke joinery`;
+    const unsplashPhoto = await fetchUniqueUnsplashImage(searchQueries, category, heroImageAlt);
+
+    // Process content sections and optionally fetch unique inline section images
+    const processedContent = [];
+    if (Array.isArray(data.content)) {
+      for (const c of data.content) {
+        const sectionObj = {
+          heading: sanitize(c.heading),
+          body: sanitize(c.body)
+        };
+
+        if (c.sectionImageQuery && !sectionObj.image) {
+          try {
+            const secQuery = sanitize(c.sectionImageQuery);
+            const secAlt = sanitize(c.sectionImageAlt) || `${category} interior craftsmanship details`;
+            const secPhoto = await fetchUniqueUnsplashImage([secQuery, `${category} interior details`], category, secAlt);
+            if (secPhoto && secPhoto.url) {
+              sectionObj.image = secPhoto.url;
+              sectionObj.imageAlt = secAlt;
+              sectionObj.imageCaption = sanitize(c.sectionImageCaption) || secAlt;
+            }
+          } catch (e) {
+            console.warn('Could not fetch section image:', e);
+          }
+        }
+
+        processedContent.push(sectionObj);
+      }
+    }
 
     return {
       id: `ai-${Date.now()}`,
@@ -90,14 +133,14 @@ Return ONLY valid JSON with this exact structure:
       readTime: sanitize(data.readTime || '5 min read'),
       author: sanitize(data.author || 'Lumaa Home Editorial Team'),
       date: sanitize(data.date || 'September 2026'),
+      heroImage: unsplashPhoto.url,
       image: unsplashPhoto.url,
-      imageAlt: unsplashPhoto.alt,
+      heroImageAlt: heroImageAlt,
+      imageAlt: heroImageAlt,
       photographer: unsplashPhoto.photographer,
       photographerUrl: unsplashPhoto.photographerUrl,
       excerpt: sanitize(data.excerpt),
-      content: Array.isArray(data.content) 
-        ? data.content.map(c => ({ heading: sanitize(c.heading), body: sanitize(c.body) }))
-        : [],
+      content: processedContent,
       tags: Array.isArray(data.tags) ? data.tags.map(sanitize) : ['Luxury Living', 'UK Decor']
     };
   } catch (error) {
