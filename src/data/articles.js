@@ -98,8 +98,8 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Architectural Proportions and Spatial Ergonomics",
-        "body": "A dining room is fundamentally an architectural arena for slow hospitality, celebratory dinners, and extended evening conversation. When seating fails to support human posture with effortless ease, even the most generous dinner party quickly dissolves into restlessness and physical fatigue. Establishing true comfort begins not with superficial styling, but with millimetre-calibrated spatial geometry that respects both human anatomy and the underlying dining table framework. Understanding the precise relationship between seat height, table aprons, perimeter boundaries, and room circulation corridors ensures that your dining environment feels expansive, balanced, and supremely welcoming for every guest."
+        "heading": "Architectural Dining Chair Proportions and Spatial Ergonomics",
+        "body": "A dining room is fundamentally an architectural arena for slow hospitality, celebratory dinners, and extended evening conversation. When a dining chair fails to support human posture with effortless ease, even the most generous dinner party quickly dissolves into restlessness and physical fatigue. Establishing true comfort begins not with superficial styling, but with millimetre-calibrated spatial geometry that respects both human anatomy and the underlying dining table framework. Understanding the precise relationship between seat height, table aprons, perimeter boundaries, and room circulation corridors ensures that your dining environment feels expansive, balanced, and supremely welcoming for every guest."
       },
       {
         "level": "h3",
@@ -113,8 +113,8 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Hardwood Joinery and Structural Craftsmanship",
-        "body": "Beneath soft tactile upholstery and elegant timber curves lies the uncompromising structural foundation of the piece. Dining chairs endure continual mechanical stress, cyclical weight shifts, and daily family use far exceeding almost any other household furniture item. Sourcing furniture crafted from kiln-dried European hardwoods guarantees structural stability and dimensional resilience throughout shifting British seasonal humidity, preventing the loose joints, annoying creaks, and frame failure that inevitably plague mass-manufactured seating assemblies.",
+        "heading": "Solid Hardwood Joinery for Resilient Dining Chairs",
+        "body": "Beneath soft tactile upholstery and elegant timber curves lies the uncompromising structural foundation of the piece. Dining chairs endure continual mechanical stress, cyclical weight shifts, and daily family use far exceeding almost any other household furniture item. Sourcing dining chairs crafted from kiln-dried European hardwoods guarantees structural stability and dimensional resilience throughout shifting British seasonal humidity, preventing the loose joints, annoying creaks, and frame failure that inevitably plague mass-manufactured seating assemblies.",
         "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1600&q=85",
         "imageAlt": "Artisan workshop detail showing handcrafted solid timber dining chair joints and steam bent curves",
         "imageCaption": "Solid European oak frames with mortise and tenon joinery endure decades of daily domestic use without structural fatigue."
@@ -131,7 +131,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Tactile Textiles and Acoustic Balance",
+        "heading": "Dining Chair Upholstery and Acoustic Balance",
         "body": "Texture defines the immediate physical intimacy of a dining chair, setting the mood between formal elegance and relaxed modern living. In expansive contemporary UK open-plan layouts characterized by polished concrete, marble countertops, glazed bifold doors, and intricate herringbone oak parquet, upholstered dining chairs also play a vital architectural function in dampening harsh acoustic reverberations and softening domestic chatter, transforming echoing halls into warm, acoustically balanced sanctuaries."
       },
       {
@@ -146,8 +146,8 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "The Art of Curating Statement Silhouettes",
-        "body": "Modern British interior design has moved decisively away from matching showroom dining sets, favouring curated collections that feel gathered over time with connoisseurial intent. Achieving visual cohesion across contrasting chair designs requires discipline, balance, and intentional focal points rather than arbitrary mixing, ensuring the dining zone feels curated rather than chaotic, dynamic rather than disjointed, and deeply personal."
+        "heading": "Curating Statement Dining Chairs in Modern British Homes",
+        "body": "Modern British interior design has moved decisively away from matching showroom dining sets, favouring curated dining chairs that feel gathered over time with connoisseurial intent. Achieving visual cohesion across contrasting chair designs requires discipline, balance, and intentional focal points rather than arbitrary mixing, ensuring the dining zone feels curated rather than chaotic, dynamic rather than disjointed, and deeply personal."
       },
       {
         "level": "h3",

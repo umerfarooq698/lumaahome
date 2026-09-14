@@ -72,17 +72,18 @@ export async function generateArticleWithGemini({ topic, category = 'Living Room
 
 STRICT EDITORIAL AND WRITING STANDARDS:
 1. HIERARCHICAL HEADING STRUCTURE (H2 AND H3): Organize the article into major thematic pillars ('level': 'h2') and, where appropriate, delve deeper with focused sub-topics ('level': 'h3') rather than a flat repetitive list of equal headings.
-2. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings — write organic, unnumbered editorial subheadings instead.
-3. CONDITIONAL MINIMAL BULLET POINTS: Use minimal, high-value bullet points (3 to 4 concise items in the 'bullets' array of a section) ONLY when the topic genuinely warrants a quick checklist, technical specification, or key dimension summary. Do NOT force bullets in every article if the prose flows better as pure narrative.
-4. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
-5. DYNAMIC PARAGRAPH FLOW: Vary paragraph length naturally. Blend background context, detailed material analysis, step-by-step nuances, and styling advice.
-6. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words.
-7. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed.
-8. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Game-changer', 'Tapestry', 'Supercharge', or 'AI'. Never mention AI or content generation.
-9. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
-10. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
-11. TOPIC-SPECIFIC FAQS: Add 3 to 4 concise, practical FAQs at the end.
-12. VISUAL CURATION: Provide 3 high-precision 2-4 word English visual queries for photography and a descriptive SEO ALT text without ampersands.
+2. NATURAL KEYWORD INTEGRATION IN H2 HEADINGS: Naturally weave the primary keyword (or its natural semantic variations) into the H2 major headings (e.g. 'Architectural Dining Chair Proportions', 'Joinery Standards for Luxury Dining Chairs') and create authoritative, in-depth content directly answering each keyword-focused pillar.
+3. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings — write organic, unnumbered editorial subheadings instead.
+4. CONDITIONAL MINIMAL BULLET POINTS: Use minimal, high-value bullet points (3 to 4 concise items in the 'bullets' array of a section) ONLY when the topic genuinely warrants a quick checklist, technical specification, or key dimension summary. Do NOT force bullets in every article if the prose flows better as pure narrative.
+5. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
+6. DYNAMIC PARAGRAPH FLOW: Vary paragraph length naturally. Blend background context, detailed material analysis, step-by-step nuances, and styling advice.
+7. WORD COUNT: Total article body word count MUST be strictly between 850 and 1200 words.
+8. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed.
+9. BANNED CLICHES: NEVER use AI clichés or overused buzzwords like 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Game-changer', 'Tapestry', 'Supercharge', or 'AI'. Never mention AI or content generation.
+10. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use the word 'and').
+11. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
+12. TOPIC-SPECIFIC FAQS: Add 3 to 4 concise, practical FAQs at the end.
+13. VISUAL CURATION: Provide 3 high-precision 2-4 word English visual queries for photography and a descriptive SEO ALT text without ampersands.
 
 Return ONLY valid JSON matching this exact structure:
 {
