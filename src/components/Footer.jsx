@@ -98,7 +98,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
             LEGAL AND CONTACT
           </h4>
           <p className="text-[11px] text-gray-500 leading-relaxed font-light">
-            Editorial inquiries: <span className="text-black font-semibold">editor@lumaahome.co.uk</span>
+            Editorial inquiries: <span className="text-black font-semibold">info.lumaahome@gmail.com</span>
           </p>
           <p className="text-[11px] text-gray-400">
             © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP. ALL RIGHTS RESERVED.

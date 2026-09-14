@@ -142,25 +142,7 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
         </div>
       </div>
 
-      {/* 3. TABLE OF CONTENTS / QUICK JUMP */}
-      <div className="border-y border-gray-200 py-4">
-        <span className="text-[10px] font-bold uppercase tracking-widest text-gray-400 block mb-3">
-          TABLE OF CONTENTS
-        </span>
-        <div className="flex flex-wrap gap-2">
-          {data.sections.map((section, idx) => (
-            <a
-              key={section.id || idx}
-              href={`#${section.id || `sec-${idx}`}`}
-              className="text-[11px] bg-gray-100 hover:bg-black hover:text-white px-3 py-1.5 transition uppercase font-medium text-gray-700"
-            >
-              {section.heading.split('.')[0] || `${idx + 1}`}. {section.heading.split('.').slice(1).join('.').trim() || section.heading}
-            </a>
-          ))}
-        </div>
-      </div>
-
-      {/* 4. LEGAL SECTIONS BODY */}
+      {/* 3. LEGAL SECTIONS BODY */}
       <div className="space-y-10 divide-y divide-gray-100">
         {data.sections.map((section, idx) => (
           <section

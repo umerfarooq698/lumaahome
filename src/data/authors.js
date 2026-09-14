@@ -25,7 +25,7 @@ export const AUTHORS = [
     socials: {
       instagram: 'https://instagram.com',
       linkedin: 'https://linkedin.com',
-      email: 'sarah.jenkins@lumaahome.co.uk'
+      email: 'info.lumaahome@gmail.com'
     },
     publishedYear: '2023 - Present',
     articleCount: 12
@@ -56,7 +56,7 @@ export const AUTHORS = [
     socials: {
       instagram: 'https://instagram.com',
       linkedin: 'https://linkedin.com',
-      email: 'eleanor.vance@lumaahome.co.uk'
+      email: 'info.lumaahome@gmail.com'
     },
     publishedYear: '2021 - Present',
     articleCount: 14
@@ -87,7 +87,7 @@ export const AUTHORS = [
     socials: {
       instagram: 'https://instagram.com',
       linkedin: 'https://linkedin.com',
-      email: 'marcus.cole@lumaahome.co.uk'
+      email: 'info.lumaahome@gmail.com'
     },
     publishedYear: '2022 - Present',
     articleCount: 11

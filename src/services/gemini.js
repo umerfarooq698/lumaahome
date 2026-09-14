@@ -156,7 +156,7 @@ MANDATORY RULES:
    - Children's Online Privacy Protection (COPPA) declaration (no data collected from children under 13/16).
    - Log files, Google Analytics, web beacons, and cookie technologies.
    - Editorial independence and affiliate marketing transparency.
-   - Contact email: privacy@lumaahome.co.uk and address: 10 Berkeley Square, Mayfair, London W1J 6AA, UK.
+    - Contact email: info.lumaahome@gmail.com and address: 10 Berkeley Square, Mayfair, London W1J 6AA, UK.
 
 Return ONLY valid JSON matching this schema:
 {
@@ -165,7 +165,7 @@ Return ONLY valid JSON matching this schema:
   "lastUpdated": "September 2026",
   "effectiveDate": "September 1, 2026",
   "companyName": "LUMAA HOME™ Digital Media Group",
-  "contactEmail": "privacy@lumaahome.co.uk",
+  "contactEmail": "info.lumaahome@gmail.com",
   "introduction": "Introductory summary paragraph...",
   "sections": [
     {
@@ -187,7 +187,7 @@ MANDATORY RULES:
    - User conduct, acceptable use, and prohibited actions.
    - Third-party links, advertising networks (including Google), and affiliate disclaimer.
    - Limitation of liability and disclaimer of warranties under English law.
-   - Contact email: legal@lumaahome.co.uk and address: 10 Berkeley Square, Mayfair, London W1J 6AA, UK.
+   - Contact email: info.lumaahome@gmail.com and address: 10 Berkeley Square, Mayfair, London W1J 6AA, UK.
 
 Return ONLY valid JSON matching this schema:
 {
@@ -196,7 +196,7 @@ Return ONLY valid JSON matching this schema:
   "lastUpdated": "September 2026",
   "effectiveDate": "September 1, 2026",
   "companyName": "LUMAA HOME™ Digital Media Group",
-  "contactEmail": "legal@lumaahome.co.uk",
+  "contactEmail": "info.lumaahome@gmail.com",
   "introduction": "Introductory summary paragraph...",
   "sections": [
     {
@@ -225,7 +225,7 @@ Return ONLY valid JSON matching this schema:
       lastUpdated: sanitize(data.lastUpdated || 'September 2026'),
       effectiveDate: sanitize(data.effectiveDate || 'September 1, 2026'),
       companyName: sanitize(data.companyName || 'LUMAA HOME™ Digital Media Group'),
-      contactEmail: sanitize(data.contactEmail || (isPrivacy ? 'privacy@lumaahome.co.uk' : 'legal@lumaahome.co.uk')),
+      contactEmail: sanitize(data.contactEmail || 'info.lumaahome@gmail.com'),
       introduction: sanitize(data.introduction),
       sections: Array.isArray(data.sections)
         ? data.sections.map(s => ({

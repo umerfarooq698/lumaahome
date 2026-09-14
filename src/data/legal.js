@@ -9,8 +9,8 @@ export const INITIAL_PRIVACY_POLICY = {
   lastUpdated: "September 2026",
   effectiveDate: "September 1, 2026",
   companyName: "LUMAA HOME™ Digital Media Group",
-  contactEmail: "privacy@lumaahome.co.uk",
-  dpoEmail: "dpo@lumaahome.co.uk",
+  contactEmail: "info.lumaahome@gmail.com",
+  dpoEmail: "info.lumaahome@gmail.com",
   address: "10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom",
   introduction: "At LUMAA HOME™ (accessible from lumaahome.vercel.app and related domains), the privacy of our readers and visitors is of utmost importance. This Privacy Policy document outlines the types of personal data collected and recorded by LUMAA HOME™ and how we use, safeguard, and disclose that information in full compliance with the UK General Data Protection Regulation (UK GDPR), the Data Protection Act 2018, and Google Publisher and AdSense Policies.",
   sections: [
@@ -41,7 +41,7 @@ export const INITIAL_PRIVACY_POLICY = {
         "• The Right to Erasure: You have the right to request that we erase your personal data under certain lawful conditions.",
         "• The Right to Restrict Processing: You have the right to request that we restrict the processing of your personal data.",
         "• The Right to Data Portability: You have the right to request that we transfer collected data to another organization or directly to you.",
-        "If you make a formal request, we have one calendar month to respond to you. Please contact our Data Protection Officer at privacy@lumaahome.co.uk."
+        "If you make a formal request, we have one calendar month to respond to you. Please contact our Data Protection Officer at info.lumaahome@gmail.com."
       ]
     },
     {
@@ -81,7 +81,7 @@ export const INITIAL_PRIVACY_POLICY = {
       heading: "8. Contact Our Legal and Privacy Department",
       content: [
         "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact our legal team:",
-        "LUMAA HOME™ Digital Media Group\nAttention: Legal and Compliance Officer\n10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom\nEmail: privacy@lumaahome.co.uk"
+        "LUMAA HOME™ Digital Media Group\nAttention: Legal and Compliance Officer\n10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]
@@ -93,7 +93,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
   lastUpdated: "September 2026",
   effectiveDate: "September 1, 2026",
   companyName: "LUMAA HOME™ Digital Media Group",
-  contactEmail: "legal@lumaahome.co.uk",
+  contactEmail: "info.lumaahome@gmail.com",
   address: "10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom",
   introduction: "Welcome to LUMAA HOME™ (the 'Website', 'Magazine', or 'Service'), operated by LUMAA HOME™ Digital Media Group in London, United Kingdom. By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
   sections: [
@@ -159,7 +159,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       heading: "8. Legal Inquiries and Contact Information",
       content: [
         "For legal notices, copyright permissions, or contractual inquiries, please contact our London legal office:",
-        "LUMAA HOME™ Digital Media Group\nLegal Department\n10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom\nEmail: legal@lumaahome.co.uk"
+        "LUMAA HOME™ Digital Media Group\nLegal Department\n10 Berkeley Square, Mayfair, London W1J 6AA, United Kingdom\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]
