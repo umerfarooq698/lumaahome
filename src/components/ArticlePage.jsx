@@ -87,8 +87,8 @@ export default function ArticlePage({
       {/* 2. TWO-COLUMN LAYOUT: LEFT SIDEBAR + RIGHT MAIN ARTICLE */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start pt-2">
         
-        {/* LEFT SIDEBAR: LATEST EDITORIAL STORIES (5-6 ARTICLES) */}
-        <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-24 order-2 lg:order-1 border-t-2 lg:border-t-0 border-black pt-8 lg:pt-0">
+        {/* LEFT SIDEBAR: LATEST EDITORIAL STORIES (5-6 ARTICLES) - STUCK / FIXED IN PLACE ON SCROLL */}
+        <aside className="lg:col-span-4 space-y-6 lg:sticky lg:top-20 self-start max-h-[calc(100vh-6rem)] overflow-y-auto no-scrollbar order-2 lg:order-1 border-t-2 lg:border-t-0 border-black pt-8 lg:pt-0 pr-0 lg:pr-2">
           <div className="border-b-2 border-black pb-2 flex items-center justify-between">
             <h3 className="font-serif text-base sm:text-lg font-bold uppercase tracking-tight text-black">
               Latest Stories
@@ -106,10 +106,10 @@ export default function ArticlePage({
                   onSelectArticle(item);
                   window.scrollTo({ top: 0, behavior: 'smooth' });
                 }}
-                className="py-4 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 items-start transition"
+                className="py-3.5 first:pt-0 last:pb-0 group cursor-pointer flex gap-3.5 items-start transition"
               >
                 {/* Thumbnail */}
-                <div className="w-20 sm:w-24 aspect-[4/3] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black shrink-0 transition">
+                <div className="w-20 aspect-[4/3] bg-gray-100 overflow-hidden border border-gray-200 group-hover:border-black shrink-0 transition">
                   <img
                     src={item.heroImage || item.image}
                     alt={item.title}
