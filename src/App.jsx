@@ -220,17 +220,23 @@ export default function App() {
   }, [savedIds]);
 
   const handleArticleCreated = (newArticle) => {
+    const formatted = {
+      ...newArticle,
+      isCover: true,
+      categoryLabel: `LATEST STORY • ${(newArticle.categoryName || newArticle.category).toUpperCase()}`,
+      slug: newArticle.slug || newArticle.id
+    };
     setArticlesList((prev) => {
-      const updated = [newArticle, ...prev];
+      const updated = [formatted, ...prev.map(a => ({ ...a, isCover: false }))];
       try {
-        const customOnly = updated.filter(a => a.id.startsWith('ai-'));
+        const customOnly = updated.filter(a => a.id.startsWith('ai-') || a.id.startsWith('article-'));
         localStorage.setItem('lumaa_gemini_articles', JSON.stringify(customOnly));
       } catch (e) {
         console.error(e);
       }
       return updated;
     });
-    handleSelectArticle(newArticle);
+    handleSelectArticle(formatted);
   };
 
   // Filter articles for category pages and search
@@ -252,9 +258,10 @@ export default function App() {
     return true;
   });
 
-  const coverArticle = articlesList.find((a) => a.isCover) || articlesList[0];
-  const stackedArticles = articlesList.filter((a) => a.isStacked);
-  const homeGridArticles = articlesList.filter((a) => !a.isCover);
+  // Always dynamic: Newest article is #1 Cover Story, next 2 are Stacked Features
+  const coverArticle = articlesList[0];
+  const stackedArticles = articlesList.slice(1, 3);
+  const homeGridArticles = articlesList.slice(1);
 
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
