@@ -390,12 +390,10 @@ Return ONLY valid JSON matching this exact structure:
         usedUrls
       );
       if (secImg && secImg.url) {
-        sectionObj.image = {
-          url: secImg.url,
-          alt: sanitize(secImg.alt),
-          caption: sanitize(sec.sectionImageCaption || `${catInfo.categoryName} craftsmanship details`),
-          credit: secImg.credit
-        };
+        sectionObj.image = secImg.url;
+        sectionObj.imageAlt = sanitize(secImg.alt);
+        sectionObj.imageCaption = sanitize(sec.sectionImageCaption || `${catInfo.categoryName} craftsmanship details`);
+        sectionObj.imageCredit = secImg.credit;
       }
     }
 

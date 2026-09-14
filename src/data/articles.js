@@ -101,15 +101,9 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Designing the Ideal Layout With Bedroom Furniture",
         "body": "Selecting bedroom furniture requires a careful evaluation of spatial dimensions to balance circulation routes and storage capacities within standard British architectural footprints. A standard UK double room measuring 3500 by 2700 millimetres demands judicious placement of wardrobes and beds to prevent spatial congestion. Leaving a comfortable 600 millimetre walking perimeter around the primary bed frame ensures daily ease of movement and preserves a sense of airy volume.\n\nIntegrating bespoke wardrobes with a depth of 600 millimetres allows bulky winter coats and folded linens to be stored efficiently without encroaching on floor space. Opting for sliding doors rather than traditional hinged variants saves roughly 500 millimetres of swing clearance, making them ideal for compact Victorian terraced homes. Thoughtful positioning near natural window light enhances the visual warmth of timber finishes throughout the waking hours.\n\nLong-term durability depends on anchoring tall storage units securely to structural masonry or timber stud walls using heavy-duty brackets rated for dynamic loads. This prevents accidental tipping and ensures that drawers glide smoothly on concealed undermount runners equipped with soft-closing dampeners. Routine maintenance involves checking wall fixings annually and wiping surfaces with a damp, lint-free cloth to eliminate abrasive dust accumulation.",
-        "image": {
-          "url": "https://images.unsplash.com/photo-1649361811423-a55616f7ab11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGZpdHRlZCUyMHdhcmRyb2JlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTQxMjQ3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "alt": "Custom fitted wooden wardrobe showing precise internal joinery and shelving",
-          "caption": "Precision internal layout designed for optimal daily functionality",
-          "credit": {
-            "name": "Ali Moradi",
-            "link": "https://unsplash.com/@3dartistmoradi"
-          }
-        }
+        "image": "https://images.unsplash.com/photo-1649361811423-a55616f7ab11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGZpdHRlZCUyMHdhcmRyb2JlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTQxMjQ3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Custom fitted wooden wardrobe showing precise internal joinery and shelving",
+        "imageCaption": "Precision internal layout designed for optimal daily functionality",
       },
       {
         "level": "h3",

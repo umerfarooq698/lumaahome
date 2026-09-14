@@ -262,15 +262,15 @@ export default function ArticlePage({
                     <figure className="my-6 space-y-2">
                       <div className="aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
                         <img
-                          src={section.image}
-                          alt={section.imageAlt || section.heading || article.title}
+                          src={typeof section.image === 'object' && section.image?.url ? section.image.url : section.image}
+                          alt={section.imageAlt || (typeof section.image === 'object' && section.image?.alt) || section.heading || article.title}
                           className="w-full h-full object-cover"
                           loading="lazy"
                         />
                       </div>
-                      {section.imageCaption && (
+                      {(section.imageCaption || (typeof section.image === 'object' && section.image?.caption)) && (
                         <figcaption className="text-center font-serif italic text-xs text-gray-500 pt-1">
-                          {section.imageCaption}
+                          {section.imageCaption || (typeof section.image === 'object' && section.image?.caption)}
                         </figcaption>
                       )}
                     </figure>
