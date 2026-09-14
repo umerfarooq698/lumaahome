@@ -75,6 +75,107 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+      "id": "architectural-bathroom-tiles-specification-guide",
+      "title": "Mastering Architectural Specifications for Bathroom Tiles",
+      "slug": "architectural-specifications-luxury-bathroom-tiles",
+      "category": "bathrooms",
+      "categoryName": "Bathrooms",
+      "categoryLabel": "LUXURY SANCTUARIES • MATERIAL SPECIFICATION",
+      "author": "Marcus Cole",
+      "authorId": "marcus-cole",
+      "role": "Senior Interiors Architect and Materials Specialist",
+      "date": "September 14, 2026",
+      "readTime": "8 min read",
+      "views": "19.8k",
+      "isFeatured": true,
+      "excerpt": "A comprehensive technical masterclass on specifying porcelain, marble, and handcrafted zellige bathroom tiles with precision waterproofing and grout standards.",
+      "metaDescription": "Specify luxury bathroom tiles with expert technical guidance on porcelain absorption rates slip ratings substrate tanking and epoxy grouts.",
+      "heroImage": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85",
+      "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85",
+      "heroImageAlt": "Luxury architectural bathroom featuring classic white wall tiles and modern glass walk-in shower enclosure",
+      "imageAlt": "Luxury architectural bathroom featuring classic white wall tiles and modern glass walk-in shower enclosure",
+      "photographer": "Lumaa Home Editorial Curation",
+      "photographerUrl": "https://unsplash.com",
+      "content": [
+          {
+              "level": "h2",
+              "heading": "Selecting Technical Specifications for Porcelain Bathroom Tiles",
+              "body": "Specifying high-performance floor surfaces demands a rigorous evaluation of material density and water resistance metrics. Vitrified porcelain stoneware represents the gold standard for luxury residential wet environments due to its exceptionally low water absorption rate of E <= 0.5%. Manufactured under intense hydraulic compaction and fired at temperatures exceeding 1200 degrees Celsius, these dense ceramic bodies effectively prevent moisture ingress, resisting structural degradation, frost spalling, and subsurface bacterial growth across decades of continuous exposure.\n\nDimensional standards dictate distinct tile thicknesses based on structural load requirements and wall capacities. Standard vertical wall installations perform flawlessly with 8mm thick porcelain panels, reducing dead weight on plasterboard substrates. Conversely, floor installations require 10mm to 12mm thick tiles to withstand heavy mechanical foot traffic. Selecting rectified edges ensures laser-precise dimensions, allowing seamless installations with tight 2mm grout joints that enhance spatial continuity in modern architectural layouts.",
+              "bullets": [
+                  "Water absorption: Vitrified porcelain requires E <= 0.5% compliance.",
+                  "Wall thickness: 8mm light-format panels minimise substrate load.",
+                  "Floor thickness: 10mm to 12mm porcelain handles daily mechanical stress.",
+                  "Edge profile: Rectified sharp edges allow tight precision joints."
+              ]
+          },
+          {
+              "level": "h2",
+              "heading": "Evaluating Slip Resistance and Safety for Bathroom Tiles",
+              "body": "Surface traction is paramount when selecting floor finishes for residential wet zones and walk-in shower enclosures. The British Standard pendulum test measures dynamic coefficient of friction under wet conditions, where a Pendulum Test Value of PTV >= 36 indicates a genuinely low slip potential. Designers must carefully evaluate tactile safety alongside routine maintenance requirements, balancing micro-textured anti-slip surfaces against ease of cleaning in daily domestic use.\n\nRamp test classifications provide further essential technical guidance for barefoot and shod wet areas. While smooth dry transition zones utilize R9 rated materials, dedicated wet rooms and sloped shower trays require R10 or R11 ratings to guarantee user stability under soapy water. Linear drainage channels require complementary tile falls of 1:50, directing water efficiently toward outlets without creating uncomfortable floor gradients or hazardous standing water pools."
+          },
+          {
+              "level": "h2",
+              "heading": "Laying Luxury Natural Stone and Zellige Bathroom Tiles",
+              "body": "Handcrafted glazed Moroccan zellige tiles bring unmatched architectural character to feature walls through subtle organic variations in colour tone and undulating surface glaze. Because zellige exhibits handmade edge irregularities, specialist installers must embrace flexible spacing without rigid plastic tile spacers. Immersing these porous terracotta tiles in clean water prior to installation prevents them from rapidly drawing moisture out of adhesive beds, ensuring a tenacious bond against vertical surfaces.\n\nHoned Carrara marble offers timeless architectural elegance but requires precise installation protocols due to natural porosity. Stone slabs must be sealed with a penetrating hydrophobic impregnator prior to grouting to prevent permanent staining from pigments and moisture. Selecting white rapid-setting polymer-modified adhesive prevents darker cements from telegraphing grey shadows through translucent marble, preserving the pristine light-reflecting qualities of natural stone surfaces.",
+              "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85",
+              "imageAlt": "Freestanding luxury bathtub set against large-format honed natural stone bathroom tiles",
+              "imageCaption": "Large-format honed stone bathroom tiles paired with architectural sanitaryware create serene, tactile sanctuaries."
+          },
+          {
+              "level": "h3",
+              "heading": "Substrate Waterproofing and Tanking Preparation",
+              "body": "Underlying waterproofing systems form the invisible defense against structural timber rot and expensive moisture damage in modern bathrooms. According to BS 5385 Part 1 guidelines, all wet room substrates must receive a complete liquid tanking membrane or waterproofing fleece system before laying surfaces. Critical wall junctions, internal corners, and pipe penetrations require elastomeric jointing tape bedded directly into the liquid membrane to absorb structural building movement without tearing.\n\nSubstrates must possess adequate load-bearing capacity and dimensional stability under thermal and moisture movement. Standard plasterboard supports up to 32 kilograms per square metre, whereas specialized cementitious backer boards easily accommodate up to 50 kilograms per square metre. Installing rigid tile backer boards over timber joists eliminates deflection, preventing cracked grout joints and delamination in heavy natural stone or large-format porcelain installations."
+          },
+          {
+              "level": "h2",
+              "heading": "Optimising Thermal Conductivity with Heated Bathroom Tiles",
+              "body": "Integrating radiant underfloor heating beneath ceramic or porcelain surfaces provides exceptional energy efficiency and luxurious barefoot comfort. Dense vitrified porcelain exhibits superior thermal conductivity compared to timber or carpet, distributing warmth evenly across the floor mass. Installing uncoupling membranes between heating cables and floor finishes buffers lateral expansion movement, effectively protecting brittle tiles from thermal stress fractures and substrate shifting.\n\nSystem control relies on precise floor-sensing thermostats embedded within flexible conduit directly beneath the tile bed. Allowing complete curing times for adhesives and grouts is critical before energising heating elements for the first time. Commissioning should occur gradually, increasing temperatures by two degrees daily to prevent thermal shock, adhesive crystallisation, or moisture entrapment within the underlying screed and timber subfloor assembly."
+          },
+          {
+              "level": "h2",
+              "heading": "Mastering Grout Chemistry and Precision Joints for Bathroom Tiles",
+              "body": "Grout selection impacts both the structural longevity and aesthetic coherence of floor and wall assemblies. Modern polymer-modified cementitious grouts offer excellent flexibility and stain resistance for standard residential applications. However, high-exposure wet areas benefit immensely from two-component epoxy grouts, which provide absolute zero porosity, complete chemical resistance, and total immunity to mould growth in warm, damp domestic environment conditions.\n\nJoint width specifications depend directly on tile manufacturing type and edge finishing details. Rectified porcelain tiles allow sleek 2mm grout joints, creating clean monolithic surfaces across expansive room plans. Non-rectified ceramic or handmade zellige pieces require 3mm to 4mm joints to absorb subtle dimensional variances. Incorporating flexible silicone movement joints at perimeter junctions accommodates building settlement while maintaining complete watertight security.\n\nRoutine maintenance protocols preserve protective glazes and prevent grout line deterioration over extended periods. Neutral pH surface cleaners protect delicate marble sealers and ceramic glazes from acid etching. Applying specialist fluoropolymer sealers to cementitious grout lines creates an effective oleophobic barrier against soap scum, body oils, and hard water minerals, ensuring long-term aesthetic integrity, hygienic cleanliness, and effortless daily maintenance.",
+              "bullets": [
+                  "Rectified joint width: 2mm gap for clean monolithic aesthetic.",
+                  "Non-rectified joint width: 3mm to 4mm gap for organic variations.",
+                  "Epoxy grout advantage: Zero porosity for shower enclosures.",
+                  "Perimeter expansion: Flexible silicone joints absorb movement."
+              ]
+          },
+          {
+              "level": "h3",
+              "heading": "Sealing Protocols and Long-Term Surface Maintenance",
+              "body": "Natural stone and unglazed terracotta tiles require periodic resealing to preserve their protective barrier against cosmetic stains, hard water deposits, and acidic bathroom products. Applying a breathable, solvent-based penetrating sealer every twelve to eighteen months ensures liquids bead on the surface without darkening the delicate natural veining of marble or limestone.\n\nFor routine cleaning, avoid aggressive acidic descalers or abrasive scrubbing powders that strip protective sealants and erode cementitious grout joints. Instead, utilize neutral-pH specialist stone washes and microfiber mops, ensuring your architectural bathroom tiles retain their pristine appearance, tactile warmth, and structural integrity across decades of daily family use."
+          }
+      ],
+      "faqs": [
+          {
+              "question": "What slip rating is required for bathroom tiles?",
+              "answer": "Floor tiles in wet areas require a minimum Pendulum Test Value of PTV 36 or an R10 rating to ensure safety."
+          },
+          {
+              "question": "Can you install porcelain bathroom tiles over timber floorboards?",
+              "answer": "Yes, provided you overlay timber floors with cement backer boards and an uncoupling membrane to prevent movement cracks."
+          },
+          {
+              "question": "What tile thickness is best for bathroom walls and floors?",
+              "answer": "Use 8mm tiles on walls to reduce load, and specify 10mm to 12mm tiles on floors for durability."
+          },
+          {
+              "question": "Is epoxy grout necessary for residential bathroom tiles?",
+              "answer": "Epoxy grout is ideal for shower enclosures because it is completely non-porous and resists mould growth without sealing."
+          }
+      ],
+      "tags": [
+          "Bathroom Tiles",
+          "Luxury Bathrooms",
+          "Porcelain Tiles",
+          "Zellige Tiles",
+          "Wet Room Design",
+          "Underfloor Heating"
+      ]
+  },
+  {
     "id": "edinburgh-castle-architectural-history",
     "title": "Restoring Heritage Spaces: Lessons from Edinburgh Castle",
     "slug": "architectural-history-edinburgh-castle-scottish-heritage",
