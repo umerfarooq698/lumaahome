@@ -2,7 +2,7 @@
  * LUMAA HOME™ Advanced SEO & Structured Data (JSON-LD) Engine
  */
 
-export const SITE_URL = 'https://lumaahome.vercel.app';
+export const SITE_URL = 'https://lumaahome.co.uk';
 export const SITE_NAME = 'LUMAA HOME™';
 export const DEFAULT_OG_IMAGE = 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85';
 export const DEFAULT_DESCRIPTION = 'Discover the epitome of British interior luxury, period restorations, and bespoke DIY guides with Lumaa Home™ Magazine. Curated for UK design enthusiasts.';

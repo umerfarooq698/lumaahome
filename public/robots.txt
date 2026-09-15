@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://lumaahome.vercel.app/sitemap.xml
+Sitemap: https://lumaahome.co.uk/sitemap.xml

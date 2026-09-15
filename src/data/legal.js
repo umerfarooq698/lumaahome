@@ -11,13 +11,13 @@ export const INITIAL_PRIVACY_POLICY = {
   companyName: "LUMAA HOME™ Digital Media Group",
   contactEmail: "info.lumaahome@gmail.com",
   dpoEmail: "info.lumaahome@gmail.com",
-  introduction: "At LUMAA HOME™ (accessible from lumaahome.vercel.app and related domains), the privacy of our readers and visitors is of utmost importance. This Privacy Policy document outlines the types of personal data collected and recorded by LUMAA HOME™ and how we use, safeguard, and disclose that information in full compliance with the UK General Data Protection Regulation (UK GDPR), the Data Protection Act 2018, and Google Publisher and AdSense Policies.",
+  introduction: "At LUMAA HOME™ (accessible from lumaahome.co.uk and related domains), the privacy of our readers and visitors is of utmost importance. This Privacy Policy document outlines the types of personal data collected and recorded by LUMAA HOME™ and how we use, safeguard, and disclose that information in full compliance with the UK General Data Protection Regulation (UK GDPR), the Data Protection Act 2018, and Google Publisher and AdSense Policies.",
   sections: [
     {
       id: "google-adsense-cookies",
       heading: "1. Google AdSense, Advertising Cookies, and DoubleClick DART",
       content: [
-        "Google is a third-party vendor on our website. Google uses cookies, specifically known as DoubleClick DART cookies, to serve advertisements to our visitors based upon their visit to lumaahome.vercel.app and other sites across the internet.",
+        "Google is a third-party vendor on our website. Google uses cookies, specifically known as DoubleClick DART cookies, to serve advertisements to our visitors based upon their visit to lumaahome.co.uk and other sites across the internet.",
         "Users may choose to opt out of personalized advertising and the use of the DART cookie by visiting the Google Ad and Content Network Privacy Policy at: https://policies.google.com/technologies/ads or by modifying their individual settings at Google Ads Settings (https://www.google.com/settings/ads).",
         "Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons in their respective advertisements and links that appear on LUMAA HOME™. These technologies automatically measure the effectiveness of advertising campaigns and personalize the advertising content you see."
       ]

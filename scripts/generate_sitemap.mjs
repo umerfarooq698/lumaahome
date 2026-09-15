@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 
-const BASE_URL = 'https://lumaahome.vercel.app';
+const BASE_URL = 'https://lumaahome.co.uk';
 
 export function generateSitemap() {
   const currentDate = new Date().toISOString().split('T')[0];

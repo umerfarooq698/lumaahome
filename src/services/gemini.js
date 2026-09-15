@@ -271,7 +271,7 @@ export async function generateLegalContentWithGemini(type = 'privacy') {
 
     const prompt = isPrivacy
       ? `You are the Lead Legal Counsel and Compliance Officer for LUMAA HOME™ Digital Media Group, London, UK.
-Generate a comprehensive, legally rigorous, Google AdSense and UK GDPR-compliant Privacy Policy for LUMAA HOME™ (lumaahome.vercel.app).
+Generate a comprehensive, legally rigorous, Google AdSense and UK GDPR-compliant Privacy Policy for LUMAA HOME™ (lumaahome.co.uk).
 
 MANDATORY RULES:
 1. NEVER use the '&' symbol anywhere. Always use the word 'and'.
@@ -302,7 +302,7 @@ Return ONLY valid JSON matching this schema:
   ]
 }`
       : `You are the Lead Legal Counsel for LUMAA HOME™ Digital Media Group.
-Generate a comprehensive, legally binding Terms of Service document for LUMAA HOME™ (lumaahome.vercel.app).
+Generate a comprehensive, legally binding Terms of Service document for LUMAA HOME™ (lumaahome.co.uk).
 
 MANDATORY RULES:
 1. NEVER use the '&' symbol anywhere. Always use the word 'and'.
