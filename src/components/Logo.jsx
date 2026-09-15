@@ -110,19 +110,20 @@ export default function Logo({ size = "default", className = "" }) {
       </div>
 
       {/* Main Luxury Brand Typography on the Right */}
-      <div className="flex flex-col items-center justify-center text-center space-y-1 sm:space-y-1.5">
+      <div className="flex flex-col items-center justify-center text-center">
         {/* Brand Name */}
-        <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl font-black tracking-[0.12em] sm:tracking-[0.16em] text-black uppercase transition-all duration-300 group-hover:tracking-[0.18em] leading-none">
-          LUMAA HOME<span className="text-xs sm:text-base align-top text-[#C8102E] font-normal ml-0.5 sm:ml-1">™</span>
+        <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl font-black tracking-[0.12em] sm:tracking-[0.16em] text-black uppercase transition-all duration-300 group-hover:tracking-[0.18em] leading-none text-center flex items-center justify-center">
+          <span>LUMAA HOME</span>
+          <span className="text-xs sm:text-base align-top text-[#C8102E] font-normal ml-0.5 sm:ml-1 -mt-2 sm:-mt-3">™</span>
         </h1>
 
-        {/* Bespoke Editorial Tagline Centered with Red Diamonds */}
-        <div className="flex items-center justify-center gap-2 sm:gap-2.5 pt-0.5 w-full">
-          <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
-          <span className="text-[8px] sm:text-[10px] md:text-[11px] font-bold tracking-[0.22em] sm:tracking-[0.28em] text-gray-900 uppercase whitespace-nowrap">
+        {/* Bespoke Editorial Tagline Perfectly Centered */}
+        <div className="flex items-center justify-center gap-2 sm:gap-2.5 mt-1 sm:mt-1.5 w-full text-center">
+          <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-[#C8102E] rotate-45 shrink-0" />
+          <span className="text-[8px] sm:text-[10px] md:text-[11px] font-bold tracking-[0.22em] sm:tracking-[0.28em] text-gray-900 uppercase whitespace-nowrap text-center pl-[0.22em] sm:pl-[0.28em]">
             Luxury British Interiors and DIY
           </span>
-          <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
+          <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-[#C8102E] rotate-45 shrink-0" />
         </div>
       </div>
     </div>
