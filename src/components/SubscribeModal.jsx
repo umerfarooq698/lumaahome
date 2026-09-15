@@ -53,7 +53,7 @@ export default function SubscribeModal({ isOpen, onClose }) {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              className="w-full px-4 py-3 text-xs border border-gray-300 focus:outline-none focus:border-black uppercase text-center font-bold tracking-wider"
+              className="w-full px-4 py-3 text-base sm:text-xs border border-gray-300 focus:outline-none focus:border-black uppercase text-center font-bold tracking-wider"
             />
             <button
               type="submit"
