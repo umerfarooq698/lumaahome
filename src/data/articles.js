@@ -90,12 +90,12 @@ export const ARTICLES = [
     "isFeatured": true,
     "excerpt": "A practical guide to choosing kitchen worktops that blend structural integrity, British craftsmanship, and refined surface aesthetics.",
     "metaDescription": "Explore refined kitchen worktops crafted from solid oak and quartz. Learn precise joinery specs and edge details for lasting UK style in...",
-    "heroImage": "https://images.unsplash.com/photo-1771795638652-01821921a461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cXVhcnR6JTIwa2l0Y2hlbiUyMHdvcmt0b3AlMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk0NjQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1771795638652-01821921a461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cXVhcnR6JTIwa2l0Y2hlbiUyMHdvcmt0b3AlMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk0NjQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Solid prime oak kitchen worktops featuring routed drainage grooves beside an undermount Belfast sink in a modern British home",
-    "imageAlt": "Solid prime oak kitchen worktops featuring routed drainage grooves beside an undermount Belfast sink in a modern British home",
-    "photographer": "Rosemary Media",
-    "photographerUrl": "https://unsplash.com/@rosemarymedia",
+    "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+    "heroImageAlt": "Bespoke luxury marble and quartz kitchen worktop island with waterfall edge in a modern British home",
+    "imageAlt": "Bespoke luxury marble and quartz kitchen worktop island with waterfall edge in a modern British home",
+    "photographer": "R Architecture",
+    "photographerUrl": "https://unsplash.com/@rarchitecture_melbourne",
     "content": [
       {
         "level": "h2",
@@ -117,12 +117,12 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Timber Specifications for Traditional Kitchen Worktops",
         "body": "Solid hardwood surfaces bring rich tactile warmth and organic character into contemporary interior schemes. Prime European oak and American walnut remain premier choices for kitchen worktops due to their tight cellular grain structure and Janka hardness ratings exceeding 6000 Newtons. End-grain block butcher stations offer superior knife resistance, self-healing under heavy blade pressure while preserving delicate sharp edges on fine culinary cutlery during routine daily preparation.\n\nTimber responds dynamically to ambient atmospheric moisture shifts within modern residential spaces. Maintaining indoor relative humidity consistently between 45 and 60 percent prevents excessive seasonal timber movement. Staves measuring 40 millimetres in width are kiln-dried down to 8 percent moisture content before finger-jointing, ensuring long-term dimensional stability. Underside surfaces require moisture barrier aluminum foil above dishwashers to block rising steam and prevent upward cupping.",
-        "image": "https://images.unsplash.com/photo-1617262869510-3793b141c294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c29saWQlMjBvYWslMjBraXRjaGVuJTIwd29ya3RvcCUyMGpvaW5lcnklMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTQ2NDAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Close up of finger jointed European oak kitchen worktop showing rich wood grain and oiled surface",
+        "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1200&q=80",
+        "imageAlt": "Bespoke solid wood and quartz kitchen worktop detail with classic British shaker cabinetry",
         "imageCaption": "Kiln-dried oak staves with precision finger joints provide dimensional stability against moisture shifts.",
         "imageCredit": {
-          "name": "Brett Jordan",
-          "link": "https://unsplash.com/@brett_jordan"
+          "name": "R Architecture",
+          "link": "https://unsplash.com/@rarchitecture_melbourne"
         }
       },
       {

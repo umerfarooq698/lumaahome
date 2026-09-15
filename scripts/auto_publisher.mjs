@@ -163,11 +163,43 @@ function mapCategoryInfo(keyword) {
   };
 }
 
+const CATEGORY_FALLBACK_IMAGES = {
+  kitchen: [
+    { url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury British kitchen marble worktop and bespoke island architecture', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1600&q=85', alt: 'Classic British shaker kitchen with solid oak details and quartz surfaces', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85', alt: 'Contemporary luxury architectural kitchen cabinetry and stone worktop', credit: { name: 'Jason Leung', link: 'https://unsplash.com/@ninjason' } }
+  ],
+  bathroom: [
+    { url: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85', alt: 'Stone composite freestanding bath tub in a luxury architectural bathroom', credit: { name: 'Curology', link: 'https://unsplash.com/@curology' } },
+    { url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist luxury bathroom vanity and bespoke wall tile architecture', credit: { name: 'Christian Mackie', link: 'https://unsplash.com/@christianmackie' } },
+    { url: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke walk-in shower with natural stone tiles and brushed brass fittings', credit: { name: 'Sanibell BV', link: 'https://unsplash.com/@sanibell' } }
+  ],
+  bedroom: [
+    { url: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=1600&q=85', alt: 'Solid oak handcrafted furniture in a luxury British bedroom suite', credit: { name: 'Sidekix Media', link: 'https://unsplash.com/@sidekix' } },
+    { url: 'https://images.unsplash.com/photo-1540518614846-7ede433c4550?auto=format&fit=crop&w=1600&q=85', alt: 'Warm luxury master bedroom with bespoke upholstered headboard', credit: { name: 'Christopher Jolly', link: 'https://unsplash.com/@cjolly' } },
+    { url: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1600&q=85', alt: 'Architectural bedroom suite with minimal timber bedframe and neutral styling', credit: { name: 'Spacejoy', link: 'https://unsplash.com/@spacejoy' } }
+  ],
+  living: [
+    { url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'High-end British architectural living room with bespoke lounge seating', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury living room with feature fireplace and curated modular sofa', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
+  ],
+  garden: [
+    { url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke British conservatory and garden room architecture', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury stone patio and architectural outdoor living space', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
+  ],
+  diy: [
+    { url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Architectural joinery craftsmanship and timber wood finishing', credit: { name: 'Theme Photos', link: 'https://unsplash.com/@themephotos' } }
+  ]
+};
+
 /**
  * Fetch unique high-definition Unsplash photo
  */
-async function fetchUnsplashImage(searchQueries, categoryName, altText, usedUrls = new Set()) {
-  const queries = [...searchQueries, `luxury ${categoryName} interior`, `british architectural ${categoryName}`];
+async function fetchUnsplashImage(searchQueries, categoryId, altText, usedUrls = new Set()) {
+  const catKey = (categoryId || 'living').toLowerCase();
+  const pool = CATEGORY_FALLBACK_IMAGES[catKey] || CATEGORY_FALLBACK_IMAGES.living;
+
+  const queries = [...searchQueries, `luxury ${catKey} interior`, `british architectural ${catKey}`];
   
   for (const query of queries) {
     try {
@@ -184,7 +216,7 @@ async function fetchUnsplashImage(searchQueries, categoryName, altText, usedUrls
           usedUrls.add(imgUrl);
           return {
             url: imgUrl,
-            alt: sanitize(altText || item.alt_description || `Luxury British ${categoryName} architectural design`),
+            alt: sanitize(altText || item.alt_description || `Luxury British ${catKey} architectural design`),
             credit: {
               name: item.user?.name || 'Unsplash Photographer',
               link: item.user?.links?.html || 'https://unsplash.com'
@@ -197,11 +229,15 @@ async function fetchUnsplashImage(searchQueries, categoryName, altText, usedUrls
     }
   }
 
-  return {
-    url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80',
-    alt: sanitize(altText || `Luxury British ${categoryName} interior architecture`),
-    credit: { name: 'Lumaa Home Archive', link: 'https://unsplash.com' }
-  };
+  // Use curated category-specific fallback if Unsplash API fails or exhausts
+  for (const fallback of pool) {
+    if (!usedUrls.has(fallback.url)) {
+      usedUrls.add(fallback.url);
+      return fallback;
+    }
+  }
+
+  return pool[0];
 }
 
 /**
@@ -364,7 +400,7 @@ Return ONLY valid JSON matching this exact structure:
   console.log(`[Unsplash] Fetching hero image for queries:`, articleData.unsplashSearchQueries);
   const heroImage = await fetchUnsplashImage(
     articleData.unsplashSearchQueries || [topic],
-    catInfo.categoryName,
+    catInfo.categoryId,
     articleData.heroImageAlt || `Luxury British ${catInfo.categoryName} interior architecture`,
     usedUrls
   );
@@ -386,7 +422,7 @@ Return ONLY valid JSON matching this exact structure:
       console.log(`[Unsplash] Fetching section image for query:`, sec.sectionImageQuery);
       const secImg = await fetchUnsplashImage(
         [sec.sectionImageQuery, `${topic} details`, `luxury ${catInfo.categoryName}`],
-        catInfo.categoryName,
+        catInfo.categoryId,
         sec.sectionImageAlt || `${topic} interior details`,
         usedUrls
       );
