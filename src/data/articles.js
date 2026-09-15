@@ -75,6 +75,99 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "selecting-craft-kitchen-worktops-for-modern-british-homes-guide",
+    "title": "Selecting Craft Kitchen Worktops for Modern British Homes",
+    "slug": "selecting-craft-kitchen-worktops-for-modern-british-homes",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "author": "Oliver Sinclair",
+    "authorId": "oliver-sinclair",
+    "role": "Master Joiner and Period Restoration Consultant",
+    "date": "September 15, 2026",
+    "readTime": "8 min read",
+    "views": "22.5k",
+    "isFeatured": true,
+    "excerpt": "A practical guide to choosing kitchen worktops that blend structural integrity, British craftsmanship, and refined surface aesthetics.",
+    "metaDescription": "Explore refined kitchen worktops crafted from solid oak and quartz. Learn precise joinery specs and edge details for lasting UK style in...",
+    "heroImage": "https://images.unsplash.com/photo-1771795638652-01821921a461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cXVhcnR6JTIwa2l0Y2hlbiUyMHdvcmt0b3AlMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk0NjQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1771795638652-01821921a461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cXVhcnR6JTIwa2l0Y2hlbiUyMHdvcmt0b3AlMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk0NjQwMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Solid prime oak kitchen worktops featuring routed drainage grooves beside an undermount Belfast sink in a modern British home",
+    "imageAlt": "Solid prime oak kitchen worktops featuring routed drainage grooves beside an undermount Belfast sink in a modern British home",
+    "photographer": "Rosemary Media",
+    "photographerUrl": "https://unsplash.com/@rosemarymedia",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Mastering Kitchen Worktops Material Engineering",
+        "body": "Selecting structural surfaces for culinary environments requires a careful balance between dynamic tensile resilience and authentic aesthetic character. Modern kitchen worktops must withstand substantial loads, aggressive localized impacts, and rapid thermal shifts on a daily basis. Specifying a solid 30 millimetre slab provides superior structural rigidity over base cabinetry, successfully minimizing deflection risks across expansive breakfast bar spans exceeding 1200 millimetres without requiring intermediate vertical steel legs.\n\nSub-floor stability remains vital when installing heavyweight surface materials like granite or engineered quartz. Standard British home installations assume maximum sub-floor deflection tolerances strictly below 1 in 360 over total span length. Carcass subbases must be perfectly level to within 1 millimetre per metre using heavy-duty adjustable feet, ensuring structural weight distributes evenly to prevent hairline fractures along routed hob cutouts and undermount sink reveals.\n\nMaterial choices directly dictate long-term maintenance schedules and performance in busy residential kitchens. High-density quartz composites containing 90 percent natural quartz combined with polymer resins offer exceptional stain resistance and non-porous hygiene benefits. Conversely, natural stone like marble demands high-performance penetrating silicone sealers applied annually to protect against acidic etching caused by citrus, vinegar, and red wine routinely present during food preparation."
+      },
+      {
+        "level": "h3",
+        "heading": "Selecting Quartz and Natural Stone Formulations",
+        "body": "Engineered quartz slabs are manufactured using specialized vibration vacuum compaction, creating an extraordinarily dense surface material with flexural strength exceeding 45 megapascals. This structural integrity allows for slender 20 millimetre profiles while maintaining high resistance against chipping during heavy domestic use. Master fabricators utilize diamond CNC routing tools to achieve tight tolerances around cutouts, preserving a crisp 5 millimetre shadow line along perimeter cabinetry.\n\nThermal shock remains a major technical consideration when specifying natural stone surfaces in modern kitchens. Direct exposure to hot cookware exceeding 180 degrees Celsius can trigger rapid localized thermal expansion, leading to irreversible stress fractures. Incorporating recessed stainless steel trivet rods or designated heat pads into the surface layout effectively mitigates thermal damage, safeguarding both stone matrix and resin structures for decades of active culinary operation.",
+        "bullets": [
+          "Minimum 30 millimetre depth for unsupported breakfast bar cantilever spans up to 300 millimetres",
+          "Penetrating fluoro-chemical sealer application for porous natural marble surfaces every twelve months",
+          "Precision diamond cutouts leaving a minimum 60 millimetre border from carcass edge boundaries",
+          "Polished pencil round edge profile delivering smooth 3 millimetre radius impact protection"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Timber Specifications for Traditional Kitchen Worktops",
+        "body": "Solid hardwood surfaces bring rich tactile warmth and organic character into contemporary interior schemes. Prime European oak and American walnut remain premier choices for kitchen worktops due to their tight cellular grain structure and Janka hardness ratings exceeding 6000 Newtons. End-grain block butcher stations offer superior knife resistance, self-healing under heavy blade pressure while preserving delicate sharp edges on fine culinary cutlery during routine daily preparation.\n\nTimber responds dynamically to ambient atmospheric moisture shifts within modern residential spaces. Maintaining indoor relative humidity consistently between 45 and 60 percent prevents excessive seasonal timber movement. Staves measuring 40 millimetres in width are kiln-dried down to 8 percent moisture content before finger-jointing, ensuring long-term dimensional stability. Underside surfaces require moisture barrier aluminum foil above dishwashers to block rising steam and prevent upward cupping.",
+        "image": "https://images.unsplash.com/photo-1617262869510-3793b141c294?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c29saWQlMjBvYWslMjBraXRjaGVuJTIwd29ya3RvcCUyMGpvaW5lcnklMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTQ2NDAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up of finger jointed European oak kitchen worktop showing rich wood grain and oiled surface",
+        "imageCaption": "Kiln-dried oak staves with precision finger joints provide dimensional stability against moisture shifts.",
+        "imageCredit": {
+          "name": "Brett Jordan",
+          "link": "https://unsplash.com/@brett_jordan"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Precision Edge Profiles and Structural Overhangs",
+        "body": "Perimeter edge fabrication defines both user safety and tactile interaction along worktop perimeters. Arris and pencil round profiles remove sharp 90 degree corners, replacing them with smooth 2 to 3 millimetre radii that significantly reduce chipping risks while softening architectural geometry. For classic heritage schemes, delicate Ogee and DuPont edge details provide timeless layered mouldings, requiring meticulous hand-finishing with fine silicon carbide abrasives.\n\nManaging extended cantilevered overhangs for island seating zones demands exact engineering and structural planning. Overhangs exceeding 250 millimetres in 20 millimetre quartz require hidden steel support brackets recessed into carcass gables. These concealed 6 millimetre flat steel bars transfer vertical live loads directly back into cabinet frames, ensuring complete stability when users lean on worktop edges without compromising comfortable knee clearance below."
+      },
+      {
+        "level": "h2",
+        "heading": "Long-Term Care for Kitchen Worktops and Surfaces",
+        "body": "Preserving the factory finish of solid timber work surfaces involves consistent maintenance routines. Applying a food-safe hardwax oil based on natural vegetable oils and waxes seals timber pores against moisture ingress. Initial installations require four coats, applied lightly with fine scuff pads, followed by bi-annual reoiling around sink cutouts where water exposure remains highest throughout daily kitchen activities over the years.\n\nRoutine cleaning of engineered worktops requires neutral pH detergent solutions to avoid stripping protective surface sealants or dulling polished finishes. Abrasive scouring pads and harsh alkaline cleaners above pH 10 degrade resin binders in quartz surfaces, creating micro-pitting that permanently traps organic dirt. Microfibre cloths paired with warm water reliably maintain pristine surface luster while protecting underlying structural material integrity.\n\nHandling accidental scuffs or stubborn surface staining requires material-specific restoration methods. Minor scratches on solid timber can be locally sanded with 240-grit sandpaper along the grain direction before reapplication of hardwax oil. Polished natural stone surfaces require professional diamond paste buffing to lift deep-seated stains and restore factory sheen, preserving architectural value over extended residential lifespans."
+      },
+      {
+        "level": "h2",
+        "heading": "Acoustic and Thermal Performance in Modern Kitchens",
+        "body": "Acoustic comfort in open-plan kitchen spaces is significantly influenced by surface density and material selection. Heavy natural stone and quartz surfaces effectively dissipate high-frequency impact noises from cutlery and cookware through structural mass. Pairing 30 millimetre thick stone slabs with acoustic dampening underlayment ribbons along cabinet rails reduces reverberation noise levels across contiguous dining and living zones by several measurable decibels.\n\nThermal conductivity varies markedly between worktop materials, affecting ambient touch comfort during food preparation. Timber surfaces possess low thermal conductivity, feeling naturally warm to the touch year-round, whereas stone surfaces act as thermal sinks, drawing ambient heat away. Integrating subtle under-counter heating panels beneath cold stone seating overhangs creates welcoming, cozy breakfast bars during colder British winter months."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What thickness is recommended for quartz kitchen worktops?",
+        "answer": "A thickness of 30 millimetres is standard for unsupported spans up to 1200 millimetres, whereas 20 millimetre slabs suit supported carcass runs."
+      },
+      {
+        "question": "How often should solid timber kitchen worktops be oiled?",
+        "answer": "Newly installed timber requires four initial coats of hardwax oil, followed by maintenance reoiling every six months around high-moisture sink areas."
+      },
+      {
+        "question": "What overhang clearance requires hidden structural support brackets?",
+        "answer": "Any cantilevered worktop overhang exceeding 250 millimetres requires recessed steel support plates to safely absorb vertical loads."
+      },
+      {
+        "question": "How do you protect natural stone from acidic staining?",
+        "answer": "Apply a penetrating silicone or fluoro-chemical sealer every twelve months and wipe away acidic spills immediately using neutral detergent."
+      }
+    ],
+    "tags": [
+      "kitchen worktops",
+      "Luxury Kitchen",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "selecting-bathroom-tiles-for-refined-architectural-homes-guide",
     "title": "Selecting Bathroom Tiles for Refined Architectural Homes",
     "slug": "selecting-bathroom-tiles-for-refined-architectural-homes",
@@ -87,7 +180,7 @@ export const ARTICLES = [
     "date": "September 15, 2026",
     "readTime": "8 min read",
     "views": "17.3k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A technical editorial guide to specifying durable, slip-resistant bathroom tiles engineered for high-performance British residential wet spaces.",
     "metaDescription": "Discover expert technical advice on choosing bathroom tiles, from slip resistance ratings to British tanking and subfloor specifications.",
     "heroImage": "https://images.unsplash.com/photo-1656646523907-97b094c7e63a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bWluaW1hbGlzdCUyMHBvcmNlbGFpbiUyMGJhdGhyb29tJTIwdGlsZXxlbnwwfDB8fHwxNzg5NDQ0NjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
