@@ -11,7 +11,7 @@ export default function Header({
   onOpenSubscribe 
 }) {
   return (
-    <header className="pt-8 pb-4 sm:pt-10 sm:pb-6 border-b border-gray-900 bg-white">
+    <header className="pt-3.5 pb-2 sm:pt-5 sm:pb-2.5 border-b border-gray-900 bg-white">
       {/* Centered Brand Logo & Title */}
       <div className="max-w-7xl mx-auto px-4 text-center">
         <a 
@@ -30,7 +30,7 @@ export default function Header({
       </div>
 
       {/* Bordered Horizontal Navigation Ribbon with New Categories */}
-      <div className="mt-6 border-t border-b border-gray-900 py-2.5 bg-white sticky top-0 z-30 shadow-sm">
+      <div className="mt-3.5 sm:mt-4 border-t border-b border-gray-900 py-2 bg-white sticky top-0 z-30 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between gap-4">
           
           {/* Categories Nav */}
