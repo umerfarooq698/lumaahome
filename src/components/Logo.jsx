@@ -110,20 +110,19 @@ export default function Logo({ size = "default", className = "" }) {
       </div>
 
       {/* Main Luxury Brand Typography on the Right */}
-      <div className="flex flex-col text-left space-y-1 sm:space-y-1.5">
+      <div className="flex flex-col items-center justify-center text-center space-y-1 sm:space-y-1.5">
         {/* Brand Name */}
         <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl font-black tracking-[0.12em] sm:tracking-[0.16em] text-black uppercase transition-all duration-300 group-hover:tracking-[0.18em] leading-none">
           LUMAA HOME<span className="text-xs sm:text-base align-top text-[#C8102E] font-normal ml-0.5 sm:ml-1">™</span>
         </h1>
 
-        {/* Bespoke Editorial Tagline with Red Diamond */}
-        <div className="flex items-center gap-2 sm:gap-3 pt-0.5">
+        {/* Bespoke Editorial Tagline Centered with Red Diamonds */}
+        <div className="flex items-center justify-center gap-2 sm:gap-2.5 pt-0.5 w-full">
           <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
           <span className="text-[8px] sm:text-[10px] md:text-[11px] font-bold tracking-[0.22em] sm:tracking-[0.28em] text-gray-900 uppercase whitespace-nowrap">
             Luxury British Interiors and DIY
           </span>
           <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 bg-[#C8102E] rotate-45 shrink-0"></span>
-          <div className="h-[1px] flex-1 bg-gradient-to-r from-gray-300 to-transparent"></div>
         </div>
       </div>
     </div>
