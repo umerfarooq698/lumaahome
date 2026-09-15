@@ -14,6 +14,7 @@ import LegalPage from './components/LegalPage';
 import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
+import { updatePageSeo, buildWebSiteJsonLd } from './utils/seo';
 
 // Universal SEO Route Parser for Articles, Categories, Authors, Legal, About, and Contact Pages (Clean HTML5 Pathname Routing)
 function parseCurrentRoute(articlesList) {
@@ -197,6 +198,19 @@ export default function App() {
       window.removeEventListener('hashchange', syncRouteFromURL);
     };
   }, [syncRouteFromURL]);
+
+  useEffect(() => {
+    if (routeState.view === 'home') {
+      updatePageSeo({
+        title: 'LUMAA HOME™ | A Luxury UK Home Decor and DIY Magazine',
+        description: 'Discover the epitome of British interior luxury, period restorations, and bespoke DIY guides with Lumaa Home™ Magazine. Curated for UK design enthusiasts.',
+        keywords: 'lumaa home, luxury home decor uk, uk interior design, bespoke diy guides, victorian renovations, british home styling, period joinery',
+        canonicalPath: '/',
+        ogType: 'website',
+        jsonLd: buildWebSiteJsonLd()
+      });
+    }
+  }, [routeState.view]);
 
   // Navigate to an Article with clean direct SEO slug (e.g. /slug-name)
   const handleSelectArticle = (article) => {

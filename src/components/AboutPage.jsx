@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ChevronRight, Award, Compass, Sparkles, BookOpen, Hammer } from 'lucide-react';
 import { AUTHORS } from '../data/authors';
+import { updatePageSeo, SITE_URL } from '../utils/seo';
 
 export default function AboutPage({ onBackToHome, onSelectAuthor }) {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updatePageSeo({
+      title: 'About Us | The Editorial Masthead',
+      description: 'The independent British journal dedicated to period architecture, bespoke joinery, and refined DIY living.',
+      keywords: 'about lumaa home, british interior architects, masthead editors, period property restoration uk',
+      canonicalPath: '/about',
+      ogType: 'website',
+      jsonLd: {
+        '@type': 'AboutPage',
+        '@id': `${SITE_URL}/about/#about`,
+        'url': `${SITE_URL}/about`,
+        'name': 'About LUMAA HOME™ Magazine',
+        'description': 'The premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine.',
+        'inLanguage': 'en-GB'
+      }
+    });
+  }, []);
   return (
     <div className="max-w-4xl mx-auto space-y-12 animate-fadeIn pb-16">
       

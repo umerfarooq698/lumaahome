@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { CATEGORIES } from '../data/articles';
 import { ChevronRight, Sparkles, BookOpen } from 'lucide-react';
+import { updatePageSeo, buildCategoryJsonLd } from '../utils/seo';
 
 export default function CategoryPage({ 
   category, 
@@ -16,6 +17,20 @@ export default function CategoryPage({
     description: `Curated UK interior design, architectural restorations, and expert guides for ${category}.`,
     quote: 'Crafting comfortable, refined British spaces with authentic craftsmanship.'
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updatePageSeo({
+      title: `${categoryInfo.name} Editorial Archive`,
+      description: categoryInfo.description,
+      keywords: `${categoryInfo.name.toLowerCase()}, luxury british interiors, architectural restoration, ${categoryInfo.id} design uk`,
+      canonicalPath: `/category/${categoryInfo.id}`,
+      ogType: 'website',
+      image: categoryInfo.bannerImage,
+      section: categoryInfo.name,
+      jsonLd: buildCategoryJsonLd(categoryInfo, articles)
+    });
+  }, [category, categoryInfo, articles]);
 
   const leadArticle = articles.length > 0 ? articles[0] : null;
   const remainingArticles = articles.slice(1);

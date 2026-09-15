@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { AUTHORS, getAuthorById } from '../data/authors';
 import { ArrowLeft, MapPin, Globe, Award, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
+import { updatePageSeo, buildAuthorJsonLd } from '../utils/seo';
 
 export default function AuthorPage({ 
   authorId, 
@@ -10,25 +11,28 @@ export default function AuthorPage({
   onBackToHome 
 }) {
   const author = getAuthorById(authorId);
-  
-  // Dynamic SEO Meta Description (Injected into HTML head without rendering visibly in page body)
-  useEffect(() => {
-    if (author && author.metaDescription) {
-      document.title = `${author.name} | Editorial Masthead | LUMAA HOME`;
-      let meta = document.querySelector('meta[name="description"]');
-      if (!meta) {
-        meta = document.createElement('meta');
-        meta.name = 'description';
-        document.head.appendChild(meta);
-      }
-      meta.content = author.metaDescription;
-    }
-  }, [author]);
 
   // Filter articles written by this author
   const authorArticles = articles.filter(
     (a) => (a.authorId === author.id) || (a.author && a.author.toLowerCase() === author.name.toLowerCase())
   );
+  
+  // Dynamic SEO & Structured Data
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (author) {
+      updatePageSeo({
+        title: `${author.name} | Editorial Masthead`,
+        description: author.metaDescription || author.shortDescription || author.bio,
+        keywords: `${author.name}, ${author.role}, british interior architect, lumaa home editor, period home specialist`,
+        canonicalPath: `/author/${author.id}`,
+        ogType: 'profile',
+        image: author.avatar,
+        author: author.name,
+        jsonLd: buildAuthorJsonLd(author, authorArticles)
+      });
+    }
+  }, [author, authorArticles]);
 
   // Other 2 master editors to explore
   const otherAuthors = AUTHORS.filter((a) => a.id !== author.id);

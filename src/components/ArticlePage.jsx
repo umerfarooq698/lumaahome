@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { ArrowLeft, Bookmark, Share2, Check } from 'lucide-react';
 import { getAuthorById } from '../data/authors';
+import { updatePageSeo, buildArticleJsonLd } from '../utils/seo';
 
 export default function ArticlePage({ 
   article, 
@@ -14,20 +15,25 @@ export default function ArticlePage({
 }) {
   const [copied, setCopied] = React.useState(false);
 
+  const author = getAuthorById(article?.authorId || article?.author);
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-    if (article?.title) {
-      document.title = `${article.title} | LUMAA HOME™`;
-    }
-    const metaDesc = article?.metaDescription || article?.excerpt;
-    if (metaDesc) {
-      let tag = document.querySelector('meta[name="description"]');
-      if (!tag) {
-        tag = document.createElement('meta');
-        tag.name = 'description';
-        document.head.appendChild(tag);
-      }
-      tag.content = metaDesc;
+    if (article) {
+      const authorObj = getAuthorById(article.authorId || article.author);
+      updatePageSeo({
+        title: article.title,
+        description: article.metaDescription || article.excerpt,
+        keywords: Array.isArray(article.tags) ? article.tags.join(', ') : `${article.category}, luxury home decor uk, british interior design`,
+        canonicalPath: `/${article.slug || article.id}`,
+        ogType: 'article',
+        image: article.heroImage || article.image,
+        author: authorObj?.name || article.author,
+        publishedTime: article.date ? new Date(article.date).toISOString() : undefined,
+        modifiedTime: article.date ? new Date(article.date).toISOString() : undefined,
+        section: article.categoryName || article.category,
+        jsonLd: buildArticleJsonLd(article, authorObj)
+      });
     }
   }, [article?.id, article?.slug, article?.title, article?.metaDescription, article?.excerpt]);
 
@@ -46,8 +52,6 @@ export default function ArticlePage({
       </div>
     );
   }
-
-  const author = getAuthorById(article.authorId || article.author);
 
   // 5 latest articles for the left sidebar (excluding current article)
   const latestArticles = allArticles

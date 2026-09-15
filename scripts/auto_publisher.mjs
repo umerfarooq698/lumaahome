@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { GoogleGenAI } from '@google/genai';
 import { ARTICLES, CATEGORIES } from '../src/data/articles.js';
+import { generateSitemap } from './generate_sitemap.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -553,6 +554,13 @@ async function main() {
 
   fs.writeFileSync(articlesFilePath, formattedArticlesJs, 'utf-8');
   console.log(`✅ Successfully updated ${articlesFilePath} with new article: "${fullArticle.title}"!`);
+
+  // 6. Regenerate sitemap.xml with new article URL
+  try {
+    generateSitemap();
+  } catch (sErr) {
+    console.warn('⚠️ Could not auto-generate sitemap:', sErr.message);
+  }
 }
 
 main().catch(err => {

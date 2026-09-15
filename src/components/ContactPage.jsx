@@ -1,7 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ChevronRight, Mail, Send, MessageSquare, BookOpen, ShieldCheck, Newspaper, HelpCircle } from 'lucide-react';
+import { updatePageSeo, SITE_URL } from '../utils/seo';
 
 export default function ContactPage({ onBackToHome, onNavigateAbout }) {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updatePageSeo({
+      title: 'Contact Us | Direct Editorial Desk',
+      description: 'Reach LUMAA HOME editors, writers, and technical specialists directly via email for story pitches, press collaborations, and inquiries.',
+      keywords: 'contact lumaa home, editorial submissions, press inquiries uk, period home story pitch',
+      canonicalPath: '/contact',
+      ogType: 'website',
+      jsonLd: {
+        '@type': 'ContactPage',
+        '@id': `${SITE_URL}/contact/#contact`,
+        'url': `${SITE_URL}/contact`,
+        'name': 'Contact LUMAA HOME™ Editorial Desk',
+        'description': 'Direct contact directory for editorial submissions, press, and reader inquiries.',
+        'inLanguage': 'en-GB'
+      }
+    });
+  }, []);
   const departments = [
     {
       title: "Editorial Submissions and Story Pitches",

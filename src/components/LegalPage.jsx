@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronRight, ShieldCheck, Scale, CheckCircle2 } from 'lucide-react';
 import { INITIAL_PRIVACY_POLICY, INITIAL_TERMS_OF_SERVICE } from '../data/legal';
+import { updatePageSeo, SITE_URL } from '../utils/seo';
 
 export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNavigateLegal }) {
   const isPrivacy = type === 'privacy-policy' || type === 'privacy';
@@ -10,8 +11,25 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
 
   // Synchronize when type prop changes
   useEffect(() => {
-    setData(isPrivacy ? INITIAL_PRIVACY_POLICY : INITIAL_TERMS_OF_SERVICE);
+    const curData = isPrivacy ? INITIAL_PRIVACY_POLICY : INITIAL_TERMS_OF_SERVICE;
+    setData(curData);
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    updatePageSeo({
+      title: `${curData.title} | Legal and Compliance`,
+      description: curData.introduction,
+      keywords: isPrivacy ? 'privacy policy, uk gdpr, google adsense privacy, lumaa home legal' : 'terms of service, website terms, english law, lumaa home',
+      canonicalPath: `/${type}`,
+      ogType: 'website',
+      jsonLd: {
+        '@type': 'WebPage',
+        '@id': `${SITE_URL}/${type}/#webpage`,
+        'url': `${SITE_URL}/${type}`,
+        'name': curData.title,
+        'description': curData.introduction,
+        'inLanguage': 'en-GB'
+      }
+    });
   }, [type, isPrivacy]);
 
   return (
