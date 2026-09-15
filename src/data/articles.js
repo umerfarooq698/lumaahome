@@ -267,12 +267,12 @@ export const ARTICLES = [
     "isFeatured": false,
     "excerpt": "Achieving bespoke craftsmanship in self-installed cabinetry requires rigorous attention to structural tolerances, architectural proportion, and premium timber joinery.",
     "metaDescription": "Master the installation of diy kitchens using British building standards, precise joinery calculations, and enduring structural materials.",
-    "heroImage": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHNoYWtlciUyMGtpdGNoZW58ZW58MHwwfHx8MTc4OTQyNjgzNXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHNoYWtlciUyMGtpdGNoZW58ZW58MHwwfHx8MTc4OTQyNjgzNXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Modern British kitchen interior featuring handmade navy blue shaker cabinetry solid oak worktops and brass hardware",
-    "imageAlt": "Modern British kitchen interior featuring handmade navy blue shaker cabinetry solid oak worktops and brass hardware",
-    "photographer": "Ambitious Studio* | Rick Barrett",
-    "photographerUrl": "https://unsplash.com/@weareambitious",
+    "heroImage": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1600&q=85",
+    "image": "https://images.unsplash.com/photo-1556909212-d5b604d0c90d?auto=format&fit=crop&w=1600&q=85",
+    "heroImageAlt": "Modern British bespoke fitted kitchen featuring handcrafted shaker cabinetry, natural marble worktops and brass hardware",
+    "imageAlt": "Modern British bespoke fitted kitchen featuring handcrafted shaker cabinetry, natural marble worktops and brass hardware",
+    "photographer": "Jason Leung",
+    "photographerUrl": "https://unsplash.com/@ninjason",
     "content": [
       {
         "level": "h2",
@@ -294,12 +294,12 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Selecting Superior Joinery for DIY Kitchens",
         "body": "The structural lifespan of custom cabinetry depends heavily on the carcass joinery methods chosen during initial layout planning. While standard off-the-shelf flat-pack units rely on simple cam-and-dowel fixings, premium self-installed systems utilize factory-assembled mortise and tenon joints or pocket-hole reinforced timber framing. These traditional woodworking connections distribute heavy mechanical loads evenly, preventing cabinet squareness from degrading over time under heavy granite tops.\n\nManaging ambient moisture levels around sink units and integrated dishwashers requires water-resistant material selection. Specifying moisture-resistant medium-density fibreboard or exterior birch marine plywood prevents core swelling in damp British environments. Sealing exposed timber edges with high-performance polyurethane edge banding blocks steam infiltration, preserving structural panel integrity and preventing paint finish delamination near high-humidity splash zones over extended use.\n\nAcoustic comfort is an essential yet frequently overlooked metric in modern open-plan British living spaces. Installing high-density butyl acoustic dampening mats inside integrated appliance housings attenuates low-frequency refrigerator motor hums by up to 12 decibels. Coupling this acoustic isolation barrier with soft-closing door buffers creates a remarkably tranquil domestic environment free from harsh mechanical vibration or cabinet reverberation during operation.",
-        "image": "https://images.unsplash.com/photo-1544691560-fc2053d97726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMHRpbWJlciUyMGNhYmluZXQlMjBqb2luZXJ5fGVufDB8MHx8fDE3ODk0MjY4MzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Detailed close up of handcrafted timber mortise and tenon cabinet joinery",
+        "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1200&q=80",
+        "imageAlt": "Bespoke handcrafted architectural kitchen joinery and solid wood fitted cabinetry",
         "imageCaption": "Precision mortise and tenon joinery delivers superior structural stability across self-installed cabinetry.",
         "imageCredit": {
-          "name": "Julian Hochgesang",
-          "link": "https://unsplash.com/@julianhochgesang"
+          "name": "Jason Leung",
+          "link": "https://unsplash.com/@ninjason"
         }
       },
       {
