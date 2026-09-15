@@ -75,6 +75,100 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "sky-garden-london-principles-for-elevated-botanical-spaces-guide",
+    "title": "Sky Garden London Principles for Elevated Botanical Spaces",
+    "slug": "sky-garden-london-principles-for-elevated-botanical-spaces",
+    "category": "garden",
+    "categoryName": "Garden",
+    "categoryLabel": "LANDSCAPE ARCHITECTURE • BRITISH OUTDOOR LIVING",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "September 15, 2026",
+    "readTime": "8 min read",
+    "views": "18.4k",
+    "isFeatured": true,
+    "excerpt": "An architectural guide to translating high-rise botanical engineering and urban greenhouse aesthetics into refined home elevated garden spaces.",
+    "metaDescription": "Discover how sky garden london architecture inspires home high-rise planting with structural timber and weather-resistant green design.",
+    "heroImage": "https://images.unsplash.com/photo-1788442633572-e157021ff864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dXJiYW4lMjBnbGFzcyUyMGF0cml1bXxlbnwwfDB8fHwxNzg5NTAwNTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1788442633572-e157021ff864?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dXJiYW4lMjBnbGFzcyUyMGF0cml1bXxlbnwwfDB8fHwxNzg5NTAwNTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Lush indoor elevated glass atrium garden featuring tropical plants structural timber seating and expansive city skyline views",
+    "imageAlt": "Lush indoor elevated glass atrium garden featuring tropical plants structural timber seating and expansive city skyline views",
+    "photographer": "Aurora Song",
+    "photographerUrl": "https://unsplash.com/@auroras13",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Sky Garden London Architecture and High-Altitude Horticulture",
+        "body": "Elevated horticultural sanctuaries require a delicate balance between structural engineering and organic landscape design. At 155 metres above the city streets, sky garden london represents a masterclass in managing atmospheric exposure while cultivating lush Mediterranean and South African flora. Translating these multi-tier public atrium principles into residential spaces demands precise planning around air movement, natural illumination, and soil substrate depth.\n\nDesigning a domestic high-rise garden begins with evaluating structural dead load capacity alongside dynamic wind vectors. Elevated spaces experience heightened gusts that dry out foliage and strain architectural mountings. Utilizing lightweight engineered soil mixes with perlite aggregates reduces structural loading to less than 800 kilograms per cubic metre while retaining essential moisture for delicate root systems.\n\nLight filtration through multi-layer glass panels alters photosynthetically active radiation required for healthy foliage development. Positioned high above urban shadows, elevated botanical enclosures benefit from extended daylight exposure. Incorporating localized automated misting nozzles maintains atmospheric humidity around 55 percent, counteracting the drying effects of HVAC climate systems commonly found in modern high-rise developments."
+      },
+      {
+        "level": "h3",
+        "heading": "Structural Loads and Drainage Infrastructure",
+        "body": "Integrating heavy planters onto balconies or structural roofs requires rigorous engineering calculations. Structural steel sub-frames rated to support up to 5.0 kilonewtons per square metre provide the necessary foundation for heavy masonry planters and mature specimen trees. Sub-base drainage plates manufactured from high-density polyethylene ensure rapid water evacuation during torrential downpours.\n\nSurface materials must satisfy stringent anti-slip standards to ensure resident safety across wet microclimates. Utilizing natural stone tiles or composite decking with an R10 slip rating or a Pendulum Test Value exceeding 36 PTV prevents accidents. Stainless steel grade 316 fixings resist coastal and urban atmospheric corrosion, preserving structural integrity over decades.",
+        "bullets": [
+          "Load-bearing capacity calculated to minimum 5.0 kilonewtons per square metre",
+          "Slip resistance specified at PTV 36 plus or R10 rating for wet surfaces",
+          "Drainage layers utilizing 20 millimetre dimpled HDPE reservoir membranes",
+          "Grade 316 stainless steel bracketry for high-corrosion urban environments"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Microclimate Control and Sky Garden London Planting Schemes",
+        "body": "Replicating the lush interior aesthetic of sky garden london involves selecting resilient plant species capable of thriving within controlled indoor microclimates. Temperate species such as Strelitzia nicolai, Tree Ferns, and Ficus lyrata offer bold architectural silhouettes. Arranging plants in terraced levels maximizes sunlight capture while creating distinct micro-zones tailored to specific shade and moisture preferences.\n\nSoil chemistry plays a vital role in root establishment within contained urban environments. Incorporating slow-release organic fertilizers into a lime-free potting substrate keeps soil pH levels between 5.5 and 6.5. This optimal range promotes nutrient absorption without causing salt buildup, which often leads to tip burn on delicate tropical leaves under intense solar glass glare.\n\nVentilation strategies must prevent stagnant air pockets, which foster fungal spores and spider mite infestations. Concealed low-decibel circulation fans operating at less than 28 decibels ensure gentle air velocity across leaves. This continuous subtle movement strengthens plant stems through thigmomorphogenesis, mimicking natural outdoor breezes while keeping acoustic levels whisper-quiet within living areas.",
+        "image": "https://images.unsplash.com/photo-1654539437877-644fcc1d8102?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJjaGl0ZWN0dXJhbCUyMGdsYXNzJTIwYXRyaXVtJTIwY29uc2VydmF0b3J5fGVufDB8MHx8fDE3ODk1MDA1NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Architectural glass atrium filled with terraced green foliage and modern stone paving",
+        "imageCaption": "Terraced planting zones maximize light penetration within high-altitude glass enclosures.",
+        "imageCredit": {
+          "name": "Phil Lev",
+          "link": "https://unsplash.com/@phil_lev"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Glazing Acoustics and Solar Heat Gain Metrics",
+        "body": "Architectural glass surrounding high-level gardens must balance thermal insulation with optimal light transmission. Specifying double-glazed units with solar control coatings achieves a Low-E U-value of 1.1 Watts per square metre Kelvin. This acoustic glazing configuration reduces external urban traffic noise by up to 42 decibels, creating a serene indoor botanical retreat.\n\nManaging passive solar heat gain prevents thermal shock to sensitive broadleaf plants during peak summer months. Low-iron glass panels allow maximum natural light spectrum entry while integrated motorized shading blinds deploy when ambient internal temperatures cross 26 degrees Celsius. Automated sensors link irrigation cycles directly to solar radiation levels for efficient water management."
+      },
+      {
+        "level": "h2",
+        "heading": "Material Craftsmanship Inspired by Sky Garden London",
+        "body": "Authentic material selection connects indoor architectural elements with natural garden textures. Utilizing C24 structural timber for raised seating platforms and plant surround framework guarantees structural rigidity under varying ambient moisture levels. Kiln-dried European oak treated with microporous hardwax oil provides a rich tactile finish that resists water spots and UV fading.\n\nPrecision joinery techniques ensure high-altitude installations remain stable through seasonal humidity fluctuations. Traditional mortise and tenon joints secured with contrasting walnut dowels allow natural timber movement without compromising structural alignment. Concealed stainless steel expansion gaps of 3 millimetres around perimeter framing prevent binding against glass curtain walls during summer expansion.\n\nBespoke masonry elements introduce visual grounding amidst extensive glass facades. Honed limestone or dark slate wall cladding with a 15 millimetre shadow gap profile creates subtle light play across vertical surfaces. Hot-mixed lime mortars offer breathable jointing that prevents moisture entrapment behind stone facades, ensuring long-term structural integrity without efflorescence blooming."
+      },
+      {
+        "level": "h3",
+        "heading": "Timber Joinery and Sub-Structure Specifications",
+        "body": "Supporting heavy planter boxes above finished floor levels requires engineered substructures. Aluminium joist systems paired with adjustable pedestal feet allow millimetre-precise leveling over sloped waterproof membranes. This raised floor design creates an accessible service void for plumbing lines, electrical conduit, and LED low-voltage landscape lighting circuits.\n\nTimber components exposed to moisture must be detailed to shed water instantly. Chamfered top edges cut at a 15-degree angle encourage rapid runoff, preventing standing water from penetrating end grain joints. Applying end-grain sealing waxes during assembly protects vulnerable timber cuts from absorbing ambient humidity and developing surface micro-cracks over time."
+      },
+      {
+        "level": "h2",
+        "heading": "Long-Term Maintenance for Sky Garden London Domestic Projects",
+        "body": "Maintaining an elevated botanical space requires structured care routines aligned with seasonal atmospheric shifts. Automated drip irrigation manifolds delivering 2 litres per hour per plant zone prevent underwatering during dry summer spells. Integrated pressure-compensating emitters ensure equal water distribution across varying planter elevations without flooding lower root zones.\n\nPeriodic structural inspections guarantee the longevity of high-rise garden installations. Inspecting stainless steel fixings, drainage channels, and glass sealants every twelve months prevents minor wear from escalating into structural issues. Combining robust engineering standards with thoughtful botanical selection ensures your elevated sanctuary remains a breathtaking retreat for generations to come."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What load capacity is required for rooftop planters?",
+        "answer": "Rooftop planter sub-structures should be engineered to support a minimum dead and live dynamic load of 5.0 kilonewtons per square metre."
+      },
+      {
+        "question": "How do you control humidity in indoor glass gardens?",
+        "answer": "Automated misting systems combined with low-decibel circulation fans maintain humidity at approximately 55 percent without creating stagnant moisture pockets."
+      },
+      {
+        "question": "Which timber species suit elevated indoor garden construction?",
+        "answer": "Kiln-dried C24 structural timber and European oak sealed with microporous hardwax oil offer optimal dimensional stability and moisture resistance."
+      }
+    ],
+    "tags": [
+      "sky garden london",
+      "Luxury Garden",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "choosing-rugs-for-living-room-spaces-with-style-guide",
     "title": "Choosing Rugs For Living Room Spaces With Style",
     "slug": "choosing-rugs-for-living-room-spaces-with-style",
@@ -87,7 +181,7 @@ export const ARTICLES = [
     "date": "September 15, 2026",
     "readTime": "8 min read",
     "views": "19.0k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Master the art of selecting and sizing rugs for living room spaces with expert insights on textile construction and spatial proportion.",
     "metaDescription": "Discover how selecting the right rugs for living room spaces transforms British homes through precise sizing and durable natural materials.",
     "heroImage": "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8d29vbCUyMGFyZWElMjBydWd8ZW58MHwwfHx8MTc4OTQ4NjY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
