@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 
-const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1JgoirHS5zwFPlRiXuuXOzFDr_SHgeehBfEGKm_Ggvys/gviz/tq?tqx=out:csv';
+const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/180DbI7Ks-3EGY6GvH5gF-w-AgBsD7zewNiRuoTTsLNI/gviz/tq?tqx=out:csv';
 
 // Auto-load .env if present
 if (fs.existsSync(path.join(ROOT_DIR, '.env'))) {
@@ -64,7 +64,7 @@ function slugify(text) {
 }
 
 /**
- * Fetch keywords from Google Sheet
+ * Fetch keywords from public Google Sheet
  */
 async function fetchGoogleSheetKeywords() {
   console.log(`[Google Sheet] Fetching keywords from CSV URL...`);
@@ -77,8 +77,9 @@ async function fetchGoogleSheetKeywords() {
   
   const keywords = [];
   for (const line of lines) {
-    const cleaned = line.replace(/^"|"$/g, '').trim();
-    if (!cleaned || cleaned.toLowerCase() === 'keywords') continue;
+    const parts = line.split(/,|\t/).map(p => p.replace(/^"|"$/g, '').trim());
+    const cleaned = parts[0] || '';
+    if (!cleaned || cleaned.toLowerCase() === 'keywords' || cleaned.toLowerCase() === 'keyword') continue;
     keywords.push(cleaned);
   }
   console.log(`[Google Sheet] Found ${keywords.length} total keywords in sheet.`);
