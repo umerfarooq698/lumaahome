@@ -75,6 +75,90 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "selecting-bathroom-tiles-for-refined-architectural-homes-guide",
+    "title": "Selecting Bathroom Tiles for Refined Architectural Homes",
+    "slug": "selecting-bathroom-tiles-for-refined-architectural-homes",
+    "category": "bathroom",
+    "categoryName": "Bathroom",
+    "categoryLabel": "SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION",
+    "author": "Eleanor Vance",
+    "authorId": "eleanor-vance",
+    "role": "Senior Architectural Historian and Heritage Curator",
+    "date": "September 15, 2026",
+    "readTime": "8 min read",
+    "views": "17.3k",
+    "isFeatured": true,
+    "excerpt": "A technical editorial guide to specifying durable, slip-resistant bathroom tiles engineered for high-performance British residential wet spaces.",
+    "metaDescription": "Discover expert technical advice on choosing bathroom tiles, from slip resistance ratings to British tanking and subfloor specifications.",
+    "heroImage": "https://images.unsplash.com/photo-1656646523907-97b094c7e63a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bWluaW1hbGlzdCUyMHBvcmNlbGFpbiUyMGJhdGhyb29tJTIwdGlsZXxlbnwwfDB8fHwxNzg5NDQ0NjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1656646523907-97b094c7e63a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bWluaW1hbGlzdCUyMHBvcmNlbGFpbiUyMGJhdGhyb29tJTIwdGlsZXxlbnwwfDB8fHwxNzg5NDQ0NjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Spacious luxury wet room with neutral tone porcelain bathroom tiles and concealed brass fixtures",
+    "imageAlt": "Spacious luxury wet room with neutral tone porcelain bathroom tiles and concealed brass fixtures",
+    "photographer": "Point3D Commercial Imaging Ltd.",
+    "photographerUrl": "https://unsplash.com/@3dottawa",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Standard Specifications for Architectural Bathroom Tiles",
+        "body": "Selecting luxury bathroom tiles requires balancing visual elegance with strict engineering metrics. High-performance porcelain slabs, engineered with a water absorption rate under 0.5 percent according to BS EN ISO 10545-3 standards, deliver exceptional moisture resistance. In British residential projects, choosing rectified tiles with precision-milled edges allows for narrow two-millimetre grout joints, establishing a clean, continuous visual plane across sprawling wet room environments.\n\nFloor surfaces demand specialized anti-slip performance without sacrificing tactile sophistication underfoot. Specifying tiles with a pendulum test value of PTV 36 or higher, equivalent to an R10 DIN 51130 rating, ensures safe traction when surfaces are wet. Dense stoneware and full-body vitrified porcelain retain structural integrity under high static loadings, easily resisting micro-fractures caused by heavy cast iron baths or freestanding stone basins.\n\nWall surfaces require distinct material considerations to accommodate vertical structural loads and thermal movements. Calibrated ceramic or lightweight porcelain tiles measuring 300 by 600 millimetres reduce dead weight on plasterboard substrates while facilitating rapid thermal transfer over hydronic underfloor heating panels. Proper material selection ensures your wall surfaces withstand extreme humidity cycles without glazing degradation over decades of use."
+      },
+      {
+        "level": "h3",
+        "heading": "Substrate Preparation and Structural Tolerances",
+        "body": "Flawless tile installations rely entirely on rigid, dimensionally stable subfloors. Timber joists constructed from C24 structural timber must be overlaid with 18-millimetre marine-grade plywood or 12-millimetre cementitious backer boards to eliminate deflection. Structural deflection metrics must not exceed L/360 under dynamic load calculations, preventing stress fractures from transmitting into the overlying tile beds and micro-cement grouts during daily household use.\n\nTanking wet zones is a non-negotiable step under British Standard BS 5385. Applying a continuous elastomeric liquid membrane or fleece tanking system creates an impenetrable barrier behind floor tiles and shower surrounds. Waterproofing sealing tapes must overlap internal corners and wall pipe penetrations by at least 50 millimetres, completely neutralizing moisture ingress that could otherwise compromise timber framing or plasterwork over time.",
+        "bullets": [
+          "Subfloor deflection target restricted to L/360 or lower to prevent tile debonding",
+          "Minimum 18 millimetre marine plywood or cement backer board overlay on joists",
+          "Tanking membrane overlap of 50 millimetres at corners and pipe penetrations",
+          "Flexible S1 or S2 polymer-modified tile adhesives applied with notched trowels"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Porcelain and Natural Stone Bathroom Tiles Performance",
+        "body": "The debate between natural stone and engineered porcelain bathroom tiles centers on maintenance profiles and aesthetic patina. Honed limestone and Carrara marble offer organic depth, yet their porous calcium carbonate matrix demands periodic sealing with impregnating fluorochemical sealers. Conversely, modern porcelain replicates natural stone veining with microscopic precision while maintaining total resistance to acidic cleansers, soap scum, and harsh chemical treatments.\n\nLarge format porcelain slabs measuring 1200 by 2400 millimetres drastically reduce grout lines, creating uninterrupted architectural surfaces across walk-in showers. Handling these expansive panels requires specialized suction frames and double-buttering installation techniques, ensuring 100 percent adhesive coverage beneath the tile bed. Eliminating voids under heavy slabs prevents cracking when subjected to concentrated point loads from brass sanitaryware fittings.\n\nTactile texture adds depth to neutral interior palettes through three-dimensional fluted wall tiles and hand-moulded Zellige formats. These artisanal variations introduce subtle shadows that interplay beautifully with warm architectural downlighting. When installing hand-finished tiles, installers must sort tiles across multiple boxes to harmonize subtle shade variations, yielding a cohesive balance throughout the finished space.",
+        "image": "https://images.unsplash.com/photo-1656646523907-97b094c7e63a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwbmV1dHJhbCUyMHBvcmNlbGFpbiUyMGJhdGhyb29tJTIwdGlsZSUyMGRldGFpbHxlbnwwfDB8fHwxNzg5NDQ0NjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up view of neutral textured porcelain wall tiles with fine grout lines",
+        "imageCaption": "Large format porcelain tiles create seamless surfaces while reducing maintenance requirements.",
+        "imageCredit": {
+          "name": "Point3D Commercial Imaging Ltd.",
+          "link": "https://unsplash.com/@3dottawa"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Acoustic Dampening and Thermal Conductivity Dynamics",
+        "body": "Hard surfaces like porcelain and marble inherently reflect acoustic energy, creating unwanted reverberation in large master bathrooms. Integrating resilient acoustic underlays beneath floor tile assemblies dampens impact sound transmission by up to 18 decibels. High-density acoustic membranes isolate mechanical vibrations from shower pumps and footfall without compromising the structural rigidity of the overlying mortar bed.\n\nThermal performance remains paramount when installing tiles over electric or water-based underfloor heating circuits. Vitrified porcelain features exceptional thermal conductivity, efficiently transferring heat from embedded sub-screed cables to the room surface. Operating temperature limits should be monitored via floor-sensing probes, maintaining a steady floor surface temperature of 27 degrees Celsius to preserve adhesive integrity and occupant comfort."
+      },
+      {
+        "level": "h2",
+        "heading": "Long-Term Grout Integrity and Care for Bathroom Tiles",
+        "body": "Grout selection dictates both the aesthetic continuity and structural longevity of tiled surfaces. Standard cementitious grouts remain susceptible to staining and efflorescence in damp environments. Specifying reaction-resin epoxy grouts provides non-porous joints that completely resist mould growth, chemical erosion, and moisture absorption, making them ideal for high-exposure shower enclosures and wet room floors.\n\nMaintaining tile installations involves periodic inspection of movement joints and perimeter seals. Sanitary grade silicone sealant must be applied along all wall-to-floor junctions and internal corners to accommodate structural expansion. Replacing silicone beads every five to seven years prevents micro-gaps from forming where moisture can collect, protecting underlying timber substrates from hidden moisture damage.\n\nDaily care requires neutral pH cleaning solutions designed specifically for ceramic and stone substrates. Abrasive scouring pads or acidic descalers degrade protective stone sealers and erode cementitious grout matrixes over time. Implementing routine microfibre wiping post-shower prevents mineral deposit buildup, retaining the crisp architectural finish of your bathroom tiles for decades to come."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What slip rating is required for wet room floor tiles?",
+        "answer": "Specify tiles with a minimum pendulum test value of PTV 36 or an R10 rating to ensure adequate traction on wet surfaces."
+      },
+      {
+        "question": "How thick should plywood subfloors be for tile installations?",
+        "answer": "Overlay joists with at least 18-millimetre marine plywood or 12-millimetre cementitious backer boards to eliminate subfloor flex."
+      },
+      {
+        "question": "Which grout type is best for wet shower enclosures?",
+        "answer": "Reaction-resin epoxy grout provides a non-porous, waterproof joint that completely resists mould growth and chemical erosion."
+      }
+    ],
+    "tags": [
+      "bathroom tiles",
+      "Luxury Bathroom",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "crafting-bespoke-diy-kitchens-the-british-fitting-guide-guide",
     "title": "Crafting Bespoke DIY Kitchens: The British Fitting Guide",
     "slug": "crafting-bespoke-diy-kitchens-the-british-fitting-guide",
@@ -87,7 +171,7 @@ export const ARTICLES = [
     "date": "September 14, 2026",
     "readTime": "8 min read",
     "views": "19.6k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Achieving bespoke craftsmanship in self-installed cabinetry requires rigorous attention to structural tolerances, architectural proportion, and premium timber joinery.",
     "metaDescription": "Master the installation of diy kitchens using British building standards, precise joinery calculations, and enduring structural materials.",
     "heroImage": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHNoYWtlciUyMGtpdGNoZW58ZW58MHwwfHx8MTc4OTQyNjgzNXww&ixlib=rb-4.1.0&q=80&w=1080",
