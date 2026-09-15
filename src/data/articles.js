@@ -75,6 +75,103 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-rugs-for-living-room-spaces-with-style-guide",
+    "title": "Choosing Rugs For Living Room Spaces With Style",
+    "slug": "choosing-rugs-for-living-room-spaces-with-style",
+    "category": "living-room",
+    "categoryName": "Living Room",
+    "categoryLabel": "ENTERTAINING SPACES • ARCHITECTURAL PROPORTIONS",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "September 15, 2026",
+    "readTime": "8 min read",
+    "views": "19.0k",
+    "isFeatured": true,
+    "excerpt": "Master the art of selecting and sizing rugs for living room spaces with expert insights on textile construction and spatial proportion.",
+    "metaDescription": "Discover how selecting the right rugs for living room spaces transforms British homes through precise sizing and durable natural materials.",
+    "heroImage": "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8d29vbCUyMGFyZWElMjBydWd8ZW58MHwwfHx8MTc4OTQ4NjY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1594040226829-7f251ab46d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8d29vbCUyMGFyZWElMjBydWd8ZW58MHwwfHx8MTc4OTQ4NjY1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "A meticulously styled living room featuring a woven wool floor covering placed upon historic tongue and groove oak floorboards",
+    "imageAlt": "A meticulously styled living room featuring a woven wool floor covering placed upon historic tongue and groove oak floorboards",
+    "photographer": "Sina Saadatmand",
+    "photographerUrl": "https://unsplash.com/@sinasaadatmand",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Selecting The Perfect Rugs For Living Room Layouts",
+        "body": "Curating exceptional rugs for living room interiors requires a meticulous balance of spatial proportion, traffic flow dynamics, and tactile warmth. In traditional British homes featuring lime-plastered walls and historic floorboards, a well-chosen textile acts as an essential acoustic dampening layer. By absorbing sound waves and softening hard architectural edges, these floor coverings instantly elevate the comfort quotient of your primary gathering space.\n\nTo achieve visual harmony, aim for a minimum border clearance of 400 to 500 millimetres between the outer edge of the textile and your skirting boards. This deliberate margin frames the seating arrangement while preserving the visible perimeter of stained timber or polished stone flooring. Oversized options can overwhelm a compact hearth, whereas undersized designs risk making the entire furniture grouping feel disconnected and precarious.\n\nWhen positioning sofas and armchairs, interior designers generally recommend that either all furniture legs rest fully upon the pile or at least the front two legs are anchored. This design rule prevents visual fragmentation across the floor plane. Selecting a pile density of at least 2500 grams per square metre ensures enduring resilience against daily foot traffic without flattening prematurely in high-use pathways.",
+        "image": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8aW50ZXJpb3IlMjBsaXZpbmclMjBzcGFjZXxlbnwwfDB8fHwxNzg5NDg2NjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Detailed view of a natural fibre rug edge showing dense loop construction",
+        "imageCaption": "High-density weave construction ensures lasting durability for busy family rooms.",
+        "imageCredit": {
+          "name": "Francesca Tosolini",
+          "link": "https://unsplash.com/@fromitaly"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Understanding Pile Heights And Traffic Demands",
+        "body": "High-traffic family areas demand tight flatweave constructions or low-pile wool loops that resist crushing and facilitate effortless vacuuming. Shaggy or high-pile alternatives offer supreme tactile comfort underfoot but require dedicated maintenance routines to prevent trapped particulate matter from degrading delicate underlying fibres.\n\nChoosing the correct backing material protects vulnerable subfloors from moisture retention while preventing hazardous sliding during active family use.",
+        "bullets": [
+          "Specify natural jute or cotton backing for breathable floor protection",
+          "Target pile heights between 8 and 12 millimetres for balanced luxury and wear",
+          "Include non-slip underlay meeting British safety standards to prevent movement"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Material Science Behind Quality Rugs For Living Room Decor",
+        "body": "Investing in premium rugs for living room schemes means evaluating raw fibre formulations, such as unbleached Herdwick wool, organic jute, and durable sisal. Natural wool contains high levels of lanolin, which provides inherent stain resistance and repels liquid spills before they penetrate the core cortex. This natural protective barrier simplifies daily stain management and extends the functional lifespan of your investment significantly.\n\nSynthetic alternatives like polypropylene offer budget-friendly resilience, yet they lack the rich patina and luxurious thermal insulation inherent in authentic natural animal fibres. Hand-knotted varieties showcase remarkable artisan craftsmanship, often featuring hundreds of individual knots per square inch that lock colours deep within the structural warp and weft for decades of reliable performance.",
+        "image": "https://images.unsplash.com/photo-1643313260651-9c335822ecde?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8d29vbCUyMHRleHR1cmUlMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTQ4NjY1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up shot of natural wool yarn texture in neutral grey tones",
+        "imageCaption": "Natural lanolin content in pure wool provides exceptional stain resistance.",
+        "imageCredit": {
+          "name": "engin akyurt",
+          "link": "https://unsplash.com/@enginakyurt"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Acoustic Dampening And Thermal Performance",
+        "body": "Hard surface flooring reflects sound waves, creating unwanted echo within open-plan living zones. Thick wool textiles absorb high-frequency sounds, achieving notable acoustic rating improvements across domestic timber joist structures.\n\nIn addition to acoustic benefits, natural fibres provide vital thermal mass, reducing conductive heat loss through suspended ground floors during cold winter months.",
+        "image": "https://images.unsplash.com/photo-1723748972084-4124765e0a55?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c2NhbmRpbmF2aWFuJTIwbGl2aW5nJTIwcm9vbXxlbnwwfDB8fHwxNzg5NDg2NjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "A softly lit room interior featuring a textured wool floor covering",
+        "imageCaption": "Thermal insulation properties help reduce domestic heating demands.",
+        "imageCredit": {
+          "name": "Clay Banks",
+          "link": "https://unsplash.com/@claybanks"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Long-Term Maintenance For Living Room Floor Coverings",
+        "body": "Preserving your textile investment demands consistent care schedules, including bi-weekly gentle vacuuming without rotating brush heads that can fray delicate yarn twists. Professional hot water extraction cleaning every eighteen months removes deep-set microscopic debris and restores the natural lustre of wool fibres without stripping essential protective oils.\n\nRotate your room layout orientation annually to distribute foot traffic evenly across the surface and prevent uneven fading from direct sunlight streaming through Victorian sash windows. Addressing accidental spills immediately with mild wool-safe detergent and blotting rather than rubbing ensures your chosen textile remains a stunning centrepiece for years to come."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I choose the correct size for my seating area?",
+        "answer": "Ensure the textile extends at least 150 millimetres beyond the outer edges of your sofa and side chairs."
+      },
+      {
+        "question": "Can I place natural jute in high moisture rooms?",
+        "answer": "Natural plant fibres absorb ambient humidity and should be kept away from damp spaces to prevent mould."
+      },
+      {
+        "question": "What is the best way to remove red wine spills?",
+        "answer": "Blot excess liquid immediately with a clean white cloth and treat with a specialised wool-safe neutral cleaner."
+      }
+    ],
+    "tags": [
+      "rugs for living room",
+      "Luxury Living Room",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "selecting-craft-kitchen-worktops-for-modern-british-homes-guide",
     "title": "Selecting Craft Kitchen Worktops for Modern British Homes",
     "slug": "selecting-craft-kitchen-worktops-for-modern-british-homes",
@@ -87,7 +184,7 @@ export const ARTICLES = [
     "date": "September 15, 2026",
     "readTime": "8 min read",
     "views": "22.5k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A practical guide to choosing kitchen worktops that blend structural integrity, British craftsmanship, and refined surface aesthetics.",
     "metaDescription": "Explore refined kitchen worktops crafted from solid oak and quartz. Learn precise joinery specs and edge details for lasting UK style in...",
     "heroImage": "/images/luxury-kitchen-worktop.jpg",

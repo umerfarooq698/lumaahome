@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT_DIR = path.resolve(__dirname, '..');
 
-const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/180DbI7Ks-3EGY6GvH5gF-w-AgBsD7zewNiRuoTTsLNI/gviz/tq?tqx=out:csv';
+const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/1JgoirHS5zwFPlRiXuuXOzFDr_SHgeehBfEGKm_Ggvys/gviz/tq?tqx=out:csv';
 
 // Auto-load .env if present
 if (fs.existsSync(path.join(ROOT_DIR, '.env'))) {
