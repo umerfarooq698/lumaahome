@@ -26,16 +26,20 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
             </span>
             <div className="flex flex-wrap gap-x-3 gap-y-1 text-[11px]">
               {AUTHORS.map((author) => (
-                <button
+                <a
                   key={author.id}
-                  onClick={() => {
-                    if (onSelectAuthor) onSelectAuthor(author.id);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  href={`/author/${author.id}`}
+                  onClick={(e) => {
+                    if (!e.ctrlKey && !e.metaKey) {
+                      e.preventDefault();
+                      if (onSelectAuthor) onSelectAuthor(author.id);
+                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                    }
                   }}
-                  className="text-black font-medium hover:text-[#C8102E] transition"
+                  className="text-black font-medium hover:text-[#C8102E] transition cursor-pointer"
                 >
                   {author.name}
-                </button>
+                </a>
               ))}
             </div>
           </div>
@@ -52,15 +56,19 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               if (!cat) return null;
               return (
                 <li key={cat.id}>
-                  <button
-                    onClick={() => {
-                      onSelectCategory(cat.id);
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                  <a
+                    href={`/category/${cat.id}`}
+                    onClick={(e) => {
+                      if (!e.ctrlKey && !e.metaKey) {
+                        e.preventDefault();
+                        onSelectCategory(cat.id);
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }
                     }}
-                    className="text-[#111111] font-medium hover:text-[#C8102E] hover:underline transition uppercase"
+                    className="text-[#111111] font-medium hover:text-[#C8102E] hover:underline transition uppercase inline-block cursor-pointer"
                   >
                     {cat.name}
-                  </button>
+                  </a>
                 </li>
               );
             })}
@@ -78,15 +86,19 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               if (!cat) return null;
               return (
                 <li key={cat.id}>
-                  <button
-                    onClick={() => {
-                      onSelectCategory(cat.id);
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
+                  <a
+                    href={`/category/${cat.id}`}
+                    onClick={(e) => {
+                      if (!e.ctrlKey && !e.metaKey) {
+                        e.preventDefault();
+                        onSelectCategory(cat.id);
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }
                     }}
-                    className="text-[#111111] font-medium hover:text-[#C8102E] hover:underline transition uppercase"
+                    className="text-[#111111] font-medium hover:text-[#C8102E] hover:underline transition uppercase inline-block cursor-pointer"
                   >
                     {cat.name}
-                  </button>
+                  </a>
                 </li>
               );
             })}
