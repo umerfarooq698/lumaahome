@@ -90,12 +90,12 @@ export const ARTICLES = [
     "isFeatured": true,
     "excerpt": "A practical guide to choosing kitchen worktops that blend structural integrity, British craftsmanship, and refined surface aesthetics.",
     "metaDescription": "Explore refined kitchen worktops crafted from solid oak and quartz. Learn precise joinery specs and edge details for lasting UK style in...",
-    "heroImage": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85",
+    "heroImage": "/images/luxury-kitchen-worktop.jpg",
+    "image": "/images/luxury-kitchen-worktop.jpg",
     "heroImageAlt": "Bespoke luxury marble and quartz kitchen worktop island with waterfall edge in a modern British home",
     "imageAlt": "Bespoke luxury marble and quartz kitchen worktop island with waterfall edge in a modern British home",
-    "photographer": "R Architecture",
-    "photographerUrl": "https://unsplash.com/@rarchitecture_melbourne",
+    "photographer": "Lumaa Architectural Studio",
+    "photographerUrl": "https://lumaahome.vercel.app",
     "content": [
       {
         "level": "h2",
@@ -117,12 +117,12 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Timber Specifications for Traditional Kitchen Worktops",
         "body": "Solid hardwood surfaces bring rich tactile warmth and organic character into contemporary interior schemes. Prime European oak and American walnut remain premier choices for kitchen worktops due to their tight cellular grain structure and Janka hardness ratings exceeding 6000 Newtons. End-grain block butcher stations offer superior knife resistance, self-healing under heavy blade pressure while preserving delicate sharp edges on fine culinary cutlery during routine daily preparation.\n\nTimber responds dynamically to ambient atmospheric moisture shifts within modern residential spaces. Maintaining indoor relative humidity consistently between 45 and 60 percent prevents excessive seasonal timber movement. Staves measuring 40 millimetres in width are kiln-dried down to 8 percent moisture content before finger-jointing, ensuring long-term dimensional stability. Underside surfaces require moisture barrier aluminum foil above dishwashers to block rising steam and prevent upward cupping.",
-        "image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1200&q=80",
-        "imageAlt": "Bespoke solid wood and quartz kitchen worktop detail with classic British shaker cabinetry",
-        "imageCaption": "Kiln-dried oak staves with precision finger joints provide dimensional stability against moisture shifts.",
+        "image": "/images/oak-worktop-joinery.jpg",
+        "imageAlt": "Close up of finger jointed European oak kitchen worktop showing rich wood grain, dovetail joinery and Belfast sink",
+        "imageCaption": "Kiln-dried European oak staves with precision joinery provide dimensional stability against moisture shifts.",
         "imageCredit": {
-          "name": "R Architecture",
-          "link": "https://unsplash.com/@rarchitecture_melbourne"
+          "name": "Lumaa Architectural Studio",
+          "link": "https://lumaahome.vercel.app"
         }
       },
       {
