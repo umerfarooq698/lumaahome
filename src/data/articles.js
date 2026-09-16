@@ -369,7 +369,7 @@ export const ARTICLES = [
     "heroImageAlt": "Bespoke luxury marble and quartz kitchen worktop island with waterfall edge in a modern British home",
     "imageAlt": "Bespoke luxury marble and quartz kitchen worktop island with waterfall edge in a modern British home",
     "photographer": "Lumaa Architectural Studio",
-    "photographerUrl": "https://lumaahome.co.uk",
+    "photographerUrl": "https://www.lumaahome.co.uk",
     "content": [
       {
         "level": "h2",
@@ -396,7 +396,7 @@ export const ARTICLES = [
         "imageCaption": "Kiln-dried European oak staves with precision joinery provide dimensional stability against moisture shifts.",
         "imageCredit": {
           "name": "Lumaa Architectural Studio",
-          "link": "https://lumaahome.co.uk"
+          "link": "https://www.lumaahome.co.uk"
         }
       },
       {
