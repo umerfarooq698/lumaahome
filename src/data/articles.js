@@ -75,6 +75,90 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms-guide",
+    "title": "Designing the Safe Baby Bath Tub Zone for Modern Bathrooms",
+    "slug": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms",
+    "category": "bathroom",
+    "categoryName": "Bathroom",
+    "categoryLabel": "SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "September 16, 2026",
+    "readTime": "8 min read",
+    "views": "18.7k",
+    "isFeatured": true,
+    "excerpt": "An architectural guide to integrating high-performance baby bath tub designs into elegant, modern British family bathrooms.",
+    "metaDescription": "Select an ergonomic baby bath tub engineered with high thermal retention materials and anti-slip surfaces for sophisticated British homes.",
+    "heroImage": "https://images.unsplash.com/flagged/photo-1564228539519-4dfe919785a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmFieSUyMGJhdGglMjB0dWIlMjBtb2Rlcm58ZW58MHwwfHx8MTc4OTU4NjEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/flagged/photo-1564228539519-4dfe919785a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmFieSUyMGJhdGglMjB0dWIlMjBtb2Rlcm58ZW58MHwwfHx8MTc4OTU4NjEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Modern minimalist bathroom featuring a high quality baby bath tub set beside a walk in shower enclosure",
+    "imageAlt": "Modern minimalist bathroom featuring a high quality baby bath tub set beside a walk in shower enclosure",
+    "photographer": "Henley Design Studio",
+    "photographerUrl": "https://unsplash.com/@henleydesign",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Integrating a Modern Baby Bath Tub Into Luxury Bathrooms",
+        "body": "Designing a nursery bathing zone within a high-end British home requires balancing water management, human ergonomics, and overall structural aesthetic. A premium baby bath tub acts as a dedicated micro-basin, engineered to provide precise water control without compromising the overall architectural intent of a modern family sanctuary. By incorporating contoured support structures and refined silhouettes, parents can maintain visual cohesion alongside surrounding natural stone tiles, brushed brass brassware, and bespoke timber joinery without sacrificing essential child safety features.\n\nStandard British residential bathrooms present distinct space planning challenges, particularly when balancing standard 1700 millimetre double-ended acrylic baths with dedicated vanity zones. Integrating a compact baby bath tub requires calculating safe working heights between 850 and 950 millimetres to prevent lumbar strain during daily care routines. Using elevated mounting frames or integrated ledge systems ensures proper weight distribution across solid timber subfloors while providing immediate access to thermostatic mixer valves set precisely at 37 degrees Celsius.\n\nMoisture management remains essential when introducing portable bathing equipment into modern luxury wet rooms. Contemporary architectural layouts benefit from waterproof tanking membranes installed beneath floor tiles and wet room drainage channels capable of handling localized surface splash. Specifying slip-resistant porcelain flooring with a minimum PTV rating of 36+ around the bathing station prevents accidental slippage, while acoustic dampening insulation beneath subfloors absorbs sound transmission down to sub-35 decibel levels across lower floor voids."
+      },
+      {
+        "level": "h3",
+        "heading": "Ergonomic Geometry and Safety Specifications",
+        "body": "Architectural precision in infant bath design focuses heavily on human factors, material safety, and volumetric efficiency. Superior basins utilize medical-grade virgin polypropylene combined with thermoplastic elastomer overmoulding, eliminating harmful phthalates and bisphenol compounds entirely from the manufacturing process. The internal geometry features a calibrated 15-degree ergonomic incline to support newborn head positioning naturally, alongside soft-touch tactile seating pods that keep required water volumes capped at an efficient 8 to 12 litres per bath session.\n\nPractical considerations dictate how seamlessly domestic bathing equipment integrates into daily home care routines. Collapsible frames incorporating aircraft-grade aluminium tubing provide exceptional structural stability, supporting total dynamic load capacities up to 25 kilograms while offering rapid folding mechanics for seamless wall-mounted storage. Integrated digital temperature sensors built directly into internal sidewalls give real-time telemetry, ensuring bath water stays within optimal thermal ranges without relying on external floating glass thermometers.",
+        "bullets": [
+          "Maximum fluid volume capped at 12 litres with quick-drain internal valving.",
+          "Slip resistance rated to dynamic PTV 36+ across all interior tactile contact pads.",
+          "Folded profile depth strictly under 100 millimetres for discrete vanity storage.",
+          "Structural aluminium support legs load-tested to exceed 25 kilograms of dynamic force."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Selecting Premium Materials for Your Baby Bath Tub",
+        "body": "Material composition dictates both thermal efficiency and long-term hygienic performance in domestic wet zones. Advanced composite polymers engineered for modern bathing vessels feature non-porous antimicrobial surfaces that actively resist bacterial colonization, soap scum accumulation, and chemical degradation from specialized baby cleansers. High thermal mass retention walls slow ambient heat loss, maintaining stable water temperatures throughout typical 15-minute bathing rituals without requiring constant topping up with fresh hot water during use.\n\nVisual harmony relies on thoughtful colour palettes and surface textures that complement surrounding architectural finishes seamlessly. Subtle stone tones, muted sage greens, and warm neutral greys mirror contemporary UK interior palettes, moving far away from garish plastic aesthetics. Combining matte exterior walls with polished internal contours ensures effortless cleaning routines using basic soft microfiber cloths and mild biological soaps, preserving original surface luster over years of continuous family use.",
+        "image": "https://images.unsplash.com/photo-1638799869566-b17fa794c4de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJpb3VzJTIwYmF0aHJvb20lMjB2YW5pdHklMjBkZXNpZ24lMjBtb2Rlcm58ZW58MHwwfHx8MTc4OTU4NjEzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Seamless luxury bathroom vanity with integrated infant bathing accessories and stone surfaces",
+        "imageCaption": "Refined materials and clean geometries elevate functional family bathroom spaces.",
+        "imageCredit": {
+          "name": "Lotus Design N Print",
+          "link": "https://unsplash.com/@lotusdnp"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Plumbing Mechanics and Rapid Water Drainage",
+        "body": "Efficient drainage mechanics prevent standing water accumulation and simplify post-bath sanitization routines within tight spaces. Premium bath vessels incorporate flexible heat-resistant silicone drainage hoses featuring internal diameters of 20 millimetres, matching standard British domestic waste pipe adapters seamlessly. This technical configuration allows controlled, splash-free discharge directly into floor drains or primary vanity basins, completely eliminating the manual heavy lifting associated with emptying traditional rigid plastic tubs across slippery floor surfaces.\n\nDual-purpose sealing plugs constructed from soft food-grade silicone incorporate colour-changing heat indicators that visually signal water warmth above 39 degrees Celsius. The mechanical plug design utilizes a double-lip gasket mechanism, providing a dynamic pressure-tight seal against hydrostatic pressure up to 300 millimetres of water depth. This attention to hydraulic engineering ensures absolute leak prevention during active bathing while enabling single-touch release when draining post-use without disturbing the surrounding environment."
+      },
+      {
+        "level": "h2",
+        "heading": "Architectural Longevity and Care for the Baby Bath Tub",
+        "body": "Sustainable interior design prioritizes products with extended lifecycle utility and modular versatility across home spaces. Top-tier infant bath solutions transition smoothly through developmental stages, accommodating newborns with specialized supportive mesh hammocks before expanding to seat active toddlers up to 36 months of age. Once outgrown, high-density recyclable polymer construction ensures responsible recycling pathways, or easy flat-pack storage for future generations, reducing environmental impact while maximizing initial home investment over long periods.\n\nMaintaining hygienic integrity involves simple preventative protocols that preserve material structural stability over decades. After each use, rinsing internal surfaces with clean warm water and hanging the unit via integrated swivel hooks allows total surface air drying within 30 minutes, preventing fungal spore settlement in humid UK climates. Storing the tub away from direct ultraviolet radiation maintains colour stability and polymer flexibility, ensuring timeless service for growing families across multiple generations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the optimal water temperature for infant bathing?",
+        "answer": "Water temperature should be maintained between 37 and 38 degrees Celsius using a calibrated thermostatic mixer valve or integrated digital sensor."
+      },
+      {
+        "question": "How much water is required for a standard baby bath tub?",
+        "answer": "Most ergonomic baby bath tubs operate efficiently using between 8 and 12 litres of water per session."
+      },
+      {
+        "question": "What slip resistance rating is suitable for bathroom flooring?",
+        "answer": "Flooring around infant bathing zones should achieve a minimum pendulum test value of PTV 36+ to prevent slippage."
+      }
+    ],
+    "tags": [
+      "baby bath tub",
+      "Luxury Bathroom",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "refined-bedroom-decor-ideas-for-timeless-british-houses-guide",
     "title": "Refined Bedroom Decor Ideas for Timeless British Houses",
     "slug": "refined-bedroom-decor-ideas-for-timeless-british-houses",
@@ -87,7 +171,7 @@ export const ARTICLES = [
     "date": "September 16, 2026",
     "readTime": "8 min read",
     "views": "18.7k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Creating a restful sanctuary requires combining precise room proportions with sound dampening acoustics and tactile natural finishes.",
     "metaDescription": "Elevate sleeping spaces with authentic architectural bedroom decor ideas focused on acoustic comfort, timber joinery and lime plaster fin...",
     "heroImage": "https://images.unsplash.com/photo-1600210491305-7396500b5b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVkcm9vbSUyMGFjb3VzdGljJTIwcGxhc3RlcnxlbnwwfDB8fHwxNzg5NTY5MDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
