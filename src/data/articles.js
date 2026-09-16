@@ -75,6 +75,90 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "refined-bedroom-decor-ideas-for-timeless-british-houses-guide",
+    "title": "Refined Bedroom Decor Ideas for Timeless British Houses",
+    "slug": "refined-bedroom-decor-ideas-for-timeless-british-houses",
+    "category": "bedroom",
+    "categoryName": "Bedroom",
+    "categoryLabel": "SANCTUARY SUITES • BESPOKE JOINERY SPECIFICATION",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "September 16, 2026",
+    "readTime": "8 min read",
+    "views": "18.7k",
+    "isFeatured": true,
+    "excerpt": "Creating a restful sanctuary requires combining precise room proportions with sound dampening acoustics and tactile natural finishes.",
+    "metaDescription": "Elevate sleeping spaces with authentic architectural bedroom decor ideas focused on acoustic comfort, timber joinery and lime plaster fin...",
+    "heroImage": "https://images.unsplash.com/photo-1600210491305-7396500b5b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVkcm9vbSUyMGFjb3VzdGljJTIwcGxhc3RlcnxlbnwwfDB8fHwxNzg5NTY5MDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1600210491305-7396500b5b31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVkcm9vbSUyMGFjb3VzdGljJTIwcGxhc3RlcnxlbnwwfDB8fHwxNzg5NTY5MDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Master bedroom featuring bespoke oak joinery lime washed walls and soft linen bedding in a British town house",
+    "imageAlt": "Master bedroom featuring bespoke oak joinery lime washed walls and soft linen bedding in a British town house",
+    "photographer": "Collov Home Design",
+    "photographerUrl": "https://unsplash.com/@collovhome",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Architectural Bedroom Decor Ideas for Restful Spaces",
+        "body": "Designing a soothing sanctuary begins with fundamental structural proportions and spatial planning rather than superficial surface decoration. A well-proportioned layout guarantees at least 700 millimetres of clear walking perimeter around the entire bed frame. This calculated clearance permits natural movement and prevents spatial congestion in primary suites. Incorporating breathable wall finishes like hot-mixed lime plaster regulates humidity naturally while delivering a soft tactile warmth that muted synthetic paints simply cannot duplicate.\n\nAcoustic mitigation plays a crucial structural role in creating a tranquil sleeping environment free from ambient disruptions. Installing wall assemblies fitted with high acoustic rating panels reduces internal sound reverberation by up to 28 decibels across middle frequencies. Pair these specialized wall treatments with solid core timber doors fitted with drop-down perimeter seals to isolate ambient house noise effectively. These core architectural choices establish a calm foundational atmosphere before decorative elements enter the space.\n\nIllumination mapping must also align with human circadian rhythms to promote restful natural resting cycles. Recessed lighting coves positioned precisely 250 millimetres from ceiling junctions scatter warm 2200K indirect illumination down textured surfaces. Soft ambient lighting eliminates harsh glares while emphasizing natural wall textures. By integrating subtle architectural lighting fixtures directly into structural alcoves, the room maintains an uncluttered refined aesthetic that remains practical throughout every changing season of the year."
+      },
+      {
+        "level": "h3",
+        "heading": "Proportions and Acoustic Panelling Specifications",
+        "body": "Integrating timber wall panelling requires careful attention to material movement and joinery depth within British homes. Specifying 18 millimetre quarter-sawn oak boards mounted onto counter-batten frames provides a stable rear ventilation cavity. This rear cavity prevents moisture accumulation against exterior cold masonry walls while allowing natural timber expansion. The rich character of authentic wood adds timeless architectural depth while enhancing overall room thermal performance across chilly winter months.\n\nSubtle shadows created by 6 millimetre shadow gaps between panelling elements accentuate vertical ceiling height in classic Period properties. Utilizing hidden mechanical fastenings preserves the continuous timber grain aesthetic across the full wall expanse. Finishing surfaces with a clear matte hardwax oil protects against skin oils while maintaining the soft natural appearance of unvarnished timber joinery. This detail provides lasting durability without requiring frequent refinishing over time.",
+        "bullets": [
+          "Minimum 50 millimetre rear cavity depth behind panelling for ventilation",
+          "Acoustic backing felt with a minimum 0.85 noise reduction coefficient",
+          "Precision 6 millimetre shadow gap details around architraves and skirting",
+          "Breathable micro-porous hardwax oil finish with low volatile organic compounds"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Elevating Space with Timber Joinery Bedroom Decor Ideas",
+        "body": "Custom joinery maximizes storage capacity while preserving clean architectural clarity in compact bedrooms. Built-in wardrobes crafted from C24 structural timber frames topped with hand-selected oak veneers offer exceptional structural integrity. Incorporating flush-fitting doors with concealed European hinges eliminates visual clutter, allowing the wardrobe facade to function as a seamless architectural wall rather than a heavy freestanding unit. Integrated internal sensor LED strips illuminate contents cleanly without spilling glare across the wider bedroom space.\n\nBespoke headboards integrated directly into surrounding wall panelling streamline floor plans significantly while providing structured ergonomic support. Constructing headboards with mortise and tenon timber framing ensures zero frame movement or creaking under daily dynamic loads. Upholstered central inserts wrapped in heavy 500 grams per square metre unbleached natural linen add gentle textural contrast while absorbing high-frequency sound reflections near the sleeper head for improved rest quality.\n\nIntegrating hidden storage bays within the primary bed base provides discrete functionality without expanding room footprints. Heavy-duty gas struts supporting up to 800 Newtons lift top mattress frames effortlessly to access sub-frame storage. Utilizing cedar-lined internal drawers deters moths naturally while subtle aromatic timber oils scent stored linens. This clever architectural feature keeps seasonal bedding organized clean and protected from ambient dust accumulation year round.",
+        "image": "https://images.unsplash.com/photo-1599004082088-dd8261d80bdc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwdGltYmVyJTIwYmVkaGVhZCUyMGpvaW5lcnklMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTU2OTAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up of bespoke oak joinery headboard showing precise tongue and groove detailing",
+        "imageCaption": "Precision oak joinery integrated with flush panelling provides structural elegance.",
+        "imageCredit": {
+          "name": "Facundo Sosa",
+          "link": "https://unsplash.com/@haku3541"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Textile Layering and Thermal Performance",
+        "body": "Textile selection directly affects thermal regulation and ambient sleeping comfort throughout changing British weather conditions. Layering pure French flax linen with a density of 180 grams per square metre over organic wool duvets creates a breathable microclimate. Linen fibres absorb up to 20 percent of their dry weight in moisture before feeling damp, maintaining dry comfortable warmth during warm summer nights or cold winter mornings without overheating.\n\nFloor coverings must balance sound absorption with tactile comfort underfoot when stepping out of bed. Laying a heavy 100 percent British wool loop pile carpet over a 10 millimetre high-density sponge rubber underlay achieves an impact sound reduction exceeding 32 decibels. Natural wool fibers naturally resist dirt retention and retain structural elasticity, ensuring long-term resilience against foot traffic without unsightly matting or surface flattening over time."
+      },
+      {
+        "level": "h2",
+        "heading": "Long-term Maintenance for Sustainable Bedroom Decor Ideas",
+        "body": "Sustaining the beauty of architectural bedroom elements requires simple regular care protocols designed for natural material longevity. Solid timber joinery should be dusted weekly with dry lint-free microfibre cloths and treated annually with natural beeswax. This routine nourishment replenishes protective surface waxes, guards against ambient humidity fluctuations, and enhances the deep rich grain character that naturally develops over decades of indirect sun exposure.\n\nMaintaining lime plaster and breathable wall finishes demands gentle non-abrasive cleaning methods to prevent surface erosion. Neutral pH soap solutions applied lightly with damp sponges remove casual wall scuffs without stripping natural mineral tones. Maintaining indoor relative humidity between 45 and 60 percent prevents micro-cracking in timber panelling while deterring unwanted mould formation on cold external masonry corners during damp winter seasons.\n\nInvesting in high-quality architectural components ultimately reduces environmental impact by eliminating the need for frequent room refurbishments. Solid timber joinery, breathable plasters, and premium natural textiles age gracefully over time, developing an attractive warm patina rather than wearing out. Prioritizing durable structural solutions ensures your bedroom sanctuary remains beautifully functional, comfortable, and visually serene for generations of quiet use."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What clearance is ideal around a bed frame?",
+        "answer": "Maintain a minimum 700 millimetre clearance around all sides of the bed to ensure smooth circulation and unhindered movement."
+      },
+      {
+        "question": "How do acoustic wall panels reduce bedroom noise?",
+        "answer": "Acoustic backing panels attenuate sound reverberation by up to 28 decibels across mid-range frequencies for a quieter sleep."
+      },
+      {
+        "question": "Which carpet underlay offers the best acoustic isolation?",
+        "answer": "A 10 millimetre high-density sponge rubber underlay paired with wool carpet delivers impact sound reduction exceeding 32 decibels."
+      }
+    ],
+    "tags": [
+      "bedroom decor ideas",
+      "Luxury Bedroom",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "transform-british-interiors-with-large-bathroom-tiles-now-guide",
     "title": "Transform British Interiors With Large Bathroom Tiles Now",
     "slug": "transform-british-interiors-with-large-bathroom-tiles-now",
@@ -87,7 +171,7 @@ export const ARTICLES = [
     "date": "September 16, 2026",
     "readTime": "8 min read",
     "views": "17.1k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "An architectural guide to transforming luxury British bathrooms using precision-engineered large format porcelain tiles and advanced waterproofing methods.",
     "metaDescription": "Large bathroom tiles enhance light and spatial proportions across modern British homes using refined architectural techniques and precision joinery.",
     "heroImage": "https://images.unsplash.com/photo-1662624914003-9bb2095ca7a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGFyZ2UlMjBwb3JjZWxhaW4lMjBiYXRocm9vbSUyMHRpbGVzfGVufDB8MHx8fDE3ODk1NDkxMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
