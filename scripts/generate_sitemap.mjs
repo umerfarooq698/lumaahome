@@ -65,14 +65,14 @@ export function generateSitemap() {
     });
   });
 
-  // 5. Static & Feed Pages (Priority 0.6)
-  const staticPages = ['about', 'contact', 'privacy-policy', 'terms-of-service', 'sitemap', 'rss'];
+  // 5. Static Pages (Priority 0.5)
+  const staticPages = ['about', 'contact', 'privacy-policy', 'terms-of-service'];
   staticPages.forEach(p => {
     urls.push({
       loc: `${BASE_URL}/${p}`,
       lastmod: currentDate,
-      changefreq: 'weekly',
-      priority: p === 'sitemap' || p === 'rss' ? '0.7' : '0.5'
+      changefreq: 'monthly',
+      priority: '0.5'
     });
   });
 

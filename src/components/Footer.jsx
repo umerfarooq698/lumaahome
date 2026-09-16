@@ -183,22 +183,18 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
 
             <div className="flex items-center gap-3 pt-0.5">
               <a
-                href="/sitemap"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNav('sitemap');
-                }}
+                href="https://www.lumaahome.co.uk/sitemap.xml"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
               >
                 Sitemap
               </a>
               <span>•</span>
               <a
-                href="/rss"
-                onClick={(e) => {
-                  e.preventDefault();
-                  handleNav('rss');
-                }}
+                href="https://www.lumaahome.co.uk/rss.xml"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
               >
                 RSS Feed
