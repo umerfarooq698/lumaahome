@@ -301,62 +301,98 @@ export default function ArticlePage({
               <div dangerouslySetInnerHTML={{ __html: article.content }} />
             ) : Array.isArray(article.content) ? (
               article.content.map((section, idx) => (
-                <div key={idx} className="space-y-4">
-                  {section.heading && (
-                    section.level === 'h3' ? (
-                      <h3 className="font-serif text-xl sm:text-[1.4rem] font-medium text-[#222222] pt-4 mb-2 leading-snug">
-                        {section.heading}
-                      </h3>
-                    ) : (
-                      <h2 className="font-serif text-2xl sm:text-[1.75rem] font-semibold text-[#111111] pt-8 pb-1.5 border-b border-gray-100 mb-3 leading-snug">
-                        {section.heading}
-                      </h2>
-                    )
-                  )}
+                <React.Fragment key={idx}>
+                  <div className="space-y-4">
+                    {section.heading && (
+                      section.level === 'h3' ? (
+                        <h3 className="font-serif text-xl sm:text-[1.4rem] font-medium text-[#222222] pt-4 mb-2 leading-snug">
+                          {section.heading}
+                        </h3>
+                      ) : (
+                        <h2 className="font-serif text-2xl sm:text-[1.75rem] font-semibold text-[#111111] pt-8 pb-1.5 border-b border-gray-100 mb-3 leading-snug">
+                          {section.heading}
+                        </h2>
+                      )
+                    )}
 
-                  {section.image && (
-                    <figure className="my-6 space-y-2">
-                      <div className="aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
-                        <img
-                          src={typeof section.image === 'object' && section.image?.url ? section.image.url : section.image}
-                          alt={section.imageAlt || (typeof section.image === 'object' && section.image?.alt) || section.heading || article.title}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                        />
+                    {section.image && (
+                      <figure className="my-6 space-y-2">
+                        <div className="aspect-[16/10] overflow-hidden bg-gray-100 border border-gray-200">
+                          <img
+                            src={typeof section.image === 'object' && section.image?.url ? section.image.url : section.image}
+                            alt={section.imageAlt || (typeof section.image === 'object' && section.image?.alt) || section.heading || article.title}
+                            className="w-full h-full object-cover"
+                            loading="lazy"
+                          />
+                        </div>
+                        {(section.imageCaption || (typeof section.image === 'object' && section.image?.caption)) && (
+                          <figcaption className="text-center font-serif italic text-xs text-gray-500 pt-1">
+                            {section.imageCaption || (typeof section.image === 'object' && section.image?.caption)}
+                          </figcaption>
+                        )}
+                      </figure>
+                    )}
+
+                    {Array.isArray(section.body) ? (
+                      section.body.map((pText, pIdx) => (
+                        <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
+                          {pText.trim()}
+                        </p>
+                      ))
+                    ) : typeof section.body === 'string' ? (
+                      section.body.split(/\n+/).filter(p => Boolean(p.trim())).map((pText, pIdx) => (
+                        <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
+                          {pText.trim()}
+                        </p>
+                      ))
+                    ) : null}
+
+                    {Array.isArray(section.bullets) && section.bullets.length > 0 && (
+                      <ul className="my-5 space-y-2.5 pl-1">
+                        {section.bullets.map((bullet, bIdx) => (
+                          <li key={bIdx} className="flex items-start gap-3 text-[#1a1a1a] text-base sm:text-lg leading-relaxed">
+                            <span className="w-1.5 h-1.5 rounded-full bg-[#C8102E] mt-2.5 shrink-0" />
+                            <span>{bullet}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+
+                  {/* Internal link injected after 3rd section (index 2) inside the article body */}
+                  {idx === 2 && relatedInternalArticle && (
+                    <div className="my-8 rounded-r-lg border-l-4 border-[#C8102E] bg-[#fcfbf9] border-y border-r border-gray-200/90 p-4 sm:p-5 shadow-sm">
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2">
+                          <Bookmark className="w-4 h-4 text-[#C8102E] shrink-0 fill-[#C8102E]/10" />
+                          <span className="text-xs sm:text-[13px] font-bold uppercase tracking-wider text-[#C8102E]">
+                            READ ALSO THIS
+                          </span>
+                        </div>
+                        <div className="pt-2 border-t border-gray-100 flex items-start gap-2.5 text-sm sm:text-[15px] leading-relaxed">
+                          <span className="text-[#C8102E] font-bold text-base leading-tight select-none">•</span>
+                          <div className="font-sans">
+                            <span className="font-bold uppercase text-[11px] sm:text-xs tracking-wider text-gray-900 mr-2">
+                              {(relatedInternalArticle.categoryName || relatedInternalArticle.category || 'ARCHITECTURE')}:
+                            </span>
+                            <a
+                              href={`/${relatedInternalArticle.slug}`}
+                              onClick={(e) => {
+                                if (!e.ctrlKey && !e.metaKey) {
+                                  e.preventDefault();
+                                  onSelectArticle(relatedInternalArticle);
+                                }
+                              }}
+                              className="font-serif font-bold text-[#C8102E] hover:underline text-left inline hover:text-[#9b0b22] transition-colors cursor-pointer"
+                            >
+                              {relatedInternalArticle.title}
+                            </a>
+                          </div>
+                        </div>
                       </div>
-                      {(section.imageCaption || (typeof section.image === 'object' && section.image?.caption)) && (
-                        <figcaption className="text-center font-serif italic text-xs text-gray-500 pt-1">
-                          {section.imageCaption || (typeof section.image === 'object' && section.image?.caption)}
-                        </figcaption>
-                      )}
-                    </figure>
+                    </div>
                   )}
-
-                  {Array.isArray(section.body) ? (
-                    section.body.map((pText, pIdx) => (
-                      <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
-                        {pText.trim()}
-                      </p>
-                    ))
-                  ) : typeof section.body === 'string' ? (
-                    section.body.split(/\n+/).filter(p => Boolean(p.trim())).map((pText, pIdx) => (
-                      <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
-                        {pText.trim()}
-                      </p>
-                    ))
-                  ) : null}
-
-                  {Array.isArray(section.bullets) && section.bullets.length > 0 && (
-                    <ul className="my-5 space-y-2.5 pl-1">
-                      {section.bullets.map((bullet, bIdx) => (
-                        <li key={bIdx} className="flex items-start gap-3 text-[#1a1a1a] text-base sm:text-lg leading-relaxed">
-                          <span className="w-1.5 h-1.5 rounded-full bg-[#C8102E] mt-2.5 shrink-0" />
-                          <span>{bullet}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
+                </React.Fragment>
               ))
             ) : null}
           </div>
@@ -388,39 +424,6 @@ export default function ArticlePage({
             </section>
           )}
 
-          {/* Contextual Single Relevant Internal Link (Inside Article Body, Below FAQ) */}
-          {relatedInternalArticle && (
-            <div className="my-8 rounded-r-lg border-l-4 border-[#C8102E] bg-[#fcfbf9] border-y border-r border-gray-200/90 p-4 sm:p-5 shadow-sm">
-              <div className="space-y-2">
-                <div className="flex items-center gap-2">
-                  <Bookmark className="w-4 h-4 text-[#C8102E] shrink-0 fill-[#C8102E]/10" />
-                  <span className="text-xs sm:text-[13px] font-bold uppercase tracking-wider text-[#C8102E]">
-                    READ ALSO THIS
-                  </span>
-                </div>
-                <div className="pt-2 border-t border-gray-100 flex items-start gap-2.5 text-sm sm:text-[15px] leading-relaxed">
-                  <span className="text-[#C8102E] font-bold text-base leading-tight select-none">•</span>
-                  <div className="font-sans">
-                    <span className="font-bold uppercase text-[11px] sm:text-xs tracking-wider text-gray-900 mr-2">
-                      {(relatedInternalArticle.categoryName || relatedInternalArticle.category || 'ARCHITECTURE')}:
-                    </span>
-                    <a
-                      href={`/${relatedInternalArticle.slug}`}
-                      onClick={(e) => {
-                        if (!e.ctrlKey && !e.metaKey) {
-                          e.preventDefault();
-                          onSelectArticle(relatedInternalArticle);
-                        }
-                      }}
-                      className="font-serif font-bold text-[#C8102E] hover:underline text-left inline hover:text-[#9b0b22] transition-colors cursor-pointer"
-                    >
-                      {relatedInternalArticle.title}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          )}
 
           {/* Editorial Separator */}
           <div className="text-center py-6 text-gray-400 font-serif text-lg tracking-[0.5em]">
