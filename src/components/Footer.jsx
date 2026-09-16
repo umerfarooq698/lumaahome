@@ -15,7 +15,19 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
         
         {/* Col 1: Brand and Masthead */}
         <div className="space-y-4">
-          <Logo size="small" />
+          <a 
+            href="/" 
+            onClick={(e) => {
+              if (!e.ctrlKey && !e.metaKey) {
+                e.preventDefault();
+                if (onSelectCategory) onSelectCategory('all');
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }}
+            className="inline-block group cursor-pointer"
+          >
+            <Logo size="small" align="left" />
+          </a>
           <p className="text-[11px] leading-relaxed text-[#111111] font-normal">
             The premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine.
           </p>
