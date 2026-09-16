@@ -180,6 +180,30 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
                 Contact Us
               </a>
             </div>
+
+            <div className="flex items-center gap-3 pt-0.5">
+              <a
+                href="/sitemap"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('sitemap');
+                }}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
+              >
+                Sitemap
+              </a>
+              <span>•</span>
+              <a
+                href="/rss"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleNav('rss');
+                }}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E]"
+              >
+                RSS Feed
+              </a>
+            </div>
           </div>
         </div>
 

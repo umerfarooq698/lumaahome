@@ -11,6 +11,8 @@ import ArticlePage from './components/ArticlePage';
 import AboutPage from './components/AboutPage';
 import ContactPage from './components/ContactPage';
 import LegalPage from './components/LegalPage';
+import SitemapPage from './components/SitemapPage';
+import RSSPage from './components/RSSPage';
 import SubscribeModal from './components/SubscribeModal';
 import AIGeneratorModal from './components/AIGeneratorModal';
 import Footer from './components/Footer';
@@ -90,6 +92,26 @@ function parseCurrentRoute(articlesList) {
       authorId: null,
       category: 'all',
       rawSlug: 'terms-of-service'
+    };
+  }
+
+  if (route === 'sitemap' || route === 'html-sitemap' || route === 'sitemap.html') {
+    return {
+      view: 'sitemap',
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: 'sitemap'
+    };
+  }
+
+  if (route === 'rss' || route === 'rss-feed' || route === 'feed') {
+    return {
+      view: 'rss',
+      article: null,
+      authorId: null,
+      category: 'all',
+      rawSlug: 'rss'
     };
   }
 
@@ -275,6 +297,8 @@ export default function App() {
     if (pageName === 'contact' || pageName === 'contact-us') slug = 'contact';
     if (pageName === 'privacy' || pageName === 'privacy-policy') slug = 'privacy-policy';
     if (pageName === 'terms' || pageName === 'terms-of-service') slug = 'terms-of-service';
+    if (pageName === 'sitemap' || pageName === 'html-sitemap') slug = 'sitemap';
+    if (pageName === 'rss' || pageName === 'rss-feed' || pageName === 'feed') slug = 'rss';
 
     window.history.pushState(null, '', `/${slug}`);
     setRouteState({
@@ -398,6 +422,22 @@ export default function App() {
               type={routeState.view}
               onBackToHome={() => handleCategoryChange('all')}
               onNavigateLegal={handleNavigatePage}
+            />
+          ) : routeState.view === 'sitemap' ? (
+            /* 3.1 DEDICATED HTML SITEMAP VIEW */
+            <SitemapPage
+              onBackToHome={() => handleCategoryChange('all')}
+              onSelectCategory={handleCategoryChange}
+              onSelectArticle={handleSelectArticle}
+              onSelectAuthor={handleAuthorChange}
+              onNavigatePage={handleNavigatePage}
+            />
+          ) : routeState.view === 'rss' ? (
+            /* 3.2 DEDICATED RSS SYNDICATION VIEW */
+            <RSSPage
+              onBackToHome={() => handleCategoryChange('all')}
+              onSelectArticle={handleSelectArticle}
+              onNavigatePage={handleNavigatePage}
             />
           ) : routeState.view === 'article' && routeState.article ? (
             /* 4. DEDICATED FULL ARTICLE VIEW */

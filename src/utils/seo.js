@@ -2,7 +2,7 @@
  * LUMAA HOME™ Advanced SEO & Structured Data (JSON-LD) Engine
  */
 
-export const SITE_URL = 'https://lumaahome.co.uk';
+export const SITE_URL = 'https://www.lumaahome.co.uk';
 export const SITE_NAME = 'LUMAA HOME™';
 export const DEFAULT_OG_IMAGE = 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85';
 export const DEFAULT_DESCRIPTION = 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.';

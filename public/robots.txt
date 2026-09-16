@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap Location
-Sitemap: https://lumaahome.co.uk/sitemap.xml
+Sitemap: https://www.lumaahome.co.uk/sitemap.xml
