@@ -45,7 +45,7 @@ jobs:
           
           # Check if there are changes to commit
           if git status --porcelain | grep -q "src/data/articles.js"; then
-            git add src/data/articles.js public/sitemap.xml
+            git add src/data/articles.js public/sitemap.xml public/rss.xml
             git commit -m "chore(auto-publish): publish new article from Google Sheet [skip ci]"
             git push origin main
             echo "Successfully pushed new article to main branch."
