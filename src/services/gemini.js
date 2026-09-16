@@ -85,12 +85,12 @@ STRICT EDITORIAL AND WRITING STANDARDS:
 12. UK BRITISH ENGLISH: Use authentic British English throughout (colour, grey, labour, mould, timber, joinery, hearth, plaster).
 13. TOPIC-SPECIFIC FAQS (SHORT QUESTIONS AND SHORT CRISP ANSWERS): Add 3 to 4 concise, practical FAQs. Both the question and answer must be short, punchy, and direct (question under 10-12 words, answer strictly 1 to 2 crisp sentences delivering immediate practical value).
 14. VISUAL CURATION (STRICT TOPIC AND LOCATION RELEVANCE): Provide 3 high-precision 2 to 4 word English visual queries for photography that strictly and specifically match the primary subject and location/city (e.g. for 'edinburgh castle', queries MUST include 'Edinburgh Castle Scotland', 'Edinburgh Castle Rock fortress'; for 'dining chair', queries MUST include 'luxury dining chair', 'solid oak dining chairs'). NEVER provide generic one-word queries. Also provide descriptive SEO ALT text without ampersands.
-15. META DESCRIPTION (STRICTLY 140 CHARACTERS): Create a completely original, high-intent SEO meta description of STRICTLY 135 to 140 characters in length. NEVER use AI or promotional filler words like 'Expand', 'Learn more', 'In-depth', 'Discover', 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', or 'AI'. Never reuse templates or default strings.
+15. META DESCRIPTION: STRICTLY 135 to 140 characters in length. NEVER use words like 'Discover', 'Explore', 'In-depth', 'Indepth', 'Comprehensive', 'Learn more', 'Learn', 'Read more', 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', or 'AI'. State the subject directly without promotional cliches.
 
 Return ONLY valid JSON matching this exact structure:
 {
   "title": "Title with exactly 55 to 60 characters without ampersands",
-  "metaDescription": "Unique 140-character SEO meta description without banned AI words or ampersands",
+  "metaDescription": "Unique 135 to 140 character SEO meta description without banned words or ampersands",
   "category": "${category}",
   "readTime": "7 min read",
   "author": "Marcus Cole",

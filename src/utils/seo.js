@@ -5,7 +5,28 @@
 export const SITE_URL = 'https://lumaahome.co.uk';
 export const SITE_NAME = 'LUMAA HOME™';
 export const DEFAULT_OG_IMAGE = 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85';
-export const DEFAULT_DESCRIPTION = 'Discover the epitome of British interior luxury, period restorations, and bespoke DIY guides with Lumaa Home™ Magazine. Curated for UK design enthusiasts.';
+export const DEFAULT_DESCRIPTION = 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.';
+
+export function cleanMetaDescription(str) {
+  if (!str) return DEFAULT_DESCRIPTION;
+  let cleaned = str
+    .replace(/\bdiscover\s+how\b/gi, 'How')
+    .replace(/\bdiscover\b/gi, '')
+    .replace(/\bexplore\b/gi, '')
+    .replace(/\bin-depth\b/gi, '')
+    .replace(/\bindepth\b/gi, '')
+    .replace(/\bcomprehensive\b/gi, '')
+    .replace(/\blearn more\b/gi, '')
+    .replace(/\bread more\b/gi, '')
+    .replace(/\blearn how to\b/gi, 'Master how to')
+    .replace(/\s+/g, ' ')
+    .trim();
+  
+  if (cleaned.length > 0) {
+    cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+  }
+  return cleaned || DEFAULT_DESCRIPTION;
+}
 
 function setMetaTag(key, value, isProperty = false) {
   if (!value) return;
@@ -73,7 +94,7 @@ export function updatePageSeo({
   jsonLd
 }) {
   const fullTitle = title ? (title.includes('LUMAA HOME') ? title : `${title} | ${SITE_NAME}`) : `${SITE_NAME} | A Luxury UK Home Decor and DIY Magazine`;
-  const fullDesc = description || DEFAULT_DESCRIPTION;
+  const fullDesc = cleanMetaDescription(description);
   const fullImage = image || DEFAULT_OG_IMAGE;
   
   const cleanPath = canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`;

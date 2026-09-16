@@ -50,6 +50,26 @@ function sanitize(str) {
   return str.replace(/&/g, 'and').trim();
 }
 
+function cleanMetaDescription(str) {
+  if (!str) return '';
+  let cleaned = str
+    .replace(/\bdiscover\s+how\b/gi, 'How')
+    .replace(/\bdiscover\b/gi, '')
+    .replace(/\bexplore\b/gi, '')
+    .replace(/\bin-depth\b/gi, '')
+    .replace(/\bindepth\b/gi, '')
+    .replace(/\bcomprehensive\b/gi, '')
+    .replace(/\blearn more\b/gi, '')
+    .replace(/\bread more\b/gi, '')
+    .replace(/\blearn how to\b/gi, 'Master how to')
+    .replace(/\s+/g, ' ')
+    .trim();
+  if (cleaned.length > 0) {
+    cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+  }
+  return cleaned;
+}
+
 function countWords(str) {
   if (!str) return 0;
   return str.trim().split(/\s+/).filter(Boolean).length;
@@ -263,13 +283,12 @@ STRICT EDITORIAL AND WRITING STANDARDS:
 10. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use 'and').
 11. UK BRITISH ENGLISH: Use British English (colour, grey, labour, mould, timber, joinery, hearth, plaster).
 12. TOPIC-SPECIFIC FAQS: 3 to 4 concise FAQs. Question under 10-12 words, answer strictly 1 to 2 crisp, direct sentences.
-13. VISUAL SEARCH QUERIES: 3 high-precision 2 to 4 word English visual queries matching the specific subject and materials.
-14. META DESCRIPTION: STRICTLY 135 to 140 characters in length without banned words or ampersands.
+14. META DESCRIPTION: STRICTLY 135 to 140 characters in length. NEVER use words like 'Discover', 'Explore', 'In-depth', 'Indepth', 'Comprehensive', 'Learn more', 'Learn', 'Read more', 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', or 'AI'. State the subject and value directly without cliches.
 
 Return ONLY valid JSON matching this exact structure:
 {
   "title": "Exact 55 to 60 character title with keyword and no ampersands",
-  "metaDescription": "Unique 135 to 140 character meta description without banned AI words or ampersands",
+  "metaDescription": "Unique 135 to 140 character meta description without banned words or ampersands",
   "excerpt": "Concise 1-sentence architectural summary of the article without ampersands",
   "heroImageAlt": "Detailed descriptive SEO alt text explaining the scene without ampersands",
   "unsplashSearchQueries": [
@@ -381,7 +400,7 @@ Return ONLY valid JSON matching this exact structure:
   }
 
   // 2. Meta description adjustment (135-140)
-  articleData.metaDescription = sanitize(articleData.metaDescription);
+  articleData.metaDescription = cleanMetaDescription(sanitize(articleData.metaDescription));
   if (articleData.metaDescription.length < 135) {
     if (!articleData.metaDescription.endsWith('.')) {
       articleData.metaDescription += '.';

@@ -203,7 +203,7 @@ export default function App() {
     if (routeState.view === 'home') {
       updatePageSeo({
         title: 'LUMAA HOME™ | A Luxury UK Home Decor and DIY Magazine',
-        description: 'Discover the epitome of British interior luxury, period restorations, and bespoke DIY guides with Lumaa Home™ Magazine. Curated for UK design enthusiasts.',
+        description: 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.',
         keywords: 'lumaa home, luxury home decor uk, uk interior design, bespoke diy guides, victorian renovations, british home styling, period joinery',
         canonicalPath: '/',
         ogType: 'website',
