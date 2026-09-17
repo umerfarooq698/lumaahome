@@ -75,6 +75,90 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "creating-a-diy-art-club-space-for-collaborative-studios-guide",
+    "title": "Creating a DIY Art Club Space for Collaborative Studios",
+    "slug": "creating-a-diy-art-club-space-for-collaborative-studios",
+    "category": "diy",
+    "categoryName": "DIY",
+    "categoryLabel": "HERITAGE RESTORATION • CRAFTSMANSHIP MASTERCLASS",
+    "author": "Oliver Sinclair",
+    "authorId": "oliver-sinclair",
+    "role": "Master Joiner and Period Restoration Consultant",
+    "date": "September 17, 2026",
+    "readTime": "8 min read",
+    "views": "18.2k",
+    "isFeatured": true,
+    "excerpt": "A technical guide to designing a practical home workshop tailored for a local art club with focus on structural timber, daylight lighting, and fluid cleanup systems.",
+    "metaDescription": "Establish a dedicated home workshop for your local diy art club using ergonomic drafting tables, task lighting, and sound insulation in U...",
+    "heroImage": "https://images.unsplash.com/photo-1752649935691-ac99478aaa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0JTIwc3R1ZGlvJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTYzNTg0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1752649935691-ac99478aaa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0JTIwc3R1ZGlvJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTYzNTg0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Bright sunlit creative art studio with large wooden workbenches, organized shelving, and artistic supplies arranged for group work",
+    "imageAlt": "Bright sunlit creative art studio with large wooden workbenches, organized shelving, and artistic supplies arranged for group work",
+    "photographer": "Vitaly Gariev",
+    "photographerUrl": "https://unsplash.com/@silverkblack",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Designing a Functional Studio Space for a DIY Art Club",
+        "body": "Converting a residential garden room, extended garage, or basement into a dedicated habitat for a local diy art club requires rigorous structural planning. Prioritise open timber floor layouts using C24 strength-graded structural joists to support heavy communal workbenches without requiring central load-bearing pillars. An unobstructed floor area measuring at least 4.0 metres by 5.0 metres comfortably accommodates six artists simultaneously, providing clear circulation corridors between easels, cutting stations, and central tool tables.\n\nSubfloor construction must address dynamic loads and atmospheric moisture variations. Install a heavy-duty damp-proof membrane over concrete slab bases, followed by 22 millimetre moisture-resistant tongue-and-groove subfloor panels sealed with expanding polyurethane adhesives along all joinery edges. For wet craft media like printmaking, ceramics, or fluid painting, overlay this subfloor with commercial sheet vinyl featuring an R10 slip rating and hot-welded perimeter seams to stop spillages from penetrating the timber framework.\n\nEffective mechanical ventilation is essential when hosting regular creative sessions involving solvent inks, spray adhesives, or fine clay dust. Specify an inline mechanical ventilation heat recovery unit capable of supplying 15 litres per second per person of fresh, filtered outside air. Maintaining continuous airflow keeps relative indoor humidity steady between 45 and 60 percent, protecting delicate paper stock, raw timber joinery, and stretched canvases from warping or suffering atmospheric mould growth over time."
+      },
+      {
+        "level": "h3",
+        "heading": "Ergonomic Layouts and Workstation Dimensions",
+        "body": "Individual workstation proportions directly dictate physical comfort during detailed craft sessions. Construct main workbenches at a standardized height of 750 millimetres for seated paper craft or 900 millimetres for standing tasks, utilizing 38 millimetre thick solid birch plywood tops. Ensure each dedicated member station provides a minimum linear width of 1200 millimetres and a depth of 750 millimetres to easily accommodate self-healing cutting mats, desktop easels, and localized task lamps without crowding adjacent makers.\n\nIntegrated perimeter storage keeps main working surfaces completely clear and minimizes trip hazards across the floor. Mount twin-slot steel shelving channels at 600 millimetre horizontal centres directly into timber wall studs to support heavy solid oak shelving. Mobile tool trolleys fitted with 75 millimetre heavy-duty lockable polyurethane castors allow members to effortlessly transfer shared carving chisels, linocut rollers, inks, and clay blocks between the main prep island and their individual crafting stations.",
+        "bullets": [
+          "Minimum circulation clearance of 900 millimetres behind all seated artists to ensure safe room movement.",
+          "Workbench tops constructed from 38 millimetre birch plywood finished with two coats of protective hardwax oil.",
+          "Wall-mounted electrical dado trunking installed at 1050 millimetres height to prevent trailing cables across floors.",
+          "Heavy print drying racks capable of supporting 20 individual sheets of wet A1 paper up to 15 kilograms total load."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Lighting and Acoustic Planning for your DIY Art Club",
+        "body": "Illumination quality directly governs colour accuracy and visual comfort during collaborative creative gatherings. Replace standard domestic warm lighting with ceiling-mounted LED panel luminaires featuring a colour rendering index rating of CRI 95 or higher and a neutral colour temperature of 4000 Kelvin. Position primary ambient lights 2.2 metres above finished floor level to deliver uniform, shadow-free illumination across all drawing boards and canvases without causing distracting glare on glossy surfaces.\n\nEffective acoustic dampening prevents high noise buildup when multiple makers converse or operate motorized studio tools like pottery wheels or scroll saws. Install wall-mounted sound absorption panels made from dense recycled polyester fiberboards boasting a Noise Reduction Coefficient of 0.85 or greater. Combining acoustic wall treatments with high-density underlay beneath floor coverings successfully maintains background ambient sound below 45 decibels, creating a calm, highly focused environment ideal for productive artistic expression.",
+        "image": "https://images.unsplash.com/photo-1685022515813-c42e8348639b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0aXN0JTIwc3R1ZGlvJTIwZGV0YWlsJTIwd29vZHdvcmtpbmclMjBkZXNrfGVufDB8MHx8fDE3ODk2MzU4NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up view of clean timber workbench showing artistic tools, ruler, and natural lighting",
+        "imageCaption": "Precision task lighting combined with durable timber surfaces creates an efficient setting for group making.",
+        "imageCredit": {
+          "name": "Jean-Baptiste D.",
+          "link": "https://unsplash.com/@jbonunsplash"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Plumbing Engineering and Sink Installation Standards",
+        "body": "Cleanup zones demand specialized plumbing fittings to handle paint washing, plaster residue, and clay rinse water safely without causing pipe blockages. Mount a deep fireclay ceramic or stainless steel Belfast sink at an ergonomic working height of 850 millimetres, supplied by a high-neck commercial swivel mixer tap. Route all waste pipework through a multi-stage under-sink sediment trap with a removable clear catch pot to prevent dense solids from settling inside domestic drainage networks.\n\nMaintaining hygiene and chemical safety in shared craft spaces requires dedicated waste segregation systems. Install heavy-gauge steel hazardous waste bins with foot-operated self-closing lids for disposing of solvent-soaked cleaning wipes alongside standard dry paper recycling bins. Ensure water inlet lines incorporate double-check valves compliant with British Water Regulations to protect the main potable supply against potential back-siphonage during heavy washing procedures."
+      },
+      {
+        "level": "h2",
+        "heading": "Long Term Care for Home DIY Art Club Gathering Spaces",
+        "body": "Preserving high-traffic home studio surfaces requires a disciplined seasonal maintenance routine to ensure lasting structural performance. Timber workbench tops should receive a light sanding with 180-grit sandpaper before re-applying a fresh layer of breathable microporous hardwax oil every twelve months. Inspect all steel framing joints, bench vices, and shelving brackets annually, re-tightening structural bolts to maintain complete stability and load-bearing capacity across thousands of hours of collaborative crafting.\n\nEstablishing a purpose-engineered home workshop provides your local community group with a durable, professional-grade platform for creative exploration. By combining robust structural timber, accurate daylight-balanced lighting, efficient dust extraction, and practical wet cleanup facilities, your residential studio will remain a clean, inspiring, and safe home for your club for many years to come. Focus on durable materials and clear spatial planning to maximize both utility and creative output."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What floor space is ideal for a DIY art club?",
+        "answer": "A minimum floor footprint of 4.0 metres by 5.0 metres provides comfortable circulation space for six members working simultaneously."
+      },
+      {
+        "question": "How do you control noise levels in home craft studios?",
+        "answer": "Install acoustic wall panels with a Noise Reduction Coefficient of 0.85 and fit high-density underlay beneath vinyl floor coverings."
+      },
+      {
+        "question": "What tap and drainage system is best for wet media?",
+        "answer": "Fit a deep fireclay Belfast sink with a swivel spout and an under-sink sediment trap to intercept plaster, clay, and paint solids."
+      }
+    ],
+    "tags": [
+      "diy art club",
+      "Luxury DIY",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms-guide",
     "title": "Designing the Safe Baby Bath Tub Zone for Modern Bathrooms",
     "slug": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms",
@@ -87,7 +171,7 @@ export const ARTICLES = [
     "date": "September 16, 2026",
     "readTime": "8 min read",
     "views": "18.7k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "An architectural guide to integrating high-performance baby bath tub designs into elegant, modern British family bathrooms.",
     "metaDescription": "Select an ergonomic baby bath tub engineered with high thermal retention materials and anti-slip surfaces for sophisticated British homes.",
     "heroImage": "https://images.unsplash.com/flagged/photo-1564228539519-4dfe919785a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmFieSUyMGJhdGglMjB0dWIlMjBtb2Rlcm58ZW58MHwwfHx8MTc4OTU4NjEzMnww&ixlib=rb-4.1.0&q=80&w=1080",
