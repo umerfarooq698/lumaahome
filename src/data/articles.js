@@ -75,6 +75,94 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes-guide",
+    "title": "How to Select a Quality Kitchen Sink for Modern UK Homes",
+    "slug": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "September 17, 2026",
+    "readTime": "8 min read",
+    "views": "17.2k",
+    "isFeatured": true,
+    "excerpt": "A detailed technical guide to specifying, installing, and maintaining high performance kitchen sinks tailored for contemporary UK architectural interiors.",
+    "metaDescription": "Master acoustic damping, material specifications, and precision mounting details required to fit a superior kitchen sink into UK homes.",
+    "heroImage": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMHNpbmt8ZW58MHwwfHx8MTc4OTY3MzIzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMHNpbmt8ZW58MHwwfHx8MTc4OTY3MzIzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Modern kitchen interior featuring a sleek undermount basin and elegant brushed brass tapware set against white marble counter surfaces",
+    "imageAlt": "Modern kitchen interior featuring a sleek undermount basin and elegant brushed brass tapware set against white marble counter surfaces",
+    "photographer": "Steven Ungermann",
+    "photographerUrl": "https://unsplash.com/@steveungermann",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Selecting the Ideal Kitchen Sink for Architectural Interiors",
+        "body": "The kitchen sink serves as the primary operational anchor within British culinary spaces, enduring heavy daily usage while setting a subtle aesthetic tone. Specifying the correct fixture requires balancing ergonomic access with structural integration, especially when pairing with custom quartz or solid oak worktops. Modern UK kitchen layouts increasingly demand a seamless pairing of clean visual lines, quiet hydraulic operation, and robust physical performance.\n\nWhen selecting a primary bowl, precise dimension planning remains essential for long-term utility. A standard single-bowl unit measuring 550 millimetres by 400 millimetres with a depth of 200 millimetres provides ample clearance for large stockpots and heavy oven trays. Double-bowl configurations typically demand a base cabinet carcass width of at least 800 millimetres, ensuring sufficient structural support within the surrounding load-bearing timber framework.\n\nAcoustic performance is frequently overlooked during the initial specification process in open-plan homes. Water striking uninsulated metal creates unwanted ambient reverberation throughout dining areas. High-spec steel fixtures incorporate heavy-duty butyl rubber acoustic dampening pads bonded to the underside, attenuating fluid impact noise by up to 15 decibels and providing a solid, deadened tactile feel during daily washing routines."
+      },
+      {
+        "level": "h3",
+        "heading": "Undermount Versus Inset Installation Mechanics",
+        "body": "Flush undermount installations deliver uninterrupted counter sweeps, allowing surface liquids to be wiped straight into the basin without catching on perimeter lips. This technique requires precision CNC routing of the stone worktop aperture, leaving a subtle 2 millimetre reveal. Substructure carcass reinforcement must accommodate the combined wet weight of filled ceramic or granite vessels without straining surrounding cabinet rails.\n\nInset or top-mount configurations remain the preferred choice for solid timber counters where exposed end grain requires protection from persistent standing moisture. A subtle raised rim resting upon a continuous bead of neutral-cure silicone creates a resilient watertight barrier, preserving the structural integrity and warm finish of surrounding hardwood joinery over decades of rigorous service.\n\nMounting clips and supporting spatial brackets must be spaced at intervals no greater than 150 millimetres along the basin perimeter to distribute dynamic stress loads evenly. Improper clamping pressure can distort delicate rim geometries or compromise neutral-cure silicone seals, leading to subtle moisture ingress within lower carcass timbers over extended residential use.",
+        "bullets": [
+          "Maintain a minimum 50 millimetre edge margin from worktop front edge to aperture cut",
+          "Specify 1.2 millimetre thick 304-grade stainless steel for structural rigidity",
+          "Apply neutral-cure anti-fungal silicone to protect carcass joinery from moisture",
+          "Ensure waste pipework adheres to British standard 38 millimetre trap connections"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Kitchen Sink Material Performance and Acoustic Engineering",
+        "body": "Material selection dictates not only visual interior harmony but also long-term resistance to thermal shock, scratching, and chemical staining. Fireclay ceramic sinks are fired at temperatures exceeding 1,200 degrees Celsius, creating an impenetrable vitreous glaze that resists household acids and intense heat. Their non-porous glazed surface prevents bacterial accumulation, making them exceptionally hygienic for active culinary preparation zones.\n\nQuartz composite formulations blend roughly 80 percent natural quartz sand with high-grade acrylic resins, yielding a tactile matte finish with impressive impact resistance. These engineered stone surfaces absorb kinetic impact energy, reducing delicate glassware breakage risks while dampening acoustic vibrations naturally. Furthermore, UV-stable pigments ensure dark charcoal or warm oatmeal tones remain vibrant despite direct sunlight from windows.\n\nPremium 304-grade stainless steel featuring an 18/10 chromium-nickel material ratio offers unmatched ductility and corrosion resistance in high-humidity kitchen environments. Satin brushed finishes effectively camouflage light surface scuffs caused by daily cutlery contact. Applying an undercoated anti-condensation protective spray to metal exteriors prevents ambient humidity from dripping into wooden cabinet base units during cold washing sessions.",
+        "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwZ3Jhbml0ZSUyMGtpdGNoZW4lMjBzaW5rJTIwZml4dHVyZXxlbnwwfDB8fHwxNzg5NjczMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up photo of modern granite composite sink bowl fitted into dark quartz worktop",
+        "imageCaption": "Composite quartz basins absorb physical impacts while dampening unwanted acoustic reverberation.",
+        "imageCredit": {
+          "name": "Steven Ungermann",
+          "link": "https://unsplash.com/@steveungermann"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Hydraulic Integration and Plumbing Waste Standards",
+        "body": "Efficient drainage relies on precise internal basin geometry and compliant plumbing fall ratios. A standard 90 millimetre basket strainer waste allows high-volume water discharge while capturing organic food debris before it reaches the primary trap assembly. UK building regulations dictate a minimum 40 millimetre water seal depth within the waste trap to prevent foul sewer gases from siphoning back into living spaces.\n\nPositioning the main waste outlet towards the rear of the basin carcass maximizes usable under-sink storage space below. Modern telescopic waste kits allow flexible pipework to run flush against the back cabinet panel, creating unhindered room for pull-out recycling bins or water filtration units without compromising hydraulic drainage velocity or routine trap maintenance accessibility.\n\nOverflow channels must provide a continuous secondary discharge path capable of handling nominal tap flow rates reliably. Integrated micro-slotted overflows cut directly into ceramic or stainless steel sidewalls maintain clean minimalist aesthetic lines while fully satisfying British water supply regulations for flood containment across traditional and contemporary residential building projects."
+      },
+      {
+        "level": "h2",
+        "heading": "Long Term Care for Your British Kitchen Sink",
+        "body": "Preserving pristine basin aesthetics requires tailored maintenance routines dependent on the underlying material substrate. Stainless steel benefits from routine wipe-downs along the grain line using mild dish soap and microfiber cloths. Periodic applications of specialized metal polish replenish protective chromium oxide layers, repelling unsightly water droplets and stubborn mineral scale buildup in hard water regions across Britain.\n\nCeramic fireclay surfaces respond best to non-abrasive cream cleaners applied with soft sponges to maintain their deep lustrous sheen. Lime scale deposits around tap hole landings can be safely dissolved using dilute acetic acid solutions without dulling the underlying glaze. Avoiding sudden thermal shocks prevents micro-crazing within decorative vitreous enamel layers over long-term domestic use.\n\nGranite composite surfaces demand gentle care with neutral pH cleansers to avoid stripping original factory sealant coatings. Regular light applications of mineral oil help restore rich surface depth, masking minor scuffs and keeping hydrophobic properties intact. With thoughtful material matching and precise mechanical installation, your kitchen sink will serve as an enduring architectural touchstone for decades."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the ideal bowl depth for a kitchen sink?",
+        "answer": "A depth between 190 and 210 millimetres provides comfortable access while preventing water splashback on surrounding worktops."
+      },
+      {
+        "question": "How do you quieten a noisy stainless steel sink?",
+        "answer": "Applying self-adhesive sound-dampening acoustic pads and protective coating to the basin underside significantly reduces water impact noise."
+      },
+      {
+        "question": "Can an undermount sink be fitted to solid timber?",
+        "answer": "Undermounting to solid wood is possible if end grain cutouts are thoroughly sealed with marine-grade waterproof polyurethane varnish."
+      },
+      {
+        "question": "What size waste outlet is standard in the UK?",
+        "answer": "Modern British sinks feature a standard 90 millimetre waste outlet designed to accept basket strainers and waste disposal units."
+      }
+    ],
+    "tags": [
+      "kitchen sink",
+      "Luxury Kitchen",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "designing-serene-spaces-with-premium-green-bathroom-tiles-guide",
     "title": "Designing Serene Spaces With Premium Green Bathroom Tiles",
     "slug": "designing-serene-spaces-with-premium-green-bathroom-tiles",
@@ -87,7 +175,7 @@ export const ARTICLES = [
     "date": "September 17, 2026",
     "readTime": "8 min read",
     "views": "21.8k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Transform your daily washing space with carefully specified green bathroom tiles designed for lasting moisture resistance and aesthetic calm.",
     "metaDescription": "Transform your washing space using beautiful green bathroom tiles selected for British homes with slip ratings and expert installation tips.",
     "heroImage": "https://images.unsplash.com/photo-1780399370211-1149b7776337?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjBiYXRocm9vbSUyMHRpbGVzfGVufDB8MHx8fDE3ODk2NTU2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
