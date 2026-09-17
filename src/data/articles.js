@@ -75,6 +75,103 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "designing-serene-spaces-with-premium-green-bathroom-tiles-guide",
+    "title": "Designing Serene Spaces With Premium Green Bathroom Tiles",
+    "slug": "designing-serene-spaces-with-premium-green-bathroom-tiles",
+    "category": "bathroom",
+    "categoryName": "Bathroom",
+    "categoryLabel": "SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "September 17, 2026",
+    "readTime": "8 min read",
+    "views": "21.8k",
+    "isFeatured": true,
+    "excerpt": "Transform your daily washing space with carefully specified green bathroom tiles designed for lasting moisture resistance and aesthetic calm.",
+    "metaDescription": "Transform your washing space using beautiful green bathroom tiles selected for British homes with slip ratings and expert installation tips.",
+    "heroImage": "https://images.unsplash.com/photo-1780399370211-1149b7776337?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjBiYXRocm9vbSUyMHRpbGVzfGVufDB8MHx8fDE3ODk2NTU2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1780399370211-1149b7776337?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjBiYXRocm9vbSUyMHRpbGVzfGVufDB8MHx8fDE3ODk2NTU2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Earthy green glazed ceramic tiles installed in a bright modern British bathroom interior",
+    "imageAlt": "Earthy green glazed ceramic tiles installed in a bright modern British bathroom interior",
+    "photographer": "Grace Anne Bobadilla",
+    "photographerUrl": "https://unsplash.com/@graceannefully",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Embracing Natural Tones Through Green Bathroom Tiles",
+        "body": "Introducing organic hues into domestic washing spaces creates an immediate sense of connection to nature. Homeowners across the United Kingdom increasingly favour muted sage and deep forest tones to counteract grey urban weather. Choosing the right surface finish depends heavily on natural light levels and spatial proportions within smaller Victorian terraced properties.\n\nCrafting a balanced sanctuary requires careful consideration of grout lines alongside tile dimensions. Standard rectangular formats measuring 150 by 75 millimetres offer classic metro appeal when installed in traditional running bond patterns. Alternatively, larger square formats measuring 100 by 100 millimetres bring a retro artisan texture that softens minimalist sanitaryware effectively.\n\nProper waterproofing behind these glazed surfaces remains paramount for long-term structural integrity. Applying tanking membranes across wet zone plasterboard prevents moisture ingress that typically leads to persistent mould growth behind costly ceramic installations.",
+        "image": "https://images.unsplash.com/photo-1722942430280-b25dd9c2e836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c2FnZSUyMGdyZWVuJTIwc3Vid2F5JTIwdGlsZXN8ZW58MHwwfHx8MTc4OTY1NTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up of glossy sage green ceramic tiles with matching grout",
+        "imageCaption": "Subtle tonal variations bring organic warmth to contemporary walls.",
+        "imageCredit": {
+          "name": "Alex Tyson",
+          "link": "https://unsplash.com/@alextyson195"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Selecting Slip Ratings and Surface Finishes",
+        "body": "Floor surfaces demand rigorous technical scrutiny regarding wet safety performance. Selecting floor materials requires compliance with British standards for slip resistance in barefoot areas. Specifiers should always verify pendulum test values exceeding 36 to ensure family safety during wet mornings.\n\nGlazed porcelain offers superior scratch resistance compared to traditional porous terracotta alternatives. Maintaining these surfaces simply requires regular cleaning with pH-neutral solutions to preserve the integrity of both glaze and cementitious grouts.",
+        "bullets": [
+          "Specify minimum R10 slip rating for shower floor zones",
+          "Maintain 2 millimetre grout joints for optimal expansion tolerance",
+          "Use epoxy grout in high moisture shower enclosures"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Styling Interiors With Textured Green Bathroom Tiles",
+        "body": "Textured surfaces catch morning sunlight brilliantly, casting soft shadows across compact washrooms. Handmade Moroccan zellige styles feature subtle surface undulations that reflect illumination dynamically. This artisan variation celebrates minor imperfections, giving each wall a truly bespoke character tailored for heritage renovations.\n\nPairing these botanical ceramic tones with unlacquered brass hardware yields a striking visual contrast. Over time, the brass develops a rich living patina that complements the earthy undertones of deep olive wall surfaces. Such material pairings elevate functional rooms into deeply relaxing restorative retreats.\n\nVentilation planning must never be overlooked when dealing with heavy ceramic and porcelain surfaces. Installing extractors capable of shifting 15 litres per second ensures rapid moisture clearance after hot baths, protecting surrounding joinery.",
+        "image": "https://images.unsplash.com/photo-1729638652129-ae17010946b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8ZGFyayUyMGdyZWVuJTIwYmF0aHJvb20lMjB0aWxlc3xlbnwwfDB8fHwxNzg5NjU1NjU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Dark emerald green wall tiles paired with brushed brass fixtures",
+        "imageCaption": "Deep emerald tones create dramatic contrast against warm metallic finishes.",
+        "imageCredit": {
+          "name": "Dzordzoe Noamesi",
+          "link": "https://unsplash.com/@dzn__"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Subtle Engineering Nuance for Wet Rooms",
+        "body": "Subfloor deflection calculations become critical when laying dense porcelain tiles across suspended timber joists. Inserting cement backer boards over structural plywood prevents tile cracking caused by normal household foot traffic movements.\n\nExpansion joints positioned at room perimeters absorb structural thermal shifts successfully. Filling these perimeter gaps with matching flexible silicone prevents unsightly cracking along corner junctions.",
+        "image": "https://images.unsplash.com/photo-1772567732962-9c9a4dfff8d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjB0aWxlJTIwc2hvd2VyJTIwZGV0YWlsfGVufDB8MHx8fDE3ODk2NTU2NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Precision tile alignment around a modern shower valve control",
+        "imageCaption": "Meticulous setting out ensures clean sightlines around functional plumbing fixtures.",
+        "imageCredit": {
+          "name": "Franco Debartolo",
+          "link": "https://unsplash.com/@francotheshooter"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Architectural Longevity and Care Protocols",
+        "body": "Investing in premium glazed ceramics guarantees decades of reliable domestic service without fading. Unlike painted walls, fired clay finishes resist chemical splashes and daily cosmetic wear effortlessly. Routine maintenance involves nothing more than wiping down wet zones with a soft microfiber cloth.\n\nFuture proofing your renovation project means choosing timeless botanical hues rather than fleeting colour trends. Emerald and olive shades have anchored interior design schemes for centuries, offering enduring visual appeal that outlasts seasonal aesthetic shifts entirely."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What slip rating is required for shower floors?",
+        "answer": "Specify a minimum R10 or PTV 36 plus rating for safety."
+      },
+      {
+        "question": "How wide should standard grout lines be?",
+        "answer": "Maintain a 2 millimetre joint width to accommodate thermal movement."
+      },
+      {
+        "question": "Do handmade ceramic tiles need sealing?",
+        "answer": "Porous handmade bodies require penetrating sealer before and after grouting."
+      }
+    ],
+    "tags": [
+      "green bathroom tiles",
+      "Luxury Bathroom",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "creating-a-diy-art-club-space-for-collaborative-studios-guide",
     "title": "Creating a DIY Art Club Space for Collaborative Studios",
     "slug": "creating-a-diy-art-club-space-for-collaborative-studios",
@@ -87,7 +184,7 @@ export const ARTICLES = [
     "date": "September 17, 2026",
     "readTime": "8 min read",
     "views": "18.2k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A technical guide to designing a practical home workshop tailored for a local art club with focus on structural timber, daylight lighting, and fluid cleanup systems.",
     "metaDescription": "Establish a dedicated home workshop for your local diy art club using ergonomic drafting tables, task lighting, and sound insulation in U...",
     "heroImage": "https://images.unsplash.com/photo-1752649935691-ac99478aaa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0JTIwc3R1ZGlvJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTYzNTg0OXww&ixlib=rb-4.1.0&q=80&w=1080",
