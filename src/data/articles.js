@@ -75,6 +75,107 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "finding-the-ideal-3-bedroom-house-for-rent-in-britain-guide",
+    "title": "Finding The Ideal 3 Bedroom House For Rent In Britain",
+    "slug": "finding-the-ideal-3-bedroom-house-for-rent-in-britain",
+    "category": "bedroom",
+    "categoryName": "Bedroom",
+    "categoryLabel": "SANCTUARY SUITES • BESPOKE JOINERY SPECIFICATION",
+    "author": "Oliver Sinclair",
+    "authorId": "oliver-sinclair",
+    "role": "Master Joiner and Period Restoration Consultant",
+    "date": "September 18, 2026",
+    "readTime": "8 min read",
+    "views": "22.5k",
+    "isFeatured": true,
+    "excerpt": "Navigating the property market requires an understanding of structural proportions and residential tenancy agreements.",
+    "metaDescription": "Secure a spacious 3 bedroom house for rent with expert advice on architectural layouts, room dimensions, and British tenancy laws today.",
+    "heroImage": "https://images.unsplash.com/photo-1786479275225-d2529a2af6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHJlbnRhbCUyMGhvbWUlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1786479275225-d2529a2af6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHJlbnRhbCUyMGhvbWUlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Bright British living room featuring high ceilings and traditional architectural mouldings",
+    "imageAlt": "Bright British living room featuring high ceilings and traditional architectural mouldings",
+    "photographer": "shuswap lakeside",
+    "photographerUrl": "https://unsplash.com/@shuswaplakeside",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Securing Your Ideal 3 Bedroom House For Rent",
+        "body": "Securing a generous property demands a clear understanding of spatial planning and local rental markets. A well-designed dwelling offers distinct zones for resting, working, and socialising. Prospective tenants must evaluate floor plans to ensure principal sleeping quarters comfortably accommodate king-size furniture without compromising on floor circulation. Ceiling heights averaging 2400 millimetres create an airy atmosphere, enhancing natural daylight penetration across all primary rooms.\n\nEvaluating the structural integrity of a rental property prevents unforeseen maintenance issues during your tenancy. Look for properties featuring double-glazed window units with thermal break frames to maintain optimal indoor temperatures. Efficient gas central heating systems paired with C24 structural timber joists guarantee a stable, quiet home environment. Reviewing energy performance certificates helps anticipate monthly utility costs before signing any formal lease agreement.\n\nWorking alongside reputable letting agents ensures transparent negotiations and adherence to British tenancy regulations. Always inspect the damp-proof course and verify that extractor fans operate correctly in wet areas to prevent mould accumulation. Securing a comprehensive inventory report upon move-in safeguards your deposit against disputed end-of-tenancy deductions.",
+        "image": "https://images.unsplash.com/photo-1783785148139-04dfa5c533bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpZ2h0JTIwbW9kZXJuJTIwaGFsbHdheXxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Clean minimalist hallway with timber flooring and soft neutral wall paint",
+        "imageCaption": "Thoughtfully proportioned entryways set the tone for a well-maintained rental home",
+        "imageCredit": {
+          "name": "Sou Jest",
+          "link": "https://unsplash.com/@soujest"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Evaluating Room Proportions And Layouts",
+        "body": "Analysing room dimensions ensures your existing furniture fits comfortably within the new dwelling. The primary sleeping quarters should ideally measure at least 3600 by 3000 millimetres to accommodate wardrobes and bedside storage effortlessly. Secondary chambers work well as home offices or guest rooms when fitted with adequate electrical socket placements.",
+        "bullets": [
+          "Check that main bedrooms exceed 10 square metres for comfortable daily living",
+          "Verify that window clearances allow at least 15 percent natural light penetration",
+          "Confirm acoustic dampening between party walls exceeds 45 decibels for privacy"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Navigating Tenancy Agreements For A Rental Property",
+        "body": "Entering into a legally binding residential lease requires careful scrutiny of break clauses and maintenance responsibilities. Standard Assured Shorthold Tenancies typically run for twelve months with a six-month tenant break option. Landlords maintain structural responsibility under British housing law, while tenants generally manage minor interior upkeep and garden maintenance. Clarifying these boundaries prevents misunderstandings throughout the duration of your stay.\n\nFinancial preparations extend beyond the monthly rental figure to include deposit protection schemes and council tax bandings. Security deposits are legally capped at five weeks of rent for annual incomes under fifty thousand pounds. Checking local authority tax bands helps project total outgoings accurately. Ensuring all safety certificates, including gas safety records and electrical installation condition reports, are current guarantees your family stays secure.",
+        "image": "https://images.unsplash.com/photo-1722605090433-41d1183a792d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8MHx8fDE3ODk3NTcxODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Contemporary kitchen featuring stone countertops and integrated appliances",
+        "imageCaption": "Functional kitchen spaces elevate daily routines in a modern family house",
+        "imageCredit": {
+          "name": "Stephen Owen",
+          "link": "https://unsplash.com/@stephenowen23"
+        }
+      },
+      {
+        "level": "h3",
+        "body": "Kitchen functionality relies heavily on durable worktops and efficient appliance spacing. Quartz or solid hardwood surfaces provide excellent scratch resistance and longevity under heavy daily use. Soft-close cabinetry hardware reduces wear and tear, protecting the joinery over years of consistent family preparation.\n\nBathroom fixtures require slip-rated floor tiles with a minimum PTV 36 rating to ensure household safety. Thermostatic shower valves prevent sudden temperature fluctuations, offering a comfortable bathing experience. Proper mechanical ventilation prevents condensation build-up, protecting grout lines and wall finishes from premature degradation.",
+        "bullets": [
+          "Inspect silicone sealant around baths and showers for signs of cracking",
+          "Test water pressure across multiple taps simultaneously to check flow rates",
+          "Verify extraction fan timer overrun functionality to control bathroom humidity"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Settling Into Your New Rental House Successfully",
+        "body": "Transitioning smoothly into a rental property involves systematic organisation and prompt utility registration. Upon receiving your keys, take high-resolution photographs of every surface to document the initial condition thoroughly. Submit meter readings for electricity, gas, and water suppliers within the first forty-eight hours to establish accurate billing baselines.\n\nBuilding a positive relationship with your landlord or property manager fosters open communication for future maintenance requests. Report minor issues promptly before they escalate into significant structural problems. Enjoying your new living space comes from establishing comfortable routines and respecting the architectural integrity of the building.",
+        "image": "https://images.unsplash.com/photo-1606796913825-2b02883605e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Y29zeSUyMGJlZHJvb20lMjBzdHlsaW5nfGVufDB8MHx8fDE3ODk3NTcxODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Peaceful bedroom featuring neutral linen bedding and natural lighting",
+        "imageCaption": "Creating a calm retreat within your rental home supports daily wellbeing",
+        "imageCredit": {
+          "name": "Susan Wilkinson",
+          "link": "https://unsplash.com/@susan_wilkinson"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What documents are required to rent a house?",
+        "answer": "Provide proof of identity, previous landlord references, and three months of bank statements confirming stable income."
+      },
+      {
+        "question": "How are security deposits protected in Britain?",
+        "answer": "Landlords must register your deposit in a government-approved tenancy deposit scheme within thirty days of receipt."
+      },
+      {
+        "question": "Who is responsible for garden maintenance?",
+        "answer": "Tenants generally handle basic lawn mowing and weeding unless the tenancy agreement specifies professional upkeep."
+      }
+    ],
+    "tags": [
+      "3 bedroom house for rent",
+      "Luxury Bedroom",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "stunning-transformations-using-stick-on-bathroom-tiles-guide",
     "title": "Stunning Transformations Using Stick On Bathroom Tiles",
     "slug": "stunning-transformations-using-stick-on-bathroom-tiles",
@@ -87,7 +188,7 @@ export const ARTICLES = [
     "date": "September 18, 2026",
     "readTime": "8 min read",
     "views": "23.7k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Elevate your washing sanctuary efficiently using self-adhesive surfacing products engineered for modern moisture resistance.",
     "metaDescription": "Transform your walls efficiently using stick on bathroom tiles designed with waterproof resins and precise geometric dimensions in UK homes.",
     "heroImage": "https://images.unsplash.com/photo-1722859033306-0a05199f7010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cGVlbCUyMGFuZCUyMHN0aWNrJTIwd2FsbCUyMHBhbmVsc3xlbnwwfDB8fHwxNzg5NzQwMDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
