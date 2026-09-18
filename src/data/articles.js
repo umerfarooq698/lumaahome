@@ -75,6 +75,89 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "stunning-transformations-using-stick-on-bathroom-tiles-guide",
+    "title": "Stunning Transformations Using Stick On Bathroom Tiles",
+    "slug": "stunning-transformations-using-stick-on-bathroom-tiles",
+    "category": "bathroom",
+    "categoryName": "Bathroom",
+    "categoryLabel": "SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "September 18, 2026",
+    "readTime": "8 min read",
+    "views": "23.7k",
+    "isFeatured": true,
+    "excerpt": "Elevate your washing sanctuary efficiently using self-adhesive surfacing products engineered for modern moisture resistance.",
+    "metaDescription": "Transform your walls efficiently using stick on bathroom tiles designed with waterproof resins and precise geometric dimensions in UK homes.",
+    "heroImage": "https://images.unsplash.com/photo-1722859033306-0a05199f7010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cGVlbCUyMGFuZCUyMHN0aWNrJTIwd2FsbCUyMHBhbmVsc3xlbnwwfDB8fHwxNzg5NzQwMDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1722859033306-0a05199f7010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cGVlbCUyMGFuZCUyMHN0aWNrJTIwd2FsbCUyMHBhbmVsc3xlbnwwfDB8fHwxNzg5NzQwMDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Close up view of modern self adhesive wall coverings installed within a bright British wet room",
+    "imageAlt": "Close up view of modern self adhesive wall coverings installed within a bright British wet room",
+    "photographer": "Lisa Anna",
+    "photographerUrl": "https://unsplash.com/@lisaanna195",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Modern Interior Styling With Stick On Bathroom Tiles",
+        "body": "Revitalising a compact washroom requires clever material choices that bypass heavy wet trades. High quality polymer self adhesive panels offer a brilliant alternative to traditional ceramics, featuring realistic grout lines mapped to exact 300 by 600 millimetre dimensions. These lightweight surfaces adhere securely to primed plasterboard without demanding specialized tile saws or messy mortar mixes.\n\nProperty owners appreciate how cleanly these flexible coverings handle awkward architectural quirks such as tight pipe boxing or sloping Victorian ceilings. The backing employs high tack acrylic adhesives rated for continuous humidity, ensuring the panels stay firmly anchored even in steamy shower zones. Careful surface preparation remains vital to prevent premature lifting along perimeter edges.\n\nHomeowners can achieve a bespoke aesthetic reminiscent of natural slate or polished marble at a fraction of standard installation costs. By skipping the cement mixing stage, DIY enthusiasts save countless hours while keeping domestic disruption to an absolute minimum during weekday room updates."
+      },
+      {
+        "level": "h3",
+        "heading": "Surface Preparation And Substrate Tolerances",
+        "body": "Achieving a lasting bond depends heavily on rigorous preparation of the underlying wall substrate before application begins. Walls must be thoroughly degreased using sugar soap and left to dry completely to guarantee maximum adhesive grab.\n\nUneven plaster or flaking paint will telegraph directly through the thin polymer profile, so skimming with fine surface filler is highly recommended.",
+        "bullets": [
+          "Ensure substrate moisture content remains below 12 percent prior to fixing",
+          "Prime porous plaster walls with a dedicated acrylic bonding agent",
+          "Use a laser level to establish a perfectly plumb starting guideline"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Technical Specifications And Durability Metrics",
+        "body": "Understanding material formulations ensures these clever wall coverings withstand daily splashes and thermal shifts. Premium variants utilise virgin vinyl formulations mixed with polyurethane topcoats, delivering exceptional resistance against household cleaning chemicals and accidental scuffs. Standard thickness ranges strictly from 1.5 to 2.5 millimetres, balancing flexibility for curved corners with sufficient rigidity to span minor wall undulations.\n\nBritish building guidelines for damp environments require careful attention to perimeter sealing where wall meets bath or basin rim. Applying a transparent bead of neutral cure silicone sealant along vulnerable bottom edges prevents moisture migration behind the adhesive layer. This simple detailing step preserves the integrity of the substrate and stops mould development over years of heavy use.",
+        "image": "https://images.unsplash.com/photo-1776525433347-13ffc965601a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwYmF0aHJvb20lMjB0aWxpbmclMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTc0MDAzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Detailed view of self adhesive wall panel edge sealed against moisture",
+        "imageCaption": "Precision edge sealing protects adhesive bonds from steam.",
+        "imageCredit": {
+          "name": "POOJAN THANEKAR",
+          "link": "https://unsplash.com/@poojanclicks"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Cutting Techniques And Precision Alignment",
+        "body": "Achieving crisp internal corners and clean socket cutouts requires proper hand tools rather than power equipment. A heavy duty utility knife equipped with a fresh trapezoidal blade scores the vinyl surface cleanly for easy snapping.\n\nAlways allow newly delivered panels to acclimate to room temperature for 24 hours to eliminate thermal expansion issues during installation."
+      },
+      {
+        "level": "h2",
+        "heading": "Maintenance And Long Term Wall Care",
+        "body": "Maintaining your updated interior requires gentle cleaning routines that protect the protective polyurethane topcoat from premature dulling. Avoid abrasive scouring powders or stiff wire brushes which can scratch the glossy finish and trap soap residue. Warm soapy water combined with a soft microfiber cloth provides more than enough cleaning power for routine weekly upkeep.\n\nPeriodic inspections around splash zones help catch minor edge lifting before water ingress compromises the adhesive backing entirely. Applying gentle pressure with a warm roller reaffirms the bond should any corner begin to react to persistent steam exposure over time."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Are these self adhesive coverings suitable for shower enclosures?",
+        "answer": "Yes, provided all perimeter joints are sealed meticulously with high grade sanitary silicone."
+      },
+      {
+        "question": "Can these products be applied directly over existing ceramic tiles?",
+        "answer": "Yes, but old grout lines must be filled flush first to prevent telegraphing patterns."
+      },
+      {
+        "question": "What is the expected lifespan of these adhesive wall panels?",
+        "answer": "Quality installations typically last between five and ten years when maintained properly."
+      }
+    ],
+    "tags": [
+      "stick on bathroom tiles",
+      "Luxury Bathroom",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "floor-lamps-for-living-room-layouts-architectural-guide-guide",
     "title": "Floor Lamps for Living Room Layouts: Architectural Guide",
     "slug": "floor-lamps-for-living-room-layouts-architectural-guide",
@@ -87,7 +170,7 @@ export const ARTICLES = [
     "date": "September 18, 2026",
     "readTime": "8 min read",
     "views": "22.8k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A refined architectural examination of living room floor lamp positioning, material selection, and technical lighting specifications for modern British interiors.",
     "metaDescription": "Master architectural illumination using floor lamps for living room layouts, balancing scale, lumens, and ambient warm British lighting.",
     "heroImage": "https://images.unsplash.com/photo-1771219491795-3b4dafc1cdf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjBmbG9vciUyMGxhbXAlMjBsaXZpbmclMjByb29tfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
