@@ -75,6 +75,94 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "floor-lamps-for-living-room-layouts-architectural-guide-guide",
+    "title": "Floor Lamps for Living Room Layouts: Architectural Guide",
+    "slug": "floor-lamps-for-living-room-layouts-architectural-guide",
+    "category": "living-room",
+    "categoryName": "Living Room",
+    "categoryLabel": "ENTERTAINING SPACES • ARCHITECTURAL PROPORTIONS",
+    "author": "Eleanor Vance",
+    "authorId": "eleanor-vance",
+    "role": "Senior Architectural Historian and Heritage Curator",
+    "date": "September 18, 2026",
+    "readTime": "8 min read",
+    "views": "22.8k",
+    "isFeatured": true,
+    "excerpt": "A refined architectural examination of living room floor lamp positioning, material selection, and technical lighting specifications for modern British interiors.",
+    "metaDescription": "Master architectural illumination using floor lamps for living room layouts, balancing scale, lumens, and ambient warm British lighting.",
+    "heroImage": "https://images.unsplash.com/photo-1771219491795-3b4dafc1cdf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjBmbG9vciUyMGxhbXAlMjBsaXZpbmclMjByb29tfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1771219491795-3b4dafc1cdf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjBmbG9vciUyMGxhbXAlMjBsaXZpbmclMjByb29tfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Elegantly proportioned brass floor lamp standing beside a dark green velvet armchair in a modern British living room setting",
+    "imageAlt": "Elegantly proportioned brass floor lamp standing beside a dark green velvet armchair in a modern British living room setting",
+    "photographer": "lost voyager",
+    "photographerUrl": "https://unsplash.com/@lostvoyager",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Architectural Proportions for Floor Lamps in Living Room Settings",
+        "body": "Spatial placement in British period properties and contemporary architectural living rooms demands meticulous height and elevation planning. When positioned beside low-profile seating or deep velvet sofas, floor lamps for living room layouts require an overall height between 1450 mm and 1650 mm to eliminate unshielded filament glare. The lower rim of the lamp shade should align precisely with eye level when seated, typically set between 1050 mm and 1150 mm above finished floor level.\n\nStructural stability and counterweight calculations remain vital engineering considerations for freestanding luminaires. Premium British lighting designs utilise solid brass stems or powder-coated C24 structural steel tubing mounted onto heavy cast iron base plates weighing between 8 kg and 12 kg. This substantial base weight lowers the centre of gravity, ensuring robust stability across deep wool pile carpets, polished concrete, or uneven reclaimed oak floorboards.\n\nAdhering to British safety regulations demands strict compliance with BS EN 60598 manufacturing standards for residential lighting fixtures. High-grade construction incorporates double-insulated silicone internal wiring, heavy-duty foot-operated push dimmers, and braided textile cables for mechanical flexibility. Specifying LED modules with a minimum Colour Rendering Index of CRI 95 ensures rich natural tone reproduction across lime wash paint finishes and tactile textile upholstery."
+      },
+      {
+        "level": "h3",
+        "heading": "Calculating Task Clearances and Luminous Flux",
+        "body": "Designing precise task illumination requires calculating luminous flux and directional beam angles for reading nooks. Ambient lounge environments benefit from warm 2700 Kelvin color temperature modules producing between 450 and 800 lumens. When adjusting articulated brass arms for reading, maintain an offset distance of 350 mm to 450 mm from the shoulder line to eliminate uncomfortable glare and directional shadows.\n\nPositioning large arc floor lamps across open plan living areas requires taking ceiling heights and foot traffic zones into careful consideration. In classic Victorian or Edwardian townhouses featuring 2.8-metre ceiling heights, expansive overhead arc arms must maintain a vertical clearance of at least 2100 mm along main walkways. This generous clearance allows unhindered circulation while projecting a soft, ambient glow over central coffee tables.\n\nLight filtration across shade materials drastically influences both visual comfort and room atmosphere. Semi-translucent drum shades crafted from hand-loomed linen or parchment diffuse light evenly in a 360-degree radius, softening hard architectural angles. Conversely, opaque spun aluminium or solid brass shades funnel illumination downward, creating defined pools of accent light suitable for highlighting textured joinery or artwork.",
+        "bullets": [
+          "Set shade rim height between 1050 mm and 1150 mm from seated floor level to avoid direct bulb glare.",
+          "Specify heavy cast iron counterweight bases weighing 8 kg to 12 kg for tip-resistant stability.",
+          "Choose warm 2700 Kelvin LED modules rated CRI 95+ for accurate architectural colour rendering.",
+          "Maintain a minimum pathway clearance of 2100 mm beneath sweeping arc lamp arms in high-traffic zones."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Materiality and Craftsmanship in Floor Lamps for Living Room Interiors",
+        "body": "Authentic materials form the foundation of high-performance architectural floor lamps for living room schemes. Turned solid European oak and smoked ash stems crafted with mortise and tenon timber joinery provide exceptional structural durability. Alternatively, precision-machined solid brass or brushed nickel armatures offer slender silhouettes without compromising load capacity, gradually developing an elegant, rich patina over decades of daily residential use.\n\nThe optical performance of glass shades depends heavily on traditional hand-blown manufacturing techniques. Multi-layered opal glass diffusers produce a uniform, glare-free light distribution by scattering rays through micron-thin silica layers. When paired with internal frosted glass chimneys, these luminaires eliminate hot spots while casting a balanced, welcoming glow across lime-plastered walls and stone hearths.\n\nFitted surface treatments and protective finishes ensure long-term durability against environmental wear. Hand-applied wax coatings on raw steel components prevent oxidisation, whereas micro-porous lacquers preserve bright brass surfaces against tarnishing in high-humidity periods. Selecting sustainable materials with repairable modular components guarantees that luxury luminaires can be easily re-wired and maintained for future generations.",
+        "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Zmxvb3IlMjBsYW1wcyUyMGZvciUyMGxpdmluZyUyMHJvb20lMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up detail of a solid turned brass joint and hand woven fabric cable on a floor lamp",
+        "imageCaption": "Precision joinery and turned solid brass details deliver mechanical durability and refined tactile appeal.",
+        "imageCredit": {
+          "name": "Naomi Hébert",
+          "link": "https://unsplash.com/@naomish"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Thermal Management and Integrated Driver Specs",
+        "body": "Solid-state LED technology generates localized heat within compact lamp heads, requiring effective thermal management strategies. Premium architectural floor lamps feature concealed extruded aluminium heat sinks engineered directly into the luminaire head. Efficient heat dissipation prevents chip degradation, maintaining steady lumen output and consistent colour temperature stability across a 50,000-hour operational lifespan.\n\nFlicker-free dimming performance relies on high-efficiency constant current drivers designed for smooth phase-cut control. Integrated electronic transformers housed inside weighted steel base housings convert mains voltage cleanly, ensuring completely silent operation across all dimming ranges. High-flexibility silicone wiring routed through central metal stems prevents internal friction and mechanical wear during height or swivel adjustments."
+      },
+      {
+        "level": "h2",
+        "heading": "Layering Versatile Floor Lamps for Living Room Ambiance and Longevity",
+        "body": "Creating a sophisticated residential lighting scheme requires layering multiple light sources at varied heights throughout the space. Position tall freestanding floor lamps alongside low-level table lights and architectural wall sconces to balance room proportions. Placing warm floor lamps in under-utilised room corners softens dark shadows, visually expanding room boundaries while accentuating heritage cornicing and timber panelling.\n\nRoutine care and conscientious maintenance ensure heirloom lighting pieces maintain their pristine visual appeal over time. Periodically wipe hand-finished metal armatures with dry microfibre cloths, gently dust fabric shades with soft brushes, and inspect woven fabric power cords for signs of friction. Investing in expertly engineered British floor lamps delivers lasting functional utility and timeless aesthetic value to your interior sanctuary."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the ideal height for living room floor lamps?",
+        "answer": "Position the lamp so the shade rim sits between 1050 mm and 1150 mm from the floor to align with seated eye level."
+      },
+      {
+        "question": "How do you prevent tall floor lamps from tipping?",
+        "answer": "Choose luminaires with heavy cast iron counterweight bases weighing between 8 kg and 12 kg for maximum balance."
+      },
+      {
+        "question": "Which colour temperature works best for lounge lighting?",
+        "answer": "Warm 2700 Kelvin LED modules with a high CRI 95+ rating create an inviting ambient glow while accurately rendering room textures."
+      },
+      {
+        "question": "What clearance is required for overhead arc lamps?",
+        "answer": "Maintain at least 2100 millimetres of vertical clearance beneath sweeping arc arms to ensure unobstructed circulation through pathways."
+      }
+    ],
+    "tags": [
+      "floor lamps for living room",
+      "Luxury Living Room",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes-guide",
     "title": "How to Select a Quality Kitchen Sink for Modern UK Homes",
     "slug": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes",
@@ -87,7 +175,7 @@ export const ARTICLES = [
     "date": "September 17, 2026",
     "readTime": "8 min read",
     "views": "17.2k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A detailed technical guide to specifying, installing, and maintaining high performance kitchen sinks tailored for contemporary UK architectural interiors.",
     "metaDescription": "Master acoustic damping, material specifications, and precision mounting details required to fit a superior kitchen sink into UK homes.",
     "heroImage": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMHNpbmt8ZW58MHwwfHx8MTc4OTY3MzIzOHww&ixlib=rb-4.1.0&q=80&w=1080",
