@@ -6,7 +6,7 @@
   "trailingSlash": false,
   "rewrites": [
     {
-      "source": "/((?!sitemap\\.xml|rss\\.xml|feed\\.xml|robots\\.txt|favicon\\.svg|images/|assets/).*)",
+      "source": "/((?!sitemap\\.xml|rss\\.xml|feed\\.xml|llms\\.txt|llms-full\\.txt|robots\\.txt|favicon\\.svg|images/|assets/).*)",
       "destination": "/index.html"
     }
   ],
