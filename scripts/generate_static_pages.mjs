@@ -27,7 +27,8 @@ function generatePageHtml(templateHtml, pageData) {
     canonicalUrl,
     ogImage,
     ogType = 'website',
-    jsonLd
+    jsonLd,
+    bodyHtml
   } = pageData;
 
   let html = templateHtml;
@@ -63,6 +64,11 @@ function generatePageHtml(templateHtml, pageData) {
     html = html.replace(/<script\s+type=["']application\/ld\+json["']\s+id=["']lumaa-seo-schema["']>[\s\S]*?<\/script>/i, `<script type="application/ld+json" id="lumaa-seo-schema">\n${jsonLdString}\n    </script>`);
   }
 
+  // 7. Inject Semantic Pre-rendered Body for Search Spiders (Replaced seamlessly upon React hydration)
+  if (bodyHtml) {
+    html = html.replace(/<div id=["']root["']>[\s\S]*?<\/div>/i, bodyHtml);
+  }
+
   return html;
 }
 
@@ -75,6 +81,14 @@ export function generateStaticPages() {
 
   const templateHtml = fs.readFileSync(indexHtmlPath, 'utf-8');
   let count = 0;
+
+  // Shared Navigation HTML for Crawlers
+  const navCategoriesHtml = CATEGORIES
+    .filter(c => c.id !== 'all')
+    .map(c => `<a href="${BASE_URL}/category/${c.id}">${escapeHtml(c.name)}</a>`)
+    .join(' | ');
+
+  const navFooterHtml = `<nav><a href="${BASE_URL}/">Home</a> | <a href="${BASE_URL}/about">About Us</a> | <a href="${BASE_URL}/contact">Editorial Contact</a> | <a href="${BASE_URL}/privacy-policy">Privacy Policy</a> | <a href="${BASE_URL}/terms-of-service">Terms of Service</a> | <a href="${BASE_URL}/sitemap.xml">XML Sitemap</a> | <a href="${BASE_URL}/rss.xml">RSS Feed</a></nav>`;
 
   function writeRouteHtml(routePath, pageData) {
     const targetDir = path.join(DIST_DIR, routePath);
@@ -90,6 +104,39 @@ export function generateStaticPages() {
     const slug = art.slug || art.id;
     const authorObj = getAuthorById(art.authorId || art.author);
     const canonicalUrl = `${BASE_URL}/${slug}`;
+
+    // Build rich body text for crawler word count & internal links
+    let bodyTextHtml = '';
+    if (Array.isArray(art.content)) {
+      bodyTextHtml = art.content.map(sec => {
+        const headingTag = sec.level === 'h3' ? 'h3' : 'h2';
+        const headingHtml = sec.heading ? `<${headingTag}>${escapeHtml(sec.heading)}</${headingTag}>` : '';
+        const bodyContent = typeof sec.body === 'string' 
+          ? `<p>${escapeHtml(sec.body)}</p>` 
+          : Array.isArray(sec.body) 
+            ? sec.body.map(p => `<p>${escapeHtml(p)}</p>`).join('') 
+            : '';
+        const bulletsHtml = Array.isArray(sec.bullets) && sec.bullets.length > 0 
+          ? `<ul>${sec.bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>` 
+          : '';
+        return `${headingHtml}${bodyContent}${bulletsHtml}`;
+      }).join('\n');
+    } else if (typeof art.content === 'string') {
+      bodyTextHtml = `<p>${escapeHtml(art.content.replace(/<[^>]+>/g, ' '))}</p>`;
+    }
+
+    let faqsHtml = '';
+    if (Array.isArray(art.faqs) && art.faqs.length > 0) {
+      faqsHtml = `<h2>Frequently Asked Questions</h2>` + art.faqs.map(f => `<h3>${escapeHtml(f.question)}</h3><p>${escapeHtml(f.answer)}</p>`).join('\n');
+    }
+
+    // Contextual related internal links
+    const relatedArticles = ARTICLES.filter(a => (a.category === art.category || a.categoryName === art.categoryName) && a.id !== art.id).slice(0, 5);
+    const relatedHtml = relatedArticles.length > 0 
+      ? `<section><h2>Related Architectural Guides</h2><ul>${relatedArticles.map(r => `<li><a href="${BASE_URL}/${r.slug || r.id}">${escapeHtml(r.title)}</a></li>`).join('')}</ul></section>` 
+      : '';
+
+    const articleRootHtml = `<div id="root"><header><a href="${BASE_URL}/">LUMAA HOME™</a><nav>${navCategoriesHtml}</nav></header><main><article><header><nav><a href="${BASE_URL}/">Home</a> / <a href="${BASE_URL}/category/${art.category}">${escapeHtml(art.categoryName || art.category)}</a></nav><h1>${escapeHtml(art.title)}</h1><p>By <a href="${BASE_URL}/author/${authorObj.id || 'marcus-cole'}">${escapeHtml(authorObj.name || art.author)}</a> &bull; <span>${escapeHtml(art.date)}</span></p></header><div>${bodyTextHtml}</div>${faqsHtml}${relatedHtml}</article></main><footer>${navFooterHtml}</footer></div>`;
 
     const jsonLd = {
       "@context": "https://schema.org",
@@ -125,7 +172,8 @@ export function generateStaticPages() {
       canonicalUrl,
       ogImage: art.heroImage || art.image,
       ogType: 'article',
-      jsonLd
+      jsonLd,
+      bodyHtml: articleRootHtml
     });
   }
 
@@ -133,6 +181,10 @@ export function generateStaticPages() {
   for (const cat of CATEGORIES) {
     if (cat.id === 'all') continue;
     const canonicalUrl = `${BASE_URL}/category/${cat.id}`;
+    const catArticles = ARTICLES.filter(a => a.category === cat.id || a.categoryName?.toLowerCase() === cat.name.toLowerCase());
+    const catArticlesHtml = catArticles.map(a => `<article><h2><a href="${BASE_URL}/${a.slug || a.id}">${escapeHtml(a.title)}</a></h2><p>${escapeHtml(a.excerpt || a.metaDescription || '')}</p><p>By <a href="${BASE_URL}/author/${a.authorId || 'marcus-cole'}">${escapeHtml(a.author)}</a> &bull; ${escapeHtml(a.date)}</p></article>`).join('\n');
+
+    const categoryRootHtml = `<div id="root"><header><a href="${BASE_URL}/">LUMAA HOME™</a><nav>${navCategoriesHtml}</nav></header><main><header><h1>${escapeHtml(cat.title || cat.name)}</h1><p>${escapeHtml(cat.description || '')}</p></header><section><h2>Editorial Guides in ${escapeHtml(cat.name)}</h2>${catArticlesHtml}</section></main><footer>${navFooterHtml}</footer></div>`;
 
     const jsonLd = {
       "@context": "https://schema.org",
@@ -156,13 +208,18 @@ export function generateStaticPages() {
       canonicalUrl,
       ogImage: cat.bannerImage,
       ogType: 'website',
-      jsonLd
+      jsonLd,
+      bodyHtml: categoryRootHtml
     });
   }
 
   // 3. Authors
   for (const author of AUTHORS) {
     const canonicalUrl = `${BASE_URL}/author/${author.id}`;
+    const authorArticles = ARTICLES.filter(a => (a.authorId && a.authorId === author.id) || (a.author && a.author.toLowerCase() === author.name.toLowerCase()));
+    const authorArticlesHtml = authorArticles.map(a => `<article><h2><a href="${BASE_URL}/${a.slug || a.id}">${escapeHtml(a.title)}</a></h2><p>${escapeHtml(a.excerpt || a.metaDescription || '')}</p></article>`).join('\n');
+
+    const authorRootHtml = `<div id="root"><header><a href="${BASE_URL}/">LUMAA HOME™</a><nav>${navCategoriesHtml}</nav></header><main><header><h1>${escapeHtml(author.name)} - ${escapeHtml(author.role)}</h1><p>${escapeHtml(author.bio || author.shortDescription || '')}</p></header><section><h2>Published Architectural Articles</h2>${authorArticlesHtml}</section></main><footer>${navFooterHtml}</footer></div>`;
 
     const jsonLd = {
       "@context": "https://schema.org",
@@ -189,7 +246,8 @@ export function generateStaticPages() {
       canonicalUrl,
       ogImage: author.coverImage || author.avatar,
       ogType: 'profile',
-      jsonLd
+      jsonLd,
+      bodyHtml: authorRootHtml
     });
   }
 
@@ -219,16 +277,33 @@ export function generateStaticPages() {
 
   for (const sp of staticPages) {
     const canonicalUrl = `${BASE_URL}/${sp.path}`;
+    const staticRootHtml = `<div id="root"><header><a href="${BASE_URL}/">LUMAA HOME™</a><nav>${navCategoriesHtml}</nav></header><main><header><h1>${escapeHtml(sp.title)}</h1><p>${escapeHtml(sp.description)}</p></header></main><footer>${navFooterHtml}</footer></div>`;
+
     writeRouteHtml(sp.path, {
       title: sp.title,
       description: sp.description,
       canonicalUrl,
       ogImage: 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85',
-      ogType: 'website'
+      ogType: 'website',
+      bodyHtml: staticRootHtml
     });
   }
 
-  console.log(`✅ [SSG] Successfully pre-rendered ${count} static HTML pages with unique self-canonical tags!`);
+  // 5. Also update dist/index.html (Homepage)
+  const homeArticlesHtml = ARTICLES.slice(0, 16).map(a => `<article><h2><a href="${BASE_URL}/${a.slug || a.id}">${escapeHtml(a.title)}</a></h2><p>${escapeHtml(a.excerpt || a.metaDescription || '')}</p><p>By <a href="${BASE_URL}/author/${a.authorId || 'marcus-cole'}">${escapeHtml(a.author)}</a> &bull; ${escapeHtml(a.date)}</p></article>`).join('\n');
+  const homeRootHtml = `<div id="root"><header><a href="${BASE_URL}/">LUMAA HOME™</a><p>Luxury British Interiors and DIY Magazine</p><nav>${navCategoriesHtml}</nav></header><main><h1>LUMAA HOME™ | Luxury British Interiors and Period DIY Magazine</h1><section><h2>Latest Editorial Guides</h2>${homeArticlesHtml}</section></main><footer>${navFooterHtml}</footer></div>`;
+
+  const updatedHomeHtml = generatePageHtml(templateHtml, {
+    title: 'LUMAA HOME™ | A Luxury UK Home Decor and DIY Magazine',
+    description: 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.',
+    canonicalUrl: `${BASE_URL}/`,
+    ogImage: 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85',
+    ogType: 'website',
+    bodyHtml: homeRootHtml
+  });
+  fs.writeFileSync(indexHtmlPath, updatedHomeHtml, 'utf-8');
+
+  console.log(`✅ [SSG] Successfully pre-rendered ${count} static HTML pages with unique self-canonical tags, H1s, body word count, and internal links!`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
