@@ -1,6 +1,3 @@
-// LUMAA HOME™ Editorial Magazine Database
-// Clean structured export for Articles and Categories
-
 export const CATEGORIES = [
   {
     "id": "all",
@@ -78,6 +75,95 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "how-to-layer-living-room-lights-for-warm-architectural-depth-guide",
+    "title": "How to Layer Living Room Lights for Warm Architectural Depth",
+    "slug": "how-to-layer-living-room-lights-for-warm-architectural-depth",
+    "category": "living-room",
+    "categoryName": "Living Room",
+    "categoryLabel": "ENTERTAINING SPACES • ARCHITECTURAL PROPORTIONS",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "September 19, 2026",
+    "readTime": "8 min read",
+    "views": "23.3k",
+    "isFeatured": true,
+    "excerpt": "A technical guide to layering living room lights using precise spatial elevations, proper driver specs, and warm colour temperatures.",
+    "metaDescription": "Master your interior illumination with layered living room lights, exact lumen targets, and warm 2700K colour temperatures for home in UK...",
+    "heroImage": "https://images.unsplash.com/photo-1724582586529-62622e50c0b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGludGVyaW9yJTIwbGlnaHRpbmd8ZW58MHwwfHx8MTc4OTg0MjYwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1724582586529-62622e50c0b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGludGVyaW9yJTIwbGlnaHRpbmd8ZW58MHwwfHx8MTc4OTg0MjYwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "A warm architectural living room featuring layered brass sconces, recessed downlights, and an elegant pendant light",
+    "imageAlt": "A warm architectural living room featuring layered brass sconces, recessed downlights, and an elegant pendant light",
+    "photographer": "Prydumano Design",
+    "photographerUrl": "https://unsplash.com/@prydumanodesign",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Designing Dynamic Schemes with Living Room Lights",
+        "body": "A successful residential illumination plan relies on a balanced mix of background and accent illumination. Placing layered living room lights at varied elevations creates rich visual depth throughout the space. This balanced approach eliminates harsh shadow pockets across central seating areas and architectural features.\n\nCeiling pendants should hang between 2100 millimetres and 2400 millimetres above the finished floor level. This precise hanging height maintains clear architectural sightlines across open reception rooms. It prevents physical intrusion while maintaining structured ambient visual warmth across the lounge.\n\nWall sconces mounted at 1650 millimetres offer a soft perimeter glow along primary masonry walls. Integrating perimeter linear cove lighting cast against lime plaster washes wall surfaces smoothly. This technique reduces dark contrast zones without creating unwanted overhead glares.\n\nArchitectural ceiling perimeter coves should always contain continuous 24V LED tape systems. Specifying a minimum 95 CRI rating guarantees accurate colour rendering for interior fabrics. True natural hues emerge beautifully on soft wool carpets and rich timber joinery."
+      },
+      {
+        "level": "h3",
+        "heading": "Architectural Heights and Spatial Proportions",
+        "body": "Standard Victorian ceiling heights of 2700 millimetres require thoughtful luminaire proportion choices. Oversized ceiling pendants exceeding 650 millimetres in width quickly overpower modest sitting rooms. Compact architectural downlights maintain appropriate spatial proportions throughout the entire room interior.\n\nDedicated task lighting adjacent to reading armchairs needs precise direct beam control. Position floor lamps roughly 400 millimetres behind seating edges for comfortable reading clarity. Adjustable brass shades allow custom light direction without casting stray glare into eyes.\n\nRecessed downlights require careful spacing calculations to avoid patchy ceiling coverage. Positioning fittings 1200 millimetres apart ensures uniform light distribution across engineered timber flooring. This calculated layout prevents deep shadowy gaps between individual warm light pools.\n\nPlacing low-level step lights along skirting boards creates subtle evening navigation routes. High-grade solid brass faceplates frame soft 2700K warm LEDs beautifully. These understated fixtures deliver night-time safety without disrupting the peaceful room atmosphere.",
+        "bullets": [
+          "Position ceiling pendants at 2100 to 2400 millimetres above finished floors.",
+          "Maintain 1200 millimetre spacing between recessed architectural downlights.",
+          "Set wall sconces at 1650 millimetres height from base timber skirting.",
+          "Select warm 2700 Kelvin colour temperature with minimum 95 CRI rating."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Technical Specifications for Living Room Lights and Wiring",
+        "body": "Modern living room lights require robust electrical infrastructure and precise control protocols. Upgrading legacy lighting circuits to multi-channel DALI or TRIAC dimming systems improves flexibility. Smooth dimming down to one percent provides effortless control over evening ambience.\n\nConnecting high-output fixtures to 24V constant voltage drivers prevents unwanted voltage drops. Concealing remote drivers inside ventilated joinery cupboards significantly extends electronic lifespan. Proper heat dissipation prevents premature driver failure during extended evening operation.\n\nTarget overall light output around 150 to 200 lumens per square metre of space. A standard twenty square metre sitting room requires roughly 3000 combined lumens across all fixtures. Layering total lumen output across multiple independent circuits provides ultimate lighting control.\n\nIncorporate acoustic plasterboard lining behind recessed downlight back-boxes to minimize noise transfer. Preserving acoustic sound insulation ratings prevents sound transmission through ceiling voids. High-grade fire-rated acoustic enclosures retain structural ceiling safety performance.",
+        "image": "https://images.unsplash.com/photo-1771681278446-6f8eb0c7323f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjB3YWxsJTIwc2NvbmNlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTg0MjYwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "A solid unlacquered brass wall sconce casting warm ambient light against a lime plaster wall",
+        "imageCaption": "Hand-finished brass sconces cast warm perimeter light while aging gracefully over time.",
+        "imageCredit": {
+          "name": "Clay Banks",
+          "link": "https://unsplash.com/@claybanks"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "DALI Systems and Low Voltage Wiring Dynamics",
+        "body": "Architectural lighting designs benefit immensely from low voltage control wiring setups. Running five-core mains cabling allows separate control over ambient and accent circuits. Dedicated control lines enable seamless integration with modern smart home automation platforms.\n\nSelecting leading-edge or trailing-edge dimmers matched with premium drivers stops flickering completely. Low quality electronic drivers often produce audible hums and erratic dimming levels. Investing in high quality control components ensures whisper-quiet operation during quiet hours.\n\nRecessed plaster-in trimless channels create seamless linear lighting effects across plasterboard ceilings. Feathering channel flanges directly into plasterwork yields clean uninterrupted architectural lines. Diffused opal covers eliminate individual LED point reflections along smooth ceiling planes.\n\nInstalling rotary wall dimmers crafted from solid unlacquered brass adds tactile luxury. Fine knurled edge details offer pleasant mechanical feedback during daily lighting adjustments. These timeless switch plates age gracefully alongside traditional British oak joinery."
+      },
+      {
+        "level": "h2",
+        "heading": "Tactile Materials and Handcrafted Lighting Fixtures",
+        "body": "Material choices define how living room lights interact with surrounding interior decor elements. Hand-blown opal glass shades soften direct bulb output into gentle ambient illumination. Heavy cast bronze bases provide exceptional structural stability for tall floor fixtures.\n\nSolid spun brass shades project warmth downwards while adding timeless metallic beauty to spaces. Unlacquered brass components develop a rich natural patina through organic oxidation over time. Authentic material aging enhances visual character across heritage and contemporary UK properties.\n\nAlabaster stone wall sconces offer translucent organic texturing when fully illuminated at night. Each hand-carved stone diffuser displays unique natural mineral veins across its face. Diffused ambient light highlights genuine natural stone craftsmanship within formal lounge settings.\n\nCombining solid oak detailing with matte ceramic shades reinforces grounded tactile elegance. Mortise and tenon joinery within timber floor lamp bases ensures long-term structural stability. Precise hand finishes celebrate authentic British craftsmanship and lasting structural durability."
+      },
+      {
+        "level": "h3",
+        "heading": "Architectural Longevity and Care",
+        "body": "Maintaining premium lighting fixtures requires simple systematic care and regular gentle cleaning. Dust hand-blown glass shades monthly using dry microfiber cloths to preserve maximum light output. Avoid harsh chemical cleaners on patinated metal surfaces to protect natural hand finishes.\n\nSelecting retrofittable GU10 or E27 LED lamps simplifies long-term bulb replacement routines. Choose warm dimming lamps that shift from 2700K down to 1800K when dimmed down. Warm dimming technology mimics traditional tungsten filaments for a cosy evening atmosphere.\n\nVerify driver compatibility before installing custom decorative LED vintage filament lamps. Incorrect electrical matching causes premature driver burnout and erratic lamp flickering. High-spec LED drivers ensure consistent power delivery and extended electronic component lifespan.\n\nLayering targeted spotlighting with diffused accent fixtures yields an adaptable living room lighting scheme. Thoughtfully planned illumination transforms living spaces into inviting functional sanctuaries. Quality fittings and expert electrical installation deliver enduring beauty across generations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the ideal mounting height for wall sconces?",
+        "answer": "Wall sconces should be mounted at 1650 millimetres from finished floor level to prevent direct bulb glare."
+      },
+      {
+        "question": "How many lumens are needed for living room lights?",
+        "answer": "Target approximately 150 to 200 lumens per square metre, layered across multiple dimmable circuits."
+      },
+      {
+        "question": "Which colour temperature is best for living room lights?",
+        "answer": "A warm 2700 Kelvin colour temperature with a minimum 95 CRI rating provides optimal interior warmth."
+      }
+    ],
+    "tags": [
+      "living room lights",
+      "Luxury Living Room",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "mastering-kitchen-cabinets-design-joinery-and-proportion-guide",
     "title": "Mastering Kitchen Cabinets: Design, Joinery and Proportion",
     "slug": "mastering-kitchen-cabinets-design-joinery-and-proportion",
@@ -90,7 +176,7 @@ export const ARTICLES = [
     "date": "September 19, 2026",
     "readTime": "8 min read",
     "views": "16.9k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A practical guide to designing, specifying, and maintaining high-performance kitchen cabinets using authentic timber joinery and British architectural standards.",
     "metaDescription": "Examine structural timber, precision joinery, and custom measurements for enduring kitchen cabinets crafted for modern British homes in U...",
     "heroImage": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGtpdGNoZW4lMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzg5ODA2MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
