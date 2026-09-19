@@ -75,6 +75,89 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "mastering-kitchen-cabinets-design-joinery-and-proportion-guide",
+    "title": "Mastering Kitchen Cabinets: Design, Joinery and Proportion",
+    "slug": "mastering-kitchen-cabinets-design-joinery-and-proportion",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "September 19, 2026",
+    "readTime": "8 min read",
+    "views": "16.9k",
+    "isFeatured": true,
+    "excerpt": "A practical guide to designing, specifying, and maintaining high-performance kitchen cabinets using authentic timber joinery and British architectural standards.",
+    "metaDescription": "Examine structural timber, precision joinery, and custom measurements for enduring kitchen cabinets crafted for modern British homes in U...",
+    "heroImage": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGtpdGNoZW4lMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzg5ODA2MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGtpdGNoZW4lMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzg5ODA2MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Custom oak and hand painted kitchen cabinets featuring brass hardware and solid timber drawer joinery in an architectural British home",
+    "imageAlt": "Custom oak and hand painted kitchen cabinets featuring brass hardware and solid timber drawer joinery in an architectural British home",
+    "photographer": "Ambitious Studio* | Rick Barrett",
+    "photographerUrl": "https://unsplash.com/@weareambitious",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "The Architecture and Engineering of Bespoke Kitchen Cabinets",
+        "body": "Architectural joinery demands a disciplined approach to spatial planning, particularly when integrating high-spec kitchen cabinets into historic British properties or modern open-plan builds. Base carcasses are engineered to a standard depth of 570 millimetres, complemented by a concealed 50 millimetre rear service void designed to house plumbing conduits and electrical feeds. This precise layout keeps service runs accessible while maintaining clean exterior elevations across the entire run.\n\nStructural rigidity depends on using high-density 18 millimetre birch plywood or moisture-resistant MR MDF rather than low-density chipboard. Front face frames constructed from kiln-dried hardwood utilize traditional glued mortise and tenon joints to resist shear forces from heavyweight quartz or granite worktops. Integrating heavy-duty soft-close drawer runners rated for 50 kilogram dynamic loads guarantees smooth horizontal movement under full operational capacity.\n\nEnvironmental stability is critical when positioning cabinetry near underfloor heating or large glass apertures. Maintaining relative indoor humidity levels between 45 and 60 percent protects timber components from swelling or shrinkage. Modern cabinet designs incorporate concealed neoprene dampening pads along door rebates, reducing closure acoustic levels below 35 decibels to maintain a quiet home environment."
+      },
+      {
+        "level": "h3",
+        "heading": "Dimensional Standards and Ergonomic Layouts",
+        "body": "Ergonomic efficiency relies on precise vertical proportions between worktops, splashbacks, and wall storage. Standard counter finished heights sit at 900 millimetres to provide comfortable working posture for food preparation tasks. Positioning wall-mounted storage carcasses 500 to 550 millimetres above the counter surface creates comfortable clearance for countertop appliances while keeping upper shelves easily reachable without straining.\n\nInternal cabinet organisation requires robust adjustable shelf tracking recessed flush into carcass side panels. Solid hardwood lipping applied to panel front edges provides essential resistance against mechanical impact from heavy cookware. Furthermore, continuous LED lighting channels milled directly into the underside of upper units deliver focused 3000K illumination across prep surfaces without exposing exposed fixture housings.\n\nCorner spaces represent unique spatial challenges in kitchen layout design. Specifying articulated pull-out tray systems engineered with 25 kilogram dynamic capacities transforms dead corner space into accessible storage. Precision soft-close dampening prevents contents from shifting during operation, ensuring that high-density storage solutions function effortlessly in daily domestic use without binding or jams.",
+        "bullets": [
+          "Maintain a minimum 900 millimetre clearance walkway between parallel cabinet islands.",
+          "Specify 18 millimetre solid back panels for total carcass stability and screw retention.",
+          "Incorporate 110-degree soft-close clip hinges with three-dimensional spatial adjustment."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Selecting Materials for Handcrafted Kitchen Cabinets",
+        "body": "Material selection directly influences both tactile luxury and long-term durability in bespoke kitchen cabinets. European oak and American black walnut remain industry standards for structural face-frames and dovetail drawer boxes due to their stability and tight grain structure. Solid timber combined with premium veneer core panels prevents differential moisture movement across seasonal humidity swings while preserving authentic timber character.\n\nProtective coatings must endure constant contact with culinary grease, steam vapour, and domestic cleaning chemicals. Hand-rubbed hardwax oils penetrate deeply into timber fibers, creating a breathable barrier that will not flake or peel over time. For painted cabinetry, multi-stage spray systems using acid-catalysed polyurethane primers and water-borne satin topcoats yield smooth finishes with excellent scratch resistance.\n\nSustainable sourcing is increasingly critical in luxury residential design. Choosing FSC-certified timber species ensures responsible forestry management while guaranteeing consistent timber density and colour matching across cabinet runs. Utilizing low-VOC water-based sealants enhances indoor air quality, making freshly installed joinery completely non-gassing and safe within closed domestic kitchens.",
+        "image": "https://images.unsplash.com/photo-1770573322210-204dea84450f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwdGltYmVyJTIwZHJhd2VyJTIwam9pbnQlMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTgwNjM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up photo showing dovetail joinery on solid oak kitchen drawers",
+        "imageCaption": "Precision dovetail joints in solid European oak drawer boxes.",
+        "imageCredit": {
+          "name": "Auroom Wellness",
+          "link": "https://unsplash.com/@auroom"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Hardware Mechanics and Dynamic Load Tolerances",
+        "body": "Hardware components act as the functional backbone of high-traffic kitchen furniture. Heavy-duty undermount drawer slides featuring integrated liquid dampers ensure silent glide performance even under maximum capacities. Full-extension zinc-plated steel rails allow total access to deep drawer interiors, accommodating heavy cast-iron cookware and ceramic bakeware without structural deflection or track binding over extended operational lifespans.\n\nIn-frame cabinet doors demand specialized mechanical fittings to maintain narrow, uniform perimeter shadow gaps. Precision solid brass butt hinges mortised directly into hardwood stiles provide exceptional load support without sagging. Micro-adjustable mounting plates housed within concealed hinges enable sub-millimetre vertical and lateral adjustments during final fitting, ensuring perfectly aligned door profiles across continuous joinery runs.\n\nMagnetic catch mechanisms and touch-latch hardware provide elegant alternatives for handleless contemporary cabinet designs. High-grade neodymium magnets encapsulated in brushed stainless steel housings offer positive tactile engagement without visible latch plates. Integrating mechanical push-to-open pistons allows seamless flush front panels to pop open gently with light pressure, combining sleek minimalist aesthetics with functional kitchen ergonomics."
+      },
+      {
+        "level": "h2",
+        "heading": "Preserving and Maintaining In-Frame Kitchen Cabinets",
+        "body": "Long-term care for bespoke kitchen cabinets requires routine maintenance tailored to specific timber finishes. Everyday wiping with a damp microfiber cloth squeezed out in warm water and mild PH-neutral cleanser removes surface grease without damaging protective coatings. Wiping dry immediately prevents standing water from seeping into joinery seams or causing micro-clouding in clear hardwax seals.\n\nPeriodic mechanical checks protect moving components from premature wear and misalignment. Periodically checking hinge mounting screws and applying dry silicone spray to soft-close slide tracks maintains effortless mechanical glide action. Reapplying a thin layer of conditioning wax to solid wood components every few years restores hydrophobic protection and enhances natural wood grain depth.\n\nAddressing minor surface scratches quickly prevents moisture penetration into underlying raw timber. Touch-up wax sticks matched to cabinet stain shades seamlessly fill light abrasions on face frames or doors. For painted joinery, keeping small quantities of original color-matched topcoat allows clean spot repairs, preserving the flawless aesthetic appearance of your kitchen furniture across generations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the standard carcass depth for kitchen cabinets?",
+        "answer": "Standard base carcasses require an exterior depth of 570 millimetres with a 50 millimetre rear void for services."
+      },
+      {
+        "question": "Which material provides maximum resistance to moisture sagging?",
+        "answer": "High-density 18 millimetre birch plywood and moisture-resistant MR MDF offer optimal structural stability and anti-sag resistance."
+      },
+      {
+        "question": "How do you maintain hand-rubbed timber cabinet finishes?",
+        "answer": "Clean surfaces daily with a damp microfiber cloth and reapply a thin coat of hardwax oil every few years."
+      }
+    ],
+    "tags": [
+      "kitchen cabinets",
+      "Luxury Kitchen",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "finding-the-ideal-3-bedroom-house-for-rent-in-britain-guide",
     "title": "Finding The Ideal 3 Bedroom House For Rent In Britain",
     "slug": "finding-the-ideal-3-bedroom-house-for-rent-in-britain",
@@ -87,7 +170,7 @@ export const ARTICLES = [
     "date": "September 18, 2026",
     "readTime": "8 min read",
     "views": "22.5k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Navigating the property market requires an understanding of structural proportions and residential tenancy agreements.",
     "metaDescription": "Secure a spacious 3 bedroom house for rent with expert advice on architectural layouts, room dimensions, and British tenancy laws today.",
     "heroImage": "https://images.unsplash.com/photo-1786479275225-d2529a2af6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHJlbnRhbCUyMGhvbWUlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
