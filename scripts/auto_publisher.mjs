@@ -4,6 +4,7 @@ import { fileURLToPath } from 'url';
 import { GoogleGenAI } from '@google/genai';
 import { ARTICLES, CATEGORIES } from '../src/data/articles.js';
 import { generateSitemap, generateRSS } from './generate_sitemap.mjs';
+import { formatBreathableBody } from './format_paragraphs.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -272,7 +273,7 @@ async function generateArticle(topic, catInfo, usedUrls) {
   const prompt = `You are a Senior Editor and Feature Writer for LUMAA HOME™, crafting an authentic, immersive, reader-first editorial feature on the keyword: "${topic}" for the category: "${catInfo.categoryName}".
 
 STRICT EDITORIAL AND WRITING STANDARDS:
-1. BALANCED, BREATHABLE PARAGRAPHS (MANDATORY): Every section's 'body' must consist of 2 to 3 well-developed, engaging paragraphs separated by double newlines ('\\n\\n'). Each paragraph should be 50 to 75 words in length (approx 3 to 4 substantive, rich sentences). No monolithic walls of text, no tiny 1-line fragments.
+1. SHORT, HIGH-READABILITY PARAGRAPHS (STRICT MANDATORY RULE): Every paragraph MUST be concise: exactly 2 to 3 clear, natural sentences (strictly 30 to 45 words per paragraph). NEVER write long, dense blocks of text. Use frequent paragraph breaks ('\\n\\n') between every 2-3 sentences to ensure top readability and easy mobile scanning.
 2. DEEPLY INFORMATIONAL, FRESH AND UNIQUE CONTENT: Packed with specific, fascinating, and actionable real-world information — exact dimensions/measurements in millimetres, British building specs, material formulations (e.g. C24 structural timber, mortise and tenon joints, dynamic load calculations, slip ratings R10/PTV 36+, hot-mixed lime mortars, acoustic dampening decibel metrics), trade secrets, and practical guidance. Zero dry textbook summaries. Banish robotic AI filler.
 3. HIERARCHICAL HEADING STRUCTURE: Use 'level': 'h2' and 'level': 'h3'.
 4. NATURAL KEYWORD INTEGRATION IN H2 HEADINGS: Naturally weave the primary keyword (or its natural variations) into the H2 major headings.
@@ -432,7 +433,7 @@ Return ONLY valid JSON matching this exact structure:
     const sectionObj = {
       level: sec.level || 'h2',
       heading: sanitize(sec.heading),
-      body: sanitize(sec.body)
+      body: formatBreathableBody(sanitize(sec.body))
     };
 
     if (Array.isArray(sec.bullets) && sec.bullets.length > 0) {
