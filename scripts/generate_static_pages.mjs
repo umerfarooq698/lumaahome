@@ -88,7 +88,11 @@ export function generateStaticPages() {
     .map(c => `<a href="${BASE_URL}/category/${c.id}">${escapeHtml(c.name)}</a>`)
     .join(' | ');
 
-  const navFooterHtml = `<nav><a href="${BASE_URL}/">Home</a> | <a href="${BASE_URL}/about">About Us</a> | <a href="${BASE_URL}/contact">Editorial Contact</a> | <a href="${BASE_URL}/privacy-policy">Privacy Policy</a> | <a href="${BASE_URL}/terms-of-service">Terms of Service</a> | <a href="${BASE_URL}/sitemap.xml">XML Sitemap</a> | <a href="${BASE_URL}/rss.xml">RSS Feed</a></nav>`;
+  const navAuthorsHtml = AUTHORS
+    .map(a => `<a href="${BASE_URL}/author/${a.id}">${escapeHtml(a.name)}</a>`)
+    .join(' | ');
+
+  const navFooterHtml = `<nav><div>Categories: ${navCategoriesHtml}</div><div>Masthead Authors: ${navAuthorsHtml}</div><div>Pages: <a href="${BASE_URL}/">Home</a> | <a href="${BASE_URL}/about">About Us</a> | <a href="${BASE_URL}/contact">Editorial Contact</a> | <a href="${BASE_URL}/privacy-policy">Privacy Policy</a> | <a href="${BASE_URL}/terms-of-service">Terms of Service</a> | <a href="${BASE_URL}/sitemap.xml">XML Sitemap</a> | <a href="${BASE_URL}/rss.xml">RSS Feed</a></div></nav>`;
 
   function writeRouteHtml(routePath, pageData) {
     const targetDir = path.join(DIST_DIR, routePath);

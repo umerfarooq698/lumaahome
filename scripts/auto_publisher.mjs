@@ -39,6 +39,7 @@ const GEMINI_MODELS = [
 ];
 
 const AUTHORS_POOL = [
+  { name: 'Sarah Jenkins', id: 'sarah-jenkins', role: 'London Interior Stylist and Joinery Specialist' },
   { name: 'Eleanor Vance', id: 'eleanor-vance', role: 'Senior Architectural Historian and Heritage Curator' },
   { name: 'Marcus Cole', id: 'marcus-cole', role: 'Principal Architect and Timber Craft Specialist' },
   { name: 'Oliver Sinclair', id: 'oliver-sinclair', role: 'Master Joiner and Period Restoration Consultant' },
