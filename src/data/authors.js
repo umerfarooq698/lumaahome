@@ -91,6 +91,68 @@ export const AUTHORS = [
     },
     publishedYear: '2022 - Present',
     articleCount: 11
+  },
+  {
+    id: 'oliver-sinclair',
+    name: 'Oliver Sinclair',
+    role: 'Master Joiner and Period Restoration Consultant',
+    location: 'Yorkshire & London, UK',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=85',
+    coverImage: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85',
+    metaDescription: 'Master joinery manuals, timber craft techniques, and period wood restoration guides by consultant Oliver Sinclair on Lumaa Home.',
+    shortDescription: 'Yorkshire master joiner and restoration consultant documenting traditional timber joinery, wood turning, and architectural woodwork.',
+    bio: 'Master joiner and historic woodwork specialist with over twenty years of experience restoring timber framing, bespoke panelling, and traditional box sash windows across historic British residences.',
+    fullBio: [
+      'Oliver Sinclair began his woodworking apprenticeship in the traditional boatyards and timber workshops of North Yorkshire before establishing his architectural joinery consultancy in London.',
+      'He collaborates with conservation officers and master craftsmen across the UK to preserve historic mortise and tenon joints, structural oak trusses, and hand-carved chimneypieces.',
+      'Oliver writes extensively on heritage wood care, natural beeswax polishes, and sustainable British timber sourcing for period and contemporary luxury homes.'
+    ],
+    quote: 'Wood remembers every hand that has worked it, and rewards patience with centuries of quiet elegance.',
+    specialties: [
+      'Master Joinery',
+      'Timber Frame Restoration',
+      'Box Sash Windows',
+      'Oak Panelling',
+      'Historic Wood Finishes'
+    ],
+    socials: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com',
+      email: 'info.lumaahome@gmail.com'
+    },
+    publishedYear: '2022 - Present',
+    articleCount: 15
+  },
+  {
+    id: 'clara-davenport',
+    name: 'Clara Davenport',
+    role: 'Lead Interior Architect and Lighting Designer',
+    location: 'Bath & London, UK',
+    avatar: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85',
+    coverImage: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85',
+    metaDescription: 'Architectural lighting design, spatial acoustics, and contemporary British luxury interiors by interior architect Clara Davenport on Lumaa Home.',
+    shortDescription: 'Lead interior architect and lighting consultant specialising in Georgian spatial proportions, ambient illumination, and bespoke material palettes.',
+    bio: 'Interior architect and lighting specialist known for harmonising natural daylight with architectural fixtures in heritage townhouses and luxury modern extensions across Bath and London.',
+    fullBio: [
+      'Clara Davenport trained in interior architecture at the Glasgow School of Art before completing post-graduate research in architectural lighting and spatial acoustics.',
+      'Over the past twelve years, Clara has designed award-winning residential interiors across London, the Cotswolds, and Bath, focusing on natural materials, plaster finishes, and layered lighting schemes.',
+      'Her writings explore the subtle interaction between light, shadow, and architectural form, guiding readers through lighting zoning, fixture specification, and atmospheric styling.'
+    ],
+    quote: 'Lighting is the invisible architecture of a room—it dictates how we feel long before we notice the furniture.',
+    specialties: [
+      'Architectural Lighting',
+      'Spatial Proportions',
+      'Georgian Interiors',
+      'Acoustic Design',
+      'Natural Plasters'
+    ],
+    socials: {
+      instagram: 'https://instagram.com',
+      linkedin: 'https://linkedin.com',
+      email: 'info.lumaahome@gmail.com'
+    },
+    publishedYear: '2023 - Present',
+    articleCount: 18
   }
 ];
 

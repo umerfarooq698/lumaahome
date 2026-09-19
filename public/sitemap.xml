@@ -178,6 +178,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.lumaahome.co.uk/author/oliver-sinclair</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.lumaahome.co.uk/author/clara-davenport</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.lumaahome.co.uk/about</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
