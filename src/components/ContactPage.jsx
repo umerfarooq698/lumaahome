@@ -4,7 +4,6 @@ import { updatePageSeo, SITE_URL } from '../utils/seo';
 
 export default function ContactPage({ onBackToHome, onNavigateAbout }) {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
     updatePageSeo({
       title: 'Contact Us | Direct Editorial Desk',
       description: 'Reach LUMAA HOME editors, writers, and technical specialists directly via email for story pitches, press collaborations, and inquiries.',

@@ -18,7 +18,6 @@ export default function ArticlePage({
   const author = getAuthorById(article?.authorId || article?.author);
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
     if (article) {
       const authorObj = getAuthorById(article.authorId || article.author);
       updatePageSeo({

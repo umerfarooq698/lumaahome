@@ -24,6 +24,8 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
               <img
                 src={coverArticle.heroImage}
                 alt={coverArticle.title}
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-out"
               />
             </div>

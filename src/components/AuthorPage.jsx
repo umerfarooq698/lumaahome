@@ -19,7 +19,6 @@ export default function AuthorPage({
   
   // Dynamic SEO & Structured Data
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
     if (author) {
       updatePageSeo({
         title: `${author.name} | Editorial Masthead`,
@@ -32,7 +31,7 @@ export default function AuthorPage({
         jsonLd: buildAuthorJsonLd(author, authorArticles)
       });
     }
-  }, [author, authorArticles]);
+  }, [author?.id, author?.name, author?.bio, author?.avatar]);
 
   // Other 2 master editors to explore
   const otherAuthors = AUTHORS.filter((a) => a.id !== author.id);

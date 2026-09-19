@@ -19,7 +19,6 @@ export default function SitemapPage({
       canonicalPath: '/sitemap',
       ogType: 'website'
     });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
   const totalArticles = ARTICLES.length;

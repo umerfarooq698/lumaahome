@@ -13,7 +13,6 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
   useEffect(() => {
     const curData = isPrivacy ? INITIAL_PRIVACY_POLICY : INITIAL_TERMS_OF_SERVICE;
     setData(curData);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
 
     updatePageSeo({
       title: `${curData.title} | Legal and Compliance`,

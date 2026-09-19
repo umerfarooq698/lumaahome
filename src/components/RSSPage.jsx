@@ -15,7 +15,6 @@ export default function RSSPage({ onBackToHome, onSelectArticle, onNavigatePage 
       canonicalPath: '/rss',
       ogType: 'website'
     });
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
   const handleCopy = () => {

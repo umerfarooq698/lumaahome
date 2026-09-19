@@ -19,7 +19,6 @@ export default function CategoryPage({
   };
 
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
     updatePageSeo({
       title: `${categoryInfo.name} Editorial Archive`,
       description: categoryInfo.description,
@@ -30,7 +29,7 @@ export default function CategoryPage({
       section: categoryInfo.name,
       jsonLd: buildCategoryJsonLd(categoryInfo, articles)
     });
-  }, [category, categoryInfo, articles]);
+  }, [categoryInfo.id, categoryInfo.name, categoryInfo.description, categoryInfo.bannerImage]);
 
   const leadArticle = articles.length > 0 ? articles[0] : null;
   const remainingArticles = articles.slice(1);

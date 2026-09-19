@@ -14,7 +14,7 @@ import LegalPage from './components/LegalPage';
 import SitemapPage from './components/SitemapPage';
 import RSSPage from './components/RSSPage';
 import SubscribeModal from './components/SubscribeModal';
-import AIGeneratorModal from './components/AIGeneratorModal';
+const AIGeneratorModal = React.lazy(() => import('./components/AIGeneratorModal'));
 import Footer from './components/Footer';
 import { updatePageSeo, buildWebSiteJsonLd } from './utils/seo';
 
@@ -192,7 +192,7 @@ export default function App() {
   });
 
   // Current Active Route State
-  const [routeState, setRouteState] = useState(() => parseCurrentRoute(ARTICLES));
+  const [routeState, setRouteState] = useState(() => parseCurrentRoute(articlesList));
   const [searchQuery, setSearchQuery] = useState('');
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
   const [isAIGeneratorOpen, setIsAIGeneratorOpen] = useState(false);
@@ -205,14 +205,13 @@ export default function App() {
     }
   });
 
-  // Handle Route Changes from Hash Events
+  // Handle Route Changes from Hash/History Events
   const syncRouteFromURL = useCallback(() => {
     const parsed = parseCurrentRoute(articlesList);
     setRouteState(parsed);
   }, [articlesList]);
 
   useEffect(() => {
-    syncRouteFromURL();
     window.addEventListener('popstate', syncRouteFromURL);
     window.addEventListener('hashchange', syncRouteFromURL);
     return () => {
@@ -505,12 +504,16 @@ export default function App() {
         onClose={() => setIsSubscribeOpen(false)}
       />
 
-      {/* Gemini AI Editorial Studio Modal */}
-      <AIGeneratorModal
-        isOpen={isAIGeneratorOpen}
-        onClose={() => setIsAIGeneratorOpen(false)}
-        onArticleCreated={handleArticleCreated}
-      />
+      {/* Gemini AI Editorial Studio Modal (Lazy Loaded) */}
+      {isAIGeneratorOpen && (
+        <React.Suspense fallback={null}>
+          <AIGeneratorModal
+            isOpen={isAIGeneratorOpen}
+            onClose={() => setIsAIGeneratorOpen(false)}
+            onArticleCreated={handleArticleCreated}
+          />
+        </React.Suspense>
+      )}
     </div>
   );
 }

@@ -5,7 +5,6 @@ import { updatePageSeo, SITE_URL } from '../utils/seo';
 
 export default function AboutPage({ onBackToHome, onSelectAuthor }) {
   useEffect(() => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
     updatePageSeo({
       title: 'About Us | The Editorial Masthead',
       description: 'The independent British journal dedicated to period architecture, bespoke joinery, and refined DIY living.',
