@@ -75,6 +75,89 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-a-high-specification-garden-storage-box-for-timber-guide",
+    "title": "Choosing a High Specification Garden Storage Box for Timber",
+    "slug": "choosing-a-high-specification-garden-storage-box-for-timber",
+    "category": "garden",
+    "categoryName": "Garden",
+    "categoryLabel": "LANDSCAPE ARCHITECTURE • BRITISH OUTDOOR LIVING",
+    "author": "Eleanor Vance",
+    "authorId": "eleanor-vance",
+    "role": "Senior Architectural Historian and Heritage Curator",
+    "date": "September 20, 2026",
+    "readTime": "8 min read",
+    "views": "17.6k",
+    "isFeatured": true,
+    "excerpt": "An engineering led guide to selecting and maintaining a weatherproof timber garden storage box for refined outdoor spaces.",
+    "metaDescription": "Select weatherproof garden storage box designs engineered with pressure treated timber, gas struts and leakproof EPDM roofing membranes.",
+    "heroImage": "https://images.unsplash.com/photo-1777225858022-f54519e70e76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dGltYmVyJTIwZ2FyZGVuJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzg5ODk1NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1777225858022-f54519e70e76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dGltYmVyJTIwZ2FyZGVuJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzg5ODk1NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "A handcrafted timber garden storage box with slatted redwood panels set against a contemporary landscaped patio",
+    "imageAlt": "A handcrafted timber garden storage box with slatted redwood panels set against a contemporary landscaped patio",
+    "photographer": "C",
+    "photographerUrl": "https://unsplash.com/@thecurlyone",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Engineering the Ideal Garden Storage Box Structure",
+        "body": "A well crafted timber garden storage box protects exterior upholstery and tools against damp British weather. Integrating premium materials prevents warping across seasonal temperature swings. Structural integrity begins with framing constructed from high grade C24 European redwood timber.\n\nFrame dimensions must maintain precise tolerances of two millimetres to prevent rainwater pooling along seam edges. Incorporating a slight five degree pitch on the lid shedding surface allows heavy rainfall to drain efficiently without compromising internal storage capacity.\n\nCorner posts built from 45 by 45 millimetre timber profiles provide superior structural load bearing strength. Floor panels require support from transverse joists spaced at 300 millimetre centres to absorb heavy dynamic weight without bowing.\n\nPressure treatment using copper based preservatives ensures timber resists fungal decay and wood boring insects. Exterior grade tongue and groove cladding panels measuring 18 millimetres thick fit tightly together, creating an airtight shield against wind driven moisture.\n\nLower base sections should elevate at least 50 millimetres off ground level to mitigate rising damp. Incorporating adjustable high density rubber feet allows simple levelling on uneven stone paving or gravel bases.\n\nInternal dimensions measuring 1200 millimetres long by 600 millimetres wide accommodate oversized outdoor dining cushions with ease. Every structural fastener should feature marine grade 316 stainless steel to prevent unsightly rust streaks over time."
+      },
+      {
+        "level": "h3",
+        "heading": "Joinery Specifications and Timber Moisture Defense",
+        "body": "Traditional joinery techniques provide unmatched stability compared to simple surface screwed framing assemblies. Mortise and tenon joints anchored with oak dowels withstand thermal expansion forces without loosening over years of continuous outdoor exposure.\n\nTimber moisture content must drop below 16 percent prior to construction to avoid severe grain movement. Precision milling creates tight tongue and groove interlocks that seal against driving British rainwater while permitting natural wood movement.\n\nEnd grain sections require double coats of paraffin wax sealer before final assembly. Exposed end grain acts like natural drinking straws, rapidly absorbing ambient moisture and accelerating wood rotting processes when left unsealed.\n\nFlexible polyurethane adhesives provide structural bonding along all hidden frame connections. This industrial grade adhesive maintains elasticity across extreme cold snaps and direct summer sunlight, preventing seam separation under mechanical vibration.\n\nApplying high quality solvent based timber preservatives offers long lasting protection against biological degradation. Reapplying protective microporous oils every 24 months preserves natural grain aesthetic while maintaining water repellency across all weather conditions.",
+        "bullets": [
+          "Select C24 grade timber for structural frame stability",
+          "Maintain 50 millimetre minimum base clearance off damp ground",
+          "Utilize 316 stainless steel hardware to prevent corrosion"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Ventilation and Waterproofing in a Garden Storage Box",
+        "body": "Proper airflow control is essential to prevent internal condensation inside a sealed wooden garden storage box. Trapped moisture quickly causes mildew on fabric cushions and rust on iron garden tools stored over winter.\n\nConcealed side vents fitted with fine insect mesh permit continuous air turnover without allowing spiders inside. Positioning vents on opposing side walls creates gentle cross ventilation that regulates internal relative humidity year round.\n\nLid membranes constructed from 1.2 millimetre synthetic EPDM rubber deliver total waterproof protection under heavy downpours. Securing rubber membranes beneath timber trim battening prevents perimeter peeling caused by strong wind uplift.\n\nDrip edges extending 25 millimetres beyond lower side panels ensure water sheds cleanly onto adjacent paving. This design detail prevents rainwater from trickling backward underneath base plates via natural surface tension.\n\nInternal base linings crafted from breathable polyethylene floor sheets shield textile contents against ambient soil humidity. Removable slatted subfloors allow easy cleaning while raising stored items above occasional trace condensation.\n\nSilicone bulb gaskets installed along lid interior edges create a compression seal when closed tight. This elastomeric seal prevents driving rain from penetrating during severe weather while reducing damp air infiltration.",
+        "image": "https://images.unsplash.com/photo-1590635022668-81cc8696a19d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dGltYmVyJTIwam9pbmVyeSUyMGRldGFpbHxlbnwwfDB8fHwxNzg5ODk1NDUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Close up view of tongue and groove timber joinery on a wooden garden storage box",
+        "imageCaption": "Precision engineered tongue and groove cladding ensures weatherproofing and timber longevity.",
+        "imageCredit": {
+          "name": "Marissa Daeger",
+          "link": "https://unsplash.com/@marissadaeger"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Hardware Selection and Gas Strut Mechanics",
+        "body": "Heavy timber lids require smooth mechanical assistance to ensure safe, effortless opening during daily household use. Dual gas struts rated at 150 Newtons provide controlled lifting motion while holding heavy lids safely open.\n\nStrut mounting brackets must anchor into internal solid hardwood reinforcement blocks rather than thin cladding walls. Secure anchor points prevent structural screws from tearing free under high tension during repeated lid closures.\n\nHeavy duty piano hinges spanning the full rear seam distribute lifting stresses evenly across entire back frames. Solid brass or stainless steel hinge assemblies offer superior resistance against continuous mechanical wear and outdoor weathering.\n\nSecurity clasps designed for key padlocks keep valuable power tools and equipment safe from opportunist theft. Internal lock mechanisms shielded behind thick timber facings offer discrete protection without spoiling crisp exterior design lines.\n\nInstalling heavy duty lockable castors on base frames facilitates moving storage units across patio surfaces. Castors with polyurethane wheels protect outdoor tiles from scratching while providing high load capacity."
+      },
+      {
+        "level": "h2",
+        "heading": "Siting Your Heavy Duty Garden Storage Box",
+        "body": "Positioning your garden storage box on a level, well drained foundation guarantees long term structural alignment. Concrete flagstones or compacted self binding gravel provide stable footings that prevent frame twisting over time.\n\nAllowing a minimum 100 millimetre clearance gap between storage box rear panels and garden walls ensures airflow. Proper perimeter spacing prevents moss accumulation and reduces moisture transfer from damp boundary wall masonry.\n\nAvoid placing wooden storage structures directly underneath low hanging tree canopies or dripping roof valleys. Heavy continuous water drips and falling organic debris accelerate surface wear and clog crucial airflow ventilation grilles.\n\nShaded garden locations protect wood finishes against extreme ultraviolet radiation that causes premature timber silvering. Applying pigmented UV filtering oils maintains rich original timber tones while preserving internal water barrier seals.\n\nRegular seasonal inspection of gas struts, door seals, and timber oil finishes keeps storage units performing flawlessly. Dedicated care ensures your timber storage structure provides elegant organisation and weather protection for decades."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do you prevent damp in a wooden garden storage box?",
+        "answer": "Install cross ventilation grilles fitted with insect mesh and elevate the timber base 50 millimetres above ground level."
+      },
+      {
+        "question": "What timber grade is best for garden storage boxes?",
+        "answer": "Pressure treated C24 grade European redwood offers superior structural strength and resistance against fungal decay."
+      },
+      {
+        "question": "How much weight can gas struts support on lid openings?",
+        "answer": "Dual 150 Newton gas struts comfortably lift timber lids weighing up to 30 kilograms while preventing accidental slams."
+      }
+    ],
+    "tags": [
+      "garden storage box",
+      "Luxury Garden",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "how-to-layer-living-room-lights-for-warm-architectural-depth-guide",
     "title": "How to Layer Living Room Lights for Warm Architectural Depth",
     "slug": "how-to-layer-living-room-lights-for-warm-architectural-depth",
@@ -87,7 +170,7 @@ export const ARTICLES = [
     "date": "September 19, 2026",
     "readTime": "8 min read",
     "views": "23.3k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A technical guide to layering living room lights using precise spatial elevations, proper driver specs, and warm colour temperatures.",
     "metaDescription": "Master your interior illumination with layered living room lights, exact lumen targets, and warm 2700K colour temperatures for home in UK...",
     "heroImage": "https://images.unsplash.com/photo-1724582586529-62622e50c0b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGludGVyaW9yJTIwbGlnaHRpbmd8ZW58MHwwfHx8MTc4OTg0MjYwOHww&ixlib=rb-4.1.0&q=80&w=1080",
