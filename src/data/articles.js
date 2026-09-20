@@ -75,6 +75,100 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "how-to-choose-the-best-kitchen-bin-for-built-in-cabinets-guide",
+    "title": "How to Choose the Best Kitchen Bin for Built In Cabinets",
+    "slug": "how-to-choose-the-best-kitchen-bin-for-built-in-cabinets",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "author": "Eleanor Vance",
+    "authorId": "eleanor-vance",
+    "role": "Senior Architectural Historian and Heritage Curator",
+    "date": "September 20, 2026",
+    "readTime": "8 min read",
+    "views": "19.5k",
+    "isFeatured": true,
+    "excerpt": "A refined technical analysis on selecting high-performance integrated and freestanding kitchen bin systems for bespoke British interiors.",
+    "metaDescription": "Upgrade your culinary space with high performance kitchen bin systems engineered for seamless cabinet integration and acoustic dampening.",
+    "heroImage": "https://images.unsplash.com/photo-1727681212271-adf2f1bf8274?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGJpbnxlbnwwfDB8fHwxNzg5OTI5MjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1727681212271-adf2f1bf8274?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGJpbnxlbnwwfDB8fHwxNzg5OTI5MjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Sleek stainless steel integrated kitchen bin sliding out smoothly from bespoke dark grey kitchen cabinetry",
+    "imageAlt": "Sleek stainless steel integrated kitchen bin sliding out smoothly from bespoke dark grey kitchen cabinetry",
+    "photographer": "Neakasa",
+    "photographerUrl": "https://unsplash.com/@neakasa",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Optimising Waste Systems With the Modern Kitchen Bin",
+        "body": "Integrating a modern kitchen bin into residential cabinetry requires thoughtful spatial planning and robust hardware. Modern culinary environments demand discreet waste management that preserves clean visual lines while remaining effortlessly functional. Precision engineering converts simple storage into an essential daily fixture.\n\nUnder-sink and base unit waste management systems must withstand rigorous everyday usage without compromising structural cabinet integrity. High-density polymer containers combined with heavy-duty steel frames offer superior rigidity. Selecting the correct capacity prevents premature wear on cabinet hinges and drawer runners.\n\nModern British homes increasingly feature open-plan layouts where smell control and whisper-quiet closure are vital. High-end hardware utilizes hydraulic soft-closing dampers to maintain noise levels below 28 decibels. Integrated rubber gaskets prevent unpleasant odours from escaping into living quarters.\n\nCabinetry depth standardisation across UK kitchens typically accommodates 500 millimetre depth runners with ease. Ensuring adequate internal clearance allows smooth extension without risking mechanical jamming. Modern built-in systems maximize internal cabinet volume without forfeiting valuable structural framing space."
+      },
+      {
+        "level": "h3",
+        "heading": "Integrated Pull Out Specifications and Clearances",
+        "body": "Pull-out waste systems installed within standard 450 millimetre or 600 millimetre base units offer superior ergonomic convenience. Mounting the framework directly to cabinet sidewalls ensures optimal load distribution during maximum capacity usage. Heavy-duty runners support dynamic loads reaching up to 50 kilograms.\n\nInstallation requires accurate measurement of internal carcass dimensions, taking accounting of door hinge setbacks and pipework placement. A clearance buffer of at least 15 millimetres behind the rear bin unit protects water connections. Side clearance must accommodate full extension slide brackets seamlessly.\n\nDouble or triple compartment configurations facilitate effortless sorting of dry recyclables, compostable organic matter, and general waste. Color-coded handles and removable inner buckets streamline maintenance and cleaning protocols. High-grade polypropylene buckets resist staining and chemical deterioration over decades.",
+        "bullets": [
+          "Minimum 450 millimetre cabinet carcass width required for dual compartment pull-out units.",
+          "Dynamic runner load rating of at least 40 kilograms with integrated soft-close dampening.",
+          "Grade 304 stainless steel framing with anti-fingerprint powder coating for moisture resistance.",
+          "Active carbon filter lids providing continuous biological odour control and neutralisation."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Material Selection for an Architectural Kitchen Bin Solution",
+        "body": "Selecting the right materials for a premium kitchen bin determines both visual longevity and hygienic maintenance. Stainless steel treated with anti-fingerprint coatings prevents smudging while resisting corrosion from organic acids. Removable interior liners made from food-safe plastics ensure effortless cleaning.\n\nFor freestanding designs, brushed steel or powder-coated zinc finish choices harmonize with high-end appliances and stone worktops. Satin charcoal and deep slate grey shades provide contemporary contrast against light oak timber joinery. Non-skid rubber bases protect delicate herringbone flooring from scratches.\n\nInternal buckets manufactured from recycled high-density polyethylene provide exceptional impact resistance and structural resilience. Smooth non-porous surfaces prevent bacteria accumulation and inhibit persistent residual odours. High-temperature washing tolerance allows thorough sanitisation without warping or structural degradation.\n\nHardware components such as pedal mechanisms benefit from cold-rolled steel linkages rather than flexible plastic connectors. Engineered steel foot pedals withstand over 150,000 actuation cycles without mechanical fatigue. Dampened spring systems deliver smooth lid motion during hands-free operation.",
+        "image": "https://images.unsplash.com/photo-1616047795251-50aed56a0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cHVsbCUyMG91dCUyMGtpdGNoZW4lMjB3YXN0ZSUyMGJpbiUyMGRldGFpbHxlbnwwfDB8fHwxNzg5OTI5MjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Detailed view of dual compartment integrated waste bin mounted on soft close steel runners",
+        "imageCaption": "Integrated pull-out systems preserve clean exterior lines while offering tailored waste sorting.",
+        "imageCredit": {
+          "name": "Joshua Hoehne",
+          "link": "https://unsplash.com/@joshua_hoehne"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Odour Control Kinetics and Acoustic Dampening Mechanics",
+        "body": "Odour management relies on airtight lid perimeters and integrated active carbon filtration. Lid seal rings crafted from synthetic silicone maintain tension across thousands of closures. Replaceable carbon inserts absorb volatile organic compounds before air recirculates into the room.\n\nAcoustic performance during daily operation affects the peaceful ambience of contemporary kitchen environments. Neoprene dampening pads positioned along contact points eliminate metallic impact noises when lids shut. Soft-close air pistons control deceleration curves during the final 20 millimetres of closure.\n\nSealed compost caddies integrated into main pull-out frames prevent fruit fly infestation and moisture buildup. Charcoal filter caps integrated directly into caddy lids trap gases produced during natural organic decomposition. This engineering detail preserves internal cabinet air quality effortlessly."
+      },
+      {
+        "level": "h2",
+        "heading": "Choosing a Freestanding Kitchen Bin for Open Plan Living",
+        "body": "When built-in options are unfeasible, a freestanding kitchen bin serves as an elegant architectural accent. Slim rectangular profiles fit neatly against island ends or pantry side walls. Placing units out of primary walkways ensures unimpeded traffic flow across cooking zones.\n\nSensor-actuated lids offer touchless hygienic convenience through infrared motion detection systems. Calibrated motion zones prevent accidental opening when walking past cabinet perimeters. Battery management circuits deliver over twelve months of reliable operation on standard cells.\n\nDual-compartment freestanding models feature internal divider walls that maintain distinct waste streams within a unified exterior shell. Capacity ranges between 40 and 60 litres suit medium to large households comfortably. Integrated bag retention rings keep excess liner plastic neatly hidden from view.\n\nWeighted base plates lower the centre of gravity, preventing accidental tipping during vigorous daily use. Rubberised perimeter feet insulate the unit from floor vibrations while preventing liquid collection underneath. Stainless steel handles facilitate effortless repositioning during deep kitchen cleaning sessions."
+      },
+      {
+        "level": "h3",
+        "heading": "Sustainable Waste Sorting and Capacity Management",
+        "body": "Sustainable living demands efficient domestic waste separation directly at the point of disposal. Configuring primary containers with 30-litre general waste and 20-litre recycling capacity balances daily disposal ratios. Smaller 7-litre organic caddies promote frequent emptying before odour development occurs.\n\nCustom fitted liner bags engineered from compostable starch materials reduce environmental impact without sacrificing tear strength. Micro-perforated bag vents prevent trapped air pockets when installing fresh liners into tight container shells. Reinforced handles simplify sealing and transport to outdoor recycling bins.\n\nDesigning dedicated zones for paper, glass, and soft plastics within pull-out drawers reduces countertop clutter. Standardised bucket dimensions allow easy repositioning or replacing of individual inserts as family recycling habits evolve. Smart organization transforms routine chores into effortless habits."
+      },
+      {
+        "level": "h2",
+        "heading": "Kitchen Bin Maintenance and Hygienic Preservation",
+        "body": "Maintaining a pristine kitchen bin requires simple monthly care routines using gentle cleaning agents. Washing internal polypropylene buckets with warm water and mild detergent prevents stubborn residue accumulation. Avoiding harsh abrasive scouring pads protects surface coatings from micro-scratching.\n\nReplacing activated carbon filters every three to six months guarantees optimal odour absorption performance. Stainless steel exteriors retain their satin luster when treated with specialized microfibre cloths and neutral mineral oil solutions. Checking slide mechanism lubrication ensures effortless gliding action for years.\n\nInvesting in robust waste management infrastructure enhances both daily kitchen functionality and overall property appeal. High-quality fixtures maintain smooth operation and immaculate appearance through decades of continuous family use. Thoughtful waste design completes the perfect modern home layout."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What size cabinet is needed for an integrated kitchen bin?",
+        "answer": "Built-in pull-out systems require a standard base cabinet width between 300 and 600 millimetres with a minimum internal depth of 500 millimetres."
+      },
+      {
+        "question": "How do active carbon filters prevent kitchen bin odours?",
+        "answer": "Carbon filters trap volatile organic compounds and neutralize gases produced during organic decay before air escapes into your kitchen space."
+      },
+      {
+        "question": "What weight capacity do built-in kitchen bin runners support?",
+        "answer": "Premium dynamic cabinet runners support loads ranging between 40 and 50 kilograms to ensure smooth operation when containers are filled."
+      }
+    ],
+    "tags": [
+      "kitchen bin",
+      "Luxury Kitchen",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "choosing-a-high-specification-garden-storage-box-for-timber-guide",
     "title": "Choosing a High Specification Garden Storage Box for Timber",
     "slug": "choosing-a-high-specification-garden-storage-box-for-timber",
@@ -87,7 +181,7 @@ export const ARTICLES = [
     "date": "September 20, 2026",
     "readTime": "8 min read",
     "views": "17.6k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "An engineering led guide to selecting and maintaining a weatherproof timber garden storage box for refined outdoor spaces.",
     "metaDescription": "Select weatherproof garden storage box designs engineered with pressure treated timber, gas struts and leakproof EPDM roofing membranes.",
     "heroImage": "https://images.unsplash.com/photo-1777225858022-f54519e70e76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dGltYmVyJTIwZ2FyZGVuJTIwc3RvcmFnZXxlbnwwfDB8fHwxNzg5ODk1NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
