@@ -204,14 +204,23 @@ const CATEGORY_FALLBACK_IMAGES = {
   ],
   living: [
     { url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'High-end British architectural living room with bespoke lounge seating', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury living room with feature fireplace and curated modular sofa', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
+    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury living room with feature fireplace and curated modular sofa', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke timber panelled reception room with period architectural details', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85', alt: 'Period chimney breast and heritage British living room interior design', credit: { name: 'Spacejoy', link: 'https://unsplash.com/@spacejoy' } }
+  ],
+  interiors: [
+    { url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke timber panelled reception room with period architectural details', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury British drawing room with feature fireplace and natural light', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist British townhouse reception room with natural light', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=85', alt: 'Tailored luxury seating in a classic British interior architecture scheme', credit: { name: 'Martin PÃ©chy', link: 'https://unsplash.com/@martinpechy' } }
   ],
   garden: [
     { url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke British conservatory and garden room architecture', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
     { url: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury stone patio and architectural outdoor living space', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
   ],
   diy: [
-    { url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Architectural joinery craftsmanship and timber wood finishing', credit: { name: 'Theme Photos', link: 'https://unsplash.com/@themephotos' } }
+    { url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Architectural joinery craftsmanship and bespoke timber interior finishing', credit: { name: 'Theme Photos', link: 'https://unsplash.com/@themephotos' } },
+    { url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'Restoration woodwork and architectural timber detailing in a British home', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
   ]
 };
 
@@ -441,11 +450,21 @@ Return ONLY valid JSON matching this exact structure:
     }
 
     if (sec.sectionImageQuery) {
-      console.log(`[Unsplash] Fetching section image for query:`, sec.sectionImageQuery);
+      // Filter out raw texture/macro/sample keywords to guarantee a gorgeous room interior scene
+      let cleanedSecQuery = String(sec.sectionImageQuery)
+        .replace(/\b(texture|textures|macro|close up|closeup|background|pattern|swatch|sample|material|materials|surface|grain)\b/gi, '')
+        .trim();
+      if (!cleanedSecQuery || cleanedSecQuery.length < 5) {
+        cleanedSecQuery = `luxury ${catInfo.categoryName} room interior design`;
+      } else {
+        cleanedSecQuery = `${cleanedSecQuery} luxury interior room`;
+      }
+
+      console.log(`[Unsplash] Fetching section image for query:`, cleanedSecQuery);
       const secImg = await fetchUnsplashImage(
-        [sec.sectionImageQuery, `${topic} details`, `luxury ${catInfo.categoryName}`],
+        [cleanedSecQuery, `british luxury ${catInfo.categoryName} interior design`, `luxury ${catInfo.categoryName} room`],
         catInfo.categoryId,
-        sec.sectionImageAlt || `${topic} interior details`,
+        sec.sectionImageAlt || `Luxury British ${catInfo.categoryName} interior architecture`,
         usedUrls
       );
       if (secImg && secImg.url) {

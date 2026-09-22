@@ -117,12 +117,12 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Sustainable Home Interior Design Ideas for Period Homes",
         "body": "Victorian and Georgian properties demand breathable building materials to prevent internal moisture entrapment within solid brick walls. Replacing non-permeable modern cement renders with traditional breathable lime mortar and hydraulic lime plasters allows historic masonry to dry naturally. This moisture management system prevents damp formation and preserves structural brickwork.\n\nIntegrating natural wall insulation, such as wood fibre board fitted at 80 millimetre thickness, achieves full compliance with British Building Regulations Part L. This insulation specification dramatically lowers space heating costs while protecting structural floor joists against interstitial condensation.\n\nSustainable insulation materials maintain thermal comfort without damaging historic timber.\n\nProfessional lime plastering projects typically cost between £60 and £95 per square metre for professional labour and materials in the UK. Investing in mineral-based silicate paints ensures complete vapour permeability without sacrificing surface finish longevity. Vapour-open paint coatings prevent blistering and peeling caused by trapped ambient humidity.",
-        "image": "https://images.unsplash.com/photo-1533628635777-112b2239b1c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGltZSUyMHBsYXN0ZXIlMjB3YWxsJTIwdGV4dHVyZSUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8MHx8fDE3OTAwNzExODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Close up of breathable lime plaster wall texture with warm natural lighting",
-        "imageCaption": "Breathable lime plaster finishes preserve heritage brickwork while creating soft, tactile surfaces.",
+        "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
+        "imageAlt": "Bespoke timber panelled reception room with period architectural details and natural lighting in a British home",
+        "imageCaption": "Natural lime-washed plaster walls paired with bespoke timber wall panelling in a period British home.",
         "imageCredit": {
-          "name": "thomas heintz",
-          "link": "https://unsplash.com/@thomas2006"
+          "name": "R Architecture",
+          "link": "https://unsplash.com/@rarchitecture_melbourne"
         }
       },
       {
