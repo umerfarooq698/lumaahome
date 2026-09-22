@@ -194,6 +194,7 @@ export default function App() {
   // Current Active Route State
   const [routeState, setRouteState] = useState(() => parseCurrentRoute(articlesList));
   const [searchQuery, setSearchQuery] = useState('');
+  const [visibleHomeCount, setVisibleHomeCount] = useState(18);
   const [isSubscribeOpen, setIsSubscribeOpen] = useState(false);
   const [isAIGeneratorOpen, setIsAIGeneratorOpen] = useState(false);
   const [savedIds, setSavedIds] = useState(() => {
@@ -370,7 +371,9 @@ export default function App() {
   // Always dynamic: Newest article is #1 Cover Story, next 2 are Stacked Features
   const coverArticle = articlesList[0];
   const stackedArticles = articlesList.slice(1, 3);
-  const homeGridArticles = articlesList.slice(1, 19);
+  const allHomeGridArticles = articlesList.slice(1);
+  const homeGridArticles = allHomeGridArticles.slice(0, visibleHomeCount);
+  const hasMoreHomeArticles = allHomeGridArticles.length > visibleHomeCount;
 
   return (
     <div className="min-h-screen bg-white text-[#111111] flex flex-col justify-between">
@@ -483,6 +486,8 @@ export default function App() {
                 onSelectArticle={handleSelectArticle}
                 onSelectAuthor={handleAuthorChange}
                 sectionTitle="LATEST EDITORIAL STORIES"
+                hasMore={hasMoreHomeArticles}
+                onLoadMore={() => setVisibleHomeCount((prev) => prev + 18)}
               />
             </>
           )}

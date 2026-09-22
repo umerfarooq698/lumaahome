@@ -4,7 +4,9 @@ export default function EditorialGrid({
   articles, 
   onSelectArticle, 
   onSelectAuthor,
-  sectionTitle = "LATEST EDITORIAL STORIES" 
+  sectionTitle = "LATEST EDITORIAL STORIES",
+  hasMore = false,
+  onLoadMore
 }) {
   if (!articles || articles.length === 0) {
     return (
@@ -81,6 +83,18 @@ export default function EditorialGrid({
           </article>
         ))}
       </div>
+
+      {/* Load More Button (Homepage only) */}
+      {hasMore && onLoadMore && (
+        <div className="pt-8 pb-4 text-center">
+          <button
+            onClick={onLoadMore}
+            className="inline-flex items-center gap-2 bg-black text-white hover:bg-[#C8102E] px-8 py-3.5 text-xs font-bold uppercase tracking-[0.2em] transition duration-300 shadow-sm cursor-pointer"
+          >
+            <span>LOAD MORE ARTICLES</span>
+          </button>
+        </div>
+      )}
     </section>
   );
 }
