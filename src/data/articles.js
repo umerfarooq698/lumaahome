@@ -1025,7 +1025,7 @@ export const ARTICLES = [
   },
   {
     "id": "floor-lamps-for-living-room-layouts-architectural-guide-guide",
-    "title": "Floor Lamps for Living Room Layouts An Architectural Guide",
+    "title": "Floor Lamps for Living Room Layouts: Architectural Guide",
     "slug": "floor-lamps-for-living-room-layouts-architectural-guide",
     "category": "living-room",
     "categoryName": "Living Room",
@@ -1037,78 +1037,78 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "22.8k",
     "isFeatured": false,
-    "excerpt": "Architectural guide to floor lamp positioning clearances and lighting specifications for British homes.",
-    "metaDescription": "Master living room floor lamp layouts with architectural clearances weighted base specifications and glare control in UK interiors.",
+    "excerpt": "A refined architectural examination of living room floor lamp positioning, material selection, and technical lighting specifications for modern British interiors.",
+    "metaDescription": "Master architectural illumination using floor lamps for living room layouts, balancing scale, lumens, and ambient warm British lighting.",
     "heroImage": "https://images.unsplash.com/photo-1771219491795-3b4dafc1cdf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjBmbG9vciUyMGxhbXAlMjBsaXZpbmclMjByb29tfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1771219491795-3b4dafc1cdf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjBmbG9vciUyMGxhbXAlMjBsaXZpbmclMjByb29tfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Brass floor standing luminaire beside a velvet armchair in a British living room",
-    "imageAlt": "Brass floor standing luminaire beside a velvet armchair in a British living room",
+    "heroImageAlt": "Elegantly proportioned brass floor lamp standing beside a dark green velvet armchair in a modern British living room setting",
+    "imageAlt": "Elegantly proportioned brass floor lamp standing beside a dark green velvet armchair in a modern British living room setting",
     "photographer": "lost voyager",
     "photographerUrl": "https://unsplash.com/@lostvoyager",
     "content": [
       {
         "level": "h2",
-        "heading": "Architectural Circulation Rules and Clearance Dimensions",
-        "body": "Strategic positioning of floor standing luminaires requires strict adherence to human circulation routes across British reception spaces. Calculating pedestrian pathways prevents hazardous trips while maintaining an unhindered spatial flow throughout your everyday home living environment.",
+        "heading": "Primary Walkway Clearances Around Seating Zones",
+        "body": "Designing spatial circulation within a formal British living room demands rigorous adherence to dimensional standards. Heritage properties often feature compact reception footprints, making every millimetre of floor space profoundly precious. Master craftsmen must calculate human ergonomics carefully to prevent any spatial congestion.\n\nEstablishing correct perimeter clearance around upholstered seating arrangements protects both the occupants and the antique furnishings. When positioning heavy fixtures, heritage surveyors examine how traffic flows naturally from doorways toward focal fireplaces. Restricting movement corridors compromises the overall architectural rhythm of the room.\n\nIntegrating auxiliary lighting requires absolute precision regarding physical boundaries and obstruction hazards. A poorly positioned stem can easily cause trips or restrict the full extension of heritage armchair recline mechanisms. Proper spatial planning ensures that illumination enhances functionality without ever hindering daily domestic life.\n\nProfessional installers always verify that physical furniture layouts comply with modern safety legislation and British building standards. Evaluating room geography before installation prevents costly mistakes involving bespoke joinery and custom floor finishes. Thoughtful zoning transforms disjointed interiors into harmonious, highly functional living environments.",
         "bullets": [
-          "Maintain a minimum clearance of nine hundred millimetres along primary pathways to ensure comfortable movement around furniture groups",
-          "Position the outer rim of any heavy lamp base at least three hundred millimetres away from armchair passing zones to avoid accidental impacts",
-          "Keep the peripheral reach of wide extending cantilever shades at least five hundred millimetres clear of internal door swing arcs"
+          "Maintain a strict 300mm clearance space beside all sofa arms to prevent accidental impacts.",
+          "Preserve a minimum 900mm width for main corridor pathways to ensure unimpeded household circulation.",
+          "Keep floor lamp bases at least 500mm away from high-traffic doorways to eliminate tripping hazards."
         ]
       },
       {
-        "level": "h2",
-        "heading": "Structural Comparison of Arc Stems and Tripod Bases",
-        "body": "Cantilever physics dictate that long arc stems demand heavy counter weighted bases typically weighing between fifteen and twenty five kilograms. Slabs of solid marble or cast iron counteract gravitational pull safely to balance extended overhead reaches across family sofas.\n\nTripod floor bases distribute structural weight evenly across three distinct timber or brass legs. However their splayed geometry requires a wider floor footprint diameter which demands careful layout planning to avoid awkward physical collisions with surrounding coffee tables."
+        "level": "h3",
+        "heading": "Arc Lamps vs Tripod Lamps for Architectural Proportions",
+        "body": "Choosing between an overhead cantilevered arc fixture and a traditional three-legged tripod model depends entirely on vertical room volume. Period properties with high ceilings tolerate sweeping metal arms magnificently. Conversely, low-slung Victorian conversions often require balanced tripod structures to avoid overwhelming restricted spatial proportions.\n\nCantilevered designs project light deep into seating areas without requiring overhead ceiling wiring. These pieces rely on massive marble counterweights to stabilise their extended reach safely across hardwood flooring. Craftsmen must verify floor joist load capacities before installing extremely heavy stone anchor bases.\n\nTripod alternatives distribute weight evenly across three distinct points, offering exceptional stability on uneven timber floorboards. Their splayed wooden or metal legs introduce geometric interest into neutral corners. However, their wider footprint demands careful spatial planning to avoid encroaching upon adjacent side tables.\n\nMatching the correct lighting silhouette to architectural features improves the entire interior narrative of a home. Tall ceilings demand commanding vertical statements, whereas modest spaces benefit from restrained, elegant profiles. Understanding these scale relationships is a hallmark of distinguished British interior design practice."
       },
       {
         "level": "h2",
-        "heading": "Technical Specification for Floor Socket Power Integration",
-        "body": "Complying with British standard seventy six seventy one domestic wiring regulations requires routing power cables through subfloor voids rather than trailing flexible cords across open floors. This engineering approach eliminates dangerous trip hazards across historic parquet or deep wool carpets.\n\nCore drilling timber or concrete subfloors allows certified electricians to install flush brass floor junction boxes directly beneath central sofas. This technical configuration conceals electrical wiring completely while supplying uninterrupted mains electricity to free standing reading lamps.",
+        "heading": "Core Drilled Brass Floor Sockets and Cable Safety",
+        "body": "Eliminating trailing flexes across historic parquet flooring represents a primary objective for meticulous heritage surveyors. Core drilled brass floor sockets offer a sophisticated engineering solution for powering central room illumination without unsightly cords. This discreet method preserves the pristine aesthetic integrity of expensive timber finishes.\n\nInstalling flush floor boxes requires diamond core drilling through concrete subfloors or careful lifting of floorboards. Qualified electricians route armoured wiring safely beneath the structural joists to supply power precisely where required. Solid brass cover plates match existing hardware, ensuring period authenticity remains completely undisturbed.\n\nAll concealed electrical installations must integrate robust residual current device protection to safeguard residential occupants. Modern wiring regulations mandate strict adherence to safety codes when introducing power sources directly into floor assemblies. Professional testing guarantees that every brass socket operates with absolute reliability and safety.\n\nDiscreet floor connections eliminate the traditional clutter associated with long extension leads trailing behind sofas. This technical upgrade dramatically improves both visual neatness and physical safety throughout busy family living spaces. Investing in concealed power infrastructure represents the absolute pinnacle of refined British craftsmanship.",
         "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Zmxvb3IlMjBsYW1wcyUyMGZvciUyMGxpdmluZyUyMHJvb20lMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Turned solid brass joint and woven fabric cable on a floor standing luminaire",
-        "imageCaption": "Precision turned solid brass fittings provide long term mechanical durability",
+        "imageAlt": "Close up detail of a solid turned brass joint and hand woven fabric cable on a floor lamp",
+        "imageCaption": "Precision joinery and turned solid brass details deliver mechanical durability and refined tactile appeal.",
         "imageCredit": {
           "name": "Naomi Hébert",
           "link": "https://unsplash.com/@naomish"
         }
       },
       {
-        "level": "h2",
-        "heading": "Shade Photometrics and Glare Suppression",
-        "body": "Opal glass diffusers scatter intense point source light effectively to maintain comfortable unified glare ratings across living spaces. Dense natural linen drum shades prevent direct lateral visibility of bare LED filaments, keeping evening illumination gentle on resting eyes."
-      },
-      {
         "level": "h3",
-        "heading": "Target Light Levels and Kelvin Temperature",
-        "body": "Specifying twenty seven hundred kelvin warm white illumination sources ensures residential reception rooms maintain an inviting ambiance during dark British evenings. Selecting high colour rendering index ratings above ninety preserves true fabric tones and authentic natural timber grain.\n\nDelivering between three and five hundred lux directly onto the reading plane beside an armchair requires careful luminaire positioning. Dimmable high lumen retrofit bulbs allow homeowners to adjust local illumination smoothly between concentrated evening reading and gentle background socialising."
+        "heading": "Fabric Shade Materials and Diffused Glare Management",
+        "body": "Managing luminance levels within a domestic setting requires careful selection of shade materials and density. Raw linen drums diffuse light softly across a room, creating a warm, welcoming ambience. In contrast, heavy silk linings direct illumination strictly downward, highlighting specific reading surfaces below.\n\nHand-blown opal glass shades offer superior glare reduction by scattering light evenly in every conceivable direction. This technique prevents harsh hotspots from damaging eyes while occupants relax on plush evening sofas. Selecting the correct diffuser density ensures visual comfort throughout long winter evenings at home.\n\nPositioning the bottom edge of a shade at exact eye level when seated prevents direct filament glare. Architectural lighting designers calculate sightlines meticulously to ensure that light sources remain gracefully concealed. This attention to detail defines the difference between amateur decor and professional heritage styling.\n\nPairing high-quality textiles with dimmable LED retrofit lamps provides complete control over interior mood. Natural woven fabrics age gracefully over decades, developing a subtle patina that complements traditional British decor. Premium material selection guarantees enduring beauty and exceptional functional performance year after year."
       },
       {
         "level": "h2",
-        "heading": "Corner Balancing in Period Living Rooms",
-        "body": "Awkward alcoves situated beside traditional Victorian chimney breasts benefit greatly from directional floor standing luminaires that fill shadowed voids without cluttering primary floor space. Upward illumination brightens neglected architectural boundaries while improving overall room balance.\n\nDirecting adjustable uplighters toward the upper plasterwork eliminates dark perimeter corners while washing vertical surfaces with soft indirect light. This optical technique accentuates decorative ceiling cornicing and picture rails while visually expanding the perceived physical dimensions of the room."
+        "heading": "Lamp Placement in Dark Reception Room Corners",
+        "body": "Dark architectural corners in period reception rooms frequently suffer from a distinct lack of natural daylight penetration. Positioning a tall floor fixture strategically within these neglected zones instantly expands perceived spatial boundaries. Effective corner lighting revitalises dead architecture, turning shadowed voids into engaging visual anchor points.\n\nPairing a vertical lighting element with low-profile bespoke shelving creates sophisticated layered illumination depth. The upward wash of light highlights architectural mouldings, skirting boards, and decorative plasterwork. This technique introduces subtle textural shadows that enhance the historic character of the room.\n\nReflective surfaces positioned near dark corners amplify the output of single-bulb floor lamps significantly. Polished brass reflectors or antique mirrors bounce ambient rays back into the primary seating zone. Such optical enhancements maximise energy efficiency while enriching the overall aesthetic warmth of the space.\n\nThoughtful corner illumination corrects inherent architectural imbalances found in awkward Victorian or Edwardian floor plans. By balancing light levels across all four walls, designers create an enveloping sense of sanctuary. Proper placement transforms challenging spatial layouts into cohesive, inviting domestic environments."
+      },
+      {
+        "level": "h2",
+        "heading": "Buying Checklist",
+        "body": "Selecting exceptional architectural floor lighting requires evaluating material authenticity, structural stability, and electrical safety compliance. Prioritise solid brass hardware, weighted marble bases, and high-quality fabric diffusers that endure decades of daily domestic use without compromising structural integrity or visual elegance.\n\nMeasure all spatial clearances, verify floor box compatibility, and ensure appropriate shade heights before purchasing. Investing in well-engineered fixtures guarantees a harmonious balance of form and function for your prestigious British home layout."
       }
     ],
     "faqs": [
       {
-        "question": "What base weight is required for a long reach arc floor lamp?",
-        "answer": "A solid marble or cast iron base weighing fifteen to twenty five kilograms ensures complete stability."
+        "question": "What is the ideal distance between a floor lamp and a sofa arm?",
+        "answer": "Maintain a minimum clearance of 300mm to prevent accidental impacts and preserve comfortable traffic flow."
       },
       {
-        "question": "What is the recommended walkway clearance around living room lamps?",
-        "answer": "Maintain at least nine hundred millimetres of clear passage along primary circulation routes."
+        "question": "Are core drilled floor sockets safe for historic timber flooring?",
+        "answer": "Yes, when installed by qualified professionals using RCD protection and matching brass cover plates."
       },
       {
-        "question": "Which light bulb color temperature suits British living rooms best?",
-        "answer": "A warm white twenty seven hundred kelvin bulb creates a relaxing atmosphere for evening use."
+        "question": "How do I prevent direct glare from a living room floor lamp?",
+        "answer": "Use hand-blown opal glass or raw linen drum shades positioned slightly above eye level when seated."
       }
     ],
     "tags": [
       "floor lamps for living room",
-      "Architectural Lighting",
-      "UK Living Room Design",
-      "Living Room Lighting",
-      "Lighting Layouts"
+      "Luxury Living Room",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
     ]
   },
   {
