@@ -749,18 +749,33 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "In Frame versus Lay On Door Joinery Standards",
-        "body": "Choosing between in frame and lay on door configurations defines the aesthetic and structural character of bespoke British kitchens. In frame joinery fixes doors directly inside a solid timber front frame, creating a traditional furniture appearance that demands absolute dimensional accuracy during workshop fabrication.\n\nTraditional brass butt hinges are screwed directly to the frame stiles and door edges, bearing the full load of the solid timber over decades of daily articulation. This method requires meticulous setting out so the gaps around the perimeter remain perfectly uniform despite seasonal humidity fluctuations.\n\nConversely, overlay doors sit entirely outside the carcase edges, concealing the front framework to deliver a clean minimalist aesthetic favoured in contemporary architectural schemes. Modern overlay systems typically rely on concealed European cup hinges offering multi-way adjustment for rapid site alignment.\n\nMastering these opposing joinery standards requires understanding how each system transfers structural loads into the surrounding walls. Traditional in frame setups distribute weight through robust timber front frames, whereas overlay designs place high rotational stress directly onto the interior carcase side panels."
+        "heading": "Standard Proportions and Kitchen Cabinet Dimensions",
+        "body": "On architectural site surveys across period British properties, subfloors are rarely level. A kitchen floor often drops fifteen millimetres across a four metre span, making adjustable cabinet plinth feet essential for establishing a dead level ninety centimetre working datum.\n\nStandard kitchen base carcases measure seven hundred twenty millimetres in height, sitting on one hundred fifty millimetre plinths. Adding a thirty millimetre solid granite or quartz worktop brings the working surface to precisely nine hundred millimetres, matching British Standard six two two two ergonomic guidelines."
       },
       {
         "level": "h3",
-        "heading": "Carcase Substrate Standards and Moisture Resistant Materials",
-        "body": "The internal carcase forms the structural skeleton of any high performance kitchen cabinet and requires careful specification. Premium British workshops predominantly utilise eighteen millimetre multi-layer birch plywood for its exceptional screw holding capacity and inherent dimensional stability under heavy loads.\n\nBirch plywood carcases feature alternating grain veneers bonded with exterior grade waterproof resins, preventing warping when subjected to steam from kettles and dishwashers. Alternatively, high density moisture resistant medium density fibreboard provides a remarkably flat panel substrate for painted interior components.\n\nEdge banding all exposed carcase perimeters with two millimetre thick ABS tape protects vulnerable core materials from moisture ingress and physical impact. Selecting proper substrate thicknesses prevents sagging across wide shelf spans and guarantees the long term structural integrity of the furniture.\n\nSpecifying appropriate interior linings such as durable melamine or real wood veneers ensures the cabinetry withstands daily cleaning routines. Quality carcase construction transforms a simple storage box into a rigid architectural element capable of supporting heavy stone worktops."
+        "heading": "Base Cabinet Heights and Worktop Depths",
+        "body": "A sixty centimetre worktop depth requires a five hundred sixty millimetre deep internal carcase. This deliberate difference creates a twenty millimetre front overhang that stops liquid spills on the worktop from dripping down your timber drawer fronts.\n\nCarcase elevations must align with window cills and tall pantry larders across the room. Maintaining a consistent horizontal datum line across tall housing units and extraction canopies anchors the room architecture and prevents a messy, disjointed wall layout."
+      },
+      {
+        "level": "h3",
+        "heading": "Walkway Clearances Around Kitchen Islands",
+        "body": "Kitchen island planning demands generous floor clearances to prevent irritating spatial bottlenecks. In our architectural practice, we enforce a strict minimum clearance of one thousand millimetres for single cook kitchens, expanding to twelve hundred millimetres around primary cooking zones.\n\nThis twelve hundred millimetre corridor lets an integrated dishwasher door drop down fully horizontal while still leaving clear walking room behind it. Island end corners should align cleanly with the edges of perimeter tall housings to maintain clear sightlines from entrance doors."
       },
       {
         "level": "h2",
-        "heading": "Five Piece Solid Timber Door Frame Construction",
-        "body": "Constructing durable cabinet doors demands traditional joinery techniques that accommodate the natural movement of timber across changing seasons. The classic five piece shaker door utilises vertical stiles and horizontal rails joined securely together using tightly fitted stub mortise and tenon joints.\n\nWithin this perimeter frame, a floating centre panel sits inside a tailored groove cushioned by rubber expansion beads. This clever engineering detail allows the central timber panel to expand and contract across the grain without splitting the surrounding frame joints.\n\nMastering timber door construction involves strict adherence to time honoured workshop rules regarding timber selection and moisture content management.\n\nSelecting quarter sawn timber blanks ensures grain stability and minimises surface cupping across wider door profiles.\n\nMaintaining a strict equilibrium moisture content between eight and twelve percent prevents post installation shrinkage in heated environments.\n\nApplying waterproof PVA adhesive to mortise and tenon shoulders guarantees permanent joint rigidity under continuous mechanical stress.\n\nAllowing adequate clearance tolerances within panel grooves prevents the frame joints from blowing apart during humid summer months.",
+        "heading": "Traditional Inset Cabinets versus Modern Overlay Doors",
+        "body": "Traditional British bespoke cabinetry relies on inset face frames where doors sit completely flush inside a solid timber front frame. We build our face frames using twenty five millimetre thick solid tulipwood, jointed with mortise and tenon joints to create a rigid outer border.\n\nA critical trade detail is maintaining an exact two millimetre expansion gap around all four sides of each inset door. This precise margin allows natural seasonal timber movement without letting doors bind against the frame during muggy summer months."
+      },
+      {
+        "level": "h2",
+        "heading": "Traditional Joinery Methods for Solid Wood Cabinets",
+        "body": "Factory made cabinetry assembled with plastic cams and wooden dowels fails rapidly under the weight of heavy granite surfaces. Enduring architectural joinery relies on solid mechanical wood joints that lock together through physical friction and modern moisture resistant adhesives.\n\nBefore cutting any timber components, professional joiners verify that raw timber boards have acclimated to an internal moisture content between eight and ten percent. This controlled moisture level stops drawer boxes and doors from shrinking or warping once household winter heating turns on."
+      },
+      {
+        "level": "h3",
+        "heading": "Dovetail Joints for Solid Oak Drawer Boxes",
+        "body": "Dovetailed solid timber drawer boxes represent the benchmark of professional kitchen craftsmanship. Trapezoidal pins cut into sixteen millimetre solid European oak sides interlock with matching tails on the drawer front, creating an unbreakable mechanical connection.\n\nEven if adhesive fails after forty years of continuous use, a dovetailed joint cannot pull apart horizontally. We finish drawer interiors with clear organic oils that protect the oak grain from cutlery scratches while emitting zero toxic fumes around food prep areas.",
         "image": "https://images.unsplash.com/photo-1770573322210-204dea84450f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwdGltYmVyJTIwZHJhd2VyJTIwam9pbnQlMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTgwNjM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up photo showing dovetail joinery on solid oak kitchen drawers",
         "imageCaption": "Precision dovetail joints in solid European oak drawer boxes.",
@@ -771,32 +786,42 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "Internal Service Voids and Worktop Scribing Clearances",
-        "body": "Achieving a professional fitted appearance relies heavily on careful planning of service voids behind base units and tall appliance housings. Leaving a standard fifty millimetre rear service void accommodates incoming water pipes, electrical cables, and gas supply lines without compromising interior storage volumes.\n\nBase cabinets must be specified with removable back panels or lowered service ledges to facilitate maintenance access after installation is complete. This concealed channel prevents unsightly surface trunking and keeps safety critical connections safely isolated from stored kitchen items.\n\nScribing filler panels to uneven British masonry walls demands patience and precision from the installation carpenter using specialised scribing tools. Every historic property features out of plumb walls and sloping floors that require bespoke planing of end panels for a smooth edge.\n\nOvercoming these structural anomalies guarantees that worktops sit dead level and wall units hang with absolute architectural precision. Integrating scribing allowances into initial cutting lists prevents costly site delays and ensures a bespoke tailored finish throughout the space."
+        "heading": "Mortise and Tenon Frames for Cabinet Doors",
+        "body": "Five piece Shaker cabinet doors require deep mortise and tenon corner joints to prevent sagging over time. The horizontal door rails feature a machined tenon tongue that seats fully inside a matching mortise slot cut into the vertical stiles.\n\nThe central recessed door panel must remain completely floating within internal grooves rather than glued rigid. This allows the centre timber or moisture resistant panel to expand freely across the seasons without cracking the exterior painted joints."
       },
       {
         "level": "h2",
-        "heading": "Hand Painted Eggshell Finishes and Long Term Durability",
-        "body": "Applying the final decorative finish transforms raw timber joinery into an exquisite architectural asset worthy of a luxury home. High performance water based acrylic eggshell paints offer superior flexibility, low odour, and exceptional resistance to grease stains compared to traditional oil based alternatives.\n\nThe finishing process begins with meticulous hand sanding, followed by an adhesion promoting primer and multiple coats of tinted topcoat. Between each application, fine sanding removes micro fibres and dust nibs, creating a silky touch finish that highlights authentic brush textures.\n\nInvesting in bespoke British kitchen joinery typically commands a realistic budget ranging between fifteen thousand and thirty five thousand pounds. This financial investment reflects the countless hours of skilled bench joinery, precise workshop spraying, and careful on site hand painting required.\n\nLong term durability depends on regular gentle cleaning with mild soapy water and avoiding harsh abrasive chemical cleaning agents. Quality eggshell paints cure to a tough, washable membrane that withstands the rigorous demands of a busy family culinary environment."
+        "heading": "Comparing Birch Plywood and Moisture Resistant Carcases",
+        "body": "Cabinet carcase durability depends entirely on the core board material specified behind the painted doors. Standard raw chipboard absorbs ambient steam and burst pipe leaks like a sponge, causing the carcase core to swell up and crumble.\n\nFor premium bespoke projects, we specify eighteen millimetre FSC certified Baltic birch plywood or Medite Premier moisture resistant MDF. Birch ply delivers exceptional structural screw retention for heavy door hinges, while moisture resistant board provides an ultra smooth, non porous substrate that stays dead flat inside damp sink cupboards.",
+        "bullets": [
+          "Use eighteen millimetre birch plywood for heavy sink base units carrying heavy cast iron undermount bowls.",
+          "Apply durable real wood oak veneers with matching two millimetre solid timber edge banding inside cupboards.",
+          "Never permit standard raw chipboard in plumbing zones housing boiling water tap tanks or waste disposal units."
+        ]
       },
       {
         "level": "h2",
-        "heading": "Built To Last",
-        "body": "Investing in authentic timber kitchen cabinetry ensures generational endurance through uncompromising joinery standards and premium material selection. Proper construction methods protect against structural failure and environmental shifts.\n\nThoughtful architectural detailing creates timeless spaces that reward the discerning homeowner with lasting beauty and daily functional excellence."
+        "heading": "Applying Durable Hand Painted Finishes on Hardwood",
+        "body": "Factory sprayed polyurethane finishes chip easily when struck by heavy saucepans, making site repairs nearly impossible without removing entire doors. In contrast, on site hand painted cabinetry provides an authentic brush painted texture that ages with grace.\n\nWe prime bare timber joinery with high adhesion shellac primers, followed by two top coats of waterborne eggshell paint drying to a low ten percent sheen. When everyday accidents happen, homeowners can touch up small marks invisibly using a fine artists brush and original paint."
+      },
+      {
+        "level": "h2",
+        "heading": "Selecting Heavy Duty Soft Close Hinges and Runners",
+        "body": "Hardware specification determines how effortlessly heavy timber drawers perform under loaded conditions. We install concealed undermount steel runners like Blum Movento systems, mounted out of sight directly beneath the solid oak drawer box base.\n\nThese runners carry dynamic weight loads of up to sixty kilograms, incorporating hydraulic soft close pistons and four dimensional alignment screws. Solid brass butt hinges fitted to inset frames provide authentic period charm, while modern clip hinges deliver effortless adjustment for modern properties."
       }
     ],
     "faqs": [
       {
-        "question": "What is the primary benefit of in frame kitchen cabinet construction?",
-        "answer": "In frame construction offers superior structural rigidity and a traditional furniture aesthetic by mounting doors directly inside solid timber frames."
+        "question": "What is the ideal walkway space around a kitchen island?",
+        "answer": "Maintain between one thousand and twelve hundred millimetres of clear floor space to allow free passage around open dishwasher doors."
       },
       {
-        "question": "Why use birch plywood instead of standard chipboard for cabinet carcases?",
-        "answer": "Birch plywood provides exceptional screw holding capacity and moisture resistance to prevent structural sagging under heavy stone worktops."
+        "question": "Why are dovetail joints preferred for kitchen drawers?",
+        "answer": "Interlocking timber pins and tails lock together mechanically, preventing heavy drawer fronts from pulling apart when pulled open."
       },
       {
-        "question": "How do floating centre panels prevent solid timber doors from cracking?",
-        "answer": "Floating panels sit on expansion beads that allow natural timber movement across seasonal humidity shifts without stressing the frame joints."
+        "question": "What is the standard finished height for kitchen base cabinets?",
+        "answer": "Nine hundred millimetres from the finished floor to the top of the stone worktop conforms to British Standard ergonomic guidelines."
       }
     ],
     "tags": [
