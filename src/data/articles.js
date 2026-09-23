@@ -857,64 +857,74 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Verifying Usable Floor Space and Bedroom Circulation",
-        "body": "Securing a suitable three bedroom home across Britain demands careful inspection of room layouts beyond square footage figures alone. Estate agents frequently quote gross internal area which masks awkward architectural angles, sloping attic ceilings, and intrusive bulkheads that reduce practical furniture placement significantly.\n\nMastering bedroom circulation involves testing actual physical clearances using a reliable tape measure during your initial viewing. Ensure you verify wardrobe door swings do not collide with bed frames and that adequate ninety millimetre walkway clearances remain clear for daily movement around primary sleeping quarters.\n\nDouble bed accommodation requires a minimum room width of two point four metres to allow standard bedside tables alongside the mattress edge. Check second and third bedrooms carefully, as modern new builds often compress smaller rooms into inadequate single spaces incapable of fitting a standard double configuration.\n\nEvaluating structural utility means checking electrical socket positions relative to natural bed locations to avoid hazardous trailing extension leads. Assessing these spatial constraints early prevents frustrating compromises after signing a fixed term residential lease agreement on your chosen property.",
-        "bullets": []
+        "heading": "Navigating UK Tenancy Laws and Tenant Rights",
+        "body": "Finding a suitable family home across Britain requires careful planning. Property standards vary wildly between period terraces and new builds, making current tenancy rules your best protection from day one.\n\nRenting rules give tenants much greater flexibility than older twelve month contracts. Tenancies now operate as rolling periodic agreements, allowing you to give two months written notice whenever you need to relocate."
       },
       {
         "level": "h3",
-        "heading": "Heating System Evaluation and Energy Performance Certificates",
-        "body": "Evaluating the primary heating installation prevents winter heating crises and excessive monthly utility expenditures in rental properties. Inspect the central heating boiler for modern condensing combi units bearing recent service certificates rather than antiquated systems prone to sudden component failure.\n\nExamine every radiator throughout the three bedrooms for functioning thermostatic radiator valves that enable independent temperature control per room. Landlords must legally provide an Energy Performance Certificate rated E or higher before marketing any residential property for private rental occupation across England.\n\nRequesting past seasonal gas bills offers tangible proof of thermal efficiency, highlighting potential draught issues hidden behind fresh interior magnolia paintwork. Properties featuring adequate cavity wall insulation and double glazing retain warmth far longer, reducing ongoing energy overheads for tenants significantly.\n\nTesting the hot water delivery speed at bathroom taps and kitchen sinks reveals underlying pressure deficits within the domestic plumbing network. A robust heating circuit guarantees consistent comfort during colder months without requiring constant manual intervention or expensive emergency callouts.",
-        "bullets": []
+        "heading": "Periodic Tenancies and The Ban on Bidding Wars",
+        "body": "Rental bidding wars have been made illegal across Britain. Letting agents and private landlords cannot invite, encourage, or accept rental offers above the published asking price.\n\nThis rule stops families from being pressured into blind bidding contests during peak moving months. When you apply for a home, the advertised monthly figure is the exact legal maximum rent you will pay."
+      },
+      {
+        "level": "h3",
+        "heading": "Abolition of Section Twenty One Evictions",
+        "body": "The removal of section twenty one no fault evictions gives British renters long term security. Landlords can no longer ask you to leave on two months notice without proving a valid legal reason in court.\n\nA property owner must now rely on specific statutory grounds, such as selling the property or moving back in themselves. This legal protection allows families to settle into local schools without fear of sudden displacement."
       },
       {
         "level": "h2",
-        "heading": "Damp Penetration and Moisture Testing Red Flags",
-        "body": "Identifying moisture ingress requires methodical surveying of vulnerable architectural zones including bay window corners and exterior chimney breast walls. Rising damp and penetrating damp leave distinct visual markers like peeling wallpaper, salt efflorescence, and decaying skirting boards hidden behind furniture.\n\nUtilising a digital pinless moisture meter provides precise moisture equivalent readings when pressed against ground floor masonry or upper ceiling perimeters. Readings exceeding sixty five percent relative humidity inside habitable rooms indicate severe ventilation failures or structural waterproofing defects requiring immediate landlord remediation.\n\nPersistent black mould growth around window reveals points towards chronic condensation caused by inadequate trickle vents and poor property ventilation habits. Tenants must document these visual anomalies thoroughly during the inventory check-in process to prevent unfair deposit deductions at tenancy termination.\n\nExternal brickwork inspection reveals cracked mortar joints and failing rendering that allow driving rain to penetrate the internal structural cavity. Ensuring the building envelope remains watertight protects your personal belongings from ruinous mould spores throughout the agreed rental term.",
-        "bullets": [],
+        "heading": "Inspecting Three Bedroom Proportions on Site",
+        "body": "Online property listings use wide angle camera lenses that make modest bedrooms look enormous. Visiting a house in person with a metal tape measure is the only reliable way to check if furniture will fit.\n\nCheck the downstairs living areas for everyday family comfort. Look for space to sit together comfortably, and verify that dining chairs do not block kitchen cupboards or French doors leading out to the garden."
+      },
+      {
+        "level": "h3",
+        "heading": "Verifying the Third Bedroom Dimensions",
+        "body": "The third bedroom in a three bedroom house is often small. Statutory overcrowding standards state that any room designated for a person over ten years old must provide at least six and a half square metres of floor space.\n\nWatch out for awkward staircase bulkhead boxes that cut into the floor plan of the smallest bedroom. A large wooden box built over the stairs can stop you from fitting a standard single bed flat on the carpet.",
         "image": "https://images.unsplash.com/photo-1783785148139-04dfa5c533bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpZ2h0JTIwbW9kZXJuJTIwaGFsbHdheXxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Clean minimalist hallway with timber flooring and soft neutral wall paint",
-        "imageCaption": "Thoughtfully proportioned entryways set the tone for a well-maintained rental home",
+        "imageCaption": "Thoughtfully proportioned entryways set the tone for a well maintained rental home",
         "imageCredit": {
           "name": "Sou Jest",
           "link": "https://unsplash.com/@soujest"
         }
       },
       {
-        "level": "h3",
-        "heading": "Cold Mains Water Pressure and Gravity Shower Performance",
-        "body": "Testing cold mains water pressure protects your daily routine from frustratingly weak shower performance and sluggish basin filling speeds. Turn on multiple taps simultaneously while flushing the toilet to check if water flow drops to an unacceptable trickle across the property.\n\nOlder British properties relying on gravity fed hot water systems often require noisy twin impeller booster pumps to deliver satisfactory shower experiences. Inspect the airing cupboard cylinder to determine whether the setup utilises an unvented pressurised tank or an outdated open vented copper cylinder.\n\nChecking mixer valve responsiveness ensures hot and cold water blends smoothly without sudden scalding temperature fluctuations during peak morning usage hours. Documenting water pressure anomalies during your initial viewing empowers you to request necessary plumbing upgrades before moving in.\n\nLow mains pressure severely hampers modern washing machines and dishwashers relying on adequate inlet flow to complete cleaning cycles efficiently. Verifying dynamic flow rates directly from the stopcock provides absolute clarity regarding the overall health of the domestic water infrastructure.",
-        "bullets": []
+        "level": "h2",
+        "heading": "Mandatory Safety Certificates Every Landlord Must Provide",
+        "body": "Landlords carry strict legal duties to keep properties safe before handing over keys. Professional letting agents will readily provide digital copies of all mandatory safety records during your application."
       },
       {
-        "level": "h2",
-        "heading": "UK Tenancy Law and Statutory Five Week Deposit Caps",
-        "body": "Navigating British residential tenancy law ensures your financial exposure remains strictly limited under current government statutes and consumer regulations. Landlords and letting agents must adhere to strict legislative boundaries governing upfront payments and mandatory deposit protection schemes within thirty days.\n\nThe regulatory framework provides essential safeguards for tenants entering into assured shorthold tenancy agreements across the private rental sector. Understanding these legal protections prevents unlawful financial demands and secures your statutory rights throughout the entire duration of your stay.\n\nComprehensive photographic check-in inventory evidence serves as your primary legal defense when disputing unfair end of tenancy deposit withholding claims. Documenting every scuff mark and preexisting structural defect protects your hard earned capital from unscrupulous landlord deductions upon vacating.\n\nFamiliarising yourself with these statutory provisions grants immense confidence when negotiating tenancy terms and reviewing formal contract clauses with letting agents. Always insist upon official government backed deposit scheme certificates before transferring any initial funds to your landlord.",
+        "level": "h3",
+        "heading": "Gas Safety EICR and EPC Compliance Records",
+        "body": "Every rental property with gas appliances must have an annual Landlord Gas Safety Record signed by a Gas Safe engineer within the past twelve months. Electrical installations require a satisfactory condition report carried out within the last five years.\n\nCheck the Energy Performance Certificate rating carefully before applying. A poorly insulated home rated E can cost two hundred fifty pounds a month in winter gas heating, compared to one hundred twenty pounds for an efficient C rated house.",
         "bullets": [
-          "Holding deposits are legally restricted to a maximum of one week of total agreed rental value.",
-          "Security deposits for properties under fifty thousand pounds annual rent are capped at five weeks.",
-          "Tenancy agreements must be protected in a government approved scheme within thirty days."
+          "Make sure an annual gas safety record shows recent inspection dates for boilers and hobs.",
+          "Check the electrical installation condition report confirms sockets and fuse boards are safe.",
+          "Verify working smoke alarms on every level and carbon monoxide detectors near boilers."
         ]
       },
       {
         "level": "h2",
-        "heading": "Secure Your Tenancy",
-        "body": "Executing thorough technical due diligence safeguards your household against structural pitfalls and financial disputes throughout your tenancy. Diligent preparation guarantees lasting residential stability.\n\nApproach your property search with uncompromising architectural scrutiny to secure a comfortable home.",
-        "bullets": []
+        "heading": "Calculating Real Monthly Running Costs Beyond Rent",
+        "body": "Focusing only on the rent payment is an easy way to underestimate your real monthly housing costs. A three bedroom house comes with council tax, water rates, and energy bills that add up quickly.\n\nCouncil tax is usually the largest extra expense. Most typical family homes fall into local authority Band C or Band D, costing between one hundred sixty and two hundred twenty pounds each month.\n\nWater rates for a family household typically add another forty to fifty five pounds monthly. Checking these numbers with local utility providers before signing helps you avoid financial strain later."
+      },
+      {
+        "level": "h2",
+        "heading": "Protecting Your Five Week Deposit with a Detailed Inventory",
+        "body": "Under the Tenant Fees Act, security deposits are legally capped at five weeks rent for homes under fifty thousand pounds annual rent. Landlords must register your deposit in a government backed scheme like the Deposit Protection Service within thirty days.\n\nOn the day you collect the keys, take clear digital photographs of every room, carpet stain, and window seal. Having a detailed dated inventory protects your money from unfair deductions when your tenancy ends."
       }
     ],
     "faqs": [
       {
-        "question": "What is the maximum legal security deposit a landlord can charge for a rental property?",
-        "answer": "Security deposits are legally capped at five weeks of rent for properties with an annual rent under fifty thousand pounds."
+        "question": "What is the legal limit on tenancy security deposits in Britain?",
+        "answer": "Deposits are legally capped at five weeks of rent for properties with an annual rent below fifty thousand pounds."
       },
       {
-        "question": "How can I test water pressure during a property viewing?",
-        "answer": "Turn on multiple taps simultaneously and flush the toilet to check if the water flow drops to an unacceptable trickle."
+        "question": "Can a British landlord accept rental bids above the advertised price?",
+        "answer": "No, landlords and letting agents are legally banned from accepting offers above the published asking rent."
       },
       {
-        "question": "What minimum EPC rating must a rental property achieve before it can be legally marketed?",
-        "answer": "Landlords must legally provide an Energy Performance Certificate rated E or higher before letting a residential property."
+        "question": "What minimum energy rating must a rental house have in the UK?",
+        "answer": "A rental property must have a valid Energy Performance Certificate rated E or higher to be let legally."
       }
     ],
     "tags": [
