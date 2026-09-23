@@ -322,23 +322,38 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Spatial Proportions and The 600mm Circulation Clearance",
-        "body": "Designing a private bedroom suite requires meticulous attention to floor plans and spatial geometry. Placing a reading chair demands respect for human movement and architectural flow. Without adequate clearance around the perimeter, even the finest bespoke armchair creates a frustrating spatial bottleneck.\n\nMaintaining a minimum six hundred millimetre walking pathway around your furniture prevents rooms from feeling cramped or cluttered. Standard luxury armchairs often measure eight hundred fifty millimeters in width and nine hundred millimeters in depth. Always verify these footprint dimensions against your intended bedroom layout.\n\nDelivery logistics frequently challenge homeowners when bringing large furniture items upstairs or through tight corridors. Doorway delivery clearance requires measuring internal hallways and turning circles before ordering any heavy upholstered seating. Proper planning ensures your investment arrives safely without damaging walls or joinery.\n\nWhen positioning your seating piece, account for the full extension of footstools or ottomans if paired together. Leaving sufficient breathing room around the furniture preserves the tranquil atmosphere essential for a restful sleep sanctuary.",
-        "bullets": [
-          "Verify minimum doorway delivery clearance of seventy five centimetres to allow smooth entry for fully assembled custom armchairs.",
-          "Maintain a strict six hundred millimetre circulation perimeter between the chair edge and adjacent wardrobe doors or bedside tables.",
-          "Check total room diagonal dimensions to ensure adequate turning space when positioning large lounge chairs near bedroom corners."
-        ]
+        "heading": "Defining the Primary Role in Your Bedroom",
+        "body": "Before buying any chair, decide how you will actually use it every day. Without a clear daily job, a bedroom armchair quickly becomes a dumping ground for laundry, dressing gowns, and extra pillows.\n\nThink about your daily habits. If you need a quiet spot for thirty minutes of morning coffee or evening reading, you need proper back support. Getting this right from the start saves you from buying an expensive piece of furniture that nobody sits on."
       },
       {
         "level": "h3",
-        "heading": "European Beech Joinery vs Engineered Softwood Frames",
-        "body": "The skeletal integrity of any master bedroom chair begins with the timber species selected for internal framing. Kiln dried European beech offers superior structural stability compared to cheaper commercial softwoods which warp over time. Selecting dense hardwoods prevents annoying creaks and structural wobbles during daily use.\n\nTraditional mortise and tenon joinery methods provide maximum resistance against lateral stress placed upon the armrests. Reinforcing frame corners with solid wooden blocks ensures load bearing joints remain completely rigid for decades. This meticulous craftsmanship guarantees your seating withstands rigorous daily habitation.\n\nQuality manufacturers subject their hardwood frames to rigorous dynamic drop testing to simulate decades of heavy sitting. A certified one hundred thirty kilogram dynamic test rating proves the internal joinery can handle variable weight loads safely. Investing in certified frames protects your long term financial investment.\n\nAvoiding particle board or mixed ply alternatives ensures your furniture maintains structural integrity in varying bedroom humidity conditions. Solid timber frames respond predictably to environmental changes without compromising the overall geometry of the upholstered silhouette."
+        "heading": "Dedicated Reading Chair vs Dressing Vanity Seating",
+        "body": "A reading chair needs a wide, deep seat and sturdy armrests that support your elbows while holding a book. It should give you enough room to tuck a leg under without feeling wedged between the sides.\n\nVanity seating is completely different. Dressing tables need compact tub chairs or armless stools so your elbows can move freely when brushing hair or getting ready in the mirror."
       },
       {
         "level": "h2",
-        "heading": "Ergonomic Seat Angles for Prolonged Evening Reading",
-        "body": "Reading in bed or an armchair for extended periods demands proper ergonomic support to prevent physical strain. A carefully calibrated one hundred five degree backrest recline angle supports the spine while encouraging relaxed posture. This specific inclination reduces pressure points across the lower thoracic vertebrae effectively.\n\nThe standard four hundred fifty millimetre seat height from the finished floor optimizes leg positioning for average adult heights. Knees should bend at a comfortable ninety degree angle with feet resting flat on the floor surface. Incorrect seat heights cause unnecessary fatigue during long reading sessions.\n\nLumbar support relies heavily on high density polyurethane foam cores wrapped in responsive channeled feather channels. High density fillings prevent bottoming out over time and maintain firm structural loft through years of evening relaxation. Quality cushioning balances plush surface softness with resilient inner core support.\n\nArmrest heights must align naturally with your shoulders to prevent muscular tension building across the upper back. Proper arm placement allows you to hold heavy hardcover books comfortably without straining your neck or shoulder joints.",
+        "heading": "Room Scale and Circulation Clearance",
+        "body": "A heavy armchair will choke a modest bedroom if you do not leave enough walking room. Always keep at least six hundred millimetres of clear floor space around the chair so you do not bump your shins walking past in the dark.\n\nTake painter tape and mark the exact footprint on your floor before ordering. Open your wardrobe doors and bedside drawers fully to make sure the chair does not block daily storage.",
+        "bullets": [
+          "Keep six hundred millimetres of open walkway between chair edges and wardrobe doors.",
+          "Check that your upstairs hallway and doorways have at least seven hundred fifty millimetres of clear width for delivery day.",
+          "Leave ninety millimetres between wooden chair legs and skirting boards so hoovering remains easy."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Timeless Chair Silhouettes That Never Date",
+        "body": "Trendy furniture shapes look outdated after a few years. Sticking to proven, simple lines means your bedroom seating still looks right even if you repaint the walls or change the bedlinen down the road.\n\nLook for grounded shapes with solid proportions. Straightforward designs with gentle curves sit just as comfortably in an older Victorian terrace as they do in a brand-new home."
+      },
+      {
+        "level": "h3",
+        "heading": "Classic Wingback vs Curved Barrel Chair",
+        "body": "A traditional British wingback works well in older homes because the side wings cut out cold window draughts. The high back gives your neck and head a place to rest when reading late at night.\n\nA curved barrel chair is a smarter pick if floor space is tight. The rounded back wraps neatly around your lower back while taking up less physical room in the corner."
+      },
+      {
+        "level": "h2",
+        "heading": "Seat Ergonomics and Cushion Filling Depth",
+        "body": "Good seating comes down to simple measurements. Aim for a seat height of four hundred fifty millimetres from the carpet so your feet rest flat on the floor and your knees sit at a right angle.\n\nA seat depth between five hundred twenty and five hundred sixty millimetres stops the edge from digging into the back of your thighs. For cushions, pick high-resilience reflex foam wrapped in a duck feather layer so the seat does not sag flat after six months of daily sitting.",
         "image": "https://images.unsplash.com/photo-1691084815367-3bffba1405f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwY2hhaXIlMjBkZXRhaWwlMjBqb2luZXJ5fGVufDB8MHx8fDE3ODk5ODQwMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close detail of mortise and tenon joinery on an oak bedroom chair frame",
         "imageCaption": "Precision timber joinery ensures structural stability and long term performance.",
@@ -348,38 +363,33 @@ export const ARTICLES = [
         }
       },
       {
-        "level": "h3",
-        "heading": "High Rub Count Textiles and BS 5852 Fire Safety Rules",
-        "body": "Selecting upholstery fabrics for bedroom chairs requires balancing tactile luxury with rigorous industrial durability standards. Martindale rub cycles exceeding thirty five thousand turns guarantee the textile withstands years of friction without wearing thin. Heavy weight wool velvets and tightly woven natural boucles offer exceptional longevity.\n\nUK domestic furniture regulations mandate strict compliance with British Standard five eight five two fire safety rules. Upholstery fabrics must pass stringent cigarette and match ignition tests to ensure residential safety standards are fully met. Fire barrier interliners placed beneath the outer textile provide essential secondary protection.\n\nNatural fibers like wool provide inherent flame retardant properties while offering superior breathability compared to synthetic alternatives. Combining these durable textiles with certified barrier interliners creates a safe and luxurious seating environment for your home. Quality suppliers provide complete fire safety documentation upon request.\n\nRoutine fabric maintenance benefits greatly from choosing high rub count materials that resist snagging and pilling. Investing in superior textiles ensures your bedroom chair retains its pristine appearance through years of daily domestic wear."
+        "level": "h2",
+        "heading": "Upholstery Fabrics for Daily Wear and Longevity",
+        "body": "Fabric needs to handle everyday friction without thinning out. Check the Martindale rub test score on the swatch, and do not buy anything rated under thirty-five thousand rubs for regular use.\n\nUnder UK regulations, all domestic furniture must pass British Standard five eight five two fire safety tests for cigarette and match resistance. Heavy wool weaves and thick linen blends breathe well, clean up easily, and last years longer than cheap polyester."
       },
       {
         "level": "h2",
-        "heading": "Natural Lighting Alignment and Wall Sconce Placement",
-        "body": "Positioning your reading chair in relation to natural light sources enhances both visual comfort and room ambiance. Aligning the seating piece near bedroom windows captures beneficial daylight for daytime reading without causing annoying screen glare. Consider seasonal sun paths when planning your furniture layout.\n\nEvening reading requires careful integration of wall sconces and focused task lighting near the seating area. Positioning light sources slightly behind and to the side prevents harsh shadows from falling across your book pages. Coordinating lighting fixtures with bedside joinery maintains a cohesive aesthetic throughout the suite.\n\nPart P electrical planning ensures any new wall lighting or floor sockets comply with current building regulations. Employing qualified electricians for wiring concealed circuits prevents safety hazards while delivering clean aesthetic finishes. Thoughtful switch placement allows easy illumination control from your seated position.\n\nLayered lighting schemes combine ambient ceiling fixtures with focused reading lamps to create versatile evening moods. Proper illumination transforms your bedroom corner into a functional yet relaxing sanctuary after sunset."
+        "heading": "Strategic Placement Within the Master Suite",
+        "body": "Where you put the chair matters just as much as how it looks. Setting it by a window gives you natural daytime light, but make sure the glass is well-sealed so you do not catch an evening chill.\n\nAdd a small timber side table for a tea mug and a warm 2700K floor lamp for reading. This turns an empty corner into a practical, comfortable spot to sit away from the bed."
       },
       {
         "level": "h2",
-        "heading": "Long Term Timber Maintenance and Fabric Care",
-        "body": "Preserving the immaculate condition of your bespoke bedroom chair requires simple yet consistent maintenance routines over time. Annual upholstery vacuuming using low suction attachments removes microscopic dust particles before they embed within textile fibers. Gentle brush attachments protect delicate boucle loops from accidental snagging.\n\nExposed natural wood legs benefit from periodic treatments using high grade beeswax or specialized furniture oils. Nourishing the timber prevents dryness and highlights the rich grain patterns inherent in European beech joinery. Avoid harsh chemical cleaners that strip natural finishes away from the wood.\n\nImmediate spot cleaning of accidental liquid spills prevents permanent staining on sensitive natural upholstery fabrics. Blotting spills gently with a clean white cloth avoids driving moisture deeper into the internal foam cushioning. Professional dry cleaning services should handle deep textile refreshments periodically.\n\nChecking structural bolt connections annually ensures frame rigidity remains uncompromised through seasonal temperature shifts. Tightening loose fixings preserves the integrity of internal joinery and extends the operational lifespan of your furniture."
-      },
-      {
-        "level": "h2",
-        "heading": "Final Buyer Checklist",
-        "body": "Master bedroom seating demands careful balancing of spatial proportions, ergonomic angles, and certified structural joinery materials. Assessing every technical specification ensures your investment delivers lasting comfort and timeless elegance.\n\nPrioritize solid hardwood frames, high rub count textiles, and proper clearance measurements to complete your sanctuary."
+        "heading": "Buying Checklist",
+        "body": "Take accurate floor measurements and check staircase clearance before ordering any custom-made chair.\n\nStick to solid kiln-dried beech frames, verified high rub count fabrics, and cushion fillings that hold their shape."
       }
     ],
     "faqs": [
       {
         "question": "What is the ideal seat height for a bedroom reading chair?",
-        "answer": "The ideal seat height is four hundred fifty millimetres from the finished floor to support proper posture."
+        "answer": "Four hundred fifty millimetres from the floor allows feet to rest flat and prevents leg strain."
       },
       {
         "question": "How many Martindale rubs are recommended for durable bedroom upholstery?",
-        "answer": "Upholstery fabrics should exceed thirty five thousand Martindale rub cycles for long lasting durability."
+        "answer": "Look for thirty-five thousand rubs or higher to prevent fabric thinning on high-wear spots."
       },
       {
         "question": "Why is kiln dried European beech preferred for chair frames?",
-        "answer": "Kiln dried European beech provides exceptional structural stability and prevents warping over time."
+        "answer": "Kiln-dried beech stays rock solid and will not warp, crack, or creak as seasonal heating turns on and off."
       }
     ],
     "tags": [
