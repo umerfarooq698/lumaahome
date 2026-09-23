@@ -646,26 +646,26 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "The Three Tier Illumination Hierarchy for Period Living Spaces",
-        "body": "Illuminating a traditional British living room requires a methodical approach that respects heritage proportions while incorporating modern spatial utility. Master craftsmen understand that single pendant fixtures fail to create depth, flattening historic plasterwork and leaving dark corners in reception rooms with low natural daylight.\n\nEstablishing a robust three tier lighting strategy divides your illumination requirements into ambient, task, and accent categories. Each tier performs a distinct physiological and aesthetic function, transforming the room from a stark functional box into a warm space with rich architectural shadows and comforting visual weight.\n\nBalancing these three layers prevents glare and eliminates harsh shadows across period cornicing and skirting boards. Historic properties demand careful consideration of surface reflectance values, ensuring light bounces naturally off lime plastered walls and timber joinery without causing uncomfortable visual fatigue during evening relaxation hours.\n\nExecuting this hierarchy successfully involves mapping out exact furniture layouts before touching any electrical cabling. By identifying where reading, conversation, and media consumption occur, you can distribute electrical loads evenly across multiple circuits, achieving a professional architectural finish worthy of top heritage publication standards."
-      },
-      {
-        "level": "h3",
-        "heading": "Layer One Ambient Illumination and Concealed Joinery LED Profiles",
-        "body": "Ambient illumination forms the foundational layer of any sophisticated British living space. Rather than relying on glaring central pendants, modern heritage lighting favors indirect ceiling washes and concealed joinery integration. This technique highlights original cornicing and creates a soft, enveloping glow throughout the entire room.\n\nInstalling linear LED tape within custom cabinetry requires careful thermal management and precise aluminum extrusion housing. When fitted behind floating shelving or within bespoke media joinery, these concealed strips cast a gentle downward or upward wash that accentuates timber grain without exposing harsh diode hotspots.\n\nSelecting the correct technical specification for ambient tape is vital for achieving a warm domestic atmosphere. Low quality diodes often produce an uninviting greenish tint, ruining the natural tones of heritage oak flooring, wool carpets, and traditional lime wash finishes across your reception room walls and architectural features.\n\nProfessional installers always house these LED ribbons inside deep aluminum profiles fitted with frosted opal diffusers. This extra hardware step blends individual light points into a continuous ribbon of radiance, protecting the delicate eyesight of residents while providing uniform background illumination across the space.",
-        "bullets": [
-          "Specify a strict 2700K warm white colour temperature to replicate traditional incandescent glow.",
-          "Demand a minimum Color Rendering Index of 90 plus to ensure accurate fabric and timber tones.",
-          "Utilize constant voltage 24V drivers positioned remotely for easy maintenance access."
-        ]
+        "heading": "Ditching the Central Ceiling Pendant",
+        "body": "Relying on a single bright ceiling pendant in the middle of a living room is the fastest way to make a beautiful space feel flat and cold. A single overhead bulb casts harsh downward shadows under coffee tables and leaves the perimeter corners of your room in total darkness.\n\nIn British period homes with high ceilings, that central pendant often glares directly into your eyes when you recline on the sofa. Good interior lighting never comes from one central point. True warmth comes from spreading softer light sources around the room at different heights."
       },
       {
         "level": "h2",
-        "heading": "Layer Two Directional Task Lighting for Reading Zones",
-        "body": "Task lighting delivers concentrated illumination for specific activities such as reading, needlework, or writing at a traditional bureau. In British living rooms, this layer prevents eye strain by providing adequate lux levels directly onto the page without flooding the surrounding architectural envelope with intrusive brightness.\n\nPositioning reading lamps requires careful ergonomic calculation regarding height and angle relative to upholstery. Placing a substantial floor standing luminaire precisely fifteen hundred millimetres from the seating corner ensures optimal downward throw while keeping the physical light source safely outside your direct line of sight.\n\nTargeting a consistent three hundred lux at reading plane height guarantees visual comfort during extended evening sessions. Adjustable brass or bronze articulated arms allow homeowners to direct the beam precisely where needed, accommodating shifting seating postures while maintaining a refined aesthetic during daytime hours.\n\nIntegrating these task elements with floor box wiring or switched low level sockets prevents unsightly trailing flexes across historic parquet flooring. Thoughtful placement keeps power cords completely hidden behind heavy linen upholstery, preserving the clean architectural lines of your carefully curated period interior design scheme.",
+        "heading": "The Three Lighting Layers",
+        "body": "Professional lighting schemes work by blending ambient background glow, focused task lighting, and decorative accent beams. When combined, these three distinct layers give your living room visual depth while letting you alter the atmosphere from daytime family living to intimate evening drinks."
+      },
+      {
+        "level": "h3",
+        "heading": "Low Level Floor and Table Lamps",
+        "body": "Table lamps placed on sideboards and lamp tables create low pools of comforting light around seating areas. Position table lamps at roughly six hundred millimetres from the carpet so the shade rim sits below eye level when you sit down.\n\nPair these with a directional floor lamp beside your favourite reading armchair. This gives you direct, focused light over a book or tablet screen without forcing you to turn on brighter overhead lights that disturb others in the room."
+      },
+      {
+        "level": "h3",
+        "heading": "Mid Level Wall Sconces at Eye Height",
+        "body": "Wall sconces act as the visual bridge between your floor lamps and the ceiling. Mounting decorative sconces between fifteen hundred and sixteen hundred millimetres above the finished floor places the light fixture right in your natural sightline.\n\nChoose wall lights with fabric shades or opaque brass shields that cast soft washes of light upward and downward against the plaster. This vertical wash flatters wall colours and highlights the texture of wallpaper or natural lime plaster finishes.",
         "image": "https://images.unsplash.com/photo-1771681278446-6f8eb0c7323f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjB3YWxsJTIwc2NvbmNlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTg0MjYwOXww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "A solid unlacquered brass wall sconce casting warm ambient light against a lime plaster wall",
-        "imageCaption": "Hand-finished brass sconces cast warm perimeter light while aging gracefully over time.",
+        "imageCaption": "Hand finished brass sconces cast warm perimeter light while aging gracefully over time.",
         "imageCredit": {
           "name": "Clay Banks",
           "link": "https://unsplash.com/@claybanks"
@@ -673,32 +673,47 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "Layer Three Accent Framing and Architectural Art Lighting",
-        "body": "Accent lighting provides the vital third dimension by drawing the eye toward specific architectural focal points, artwork collections, and masonry details. This deliberate contrast adds dramatic depth, transforming a flat interior into a visually rich environment filled with sophisticated shadows and carefully managed highlights.\n\nIlluminating oil paintings or framed heritage prints demands specialized picture lights equipped with adjustable optical framing shutters. These optical attachments restrict light spillage entirely to the canvas perimeter, preventing harmful ultraviolet degradation while ensuring the artwork becomes an undeniable visual anchor within the room.\n\nRecessed wall washers or miniature uplights positioned inside original alcoves highlight masonry texture and display shelving collections effectively. Using low glare diffusers and narrow beam angles ensures the light grazes the plaster surface smoothly, emphasizing historical irregularities rather than washing them out entirely.\n\nBalancing the intensity of these accent fixtures against the broader ambient layer prevents the space from feeling like a commercial art gallery. Careful commissioning on site ensures the highlighted artwork feels integrated with the room architecture rather than floating as an isolated bright patch on the wall."
+        "heading": "High Level Perimeter Washes",
+        "body": "Instead of glaring spotlight grids drilled across the middle of your ceiling, direct high level lights toward the outer walls. Angling recessed downlights toward plain walls or long curtains bounces indirect light back into the centre of the room.\n\nBouncing light off vertical surfaces makes small living rooms feel much wider than they actually are. Hidden LED strip lighting tucked into ceiling coving or above picture rails provides a gentle glow that lifts low ceilings effortlessly."
       },
       {
         "level": "h2",
-        "heading": "Circuit Zoning Dimming Protocols and Part Regulations",
-        "body": "Mastering the electrical infrastructure of a British living room requires robust circuit zoning and modern dimming technology. Split multi-circuit switching allows homeowners to alter the mood instantly, shifting from bright daytime reception mode to intimate evening relaxation by adjusting individual lighting tiers independently.\n\nUpgrading legacy dimmers to modern trailing-edge technology eliminates annoying LED flicker and audible buzzing sounds. Trailing-edge dimmers control phase cutting smoothly at the end of the AC waveform, protecting sensitive electronic drivers and significantly extending the operational lifespan of your high end architectural luminaires.\n\nCompliance with UK Building Regulations Part P is mandatory for all domestic electrical installation and wiring alterations within living spaces. Hiring a qualified professional registered with a competent person scheme ensures all concealed cabling, junction boxes, and protective devices meet rigorous safety standards before sign off.\n\nProviding a comprehensive electrical certificate upon completion protects your property investment and satisfies insurance requirements for heritage renovations. Proper documentation details every circuit load, driver location, and switching point, giving future surveyors complete clarity regarding the hidden electrical engineering behind your walls."
+        "heading": "Consistent Warm 2700K Colour Temperature",
+        "body": "Nothing ruins an interior faster than mixing light bulbs with different colour temperatures. A cold bluish four thousand Kelvin bulb in a ceiling fitting clashes horribly with a warm yellow twenty seven hundred Kelvin bulb in a table lamp.\n\nAlways specify twenty seven hundred Kelvin warm white LED bulbs for every single living room fixture. Check the box for a colour rendering index score above ninety CRI so your timber joinery, wool upholstery, and wall paint look rich and natural after dark.",
+        "bullets": [
+          "Keep all bulbs at twenty seven hundred Kelvin to prevent mismatched yellow and blue light pools.",
+          "Choose dimmable LED filaments that do not buzz or flicker when turned down low.",
+          "Look for ninety CRI or higher so paint pigments and upholstery fabrics retain their true daytime colours."
+        ]
       },
       {
         "level": "h2",
-        "heading": "Project Summary",
-        "body": "Harmonious Architectural Depth.\n\nFlawless Heritage Illumination."
+        "heading": "Lighting Chimney Breasts and Alcoves",
+        "body": "Chimney breasts and fireside alcoves form the architectural focal point of classic British sitting rooms. Leaving these alcoves unlit makes your fireplace feel disconnected from the rest of the room once evening arrives.\n\nConceal warm LED ribbon tape beneath floating alcove book shelves to illuminate paperbacks and decorative ceramics. If you have framed oil paintings or family portraits above the mantelpiece, install a dedicated picture light to draw the eye toward the artwork."
+      },
+      {
+        "level": "h2",
+        "heading": "Dedicated Dimmer Circuits",
+        "body": "Controlling layered lighting requires independent wiring circuits rather than putting every lamp on a single wall switch. Ask your electrician to install a five amp lighting ring that connects table lamps straight to your main wall switches.\n\nUse trailing edge rotary dimmers or smart scene controllers so you can adjust each layer separately. Lowering the ambient downlights while keeping warm lamps glowing transforms your room for film watching in seconds."
+      },
+      {
+        "level": "h2",
+        "heading": "Setting Evening Scenes",
+        "body": "The secret to cosy lighting is setting distinct lighting scenes for different hours of the day. During late afternoon dusk, keep wall sconces and perimeter washes on to supplement fading natural window light.\n\nAs night falls, switch off the overhead perimeter fittings completely and rely only on low table lamps and shelf lighting. This low level glow calms the senses and prepares you for a restful night of sleep."
       }
     ],
     "faqs": [
       {
-        "question": "What color temperature is best for a British living room?",
-        "answer": "A warm 2700K color temperature replicates traditional incandescent warmth and flatters historic interior finishes."
+        "question": "What is the best colour temperature for living room lighting?",
+        "answer": "Twenty seven hundred Kelvin warm white creates the most relaxing atmosphere for evening living rooms."
       },
       {
-        "question": "Why use trailing edge dimmers with LED fixtures?",
-        "answer": "Trailing-edge dimmers prevent annoying LED flicker and eliminate buzzing noises by managing phase cuts smoothly."
+        "question": "At what height should wall sconces be fitted in a living room?",
+        "answer": "Mount wall sconces between fifteen hundred and sixteen hundred millimetres from the floor to sit comfortably at eye level."
       },
       {
-        "question": "Is Part P compliance required for living room rewiring?",
-        "answer": "Yes, all fixed electrical installations in domestic living rooms must comply with UK Building Regulations Part P."
+        "question": "Why should you avoid a single central ceiling light?",
+        "answer": "A single central light leaves corners dark and creates harsh downward shadows across seating areas."
       }
     ],
     "tags": [
