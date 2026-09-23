@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 import { GoogleGenAI } from '@google/genai';
 import { ARTICLES, CATEGORIES } from '../src/data/articles.js';
 import { generateSitemap, generateRSS } from './generate_sitemap.mjs';
@@ -33,10 +34,7 @@ const GEMINI_MODELS = [
   'gemini-3.5-flash',
   'gemini-3.8-flash',
   'gemini-3.6-flash',
-  'gemini-3.1-flash-lite',
-  'gemini-flash-latest',
-  'gemini-flash-lite-latest',
-  'gemini-pro-latest'
+  'gemini-3.1-flash-lite'
 ];
 
 const AUTHORS_POOL = [
@@ -47,29 +45,31 @@ const AUTHORS_POOL = [
   { name: 'Clara Davenport', id: 'clara-davenport', role: 'Lead Interior Architect and Lighting Designer' }
 ];
 
-function sanitize(str) {
+/**
+ * Strict sanitization: ZERO hyphens, ZERO colons in headings, ZERO buzzwords
+ */
+export function sanitizeStrict(str) {
   if (typeof str !== 'string') return str;
-  return str.replace(/&/g, 'and').trim();
-}
-
-function cleanMetaDescription(str) {
-  if (!str) return '';
-  let cleaned = str
-    .replace(/\bdiscover\s+how\b/gi, 'How')
-    .replace(/\bdiscover\b/gi, '')
-    .replace(/\bexplore\b/gi, '')
-    .replace(/\bin-depth\b/gi, '')
-    .replace(/\bindepth\b/gi, '')
-    .replace(/\bcomprehensive\b/gi, '')
-    .replace(/\blearn more\b/gi, '')
-    .replace(/\bread more\b/gi, '')
-    .replace(/\blearn how to\b/gi, 'Master how to')
-    .replace(/\s+/g, ' ')
-    .trim();
-  if (cleaned.length > 0) {
-    cleaned = cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+  let s = str.replace(/&/g, 'and');
+  // Strip colons
+  s = s.replace(/:/g, ' ');
+  // Replace hyphens with space
+  s = s.replace(/-/g, ' ');
+  // Strip banned buzzwords
+  const banned = [
+    /\bdelve\b/gi, /\belevate\b/gi, /\btapestry\b/gi, /\btestament\b/gi,
+    /\brevolutionize\b/gi, /\brevolutionise\b/gi, /\bnestled\b/gi,
+    /\bseamlessly\b/gi, /\bparamount\b/gi, /\bcrucial\b/gi,
+    /\bfurthermore\b/gi, /\bmoreover\b/gi, /\bin conclusion\b/gi,
+    /\bsanctuary\b/gi, /\bcocoon\b/gi, /\bvisual poise\b/gi,
+    /\btimeless allure\b/gi, /\bbespoke\b/gi, /\bunlock\b/gi,
+    /\bdiscover\b/gi, /\bbeacon\b/gi, /\bsymphony\b/gi
+  ];
+  for (const b of banned) {
+    s = s.replace(b, ' ');
   }
-  return cleaned;
+  // Collapse whitespace
+  return s.replace(/\s+/g, ' ').trim();
 }
 
 function countWords(str) {
@@ -87,9 +87,9 @@ function slugify(text) {
 }
 
 /**
- * Fetch keywords from public Google Sheet
+ * Fetch keywords from public Google Sheet CSV
  */
-async function fetchGoogleSheetKeywords() {
+export async function fetchGoogleSheetKeywords() {
   console.log(`[Google Sheet] Fetching keywords from CSV URL...`);
   const res = await fetch(GOOGLE_SHEET_CSV_URL);
   if (!res.ok) {
@@ -101,7 +101,8 @@ async function fetchGoogleSheetKeywords() {
   const keywords = [];
   for (const line of lines) {
     const parts = line.split(/,|\t/).map(p => p.replace(/^"|"$/g, '').trim());
-    const cleaned = parts[0] || '';
+    // Strip zero-width spaces or hidden chars
+    const cleaned = (parts[0] || '').replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
     if (!cleaned || cleaned.toLowerCase() === 'keywords' || cleaned.toLowerCase() === 'keyword') continue;
     keywords.push(cleaned);
   }
@@ -112,7 +113,7 @@ async function fetchGoogleSheetKeywords() {
 /**
  * Check if a keyword is already covered by existing articles
  */
-function isKeywordPublished(keyword, existingArticles) {
+export function isKeywordPublished(keyword, existingArticles) {
   const normKw = keyword.toLowerCase().trim();
   const kwSlug = slugify(keyword);
 
@@ -133,50 +134,50 @@ function isKeywordPublished(keyword, existingArticles) {
 }
 
 /**
- * Category & Label mapping based on keyword
+ * Category & Label mapping based on keyword (ZERO hyphens, ZERO buzzwords)
  */
-function mapCategoryInfo(keyword) {
+export function mapCategoryInfo(keyword) {
   const kw = keyword.toLowerCase();
-  if (kw.includes('bath') || kw.includes('shower') || kw.includes('toilet') || kw.includes('wetroom')) {
+  if (kw.includes('fire pit') || kw.includes('log burner') || kw.includes('garden') || kw.includes('outdoor') || kw.includes('patio') || kw.includes('pergola') || kw.includes('borders')) {
+    return {
+      categoryId: 'garden',
+      categoryName: 'Garden',
+      categoryLabel: 'GARDEN ARCHITECTURE • OUTDOOR LIVING SPECIFICATION'
+    };
+  }
+  if (kw.includes('bath') || kw.includes('shower') || kw.includes('toilet') || kw.includes('wetroom') || kw.includes('tub')) {
     return {
       categoryId: 'bathroom',
       categoryName: 'Bathroom',
-      categoryLabel: 'SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION'
+      categoryLabel: 'BATHROOM ARCHITECTURE • SANITARYWARE SPECIFICATION'
     };
   }
-  if (kw.includes('kitchen') || kw.includes('worktop') || kw.includes('sink') || kw.includes('cabinet') || kw.includes('bin')) {
+  if (kw.includes('kitchen') || kw.includes('worktop') || kw.includes('sink') || kw.includes('cabinet') || kw.includes('bin') || kw.includes('drawer')) {
     return {
       categoryId: 'kitchen',
       categoryName: 'Kitchen',
-      categoryLabel: 'CULINARY ARCHITECTURE • BESPOKE CABINETRY'
+      categoryLabel: 'CULINARY ARCHITECTURE • CABINETRY SPECIFICATION'
     };
   }
   if (kw.includes('bedroom') || kw.includes('bed ') || kw.includes('mattress') || kw.includes('wardrobe')) {
     return {
       categoryId: 'bedroom',
       categoryName: 'Bedroom',
-      categoryLabel: 'SANCTUARY SUITES • BESPOKE JOINERY SPECIFICATION'
-    };
-  }
-  if (kw.includes('garden') || kw.includes('outdoor') || kw.includes('patio') || kw.includes('pergola')) {
-    return {
-      categoryId: 'garden',
-      categoryName: 'Garden',
-      categoryLabel: 'LANDSCAPE ARCHITECTURE • BRITISH OUTDOOR LIVING'
+      categoryLabel: 'BEDROOM ARCHITECTURE • JOINERY SPECIFICATION'
     };
   }
   if (kw.includes('living room') || kw.includes('rug') || kw.includes('sofa') || kw.includes('lamp') || kw.includes('light')) {
     return {
       categoryId: 'living-room',
       categoryName: 'Living Room',
-      categoryLabel: 'ENTERTAINING SPACES • ARCHITECTURAL PROPORTIONS'
+      categoryLabel: 'LIVING SPACES • ARCHITECTURAL PROPORTIONS'
     };
   }
-  if (kw.includes('diy') || kw.includes('paint') || kw.includes('tile')) {
+  if (kw.includes('diy') || kw.includes('paint') || kw.includes('tile') || kw.includes('plastic') || kw.includes('art club')) {
     return {
       categoryId: 'diy',
       categoryName: 'DIY',
-      categoryLabel: 'HERITAGE RESTORATION • CRAFTSMANSHIP MASTERCLASS'
+      categoryLabel: 'RESTORATION CRAFT • WORKSHOP SPECIFICATION'
     };
   }
   return {
@@ -187,40 +188,29 @@ function mapCategoryInfo(keyword) {
 }
 
 const CATEGORY_FALLBACK_IMAGES = {
+  garden: [
+    { url: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85', alt: 'Stone patio and outdoor living space with fire pit in a British garden', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'British conservatory and landscaped garden living space', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
+  ],
   kitchen: [
-    { url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury British kitchen marble worktop and bespoke island architecture', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1600&q=85', alt: 'Classic British shaker kitchen with solid oak details and quartz surfaces', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1600&q=85', alt: 'Contemporary luxury architectural kitchen cabinetry and stone worktop', credit: { name: 'Jason Leung', link: 'https://unsplash.com/@ninjason' } }
+    { url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'British kitchen stone worktop and bespoke island architecture', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
+    { url: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=1600&q=85', alt: 'Classic British kitchen with solid oak details and quartz surfaces', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
   ],
   bathroom: [
-    { url: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85', alt: 'Stone composite freestanding bath tub in a luxury architectural bathroom', credit: { name: 'Curology', link: 'https://unsplash.com/@curology' } },
-    { url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist luxury bathroom vanity and bespoke wall tile architecture', credit: { name: 'Christian Mackie', link: 'https://unsplash.com/@christianmackie' } },
-    { url: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke walk-in shower with natural stone tiles and brushed brass fittings', credit: { name: 'Sanibell BV', link: 'https://unsplash.com/@sanibell' } }
+    { url: 'https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1600&q=85', alt: 'Stone freestanding bath tub in a modern British bathroom', credit: { name: 'Curology', link: 'https://unsplash.com/@curology' } },
+    { url: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist bathroom vanity and tiled wall architecture', credit: { name: 'Christian Mackie', link: 'https://unsplash.com/@christianmackie' } }
   ],
   bedroom: [
-    { url: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=1600&q=85', alt: 'Solid oak handcrafted furniture in a luxury British bedroom suite', credit: { name: 'Sidekix Media', link: 'https://unsplash.com/@sidekix' } },
-    { url: 'https://images.unsplash.com/photo-1540518614846-7ede433c4550?auto=format&fit=crop&w=1600&q=85', alt: 'Warm luxury master bedroom with bespoke upholstered headboard', credit: { name: 'Christopher Jolly', link: 'https://unsplash.com/@cjolly' } },
-    { url: 'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1600&q=85', alt: 'Architectural bedroom suite with minimal timber bedframe and neutral styling', credit: { name: 'Spacejoy', link: 'https://unsplash.com/@spacejoy' } }
+    { url: 'https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?auto=format&fit=crop&w=1600&q=85', alt: 'Solid oak furniture in a modern British bedroom suite', credit: { name: 'Sidekix Media', link: 'https://unsplash.com/@sidekix' } }
   ],
   living: [
-    { url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'High-end British architectural living room with bespoke lounge seating', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury living room with feature fireplace and curated modular sofa', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke timber panelled reception room with period architectural details', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1600&q=85', alt: 'Period chimney breast and heritage British living room interior design', credit: { name: 'Spacejoy', link: 'https://unsplash.com/@spacejoy' } }
+    { url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'British architectural living room with comfortable lounge seating', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
   ],
   interiors: [
-    { url: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke timber panelled reception room with period architectural details', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury British drawing room with feature fireplace and natural light', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=85', alt: 'Minimalist British townhouse reception room with natural light', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1600&q=85', alt: 'Tailored luxury seating in a classic British interior architecture scheme', credit: { name: 'Martin PÃ©chy', link: 'https://unsplash.com/@martinpechy' } }
-  ],
-  garden: [
-    { url: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1600&q=85', alt: 'Bespoke British conservatory and garden room architecture', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } },
-    { url: 'https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=1600&q=85', alt: 'Luxury stone patio and architectural outdoor living space', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
+    { url: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1600&q=85', alt: 'British drawing room with feature fireplace and natural light', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
   ],
   diy: [
-    { url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Architectural joinery craftsmanship and bespoke timber interior finishing', credit: { name: 'Theme Photos', link: 'https://unsplash.com/@themephotos' } },
-    { url: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85', alt: 'Restoration woodwork and architectural timber detailing in a British home', credit: { name: 'R Architecture', link: 'https://unsplash.com/@rarchitecture_melbourne' } }
+    { url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85', alt: 'Joinery craftsmanship and timber finishing in a home workshop', credit: { name: 'Theme Photos', link: 'https://unsplash.com/@themephotos' } }
   ]
 };
 
@@ -228,10 +218,10 @@ const CATEGORY_FALLBACK_IMAGES = {
  * Fetch unique high-definition Unsplash photo
  */
 async function fetchUnsplashImage(searchQueries, categoryId, altText, usedUrls = new Set()) {
-  const catKey = (categoryId || 'living').toLowerCase();
-  const pool = CATEGORY_FALLBACK_IMAGES[catKey] || CATEGORY_FALLBACK_IMAGES.living;
+  const catKey = (categoryId || 'garden').toLowerCase();
+  const pool = CATEGORY_FALLBACK_IMAGES[catKey] || CATEGORY_FALLBACK_IMAGES.garden;
 
-  const queries = [...searchQueries, `luxury ${catKey} interior`, `british architectural ${catKey}`];
+  const queries = [...searchQueries, `modern ${catKey} design`, `british architectural ${catKey}`];
   
   for (const query of queries) {
     try {
@@ -248,7 +238,7 @@ async function fetchUnsplashImage(searchQueries, categoryId, altText, usedUrls =
           usedUrls.add(imgUrl);
           return {
             url: imgUrl,
-            alt: sanitize(altText || item.alt_description || `Luxury British ${catKey} architectural design`),
+            alt: sanitizeStrict(altText || item.alt_description || `British ${catKey} design`),
             credit: {
               name: item.user?.name || 'Unsplash Photographer',
               link: item.user?.links?.html || 'https://unsplash.com'
@@ -261,7 +251,6 @@ async function fetchUnsplashImage(searchQueries, categoryId, altText, usedUrls =
     }
   }
 
-  // Use curated category-specific fallback if Unsplash API fails or exhausts
   for (const fallback of pool) {
     if (!usedUrls.has(fallback.url)) {
       usedUrls.add(fallback.url);
@@ -273,90 +262,91 @@ async function fetchUnsplashImage(searchQueries, categoryId, altText, usedUrls =
 }
 
 /**
+ * 3 Structural archetypes to guarantee distinct layout & cadence on every run
+ */
+const LAYOUT_ARCHETYPES = [
+  {
+    name: 'Material And Engineering Deep Dive',
+    instructions: `Structure:
+1. H2 on Material Specifications with 3 distinct paragraphs (30-40 words each) covering different core materials.
+2. H2 on Structural Engineering and Load Tolerances with 2 paragraphs (30-40 words each).
+3. H2 on Sizing and Spatial Clearances with 2 paragraphs (30-40 words each).
+4. H2 on British Safety Standards and Regulations with 1 intro paragraph and 3 to 4 compliance bullets.
+5. H2 on Long Term Care and Weather Protection with 2 paragraphs (30-40 words each).
+6. H2 on Final Selection and Buying Advice with 2 narrative paragraphs (NO bullets at the end).`
+  },
+  {
+    name: 'Zone Based Layout And Sequential Walkthrough',
+    instructions: `Structure:
+1. H2 on British Installation Zones with 1 intro paragraph and 3 distinct zone breakdown bullets.
+2. H2 on Material Comparison with 2 paragraphs (30-40 words each).
+3. H2 on Surrounding Architectural Finishes and Pairings with 3 distinct paragraphs (30-40 words each).
+4. H2 on Step by Step Setup and Fitting Sequence with 1 intro paragraph and 4 sequential execution bullets.
+5. H2 on Routine Care and Seasonal Protection with 2 paragraphs (30-40 words each).
+6. H2 on Final Architectural Summary with 1 comprehensive concluding paragraph (NO bullets at the end).`
+  },
+  {
+    name: 'Spatial Planning And Safety Architecture',
+    instructions: `Structure:
+1. H2 on Circulation Clearances and Spatial Planning with 1 intro paragraph and 3 exact metric clearance bullets.
+2. H2 on Structural Design and Physical Balance with 2 paragraphs (30-40 words each).
+3. H2 on Fuel Power and Thermal Management with 2 paragraphs (30-40 words each).
+4. H2 on Environmental Protection and Surface Materials with 2 paragraphs (30-40 words each).
+5. H2 on Safe Operational Protocols with 2 paragraphs (30-40 words each).
+6. H2 on Buying Checklist and Final Layout Advice with 1 intro paragraph and 3 practical trade bullets.`
+  }
+];
+
+/**
  * Generate full high-standard article using Gemini
  */
-async function generateArticle(topic, catInfo, usedUrls) {
+export async function generateArticle(topic, catInfo, usedUrls) {
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
   const author = AUTHORS_POOL[Math.floor(Math.random() * AUTHORS_POOL.length)];
+  const archetype = LAYOUT_ARCHETYPES[Math.floor(Math.random() * LAYOUT_ARCHETYPES.length)];
 
-  const prompt = `You are a Senior Editor and Feature Writer for LUMAA HOME™, crafting an authentic, immersive, reader-first editorial feature on the keyword: "${topic}" for the category: "${catInfo.categoryName}".
+  console.log(`[AutoPublisher] Selected Layout Archetype: "${archetype.name}"`);
 
-STRICT EDITORIAL AND WRITING STANDARDS:
-1. SHORT, HIGH-READABILITY PARAGRAPHS (STRICT MANDATORY RULE): Every paragraph MUST be concise: exactly 2 to 3 clear, natural sentences (strictly 30 to 45 words per paragraph). NEVER write long, dense blocks of text. Use frequent paragraph breaks ('\\n\\n') between every 2-3 sentences to ensure top readability and easy mobile scanning.
-2. DEEPLY INFORMATIONAL AND HELPFUL CONTENT (READER-FIRST VALUE): The content MUST be genuinely helpful, deeply informational, and immediately answer the reader's core questions. Provide practical, actionable advice that a British homeowner, tenant, or renovation enthusiast can use directly. Include exact dimensions in millimetres, realistic UK price ranges in GBP (£), trade-level specifications (e.g., C24 timber, mortise and tenon joinery, British building regulations, slip ratings R10/PTV 36+, breathable lime mortars, acoustic dampening decibels), common costly mistakes to avoid, and clear step-by-step guidance. Zero generic fluff, zero robotic filler.
-3. HIERARCHICAL HEADING STRUCTURE: Use 'level': 'h2' and 'level': 'h3'.
-4. NATURAL KEYWORD INTEGRATION IN H2 HEADINGS: Naturally weave the primary keyword (or its natural variations) into the H2 major headings.
-5. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings if the keyword explicitly contains a number. If not, write organic, unnumbered editorial subheadings.
-6. MINIMAL BULLET POINTS: 3 to 4 concise items in 'bullets' only where genuine technical checklist or dimension specs add value.
-7. BODY WORD COUNT: Total article body word count across all sections MUST be strictly between 850 and 1200 words.
-8. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed. No ampersands.
-9. BANNED CLICHES: Never use 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Tapestry', 'Supercharge', 'AI', 'Game-changer', 'Seamless', 'Symphony', 'Elevate', 'Nestled', 'Furthermore', 'In conclusion', 'Testament', 'Crucial', 'Paramount', 'Beacon', 'Embark'.
-10. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use 'and').
-11. UK BRITISH ENGLISH: Use British English (colour, grey, labour, mould, timber, joinery, hearth, plaster).
-12. TOPIC-SPECIFIC FAQS: 3 to 4 concise FAQs. Question under 10-12 words, answer strictly 1 to 2 crisp, direct sentences.
-14. META DESCRIPTION: STRICTLY 135 to 140 characters in length. NEVER use words like 'Discover', 'Explore', 'In-depth', 'Indepth', 'Comprehensive', 'Learn more', 'Learn', 'Read more', 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', or 'AI'. State the subject and value directly without cliches.
+  const prompt = `You are a Senior British architectural consultant and master trades specialist writing for LUMAA HOME™.
+Write an authentic, highly practical, informative (E-E-A-T) article focused on the primary keyword: "${topic}".
+Category: "${catInfo.categoryName}".
 
-Return ONLY valid JSON matching this exact structure:
+TARGET LAYOUT ARCHETYPE:
+${archetype.instructions}
+
+CRITICAL CONSTRAINTS:
+1. ZERO HYPHENS (-) ANYWHERE in title, metaDescription, headings, body text, bullets, or FAQs! Spell out all numbers and compound words (e.g. "twenty four", "three hundred millimetres", "forty millimetres", "heat resistant", "weather resistant", "slip resistant", "free standing", "built in"). Do not use any hyphen character.
+2. ZERO COLONS (:) in any headings or title!
+3. ZERO AI BUZZWORDS: Absolutely do NOT use elevate, delve, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, in conclusion, sanctuary, cocoon, visual poise, timeless allure, unlock, discover, beacon, symphony, bespoke.
+4. TITLE LENGTH: Exactly 55 to 60 characters containing the keyword "${topic}" naturally.
+5. KEYWORD IN HEADINGS: The keyword "${topic}" or its natural variation MUST be naturally integrated into major H2 headings.
+6. SHORT BREATHABLE PARAGRAPHS: Every paragraph must be between 30 and 42 words.
+7. CONCLUSION SECTION: The final H2 section must serve as a proper conclusion and buying advice section featuring "${topic}".
+8. 3 SHORT FAQS: 3 concise FAQs with single sentence answers (no hyphens).
+9. BRITISH SPELLING & METRIC SPECS: Use British English (colour, grey, timber, joinery) and exact metric units spelled out.
+
+Return ONLY raw valid JSON:
 {
-  "title": "Exact 55 to 60 character title with keyword and no ampersands",
-  "metaDescription": "Unique 135 to 140 character meta description without banned words or ampersands",
-  "excerpt": "Concise 1-sentence architectural summary of the article without ampersands",
-  "heroImageAlt": "Detailed descriptive SEO alt text explaining the scene without ampersands",
+  "title": "Exact 55 to 60 character title with keyword",
+  "metaDescription": "One sentence meta description under 25 words without hyphens or buzzwords",
+  "excerpt": "One sentence summary under 20 words without hyphens or buzzwords",
+  "heroImageAlt": "Detailed descriptive alt text without hyphens",
   "unsplashSearchQueries": [
-    "precise 2-4 word query 1",
-    "precise 2-4 word query 2",
-    "precise 2-4 word query 3"
+    "query 1",
+    "query 2",
+    "query 3"
   ],
   "content": [
     {
       "level": "h2",
-      "heading": "Architectural Heading With Keyword Variation",
-      "body": "First paragraph of 55-70 words setting the scene with rich sensory and technical British design details.\\n\\nSecond paragraph of 55-70 words providing specific material insights, engineering tolerances, or practical homeowner context.\\n\\nThird paragraph of 50-65 words detailing long-term performance and maintenance."
-    },
-    {
-      "level": "h3",
-      "heading": "Focused Sub-Topic Analysis",
-      "body": "First concise paragraph focusing on joinery, proportions, or installation details.\\n\\nSecond concise paragraph explaining longevity and maintenance.",
-      "bullets": [
-        "Concise technical checklist item or measurement rule",
-        "Second practical decision factor without ampersands",
-        "Third high-value specification rule"
-      ]
-    },
-    {
-      "level": "h2",
-      "heading": "Material and Craftsmanship Focus",
-      "body": "First paragraph highlighting authentic materials, load capacities, and bespoke finishes.\\n\\nSecond paragraph exploring architectural balance and environmental conditions.",
-      "sectionImageQuery": "specific search query for interior details",
-      "sectionImageAlt": "Descriptive alt text for detail photo without ampersands",
-      "sectionImageCaption": "Subtle editorial caption for detail photo"
-    },
-    {
-      "level": "h3",
-      "heading": "Specific Engineering Nuance",
-      "body": "Crisp paragraph on tactile timber, stone, or plumbing mechanics.\\n\\nFollow-up paragraph on long-term patina and care."
-    },
-    {
-      "level": "h2",
-      "heading": "Architectural Longevity and Care",
-      "body": "First paragraph discussing heirloom durability and timeless UK styling.\\n\\nSecond closing paragraph offering actionable takeaway advice."
+      "heading": "Heading with keyword",
+      "body": "Paragraph 1\\n\\nParagraph 2",
+      "bullets": [] // optional bullets where required by the archetype
     }
   ],
   "faqs": [
-    {
-      "question": "What is the recommended installation clearance?",
-      "answer": "Maintain a 500 to 600 millimetre perimeter circulation zone around primary pieces to ensure unhindered movement."
-    },
-    {
-      "question": "How do you protect solid timber from environmental warping?",
-      "answer": "Apply microporous hardwax oil finishes and maintain indoor relative humidity between 45 and 60 percent."
-    },
-    {
-      "question": "Which joinery method offers the highest tensile stability?",
-      "answer": "Through-mortise and tenon joinery wedged with contrasting hardwoods delivers unmatched structural rigidity over generations."
-    }
-  ],
-  "tags": ["UK Interior", "Craftsmanship", "${topic}"]
+    { "question": "Question without hyphens", "answer": "Answer without hyphens." }
+  ]
 }`;
 
   let articleData = null;
@@ -389,17 +379,11 @@ Return ONLY valid JSON matching this exact structure:
     throw new Error('All Gemini models failed during generation.');
   }
 
-  // --- Strict Verification & Adjustments ---
-  // 1. Sanitize & Title length adjustment (55-60)
-  articleData.title = sanitize(articleData.title);
+  // --- Strict Post-Processing Sanitization ---
+  articleData.title = sanitizeStrict(articleData.title);
   if (articleData.title.length < 55) {
-    const padOptions = [
-      ` for British Homes`,
-      ` in Modern Interiors`,
-      ` for UK Architecture`,
-      ` and Spatial Design`
-    ];
-    for (const pad of padOptions) {
+    const pads = [' for British Homes', ' in Modern UK Homes', ' for Garden Living', ' and Outdoor Spaces'];
+    for (const pad of pads) {
       if ((articleData.title + pad).length >= 55 && (articleData.title + pad).length <= 60) {
         articleData.title += pad;
         break;
@@ -410,67 +394,49 @@ Return ONLY valid JSON matching this exact structure:
     articleData.title = articleData.title.substring(0, 60).trim();
   }
 
-  // 2. Meta description adjustment (135-140)
-  articleData.metaDescription = cleanMetaDescription(sanitize(articleData.metaDescription));
-  if (articleData.metaDescription.length < 135) {
-    if (!articleData.metaDescription.endsWith('.')) {
-      articleData.metaDescription += '.';
-    }
-    while (articleData.metaDescription.length < 135) {
-      articleData.metaDescription = articleData.metaDescription.replace(/\.$/, ' in UK homes.');
-    }
-  }
-  if (articleData.metaDescription.length > 140) {
-    articleData.metaDescription = articleData.metaDescription.substring(0, 137).trim() + '...';
-    if (articleData.metaDescription.length > 140) {
-      articleData.metaDescription = articleData.metaDescription.substring(0, 140);
-    }
-  }
+  articleData.metaDescription = sanitizeStrict(articleData.metaDescription);
+  articleData.excerpt = sanitizeStrict(articleData.excerpt || `Practical guide to ${topic} exploring materials dimensions and British standards.`);
 
-  // 3. Fetch Hero Image
+  // Fetch Hero Image
   console.log(`[Unsplash] Fetching hero image for queries:`, articleData.unsplashSearchQueries);
   const heroImage = await fetchUnsplashImage(
     articleData.unsplashSearchQueries || [topic],
     catInfo.categoryId,
-    articleData.heroImageAlt || `Luxury British ${catInfo.categoryName} interior architecture`,
+    articleData.heroImageAlt || `British ${catInfo.categoryName} design`,
     usedUrls
   );
 
-  // 4. Process Content Sections & Section Image
+  // Process Content Sections
   const processedContent = [];
+  let inlineImageFetched = false;
+
   for (const sec of (articleData.content || [])) {
+    const heading = sanitizeStrict(sec.heading);
+    const bodyFormatted = formatBreathableBody(sanitizeStrict(sec.body));
     const sectionObj = {
       level: sec.level || 'h2',
-      heading: sanitize(sec.heading),
-      body: formatBreathableBody(sanitize(sec.body))
+      heading,
+      body: bodyFormatted
     };
 
     if (Array.isArray(sec.bullets) && sec.bullets.length > 0) {
-      sectionObj.bullets = sec.bullets.map(sanitize);
+      sectionObj.bullets = sec.bullets.map(sanitizeStrict);
     }
 
-    if (sec.sectionImageQuery) {
-      // Filter out raw texture/macro/sample keywords to guarantee a gorgeous room interior scene
-      let cleanedSecQuery = String(sec.sectionImageQuery)
-        .replace(/\b(texture|textures|macro|close up|closeup|background|pattern|swatch|sample|material|materials|surface|grain)\b/gi, '')
-        .trim();
-      if (!cleanedSecQuery || cleanedSecQuery.length < 5) {
-        cleanedSecQuery = `luxury ${catInfo.categoryName} room interior design`;
-      } else {
-        cleanedSecQuery = `${cleanedSecQuery} luxury interior room`;
-      }
-
-      console.log(`[Unsplash] Fetching section image for query:`, cleanedSecQuery);
+    // Attach 1 inline image in the middle
+    if (!inlineImageFetched && processedContent.length === 2) {
+      inlineImageFetched = true;
+      console.log(`[Unsplash] Fetching inline section image for: ${topic}`);
       const secImg = await fetchUnsplashImage(
-        [cleanedSecQuery, `british luxury ${catInfo.categoryName} interior design`, `luxury ${catInfo.categoryName} room`],
+        [topic, `modern ${catInfo.categoryName} design`, `british ${catInfo.categoryName}`],
         catInfo.categoryId,
-        sec.sectionImageAlt || `Luxury British ${catInfo.categoryName} interior architecture`,
+        `Modern ${topic} installation in a British home`,
         usedUrls
       );
       if (secImg && secImg.url) {
         sectionObj.image = secImg.url;
-        sectionObj.imageAlt = sanitize(secImg.alt);
-        sectionObj.imageCaption = sanitize(sec.sectionImageCaption || `${catInfo.categoryName} craftsmanship details`);
+        sectionObj.imageAlt = sanitizeStrict(secImg.alt);
+        sectionObj.imageCaption = sanitizeStrict(`${topic} architectural detailing and surface materials`);
         sectionObj.imageCredit = secImg.credit;
       }
     }
@@ -478,7 +444,7 @@ Return ONLY valid JSON matching this exact structure:
     processedContent.push(sectionObj);
   }
 
-  // 5. Calculate words
+  // Calculate words
   let totalBodyWords = 0;
   processedContent.forEach(sec => {
     totalBodyWords += countWords(sec.body);
@@ -505,25 +471,25 @@ Return ONLY valid JSON matching this exact structure:
     readTime: '8 min read',
     views: `${(Math.random() * 10 + 15).toFixed(1)}k`,
     isFeatured: true,
-    excerpt: sanitize(articleData.excerpt || `An architectural guide to ${topic} exploring materials, dimensions, and craftsmanship.`),
+    excerpt: articleData.excerpt,
     metaDescription: articleData.metaDescription,
     heroImage: heroImage.url,
     image: heroImage.url,
-    heroImageAlt: heroImage.alt,
-    imageAlt: heroImage.alt,
+    heroImageAlt: sanitizeStrict(heroImage.alt),
+    imageAlt: sanitizeStrict(heroImage.alt),
     photographer: heroImage.credit.name,
     photographerUrl: heroImage.credit.link,
     content: processedContent,
     faqs: (articleData.faqs || []).map(f => ({
-      question: sanitize(f.question),
-      answer: sanitize(f.answer)
+      question: sanitizeStrict(f.question),
+      answer: sanitizeStrict(f.answer)
     })),
     tags: [
       topic,
-      `Luxury ${catInfo.categoryName}`,
+      `${catInfo.categoryName} Design`,
       'UK Interior',
-      'Architectural Joinery',
-      'Bespoke Craftsmanship'
+      'Home Renovation',
+      'Architectural Specification'
     ]
   };
 
@@ -533,9 +499,9 @@ Return ONLY valid JSON matching this exact structure:
 /**
  * Main execution function
  */
-async function main() {
-  console.log('=== LUMAA HOME AUTO PUBLISHER CRON ===');
-  console.log(`Current Time: ${new Date().toISOString()}`);
+export async function runAutoPublisher() {
+  console.log('=== LUMAA HOME AUTO PUBLISHER ===');
+  console.log(`Execution Time: ${new Date().toISOString()}`);
 
   // 1. Fetch Google Sheet Keywords
   const sheetKeywords = await fetchGoogleSheetKeywords();
@@ -544,7 +510,6 @@ async function main() {
   const existingArticles = Array.isArray(ARTICLES) ? ARTICLES : [];
   console.log(`[Database] Loaded ${existingArticles.length} existing articles.`);
 
-  // Collect all existing image URLs to prevent duplicate photos
   const usedUrls = new Set();
   existingArticles.forEach(a => {
     if (a.heroImage) usedUrls.add(a.heroImage);
@@ -566,8 +531,8 @@ async function main() {
   }
 
   if (!nextKeyword) {
-    console.log('🎉 All keywords from Google Sheet have already been published! Nothing to do.');
-    process.exit(0);
+    console.log('🎉 All keywords from Google Sheet have already been published!');
+    return;
   }
 
   console.log(`🎯 Next target keyword to publish: "${nextKeyword}"`);
@@ -585,7 +550,7 @@ async function main() {
   console.log(`FAQs: ${fullArticle.faqs.length}`);
   console.log(`--------------------\n`);
 
-  // 5. Prepend new article to ARTICLES array in src/data/articles.js, resetting previous isFeatured to false
+  // 5. Prepend new article to ARTICLES array in src/data/articles.js
   const updatedExisting = existingArticles.map(a => ({ ...a, isFeatured: false }));
   const updatedArticles = [fullArticle, ...updatedExisting];
   const articlesFilePath = path.join(ROOT_DIR, 'src', 'data', 'articles.js');
@@ -595,16 +560,32 @@ async function main() {
   fs.writeFileSync(articlesFilePath, formattedArticlesJs, 'utf-8');
   console.log(`✅ Successfully updated ${articlesFilePath} with new article: "${fullArticle.title}"!`);
 
-  // 6. Regenerate sitemap.xml and rss.xml with new article URL
+  // 6. Build static pages, sitemaps, RSS
   try {
-    generateSitemap();
-    generateRSS();
-  } catch (sErr) {
-    console.warn('⚠️ Could not auto-generate sitemap or rss:', sErr.message);
+    console.log('[Build] Running npm run build...');
+    execSync('npm run build', { cwd: ROOT_DIR, stdio: 'inherit' });
+    console.log('✅ [Build] Successfully generated static pages and sitemaps!');
+  } catch (bErr) {
+    console.error('❌ Build failed:', bErr.message);
+    throw bErr;
+  }
+
+  // 7. Git commit and push to origin main
+  try {
+    console.log('[Git] Committing and pushing to origin main...');
+    execSync(`git add src/data/articles.js public/ dist/`, { cwd: ROOT_DIR, stdio: 'inherit' });
+    execSync(`git commit -m "Auto-publish article: ${fullArticle.title}"`, { cwd: ROOT_DIR, stdio: 'inherit' });
+    execSync(`git push origin main`, { cwd: ROOT_DIR, stdio: 'inherit' });
+    console.log('✅ [Git] Successfully pushed new article to GitHub!');
+  } catch (gErr) {
+    console.warn('⚠️ Git push skipped or failed:', gErr.message);
   }
 }
 
-main().catch(err => {
-  console.error('❌ Fatal error in auto publisher:', err);
-  process.exit(1);
-});
+// Only execute directly when run as CLI script
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  runAutoPublisher().catch(err => {
+    console.error('❌ Fatal error in auto publisher:', err);
+    process.exit(1);
+  });
+}
