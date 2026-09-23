@@ -194,23 +194,23 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Victorian Terraced Houses and Hallway Clearances",
-        "body": "Working inside narrow Victorian terraces requires preserving original lath and plaster ceilings while installing slimline wall panelling. A typical 900mm wide hallway demands precise spatial planning to prevent visual clashing with traditional cast iron radiators.\n\nCarpentry teams should specify 18mm moisture resistant MDF for dado rails and skirting boards to withstand daily wear. Expect professional joinery costs around £1,400 when restoring damaged architraves along these cramped ground floor thoroughfares."
-      },
-      {
-        "level": "h2",
-        "heading": "1930s Semi Detached Homes and Partition Removal",
-        "body": "Opening up classic 1930s semi detached properties involves inspecting cavity walls and upgrading outdated consumer units to meet strict Part P electrical regulations. Structural engineers calculate exact RSJ steel beam requirements to support upper floor loads safely.\n\nHomeowners investing in these layout alterations frequently budget between £3,500 and £5,000 for steel installation and plastering work. Qualified tradespeople must issue proper building control certificates upon completion of all structural alterations.",
+        "heading": "Warm Earthy Heritage Colour Palettes for British Light",
+        "body": "British skies present a very specific atmospheric quality, shifting constantly from crisp silver to slate grey. Designing interiors for this climate requires pigments with genuine depth that respond gracefully to changing weather patterns without appearing dull or clinical.\n\nTraditional chalky emulsions absorb light differently than modern vinyl sheens, creating a powdery finish that ages beautifully over time. By selecting historic pigments derived from natural earth oxides, rooms acquire an immediate sense of permanence and architectural authority.\n\nConsider how evening lamplight interacts with your chosen wall colour before finalising sample pots on plaster. Deep ochres and muted olive greens truly come alive after dusk, wrapping period spaces in a comforting, cocooning envelope of reassuring warmth.",
         "bullets": [
-          "Always hire a structural engineer to calculate the correct RSJ steel beam size.",
-          "Ensure electrical consumer unit upgrades comply fully with current Part P regulations.",
-          "Obtain local authority building control sign off before closing up any wall cavities."
+          "Always paint large A4 sample boards and move them around different walls across the day.",
+          "Opt for authentic mineral paints with high chalk content to diffuse natural daylight softly.",
+          "Pair muddy heritage tones with crisp brilliant white woodwork to anchor proportions cleanly."
         ]
       },
       {
+        "level": "h3",
+        "heading": "Soft Clay and Muted Terracotta for North Facing Rooms",
+        "body": "North facing spaces receive cool, bluish daylight that can easily render neutral greys or stark whites rather harsh. Introducing soft clay hues and muted terracotta pigments immediately neutralises this chill, injecting a welcoming solar warmth.\n\nThese earthy undertones bounce ambient light around smaller reception rooms, making low ceilings feel remarkably generous. When paired with unlacquered brass fittings and vintage brass picture lights, clay walls glow warmly throughout chilly autumn afternoons."
+      },
+      {
         "level": "h2",
-        "heading": "Modern Kitchen Extensions and Natural Light Balancing",
-        "body": "Contemporary kitchen extensions rely on roof lanterns and high performance double glazing complying with Part L thermal efficiency standards. Builders fit robust C24 graded structural timber rafters to support expansive roof apertures and heavy glass panes.\n\nBalancing natural daylight with integrated LED task lighting prevents harsh glares on matte handleless cabinet surfaces. Professional joiners charge roughly £250 per linear metre when crafting bespoke plywood kitchen carcasses for these spaces.",
+        "heading": "Dark Oak Joinery and Fluted Glass Accented Spaces",
+        "body": "Dark timber introduces grounded weight and traditional craftsmanship into contemporary residential design schemes. Smoked and fumed oak finishes bring out rich grain patterns that celebrate natural imperfections rather than hiding them away behind heavy synthetic lacquers.\n\nCabinetry crafted from heavy timber benefits immensely from thoughtful detailing that breaks down monolithic blocks of wood. Integrating glazed doors with tactile surface profiling adds rhythmic movement across kitchen islands, library walls, and bespoke media units.\n\nCombining dark joinery with aged bronze hardware creates a tactile dialogue between structure and surface finish. This thoughtful pairing prevents heavy timberwork from dominating a modest footprint, ensuring visual harmony across open plan living zones.",
         "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85",
         "imageAlt": "Bespoke timber panelled reception room with period architectural details and natural lighting in a British home",
         "imageCaption": "Natural lime-washed plaster walls paired with bespoke timber wall panelling in a period British home.",
@@ -220,28 +220,73 @@ export const ARTICLES = [
         }
       },
       {
-        "level": "h2",
-        "heading": "Breathable Materials and Lime Plaster Maintenance",
-        "body": "Traditional British heritage properties demand breathable materials like hydraulic lime plaster to prevent trapped damp and structural timber rot. Mineral silicate paint finishes allow historical brickwork to release moisture vapor naturally without blistering or flaking.\n\nApplying breathable finishes correctly requires meticulous surface preparation and adherence to strict manufacturer drying guidelines. Homeowners should budget around £2,200 for specialist contractors to restore damp affected internal wall surfaces properly."
+        "level": "h3",
+        "heading": "Reeded Cabinet Glazing and Fluted Door Details",
+        "body": "Reeded glass offers a subtle privacy filter while catching interior light in delightful, sparkling ribbons. Using this fluted profile on kitchen wall cabinets or drinks armoires softens stored glassware into beautiful abstract shapes.\n\nMatching vertical reeded timber details on adjacent door panels creates a cohesive architectural language throughout the floor. Such considered joinery accents improve standard joinery pieces into bespoke furniture statements worthy of any country estate."
       },
       {
         "level": "h2",
-        "heading": "Expert Design Craftsmanship",
-        "body": "Successful interior upgrades across historical British properties depend entirely on respecting original construction methods and spatial limitations. Balancing authentic aesthetic charm with modern building regulations ensures long lasting structural integrity for every room.\n\nInvesting in skilled craftspeople and quality materials protects your property value while creating comfortable living environments. Proper planning prevents costly remediation work and preserves the distinct architectural character of British homes."
+        "heading": "Layering Chunky Wool Boucle with Raw Natural Linen",
+        "body": "Tactile contrast remains the secret weapon of professional interior stylists working on heritage properties. Pairing heavy, nubby wool boucle upholstery against airy, washed natural linen curtains introduces an effortless visual tension that demands physical touch.\n\nNatural fibres breathe in harmony with historic building fabrics, allowing lime plastered walls and timber floorboards to regulate moisture naturally. This acoustic and visual softness stops hard architectural lines from feeling cold or uninviting.\n\nLayering various fabric weights across sofas, armchairs, and floor cushions builds sophisticated chromatic depth without relying on bright colours. A neutral room succeeds entirely on the richness of its woven textures and organic material variations."
+      },
+      {
+        "level": "h3",
+        "heading": "Balancing Heavy Drapes with Washed Cotton Sheers",
+        "body": "Floor length wool drapes hung from forged iron poles provide essential thermal insulation for draughty sash windows. Adding lightweight cotton sheers underneath diffuses glaring sunlight while preserving daytime privacy from passing pedestrians outside.\n\nAllowing heavy drapery pools to break slightly onto aged floorboards adds a relaxed, lived-in grandeur. This traditional tailoring technique softens the perimeter of drawing rooms, making expansive spaces feel genuinely intimate and safe."
+      },
+      {
+        "level": "h2",
+        "heading": "Transforming Dead Corners into Bespoke Reading Nooks",
+        "body": "Awkward architectural alcoves and unused landing spaces offer prime opportunities for intimate functional zones. Instead of leaving these areas empty, build custom carpentry tailored precisely to the awkward proportions of your specific property floor plan.\n\nA well-designed reading nook creates a psychological sanctuary away from busy family routines and digital screens. By wrapping the corner in floor-to-ceiling bookshelves, the space transforms into a private library corner smelling faintly of paper.\n\nAttention to detail transforms a simple wooden box seat into a luxurious retreat for weekend relaxation. Generous seat depth combined with tailored feather cushions guarantees comfort during long afternoons spent reading classic novels.",
+        "bullets": [
+          "Incorporate hidden storage beneath bench seats to stow away bulky winter blankets.",
+          "Position reading lights precisely at shoulder height to avoid harsh overhead glare.",
+          "Line internal alcoves with patterned heritage wallpaper for an unexpected design surprise."
+        ]
+      },
+      {
+        "level": "h3",
+        "heading": "Built In Bench Joinery and Low Level Sconces",
+        "body": "Constructing low level banquette seating maximises floor space in narrow Victorian terraced dining rooms. Upholstering the seat back in durable ticking stripe fabric adds classic British charm to the everyday dining experience.\n\nMounting adjustable brass wall sconces directly above the banquette eliminates the need for central pendant lighting. This intimate illumination pool draws the eye downward, creating a cosy tavern-like atmosphere during candlelit suppers."
+      },
+      {
+        "level": "h2",
+        "heading": "Statement Sculptural Lighting as Room Jewellery",
+        "body": "Lighting fixtures should perform double duty as functional illumination sources and standalone sculptural artworks. Hand-blown Murano glass pendants or oxidised iron chandeliers introduce dramatic focal points above dining tables and entrance halls.\n\nChoosing fixtures with organic, irregular silhouettes prevents modern additions from overpowering historic plaster ceiling cornicing. The interplay of light passing through amber or smoked glass casts mesmerizing shadows across heritage walls after dark.\n\nDimmers remain non-negotiable accessories for establishing the correct nocturnal mood in formal reception rooms. Transitioning from bright task lighting to a soft amber glow alters the spatial perception of any British living space instantly."
+      },
+      {
+        "level": "h2",
+        "heading": "Mixing Antique Heirloom Pieces with Clean Modern Lines",
+        "body": "The most captivating British homes never look like furniture showroom catalogues assembled in a single afternoon. Curating rooms over decades with inherited family antiques alongside streamlined contemporary seating builds an authentic interior narrative.\n\nA battered Georgian oak refectory table paired with minimalist wireframe dining chairs creates thrilling design friction. The stark contrast honours historical craftsmanship while acknowledging modern ergonomic comfort requirements within the home.\n\nAvoid matching furniture suites entirely, as uniformity drains character from period properties rapidly. Embrace collected imperfection by pairing French gilt mirrors with industrial iron floor lamps and simple mid-century sideboards."
+      },
+      {
+        "level": "h3",
+        "heading": "Styling Georgian Timber Beside Contemporary Sofas",
+        "body": "Placing a sleek, low-profile contemporary linen sofa opposite a heavily carved 18th-century chest of drawers grounds the room. The clean lines of modern upholstery act as a visual palette cleanser against ornate antique timber carvings.\n\nGrounding these disparate eras with a faded antique Persian rug ties the seating arrangement together cohesively. The worn patina of vintage wool bridges historical pedigree with relaxed contemporary family living effortlessly."
+      },
+      {
+        "level": "h2",
+        "heading": "Bringing the Garden Indoors with Terracotta and Leafy Botanicals",
+        "body": "Connecting interior living zones with the surrounding English garden remains a cornerstone of thoughtful British design. Unglazed terracotta pots filled with scented pelargoniums, ferns, and potted citrus trees blur the boundaries between inside and outside.\n\nWeathered stone planters positioned immediately beside French doors create a smooth visual transition onto stone patios. As seasons shift, bringing delicate potted plants indoors protects tender foliage while maintaining a lively connection to nature.\n\nSelecting botanical prints for upholstery fabrics and lampshades reinforces this naturalistic indoor-garden dialogue subtly. When combined with natural wood finishes, rooms acquire a tranquil greenhouse atmosphere that feels restorative all year round."
+      },
+      {
+        "level": "h2",
+        "heading": "Final Verdict",
+        "body": "Creating a truly soulful British home relies on patient curation, authentic materials, and respect for original architecture. Prioritizing tactile character over fleeting trends ensures your interior space ages with enduring grace and comfort.\n\nEmbrace the charming quirks of your property, layer heritage tones with confidence, and let your personal history shape every room. True interior style emerges when thoughtful design meets comfortable, unpretentious daily living."
       }
     ],
     "faqs": [
       {
-        "question": "What is the standard hallway width in a Victorian terrace?",
-        "answer": "Victorian terrace hallways typically measure around 900mm in width."
+        "question": "Which colours work best in north facing British living rooms?",
+        "answer": "Warm ochre, terracotta, and soft muted pinks counteract cool grey northern daylight effectively."
       },
       {
-        "question": "How much does a structural RSJ steel beam installation cost?",
-        "answer": "Structural RSJ steel beam installations generally cost between £3,500 and £5,000."
+        "question": "How do you mix antique furniture with contemporary decor?",
+        "answer": "Pairing a single rustic timber antique with clean modern upholstered seating creates instant character."
       },
       {
-        "question": "Why must older British properties use breathable lime plaster?",
-        "answer": "Breathable lime plaster allows historical walls to release trapped moisture safely."
+        "question": "What is the secret to successful textile layering?",
+        "answer": "Combining heavy textured wool with smooth washed linen prevents monochrome rooms from feeling flat."
       }
     ],
     "tags": [
