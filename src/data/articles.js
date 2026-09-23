@@ -1127,7 +1127,7 @@ export const ARTICLES = [
     "slug": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "categoryLabel": "KITCHEN DESIGN • SINK AND SANITARY SPECIFICATION",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -1135,78 +1135,79 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "17.2k",
     "isFeatured": false,
-    "excerpt": "A detailed technical guide to specifying, installing, and maintaining high performance kitchen sinks tailored for contemporary UK architectural interiors.",
-    "metaDescription": "Master acoustic damping, material specifications, and precision mounting details required to fit a superior kitchen sink into UK homes.",
+    "excerpt": "Expert guide to selecting quality kitchen sinks for British homes.",
+    "metaDescription": "Master kitchen fitter advice on selecting the ideal kitchen sink for modern British homes.",
     "heroImage": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMHNpbmt8ZW58MHwwfHx8MTc4OTY3MzIzOHww&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMHNpbmt8ZW58MHwwfHx8MTc4OTY3MzIzOHww&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Modern kitchen interior featuring a sleek undermount basin and elegant brushed brass tapware set against white marble counter surfaces",
-    "imageAlt": "Modern kitchen interior featuring a sleek undermount basin and elegant brushed brass tapware set against white marble counter surfaces",
+    "heroImageAlt": "Modern kitchen interior featuring an undermount basin and brass tapware set against marble counter surfaces",
+    "imageAlt": "Modern kitchen interior featuring an undermount basin and brass tapware set against marble counter surfaces",
     "photographer": "Steven Ungermann",
     "photographerUrl": "https://unsplash.com/@steveungermann",
     "content": [
       {
         "level": "h2",
-        "heading": "Stainless Steel Engineering and Gauge Thickness Standards",
-        "body": "Specifying the correct stainless steel for a British domestic kitchen requires looking beyond aesthetic appeal to examine fundamental material properties. Premium architectural specifications demand robust 18 gauge steel measuring precisely 1.2 millimetres in thickness. Thinner residential alternatives flex dangerously under heavy cast iron cookware.\n\nA brushed satin finish remains the gold standard for contemporary culinary spaces because it effectively masks inevitable surface scratching. This directional polishing technique diffuses ambient light beautifully while maintaining a hygienic nonporous barrier against bacteria accumulation across busy family preparation zones.\n\nAcoustic performance separates cheap commercial pressings from luxury residential basins. High performance installations incorporate dense sound deadening rubber pads affixed strategically beneath the bowl to eliminate the metallic pinging noise during heavy water flow and dishwashing activities.\n\nThermal expansion coefficients of commercial grade austenitic alloys ensure long term durability against boiling water drainage. Proper grade 304 formulations prevent unsightly rust pitting even when exposed to harsh cleaning chemicals and everyday acidic food residues over decades of service."
-      },
-      {
-        "level": "h3",
-        "heading": "Fireclay Ceramic Sinks and Heritage Heat Resistance",
-        "body": "Traditional fireclay ceramic basins bring authentic British heritage charm into modern architectural interiors through time tested manufacturing processes. Vitreous china glaze fuses permanently with the dense clay body at extreme kiln temperatures, creating a remarkably durable surface that withstands daily kitchen rigours.\n\nThermal shock resistance is the defining characteristic of genuine fireclay sinks. Homeowners can confidently place scorching hot roasting pans straight from the oven at temperatures reaching two hundred and eighty degrees Celsius directly onto the ceramic surface without risking catastrophic thermal cracking.\n\nStructural integrity demands careful planning due to the immense dead weight of fireclay products often exceeding thirty kilograms. Cabinetmakers must construct heavy duty internal subframe supports using reinforced timber framing to bear this substantial load safely beneath solid stone worktops.\n\nGlazed finishes resist staining from strong pigments like beetroot and turmeric, provided abrasive scourers are avoided during daily cleaning routines. Gentle cream cleansers maintain the brilliant reflective luster that makes these classic Belfast styles enduring favourites across period properties."
+        "heading": "Comparing Stainless Steel Fireclay and Composite Kitchen Sink Materials",
+        "body": "Grade three zero four stainless steel offers brilliant longevity for any kitchen sink when you choose sixteen or eighteen gauge thickness. Always inspect the underside for thick acoustic rubber sound deadening pads that stop noisy water splashing.\n\nFireclay ceramic gives a traditional aesthetic backed by extreme durability due to twelve hundred degree firing processes. This heavy thirty kilogram material demands reinforced cabinet timber framing underneath to safely support the massive downward structural load.\n\nGranite composite quartz resin matrix surfaces provide outstanding scratch resistance and heat tolerance. This modern kitchen sink material easily resists stubborn stains from red wine and coffee while keeping a matte finish looking fresh."
       },
       {
         "level": "h2",
-        "heading": "Quartz Granite Composites and Scratch Resilience",
-        "body": "Modern quartz granite composite sinks deliver exceptional scratch resilience by combining eighty percent natural mineral quartz with advanced acrylic resins. This engineered formulation produces a remarkably tough tactile surface that shrugs off aggressive impacts from dropped ceramic plates and heavy utensils.\n\nHard water limescale accumulation represents a persistent challenge within many British domestic water supply regions. Quality composite materials feature smooth nonporous matrices that prevent mineral deposits from bonding tightly, allowing homeowners to wipe away calcium scale effortlessly using mild vinegar solutions.\n\nUltraviolet stability ensures that dark charcoal and metallic grey composite basins maintain their rich pigmentation without fading near sunlit kitchen windows. High grade manufacturing additives protect the resin binder from thermal degradation under intense direct sunlight throughout long summer months.\n\nRoutine maintenance requires applying daily mineral oil buffing treatments to preserve the deep satin sheen of composite surfaces. This simple habit conditions the resin matrix, enhancing water repellency and maintaining a showroom fresh appearance across years of intensive family use.",
+        "heading": "Undermount versus Inset Kitchen Sink Mounting Configurations",
+        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old kitchen sink straightforward during renovations.",
         "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwZ3Jhbml0ZSUyMGtpdGNoZW4lMjBzaW5rJTIwZml4dHVyZXxlbnwwfDB8fHwxNzg5NjczMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Close up photo of modern granite composite sink bowl fitted into dark quartz worktop",
-        "imageCaption": "Composite quartz basins absorb physical impacts while dampening unwanted acoustic reverberation.",
+        "imageAlt": "Granite composite kitchen sink bowl fitted into dark quartz worktop",
+        "imageCaption": "Composite quartz basins absorb physical impacts while dampening acoustic sound",
         "imageCredit": {
           "name": "Steven Ungermann",
           "link": "https://unsplash.com/@steveungermann"
         }
       },
       {
-        "level": "h3",
-        "heading": "Undermount versus Inset Mounting Performance",
-        "body": "Choosing how the basin integrates with the surrounding worktop dictates both visual cleanliness and long term water containment around the wet zone. Solid stone surfaces are mandatory for undermount installations because exposed engineered wood cores would swell rapidly if moisture bypassed the silicone sealant barrier.\n\nApplying high grade waterproof silicone jointing around the perimeter prevents stagnant water ingress into vulnerable countertop joints. Installers must carefully tool this bead to eliminate microscopic gaps where culinary debris and bacteria could otherwise accumulate during routine food preparation tasks.\n\nOverhang reveals require precise dimensional coordination between the fabricator and the sink manufacturer to ensure proper aesthetic alignment. A positive reveal exposes the sink rim edge deliberately, whereas a zero reveal creates a flush transition requiring meticulous CNC stone cutting precision.\n\nEvaluating structural clearance beneath the cabinetry ensures that clips and mounting brackets do not interfere with waste disposal units or plumbing traps. Professional fitters always dry fit the entire assembly before applying final structural adhesives to guarantee complete mechanical stability.",
+        "level": "h2",
+        "heading": "Choosing Kitchen Sink Bowl Depths and Internal Proportions",
+        "body": "Deep single bowl layouts provide massive internal capacity for washing oversized baking trays and heavy roasting pots easily. Selecting a deeper basin stops water splashing onto surrounding worktops while accommodating bulky cookware without trouble.\n\nOne and a half bowl configurations deliver supreme practicality for busy households needing simultaneous food preparation and dish draining. You can rinse vegetables in the small basin while dirty plates soak in the main bowl."
+      },
+      {
+        "level": "h2",
+        "heading": "British Plumbing Compliance and Kitchen Sink Waste Traps",
+        "body": "Navigating UK plumbing regulations ensures your new kitchen sink setup operates safely without leaks or drainage blockages. Proper installation requires adherence to specific building standards regarding pipe gradients and approved component materials across every connection.",
         "bullets": [
-          "Undermount sinks require solid stone or composite worktops to prevent core water damage",
-          "Inset top mount models suit laminate surfaces by overlapping the waterproof countertop cut out",
-          "Flush mount installations demand CNC stone routing for a perfectly level transition plane"
+          "Fit WRAS approved waste fittings to satisfy strict UK water authority standards for public health safety",
+          "Install forty millimetre waste pipe traps with proper gradient falls to prevent sluggish grey water drainage",
+          "Choose ninety millimetre basket strainer wastes which easily accommodate food waste disposal units without clogging",
+          "Connect flexible overflow pipe connections securely to prevent accidental flooding during primary basin overflows"
         ]
       },
       {
         "level": "h2",
-        "heading": "Waste Connections and British Plumbing Standards",
-        "body": "Compliance with strict British plumbing regulations guarantees hygienic drainage and prevents noxious sewer gases from entering living spaces. Specifiers must insist on Water Regulations Advisory Scheme approved fittings throughout the entire waste assembly to satisfy local authority building control requirements.\n\nStandard forty millimetre pipe traps ensure rapid evacuation of grey water without backing up during simultaneous dishwasher operation and sink draining. Proper gradient falls of twenty millimetres per metre prevent sluggish flow rates and minimize internal grease accumulation within the discharge pipework.\n\nContinuous waste disposal unit compatibility requires selecting strainer bowls with standard ninety millimetre basket outlet diameters. Heavy motor vibrations necessitate robust brass locking rings and resilient rubber washers to maintain a watertight seal under high torque operating conditions.\n\nOverflow integration remains a mandatory safety feature for modern British installations, preventing accidental flooding if taps are left running unattended. Flexible overflow piping must connect securely to the primary waste body using corrosion resistant stainless steel screws and watertight compression seals."
+        "heading": "Daily Limescale Removal and Protective Kitchen Sink Care",
+        "body": "Removing stubborn southern UK hard water mineral deposits requires gentle citric acid solutions rather than harsh chemicals. Simply apply the natural cleaning liquid and wipe away cloudy calcium buildup to restore original metallic luster.\n\nProtect your investment by avoiding abrasive metal scouring pads that leave permanent scratches on finished surfaces. Always dry the kitchen sink bowl thoroughly using clean microfiber cloths after every heavy cooking session."
       },
       {
         "level": "h2",
-        "heading": "Essential Sink Selection",
-        "body": "Balancing material resilience with precise architectural detailing ensures your kitchen sink performs brilliantly for decades. Prioritize certified gauges, robust subframes, and compliant plumbing fittings.\n\nInvesting in quality craftsmanship protects your interior investment against daily wear, moisture ingress, and thermal shock. Choose wisely to achieve lasting culinary harmony."
+        "heading": "Summary and Final Kitchen Sink Buying Advice",
+        "body": "Measure your cabinet base width carefully before purchasing any kitchen sink to guarantee adequate internal clearance for plumbing pipes and waste disposals. Taking accurate physical dimensions prevents expensive installation delays during kitchen remodeling projects.\n\nBalancing worktop compatibility with daily household cleaning habits ensures long term satisfaction and property value. Investing in quality materials today saves homeowners from premature replacements and ongoing maintenance headaches down the road."
       }
     ],
     "faqs": [
       {
-        "question": "What gauge stainless steel is best for domestic kitchens?",
-        "answer": "An 18 gauge thickness measuring 1.2mm provides optimal structural rigidity and dent resistance."
+        "question": "What thickness of stainless steel is best for a durable kitchen sink?",
+        "answer": "Sixteen gauge or eighteen gauge stainless steel provides the ideal balance of strength and dent resistance."
       },
       {
-        "question": "Can fireclay ceramic sinks handle boiling water?",
-        "answer": "Yes, high kiln firing temperatures give fireclay exceptional thermal shock resistance against boiling water."
+        "question": "Can I install an undermount kitchen sink with a laminate worktop?",
+        "answer": "Laminate worktops require inset drop in sinks because exposed chipboard cores will swell if exposed to water."
       },
       {
-        "question": "Are undermount sinks suitable for wooden worktops?",
-        "answer": "No, undermount sinks require waterproof stone or composite surfaces to prevent core rot from moisture exposure."
+        "question": "How do I clean hard water marks off a composite kitchen sink?",
+        "answer": "A gentle solution of warm water and citric acid removes mineral deposits without damaging the resin matrix."
       }
     ],
     "tags": [
       "kitchen sink",
-      "Luxury Kitchen",
-      "UK Interior",
-      "Architectural Joinery",
-      "Bespoke Craftsmanship"
+      "Kitchen Plumbing",
+      "Kitchen Worktops",
+      "UK Kitchen Renovation",
+      "Kitchen Design"
     ]
   },
   {
