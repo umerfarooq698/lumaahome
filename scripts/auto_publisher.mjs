@@ -29,10 +29,10 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.VITE_GEMINI_API
 const UNSPLASH_KEY = process.env.UNSPLASH_ACCESS_KEY || process.env.VITE_UNSPLASH_ACCESS_KEY || Buffer.from('TVlBSVBpbXJuLUVwQUhQckROTDg2b2J3a2t1bGlTZ2o4ejBHOXJ5cjJ6TQ==', 'base64').toString('utf-8');
 
 const GEMINI_MODELS = [
-  'gemini-3.6-flash',
   'gemini-3.5-flash-lite',
   'gemini-3.5-flash',
   'gemini-3.8-flash',
+  'gemini-3.6-flash',
   'gemini-3.1-flash-lite',
   'gemini-flash-latest',
   'gemini-flash-lite-latest',
@@ -290,7 +290,7 @@ STRICT EDITORIAL AND WRITING STANDARDS:
 6. MINIMAL BULLET POINTS: 3 to 4 concise items in 'bullets' only where genuine technical checklist or dimension specs add value.
 7. BODY WORD COUNT: Total article body word count across all sections MUST be strictly between 850 and 1200 words.
 8. TITLE LENGTH: The title must be STRICTLY 55 to 60 characters in length with the keyword naturally placed. No ampersands.
-9. BANNED CLICHES: Never use 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Tapestry', 'Supercharge', or 'AI'.
+9. BANNED CLICHES: Never use 'The Ultimate', 'Unleash', 'Unlock', 'Delve', 'Dive into', 'Revolutionize', 'Tapestry', 'Supercharge', 'AI', 'Game-changer', 'Seamless', 'Symphony', 'Elevate', 'Nestled', 'Furthermore', 'In conclusion', 'Testament', 'Crucial', 'Paramount', 'Beacon', 'Embark'.
 10. NO AMPERSAND: NEVER use the '&' symbol anywhere (always use 'and').
 11. UK BRITISH ENGLISH: Use British English (colour, grey, labour, mould, timber, joinery, hearth, plaster).
 12. TOPIC-SPECIFIC FAQS: 3 to 4 concise FAQs. Question under 10-12 words, answer strictly 1 to 2 crisp, direct sentences.
