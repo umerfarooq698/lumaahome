@@ -323,27 +323,22 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Spatial Proportions and The 600mm Circulation Clearance",
-        "body": "Positioning seating within a private suite requires strict adherence to spatial planning principles. Architects insist upon maintaining clear walking paths around every single piece of furniture.\n\nDoorway delivery dimensions demand careful pre-planning before ordering bespoke items. Standard UK interior door widths often restrict movement, requiring careful angle calculations during installation days.",
+        "body": "Designing a private bedroom suite requires meticulous attention to floor plans and spatial geometry. Placing a reading chair demands respect for human movement and architectural flow. Without adequate clearance around the perimeter, even the finest bespoke armchair creates a frustrating spatial bottleneck.\n\nMaintaining a minimum six hundred millimetre walking pathway around your furniture prevents rooms from feeling cramped or cluttered. Standard luxury armchairs often measure eight hundred fifty millimeters in width and nine hundred millimeters in depth. Always verify these footprint dimensions against your intended bedroom layout.\n\nDelivery logistics frequently challenge homeowners when bringing large furniture items upstairs or through tight corridors. Doorway delivery clearance requires measuring internal hallways and turning circles before ordering any heavy upholstered seating. Proper planning ensures your investment arrives safely without damaging walls or joinery.\n\nWhen positioning your seating piece, account for the full extension of footstools or ottomans if paired together. Leaving sufficient breathing room around the furniture preserves the tranquil atmosphere essential for a restful sleep sanctuary.",
         "bullets": [
-          "Standard armchair frames measure roughly 850mm in width and 900mm in depth.",
-          "Leave a minimum 600mm circulation clearance for unhindered movement around the bedroom.",
-          "Verify staircase turning radii and bedroom entrance door heights prior to final purchase."
+          "Verify minimum doorway delivery clearance of seventy five centimetres to allow smooth entry for fully assembled custom armchairs.",
+          "Maintain a strict six hundred millimetre circulation perimeter between the chair edge and adjacent wardrobe doors or bedside tables.",
+          "Check total room diagonal dimensions to ensure adequate turning space when positioning large lounge chairs near bedroom corners."
         ]
       },
       {
-        "level": "h2",
-        "heading": "European Beech vs Engineered Timber Framing",
-        "body": "Internal frame construction dictates the longevity of any heirloom quality bedroom chair. Master joiners exclusively select kiln-dried European beech for its dense grain and superior structural stability.\n\nCheap plywood frames warp over time under daily lateral loads. Proper hardwood joinery ensures heavy domestic compliance ratings exceeding 130kg without joint fatigue or premature squeaking."
+        "level": "h3",
+        "heading": "European Beech Joinery vs Engineered Softwood Frames",
+        "body": "The skeletal integrity of any master bedroom chair begins with the timber species selected for internal framing. Kiln dried European beech offers superior structural stability compared to cheaper commercial softwoods which warp over time. Selecting dense hardwoods prevents annoying creaks and structural wobbles during daily use.\n\nTraditional mortise and tenon joinery methods provide maximum resistance against lateral stress placed upon the armrests. Reinforcing frame corners with solid wooden blocks ensures load bearing joints remain completely rigid for decades. This meticulous craftsmanship guarantees your seating withstands rigorous daily habitation.\n\nQuality manufacturers subject their hardwood frames to rigorous dynamic drop testing to simulate decades of heavy sitting. A certified one hundred thirty kilogram dynamic test rating proves the internal joinery can handle variable weight loads safely. Investing in certified frames protects your long term financial investment.\n\nAvoiding particle board or mixed ply alternatives ensures your furniture maintains structural integrity in varying bedroom humidity conditions. Solid timber frames respond predictably to environmental changes without compromising the overall geometry of the upholstered silhouette."
       },
       {
         "level": "h2",
-        "heading": "Upholstery Acoustics and BS 5852 Fire Safety Rules",
-        "body": "Textiles selected for private chambers must manage ambient sound while meeting stringent regulations. Dense wool velvet absorbs high frequency noises effectively to create a quiet sanctuary.\n\nBritish standard regulations mandate rigorous testing for domestic furniture combustion resistance. Treating interliners correctly guarantees compliance without sacrificing the tactile softness of natural fabrics.",
-        "bullets": [
-          "Specify contract grade fabrics exceeding 35000 Martindale rub cycles for durability.",
-          "Ensure all foam and cover combinations comply fully with BS 5852 ignition source criteria.",
-          "Expect trade fabric costs to range between £45 and £120 per linear metre."
-        ],
+        "heading": "Ergonomic Seat Angles for Prolonged Evening Reading",
+        "body": "Reading in bed or an armchair for extended periods demands proper ergonomic support to prevent physical strain. A carefully calibrated one hundred five degree backrest recline angle supports the spine while encouraging relaxed posture. This specific inclination reduces pressure points across the lower thoracic vertebrae effectively.\n\nThe standard four hundred fifty millimetre seat height from the finished floor optimizes leg positioning for average adult heights. Knees should bend at a comfortable ninety degree angle with feet resting flat on the floor surface. Incorrect seat heights cause unnecessary fatigue during long reading sessions.\n\nLumbar support relies heavily on high density polyurethane foam cores wrapped in responsive channeled feather channels. High density fillings prevent bottoming out over time and maintain firm structural loft through years of evening relaxation. Quality cushioning balances plush surface softness with resilient inner core support.\n\nArmrest heights must align naturally with your shoulders to prevent muscular tension building across the upper back. Proper arm placement allows you to hold heavy hardcover books comfortably without straining your neck or shoulder joints.",
         "image": "https://images.unsplash.com/photo-1691084815367-3bffba1405f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwY2hhaXIlMjBkZXRhaWwlMjBqb2luZXJ5fGVufDB8MHx8fDE3ODk5ODQwMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close detail of mortise and tenon joinery on an oak bedroom chair frame",
         "imageCaption": "Precision timber joinery ensures structural stability and long term performance.",
@@ -353,23 +348,38 @@ export const ARTICLES = [
         }
       },
       {
+        "level": "h3",
+        "heading": "High Rub Count Textiles and BS 5852 Fire Safety Rules",
+        "body": "Selecting upholstery fabrics for bedroom chairs requires balancing tactile luxury with rigorous industrial durability standards. Martindale rub cycles exceeding thirty five thousand turns guarantee the textile withstands years of friction without wearing thin. Heavy weight wool velvets and tightly woven natural boucles offer exceptional longevity.\n\nUK domestic furniture regulations mandate strict compliance with British Standard five eight five two fire safety rules. Upholstery fabrics must pass stringent cigarette and match ignition tests to ensure residential safety standards are fully met. Fire barrier interliners placed beneath the outer textile provide essential secondary protection.\n\nNatural fibers like wool provide inherent flame retardant properties while offering superior breathability compared to synthetic alternatives. Combining these durable textiles with certified barrier interliners creates a safe and luxurious seating environment for your home. Quality suppliers provide complete fire safety documentation upon request.\n\nRoutine fabric maintenance benefits greatly from choosing high rub count materials that resist snagging and pilling. Investing in superior textiles ensures your bedroom chair retains its pristine appearance through years of daily domestic wear."
+      },
+      {
+        "level": "h2",
+        "heading": "Natural Lighting Alignment and Wall Sconce Placement",
+        "body": "Positioning your reading chair in relation to natural light sources enhances both visual comfort and room ambiance. Aligning the seating piece near bedroom windows captures beneficial daylight for daytime reading without causing annoying screen glare. Consider seasonal sun paths when planning your furniture layout.\n\nEvening reading requires careful integration of wall sconces and focused task lighting near the seating area. Positioning light sources slightly behind and to the side prevents harsh shadows from falling across your book pages. Coordinating lighting fixtures with bedside joinery maintains a cohesive aesthetic throughout the suite.\n\nPart P electrical planning ensures any new wall lighting or floor sockets comply with current building regulations. Employing qualified electricians for wiring concealed circuits prevents safety hazards while delivering clean aesthetic finishes. Thoughtful switch placement allows easy illumination control from your seated position.\n\nLayered lighting schemes combine ambient ceiling fixtures with focused reading lamps to create versatile evening moods. Proper illumination transforms your bedroom corner into a functional yet relaxing sanctuary after sunset."
+      },
+      {
+        "level": "h2",
+        "heading": "Long Term Timber Maintenance and Fabric Care",
+        "body": "Preserving the immaculate condition of your bespoke bedroom chair requires simple yet consistent maintenance routines over time. Annual upholstery vacuuming using low suction attachments removes microscopic dust particles before they embed within textile fibers. Gentle brush attachments protect delicate boucle loops from accidental snagging.\n\nExposed natural wood legs benefit from periodic treatments using high grade beeswax or specialized furniture oils. Nourishing the timber prevents dryness and highlights the rich grain patterns inherent in European beech joinery. Avoid harsh chemical cleaners that strip natural finishes away from the wood.\n\nImmediate spot cleaning of accidental liquid spills prevents permanent staining on sensitive natural upholstery fabrics. Blotting spills gently with a clean white cloth avoids driving moisture deeper into the internal foam cushioning. Professional dry cleaning services should handle deep textile refreshments periodically.\n\nChecking structural bolt connections annually ensures frame rigidity remains uncompromised through seasonal temperature shifts. Tightening loose fixings preserves the integrity of internal joinery and extends the operational lifespan of your furniture."
+      },
+      {
         "level": "h2",
         "heading": "Final Buyer Checklist",
-        "body": "Sourcing a heritage quality chair involves verifying every hidden structural component. Ask your upholsterer for frame schematics before committing to bespoke fabric selections.\n\nInvesting in solid joinery prevents costly replacements and supports sustainable interior design. True craftsmanship appreciates in value while providing daily comfort for decades."
+        "body": "Master bedroom seating demands careful balancing of spatial proportions, ergonomic angles, and certified structural joinery materials. Assessing every technical specification ensures your investment delivers lasting comfort and timeless elegance.\n\nPrioritize solid hardwood frames, high rub count textiles, and proper clearance measurements to complete your sanctuary."
       }
     ],
     "faqs": [
       {
-        "question": "What is the ideal seat height for a reading chair in a master bedroom?",
-        "answer": "An ergonomic seat height between 420mm and 450mm ensures comfortable posture for most adults."
+        "question": "What is the ideal seat height for a bedroom reading chair?",
+        "answer": "The ideal seat height is four hundred fifty millimetres from the finished floor to support proper posture."
       },
       {
-        "question": "Do bedroom chairs require Crib 5 commercial fire certification for home use?",
-        "answer": "Standard domestic use requires BS 5852 Source 0 and 1 compliance rather than strict contract Crib 5 ratings."
+        "question": "How many Martindale rubs are recommended for durable bedroom upholstery?",
+        "answer": "Upholstery fabrics should exceed thirty five thousand Martindale rub cycles for long lasting durability."
       },
       {
-        "question": "How do I protect timber legs from vacuum cleaner impacts in tight spaces?",
-        "answer": "Apply recessed felt glides to the base of each leg to prevent scuffing during routine floor cleaning."
+        "question": "Why is kiln dried European beech preferred for chair frames?",
+        "answer": "Kiln dried European beech provides exceptional structural stability and prevents warping over time."
       }
     ],
     "tags": [
@@ -406,22 +416,20 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Carcase Internal Dimensions for Built In Waste Units",
-        "body": "Designing bespoke British kitchens requires precise spatial planning for integrated waste systems inside standard cabinetry. Standard 400mm and 600mm base units with a 500mm depth form the backbone of modern British joinery layouts. Cabinet walls crafted from 18mm high density MFC panels dictate the exact clearance available for internal waste frames.\n\nInternal carcase widths must accommodate mechanism mounting brackets without pinching the side panels or door hinges. A standard 600mm base unit typically yields roughly 564mm of internal clearance when using 18mm sides. Installers should verify hinge protrusion limits to prevent door restriction during full drawer extension."
+        "body": "Designing a bespoke British kitchen requires meticulous attention to carcase internal measurements before specifying waste management hardware. Standard base cabinets configured for integrated bins typically arrive in four hundred millimeter, five hundred millimeter, and six hundred millimeter external widths. These dimensions dictate the exact capacity and mechanical configuration of the sliding housing framework.\n\nInternal carcase depth is another critical variable that demands precise verification by the heritage surveyor or kitchen fitter. Most heavy duty pull out systems necessitate a minimum clear internal depth of five hundred and fifty millimeter to allow full travel without obstruction. Wall mounted pipework, service voids, and back panels frequently reduce this available space in older properties.\n\nSide panel thickness of the cabinetry directly impacts the exterior mounting brackets of the waste system chassis. Standard eighteen millimeter high density MFC carcases provide sufficient screw retention for heavy runners, whereas bespoke solid timber frames require bespoke timber packers. Careful evaluation of hinge protrusions ensures doors clear the bin frame entirely.\n\nFloor mounted installations bypass side panel constraints by anchoring directly to the cabinet base board via heavy gauge steel brackets. This approach suits wider six hundred millimeter carcases carrying multiple heavy polymer containers. Levelling shims must be employed to compensate for uneven timber floors often found in period British residential properties.",
+        "bullets": []
       },
       {
         "level": "h3",
-        "heading": "Runner Systems and Dynamic Load Capacities",
-        "body": "Heavy waste containers demand robust under-mounted runner systems capable of enduring frequent daily cycling. Premium integrated pull outs rely on synchronised runner mechanisms engineered for heavy residential utility loads. Selecting the correct dynamic weight rating prevents premature sagging and maintains smooth operational alignment over decades.\n\nSpecifying commercial grade hardware ensures your investment withstands the heavy loads associated with wet food waste. High end German and Austrian runner sets provide lateral stability essential for tall waste sorters operating within standard base cabinets.",
-        "bullets": [
-          "Specify 40kg to 60kg load rated full extension runners for heavy multi container recycling configurations.",
-          "Ensure hydraulic soft close dampening is integrated to eliminate shock loads on carcase fixing screws.",
-          "Budget between £150 and £350 for professional grade Blum or Grass heavy duty runner assemblies."
-        ]
+        "heading": "Runner Mechanics and Dynamic 50kg Load Capacities",
+        "body": "The mechanical endurance of an integrated kitchen bin depends heavily on the quality of its sliding runners and bearing assemblies. Premium systems utilise full extension ball bearing runners engineered to support dynamic loads up to fifty kilograms without sagging. This robust capacity easily accommodates heavy glass bottles, damp organic waste, and dense household refuse.\n\nIntegrated soft close dampers ensure that the loaded carriage decelerates smoothly during the final centimeters of travel, preventing structural shock to the carcase joints. High grade steel side walls maintain rigidity across the entire drawer extension, stopping the internal buckets from binding against the cabinet frame during daily operation.\n\nMaintenance requirements for these high capacity runners remain minimal if specified with factory sealed precision bearings protected from domestic debris. Periodic inspection of the fixing screws guarantees that heavy repetitive loads do not loosen the hardware over years of intensive culinary preparation in busy family kitchens.\n\nSelecting over extension slides provides complete vertical access to the rear compartments, eliminating awkward reaching over front buckets. This mechanical advantage proves particularly valuable in narrow four hundred millimeter base units where container depth compensates for restricted width across the cabinet interior.",
+        "bullets": []
       },
       {
         "level": "h2",
-        "heading": "Dual vs Triple Container Hygiene Configurations",
-        "body": "Modern municipal waste sorting mandates versatile container configurations inside premium fitted kitchen furniture. Dual and triple container layouts allow homeowners to segregate general refuse from dry recyclables and organic compost. Food grade polypropylene buckets ensure hygienic containment while resisting acidic household waste degradation.\n\nRemovable handles and smooth internal radii simplify weekly cleaning routines for busy family households. Selecting durable injection moulded bins prevents liquid absorption and eliminates persistent odours trapped in inferior plastics. These robust materials comply with stringent environmental standards for domestic waste management.",
+        "heading": "Dual vs Triple Compartment Waste Separation",
+        "body": "Modern British municipal recycling guidelines demand efficient domestic waste separation directly at the point of origin within the kitchen. Dual compartment configurations generally split the available carcase volume equally between general refuse and dry mixed recyclables. This balanced layout suits smaller households generating predictable daily volumes of paper and plastics.\n\nTriple compartment arrangements introduce dedicated organic food waste caddies alongside split recycling streams, aligning perfectly with local authority food collection mandates. These setups typically feature one large primary container flanked by two smaller secondary buckets. Removable food grade polypropylene liners simplify washing routines and maintain high hygiene standards.\n\nMaterial specification of the internal containers remains essential for long term durability and resistance to aggressive cleaning agents. Injection molded polypropylene offers exceptional impact resistance while remaining lightweight enough for daily removal. Smooth internal radiuses prevent food residue accumulation and simplify manual cleaning procedures in the utility sink.\n\nCustomisable divider inserts allow homeowners to modify compartment ratios as domestic habits evolve over the lifespan of the kitchen furniture. Modular bucket arrays can be swapped out or reconfigured within the steel chassis framework, offering total flexibility for changing household requirements without replacing the underlying hardware.",
+        "bullets": [],
         "image": "https://images.unsplash.com/photo-1616047795251-50aed56a0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cHVsbCUyMG91dCUyMGtpdGNoZW4lMjB3YXN0ZSUyMGJpbiUyMGRldGFpbHxlbnwwfDB8fHwxNzg5OTI5MjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Detailed view of dual compartment integrated waste bin mounted on soft close steel runners",
         "imageCaption": "Integrated pull-out systems preserve clean exterior lines while offering tailored waste sorting.",
@@ -432,37 +440,39 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "Under Sink Plumbing Traps and Pipe Routing",
-        "body": "Positioning waste sorters beneath the primary kitchen sink introduces complex spatial clashes with pipework. Standard 40mm waste pipes and flexible traps frequently intersect with the upper rim of pull out bins. Plumbers must offset vertical drop pipes against the rear carcase wall to secure adequate clearance.\n\nSpace saving plumbing kits and shallow basin traps prevent catastrophic interference with automated lid mechanisms. Water meters and isolation valves located inside the cabinet require careful routing during the initial first fix stage. Precision coordination between joiners and plumbers avoids costly site modifications later."
-      },
-      {
-        "level": "h2",
-        "heading": "Odour Management and Integrated Carbon Filtration",
-        "body": "Controlling kitchen smells requires sophisticated mechanical sealing integrated directly into the pull out bin housing. Fixed shelf lids compress against silicone container gaskets when closed to prevent ambient air circulation. This airtight barrier traps decomposing organic odours safely inside the sealed polypropylene buckets.\n\nActive carbon filters fitted into the upper framework neutralize volatile organic compounds before they escape. Regular maintenance involves replacing these charcoal cassettes every six months to sustain optimal indoor air purification. Wipe down protocols using mild antibacterial solutions preserve the integrity of surrounding cabinet panels.",
+        "heading": "Under Sink Plumbing Traps and Pipe Routing Traps",
+        "body": "Positioning an integrated waste system beneath the primary kitchen sink introduces complex spatial challenges regarding existing pipework configurations. Standard basin traps often hang low into the cabinet space, directly interfering with the top rim of tall waste containers. Space saving plumbing kits featuring horizontal P traps resolve this vertical conflict effectively.\n\nWater supply lines, isolation valves, and dishwasher feed connections must be mapped accurately before ordering the bin mechanism. Flexible braided hoses can be redirected safely against cabinet side walls to create a clear corridor for the sliding bin carriage. Ignoring these clearance factors results in costly site modifications during final installation.\n\nSoil pipe connections and waste disposal units demand even greater spatial allowances due to their bulky external dimensions and motor housings. Specifying offset waste fittings creates the necessary clearance envelope behind the bin system, allowing full extension without striking rigid PVC pipework or electrical cables.",
         "bullets": [
-          "Install gasket sealed lids that engage automatically upon cabinet closure to lock in organic odours.",
-          "Replace integrated activated carbon filter pads bi annually to maintain active air purification performance.",
-          "Wipe down internal cabinet floor protectors with neutral detergent to prevent residual moisture damage."
+          "Verify vertical clearance between the base board and the lowest point of the basin waste trap.",
+          "Reroute rigid supply pipes using flexible braided connectors against the interior carcase back panel.",
+          "Confirm adequate operational clearance around integrated boiling water heater tanks and electrical sockets."
         ]
       },
       {
         "level": "h2",
-        "heading": "Flawless Execution",
-        "body": "Selecting premium integrated waste hardware improves the daily functionality and hygiene of bespoke British culinary spaces. Balancing robust load ratings with precise spatial measurements guarantees long term structural reliability inside your cabinetry. Investing in superior runner mechanisms and sealed containers delivers enduring value for discerning homeowners.\n\nProfessional installation by experienced trade specialists ensures compliance with rigorous domestic joinery standards. Every millimetre of carcase depth matters when combining waste management with complex under sink plumbing layouts. Final adjustments complete a truly smooth addition to your architectural kitchen design."
+        "heading": "Odour Management and Activated Carbon Lid Seals",
+        "body": "Containing unpleasant smells within integrated kitchen cabinetry requires sophisticated engineering of the bin housing lid and perimeter seals. High specification systems incorporate fixed shelf lids fitted with durable rubber gasket perimeters that compress tightly when the cabinet door closes. This mechanical seal prevents volatile organic compounds from escaping into the room.\n\nActivated charcoal filter inserts integrated directly into the housing lid provide active neutralization of persistent food odours before they penetrate the surrounding kitchen environment. These replaceable carbon pads absorb moisture and trap microscopic odour particles effectively over extended periods of continuous domestic use.\n\nVentilation design within the cabinet carcase balances odour control with necessary airflow to prevent anaerobic bacterial growth inside sealed organic waste caddies. Slotted chassis frames allow gentle passive circulation without compromising the primary perimeter seal against the cabinet door or stationary top cover plate.\n\nRoutine maintenance of odour control systems involves simple replacement of the charcoal filter media every six months according to manufacturer guidelines. Washing the perimeter rubber gaskets with mild soapy water preserves their elasticity and ensures an airtight seal remains active throughout the operational life of the hardware.",
+        "bullets": []
+      },
+      {
+        "level": "h2",
+        "heading": "Final Verdict",
+        "body": "Selecting the correct integrated waste system demands rigorous evaluation of internal carcase geometry, runner mechanics, and precise plumbing clearances within bespoke British cabinetry. Investing in robust fifty kilogram runner mechanisms and certified dual or triple compartment configurations guarantees enduring daily performance.\n\nPrioritising premium odour management features and food grade polypropylene containers ensures a hygienic, refined kitchen environment that respects the craftsmanship of your cabinetry investment.",
+        "bullets": []
       }
     ],
     "faqs": [
       {
-        "question": "What is the standard cabinet width required for a triple waste bin system?",
-        "answer": "A standard 600mm base unit provides the necessary internal width to comfortably house a triple container waste sorting system."
+        "question": "What is the standard minimum cabinet depth required for integrated pull out bins?",
+        "answer": "Most heavy duty integrated waste systems require a minimum internal carcase depth of five hundred and fifty millimeters."
       },
       {
-        "question": "How much weight can heavy duty integrated bin runners support?",
-        "answer": "High performance commercial grade runner systems typically support dynamic load capacities ranging from 40kg to 60kg."
+        "question": "How do I prevent low plumbing traps from striking the top of my kitchen bin?",
+        "answer": "Install a space saving horizontal P trap kit to redirect waste pipes away from the top clearance zone of the bin."
       },
       {
-        "question": "How often should integrated carbon filters be replaced in a waste bin?",
-        "answer": "Active charcoal carbon filter pads require replacement every six months to maintain effective odour neutralisation performance."
+        "question": "How often should activated carbon odour filters be replaced in a built in bin lid?",
+        "answer": "Replace the charcoal filter inserts every six months to maintain effective neutralisation of organic food odours."
       }
     ],
     "tags": [
@@ -498,23 +508,23 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Timber Species Selection for British Climates",
-        "body": "Specifying the correct timber for a British garden storage box requires balancing natural durability against unpredictable moisture loads. Western red cedar delivers exceptional dimensional stability alongside natural thujaplicin oils that naturally resist fungal decay.\n\nAlternatively, pressure treated Scandinavian pine offers a robust and cost effective structural framework when properly kiln dried. Homeowners investing in high specification joinery typically budget between £650 and £1,200 for premium cedar builds."
+        "heading": "Timber Species Durability for Humid British Gardens",
+        "body": "Selecting the correct timber species forms the foundation of any high specification garden storage box built for the unpredictable British climate. Western red cedar delivers exceptional natural longevity due to its abundance of thujaplicins, which are organic compounds that naturally resist wood boring insects and fungal decay.\n\nScandinavian redwood pine represents an alternative choice, provided it undergoes rigorous pressure treatment to force preservatives deep into the cellular structure. Untreated softwoods succumb rapidly to damp conditions, making botanical selection the primary factor in determining whether your exterior timber storage investment withstands decades of seasonal rain.\n\nNatural decay oils found within premium heartwood timbers migrate slowly to the surface, creating a hydrophobic barrier against driving rain and heavy morning dew. This intrinsic resin content eliminates the immediate need for chemical sealants upon installation, allowing the organic material to weather gracefully into an attractive silvery grey patina.\n\nDiscerning property owners must evaluate the density of the growth rings when sourcing panels for high end exterior joinery projects. Tight grain patterns indicate slow growth in harsh northern latitudes, which translates directly to greater dimensional stability and reduced splitting when relative humidity levels fluctuate wildly throughout the year."
       },
       {
         "level": "h3",
-        "heading": "Framing Dimensions and C24 Structural Timber",
-        "body": "Rigid structural integrity begins with the internal timber skeleton supporting the exterior cladding panels. We insist on using stress graded C24 timber to prevent any future warping or twisting under seasonal humidity shifts.\n\nEvery single joint must be screwed rather than nailed to maintain long term structural rigidity against heavy winds. Quality manufacturers price these robust timber specifications to ensure zero movement over decades.",
+        "heading": "Structural C24 Framing and Tongue and Groove Cladding",
+        "body": "A robust framework determines the structural integrity of a heavy duty storage receptacle designed to withstand gale force winds and accidental impacts. Utilizing strength graded C24 timber framing ensures the skeleton resists twisting and warping under load, maintaining square door alignment through successive winters of ground heave and moisture cycling.\n\nPrecision milled tongue and groove boards lock tightly together to form a solid weather resistant envelope while permitting natural seasonal expansion and contraction. Each individual board must be fixed securely to prevent cupping, utilizing specialized fasteners that bite deep into the internal framing studs without splitting the delicate edge profiles.\n\nThe application of mechanical fixing methods requires careful consideration of metal fatigue and corrosion risks in damp outdoor environments. Standard steel fixings react with timber tannins, resulting in unsightly black streaking and premature structural failure around the joint interfaces where moisture tends to linger longest after rainfall events.\n\nProfessional joiners construct these garden enclosures with meticulous attention to joint tolerances, ensuring the entire assembly functions as a unified structural unit. This engineering approach prevents the racking stresses that typically compromise cheaper flat pack alternatives purchased from standard retail garden centres across the country.",
         "bullets": [
-          "Construct the main internal skeleton using sturdy 45mm by 45mm framing timber.",
-          "Clad the exterior frame completely using substantial 18mm tongue and groove boards.",
-          "Ensure all internal vertical posts are securely anchored to prevent racking forces."
+          "Kiln dried 45mm by 45mm C24 graded framing studs providing exceptional load bearing capacity",
+          "Thick 18mm machined tongue and groove cladding boards delivering superior weather shielding",
+          "Austenitic stainless steel ring shank nails preventing tannin staining and pull out over time"
         ]
       },
       {
         "level": "h2",
-        "heading": "Base Construction and Ground Moisture Prevention",
-        "body": "Rising damp represents the primary threat to exterior timber joinery situated directly on unprotected lawns or patios. Raising the entire wooden structure 100mm off damp soil ensures proper subfloor airflow underneath.\n\nLaying a compacted MOT Type 1 aggregate bed topped with treated timber bearers prevents moisture wicking upward. Proper site preparation eliminates premature rot along the bottom rail joints of the enclosure.",
+        "heading": "Base Elevation and Subfloor Damp Prevention",
+        "body": "Ground contact remains the primary enemy of exterior timber structures, making subfloor ventilation and base elevation critical design considerations. Raising the storage box base by at least one hundred millimetres off wet turf prevents rising damp from soaking into the vulnerable end grain of the lower structural framework.\n\nConstructing a dedicated gravel soakaway bed beneath the footprint facilitates rapid drainage of surface water during torrential downpours. This permeable foundation layer stops stagnant puddles from forming underneath the enclosure, eliminating the constant source of high humidity that attracts wood rotting fungi and subterranean pests.\n\nCapillary action draws ground moisture upward through porous paving slabs unless a robust damp proof membrane is incorporated into the foundation design. Inserting heavy duty bitumen felt or closed cell plastic pads between the timber joists and the hardstanding creates a reliable physical barrier against sustained moisture migration from the soil.\n\nAdequate cross ventilation beneath the floorboards allows circulating air to evaporate any accidental condensation before it can establish a foothold. This passive drying mechanism preserves the structural joists in pristine condition, ensuring the underside of your bespoke timber storage box remains as sound as the visible exterior surfaces.",
         "image": "https://images.unsplash.com/photo-1590635022668-81cc8696a19d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8dGltYmVyJTIwam9pbmVyeSUyMGRldGFpbHxlbnwwfDB8fHwxNzg5ODk1NDUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up view of tongue and groove timber joinery on a wooden garden storage box",
         "imageCaption": "Precision engineered tongue and groove cladding ensures weatherproofing and timber longevity.",
@@ -525,42 +535,42 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "EPDM Rubber vs Felt Roof Detailing",
-        "body": "Traditional mineral roofing felt degrades rapidly under severe ultraviolet exposure and heavy winter frost cycles. Installing a single ply EPDM rubber membrane provides absolute waterproofing for flat or gently sloped lids.\n\nA minimum water runoff slope of five degrees guarantees that standing rainwater drains completely off the structure. Extending rubber overhangs past the timber drip edges protects vulnerable wall boards from splashing."
+        "heading": "EPDM Rubber vs Felt Sloped Roof Construction",
+        "body": "Roof waterproofing demands sophisticated material selection to prevent water ingress into the upper storage compartment housing your valuable garden equipment. Traditional mineral felt degrades under harsh ultraviolet radiation and thermal shock, whereas synthetic EPDM rubber membranes offer a smooth, single sheet solution lasting fifty years or more.\n\nAchieving proper water shed requires a calculated roof pitch angle of at least five degrees to encourage efficient drainage toward the rear drainage channel. Flat roofs invite standing pool water, which eventually finds microscopic faults in joints and saturates the timber substrate beneath, leading to localized rot and structural failure.\n\nExtending the roof cladding into a prominent front drip overhang protects the upper facade doors from direct rain run off and staining. This architectural detail directs cascading water cleanly away from the operational hardware and thresholds, safeguarding the interior dry storage environment against wind driven moisture penetration during storms.\n\nDetailing the roof edges with powder coated aluminium trim pieces secures the membrane against high wind uplift forces without relying on exposed fasteners. Such professional finishing techniques improve a simple garden box into a refined piece of architectural joinery that complements sophisticated landscaping schemes."
       },
       {
         "level": "h2",
         "heading": "Marine Grade 316 Stainless Steel Ironmongery",
-        "body": "Standard steel hardware rusts quickly within damp British gardens due to constant atmospheric moisture exposure. Specifying marine grade 316 stainless steel prevents unsightly orange staining across your expensive wooden cladding.\n\nInvesting in premium fittings guarantees smooth mechanical operation for heavy garden tool lids every single day. Expect to allocate around £80 for commercial grade stainless steel hinges and locking hasps.",
+        "body": "Hardware specification dictates the operational longevity of opening elements like lids and doors exposed to airborne salt and moisture. Utilizing marine grade three hundred and sixteen stainless steel components prevents pitting corrosion and rust bleeding that ruins the aesthetic appeal of premium exterior woodwork over time.\n\nHeavy duty continuous piano hinges distribute rotational stress evenly along the entire length of the lid, preventing the sagging issues associated with standard strap hinges. This robust mechanical linkage ensures smooth, effortless opening action year after year, even when the lid carries the extra weight of integrated green sedum planting schemes.\n\nSecuring valuable tools requires substantial locking mechanisms anchored securely through the structural framing rather than merely screwed into thin cladding panels. Solid brass padlocks paired with heavy gaugehasp and staple sets provide robust security while developing a rich, dark patina that harmonizes with natural timber tones.\n\nConcealed fixings protect the structural joints from tampering while presenting a clean, uninterrupted visual line that emphasizes the craftsmanship of the piece. Every screw head, bolt, and bracket is countersunk and plugged with matching timber where appropriate, or selected for its architectural finish to enhance the bespoke character.",
         "bullets": [
-          "Fit heavy duty continuous piano hinges to distribute lid weight evenly across rails.",
-          "Secure all exterior fittings using tamper resistant security screws to deter thieves.",
-          "Install padlocks featuring hardened steel shackles rated to insurance approved security standards."
+          "Marine grade 316 stainless steel heavy duty continuous piano hinges for smooth lid movement",
+          "Solid cast brass padlocks and heavy gauge security hasp assemblies resisting forced entry",
+          "Concealed anti tamper fastener fixings eliminating exposed heads and rust bleed marks"
         ]
       },
       {
         "level": "h3",
-        "heading": "Annual Oil Penetration and UV Sealant Schedule",
-        "body": "Untreated exterior wood bleaches to a dull grey finish within eighteen months under British ultraviolet rays. Applying breathable micro porous wood oils nourishes the cellular structure while allowing trapped moisture to escape.\n\nProfessional maintainers recommend applying specialized Osmo UV protection oils during dry spells every spring. Regular maintenance coats prevent surface checking and keep your garden storage looking exceptionally pristine."
+        "heading": "Annual Oil Penetration Cycles and UV Protection",
+        "body": "Maintaining the pristine appearance of exterior timber requires adherence to scheduled oil penetration cycles timed to counter seasonal weather extremes. Microporous penetrating wood oils soak deep into the cellular matrix of the material, nourishing the fibres from within without forming a brittle surface film that peels away under UV exposure.\n\nAdvanced formulations incorporating UV blocking pigments counteract the graying effect caused by solar radiation breaking down surface lignin. Applying these specialist treatments during the dry spring months prepares the timber to repel the punishing moisture loads brought by the ensuing autumn and winter seasons.\n\nNatural wood movement during seasonal humidity shifts demands a coating that flexes dynamically with the expansion and contraction of the grain. Rigid paints or standard varnishes inevitably crack and trap moisture underneath, creating pockets of decay that necessitate extensive sanding and restorative joinery intervention to rectify.\n\nRejuvenating the protective finish involves a simple surface wash down followed by a single maintenance coat applied with a lint free cloth or brush. This straightforward routine preserves the rich natural hues of the timber indefinitely, protecting your investment against the relentless weathering forces inherent in British gardens."
       },
       {
         "level": "h2",
-        "heading": "Protecting Timber",
-        "body": "Preserving architectural garden woodwork demands consistent attention to drainage details and protective surface coatings. Routine maintenance guarantees your bespoke storage box withstands harsh winters for decades without structural failure.\n\nEngaging professional joiners for annual inspections protects your investment and ensures lasting exterior performance."
+        "heading": "Long Term Care",
+        "body": "Sustaining architectural excellence requires vigilant seasonal inspections, prompt clearing of organic debris from roof surfaces, and timely reapplication of protective nourishing wood oils. This disciplined upkeep guarantees decades of reliable weather resistance.\n\nInvesting in precision joinery craftsmanship rewards the discerning homeowner with a durable, beautiful storage asset that ages gracefully within refined outdoor spaces, proving that meticulous engineering remains the true hallmark of quality landscape design."
       }
     ],
     "faqs": [
       {
-        "question": "What is the best timber for an outdoor storage box?",
-        "answer": "Western red cedar provides the highest natural resistance to moisture and decay."
+        "question": "What is the best timber species for an exterior garden storage box?",
+        "answer": "Western red cedar and pressure treated Scandinavian redwood pine offer the highest natural durability against British weather."
       },
       {
-        "question": "Why should a garden storage box be raised off the ground?",
-        "answer": "improving the structure prevents rising damp and allows vital airflow beneath the base."
+        "question": "Why is raising the storage box off the ground important?",
+        "answer": "Elevation prevents capillary ground water draw from rotting the lower framing timbers and structural subfloor."
       },
       {
-        "question": "How often should exterior timber storage be oiled?",
-        "answer": "Apply a breathable micro porous wood oil once every year during dry spring weather."
+        "question": "How often should penetrating wood oils be applied to exterior timber?",
+        "answer": "Applying a fresh maintenance coat of microporous oil once every year protects the wood against UV damage and moisture."
       }
     ],
     "tags": [
@@ -596,28 +606,23 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "The Three Tier Illumination Hierarchy for Living Spaces",
-        "body": "Mastering domestic illumination requires abandoning singular overhead fixtures in favour of a tripartite method that mimics natural daylight distribution patterns. Historic British properties and modern apartments alike demand balanced layers to create visual depth and architectural warmth.\n\nSuccessful schemes combine background wash with localized reading beams and directional highlights to prevent dark corners and harsh shadows across the room. Careful planning ensures each tier operates independently via dedicated switching circuits tailored to daily use.",
+        "heading": "The Three Tier Illumination Hierarchy for Period Living Spaces",
+        "body": "Illuminating a traditional British living room requires a methodical approach that respects heritage proportions while incorporating modern spatial utility. Master craftsmen understand that single pendant fixtures fail to create depth, flattening historic plasterwork and leaving dark corners in reception rooms with low natural daylight.\n\nEstablishing a robust three tier lighting strategy divides your illumination requirements into ambient, task, and accent categories. Each tier performs a distinct physiological and aesthetic function, transforming the room from a stark functional box into a warm space with rich architectural shadows and comforting visual weight.\n\nBalancing these three layers prevents glare and eliminates harsh shadows across period cornicing and skirting boards. Historic properties demand careful consideration of surface reflectance values, ensuring light bounces naturally off lime plastered walls and timber joinery without causing uncomfortable visual fatigue during evening relaxation hours.\n\nExecuting this hierarchy successfully involves mapping out exact furniture layouts before touching any electrical cabling. By identifying where reading, conversation, and media consumption occur, you can distribute electrical loads evenly across multiple circuits, achieving a professional architectural finish worthy of top heritage publication standards."
+      },
+      {
+        "level": "h3",
+        "heading": "Layer One Ambient Illumination and Concealed Joinery LED Profiles",
+        "body": "Ambient illumination forms the foundational layer of any sophisticated British living space. Rather than relying on glaring central pendants, modern heritage lighting favors indirect ceiling washes and concealed joinery integration. This technique highlights original cornicing and creates a soft, enveloping glow throughout the entire room.\n\nInstalling linear LED tape within custom cabinetry requires careful thermal management and precise aluminum extrusion housing. When fitted behind floating shelving or within bespoke media joinery, these concealed strips cast a gentle downward or upward wash that accentuates timber grain without exposing harsh diode hotspots.\n\nSelecting the correct technical specification for ambient tape is vital for achieving a warm domestic atmosphere. Low quality diodes often produce an uninviting greenish tint, ruining the natural tones of heritage oak flooring, wool carpets, and traditional lime wash finishes across your reception room walls and architectural features.\n\nProfessional installers always house these LED ribbons inside deep aluminum profiles fitted with frosted opal diffusers. This extra hardware step blends individual light points into a continuous ribbon of radiance, protecting the delicate eyesight of residents while providing uniform background illumination across the space.",
         "bullets": [
-          "Ambient lighting provides the foundational background illumination across all horizontal surfaces.",
-          "Task lighting targets functional zones requiring focused brightness for reading or close work.",
-          "Accent lighting draws attention to architectural details and valued decorative objects safely."
+          "Specify a strict 2700K warm white colour temperature to replicate traditional incandescent glow.",
+          "Demand a minimum Color Rendering Index of 90 plus to ensure accurate fabric and timber tones.",
+          "Utilize constant voltage 24V drivers positioned remotely for easy maintenance access."
         ]
       },
       {
         "level": "h2",
-        "heading": "Layer One Ambient Glow and Concealed LED Coving Profiles",
-        "body": "The primary layer relies on indirect ceiling washes produced by continuous LED tape housed within bespoke plaster coving profiles installed 150mm below the ceiling line. Specifying 2700K warm white output guarantees a hospitable atmosphere reminiscent of traditional tungsten filament bulbs.\n\nSelecting components with a minimum CRI of 90 ensures accurate colour rendering across heritage timber and lime plaster finishes. Install constant voltage 24V drivers within accessible ceiling voids to prevent early electronic failure and buzzing."
-      },
-      {
-        "level": "h2",
-        "heading": "Layer Two Task Lighting for Reading and Work Zones",
-        "body": "Functional tasks demand targeted pools of light positioned precisely where occupants sit to read, write, or work with textiles. Positioning floor lamps precisely 1500mm away from seating perimeters avoids direct glare while casting adequate illumination downward.\n\nAchieving target levels of 300 lux at reading height requires carefully selected LED retrofit lamps with frosted diffusers. Connecting these fittings to low level 5A round pin sockets keeps switches conveniently accessible from armchairs.",
-        "bullets": [
-          "Position adjustable arm reading lamps at 1200mm above finished floor level for optimal reach.",
-          "Ensure task bulbs deliver at least 400 lumens to satisfy comfortable reading standards.",
-          "Utilize heavy weighted bases on floor lamps to prevent accidental tipping on historic floorboards."
-        ],
+        "heading": "Layer Two Directional Task Lighting for Reading Zones",
+        "body": "Task lighting delivers concentrated illumination for specific activities such as reading, needlework, or writing at a traditional bureau. In British living rooms, this layer prevents eye strain by providing adequate lux levels directly onto the page without flooding the surrounding architectural envelope with intrusive brightness.\n\nPositioning reading lamps requires careful ergonomic calculation regarding height and angle relative to upholstery. Placing a substantial floor standing luminaire precisely fifteen hundred millimetres from the seating corner ensures optimal downward throw while keeping the physical light source safely outside your direct line of sight.\n\nTargeting a consistent three hundred lux at reading plane height guarantees visual comfort during extended evening sessions. Adjustable brass or bronze articulated arms allow homeowners to direct the beam precisely where needed, accommodating shifting seating postures while maintaining a refined aesthetic during daytime hours.\n\nIntegrating these task elements with floor box wiring or switched low level sockets prevents unsightly trailing flexes across historic parquet flooring. Thoughtful placement keeps power cords completely hidden behind heavy linen upholstery, preserving the clean architectural lines of your carefully curated period interior design scheme.",
         "image": "https://images.unsplash.com/photo-1771681278446-6f8eb0c7323f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJhc3MlMjB3YWxsJTIwc2NvbmNlJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTg0MjYwOXww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "A solid unlacquered brass wall sconce casting warm ambient light against a lime plaster wall",
         "imageCaption": "Hand-finished brass sconces cast warm perimeter light while aging gracefully over time.",
@@ -627,38 +632,33 @@ export const ARTICLES = [
         }
       },
       {
-        "level": "h2",
-        "heading": "Layer Three Accent Framing and Architectural Highlights",
-        "body": "The final layer introduces localized drama by highlighting masonry fireplaces, timber beams, and framed artwork with narrow beam angles. Picture lights fitted with warm linear lamps accentuate canvas textures without causing ultraviolet degradation to historic pigments.\n\nConcealing linear LED strips inside joinery alcoves creates a subtle floating effect that visually expands compact living rooms. Trailing edge dimmers must be paired with compatible drivers to eliminate audible hum and flickering during low output states."
+        "level": "h3",
+        "heading": "Layer Three Accent Framing and Architectural Art Lighting",
+        "body": "Accent lighting provides the vital third dimension by drawing the eye toward specific architectural focal points, artwork collections, and masonry details. This deliberate contrast adds dramatic depth, transforming a flat interior into a visually rich environment filled with sophisticated shadows and carefully managed highlights.\n\nIlluminating oil paintings or framed heritage prints demands specialized picture lights equipped with adjustable optical framing shutters. These optical attachments restrict light spillage entirely to the canvas perimeter, preventing harmful ultraviolet degradation while ensuring the artwork becomes an undeniable visual anchor within the room.\n\nRecessed wall washers or miniature uplights positioned inside original alcoves highlight masonry texture and display shelving collections effectively. Using low glare diffusers and narrow beam angles ensures the light grazes the plaster surface smoothly, emphasizing historical irregularities rather than washing them out entirely.\n\nBalancing the intensity of these accent fixtures against the broader ambient layer prevents the space from feeling like a commercial art gallery. Careful commissioning on site ensures the highlighted artwork feels integrated with the room architecture rather than floating as an isolated bright patch on the wall."
       },
       {
         "level": "h2",
-        "heading": "Circuit Zoning and Part P Electrical Regulations",
-        "body": "Splitting living room lighting across three independent circuits prevents visual monotony and allows effortless evening mood adjustments. Compliance with Part P of the Building Regulations requires notifiable domestic electrical work to be completed by registered competent installers.\n\nHiring a qualified electrician for a complete circuit overhaul typically ranges from £150 to £350 depending on wiring complexity. Always demand a formal electrical installation certificate upon completion to validate insurance policies and future property sales.",
-        "bullets": [
-          "Group ambient coving lights on a single rotary dimmer switch near the main entrance.",
-          "Wire task floor sockets to switched 5A circuits for centralized wall plate control.",
-          "Ensure all concealed drivers remain accessible through inspection hatches for future maintenance."
-        ]
+        "heading": "Circuit Zoning Dimming Protocols and Part Regulations",
+        "body": "Mastering the electrical infrastructure of a British living room requires robust circuit zoning and modern dimming technology. Split multi-circuit switching allows homeowners to alter the mood instantly, shifting from bright daytime reception mode to intimate evening relaxation by adjusting individual lighting tiers independently.\n\nUpgrading legacy dimmers to modern trailing-edge technology eliminates annoying LED flicker and audible buzzing sounds. Trailing-edge dimmers control phase cutting smoothly at the end of the AC waveform, protecting sensitive electronic drivers and significantly extending the operational lifespan of your high end architectural luminaires.\n\nCompliance with UK Building Regulations Part P is mandatory for all domestic electrical installation and wiring alterations within living spaces. Hiring a qualified professional registered with a competent person scheme ensures all concealed cabling, junction boxes, and protective devices meet rigorous safety standards before sign off.\n\nProviding a comprehensive electrical certificate upon completion protects your property investment and satisfies insurance requirements for heritage renovations. Proper documentation details every circuit load, driver location, and switching point, giving future surveyors complete clarity regarding the hidden electrical engineering behind your walls."
       },
       {
         "level": "h2",
-        "heading": "Lighting Depth Achieved",
-        "body": "Careful coordination of colour temperatures and precise spatial placement transforms flat interiors into rich architectural compositions. Rigorous attention to wiring standards guarantees long term safety and operational reliability across your entire home.\n\nInvesting in quality drivers and professional installation protects vulnerable historic fabric while delivering modern functional performance."
+        "heading": "Project Summary",
+        "body": "Harmonious Architectural Depth.\n\nFlawless Heritage Illumination."
       }
     ],
     "faqs": [
       {
-        "question": "What colour temperature works best for living room led strips?",
-        "answer": "A warm white 2700K colour temperature provides the most hospitable residential ambiance."
+        "question": "What color temperature is best for a British living room?",
+        "answer": "A warm 2700K color temperature replicates traditional incandescent warmth and flatters historic interior finishes."
       },
       {
-        "question": "Do living room lighting alterations require building control approval?",
-        "answer": "Notifiable electrical works must comply with Part P regulations and be certified by a registered electrician."
+        "question": "Why use trailing edge dimmers with LED fixtures?",
+        "answer": "Trailing-edge dimmers prevent annoying LED flicker and eliminate buzzing noises by managing phase cuts smoothly."
       },
       {
-        "question": "How high should picture lights be mounted above artwork frames?",
-        "answer": "Mount picture lights between 150mm and 200mm above the top edge of the frame for even coverage."
+        "question": "Is Part P compliance required for living room rewiring?",
+        "answer": "Yes, all fixed electrical installations in domestic living rooms must comply with UK Building Regulations Part P."
       }
     ],
     "tags": [
@@ -694,23 +694,18 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "In Frame vs Lay On Door Joinery Standards",
-        "body": "Choosing between in frame and lay on doors defines the entire aesthetic of bespoke British kitchen design. Traditional in frame cabinetry mounts the door directly inside a solid timber front facade using heavy butt hinges. This method prevents structural sagging over decades of daily domestic use in busy period properties.\n\nConversely lay on doors sit directly over the carcase edges utilising concealed European cup hinges for a cleaner modern profile. While cup hinges offer multiway adjustments during installation they lack the enduring architectural charm of traditional brass hardware fastened securely into 30mm thick hardwood frames."
+        "heading": "In Frame versus Lay On Door Joinery Standards",
+        "body": "Choosing between in frame and lay on door configurations defines the aesthetic and structural character of bespoke British kitchens. In frame joinery fixes doors directly inside a solid timber front frame, creating a traditional furniture appearance that demands absolute dimensional accuracy during workshop fabrication.\n\nTraditional brass butt hinges are screwed directly to the frame stiles and door edges, bearing the full load of the solid timber over decades of daily articulation. This method requires meticulous setting out so the gaps around the perimeter remain perfectly uniform despite seasonal humidity fluctuations.\n\nConversely, overlay doors sit entirely outside the carcase edges, concealing the front framework to deliver a clean minimalist aesthetic favoured in contemporary architectural schemes. Modern overlay systems typically rely on concealed European cup hinges offering multi-way adjustment for rapid site alignment.\n\nMastering these opposing joinery standards requires understanding how each system transfers structural loads into the surrounding walls. Traditional in frame setups distribute weight through robust timber front frames, whereas overlay designs place high rotational stress directly onto the interior carcase side panels."
+      },
+      {
+        "level": "h3",
+        "heading": "Carcase Substrate Standards and Moisture Resistant Materials",
+        "body": "The internal carcase forms the structural skeleton of any high performance kitchen cabinet and requires careful specification. Premium British workshops predominantly utilise eighteen millimetre multi-layer birch plywood for its exceptional screw holding capacity and inherent dimensional stability under heavy loads.\n\nBirch plywood carcases feature alternating grain veneers bonded with exterior grade waterproof resins, preventing warping when subjected to steam from kettles and dishwashers. Alternatively, high density moisture resistant medium density fibreboard provides a remarkably flat panel substrate for painted interior components.\n\nEdge banding all exposed carcase perimeters with two millimetre thick ABS tape protects vulnerable core materials from moisture ingress and physical impact. Selecting proper substrate thicknesses prevents sagging across wide shelf spans and guarantees the long term structural integrity of the furniture.\n\nSpecifying appropriate interior linings such as durable melamine or real wood veneers ensures the cabinetry withstands daily cleaning routines. Quality carcase construction transforms a simple storage box into a rigid architectural element capable of supporting heavy stone worktops."
       },
       {
         "level": "h2",
-        "heading": "Carcase Material Standards and Moisture Resistant Substrates",
-        "body": "Specifying the correct carcase substrate guarantees structural longevity against the aggressive humidity fluctuations typical in British culinary spaces. High grade 18mm birch plywood provides exceptional screw holding capacity and natural dimensional stability compared to standard chipboard alternatives found in mass market retail kitchens.\n\nAlternatively high density moisture resistant medium density fibreboard offers a perfectly flat surface for internal shelving and veneered cabinetry components. Complying with relevant British standards ensures your cabinetry withstands ambient moisture without swelling or degrading along vulnerable panel joints.",
-        "bullets": [
-          "Specify 18mm birch plywood for superior structural rigidity and exceptional screw retention across all tall pantry carcases.",
-          "Utilize high density moisture resistant MDF for painted panel components to prevent seasonal warping near dishwashers and sinks.",
-          "Ensure all exposed raw plywood edges are banded with matching solid hardwood lippings of at least 2mm thickness."
-        ]
-      },
-      {
-        "level": "h2",
-        "heading": "Five Piece Solid Timber Door Construction",
-        "body": "Authentic heritage joinery relies on traditional mortise and tenon joinery to construct robust five piece solid timber cabinet doors. This time tested technique locks rails and stiles together firmly while allowing natural wood movement across the grain during damp winter months.\n\nPrecise manufacturing tolerances create tiny micro expansion gaps within the panel grooves to accommodate seasonal humidity changes without cracking the paint finish. Expect to invest around £1,400 to £2,500 for a set of custom built solid oak shaker doors tailored to precise room dimensions.",
+        "heading": "Five Piece Solid Timber Door Frame Construction",
+        "body": "Constructing durable cabinet doors demands traditional joinery techniques that accommodate the natural movement of timber across changing seasons. The classic five piece shaker door utilises vertical stiles and horizontal rails joined securely together using tightly fitted stub mortise and tenon joints.\n\nWithin this perimeter frame, a floating centre panel sits inside a tailored groove cushioned by rubber expansion beads. This clever engineering detail allows the central timber panel to expand and contract across the grain without splitting the surrounding frame joints.\n\nMastering timber door construction involves strict adherence to time honoured workshop rules regarding timber selection and moisture content management.\n\nSelecting quarter sawn timber blanks ensures grain stability and minimises surface cupping across wider door profiles.\n\nMaintaining a strict equilibrium moisture content between eight and twelve percent prevents post installation shrinkage in heated environments.\n\nApplying waterproof PVA adhesive to mortise and tenon shoulders guarantees permanent joint rigidity under continuous mechanical stress.\n\nAllowing adequate clearance tolerances within panel grooves prevents the frame joints from blowing apart during humid summer months.",
         "image": "https://images.unsplash.com/photo-1770573322210-204dea84450f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwdGltYmVyJTIwZHJhd2VyJTIwam9pbnQlMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTgwNjM0NHww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up photo showing dovetail joinery on solid oak kitchen drawers",
         "imageCaption": "Precision dovetail joints in solid European oak drawer boxes.",
@@ -720,33 +715,33 @@ export const ARTICLES = [
         }
       },
       {
+        "level": "h3",
+        "heading": "Internal Service Voids and Worktop Scribing Clearances",
+        "body": "Achieving a professional fitted appearance relies heavily on careful planning of service voids behind base units and tall appliance housings. Leaving a standard fifty millimetre rear service void accommodates incoming water pipes, electrical cables, and gas supply lines without compromising interior storage volumes.\n\nBase cabinets must be specified with removable back panels or lowered service ledges to facilitate maintenance access after installation is complete. This concealed channel prevents unsightly surface trunking and keeps safety critical connections safely isolated from stored kitchen items.\n\nScribing filler panels to uneven British masonry walls demands patience and precision from the installation carpenter using specialised scribing tools. Every historic property features out of plumb walls and sloping floors that require bespoke planing of end panels for a smooth edge.\n\nOvercoming these structural anomalies guarantees that worktops sit dead level and wall units hang with absolute architectural precision. Integrating scribing allowances into initial cutting lists prevents costly site delays and ensures a bespoke tailored finish throughout the space."
+      },
+      {
         "level": "h2",
-        "heading": "Hand Painted Eggshell Finishes and Paint Specification",
-        "body": "Achieving a flawless hand painted finish requires rigorous surface preparation including knotting solutions and multiple coats of adhesion primer. Modern water based acrylic eggshells offer superior scrub resistance and low volatile organic compounds while meeting strict indoor air quality requirements.\n\nProfessional spray painting followed by traditional brush finishing delivers a tactile heritage aesthetic that ages gracefully under daily household wear. Complete bespoke kitchen installations typically command trade costs ranging from £15k to £35k depending on spatial complexity and timber selections.",
-        "bullets": [
-          "Apply two coats of shellac based knotting solution to prevent resin bleed through light coloured paint finishes.",
-          "Specify high grade water based acrylic eggshell with a sheen level between ten and twenty percent for optimal durability.",
-          "Lightly sand between every individual coat of primer and topcoat using fine four hundred grit abrasive paper."
-        ]
+        "heading": "Hand Painted Eggshell Finishes and Long Term Durability",
+        "body": "Applying the final decorative finish transforms raw timber joinery into an exquisite architectural asset worthy of a luxury home. High performance water based acrylic eggshell paints offer superior flexibility, low odour, and exceptional resistance to grease stains compared to traditional oil based alternatives.\n\nThe finishing process begins with meticulous hand sanding, followed by an adhesion promoting primer and multiple coats of tinted topcoat. Between each application, fine sanding removes micro fibres and dust nibs, creating a silky touch finish that highlights authentic brush textures.\n\nInvesting in bespoke British kitchen joinery typically commands a realistic budget ranging between fifteen thousand and thirty five thousand pounds. This financial investment reflects the countless hours of skilled bench joinery, precise workshop spraying, and careful on site hand painting required.\n\nLong term durability depends on regular gentle cleaning with mild soapy water and avoiding harsh abrasive chemical cleaning agents. Quality eggshell paints cure to a tough, washable membrane that withstands the rigorous demands of a busy family culinary environment."
       },
       {
         "level": "h2",
         "heading": "Built To Last",
-        "body": "Investing in proper joinery standards safeguards your property value and delivers a functional culinary workspace built to endure decades of use. Prioritising quality substrates alongside traditional craftsmanship ensures your architectural investment remains structurally sound and visually striking for generations.\n\nConsulting experienced local artisans guarantees your bespoke cabinetry complies with current building practices while reflecting authentic British design heritage perfectly throughout every single room."
+        "body": "Investing in authentic timber kitchen cabinetry ensures generational endurance through uncompromising joinery standards and premium material selection. Proper construction methods protect against structural failure and environmental shifts.\n\nThoughtful architectural detailing creates timeless spaces that reward the discerning homeowner with lasting beauty and daily functional excellence."
       }
     ],
     "faqs": [
       {
-        "question": "What thickness plywood is best for kitchen carcases?",
-        "answer": "Using 18mm birch plywood provides optimal structural rigidity and long term screw holding strength for all heavy kitchen cabinets."
+        "question": "What is the primary benefit of in frame kitchen cabinet construction?",
+        "answer": "In frame construction offers superior structural rigidity and a traditional furniture aesthetic by mounting doors directly inside solid timber frames."
       },
       {
-        "question": "Why use mortise and tenon joints for cabinet doors?",
-        "answer": "Mortise and tenon joints provide maximum structural strength while accommodating natural timber movement caused by seasonal humidity changes."
+        "question": "Why use birch plywood instead of standard chipboard for cabinet carcases?",
+        "answer": "Birch plywood provides exceptional screw holding capacity and moisture resistance to prevent structural sagging under heavy stone worktops."
       },
       {
-        "question": "How much should a bespoke hand painted kitchen cost?",
-        "answer": "Professional bespoke kitchen projects typically range from £15,000 to £35,000 based on materials hardware and architectural complexity."
+        "question": "How do floating centre panels prevent solid timber doors from cracking?",
+        "answer": "Floating panels sit on expansion beads that allow natural timber movement across seasonal humidity shifts without stressing the frame joints."
       }
     ],
     "tags": [
@@ -782,23 +777,21 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Room Dimensions and Usable Floor Area Verification",
-        "body": "Securing a three bedroom home across Britain demands careful measurement of floor plates before signing any lease agreements. Bring a reliable laser measure to verify that each bedroom easily accommodates standard double furniture layouts.\n\nCheck that principal sleeping spaces provide at least 750mm of clear walking space around bed frames. Door swings and fitted wardrobe depths of 600mm must not obstruct your primary pathways through the room."
+        "heading": "Verifying Usable Floor Space and Bedroom Circulation",
+        "body": "Securing a suitable three bedroom home across Britain demands careful inspection of room layouts beyond square footage figures alone. Estate agents frequently quote gross internal area which masks awkward architectural angles, sloping attic ceilings, and intrusive bulkheads that reduce practical furniture placement significantly.\n\nMastering bedroom circulation involves testing actual physical clearances using a reliable tape measure during your initial viewing. Ensure you verify wardrobe door swings do not collide with bed frames and that adequate ninety millimetre walkway clearances remain clear for daily movement around primary sleeping quarters.\n\nDouble bed accommodation requires a minimum room width of two point four metres to allow standard bedside tables alongside the mattress edge. Check second and third bedrooms carefully, as modern new builds often compress smaller rooms into inadequate single spaces incapable of fitting a standard double configuration.\n\nEvaluating structural utility means checking electrical socket positions relative to natural bed locations to avoid hazardous trailing extension leads. Assessing these spatial constraints early prevents frustrating compromises after signing a fixed term residential lease agreement on your chosen property.",
+        "bullets": []
       },
       {
         "level": "h3",
-        "heading": "Heating Networks Combi Boilers and EPC Ratings",
-        "body": "Modern rental properties require robust heating infrastructure to keep winter utility bills manageable. Inspect the energy performance certificate to confirm the dwelling achieves at least a current rating of band C under Part L building regulations.\n\nTest individual radiators for cold spots by running the central heating system during your viewing. Sludge accumulation in older panel radiators often requires a professional power flush costing approximately £400 to restore output.",
-        "bullets": [
-          "Verify that combi boilers hold valid annual gas safety certificates issued by certified engineers.",
-          "Check thermostatic radiator valves operate smoothly across all three principal bedrooms.",
-          "Inspect window seals for draughts that reduce overall thermal efficiency ratings."
-        ]
+        "heading": "Heating System Evaluation and Energy Performance Certificates",
+        "body": "Evaluating the primary heating installation prevents winter heating crises and excessive monthly utility expenditures in rental properties. Inspect the central heating boiler for modern condensing combi units bearing recent service certificates rather than antiquated systems prone to sudden component failure.\n\nExamine every radiator throughout the three bedrooms for functioning thermostatic radiator valves that enable independent temperature control per room. Landlords must legally provide an Energy Performance Certificate rated E or higher before marketing any residential property for private rental occupation across England.\n\nRequesting past seasonal gas bills offers tangible proof of thermal efficiency, highlighting potential draught issues hidden behind fresh interior magnolia paintwork. Properties featuring adequate cavity wall insulation and double glazing retain warmth far longer, reducing ongoing energy overheads for tenants significantly.\n\nTesting the hot water delivery speed at bathroom taps and kitchen sinks reveals underlying pressure deficits within the domestic plumbing network. A robust heating circuit guarantees consistent comfort during colder months without requiring constant manual intervention or expensive emergency callouts.",
+        "bullets": []
       },
       {
         "level": "h2",
         "heading": "Damp Penetration and Moisture Testing Red Flags",
-        "body": "Victorian and Edwardian terraces frequently conceal hidden moisture behind decorative wall coverings and fresh paint. Press a digital damp meter against external corners where rising or penetrating damp typically compromises plaster integrity.\n\nHygrometer readings exceeding 65 percent relative humidity indicate poor ventilation performance within enclosed bathroom spaces. Landlords must provide functional extractor fans rated to extract at least 15 litres per second.",
+        "body": "Identifying moisture ingress requires methodical surveying of vulnerable architectural zones including bay window corners and exterior chimney breast walls. Rising damp and penetrating damp leave distinct visual markers like peeling wallpaper, salt efflorescence, and decaying skirting boards hidden behind furniture.\n\nUtilising a digital pinless moisture meter provides precise moisture equivalent readings when pressed against ground floor masonry or upper ceiling perimeters. Readings exceeding sixty five percent relative humidity inside habitable rooms indicate severe ventilation failures or structural waterproofing defects requiring immediate landlord remediation.\n\nPersistent black mould growth around window reveals points towards chronic condensation caused by inadequate trickle vents and poor property ventilation habits. Tenants must document these visual anomalies thoroughly during the inventory check-in process to prevent unfair deposit deductions at tenancy termination.\n\nExternal brickwork inspection reveals cracked mortar joints and failing rendering that allow driving rain to penetrate the internal structural cavity. Ensuring the building envelope remains watertight protects your personal belongings from ruinous mould spores throughout the agreed rental term.",
+        "bullets": [],
         "image": "https://images.unsplash.com/photo-1783785148139-04dfa5c533bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpZ2h0JTIwbW9kZXJuJTIwaGFsbHdheXxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Clean minimalist hallway with timber flooring and soft neutral wall paint",
         "imageCaption": "Thoughtfully proportioned entryways set the tone for a well-maintained rental home",
@@ -809,42 +802,39 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "Water Pressure and Gravity Fed Shower Systems",
-        "body": "Inadequate water flow ruins morning routines in multi storey properties lacking proper booster pumps. Turn on kitchen taps simultaneously with bathroom showers to observe noticeable drops in dynamic pressure across the network.\n\nHigh pressure unvented hot water cylinders deliver superior performance compared to outdated gravity systems. Ensure thermostatic mixing valves comply with current standards to prevent scalding risks for younger occupants.",
-        "bullets": [
-          "Test cold mains flow rates by measuring how long filling a 10 litre bucket takes.",
-          "Inspect flexible tap connectors underneath basins for signs of weeping rubber seals.",
-          "Confirm immersion heater timers function correctly if the property lacks gas supply."
-        ]
+        "heading": "Cold Mains Water Pressure and Gravity Shower Performance",
+        "body": "Testing cold mains water pressure protects your daily routine from frustratingly weak shower performance and sluggish basin filling speeds. Turn on multiple taps simultaneously while flushing the toilet to check if water flow drops to an unacceptable trickle across the property.\n\nOlder British properties relying on gravity fed hot water systems often require noisy twin impeller booster pumps to deliver satisfactory shower experiences. Inspect the airing cupboard cylinder to determine whether the setup utilises an unvented pressurised tank or an outdated open vented copper cylinder.\n\nChecking mixer valve responsiveness ensures hot and cold water blends smoothly without sudden scalding temperature fluctuations during peak morning usage hours. Documenting water pressure anomalies during your initial viewing empowers you to request necessary plumbing upgrades before moving in.\n\nLow mains pressure severely hampers modern washing machines and dishwashers relying on adequate inlet flow to complete cleaning cycles efficiently. Verifying dynamic flow rates directly from the stopcock provides absolute clarity regarding the overall health of the domestic water infrastructure.",
+        "bullets": []
       },
       {
         "level": "h2",
-        "heading": "UK Tenancy Law and Legal Deposit Caps",
-        "body": "The Tenant Fees Act limits tenancy security deposits to five weeks of total rent for annual incomes below fifty thousand pounds. Landlords cannot demand extra fees for inventory checks or administration tasks during onboarding.\n\nExamine the detailed schedule of condition report before moving personal belongings into the property. Photographic evidence protects your deposit against unfair deductions levied by letting agents at checkout inspections.",
+        "heading": "UK Tenancy Law and Statutory Five Week Deposit Caps",
+        "body": "Navigating British residential tenancy law ensures your financial exposure remains strictly limited under current government statutes and consumer regulations. Landlords and letting agents must adhere to strict legislative boundaries governing upfront payments and mandatory deposit protection schemes within thirty days.\n\nThe regulatory framework provides essential safeguards for tenants entering into assured shorthold tenancy agreements across the private rental sector. Understanding these legal protections prevents unlawful financial demands and secures your statutory rights throughout the entire duration of your stay.\n\nComprehensive photographic check-in inventory evidence serves as your primary legal defense when disputing unfair end of tenancy deposit withholding claims. Documenting every scuff mark and preexisting structural defect protects your hard earned capital from unscrupulous landlord deductions upon vacating.\n\nFamiliarising yourself with these statutory provisions grants immense confidence when negotiating tenancy terms and reviewing formal contract clauses with letting agents. Always insist upon official government backed deposit scheme certificates before transferring any initial funds to your landlord.",
         "bullets": [
-          "Confirm tenancy deposits remain registered within government approved protection schemes within 30 days.",
-          "Check that break clauses match your long term residential requirements precisely.",
-          "Ensure all utility meter serial numbers match initial tenancy agreement records."
+          "Holding deposits are legally restricted to a maximum of one week of total agreed rental value.",
+          "Security deposits for properties under fifty thousand pounds annual rent are capped at five weeks.",
+          "Tenancy agreements must be protected in a government approved scheme within thirty days."
         ]
       },
       {
         "level": "h2",
         "heading": "Secure Your Tenancy",
-        "body": "Diligent preparation safeguards your investment when renting residential properties throughout the United Kingdom. Balancing structural integrity with legal safeguards ensures a comfortable home for your household.\n\nAlways rely on professional surveyors and thorough physical inspections over glossy marketing photographs alone. Making informed choices prevents costly disputes and guarantees long term residential satisfaction."
+        "body": "Executing thorough technical due diligence safeguards your household against structural pitfalls and financial disputes throughout your tenancy. Diligent preparation guarantees lasting residential stability.\n\nApproach your property search with uncompromising architectural scrutiny to secure a comfortable home.",
+        "bullets": []
       }
     ],
     "faqs": [
       {
-        "question": "What is the maximum legal security deposit a landlord can charge for a three bedroom rental property?",
-        "answer": "Landlords are legally restricted to taking a maximum security deposit equivalent to five weeks of total rent."
+        "question": "What is the maximum legal security deposit a landlord can charge for a rental property?",
+        "answer": "Security deposits are legally capped at five weeks of rent for properties with an annual rent under fifty thousand pounds."
       },
       {
-        "question": "How do you check for hidden damp issues during a house viewing?",
-        "answer": "Use a digital moisture meter on external wall corners and check relative humidity levels with a portable hygrometer."
+        "question": "How can I test water pressure during a property viewing?",
+        "answer": "Turn on multiple taps simultaneously and flush the toilet to check if the water flow drops to an unacceptable trickle."
       },
       {
-        "question": "What minimum energy performance certificate rating is recommended for modern rental houses?",
-        "answer": "Properties should ideally achieve at least a current energy performance certificate rating of band C to ensure lower utility bills."
+        "question": "What minimum EPC rating must a rental property achieve before it can be legally marketed?",
+        "answer": "Landlords must legally provide an Energy Performance Certificate rated E or higher before letting a residential property."
       }
     ],
     "tags": [
@@ -881,22 +871,17 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Substrate Preparation and Wall Degreasing",
-        "body": "Before applying any modern self-adhesive wall surfacing products, you must thoroughly wash the entire brick or plaster background using warm water mixed with traditional sugar soap solution. This removes invisible grease films left by previous occupants and ensures maximum bonding strength for your newly selected polymer tiles.\n\nAllow the washed masonry background to dry completely for a strict minimum period of twenty four hours before proceeding to any installation work. Any residual moisture trapped behind the adhesive backing will cause premature lifting, mold formation, and structural failure of the waterproof vinyl finish.",
-        "bullets": [
-          "Wash all tiled areas thoroughly using a strong sugar soap solution and clean water rinse.",
-          "Repair cracked plaster using a quick setting gypsum filler sanded flat to 120 grit smoothness.",
-          "Ensure the wall surface dries completely for at least twenty four hours before sticking."
-        ]
+        "body": "A flawless installation begins with rigorous cleaning of the target wall surfaces using industrial sugar soap mixed thoroughly with warm water. This vital washing stage lifts stubborn grease films, soap residue, and cooking oils that inevitably accumulate on bathroom walls over years of daily domestic use.\n\nAfter washing down the entire splashback zone, rinse the masonry or plasterboard thoroughly with clean water to remove chemical residues before drying. Any loose paint flakes, crumbling grout lines, or peeling wallpaper must be scraped away completely using a sharp steel stripping knife to create a flat canvas.\n\nInspect the bare wall carefully for lingering damp patches or hairline cracks requiring appropriate filler application and subsequent sanding down. Allow the prepared surface an uninterrupted twenty-four-hour drying period so residual moisture content drops below safe thresholds before introducing any self-adhesive vinyl tiles to the room.\n\nChecking surface porosity ensures the acrylic or solvent-based adhesive backing bonds permanently without premature lifting along the perimeter edges. Porous plaster must receive a dedicated primer coat to seal the dust particles and guarantee maximum initial grab when laying out your chosen self-adhesive decorative panels."
       },
       {
         "level": "h2",
         "heading": "Stage One Establishing True Level Datum Lines",
-        "body": "Relying on existing worktops or skirting boards to guide your layout is a common mistake because British structural joinery is rarely plumb or level. Set up a professional rotary laser level across the room to project a dead straight horizontal reference line around your washing area.\n\nMeasure carefully up from your bathroom basin by precisely 150mm to establish your primary datum point and mark this reference clearly using a soft pencil. Avoid trusting visual alignment alone, as even a minor 2mm deviation over a 1200mm span becomes glaringly obvious once grouted."
+        "body": "Relying on existing worktops or bathroom basins to judge horizontal alignment is a frequent amateur error that leads to visibly skewed tile rows. Homes settle unevenly over decades, meaning architectural lines rarely match true horizontal levels, making precise geometric measurement mandatory before starting any application.\n\nDeploy a reliable digital spirit level or a professional cross-line laser projected directly against the main vanity wall to establish your primary reference datum. Mark distinct pencil points across the entire span at regular intervals to map out a foolproof horizontal baseline hovering just above the sanitary worktop junction.\n\nMeasure down from your ceiling or wall cabinets to verify that the starting row will not finish with frustratingly thin slivers of tile at the top. Adjust the baseline slightly up or down by a few millimetres to achieve balanced visual proportions across the entire feature wall surface area.\n\nTaking time to pencil accurate vertical plumb lines alongside your horizontal datum ensures both axes intersect at precise ninety-degree right angles for alignment. This foundational grid prevents cumulative installation errors from compounding as you progress outwards across the wall during the main fitting stages."
       },
       {
         "level": "h2",
-        "heading": "Stage Two Measuring and Scoring Panels with a Utility Knife",
-        "body": "Dry fit each flexible composite sheet against the prepared wall before removing the protective backing paper to verify correct edge alignments and pattern repeats. Use a sturdy metal safety straight edge and a sharp steel utility knife to score the surface vinyl multiple times.\n\nSnap the scored composite material cleanly along the scored line and trim any residual backing film with fine shears to achieve a crisp 2mm expansion gap near corners. When cutting around electrical socket boxes, measure twice from your datum lines and use a hole saw attachment for neat finishes.",
+        "heading": "Stage Three Measuring and Scoring Panels with a Utility Knife",
+        "body": "Dry-fitting your self-adhesive panels without removing the protective backing paper allows you to visualise pattern repeats and check edge clearances beforehand. Lay out several sheets across a flat workbench to plan complex cuts around protruding pipework, vanity mirrors, and electrical fused spurs safely.\n\nScore the face of the composite vinyl or gel tile firmly using a sharp heavy-duty utility knife guided against a thick metal straightedge ruler. Multiple light passes produce cleaner fracture lines through thick polymer substrates than attempting to force a deep cut on the very first pass.\n\nSnap the scored material cleanly along the designated cutting line before trimming the thin fibrous backing layer with precision trimming scissors. For circular obstructions like basin taps or electrical sockets, trace the exact cutout shape onto the face and use a heated soldering iron or hole saw.\n\nKeep spare utility blades handy because working with dense composite materials blunts cutting edges rapidly and can cause ragged edges on exposed corners. Always measure twice and cut once to minimise material wastage while ensuring neat, professional-looking joints around every single architectural obstacle in the space.",
         "image": "https://images.unsplash.com/photo-1776525433347-13ffc965601a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwYmF0aHJvb20lMjB0aWxpbmclMjBkZXRhaWx8ZW58MHwwfHx8MTc4OTc0MDAzNHww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Detailed view of self adhesive wall panel edge sealed against moisture",
         "imageCaption": "Precision edge sealing protects adhesive bonds from steam.",
@@ -907,42 +892,42 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Stage Three Adhesive Backing Activation and Roller Pressure",
-        "body": "Peel back the silicone protective release liner from the rear of the panel by approximately 50mm to anchor the top edge against your established laser datum line. Gradually press the panel downward while simultaneously pulling away the remaining backing paper to prevent wrinkles or trapped air pockets.\n\nTake a rubber pressure roller and firmly roll across the entire surface of each applied panel using a steady force equivalent to 10kg of downward hand pressure. This mechanical action activates the pressure sensitive acrylic adhesive backing, ensuring complete bond contact across uneven plaster surfaces."
+        "heading": "Stage Two Measuring and Scoring Panels with a Utility Knife",
+        "body": "Preparation of complex internal corners and intricate border cuts demands meticulous attention to detail to maintain a high standard of craftsmanship. Measure the exact gap dimensions using a calibrated steel tape measure, transferring those precise measurements directly onto the protective backing paper of the tile.\n\nScore through the decorative top layer with controlled pressure, taking care not to pierce your workbench or scratch surrounding sanitary fixtures during the process. Snapping the scored piece along a wooden batten creates a straight break that fits snugly against adjacent walls or skirting board mouldings.\n\nFor difficult plug socket cutouts, remove the plastic faceplates temporarily so the self-adhesive panel slides neatly behind the housing for a cleaner finish. Once the tile is pressed into position around the electrical box, reattach the faceplate to clamp the trimmed edges securely against the wall.\n\nCheck each cut piece against its intended installation spot before peeling away any backing film to confirm the dimensions are completely accurate. Making minor adjustments with a sanding block at this stage prevents awkward gaps from appearing once the permanent adhesive backing makes contact."
       },
       {
         "level": "h2",
-        "heading": "Stage Four Perimeter Silicone Waterproofing",
-        "body": "Apply a continuous bead of high grade neutral cure sanitary silicone sealant along all vulnerable perimeter junctions where your new panels meet baths or washbasins. This specialist formulation contains potent anti fungal additives that prevent black mold growth in damp British bathroom environments.\n\nSmooth the applied silicone bead smoothly using a soapy profile tool within ten minutes of application to achieve a clean concave watertight seal. Allow the completed silicone installation to cure undisturbed for forty eight hours before exposing the immediate area to direct water splashes."
+        "heading": "Stage Four Adhesive Activation and Firm Pressure Rolling",
+        "body": "Peel back approximately fifty millimetres of the protective release liner from the top edge of the tile to expose the pressure-sensitive adhesive. Align this exposed section carefully with your previously established wall datum lines, checking twice before pressing the sticky vinyl firmly against the wall.\n\nGradually pull the remaining backing paper downward with one hand while smoothing the face of the panel outward with a clean microfibre cloth. This measured technique prevents air bubbles from becoming trapped beneath the flexible surface during the initial bonding phase of the installation process.\n\nApply at least ten kilograms of firm, steady hand pressure across the entire surface of each applied tile to activate the high-tack backing glue. Pay special attention to perimeter edges and textured grout line indentations where lifting is most likely to occur under fluctuating humidity conditions.\n\nRoll over every square centimetre using a dedicated rubber J-roller to eliminate any hidden air pockets and ensure complete, uniform contact with the substrate. This mechanical pressure rolling step transforms a temporary sticky backing into a durable, permanent wall covering capable of enduring daily bathroom use."
       },
       {
         "level": "h2",
-        "heading": "Critical Mistakes to Avoid",
-        "body": "Never attempt to install these self adhesive vinyl surfacing products directly inside fully enclosed wet shower stalls where continuous water immersion degrades adhesive bonds rapidly. Stick strictly to splashback zones behind sinks and dry bathroom feature walls to ensure long lasting decorative performance and material integrity.\n\nAvoid placing these standard polymer panels close to direct high heat sources like unshielded radiators or gas hobs because improved temperatures soften the factory adhesive layer. Always maintain a safe clearance distance of at least 150mm from any heating appliance to prevent edge curling and warping.",
-        "bullets": [
-          "Never install self adhesive panels inside enclosed wet shower stalls with direct water jets.",
-          "Avoid placing decorative panels directly behind unshielded heat sources or open radiators.",
-          "Do not rush the curing phase of perimeter silicone sealant before using the room."
-        ]
+        "heading": "Stage Five Perimeter Silicone Waterproofing",
+        "body": "While modern self-adhesive tiles offer excellent surface water resistance, vulnerable perimeter joints require additional protection against penetrating moisture and steam condensation. Apply masking tape along the worktop and tile edges to guarantee clean, straight sealant lines before dispensing any sanitary grade silicone compounds.\n\nLoad a high-quality neutral-cure sanitary silicone into your caulking gun and cut the nozzle at a matching forty-five-degree angle for optimal bead control. Run a continuous, unbroken bead of silicone along the bottom junction where the tiles meet the vanity unit or acrylic bath rim.\n\nTool the wet silicone bead immediately using a dedicated profiling tool or a soapy finger to press the material deep into the joint gap. Smooth out any excess sealant to create a concave concave profile that sheds water effectively and prevents mould spores from taking root.\n\nCarefully peel away the masking tape while the silicone is still wet to prevent jagged edges from forming along the cured polymer boundary lines. Allow the entire silicone bead to cure undisturbed for twenty-four hours before exposing the newly updated bathroom zone to running water."
+      },
+      {
+        "level": "h2",
+        "heading": "Critical DIY Traps and Moisture Failures",
+        "body": "Understanding common pitfalls safeguards your investment and prevents frustrating failures that compromise the structural integrity of your bathroom interior design scheme. Adhering strictly to product limitations ensures long-lasting aesthetic appeal without unexpected peeling or adhesive degradation over the coming years.\n\nMany homeowners underestimate the destructive power of continuous steam and direct water jetting found inside wet zones and dedicated shower cubicles.\n\nNever install these decorative panels inside enclosed shower stalls where pooling water breaks down adhesive bonds.\n\nAvoid placing self-adhesive surfaces directly behind open gas hobs or high-heat zones where intense thermal radiation causes warping.\n\nDo not skip the primer coat on chalky or porous plaster walls, as dust contamination causes instant adhesive failure.\n\nTaking heed of these technical warnings guarantees a professional finish that withstands the unique environmental demands of British domestic bathrooms."
       },
       {
         "level": "h2",
         "heading": "Ready For Use",
-        "body": "Your upgraded washing space is now fully functional, visually striking, and properly protected against everyday moisture damage using modern DIY trade techniques. Enjoy your stylish new bathroom feature knowing you completed a professional standard installation well within a standard weekend budget."
+        "body": "Your transformed sanctuary stands complete.\n\nEnjoy your renovated space."
       }
     ],
     "faqs": [
       {
-        "question": "Can stick on bathroom tiles be applied over existing ceramic tiles?",
-        "answer": "Yes you can apply them directly over old ceramic tiles provided the surface is thoroughly degreased and all grout lines are filled flat first."
+        "question": "Can stick on bathroom tiles be applied directly over existing ceramic wall tiles?",
+        "answer": "Yes, provided the old tiles are thoroughly degreased, scrubbed clean, and any deep grout lines are filled flush to create a smooth substrate."
       },
       {
-        "question": "What is the typical cost for materials when doing a standard basin splashback?",
-        "answer": "A standard basin splashback using quality self adhesive composite panels usually costs between £40 and £90 in total material expenses."
+        "question": "How do you clean and maintain self adhesive splashback tiles without damaging the surface?",
+        "answer": "Use warm soapy water and a soft microfibre cloth while avoiding abrasive scouring pads and harsh chemical bleach solutions."
       },
       {
-        "question": "How do you clean these polymer tiles without damaging the surface finish?",
-        "answer": "Simply wipe them down using warm soapy water and a soft microfiber cloth while avoiding harsh abrasive scouring pads or bleach solutions."
+        "question": "Are these peel and stick products suitable for rental properties where alterations must be temporary?",
+        "answer": "They make excellent temporary updates because they can be peeled away carefully with a heat gun when restoring the room to its original condition."
       }
     ],
     "tags": [
@@ -978,28 +963,23 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Spatial Clearance Around Seating and Primary Walkways",
-        "body": "Designing a coherent British interior requires precise spatial planning for every freestanding lighting fixture. Maintaining proper clearances prevents accidental trips and ensures fluid movement through reception spaces during daily family life.\n\nTrade professionals always verify route dimensions before positioning heavy bases beside bespoke joinery or heritage sofas. Careful placement protects vulnerable wiring while enhancing the natural flow of light across historic floorboards.",
+        "heading": "Primary Walkway Clearances Around Seating Zones",
+        "body": "Designing spatial circulation within a formal British living room demands rigorous adherence to dimensional standards. Heritage properties often feature compact reception footprints, making every millimetre of floor space profoundly precious. Master craftsmen must calculate human ergonomics carefully to prevent any spatial congestion.\n\nEstablishing correct perimeter clearance around upholstered seating arrangements protects both the occupants and the antique furnishings. When positioning heavy fixtures, heritage surveyors examine how traffic flows naturally from doorways toward focal fireplaces. Restricting movement corridors compromises the overall architectural rhythm of the room.\n\nIntegrating auxiliary lighting requires absolute precision regarding physical boundaries and obstruction hazards. A poorly positioned stem can easily cause trips or restrict the full extension of heritage armchair recline mechanisms. Proper spatial planning ensures that illumination enhances functionality without ever hindering daily domestic life.\n\nProfessional installers always verify that physical furniture layouts comply with modern safety legislation and British building standards. Evaluating room geography before installation prevents costly mistakes involving bespoke joinery and custom floor finishes. Thoughtful zoning transforms disjointed interiors into harmonious, highly functional living environments.",
         "bullets": [
-          "Keep a 300mm gap beside sofas to avoid awkward brushing against stems.",
-          "Maintain 900mm main corridors clear of heavy bases for safe passage.",
-          "Check swing radiuses of adjustable arms to protect delicate lime plaster walls."
+          "Maintain a strict 300mm clearance space beside all sofa arms to prevent accidental impacts.",
+          "Preserve a minimum 900mm width for main corridor pathways to ensure unimpeded household circulation.",
+          "Keep floor lamp bases at least 500mm away from high-traffic doorways to eliminate tripping hazards."
         ]
       },
       {
-        "level": "h2",
+        "level": "h3",
         "heading": "Arc Lamps vs Tripod Lamps for Architectural Proportions",
-        "body": "Choosing between soaring arc fixtures and stable tripod models depends entirely on room height and structural volumes. Low Victorian ceilings demand compact footprints, whereas double height barn conversions readily accommodate sweeping cantilevers.\n\nEngineering balanced cantilever counterweights prevents tipping risks on uneven timber joists. Heavy cast iron bases provide necessary stability when extending arms far across expansive hardwood flooring setups."
+        "body": "Choosing between an overhead cantilevered arc fixture and a traditional three-legged tripod model depends entirely on vertical room volume. Period properties with high ceilings tolerate sweeping metal arms magnificently. Conversely, low-slung Victorian conversions often require balanced tripod structures to avoid overwhelming restricted spatial proportions.\n\nCantilevered designs project light deep into seating areas without requiring overhead ceiling wiring. These pieces rely on massive marble counterweights to stabilise their extended reach safely across hardwood flooring. Craftsmen must verify floor joist load capacities before installing extremely heavy stone anchor bases.\n\nTripod alternatives distribute weight evenly across three distinct points, offering exceptional stability on uneven timber floorboards. Their splayed wooden or metal legs introduce geometric interest into neutral corners. However, their wider footprint demands careful spatial planning to avoid encroaching upon adjacent side tables.\n\nMatching the correct lighting silhouette to architectural features improves the entire interior narrative of a home. Tall ceilings demand commanding vertical statements, whereas modest spaces benefit from restrained, elegant profiles. Understanding these scale relationships is a hallmark of distinguished British interior design practice."
       },
       {
         "level": "h2",
-        "heading": "Core Drilled Brass Floor Sockets and Cable Management",
-        "body": "Eliminating dangerous trailing flexes across historic reception floors demands careful core drilling into subfloor screed or timber joists. Installing discrete brass floor boxes keeps power distribution hidden while complying strictly with wiring regulations.\n\nQualified electricians must execute core drilling carefully to protect underlying structural integrity and damp proof membranes. Solid brass cover plates blend discretely into natural stone flags or engineered oak boards.",
-        "bullets": [
-          "Specify Part P compliant brass floor boxes installed by registered contractors.",
-          "Ensure all concealed wiring features proper RCD protection against faults.",
-          "Route cables through protective steel conduits beneath structural floor layers."
-        ],
+        "heading": "Core Drilled Brass Floor Sockets and Cable Safety",
+        "body": "Eliminating trailing flexes across historic parquet flooring represents a primary objective for meticulous heritage surveyors. Core drilled brass floor sockets offer a sophisticated engineering solution for powering central room illumination without unsightly cords. This discreet method preserves the pristine aesthetic integrity of expensive timber finishes.\n\nInstalling flush floor boxes requires diamond core drilling through concrete subfloors or careful lifting of floorboards. Qualified electricians route armoured wiring safely beneath the structural joists to supply power precisely where required. Solid brass cover plates match existing hardware, ensuring period authenticity remains completely undisturbed.\n\nAll concealed electrical installations must integrate robust residual current device protection to safeguard residential occupants. Modern wiring regulations mandate strict adherence to safety codes when introducing power sources directly into floor assemblies. Professional testing guarantees that every brass socket operates with absolute reliability and safety.\n\nDiscreet floor connections eliminate the traditional clutter associated with long extension leads trailing behind sofas. This technical upgrade dramatically improves both visual neatness and physical safety throughout busy family living spaces. Investing in concealed power infrastructure represents the absolute pinnacle of refined British craftsmanship.",
         "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Zmxvb3IlMjBsYW1wcyUyMGZvciUyMGxpdmluZyUyMHJvb20lMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up detail of a solid turned brass joint and hand woven fabric cable on a floor lamp",
         "imageCaption": "Precision joinery and turned solid brass details deliver mechanical durability and refined tactile appeal.",
@@ -1009,28 +989,33 @@ export const ARTICLES = [
         }
       },
       {
-        "level": "h2",
-        "heading": "Lamp Shade Materials and Diffused Glare Control",
-        "body": "Selecting appropriate shade materials dictates how harshly artificial lumens interact with surrounding heritage paint finishes. Heavy linen drums soften direct output, whereas hand blown opal glass creates gentle multidirectional radiance.\n\nPositioning lower shade rims exactly at seated eye level prevents unpleasant glare during evening reading sessions. Premium fittings utilising BS 5852 fire retardant linings ensure absolute safety within residential spaces."
+        "level": "h3",
+        "heading": "Fabric Shade Materials and Diffused Glare Management",
+        "body": "Managing luminance levels within a domestic setting requires careful selection of shade materials and density. Raw linen drums diffuse light softly across a room, creating a warm, welcoming ambience. In contrast, heavy silk linings direct illumination strictly downward, highlighting specific reading surfaces below.\n\nHand-blown opal glass shades offer superior glare reduction by scattering light evenly in every conceivable direction. This technique prevents harsh hotspots from damaging eyes while occupants relax on plush evening sofas. Selecting the correct diffuser density ensures visual comfort throughout long winter evenings at home.\n\nPositioning the bottom edge of a shade at exact eye level when seated prevents direct filament glare. Architectural lighting designers calculate sightlines meticulously to ensure that light sources remain gracefully concealed. This attention to detail defines the difference between amateur decor and professional heritage styling.\n\nPairing high-quality textiles with dimmable LED retrofit lamps provides complete control over interior mood. Natural woven fabrics age gracefully over decades, developing a subtle patina that complements traditional British decor. Premium material selection guarantees enduring beauty and exceptional functional performance year after year."
       },
       {
         "level": "h2",
-        "heading": "Essential Buying Checklist",
-        "body": "Securing high specification lighting pieces requires balancing aesthetic appeal with rigorous electrical standards and physical durability. Investing in solid brass construction ensures decades of reliable service within busy family environments.\n\nProfessional surveyors recommend allocating between £350 and £1200 for artisan crafted luminaires featuring heavy weighted bases and certified dimming components. Verify manufacturer warranties before finalising purchases for high end residential renovations."
+        "heading": "Lamp Placement in Dark Reception Room Corners",
+        "body": "Dark architectural corners in period reception rooms frequently suffer from a distinct lack of natural daylight penetration. Positioning a tall floor fixture strategically within these neglected zones instantly expands perceived spatial boundaries. Effective corner lighting revitalises dead architecture, turning shadowed voids into engaging visual anchor points.\n\nPairing a vertical lighting element with low-profile bespoke shelving creates sophisticated layered illumination depth. The upward wash of light highlights architectural mouldings, skirting boards, and decorative plasterwork. This technique introduces subtle textural shadows that enhance the historic character of the room.\n\nReflective surfaces positioned near dark corners amplify the output of single-bulb floor lamps significantly. Polished brass reflectors or antique mirrors bounce ambient rays back into the primary seating zone. Such optical enhancements maximise energy efficiency while enriching the overall aesthetic warmth of the space.\n\nThoughtful corner illumination corrects inherent architectural imbalances found in awkward Victorian or Edwardian floor plans. By balancing light levels across all four walls, designers create an enveloping sense of sanctuary. Proper placement transforms challenging spatial layouts into cohesive, inviting domestic environments."
+      },
+      {
+        "level": "h2",
+        "heading": "Buying Checklist",
+        "body": "Selecting exceptional architectural floor lighting requires evaluating material authenticity, structural stability, and electrical safety compliance. Prioritise solid brass hardware, weighted marble bases, and high-quality fabric diffusers that endure decades of daily domestic use without compromising structural integrity or visual elegance.\n\nMeasure all spatial clearances, verify floor box compatibility, and ensure appropriate shade heights before purchasing. Investing in well-engineered fixtures guarantees a harmonious balance of form and function for your prestigious British home layout."
       }
     ],
     "faqs": [
       {
-        "question": "What is the minimum walkway clearance needed around a floor lamp base?",
-        "answer": "You should maintain at least 900mm of clearance along primary corridors to ensure safe and unobstructed movement."
+        "question": "What is the ideal distance between a floor lamp and a sofa arm?",
+        "answer": "Maintain a minimum clearance of 300mm to prevent accidental impacts and preserve comfortable traffic flow."
       },
       {
-        "question": "Are floor boxes required for installing lamps away from walls?",
-        "answer": "Core drilled brass floor boxes offer a safe and tidy method to supply power without dangerous trailing cables."
+        "question": "Are core drilled floor sockets safe for historic timber flooring?",
+        "answer": "Yes, when installed by qualified professionals using RCD protection and matching brass cover plates."
       },
       {
-        "question": "How do I prevent harsh glare from reading lamps?",
-        "answer": "Position the lower rim of the shade at seated eye level and choose dense linen or opal glass diffusers."
+        "question": "How do I prevent direct glare from a living room floor lamp?",
+        "answer": "Use hand-blown opal glass or raw linen drum shades positioned slightly above eye level when seated."
       }
     ],
     "tags": [
@@ -1066,28 +1051,18 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Stainless Steel Sinks and Gauge Thickness Standards",
-        "body": "Choosing a durable metallic basin requires attention to metal density rather than superficial shine alone. Cheaper models flex easily under pressure because manufacturers use thin sheets that compromise daily structural integrity. Investing in professional grade metal protects your kitchen investment against heavy pots and pans.\n\nA proper specification demands 18 gauge material measuring precisely 1.2mm in thickness across the entire bowl surface. Substantial sound deadening pads applied underneath significantly reduce loud clatter from running water and heavy utensils. Expect trade pricing between £250 and £600 for high specification stainless steel models.\n\nProfessional installers always inspect the underside coating before dropping the unit into any cut out space. Good insulation prevents unwanted condensation build up inside kitchen base units housing timber flooring or electrical appliances.",
-        "bullets": [
-          "Specify 1.2mm thickness to prevent bowl flexing during heavy pots washing tasks.",
-          "Check for dense rubber sound deadening pads covering at least eighty percent of exterior walls.",
-          "Ensure a brushed or satin finish rather than mirror polish to mask minor surface scratches."
-        ]
+        "heading": "Stainless Steel Engineering and Gauge Thickness Standards",
+        "body": "Specifying the correct stainless steel for a British domestic kitchen requires looking beyond aesthetic appeal to examine fundamental material properties. Premium architectural specifications demand robust 18 gauge steel measuring precisely 1.2 millimetres in thickness. Thinner residential alternatives flex dangerously under heavy cast iron cookware.\n\nA brushed satin finish remains the gold standard for contemporary culinary spaces because it effectively masks inevitable surface scratching. This directional polishing technique diffuses ambient light beautifully while maintaining a hygienic nonporous barrier against bacteria accumulation across busy family preparation zones.\n\nAcoustic performance separates cheap commercial pressings from luxury residential basins. High performance installations incorporate dense sound deadening rubber pads affixed strategically beneath the bowl to eliminate the metallic pinging noise during heavy water flow and dishwashing activities.\n\nThermal expansion coefficients of commercial grade austenitic alloys ensure long term durability against boiling water drainage. Proper grade 304 formulations prevent unsightly rust pitting even when exposed to harsh cleaning chemicals and everyday acidic food residues over decades of service."
       },
       {
-        "level": "h2",
+        "level": "h3",
         "heading": "Fireclay Ceramic Sinks and Heritage Heat Resistance",
-        "body": "Traditional fireclay construction offers exceptional heat tolerance for busy cooks handling boiling water directly from quooker taps. A thick vitreous glaze fuses permanently with dense clay during intense firing to create a non porous surface. This classic material suits period properties and farmhouse kitchens requiring authentic architectural detailing.\n\nWeighing upwards of 30kg, these heavy basins demand robust cabinetry bracing to prevent catastrophic structural failure over time. Carpenters must reinforce internal carcass framing using 18mm exterior grade ply and vertical support struts beneath. Retail figures range from £400 to £1,200 depending on overall bowl dimensions and manufacturing origin.\n\nCareful handling during fitting prevents chipping along vulnerable outer rims exposed to cast iron cookware impacts. Regular cleaning with mild non abrasive creams maintains the brilliant white aesthetic without dulling the protective glaze."
+        "body": "Traditional fireclay ceramic basins bring authentic British heritage charm into modern architectural interiors through time tested manufacturing processes. Vitreous china glaze fuses permanently with the dense clay body at extreme kiln temperatures, creating a remarkably durable surface that withstands daily kitchen rigours.\n\nThermal shock resistance is the defining characteristic of genuine fireclay sinks. Homeowners can confidently place scorching hot roasting pans straight from the oven at temperatures reaching two hundred and eighty degrees Celsius directly onto the ceramic surface without risking catastrophic thermal cracking.\n\nStructural integrity demands careful planning due to the immense dead weight of fireclay products often exceeding thirty kilograms. Cabinetmakers must construct heavy duty internal subframe supports using reinforced timber framing to bear this substantial load safely beneath solid stone worktops.\n\nGlazed finishes resist staining from strong pigments like beetroot and turmeric, provided abrasive scourers are avoided during daily cleaning routines. Gentle cream cleansers maintain the brilliant reflective luster that makes these classic Belfast styles enduring favourites across period properties."
       },
       {
         "level": "h2",
-        "heading": "Quartz Granite Composites and Scratch Performance",
-        "body": "Engineered stone options combine crushed natural mineral quartz with acrylic resins to deliver extraordinary durability. The resulting eighty percent mineral matrix resists aggressive scratching from knives and heavy ceramic baking dishes. Modern homeowners favour these tactile surfaces for minimalist aesthetics and robust performance.\n\nColours remain stable under direct ultraviolet exposure from large south facing kitchen windows without fading or yellowing. Routine maintenance involves wiping down surfaces with warm soapy water followed by occasional mineral oil applications. Quality composite models generally cost between £300 and £900 across reputable UK showrooms.\n\nFabricators must use specialised diamond tipped router bits when cutting tap holes into dense composite material. Precision templating ensures the waste collar aligns perfectly with underlying pipework during final plumbing connections.",
-        "bullets": [
-          "Verify the eighty percent quartz ratio ensures maximum impact and scratch resistance.",
-          "Apply food safe mineral oil periodically to restore deep pigmentation on dark finishes.",
-          "Avoid harsh chemical bleaches that can degrade the binding acrylic resin over extended time."
-        ],
+        "heading": "Quartz Granite Composites and Scratch Resilience",
+        "body": "Modern quartz granite composite sinks deliver exceptional scratch resilience by combining eighty percent natural mineral quartz with advanced acrylic resins. This engineered formulation produces a remarkably tough tactile surface that shrugs off aggressive impacts from dropped ceramic plates and heavy utensils.\n\nHard water limescale accumulation represents a persistent challenge within many British domestic water supply regions. Quality composite materials feature smooth nonporous matrices that prevent mineral deposits from bonding tightly, allowing homeowners to wipe away calcium scale effortlessly using mild vinegar solutions.\n\nUltraviolet stability ensures that dark charcoal and metallic grey composite basins maintain their rich pigmentation without fading near sunlit kitchen windows. High grade manufacturing additives protect the resin binder from thermal degradation under intense direct sunlight throughout long summer months.\n\nRoutine maintenance requires applying daily mineral oil buffing treatments to preserve the deep satin sheen of composite surfaces. This simple habit conditions the resin matrix, enhancing water repellency and maintaining a showroom fresh appearance across years of intensive family use.",
         "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwZ3Jhbml0ZSUyMGtpdGNoZW4lMjBzaW5rJTIwZml4dHVyZXxlbnwwfDB8fHwxNzg5NjczMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up photo of modern granite composite sink bowl fitted into dark quartz worktop",
         "imageCaption": "Composite quartz basins absorb physical impacts while dampening unwanted acoustic reverberation.",
@@ -1097,38 +1072,38 @@ export const ARTICLES = [
         }
       },
       {
-        "level": "h2",
-        "heading": "Undermount vs Inset Mounting Systems",
-        "body": "Mounting configurations dictate how water drains from surrounding work surfaces directly into the main drainage bowl. Undermount installations sit beneath solid stone worktops, creating a sleek profile that facilitates effortless counter wiping. This method requires precise CNC routing by stone fabricators to expose polished internal edges.\n\nLaminate worktops demand inset or drop in sinks featuring a raised perimeter lip preventing core water ingress. Installers must apply high grade silicone sealant generously around the entire perimeter joint to satisfy strict building guidelines. Improper sealing causes particle board swelling and premature structural degradation of surrounding cabinetry.\n\nProfessional builders charge approximately £150 to £300 for precise sink cutout and mounting labour operations. Ensuring proper clamping distribution prevents shifting when heavy loads fill the basin during peak usage."
-      },
-      {
-        "level": "h2",
-        "heading": "Waste Disposals and British Plumbing Regulations",
-        "body": "Integrating modern food waste disposers requires strict adherence to current UK plumbing and electrical safety codes. Units must connect to standard 40mm waste pipes while maintaining adequate fall gradients for smooth wastewater discharge. Electric switches operating the disposer demand zone compliant positioning away from direct splash zones.\n\nAll installed drainage fittings must carry official WRAS approval to comply with local water supply regulations. Plumbers should install deep seal traps to prevent foul sewer gases from entering contemporary open plan living spaces. Total plumbing hardware costs typically span £100 to £350 excluding trade installation labour charges.\n\nPneumatic air switches mounted directly onto worktops provide safe remote activation without wet hands near power sources. Regular flushing with cold water keeps internal grinding mechanisms clear of fibrous food debris and fat build up.",
+        "level": "h3",
+        "heading": "Undermount versus Inset Mounting Performance",
+        "body": "Choosing how the basin integrates with the surrounding worktop dictates both visual cleanliness and long term water containment around the wet zone. Solid stone surfaces are mandatory for undermount installations because exposed engineered wood cores would swell rapidly if moisture bypassed the silicone sealant barrier.\n\nApplying high grade waterproof silicone jointing around the perimeter prevents stagnant water ingress into vulnerable countertop joints. Installers must carefully tool this bead to eliminate microscopic gaps where culinary debris and bacteria could otherwise accumulate during routine food preparation tasks.\n\nOverhang reveals require precise dimensional coordination between the fabricator and the sink manufacturer to ensure proper aesthetic alignment. A positive reveal exposes the sink rim edge deliberately, whereas a zero reveal creates a flush transition requiring meticulous CNC stone cutting precision.\n\nEvaluating structural clearance beneath the cabinetry ensures that clips and mounting brackets do not interfere with waste disposal units or plumbing traps. Professional fitters always dry fit the entire assembly before applying final structural adhesives to guarantee complete mechanical stability.",
         "bullets": [
-          "Ensure all drainage components feature official WRAS approval markings for regulatory compliance.",
-          "Maintain a standard 40mm waste pipe diameter with adequate downward fall gradients.",
-          "Install pneumatic air switches on worktops to isolate electrical controls from moisture."
+          "Undermount sinks require solid stone or composite worktops to prevent core water damage",
+          "Inset top mount models suit laminate surfaces by overlapping the waterproof countertop cut out",
+          "Flush mount installations demand CNC stone routing for a perfectly level transition plane"
         ]
       },
       {
         "level": "h2",
+        "heading": "Waste Connections and British Plumbing Standards",
+        "body": "Compliance with strict British plumbing regulations guarantees hygienic drainage and prevents noxious sewer gases from entering living spaces. Specifiers must insist on Water Regulations Advisory Scheme approved fittings throughout the entire waste assembly to satisfy local authority building control requirements.\n\nStandard forty millimetre pipe traps ensure rapid evacuation of grey water without backing up during simultaneous dishwasher operation and sink draining. Proper gradient falls of twenty millimetres per metre prevent sluggish flow rates and minimize internal grease accumulation within the discharge pipework.\n\nContinuous waste disposal unit compatibility requires selecting strainer bowls with standard ninety millimetre basket outlet diameters. Heavy motor vibrations necessitate robust brass locking rings and resilient rubber washers to maintain a watertight seal under high torque operating conditions.\n\nOverflow integration remains a mandatory safety feature for modern British installations, preventing accidental flooding if taps are left running unattended. Flexible overflow piping must connect securely to the primary waste body using corrosion resistant stainless steel screws and watertight compression seals."
+      },
+      {
+        "level": "h2",
         "heading": "Essential Sink Selection",
-        "body": "Selecting the correct kitchen basin involves balancing daily cooking habits with structural cabinetry limitations and aesthetic goals. Prioritising material resilience ensures your investment withstands decades of heavy domestic use without requiring premature replacement. Consulting experienced kitchen designers prevents costly specification errors before fabrication begins.\n\nAlways verify cabinet width dimensions to ensure adequate internal clearance for chosen bowl configurations and pipework. Professional installation guarantees watertight seals and long term reliability across all domestic plumbing and mounting systems."
+        "body": "Balancing material resilience with precise architectural detailing ensures your kitchen sink performs brilliantly for decades. Prioritize certified gauges, robust subframes, and compliant plumbing fittings.\n\nInvesting in quality craftsmanship protects your interior investment against daily wear, moisture ingress, and thermal shock. Choose wisely to achieve lasting culinary harmony."
       }
     ],
     "faqs": [
       {
-        "question": "What thickness of stainless steel is best for a kitchen sink?",
-        "answer": "Specifying 18 gauge stainless steel measuring 1.2mm thick ensures optimal durability and prevents bowl flexing."
+        "question": "What gauge stainless steel is best for domestic kitchens?",
+        "answer": "An 18 gauge thickness measuring 1.2mm provides optimal structural rigidity and dent resistance."
       },
       {
-        "question": "Can ceramic fireclay sinks handle boiling water without cracking?",
-        "answer": "High quality fireclay undergoes extreme kiln firing, making it entirely resistant to thermal shock from boiling water."
+        "question": "Can fireclay ceramic sinks handle boiling water?",
+        "answer": "Yes, high kiln firing temperatures give fireclay exceptional thermal shock resistance against boiling water."
       },
       {
-        "question": "Are undermount sinks suitable for laminate worktops?",
-        "answer": "Undermount sinks require solid stone worktops because exposed chipboard cores in laminate will swell when exposed to water."
+        "question": "Are undermount sinks suitable for wooden worktops?",
+        "answer": "No, undermount sinks require waterproof stone or composite surfaces to prevent core rot from moisture exposure."
       }
     ],
     "tags": [
@@ -1164,23 +1139,23 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "British Heritage Green Glazes from Victorian Bottle to Olive",
-        "body": "Traditional British properties often feature rich green hues inspired by Victorian and Edwardian glazed ceramics. Selecting authentic shades requires understanding how iron oxides react during high temperature kiln firing processes across various clay bodies.\n\nHand glazed earthenware offers gorgeous pooling effects along tile edges but demands careful sealing against moisture ingress. By contrast, modern impervious porcelain delivers industrial strength performance whilst mimicking historic depth through reactive inkjet printing technology."
+        "heading": "British Heritage Green Ceramic Aesthetics",
+        "body": "Exploring traditional British architectural palettes reveals an enduring affinity for rich, organic tones within domestic washing spaces. Victorian bottle greens and muted sage shades connect the interior washroom directly to the historic landscape, offering a sophisticated counterpoint to stark, modern minimalism across heritage properties.\n\nSelecting the correct ceramic medium requires careful architectural consideration regarding moisture absorption rates and long-term durability. Hand-glazed earthenware featuring delicate crackle finishes delivers undeniable visual charm through pooling glazes, yet demands diligent topical sealing to prevent water ingress in humid domestic environments.\n\nAlternatively, high-fired porcelain bodies provide an impervious substrate capable of withstanding constant thermal fluctuations and heavy daily foot traffic. Modern manufacturing innovations now replicate the subtle undulations of artisanal glazes upon durable porcelain bases, combining historic visual character with exceptional modern structural longevity.\n\nBalancing historical authenticity with contemporary performance ensures the interior remains resilient against daily steam exposure without sacrificing stylistic integrity. Specified correctly, these earthen surfaces establish an enduring atmospheric calm that anchors the room within traditional design principles."
       },
       {
         "level": "h3",
         "heading": "Substrate Tanking and Waterproof Membrane Kits",
-        "body": "Installing green tiles inside a walk in wet room requires absolute protection against long term structural water damage. Professional tilers always apply liquid tanking systems directly onto plasterboard or cement backer boards prior to fixing any ceramic pieces.\n\nBudgeting around £250 for professional grade waterproofing materials prevents catastrophic moisture leaks through timber stud walls. Always verify that your chosen liquid membrane fully cures into a rubberised sheet capable of handling minor building movement.",
+        "body": "Protecting underlying timber framing or plasterboard substrates from migrating moisture forms the foundation of any enduring wet room installation. Applying a professional-grade waterproof tanking system prevents water vapor from compromising structural wall ties and causing catastrophic timber rot behind expensive decorative wall finishes.\n\nProfessional surveyors always mandate comprehensive preparation of masonry and cementitious backer boards before introducing any liquid waterproofing compounds. The installation sequence requires meticulous attention to detail around internal corners, pipe penetrations, and floor junctions where movement is most likely to occur.\n\nAdhering strictly to manufacturer specifications during the tanking process guarantees a monolithic protective barrier that withstands continuous hydrostatic pressure. Tradespeople rely on specific layered application methods to achieve the necessary dry film thickness required for certified domestic wet room compliance.\n\nFollowing proper drying intervals between applications ensures the membrane cures completely before adhesive bedding begins. This rigorous preparation safeguards the aesthetic investment against hidden structural failures caused by relentless dampness.",
         "bullets": [
-          "Paint on class 0 waterproof tanking pastes across all shower enclosure walls.",
-          "Embed self adhesive corner reinforcement tapes into wet membrane layers before drying.",
-          "Apply priming agents specified by the manufacturer to ensure high bond strength."
+          "Apply liquid Class zero waterproof tanking slurry liberally across all prepared wall and floor surfaces using a heavy-bristled brush.",
+          "Embed flexible reinforcement tape into wet corners and pipe penetrations to accommodate structural movement without membrane tearing.",
+          "Allow the complete waterproof membrane system to cure for a minimum of twenty four hours before commencing tile installation."
         ]
       },
       {
         "level": "h2",
         "heading": "Grout Joint Widths and Complementary Colour Pairings",
-        "body": "Achieving a crisp architectural finish relies heavily on maintaining consistent grout joint widths throughout the washing space. Using exact 2mm plastic spacers ensures uniform alignment which lets rich green glazes command primary visual attention.\n\nPairing deep olive tiles with ivory grout softens the overall geometric impact within compact bathrooms. Alternatively, selecting a dark cement grey grout modernises sage surfaces while concealing routine dirt accumulation across heavily used floors.",
+        "body": "Determining appropriate grout joint widths preserves the geometric rhythm of hand-pressed ceramic tiles while accommodating minor manufacturing size variances. A precise two millimeter spacer joint offers a balanced aesthetic that protects individual tile edges from chipping during structural settling.\n\nColour coordination between the ceramic glaze and the selected grout significantly influences the overall architectural perception of space. Warm ivory grout softens deep botanical greens, introducing a traditional cottage aesthetic, while charcoal offers a sharper, more contemporary architectural definition.\n\nUsing flexible anti-mould formulations prevents unsightly staining and fungal growth in persistently damp shower enclosures and splashback zones. Premium epoxy or modified polymer grouts resist chemical cleaning agents and maintain their original hue across decades of heavy domestic use.\n\nExpert craftspeople always wipe excess grout residues carefully during the initial curing window to avoid disrupting the joint profile. This meticulous finishing technique highlights the handmade qualities of the surrounding ceramic surfaces.",
         "image": "https://images.unsplash.com/photo-1722942430280-b25dd9c2e836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c2FnZSUyMGdyZWVuJTIwc3Vid2F5JTIwdGlsZXN8ZW58MHwwfHx8MTc4OTY1NTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up of glossy sage green ceramic tiles with matching grout",
         "imageCaption": "Subtle tonal variations bring organic warmth to contemporary walls.",
@@ -1191,37 +1166,32 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "Pairing Green Tiles with Unlacquered Brass and Oak Joinery",
-        "body": "Natural materials improve green ceramic installations by introducing tactile warmth that counters cold bathroom surfaces. Unlacquered brass taps develop a living patina over time, complementing the earthy undertones found within deep botanical wall tiles.\n\nCustom oak vanity units require multiple coats of marine grade polyurethane oil to withstand daily humidity levels. Investing roughly £1,400 into bespoke timber joinery transforms standard washing facilities into authentic spaces of understated luxury."
+        "heading": "Pairing Green Glazes with Unlacquered Brass and Oak Joinery",
+        "body": "Pairing rich botanical greens with unlacquered brass hardware introduces a warm metallic contrast that develops a living patina over time. The golden undertones of raw brass complement the cool depth of sage and bottle green ceramics, creating a sophisticated visual dialogue throughout the space.\n\nNatural oak joinery further grounds the scheme, bringing organic timber textures that soften the hard reflective surfaces of glazed tiles. Selecting sustainably sourced quarter-sawn timber enhances grain stability in humid environments, reducing the risk of warping or dimensional movement.\n\nProtecting exposed timber vanity units requires high-grade marine sealers or hard-wax oils that repel water splashes while preserving the natural matte appearance. Regular maintenance of these wooden elements ensures they age gracefully alongside the surrounding tiled walls and metallic fixtures.\n\nThe thoughtful juxtaposition of green clay, living brass, and warm timber creates a harmonious sensory experience rooted in traditional craftsmanship. Every material works in concert to promote a tranquil atmosphere tailored for daily restorative rituals."
       },
       {
         "level": "h2",
         "heading": "Slip Resistance Ratings and Floor Tile Safety",
-        "body": "Selecting floor tiles for wet zones involves strict adherence to safety regulations and pendulum test values. British Standard BS 7976 governs slip resistance, requiring a minimum PTV 36 plus rating for commercial and high traffic residential wet rooms.\n\nTextured porcelain floor tiles provide necessary friction under wet bare feet without sacrificing clean aesthetic lines. Avoid polished green floor finishes inside shower enclosures to prevent accidental slips and costly insurance claims.",
-        "bullets": [
-          "Specify porcelain floor tiles carrying a certified pendulum test value of 36 or higher.",
-          "Check manufacturer technical datasheets for wet barefoot slip classification codes.",
-          "Keep grout lines narrow on floors to minimize dirt traps and maintain footing."
-        ]
+        "body": "Prioritizing floor safety within wet rooms requires careful analysis of pendulum test value ratings and recognized British Standards compliance. Selecting appropriate floor tiles prevents slip hazards in barefoot washing areas without compromising the overarching design vision of the tranquil sanctuary.\n\nThe pendulum test measures surface friction under wet conditions, ensuring specified floor finishes meet strict safety benchmarks for residential bathroom installations. Specifiers should always request certified laboratory test data confirming slip resistance parameters before finalizing material orders.\n\nTextured matte glazes or unglazed porcelain mosaics inherently provide superior traction compared to highly polished marble or glossy ceramic alternatives. These tactile floor surfaces disperse standing water effectively, maintaining secure footing during enthusiastic morning showers.\n\nIntegrating slip-resistant floor tiles with matching wall ceramics creates a cohesive envelope of green hues that wraps the entire room. Safety and style merge smoothly when technical performance dictates the initial material selection process."
       },
       {
         "level": "h2",
         "heading": "Timeless Green Sanctuary",
-        "body": "Creating a resilient green bathroom combines rigorous substrate preparation with thoughtful material selections that age gracefully. Balancing historic color palettes with modern waterproofing ensures your investment remains stunning for decades.\n\nThoughtful planning turns ordinary washing routines into restorative daily rituals grounded in durable British craftsmanship."
+        "body": "Creating a resilient green sanctuary involves balancing rigorous waterproofing science with thoughtful aesthetic traditions derived from British architectural heritage. Every specified component works together to build a lasting retreat.\n\nInvesting in quality materials ensures your domestic washing space remains both functional and visually serene for decades ahead."
       }
     ],
     "faqs": [
       {
-        "question": "What is the best grout color for dark green bathroom tiles?",
-        "answer": "Soft ivory or dark grey grout works best depending on whether you want a traditional contrast or a modern smooth look."
+        "question": "What is the primary benefit of using porcelain over earthenware in wet rooms?",
+        "answer": "Porcelain offers near zero moisture absorption which prevents structural water damage in high humidity environments."
       },
       {
-        "question": "Do green ceramic tiles need professional tanking in showers?",
-        "answer": "Yes because standard plasterboard absorbs moisture and will cause tiles to fail without a reliable liquid waterproofing membrane."
+        "question": "Why is tanking necessary before installing green bathroom tiles?",
+        "answer": "Tanking creates a waterproof membrane that stops moisture from penetrating structural walls and causing timber rot."
       },
       {
-        "question": "How do I maintain unlacquered brass hardware near green tiles?",
-        "answer": "Wipe the brass fixtures dry after use and let them develop a natural living patina that complements earthy tile tones."
+        "question": "How do unlacquered brass fixtures age when paired with green tiles?",
+        "answer": "Unlacquered brass develops a unique living patina over time that complements the natural tones of green ceramics."
       }
     ],
     "tags": [
@@ -1257,28 +1227,23 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Workbench Structural Framing and Heavy Load Capacities",
-        "body": "Constructing a durable art club workshop requires robust framing capable of supporting heavy communal use. Utilizing C24 treated timber measuring 45mm by 95mm ensures the framework resists warping under sustained loads. Local makers require sturdy surfaces for stone carving, ceramic wedging, and large canvas stretching.\n\nFixing the primary joists securely to masonry walls distributes immense weight evenly across the footprint. You should anchor the timber using heavy-duty sleeve anchors at 600mm intervals along the perimeter. This engineering prevents lateral movement when multiple members lean against the central island workstations.\n\nDesigning the frame to bear rigorous demands involves calculating safe structural tolerances for collective output. Each designated work station needs to withstand localized 300kg point loads without flexing or buckling. Applying marine-grade plywood tops of 18mm thickness provides an enduring surface that handles heavy hardware effortlessly.",
-        "bullets": [
-          "Select C24 graded timber for maximum structural integrity and reliable load bearing performance.",
-          "Space vertical support legs at maximum intervals of 1200mm to prevent surface sagging.",
-          "Apply heavy-duty steel angle brackets at all critical corner joints to maximize rigidity."
-        ]
+        "heading": "Heavy Duty Workbench Framing and Load Capacities",
+        "body": "Constructing a reliable framework for a communal creative space requires robust dimensional timber selected specifically for high load capacities and durability. We specify C24 treated timber measuring 45mm by 95mm for all structural legs and primary support rails to guarantee absolute rigidity under heavy weights.\n\nA proper workbench must withstand intense collaborative making sessions involving heavy clay wedging and large stone carving. Engineering the frame with mortise joints and structural coach screws ensures the entire assembly absorbs dynamic forces without loosening over years of heavy daily studio use and community projects.\n\nSurface durability dictates the choice of top materials for demanding craft environments. We recommend employing 18mm birch plywood tops sealed with multiple coats of hardwax oil. This robust sheet material resists moisture penetration while providing an exceptionally flat plane for detailed drawing and model making activities.\n\nAchieving a 300kg point load resistance demands meticulous bracing beneath the primary work surface. Incorporating intermediate noggins and diagonal corner brackets redistributes downward pressure evenly across the floor footprint, eliminating any dangerous wobble during vigorous sanding or hammering phases of shared creative work."
       },
       {
         "level": "h3",
-        "heading": "Clean Up Utility Sinks and Multi Stage Sediment Traps",
-        "body": "Managing waste materials safely protects your domestic drainage network from expensive blockages and structural failure. Installing a dedicated Belfast sink paired with a multi-stage sediment trap captures heavy clay particles efficiently. This prevents plaster, grout, and fine ceramic slurries from settling inside standard waste pipes.\n\nBuilding regulations dictate that trade workshops prevent hazardous chemical and heavy particulate run-off entering sewers. Fitting a three-chamber under-counter interceptor ensures that suspended solids settle sequentially before liquid reaches mains drainage. Plumbers should install accessible cleanout access points for routine maintenance tasks every quarter.\n\nSourcing reliable plumbing components meeting UK water bylaws prevents regulatory fines during local council inspections. Expect to budget roughly £450 to £750 for a commercial stainless steel basin and interceptor unit. Proper installation safeguards communal studio longevity while maintaining high standards of practical hygiene."
+        "heading": "Utility Sink Drainage and Multi Stage Sediment Traps",
+        "body": "Managing waste water in an active shared studio environment prevents catastrophic plumbing failures caused by sediment buildup. Sinks must feature specialized multi-stage sediment traps designed to catch heavy clay particles, wet plaster slurries, and dried acrylic paint solids before they enter the main municipal drainage network.\n\nPlumbing infrastructure relies on gravity drainage combined with accessible external settling buckets. Without proper interception units, fine ceramic dust settles inside pipe bends, hardening like concrete and requiring costly professional excavation to clear obstructed domestic waste pipes.\n\nInstalling the drainage system requires careful calculation of pipe gradients to ensure smooth flow without stagnation. Maintenance access points must remain visible and unhindered so members can empty heavy sediment compartments regularly as part of weekly workshop housekeeping routines.",
+        "bullets": [
+          "Install a three-stage PVC interceptor bucket beneath the utility sink to capture heavy ceramic clays and dense plaster residues.",
+          "Specify solvent-weld waste pipes with a minimum forty millimetre diameter and a consistent one-in-forty fall gradient.",
+          "Establish a mandatory weekly maintenance protocol for emptying and rinsing sediment traps to prevent downstream pipe blockages."
+        ]
       },
       {
         "level": "h2",
-        "heading": "Balanced Daylight Illumination and 5000K Work Lighting",
-        "body": "Optimizing natural daylight enhances colour accuracy and reduces eye strain for detailed fine art projects. Positioning north facing roof lights minimizes harsh glare and eliminates disruptive shadows across communal work benches. Compliance with Part L building regulations ensures your glazing specifications maintain necessary thermal efficiency values.\n\nTask lighting requires careful placement to achieve a minimum of 500 lux directly onto working surfaces. Suspending linear LED luminaires at 2100mm above finished floor levels guarantees even light distribution throughout. Selecting a colour temperature of 5000K mimics true daylight for exceptional pigment evaluation accuracy.\n\nWiring the lighting circuits demands adherence to Part P electrical safety standards implemented by certified professionals. Grouping switches logically near entry points allows members to control individual zones depending on daily activities. Investing in flicker-free high frequency drivers prevents headaches during long evening painting sessions.",
-        "bullets": [
-          "Position roof lights facing north to secure consistent shadow-free daylight throughout the day.",
-          "Install 5000K LED luminaires to achieve 500 lux across all primary workbench areas.",
-          "Comply fully with Part P regulations by hiring certified electricians for circuit wiring."
-        ],
+        "heading": "Balanced Daylight Illumination and 5000K Task Lighting",
+        "body": "Harnessing natural light transforms a domestic outbuilding into an inspiring studio space for painters and sculptors alike. North-facing rooflights provide consistent, shadow-free illumination throughout the daylight hours, eliminating the harsh glare and high contrast associated with direct southern solar exposure.\n\nSupplementary artificial lighting must compensate for gloomy winter afternoons by delivering an even spread of illumination across all shared workbenches. We mandate a minimum of 500 lux at the working plane to protect members from eye strain during intricate textile work or fine brush detailing.\n\nColour temperature plays a fundamental role in creative accuracy when mixing pigments and matching fabric tones. Utilizing 5000K daylight-balanced LED luminaires ensures true colour rendering across the room, preventing the unwelcome surprises that occur under warm residential interior lighting fixtures.\n\nWiring the lighting circuit requires careful zoning to allow independent control over ambient overhead fittings and localized bench lamps. Dimmable drivers provide necessary flexibility for digital projection sessions or moody life-drawing classes held during evening club meetings.",
         "image": "https://images.unsplash.com/photo-1685022515813-c42e8348639b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0aXN0JTIwc3R1ZGlvJTIwZGV0YWlsJTIwd29vZHdvcmtpbmclMjBkZXNrfGVufDB8MHx8fDE3ODk2MzU4NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close up view of clean timber workbench showing artistic tools, ruler, and natural lighting",
         "imageCaption": "Precision task lighting combined with durable timber surfaces creates an efficient setting for group making.",
@@ -1289,37 +1254,32 @@ export const ARTICLES = [
       },
       {
         "level": "h3",
-        "heading": "Solvent Storage Cabinets and COSHH Compliance",
-        "body": "Storing volatile mediums safely is a strict legal requirement under Control of Substances Hazardous to Health regulations. Implementing secure storage prevents accidental fires and protects members from inhaling dangerous organic chemical vapours daily. Every community art space handling thinners and varnishes must prioritize rigorous hazardous material protocols.\n\nInstalling fire resistant steel cupboards with liquid tight base sumps contains potential spills before disasters occur. These specialized cabinets cost between £300 and £800 depending on required capacity and steel gauge. Venting the storage enclosure directly to the external atmosphere satisfies standard building safety requirements efficiently.\n\nMaintaining updated material safety data sheets near the storage unit ensures members remain fully informed. Local fire authorities inspect these commercial spaces periodically to verify compliance with dangerous substance regulations. Clear signage identifying flammable contents must be permanently affixed to the exterior cabinet doors."
+        "heading": "Solvent Storage Cupboards and COSHH Fire Compliance",
+        "body": "Storing volatile chemicals safely within a shared creative workshop demands strict adherence to regulatory standards and fire safety codes. Heavy-duty lockable steel fire cabinets provide the required thirty-minute containment barrier against accidental ignition of turpentine, white spirit, and aerosol fixatives.\n\nMechanical ventilation extractors must be hardwired directly into the chemical storage zone to expel dangerous fumes continuously. Siting these extract units at low level ensures heavier-than-air organic vapours are drawn out of the building before accumulating near human breathing zones.\n\nCompliance with Control of Substances Hazardous to Health regulations requires clear signage and dedicated containment trays beneath all chemical containers. This ensures any accidental leaks or spillages remain safely isolated from electrical outlets and naked flame sources within the main studio."
       },
       {
         "level": "h2",
-        "heading": "Wipe Clean Epoxy Flooring and Dust Extraction",
-        "body": "Applying a heavy duty self leveling epoxy screed creates an impenetrable surface for busy studios. This smooth flooring withstands dropped tools, spilled paint, and heavy foot traffic without deteriorating prematurely. Contractors typically charge around £40 to £70 per square metre for professional floor preparation.\n\nManaging airborne particulate matter is essential when members work with sanding dust and dry pigments. Installing a central ducted dust extraction system with 100mm PVC piping removes hazards effectively. Regular wet mopping maintains pristine conditions without stirring up residual debris into the studio air.\n\nCreating coved skirting details where the floor meets walls prevents dust accumulation in tight corners. This practical detail simplifies routine cleaning schedules and supports strict health standards for the collective. A properly sealed floor protects the underlying subfloor from moisture penetration and permanent staining.",
-        "bullets": [
-          "Apply a self leveling epoxy screed for a durable and easily washable floor finish.",
-          "Install 100mm PVC ducting for an effective central dust extraction network.",
-          "Create coved skirting details to eliminate hard to reach corners during cleaning."
-        ]
+        "heading": "Wipe Clean Epoxy Screed Flooring and Dust Extraction",
+        "body": "Selecting the correct floor finish protects the structural subfloor from chemical spills, dropped tools, and heavy foot traffic. A smooth epoxy screed provides an impermeable, chemical-resistant surface that withstands aggressive wet mopping and resists staining from spilled oil paints.\n\nDust management is essential when multiple makers work with sanding blocks, plaster, and ceramics simultaneously. Integrating a central ducted HEPA dust extraction unit captures airborne particulate matter at the source, safeguarding respiratory health across the entire community membership.\n\nFloor detailing requires careful coving where the horizontal screed meets vertical walls to eliminate hard 90-degree corners. This coved transition prevents dust and wet sludge from accumulating in hidden crevices during routine washdown procedures.\n\nAcoustic attenuation mats laid beneath the primary screed layer prevent impact sound transmission to adjoining properties. This thoughtful design detail ensures enthusiastic hammering and heavy tool drops cause minimal disturbance to neighbouring homes and workspaces."
       },
       {
         "level": "h2",
         "heading": "Studio Workshop Complete",
-        "body": "Executing this robust technical specification guarantees a safe and productive environment for local artists. Balancing structural strength with regulatory compliance ensures your creative space withstands decades of intensive use.\n\nInvesting in quality trade materials from the outset prevents costly remediation work down the line."
+        "body": "Executing this comprehensive fit-out transforms an ordinary outbuilding into an exceptional collaborative workspace tailored for demanding creative projects. By prioritizing heavy structural framing, robust waste management, and pristine environmental controls, the studio stands ready for decades of productive artistic exploration.\n\nInvesting time in professional-grade building methods guarantees a safe, inspiring environment that nurtures local talent. Members will benefit immensely from a purpose-built facility designed specifically to support shared making without compromise."
       }
     ],
     "faqs": [
       {
-        "question": "What timber grade is best for heavy art club workbenches?",
-        "answer": "Always specify C24 treated timber measuring 45mm by 95mm for superior load bearing capacity."
+        "question": "What timber size is best for heavy duty workbenches?",
+        "answer": "C24 treated timber measuring 45mm by 95mm provides optimal structural rigidity."
       },
       {
-        "question": "Why do art studios need multi stage sediment traps in sinks?",
-        "answer": "Sediment traps prevent heavy clay and plaster particles from blocking your main drainage pipes."
+        "question": "Why are multi stage sediment traps required for sinks?",
+        "answer": "They catch clay, plaster, and paint solids to prevent severe drain blockages."
       },
       {
-        "question": "How much light intensity do workbench task areas require?",
-        "answer": "Workbench surfaces require a minimum of 500 lux illumination using 5000K daylight LED fixtures."
+        "question": "What light level is recommended for studio workbenches?",
+        "answer": "A minimum of 500 lux at 5000K ensures accurate colour rendering and eye safety."
       }
     ],
     "tags": [
