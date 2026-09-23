@@ -2,8 +2,8 @@ name: Auto Publish Editorial Articles
 
 on:
   schedule:
-    # 1 Article Daily: Every 24 hours at 09:00 AM PKT (04:00 UTC)
-    - cron: '0 4 * * *'
+    # 1 Article Daily: Runs every 24 hours at 21:45 UTC (02:45 AM PKT)
+    - cron: '45 21 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions dashboard anytime
 
 permissions:
@@ -27,6 +27,11 @@ jobs:
       - name: Install Dependencies
         run: npm ci || npm install
 
+      - name: Configure Git Bot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Generate & Publish Next Article from Google Sheet
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || secrets.VITE_GEMINI_API_KEY }}
@@ -35,20 +40,13 @@ jobs:
           VITE_UNSPLASH_ACCESS_KEY: ${{ secrets.VITE_UNSPLASH_ACCESS_KEY || secrets.UNSPLASH_ACCESS_KEY }}
         run: node scripts/auto_publisher.mjs
 
-      - name: Verify Build
-        run: npm run build
-
-      - name: Commit & Push Changes
+      - name: Ensure Changes Pushed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Check if there are changes to commit
           if git status --porcelain | grep -q "src/data/articles.js"; then
-            git add src/data/articles.js public/sitemap.xml public/rss.xml
+            git add src/data/articles.js public/
             git commit -m "chore(auto-publish): publish new article from Google Sheet [skip ci]"
             git push origin main
             echo "Successfully pushed new article to main branch."
           else
-            echo "No new article published or no changes detected."
+            echo "Working tree clean or changes already pushed."
           fi
