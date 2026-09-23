@@ -142,48 +142,48 @@ export function mapCategoryInfo(keyword) {
     return {
       categoryId: 'garden',
       categoryName: 'Garden',
-      categoryLabel: 'GARDEN ARCHITECTURE • OUTDOOR LIVING SPECIFICATION'
+      categoryLabel: 'GARDEN LIVING • OUTDOOR SPECIFICATION'
     };
   }
   if (kw.includes('bath') || kw.includes('shower') || kw.includes('toilet') || kw.includes('wetroom') || kw.includes('tub')) {
     return {
       categoryId: 'bathroom',
       categoryName: 'Bathroom',
-      categoryLabel: 'BATHROOM ARCHITECTURE • SANITARYWARE SPECIFICATION'
+      categoryLabel: 'BATHROOM DESIGN • SANITARY SPECIFICATION'
     };
   }
   if (kw.includes('kitchen') || kw.includes('worktop') || kw.includes('sink') || kw.includes('cabinet') || kw.includes('bin') || kw.includes('drawer')) {
     return {
       categoryId: 'kitchen',
       categoryName: 'Kitchen',
-      categoryLabel: 'CULINARY ARCHITECTURE • CABINETRY SPECIFICATION'
+      categoryLabel: 'KITCHEN DESIGN • CABINET SPECIFICATION'
     };
   }
   if (kw.includes('bedroom') || kw.includes('bed ') || kw.includes('mattress') || kw.includes('wardrobe')) {
     return {
       categoryId: 'bedroom',
       categoryName: 'Bedroom',
-      categoryLabel: 'BEDROOM ARCHITECTURE • JOINERY SPECIFICATION'
+      categoryLabel: 'BEDROOM INTERIORS • JOINERY SPECIFICATION'
     };
   }
   if (kw.includes('living room') || kw.includes('rug') || kw.includes('sofa') || kw.includes('lamp') || kw.includes('light')) {
     return {
       categoryId: 'living-room',
       categoryName: 'Living Room',
-      categoryLabel: 'LIVING SPACES • ARCHITECTURAL PROPORTIONS'
+      categoryLabel: 'LIVING SPACES • INTERIOR PROPORTIONS'
     };
   }
   if (kw.includes('diy') || kw.includes('paint') || kw.includes('tile') || kw.includes('plastic') || kw.includes('art club')) {
     return {
       categoryId: 'diy',
       categoryName: 'DIY',
-      categoryLabel: 'RESTORATION CRAFT • WORKSHOP SPECIFICATION'
+      categoryLabel: 'WORKSHOP SPACES • RESTORATION CRAFT'
     };
   }
   return {
     categoryId: 'interiors',
     categoryName: 'Interiors',
-    categoryLabel: 'ARCHITECTURAL DESIGN • MATERIAL PURITY'
+    categoryLabel: 'INTERIOR DESIGN • MATERIAL CRAFT'
   };
 }
 
@@ -280,13 +280,13 @@ const LAYOUT_ARCHETYPES = [
     instructions: `Structure:
 1. H2 on British Installation Zones with 1 intro paragraph and 3 distinct zone breakdown bullets.
 2. H2 on Material Comparison with 2 paragraphs (30-40 words each).
-3. H2 on Surrounding Architectural Finishes and Pairings with 3 distinct paragraphs (30-40 words each).
+3. H2 on Surrounding Materials and Garden Finishes with 3 distinct paragraphs (30-40 words each).
 4. H2 on Step by Step Setup and Fitting Sequence with 1 intro paragraph and 4 sequential execution bullets.
 5. H2 on Routine Care and Seasonal Protection with 2 paragraphs (30-40 words each).
-6. H2 on Final Architectural Summary with 1 comprehensive concluding paragraph (NO bullets at the end).`
+6. H2 on Final Summary and Selection Advice with 1 comprehensive concluding paragraph (NO bullets at the end).`
   },
   {
-    name: 'Spatial Planning And Safety Architecture',
+    name: 'Spatial Planning And Practical Safety',
     instructions: `Structure:
 1. H2 on Circulation Clearances and Spatial Planning with 1 intro paragraph and 3 exact metric clearance bullets.
 2. H2 on Structural Design and Physical Balance with 2 paragraphs (30-40 words each).
@@ -307,7 +307,7 @@ export async function generateArticle(topic, catInfo, usedUrls) {
 
   console.log(`[AutoPublisher] Selected Layout Archetype: "${archetype.name}"`);
 
-  const prompt = `You are a Senior British architectural consultant and master trades specialist writing for LUMAA HOME™.
+  const prompt = `You are a Senior British home and garden design specialist writing for LUMAA HOME™.
 Write an authentic, highly practical, informative (E-E-A-T) article focused on the primary keyword: "${topic}".
 Category: "${catInfo.categoryName}".
 
@@ -317,7 +317,7 @@ ${archetype.instructions}
 CRITICAL CONSTRAINTS:
 1. ZERO HYPHENS (-) ANYWHERE in title, metaDescription, headings, body text, bullets, or FAQs! Spell out all numbers and compound words (e.g. "twenty four", "three hundred millimetres", "forty millimetres", "heat resistant", "weather resistant", "slip resistant", "free standing", "built in"). Do not use any hyphen character.
 2. ZERO COLONS (:) in any headings or title!
-3. ZERO AI BUZZWORDS: Absolutely do NOT use elevate, delve, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, in conclusion, sanctuary, cocoon, visual poise, timeless allure, unlock, discover, beacon, symphony, bespoke.
+3. ZERO AI BUZZWORDS: Absolutely do NOT use architectural (use natural words like practical, interior, home, space, design, garden), elevate, delve, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, in conclusion, sanctuary, cocoon, visual poise, timeless allure, unlock, discover, beacon, symphony, bespoke.
 4. TITLE LENGTH: Exactly 55 to 60 characters containing the keyword "${topic}" naturally.
 5. KEYWORD IN HEADINGS: The keyword "${topic}" or its natural variation MUST be naturally integrated into major H2 headings.
 6. SHORT BREATHABLE PARAGRAPHS: Every paragraph must be between 30 and 42 words.
@@ -489,7 +489,7 @@ Return ONLY raw valid JSON:
       `${catInfo.categoryName} Design`,
       'UK Interior',
       'Home Renovation',
-      'Architectural Specification'
+      'Practical Design'
     ]
   };
 
