@@ -75,6 +75,101 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "applying-self-adhesive-wall-tiles-in-modern-british-homes-guide",
+    "title": "Applying Self Adhesive Wall Tiles In Modern British Homes",
+    "slug": "applying-self-adhesive-wall-tiles-in-modern-british-homes",
+    "category": "diy",
+    "categoryName": "DIY",
+    "categoryLabel": "HERITAGE RESTORATION • CRAFTSMANSHIP MASTERCLASS",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "September 23, 2026",
+    "readTime": "8 min read",
+    "views": "20.0k",
+    "isFeatured": true,
+    "excerpt": "Master the application of self adhesive wall tiles for instant kitchen and bathroom transformations without messy mortar or professional trades.",
+    "metaDescription": "Transform UK interiors using premium self adhesive wall tiles. Learn precise installation steps, realistic costs, and common mistakes to...",
+    "heroImage": "https://images.unsplash.com/photo-1541471943749-e5976783f6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cGVlbCUyMGFuZCUyMHN0aWNrJTIwdGlsZXN8ZW58MHwwfHx8MTc5MDE1NDAzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1541471943749-e5976783f6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cGVlbCUyMGFuZCUyMHN0aWNrJTIwdGlsZXN8ZW58MHwwfHx8MTc5MDE1NDAzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Close up of patterned self adhesive wall tiles installed on a modern kitchen splashback",
+    "imageAlt": "Close up of patterned self adhesive wall tiles installed on a modern kitchen splashback",
+    "photographer": "Patrick Hendry",
+    "photographerUrl": "https://unsplash.com/@worldsbetweenlines",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Planning Your Project With Self Adhesive Wall Tiles",
+        "body": "Upgrading a tired British kitchen splashback or cloakroom wall no longer requires wet mortar, cement dust, or expensive professional tilers. Modern self adhesive wall tiles offer an affordable, high-impact renovation route for homeowners and renters seeking quick visual updates.\n\nQuality vinyl or gel variants typically measure 305 millimetres by 305 millimetres per sheet, making layout calculations remarkably straightforward for DIY beginners.\n\nBudgeting for your makeover is refreshingly simple compared to traditional ceramic alternatives. Expect to pay between fifteen and thirty pounds per square metre for durable resin-backed options featuring realistic stone or ceramic textures.\n\nAlways purchase an extra ten percent to account for awkward corner trimming, socket cut-outs, and inevitable fitting wastage across your designated workspace.\n\nSurface preparation remains the single most critical factor determining long-term adhesion success. Scrub existing tiled or painted walls thoroughly with sugar soap to remove grease, rinse with clean water, and allow the substrate to dry completely for twenty-four hours before application."
+      },
+      {
+        "level": "h3",
+        "heading": "Essential Surface Prep And Measuring Rules",
+        "body": "Skipping wall degreasing causes premature panel lifting and edge curling within months of installation. Ensure plaster walls are sealed with a primer coat if previously painted with silk emulsions.\n\nPrecision cutting requires only a sharp utility knife and a sturdy metal straight edge. Measure twice and score the backing paper gently while keeping your fingers clear of the cutting line.",
+        "bullets": [
+          "Clean surfaces using trisodium phosphate or sugar soap solutions",
+          "Maintain room temperatures between eighteen and twenty-two degrees Celsius",
+          "Use heavy-duty utility blades for clean cuts through thick polyurethane resin"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Installing Self Adhesive Wall Tiles Like A Professional",
+        "body": "Begin your installation from the centre of the splashback or wall feature rather than a corner to ensure visual symmetry. Draw faint vertical and horizontal plumb lines using a spirit level to guide your first crucial tile placement.\n\nAligning the initial sheet perfectly dictates the straightness of every subsequent row across the entire feature wall.\n\nPeel back the protective backing paper approximately fifty millimetres from the top edge to create a sticky hinge. Press the exposed adhesive firmly against the wall, then slowly pull the remaining backing downward while smoothing the surface with a felt roller.\n\nThis technique prevents air bubbles from forming underneath the flexible polyurethane layers.\n\nAround electrical sockets and light switches, trace outlet shapes onto the rear paper backing before cutting with kitchen shears or a craft knife. Overlap interlocking grout lines carefully to maintain the illusion of genuine ceramic tiling without the maintenance burden of cementitious grout.",
+        "image": "https://images.unsplash.com/photo-1597031751096-9acc728067ad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGx1eHVyeSUyMERJWSUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8MHx8fDE3OTAxNTQwMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Hands applying self adhesive wall tiles near a kitchen socket",
+        "imageCaption": "Precision cutting around obstacles ensures a seamless professional finish.",
+        "imageCredit": {
+          "name": "H&CO",
+          "link": "https://unsplash.com/@hngstrm"
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Avoiding Costly DIY Installation Mistakes",
+        "body": "Rushing the adhesive curing phase leads to shifted panels when exposed to kitchen steam or humidity. Allow twenty-four hours of undisturbed drying time before exposing the wall to water splashes or heavy cleaning.\n\nAvoid installing these adhesive products directly inside shower enclosures or behind direct gas hob flames without tempered glass protection. High heat exceeding sixty degrees Celsius softens the polyurethane backing and compromises the permanent pressure-sensitive bond.",
+        "bullets": [
+          "Never apply tiles over damp plaster or peeling wallpaper substrates",
+          "Avoid using abrasive scouring pads during routine post-installation cleaning",
+          "Keep silicone sealant handy for sealing exposed edges near countertops"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Long-Term Maintenance For Self Adhesive Wall Tiles",
+        "body": "Maintaining your newly updated surfaces requires minimal effort using standard household cleaning products. Wipe down the polyurethane surfaces regularly with warm soapy water and a soft microfibre cloth to remove cooking oils and daily grime.\n\nAvoid harsh chemical solvents, bleach, or abrasive scouring powders that can dull the protective top coat and ruin printed patterns.\n\nInspect perimeter edges near sinks and worktops annually for signs of moisture ingress or lifting corners. Applying a thin bead of clear waterproof silicone along bottom junctions prevents water damage and guarantees your decorative wall finish lasts for many years.",
+        "image": "https://images.unsplash.com/photo-1628745277862-bc0b2d68c50c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Y2xlYW4lMjBtb2Rlcm4lMjBraXRjaGVuJTIwd2FsbCUyMGx1eHVyeSUyMGludGVyaW9yJTIwcm9vbXxlbnwwfDB8fHwxNzkwMTU0MDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Wiping down clean self adhesive wall tiles with a microfibre cloth",
+        "imageCaption": "Routine gentle cleaning preserves the high gloss finish of resin tiles.",
+        "imageCredit": {
+          "name": "Zac Gudakov",
+          "link": "https://unsplash.com/@zacgudakov"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can these tiles be applied over existing ceramic tiles?",
+        "answer": "Yes, provided the old tiles are thoroughly degreased and grout lines are filled flush with a suitable filler."
+      },
+      {
+        "question": "Are peel and stick tiles suitable for shower enclosures?",
+        "answer": "No, constant direct water contact will eventually degrade the adhesive backing and cause panels to detach."
+      },
+      {
+        "question": "How do you remove them when redecorating?",
+        "answer": "Warm the surface gently with a standard hair dryer to soften the glue, then peel slowly from the top corners."
+      }
+    ],
+    "tags": [
+      "self adhesive wall tiles​",
+      "Luxury DIY",
+      "UK Interior",
+      "Architectural Joinery",
+      "Bespoke Craftsmanship"
+    ]
+  },
+  {
     "id": "inspiring-home-interior-design-ideas-for-british-properties-guide",
     "title": "Inspiring Home Interior Design Ideas for British Properties",
     "slug": "inspiring-home-interior-design-ideas-for-british-properties",
@@ -87,7 +182,7 @@ export const ARTICLES = [
     "date": "September 22, 2026",
     "readTime": "8 min read",
     "views": "19.9k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A practical editorial guide on implementing sustainable materials, exact spatial clearances, and trade-level joinery specs across British homes.",
     "metaDescription": "Transform British living spaces using proven home interior design ideas, clear material specifications, exact costs, and layout plans in...",
     "heroImage": "https://images.unsplash.com/photo-1604593586246-8dc6f40f2279?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGludGVyaW9yJTIwZGVzaWdufGVufDB8MHx8fDE3OTAwNzExODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
