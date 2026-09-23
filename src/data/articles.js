@@ -425,64 +425,84 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Carcase Internal Dimensions for Built In Waste Units",
-        "body": "Designing a bespoke British kitchen requires meticulous attention to carcase internal measurements before specifying waste management hardware. Standard base cabinets configured for integrated bins typically arrive in four hundred millimeter, five hundred millimeter, and six hundred millimeter external widths. These dimensions dictate the exact capacity and mechanical configuration of the sliding housing framework.\n\nInternal carcase depth is another critical variable that demands precise verification by the heritage surveyor or kitchen fitter. Most heavy duty pull out systems necessitate a minimum clear internal depth of five hundred and fifty millimeter to allow full travel without obstruction. Wall mounted pipework, service voids, and back panels frequently reduce this available space in older properties.\n\nSide panel thickness of the cabinetry directly impacts the exterior mounting brackets of the waste system chassis. Standard eighteen millimeter high density MFC carcases provide sufficient screw retention for heavy runners, whereas bespoke solid timber frames require bespoke timber packers. Careful evaluation of hinge protrusions ensures doors clear the bin frame entirely.\n\nFloor mounted installations bypass side panel constraints by anchoring directly to the cabinet base board via heavy gauge steel brackets. This approach suits wider six hundred millimeter carcases carrying multiple heavy polymer containers. Levelling shims must be employed to compensate for uneven timber floors often found in period British residential properties.",
-        "bullets": []
+        "heading": "Internal Cabinet Space",
+        "body": "Measuring a base cabinet sounds simple, but exterior door sizes tell you very little about actual usable room. Standard UK base units use eighteen millimetre thick MFC carcase walls, meaning a six hundred millimetre cupboard leaves you five hundred sixty four millimetres of real internal width.\n\nAlways measure internal room with a metal tape measure across the top, middle, and bottom of the unit. Old floorboards often sit slightly wonky, which pulls the cabinet frame out of square and narrows the internal opening."
       },
       {
         "level": "h3",
-        "heading": "Runner Mechanics and Dynamic 50kg Load Capacities",
-        "body": "The mechanical endurance of an integrated kitchen bin depends heavily on the quality of its sliding runners and bearing assemblies. Premium systems utilise full extension ball bearing runners engineered to support dynamic loads up to fifty kilograms without sagging. This robust capacity easily accommodates heavy glass bottles, damp organic waste, and dense household refuse.\n\nIntegrated soft close dampers ensure that the loaded carriage decelerates smoothly during the final centimeters of travel, preventing structural shock to the carcase joints. High grade steel side walls maintain rigidity across the entire drawer extension, stopping the internal buckets from binding against the cabinet frame during daily operation.\n\nMaintenance requirements for these high capacity runners remain minimal if specified with factory sealed precision bearings protected from domestic debris. Periodic inspection of the fixing screws guarantees that heavy repetitive loads do not loosen the hardware over years of intensive culinary preparation in busy family kitchens.\n\nSelecting over extension slides provides complete vertical access to the rear compartments, eliminating awkward reaching over front buckets. This mechanical advantage proves particularly valuable in narrow four hundred millimeter base units where container depth compensates for restricted width across the cabinet interior.",
-        "bullets": []
+        "heading": "Width and Depth Tolerances",
+        "body": "Most pull out bin systems require a minimum internal depth of five hundred millimetres to clear the sliding frame. Before buying, check that your cabinet back panel is not set forward to leave an extra deep service gap.",
+        "bullets": [
+          "Take internal width measurements between hinge plates rather than bare cabinet side panels.",
+          "Leave at least twenty millimetres of clear air above the bin buckets to lift them out over the countertop edge.",
+          "Confirm that water isolation valves and electrical junction boxes do not stick out into the runner track."
+        ]
+      },
+      {
+        "level": "h3",
+        "heading": "Clearing Sink Waste Pipes",
+        "body": "Under sink cupboards look like handy spots for kitchen waste, but bottle traps and plastic sink waste pipes quickly block runner mechanisms. Standard pull out frames hit the pipes running down behind the bowl in most installations.\n\nIf you want to fit a bin beneath a sink, choose a shallow depth bin frame measuring under four hundred millimetres from front to back. Keep all plastic pipe joints above the bin lid line so water drips do not drop straight into your rubbish."
       },
       {
         "level": "h2",
-        "heading": "Dual vs Triple Compartment Waste Separation",
-        "body": "Modern British municipal recycling guidelines demand efficient domestic waste separation directly at the point of origin within the kitchen. Dual compartment configurations generally split the available carcase volume equally between general refuse and dry mixed recyclables. This balanced layout suits smaller households generating predictable daily volumes of paper and plastics.\n\nTriple compartment arrangements introduce dedicated organic food waste caddies alongside split recycling streams, aligning perfectly with local authority food collection mandates. These setups typically feature one large primary container flanked by two smaller secondary buckets. Removable food grade polypropylene liners simplify washing routines and maintain high hygiene standards.\n\nMaterial specification of the internal containers remains essential for long term durability and resistance to aggressive cleaning agents. Injection molded polypropylene offers exceptional impact resistance while remaining lightweight enough for daily removal. Smooth internal radiuses prevent food residue accumulation and simplify manual cleaning procedures in the utility sink.\n\nCustomisable divider inserts allow homeowners to modify compartment ratios as domestic habits evolve over the lifespan of the kitchen furniture. Modular bucket arrays can be swapped out or reconfigured within the steel chassis framework, offering total flexibility for changing household requirements without replacing the underlying hardware.",
-        "bullets": [],
+        "heading": "Mounting Options",
+        "body": "Built in bins fit in two different ways, and your choice depends on whether you are fitting a brand new kitchen or upgrading an older cupboard. Picking the wrong mounting style makes throwing things away a daily nuisance."
+      },
+      {
+        "level": "h3",
+        "heading": "Front Door Pull Out Mechanism",
+        "body": "A door fixed bin bolts straight onto the back of your cabinet front, replacing standard hinges altogether. Pulling the door handle glides the entire waste unit open in one single pull.\n\nThis setup is the most practical choice for busy cooks who need fast access with dirty hands. Make sure the bottom door brackets have adjustment screws so you can line up your door gaps neatly with nearby drawers."
+      },
+      {
+        "level": "h3",
+        "heading": "Behind Hinged Doors",
+        "body": "Floor mounted bins sit on the cabinet bottom and slide out on their own independent metal track. You open your standard cupboard door first, then pull the bin frame forward by hand.\n\nThis system is much easier to fit into an existing kitchen because you do not have to drill new holes into your front doors. However, using it takes two separate movements, and swinging doors can knock into nearby walls or appliances if space is tight.",
         "image": "https://images.unsplash.com/photo-1616047795251-50aed56a0bb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8cHVsbCUyMG91dCUyMGtpdGNoZW4lMjB3YXN0ZSUyMGJpbiUyMGRldGFpbHxlbnwwfDB8fHwxNzg5OTI5MjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Detailed view of dual compartment integrated waste bin mounted on soft close steel runners",
-        "imageCaption": "Integrated pull-out systems preserve clean exterior lines while offering tailored waste sorting.",
+        "imageCaption": "Integrated pull out systems preserve clean exterior lines while offering tailored waste sorting.",
         "imageCredit": {
           "name": "Joshua Hoehne",
           "link": "https://unsplash.com/@joshua_hoehne"
         }
       },
       {
+        "level": "h2",
+        "heading": "Compartment Capacity by Unit Size",
+        "body": "How much waste your kitchen creates depends on how many people live in the house and how your council sorts rubbish. Splitting waste across separate inner buckets saves you trips out to the wheelie bins in the cold."
+      },
+      {
         "level": "h3",
-        "heading": "Under Sink Plumbing Traps and Pipe Routing Traps",
-        "body": "Positioning an integrated waste system beneath the primary kitchen sink introduces complex spatial challenges regarding existing pipework configurations. Standard basin traps often hang low into the cabinet space, directly interfering with the top rim of tall waste containers. Space saving plumbing kits featuring horizontal P traps resolve this vertical conflict effectively.\n\nWater supply lines, isolation valves, and dishwasher feed connections must be mapped accurately before ordering the bin mechanism. Flexible braided hoses can be redirected safely against cabinet side walls to create a clear corridor for the sliding bin carriage. Ignoring these clearance factors results in costly site modifications during final installation.\n\nSoil pipe connections and waste disposal units demand even greater spatial allowances due to their bulky external dimensions and motor housings. Specifying offset waste fittings creates the necessary clearance envelope behind the bin system, allowing full extension without striking rigid PVC pipework or electrical cables.",
-        "bullets": [
-          "Verify vertical clearance between the base board and the lowest point of the basin waste trap.",
-          "Reroute rigid supply pipes using flexible braided connectors against the interior carcase back panel.",
-          "Confirm adequate operational clearance around integrated boiling water heater tanks and electrical sockets."
-        ]
+        "heading": "Three Hundred Millimetre Units",
+        "body": "A slim three hundred millimetre cupboard holds thirty to thirty two litres of waste in total. This setup usually splits into two fifteen litre buckets, which works well for one or two people.\n\nLarger families will fill a thirty litre unit in less than a day. If you only have space for a narrow cupboard, use it just for everyday rubbish and keep food scraps in a small caddy on the worktop."
+      },
+      {
+        "level": "h3",
+        "heading": "Family Size Six Hundred Millimetre Carcases",
+        "body": "A full width six hundred millimetre unit takes up to sixty four litres across three or four separate tubs. This lets you sort food scraps, clean recycling, and landfill waste under one worktop.\n\nRemovable plastic buckets with metal handles make emptying simple. When lifted out, you can take them outside and wash them with warm soapy water without worrying about rust."
       },
       {
         "level": "h2",
-        "heading": "Odour Management and Activated Carbon Lid Seals",
-        "body": "Containing unpleasant smells within integrated kitchen cabinetry requires sophisticated engineering of the bin housing lid and perimeter seals. High specification systems incorporate fixed shelf lids fitted with durable rubber gasket perimeters that compress tightly when the cabinet door closes. This mechanical seal prevents volatile organic compounds from escaping into the room.\n\nActivated charcoal filter inserts integrated directly into the housing lid provide active neutralization of persistent food odours before they penetrate the surrounding kitchen environment. These replaceable carbon pads absorb moisture and trap microscopic odour particles effectively over extended periods of continuous domestic use.\n\nVentilation design within the cabinet carcase balances odour control with necessary airflow to prevent anaerobic bacterial growth inside sealed organic waste caddies. Slotted chassis frames allow gentle passive circulation without compromising the primary perimeter seal against the cabinet door or stationary top cover plate.\n\nRoutine maintenance of odour control systems involves simple replacement of the charcoal filter media every six months according to manufacturer guidelines. Washing the perimeter rubber gaskets with mild soapy water preserves their elasticity and ensures an airtight seal remains active throughout the operational life of the hardware.",
-        "bullets": []
+        "heading": "Runner Load Ratings",
+        "body": "A full sixty litre kitchen bin packed with glass bottles and wet food easily weighs more than twenty five kilograms. Cheap plastic drawer runners bend under this weight within a few months, causing the door to drop and scrape against the plinth.\n\nLook for steel runners rated to carry at least forty kilograms of moving weight. Brands like Blum and Hafele use hydraulic soft close pistons that pull the bin shut quietly without shaking rubbish onto the cabinet floor."
       },
       {
         "level": "h2",
-        "heading": "Final Verdict",
-        "body": "Selecting the correct integrated waste system demands rigorous evaluation of internal carcase geometry, runner mechanics, and precise plumbing clearances within bespoke British cabinetry. Investing in robust fifty kilogram runner mechanisms and certified dual or triple compartment configurations guarantees enduring daily performance.\n\nPrioritising premium odour management features and food grade polypropylene containers ensures a hygienic, refined kitchen environment that respects the craftsmanship of your cabinetry investment.",
-        "bullets": []
+        "heading": "Trapping Food Smells",
+        "body": "Closed kitchen cupboards trap warm air, especially when sitting next to a hot oven or dishwasher. Without a tight lid, vegetable peelings and food scraps start to rot quickly and leave bad smells inside the woodwork.\n\nLook for bin systems with a rubber seal around the lid or a built in slot for a charcoal filter pad. Carbon filters catch bad smells before they escape into the cupboard, keeping your kitchen fresh between bin days."
       }
     ],
     "faqs": [
       {
-        "question": "What is the standard minimum cabinet depth required for integrated pull out bins?",
-        "answer": "Most heavy duty integrated waste systems require a minimum internal carcase depth of five hundred and fifty millimeters."
+        "question": "What is the minimum cabinet depth needed for an integrated kitchen bin?",
+        "answer": "Most standard pull out bins require at least five hundred millimetres of clear internal depth."
       },
       {
-        "question": "How do I prevent low plumbing traps from striking the top of my kitchen bin?",
-        "answer": "Install a space saving horizontal P trap kit to redirect waste pipes away from the top clearance zone of the bin."
+        "question": "Can you fit a pull out bin under a kitchen sink?",
+        "answer": "Yes, but you need a shallow frame under four hundred millimetres deep to clear the waste pipes."
       },
       {
-        "question": "How often should activated carbon odour filters be replaced in a built in bin lid?",
-        "answer": "Replace the charcoal filter inserts every six months to maintain effective neutralisation of organic food odours."
+        "question": "What weight capacity should kitchen bin runners have?",
+        "answer": "Choose steel runners rated for forty kilograms or more to stop the unit from sagging over time."
       }
     ],
     "tags": [
