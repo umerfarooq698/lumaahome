@@ -75,6 +75,94 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-practical-drawers-in-the-kitchen-space-guide",
+    "title": "Choosing Practical Drawers in the Kitchen Space",
+    "slug": "choosing-practical-drawers-in-the-kitchen-space",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "September 24, 2026",
+    "readTime": "8 min read",
+    "views": "20.9k",
+    "isFeatured": true,
+    "excerpt": "Expert advice on selecting kitchen storage solutions.",
+    "metaDescription": "how to choose the best drawers for your kitchen upgrade.",
+    "heroImage": "https://images.unsplash.com/photo-1678108040468-0cc9addd984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGtpdGNoZW4lMjBpbnRlcmlvciUyMGRyYXdlcnN8ZW58MHwwfHx8MTc5MDI5NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1678108040468-0cc9addd984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGtpdGNoZW4lMjBpbnRlcmlvciUyMGRyYXdlcnN8ZW58MHwwfHx8MTc5MDI5NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Modern British kitchen interior featuring deep wooden storage compartments",
+    "imageAlt": "Modern British kitchen interior featuring deep wooden storage compartments",
+    "photographer": "Orgalux",
+    "photographerUrl": "https://unsplash.com/@orgalux",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Material Specifications for Drawers in the Kitchen",
+        "body": "Solid hardwood timber provides exceptional structural integrity and natural beauty for high usage culinary cabinetry. Selecting oak or walnut ensures your storage units withstand daily demands while maintaining a gorgeous finish that ages gracefully within busy family homes.\n\nEngineered moisture resistant boards offer incredible stability against humidity fluctuations near sinks and dishwashers. These composite materials prevent warping and swelling ensuring your sliding units glide smoothly across every season without catching on surrounding cabinetry frames or panels.\n\nStainless steel components add industrial strength and modern hygiene benefits to internal box constructions. This choice suits contemporary spaces where durability and easy cleaning take priority over traditional aesthetic warmth without sacrificing overall quality or reliable everyday performance."
+      },
+      {
+        "level": "h2",
+        "heading": "Structural Engineering and Load Tolerances for Drawers in the Kitchen",
+        "body": "Heavy duty runner systems support significant weight capacities reaching up to fifty kilograms per box. Full extension slides allow total access to contents stored right at the back preventing lost items and awkward reaching during busy meal preparation times.\n\nSoft closing mechanisms protect delicate dovetail joints from impact damage during forceful closures. Integrated dampeners absorb kinetic energy quietly creating a gentle glide that preserves cabinet frames and enhances the overall user experience within your busy domestic environment."
+      },
+      {
+        "level": "h2",
+        "heading": "Sizing and Spatial Clearances Around Drawers in the Kitchen",
+        "body": "Standard depths ranging from five hundred to six hundred millimetres maximise available floor space while accommodating bulky pots and pans easily. Proper planning ensures adequate clearance for island walkways and adjacent appliance doors opening simultaneously in tight domestic layouts.\n\nInternal divider layouts help organise cutlery and utensils effectively to prevent rattling and clutter. Customisable peg systems secure heavy dinner plates safely in place during movement protecting valuable crockery from sliding around inside deep pan storage compartments.",
+        "image": "https://images.unsplash.com/photo-1713514023762-b3995318dc94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8ZHJhd2VycyUyMGluJTIwdGhlJTIwa2l0Y2hlbnxlbnwwfDB8fHwxNzkwMjk0Mzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Modern drawers in the kitchen installation in a British home",
+        "imageCaption": "drawers in the kitchen architectural detailing and surface materials",
+        "imageCredit": {
+          "name": "Sanju Pandita",
+          "link": "https://unsplash.com/@spxclicks"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "British Safety Standards and Regulations for Drawers in the Kitchen",
+        "body": "Adhering to strict United Kingdom safety regulations ensures your family home remains secure and compliant with modern building requirements during renovations.",
+        "bullets": [
+          "Install tip restraint hardware on large tall pantry units to prevent accidental tipping hazards when heavy internal boxes are fully extended.",
+          "Verify that all timber finishes comply with low emission standards for indoor air quality and safe food preparation proximity.",
+          "Check manufacturer load ratings carefully to avoid overloading sliding hardware beyond certified structural limits during everyday domestic use."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Long Term Care and Weather Protection for Drawers in the Kitchen",
+        "body": "Applying natural oils or protective sealants safeguards timber surfaces against moisture damage and grease splatters. Regular maintenance routines keep sliding mechanisms free from dust and debris ensuring reliable operation throughout decades of heavy culinary activities.\n\nChecking runner fixings annually prevents loose screws from causing misalignment during daily operations. Simple adjustments maintain perfect alignment so every storage unit opens and closes smoothly without rubbing against adjacent cabinet panels or worktops."
+      },
+      {
+        "level": "h2",
+        "heading": "Final Selection and Buying Advice Regarding Drawers in the Kitchen",
+        "body": "Investing in quality cabinetry transforms your daily cooking routines by bringing organisation and efficiency directly to your fingertips. Take time to assess your storage needs carefully before visiting showrooms to choose the best configuration for your household lifestyle.\n\nPrioritise durable hardware and robust timber construction over temporary aesthetic trends to guarantee lasting satisfaction. Thoughtful planning ensures your new storage solutions enhance both the functionality and value of your home for many years to come."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the best material for heavy storage units",
+        "answer": "Solid hardwood and engineered moisture resistant boards offer the best combination of strength and durability."
+      },
+      {
+        "question": "How much weight can modern sliding hardware hold",
+        "answer": "High quality runner systems typically support loads ranging from thirty to fifty kilograms safely."
+      },
+      {
+        "question": "Are soft closing mechanisms worth the extra investment",
+        "answer": "Yes they prevent impact damage and reduce noise significantly during daily kitchen use."
+      }
+    ],
+    "tags": [
+      "drawers in the kitchen",
+      "Kitchen Design",
+      "UK Interior",
+      "Home Renovation",
+      "Practical Design"
+    ]
+  },
+  {
     "id": "choosing-the-best-fire-pit-out-for-your-english-garden-guide",
     "title": "Choosing The Best Fire Pit Out For Your English Garden",
     "slug": "choosing-the-best-fire-pit-out-for-your-english-garden",
@@ -87,7 +175,7 @@ export const ARTICLES = [
     "date": "September 23, 2026",
     "readTime": "8 min read",
     "views": "15.4k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Expert guide to selecting a fire pit out for British gardens.",
     "metaDescription": "how to choose the right fire pit out for your garden space with expert British design advice.",
     "heroImage": "https://images.unsplash.com/photo-1778439916499-9d11193169e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwZ2FyZGVuJTIwZmlyZSUyMHBpdHxlbnwwfDB8fHwxNzkwMjA3Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
