@@ -1407,78 +1407,84 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "18.2k",
     "isFeatured": false,
-    "excerpt": "A technical guide to designing a practical home workshop tailored for a local art club with focus on structural timber, daylight lighting, and fluid cleanup systems.",
-    "metaDescription": "Establish a dedicated home workshop for your local diy art club using ergonomic drafting tables, task lighting, and sound insulation in U...",
+    "excerpt": "Build a functional communal workspace with expert timber joinery and layout advice.",
+    "metaDescription": "Design an inspiring diy art club workspace with practical British timber joinery advice, robust washable surfaces, and professional layout standards.",
     "heroImage": "https://images.unsplash.com/photo-1752649935691-ac99478aaa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0JTIwc3R1ZGlvJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTYzNTg0OXww&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1752649935691-ac99478aaa56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0JTIwc3R1ZGlvJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTYzNTg0OXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Bright sunlit creative art studio with large wooden workbenches, organized shelving, and artistic supplies arranged for group work",
-    "imageAlt": "Bright sunlit creative art studio with large wooden workbenches, organized shelving, and artistic supplies arranged for group work",
+    "heroImageAlt": "Bright sunlit creative art studio with large wooden workbenches and organized shelving",
+    "imageAlt": "Bright sunlit creative art studio with large wooden workbenches and organized shelving",
     "photographer": "Vitaly Gariev",
     "photographerUrl": "https://unsplash.com/@silverkblack",
     "content": [
       {
         "level": "h2",
-        "heading": "Heavy Duty Workbench Framing and Load Capacities",
-        "body": "Constructing a reliable framework for a communal creative space requires robust dimensional timber selected specifically for high load capacities and durability. We specify C24 treated timber measuring 45mm by 95mm for all structural legs and primary support rails to guarantee absolute rigidity under heavy weights.\n\nA proper workbench must withstand intense collaborative making sessions involving heavy clay wedging and large stone carving. Engineering the frame with mortise joints and structural coach screws ensures the entire assembly absorbs dynamic forces without loosening over years of heavy daily studio use and community projects.\n\nSurface durability dictates the choice of top materials for demanding craft environments. We recommend employing 18mm birch plywood tops sealed with multiple coats of hardwax oil. This robust sheet material resists moisture penetration while providing an exceptionally flat plane for detailed drawing and model making activities.\n\nAchieving a 300kg point load resistance demands meticulous bracing beneath the primary work surface. Incorporating intermediate noggins and diagonal corner brackets redistributes downward pressure evenly across the floor footprint, eliminating any dangerous wobble during vigorous sanding or hammering phases of shared creative work."
+        "heading": "Communal Layout Planning for a Practical DIY Art Club",
+        "body": "Welcome to your new communal making hub where creative energy meets traditional workshop joinery. Organizing a functional shared room requires careful spatial planning to ensure painters and sculptors move freely without blocking shared exits or knocking wet canvases."
       },
       {
         "level": "h3",
-        "heading": "Utility Sink Drainage and Multi Stage Sediment Traps",
-        "body": "Managing waste water in an active shared studio environment prevents catastrophic plumbing failures caused by sediment buildup. Sinks must feature specialized multi-stage sediment traps designed to catch heavy clay particles, wet plaster slurries, and dried acrylic paint solids before they enter the main municipal drainage network.\n\nPlumbing infrastructure relies on gravity drainage combined with accessible external settling buckets. Without proper interception units, fine ceramic dust settles inside pipe bends, hardening like concrete and requiring costly professional excavation to clear obstructed domestic waste pipes.\n\nInstalling the drainage system requires careful calculation of pipe gradients to ensure smooth flow without stagnation. Maintenance access points must remain visible and unhindered so members can empty heavy sediment compartments regularly as part of weekly workshop housekeeping routines.",
-        "bullets": [
-          "Install a three-stage PVC interceptor bucket beneath the utility sink to capture heavy ceramic clays and dense plaster residues.",
-          "Specify solvent-weld waste pipes with a minimum forty millimetre diameter and a consistent one-in-forty fall gradient.",
-          "Establish a mandatory weekly maintenance protocol for emptying and rinsing sediment traps to prevent downstream pipe blockages."
-        ]
+        "heading": "Workbench Proportions and Circulation Clearances",
+        "body": "Build sturdy central islands using fifty by one hundred millimeter redwood framing joined with robust timber screws. Maintain at least twelve hundred millimeters of clear walking space around every perimeter so members can turn large panels safely."
       },
       {
         "level": "h2",
-        "heading": "Balanced Daylight Illumination and 5000K Task Lighting",
-        "body": "Harnessing natural light transforms a domestic outbuilding into an inspiring studio space for painters and sculptors alike. North-facing rooflights provide consistent, shadow-free illumination throughout the daylight hours, eliminating the harsh glare and high contrast associated with direct southern solar exposure.\n\nSupplementary artificial lighting must compensate for gloomy winter afternoons by delivering an even spread of illumination across all shared workbenches. We mandate a minimum of 500 lux at the working plane to protect members from eye strain during intricate textile work or fine brush detailing.\n\nColour temperature plays a fundamental role in creative accuracy when mixing pigments and matching fabric tones. Utilizing 5000K daylight-balanced LED luminaires ensures true colour rendering across the room, preventing the unwelcome surprises that occur under warm residential interior lighting fixtures.\n\nWiring the lighting circuit requires careful zoning to allow independent control over ambient overhead fittings and localized bench lamps. Dimmable drivers provide necessary flexibility for digital projection sessions or moody life-drawing classes held during evening club meetings.",
-        "image": "https://images.unsplash.com/photo-1685022515813-c42e8348639b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YXJ0aXN0JTIwc3R1ZGlvJTIwZGV0YWlsJTIwd29vZHdvcmtpbmclMjBkZXNrfGVufDB8MHx8fDE3ODk2MzU4NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Close up view of clean timber workbench showing artistic tools, ruler, and natural lighting",
-        "imageCaption": "Precision task lighting combined with durable timber surfaces creates an efficient setting for group making.",
-        "imageCredit": {
-          "name": "Jean-Baptiste D.",
-          "link": "https://unsplash.com/@jbonunsplash"
-        }
+        "heading": "Selecting Resilient Work Surfaces and Washable Finishes",
+        "body": "Shared studios endure daily chemical spills and heavy impact from raw timber or wet clay blocks. Protect your underlying structure by choosing commercial grade surface materials that withstand aggressive scrubbing and resist permanent moisture absorption over decades."
       },
       {
         "level": "h3",
-        "heading": "Solvent Storage Cupboards and COSHH Fire Compliance",
-        "body": "Storing volatile chemicals safely within a shared creative workshop demands strict adherence to regulatory standards and fire safety codes. Heavy-duty lockable steel fire cabinets provide the required thirty-minute containment barrier against accidental ignition of turpentine, white spirit, and aerosol fixatives.\n\nMechanical ventilation extractors must be hardwired directly into the chemical storage zone to expel dangerous fumes continuously. Siting these extract units at low level ensures heavier-than-air organic vapours are drawn out of the building before accumulating near human breathing zones.\n\nCompliance with Control of Substances Hazardous to Health regulations requires clear signage and dedicated containment trays beneath all chemical containers. This ensures any accidental leaks or spillages remain safely isolated from electrical outlets and naked flame sources within the main studio."
+        "heading": "Sacrificial Bench Tops and Scrub Resistant Wall Emulsion",
+        "body": "Screw eighteen millimeter exterior grade birch plywood directly to your support frames as a replaceable sacrificial layer. Paint surrounding walls using durable acrylic eggshell emulsion rated for frequent washing down after messy painting sessions."
       },
       {
         "level": "h2",
-        "heading": "Wipe Clean Epoxy Screed Flooring and Dust Extraction",
-        "body": "Selecting the correct floor finish protects the structural subfloor from chemical spills, dropped tools, and heavy foot traffic. A smooth epoxy screed provides an impermeable, chemical-resistant surface that withstands aggressive wet mopping and resists staining from spilled oil paints.\n\nDust management is essential when multiple makers work with sanding blocks, plaster, and ceramics simultaneously. Integrating a central ducted HEPA dust extraction unit captures airborne particulate matter at the source, safeguarding respiratory health across the entire community membership.\n\nFloor detailing requires careful coving where the horizontal screed meets vertical walls to eliminate hard 90-degree corners. This coved transition prevents dust and wet sludge from accumulating in hidden crevices during routine washdown procedures.\n\nAcoustic attenuation mats laid beneath the primary screed layer prevent impact sound transmission to adjoining properties. This thoughtful design detail ensures enthusiastic hammering and heavy tool drops cause minimal disturbance to neighbouring homes and workspaces."
+        "heading": "Daylight Requirements and Colour Balanced Task Lighting",
+        "body": "Natural daylight remains the absolute best source for accurate colour evaluation during intricate painting work. Position primary benches perpendicular to large north facing windows to eliminate harsh glare and prevent direct sunlight from warping wet mediums."
+      },
+      {
+        "level": "h3",
+        "heading": "High CRI Diffused LED Fittings for True Tone Mixing",
+        "body": "Install overhead linear battens boasting ninety five colour rendering index and four thousand Kelvin daylight balanced output. This specific specification stops colour distortion so artists mix exact paint shades regardless of seasonal weather changes outside."
       },
       {
         "level": "h2",
-        "heading": "Studio Workshop Complete",
-        "body": "Executing this comprehensive fit-out transforms an ordinary outbuilding into an exceptional collaborative workspace tailored for demanding creative projects. By prioritizing heavy structural framing, robust waste management, and pristine environmental controls, the studio stands ready for decades of productive artistic exploration.\n\nInvesting time in professional-grade building methods guarantees a safe, inspiring environment that nurtures local talent. Members will benefit immensely from a purpose-built facility designed specifically to support shared making without compromise."
+        "heading": "Dedicated Utility Sinks and Safe Material Management",
+        "body": "Running water is vital for cleaning brushes and mixing plaster but poses major plumbing risks for studios. Install a deep fireclay utility sink paired with a lever operated mixer tap to accommodate large buckets and awkward ceramic vessels."
+      },
+      {
+        "level": "h3",
+        "heading": "Plaster Sediment Traps and Fire Safe Solvent Lockers",
+        "body": "Fit a multi stage plaster trap beneath your waste pipe to catch solid clay before it blocks municipal drains. Store volatile thinners and oily rags inside locked double skinned steel cabinets certified for fire safety compliance."
+      },
+      {
+        "level": "h2",
+        "heading": "Modular Storage Racks and Mobile Tool Stations",
+        "body": "Keep floor areas completely clear by mounting robust shelving brackets into structural wall studs using heavy fasteners. Build wheeled carts featuring locking caster wheels so members can wheel heavy tools directly to their active workstations."
+      },
+      {
+        "level": "h3",
+        "heading": "Slatted Drying Racks and Wall Mounted Shadow Boards",
+        "body": "Construct wall mounted drying racks using spaced pine slats to air fragile canvases and printed artworks safely. Trace hand tools onto plywood shadow boards hung near entrances to guarantee every item returns to its designated storage hook."
+      },
+      {
+        "level": "h2",
+        "heading": "Final Practical Considerations for a DIY Art Club",
+        "body": "Successful communal spaces rely heavily on strict community upkeep rules and durable tactile finishes built to last. Take your time sourcing quality British timber and proper safety hardware to ensure your new club thrives for many years."
       }
     ],
     "faqs": [
       {
-        "question": "What timber size is best for heavy duty workbenches?",
-        "answer": "C24 treated timber measuring 45mm by 95mm provides optimal structural rigidity."
+        "q": "What is the ideal aisle width between shared studio workbenches",
+        "a": "Always leave at least twelve hundred millimeters of clearance so members can carry large wet canvases safely."
       },
       {
-        "question": "Why are multi stage sediment traps required for sinks?",
-        "answer": "They catch clay, plaster, and paint solids to prevent severe drain blockages."
+        "q": "Why do studio sinks need sediment traps installed underneath",
+        "a": "Sediment traps capture wet plaster and clay particles before they solidify and ruin your workshop drainage system."
       },
       {
-        "question": "What light level is recommended for studio workbenches?",
-        "answer": "A minimum of 500 lux at 5000K ensures accurate colour rendering and eye safety."
+        "q": "Which LED color temperature is best for accurate color mixing",
+        "a": "Always choose four thousand Kelvin LED fittings with a high color rendering index to ensure true tone visibility."
       }
-    ],
-    "tags": [
-      "diy art club",
-      "Luxury DIY",
-      "UK Interior",
-      "Architectural Joinery",
-      "Bespoke Craftsmanship"
     ]
   },
   {
