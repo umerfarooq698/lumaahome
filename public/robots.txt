@@ -2,5 +2,11 @@
 User-agent: *
 Allow: /
 
+# Disallowed paths & query parameters
+Disallow: /rss.xml
+Disallow: /*?search=
+Disallow: /?search=
+
 # Sitemap Location
 Sitemap: https://www.lumaahome.co.uk/sitemap.xml
+
