@@ -2,8 +2,8 @@ name: Auto Publish Editorial Articles
 
 on:
   schedule:
-    # 1 Article Daily: Runs every 24 hours at 21:45 UTC (02:45 AM PKT)
-    - cron: '45 21 * * *'
+    # 1 Article Every 2 Days (48 Hours): Runs at 21:45 UTC (02:45 AM PKT) every 2 days
+    - cron: '45 21 */2 * *'
   workflow_dispatch: # Allows manual trigger from GitHub Actions dashboard anytime
 
 permissions:
