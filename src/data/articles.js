@@ -75,6 +75,100 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "crafting-a-stunning-garden-with-borders-across-britain-guide",
+    "title": "Crafting A Stunning Garden With Borders Across Britain",
+    "slug": "crafting-a-stunning-garden-with-borders-across-britain",
+    "category": "garden",
+    "categoryName": "Garden",
+    "categoryLabel": "GARDEN LIVING • OUTDOOR SPECIFICATION",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "September 26, 2026",
+    "readTime": "8 min read",
+    "views": "15.2k",
+    "isFeatured": true,
+    "excerpt": "Transform your outdoor space with proper border design.",
+    "metaDescription": "Create a stunning garden with borders using practical planting and edging advice for British homes.",
+    "heroImage": "https://images.unsplash.com/photo-1597201278257-3687be27d954?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z2FyZGVuJTIwZmxvd2VyJTIwYmVkJTIwZGVzaWdufGVufDB8MHx8fDE3OTAzODEzNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1597201278257-3687be27d954?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z2FyZGVuJTIwZmxvd2VyJTIwYmVkJTIwZGVzaWdufGVufDB8MHx8fDE3OTAzODEzNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "A well manicured British garden with planted borders and neat edging stones",
+    "imageAlt": "A well manicured British garden with planted borders and neat edging stones",
+    "photographer": "Jan Canty",
+    "photographerUrl": "https://unsplash.com/@jcanty123",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Understanding British Installation Zones For Your Garden With Borders",
+        "body": "Establishing a successful outdoor scheme requires careful analysis of local soil conditions and microclimates across the British Isles. Every regional property faces distinct challenges regarding moisture levels, frost exposure, and wind patterns during the changing seasons.",
+        "bullets": [
+          "Southern regions experience milder winters and drier summers, allowing tender perennials to thrive in well drained soils.",
+          "Northern areas endure harsher frosts and higher rainfall, requiring robust structural planting and improved drainage foundations.",
+          "Coastal zones demand salt tolerant flora capable of withstanding strong winds and sandy soil compositions year round."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Comparing Materials For Your Garden With Borders",
+        "body": "Choosing the right edging material dictates the overall longevity and aesthetic appeal of your planting beds. Natural stone offers organic charm while manufactured alternatives provide exceptional durability against frost damage and heavy foot traffic during damp winter months."
+      },
+      {
+        "level": "h2",
+        "heading": "Surrounding Materials And Garden Finishes",
+        "body": "Paving slabs surrounding your planting beds should complement the chosen edging material to maintain a cohesive outdoor aesthetic. Selecting durable paving flags prevents weed ingress and provides a stable walkway for routine maintenance tasks throughout the year.",
+        "image": "https://images.unsplash.com/photo-1706450186286-a7a520c345e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z2FyZGVuJTIwd2l0aCUyMGJvcmRlcnN8ZW58MHwwfHx8MTc5MDM4MTM0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Modern garden with borders installation in a British home",
+        "imageCaption": "garden with borders architectural detailing and surface materials",
+        "imageCredit": {
+          "name": "Annie Spratt",
+          "link": "https://unsplash.com/@anniespratt"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Step By Step Setup And Fitting Sequence For A Garden With Borders",
+        "body": "Following a structured installation process ensures your new planting scheme remains stable and weed free for decades.",
+        "bullets": [
+          "Mark out the desired bed shapes using bright garden twine and flexible canes to visualise curves.",
+          "Excavate trenches along the marked lines to a depth of one hundred millimetres for a solid base.",
+          "Install your chosen edging materials securely, checking levels frequently with a reliable spirit tool.",
+          "Fill the interior beds with a balanced mix of compost and topsoil before planting your selection."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Routine Care And Seasonal Protection",
+        "body": "Regular upkeep keeps your outdoor beds looking pristine while protecting delicate flora from extreme weather conditions. Applying organic mulch suppresses weed growth and retains vital soil moisture during dry spells without requiring excessive manual watering."
+      },
+      {
+        "level": "h2",
+        "heading": "Final Summary And Selection Advice For A Garden With Borders",
+        "body": "Designing a thriving garden with borders requires thoughtful consideration of local weather patterns, material durability, and ongoing maintenance commitments.\n\nBy selecting quality edgings and nutritious soils suited to your specific British region, you create a robust outdoor space that delivers year round visual appeal, robust structural integrity, and immense personal satisfaction for many seasons to come."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How deep should the edging be installed",
+        "answer": "Edging materials should sit at least one hundred millimetres deep to prevent frost heave and lateral movement."
+      },
+      {
+        "question": "What soil is best for perennial planting",
+        "answer": "A rich loamy soil mixed with well rotted organic compost provides ideal nutrients for most garden plants."
+      },
+      {
+        "question": "How often should timber edging be treated",
+        "answer": "Apply a protective wood preservative every two years to prevent rot and weather damage."
+      }
+    ],
+    "tags": [
+      "garden with borders",
+      "Garden Design",
+      "UK Interior",
+      "Home Renovation",
+      "Practical Design"
+    ]
+  },
+  {
     "id": "choosing-practical-drawers-in-the-kitchen-space-guide",
     "title": "Choosing Practical Drawers in the Kitchen Space",
     "slug": "choosing-practical-drawers-in-the-kitchen-space",
@@ -87,7 +181,7 @@ export const ARTICLES = [
     "date": "September 24, 2026",
     "readTime": "8 min read",
     "views": "20.9k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Expert advice on selecting kitchen storage solutions.",
     "metaDescription": "how to choose the best drawers for your kitchen upgrade.",
     "heroImage": "https://images.unsplash.com/photo-1678108040468-0cc9addd984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGtpdGNoZW4lMjBpbnRlcmlvciUyMGRyYXdlcnN8ZW58MHwwfHx8MTc5MDI5NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
