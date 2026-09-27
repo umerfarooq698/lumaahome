@@ -75,6 +75,80 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-the-best-outdoor-log-burner-for-your-garden-guide",
+    "title": "Choosing The Best Outdoor Log Burner For Your Garden",
+    "slug": "choosing-the-best-outdoor-log-burner-for-your-garden",
+    "category": "garden",
+    "categoryName": "Garden",
+    "categoryLabel": "GARDEN LIVING • OUTDOOR SPECIFICATION",
+    "author": "Oliver Sinclair",
+    "authorId": "oliver-sinclair",
+    "role": "Master Joiner and Period Restoration Consultant",
+    "date": "September 27, 2026",
+    "readTime": "8 min read",
+    "views": "22.5k",
+    "isFeatured": true,
+    "excerpt": "Bring cozy warmth to your garden space with a reliable and efficient outdoor log burner.",
+    "metaDescription": "Transform your British garden with a stylish outdoor log burner. Learn about fuel choices, safe placement, and winter care for maximum warmth.",
+    "heroImage": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Black cast iron outdoor log burner glowing warmly on a paved patio surrounded by green foliage",
+    "imageAlt": "Black cast iron outdoor log burner glowing warmly on a paved patio surrounded by green foliage",
+    "photographer": "Sung Jin Cho",
+    "photographerUrl": "https://unsplash.com/@mbuff",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Why Every British Garden Needs An Outdoor Log Burner",
+        "body": "Bringing family and friends together outdoors becomes remarkably simple when you introduce a roaring fire into your patio setup. British evenings turn chilly very quickly even during midsummer months making added warmth an absolute necessity for comfortable outdoor social gatherings.\n\nSelecting the right model means evaluating your available space carefully while considering how often you plan to host guests outside. Modern designs add incredible aesthetic charm to dull patios turning empty corners into functional gathering hubs that you will use throughout the entire year."
+      },
+      {
+        "level": "h2",
+        "heading": "Smart Placement Rules For Safety And Comfort",
+        "body": "Positioning your heating unit correctly protects your property and ensures smoke drifts safely away from seating areas and neighboring windows. Keep the structure well away from wooden fences or overhanging tree branches to prevent accidental fire hazards during dry spells.\n\nAlways place your heavy iron appliance on a flat and completely fireproof surface such as stone slabs or concrete pavers. Setting up a protective perimeter keeps children and pets safely away from hot metal surfaces while allowing everyone to enjoy the natural radiant warmth.",
+        "bullets": [
+          "Position the heater at least three metres away from any wooden boundaries",
+          "Ensure overhead clearance is completely free of branches and awnings",
+          "Place the unit on a solid stone hearth or concrete paving slabs",
+          "Keep a bucket of water or sand nearby for quick emergency safety"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Selecting Dry Fuel For Maximum Heat Output",
+        "body": "Burning properly seasoned hardwood logs guarantees a clean flame and stops heavy black smoke from annoying everyone in the neighborhood. Avoid wet garden waste or treated timber because these materials produce toxic fumes and leave thick sticky residue inside your metal chimney.\n\nStore your firewood supplies inside a covered shelter to protect them from frequent rainfall throughout the autumn and winter months. Dry fuel lights much faster and burns significantly hotter giving you maximum comfort during late evening gatherings in the garden.",
+        "image": "https://images.unsplash.com/photo-1775377617218-f7a3e6c8499e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMGxvZyUyMGJ1cm5lcnxlbnwwfDB8fHwxNzkwNTUzNDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Modern outdoor log burner installation in a British home",
+        "imageCaption": "Practical detailing and surfaces for outdoor log burner",
+        "imageCredit": {
+          "name": "Alan Jiang",
+          "link": "https://unsplash.com/@alan_j"
+        }
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I use my outdoor log burner on a wooden decking area",
+        "answer": "Placing a burning fire directly onto wooden decking is unsafe unless you use a thick non flammable hearth pad beneath the entire unit."
+      },
+      {
+        "question": "What type of wood burns best in a garden heater",
+        "answer": "Seasoned hardwoods like oak and beech burn slowly and provide steady radiant heat with very little smoke."
+      },
+      {
+        "question": "How do I protect my metal heater during heavy winter rain",
+        "answer": "Cover the completely cooled unit with a heavy duty waterproof protector and store internal parts in a dry shed."
+      }
+    ],
+    "tags": [
+      "outdoor log burner",
+      "Garden Design",
+      "UK Interior",
+      "Home Renovation",
+      "Practical Design"
+    ]
+  },
+  {
     "id": "crafting-a-stunning-garden-with-borders-across-britain-guide",
     "title": "Crafting A Stunning Garden With Borders Across Britain",
     "slug": "crafting-a-stunning-garden-with-borders-across-britain",
@@ -87,7 +161,7 @@ export const ARTICLES = [
     "date": "September 26, 2026",
     "readTime": "8 min read",
     "views": "15.2k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Transform your outdoor space with proper border design.",
     "metaDescription": "Create a stunning garden with borders using practical planting and edging advice for British homes.",
     "heroImage": "https://images.unsplash.com/photo-1597201278257-3687be27d954?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z2FyZGVuJTIwZmxvd2VyJTIwYmVkJTIwZGVzaWdufGVufDB8MHx8fDE3OTAzODEzNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
