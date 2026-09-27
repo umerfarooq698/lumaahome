@@ -63,7 +63,8 @@ export function sanitizeStrict(str) {
     /\bfurthermore\b/gi, /\bmoreover\b/gi, /\bin conclusion\b/gi,
     /\bsanctuary\b/gi, /\bcocoon\b/gi, /\bvisual poise\b/gi,
     /\btimeless allure\b/gi, /\bbespoke\b/gi, /\bunlock\b/gi,
-    /\bdiscover\b/gi, /\bbeacon\b/gi, /\bsymphony\b/gi
+    /\bdiscover\b/gi, /\bbeacon\b/gi, /\bsymphony\b/gi,
+    /\barchitectural\b/gi
   ];
   for (const b of banned) {
     s = s.replace(b, ' ');
@@ -262,74 +263,52 @@ async function fetchUnsplashImage(searchQueries, categoryId, altText, usedUrls =
 }
 
 /**
- * 3 Structural archetypes to guarantee distinct layout & cadence on every run
- */
-const LAYOUT_ARCHETYPES = [
-  {
-    name: 'Material And Engineering Deep Dive',
-    instructions: `Structure:
-1. H2 on Material Specifications with 3 distinct paragraphs (30-40 words each) covering different core materials.
-2. H2 on Structural Engineering and Load Tolerances with 2 paragraphs (30-40 words each).
-3. H2 on Sizing and Spatial Clearances with 2 paragraphs (30-40 words each).
-4. H2 on British Safety Standards and Regulations with 1 intro paragraph and 3 to 4 compliance bullets.
-5. H2 on Long Term Care and Weather Protection with 2 paragraphs (30-40 words each).
-6. H2 on Final Selection and Buying Advice with 2 narrative paragraphs (NO bullets at the end).`
-  },
-  {
-    name: 'Zone Based Layout And Sequential Walkthrough',
-    instructions: `Structure:
-1. H2 on British Installation Zones with 1 intro paragraph and 3 distinct zone breakdown bullets.
-2. H2 on Material Comparison with 2 paragraphs (30-40 words each).
-3. H2 on Surrounding Materials and Garden Finishes with 3 distinct paragraphs (30-40 words each).
-4. H2 on Step by Step Setup and Fitting Sequence with 1 intro paragraph and 4 sequential execution bullets.
-5. H2 on Routine Care and Seasonal Protection with 2 paragraphs (30-40 words each).
-6. H2 on Final Summary and Selection Advice with 1 comprehensive concluding paragraph (NO bullets at the end).`
-  },
-  {
-    name: 'Spatial Planning And Practical Safety',
-    instructions: `Structure:
-1. H2 on Circulation Clearances and Spatial Planning with 1 intro paragraph and 3 exact metric clearance bullets.
-2. H2 on Structural Design and Physical Balance with 2 paragraphs (30-40 words each).
-3. H2 on Fuel Power and Thermal Management with 2 paragraphs (30-40 words each).
-4. H2 on Environmental Protection and Surface Materials with 2 paragraphs (30-40 words each).
-5. H2 on Safe Operational Protocols with 2 paragraphs (30-40 words each).
-6. H2 on Buying Checklist and Final Layout Advice with 1 intro paragraph and 3 practical trade bullets.`
-  }
-];
-
-/**
- * Generate full high-standard article using Gemini
+ * Generate full high-standard article using Gemini API
+ * Strictly dynamic, reader-first headings with NO rigid templates or repetitive structures.
  */
 export async function generateArticle(topic, catInfo, usedUrls) {
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
   const author = AUTHORS_POOL[Math.floor(Math.random() * AUTHORS_POOL.length)];
-  const archetype = LAYOUT_ARCHETYPES[Math.floor(Math.random() * LAYOUT_ARCHETYPES.length)];
 
-  console.log(`[AutoPublisher] Selected Layout Archetype: "${archetype.name}"`);
+  console.log(`[AutoPublisher] Generating dynamic reader-first article for keyword: "${topic}"`);
 
-  const prompt = `You are a Senior British home and garden design specialist writing for LUMAA HOME™.
+  const prompt = `You are a Senior British home, garden, and interior design specialist writing for LUMAA HOME™.
 Write an authentic, highly practical, informative (E-E-A-T) article focused on the primary keyword: "${topic}".
 Category: "${catInfo.categoryName}".
 
-TARGET LAYOUT ARCHETYPE:
-${archetype.instructions}
-
-CRITICAL CONSTRAINTS:
-1. ZERO HYPHENS (-) ANYWHERE in title, metaDescription, headings, body text, bullets, or FAQs! Spell out all numbers and compound words (e.g. "twenty four", "three hundred millimetres", "forty millimetres", "heat resistant", "weather resistant", "slip resistant", "free standing", "built in"). Do not use any hyphen character.
-2. ZERO COLONS (:) in any headings or title!
-3. ZERO AI BUZZWORDS: Absolutely do NOT use architectural (use natural words like practical, interior, home, space, design, garden), elevate, delve, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, in conclusion, sanctuary, cocoon, visual poise, timeless allure, unlock, discover, beacon, symphony, bespoke.
-4. TITLE LENGTH: Exactly 55 to 60 characters containing the keyword "${topic}" naturally.
-5. KEYWORD IN HEADINGS: The keyword "${topic}" or its natural variation MUST be naturally integrated into major H2 headings.
-6. SHORT BREATHABLE PARAGRAPHS: Every paragraph must be between 30 and 42 words.
-7. CONCLUSION SECTION: The final H2 section must serve as a proper conclusion and buying advice section featuring "${topic}".
-8. 3 SHORT FAQS: 3 concise FAQs with single sentence answers (no hyphens).
-9. BRITISH SPELLING & METRIC SPECS: Use British English (colour, grey, timber, joinery) and exact metric units spelled out.
+CORE EDITORIAL & READER-FIRST REQUIREMENTS:
+1. NO DEFAULT OR REPETITIVE HEADING TEMPLATES:
+   - Absolutely NEVER use generic headings like "Material Specifications", "Structural Engineering", "Sizing and Spatial Clearances", "British Safety Standards", "Long Term Care and Weather Protection", or "Understanding British Installation Zones".
+   - Every single heading (both H2 and H3) must be 100% NEW, FRESH, and DIRECTLY related to "${topic}".
+   - Headings must address real questions, practical problems, and decisions that a British reader faces when choosing, fitting, or using "${topic}".
+2. DYNAMIC & NATURAL STRUCTURE:
+   - Do NOT force a fixed template or identical structure across articles.
+   - Let the article flow naturally based on what is most helpful for this specific item (e.g. practical selection criteria, proper clearances and fit, real-world durability, everyday usability, setup or installation guidance, maintenance and troubleshooting).
+   - Use H2 sections with relevant H3 subheadings to keep the guide organized and easy to scan.
+3. SHORT BREATHABLE PARAGRAPHS:
+   - Every single paragraph MUST be strictly between 30 and 42 words.
+   - Keep paragraphs punchy, readable on mobile, and free of long walls of text.
+4. ZERO HYPHENS (-) ANYWHERE:
+   - Zero hyphens in title, metaDescription, excerpt, headings, body text, bullets, or FAQs!
+   - Spell out all compound terms (e.g. use "soft close", "heavy duty", "water resistant", "heat resistant", "wipe clean", "non slip", "free standing", "built in", "twenty four", "three hundred millimetres").
+5. ZERO COLONS (:):
+   - Never use colons in any headings, title, or FAQ questions.
+6. ZERO AI BUZZWORDS & NO "DISCOVER":
+   - Absolutely do NOT use: discover, elevate, delve, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, sanctuary, cocoon, visual poise, timeless allure, unlock, beacon, symphony, bespoke, architectural.
+7. SCANNABLE CHECKLIST:
+   - Under exactly one relevant section where practical, include an array of 3 to 4 concise bullet points (without hyphens) to help the reader quickly reference key safety, clearance, or installation rules. All other sections should be clean narrative paragraphs.
+8. 3 SHORT PRACTICAL FAQS:
+   - Provide exactly 3 short FAQs answering real user questions about "${topic}", with clear one-sentence answers (zero hyphens, zero colons).
+9. TITLE & METADATA:
+   - Title: Exactly 50 to 60 characters naturally featuring "${topic}".
+   - Meta Description: 145 to 160 characters, direct active tone, containing "${topic}", no hyphens, no "Discover".
+   - Excerpt: 85 to 125 characters, informative, no hyphens, no "Discover".
 
 Return ONLY raw valid JSON:
 {
-  "title": "Exact 55 to 60 character title with keyword",
-  "metaDescription": "One sentence meta description under 25 words without hyphens or buzzwords",
-  "excerpt": "One sentence summary under 20 words without hyphens or buzzwords",
+  "title": "Exact 50 to 60 character title with keyword",
+  "metaDescription": "One sentence meta description 145-160 characters without hyphens or buzzwords",
+  "excerpt": "One sentence summary 85-125 characters without hyphens or buzzwords",
   "heroImageAlt": "Detailed descriptive alt text without hyphens",
   "unsplashSearchQueries": [
     "query 1",
@@ -339,13 +318,13 @@ Return ONLY raw valid JSON:
   "content": [
     {
       "level": "h2",
-      "heading": "Heading with keyword",
-      "body": "Paragraph 1\\n\\nParagraph 2",
-      "bullets": [] // optional bullets where required by the archetype
+      "heading": "Fresh topic-specific heading about ${topic}",
+      "body": "Paragraph 1 (30 to 42 words)\\n\\nParagraph 2 (30 to 42 words)",
+      "bullets": [] // optional 3 to 4 bullets only in one section
     }
   ],
   "faqs": [
-    { "question": "Question without hyphens", "answer": "Answer without hyphens." }
+    { "question": "Question without hyphens or colons", "answer": "Clear one sentence answer without hyphens." }
   ]
 }`;
 
@@ -410,8 +389,14 @@ Return ONLY raw valid JSON:
   const processedContent = [];
   let inlineImageFetched = false;
 
+  const genericHeadingsPattern = /material specification|structural engineering|weather protection|installation zone|spatial clearance|long term care/i;
+
   for (const sec of (articleData.content || [])) {
-    const heading = sanitizeStrict(sec.heading);
+    let heading = sanitizeStrict(sec.heading);
+    if (genericHeadingsPattern.test(heading)) {
+      heading = heading.replace(genericHeadingsPattern, '').trim();
+      if (!heading) heading = `Practical Guide to ${topic}`;
+    }
     const bodyFormatted = formatBreathableBody(sanitizeStrict(sec.body));
     const sectionObj = {
       level: sec.level || 'h2',
@@ -436,7 +421,7 @@ Return ONLY raw valid JSON:
       if (secImg && secImg.url) {
         sectionObj.image = secImg.url;
         sectionObj.imageAlt = sanitizeStrict(secImg.alt);
-        sectionObj.imageCaption = sanitizeStrict(`${topic} architectural detailing and surface materials`);
+        sectionObj.imageCaption = sanitizeStrict(`Practical detailing and surfaces for ${topic}`);
         sectionObj.imageCredit = secImg.credit;
       }
     }
