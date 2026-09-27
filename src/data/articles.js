@@ -177,13 +177,13 @@ export const ARTICLES = [
     "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
-    "role": "Principal Architect and Timber Craft Specialist",
+    "role": "Kitchen Fitter and Residential Renovation Specialist",
     "date": "September 24, 2026",
     "readTime": "8 min read",
     "views": "20.9k",
     "isFeatured": false,
-    "excerpt": "Expert advice on selecting kitchen storage solutions.",
-    "metaDescription": "how to choose the best drawers for your kitchen upgrade.",
+    "excerpt": "Select durable drawers in the kitchen with practical advice on metal box sides, soft close runners, and wipe clean storage.",
+    "metaDescription": "Learn expert tips for choosing drawers in the kitchen with modern metal box systems, soft close runners, and heavy duty pan storage for UK fitted units.",
     "heroImage": "https://images.unsplash.com/photo-1678108040468-0cc9addd984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGtpdGNoZW4lMjBpbnRlcmlvciUyMGRyYXdlcnN8ZW58MHwwfHx8MTc5MDI5NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1678108040468-0cc9addd984d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMGtpdGNoZW4lMjBpbnRlcmlvciUyMGRyYXdlcnN8ZW58MHwwfHx8MTc5MDI5NDM3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
     "heroImageAlt": "Modern British kitchen interior featuring deep wooden storage compartments",
@@ -193,59 +193,84 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Material Specifications for Drawers in the Kitchen",
-        "body": "Solid hardwood timber provides exceptional structural integrity and natural beauty for high usage culinary cabinetry. Selecting oak or walnut ensures your storage units withstand daily demands while maintaining a gorgeous finish that ages gracefully within busy family homes.\n\nEngineered moisture resistant boards offer incredible stability against humidity fluctuations near sinks and dishwashers. These composite materials prevent warping and swelling ensuring your sliding units glide smoothly across every season without catching on surrounding cabinetry frames or panels.\n\nStainless steel components add industrial strength and modern hygiene benefits to internal box constructions. This choice suits contemporary spaces where durability and easy cleaning take priority over traditional aesthetic warmth without sacrificing overall quality or reliable everyday performance."
+        "heading": "Choosing Deep Pan Drawers in the Kitchen for Heavy Cookware",
+        "body": "Modern fitted units require robust storage solutions for large pots and pans. Deep pan choices utilise full extension runners so you access every single item easily without bending down or reaching into dark awkward corner base units."
+      },
+      {
+        "level": "h3",
+        "heading": "Weight Capacities for Kitchen Pan Drawers Under Induction Hobs",
+        "body": "Heavy cast iron cookware places immense stress on standard runners. Always specify high capacity metal box systems rated for forty to seventy kilograms so your base units handle daily loads safely beneath modern glass induction cooktops."
       },
       {
         "level": "h2",
-        "heading": "Structural Engineering and Load Tolerances for Drawers in the Kitchen",
-        "body": "Heavy duty runner systems support significant weight capacities reaching up to fifty kilograms per box. Full extension slides allow total access to contents stored right at the back preventing lost items and awkward reaching during busy meal preparation times.\n\nSoft closing mechanisms protect delicate dovetail joints from impact damage during forceful closures. Integrated dampeners absorb kinetic energy quietly creating a gentle glide that preserves cabinet frames and enhances the overall user experience within your busy domestic environment."
+        "heading": "Soft Close Runners for Modern Drawers in the Kitchen",
+        "body": "Sliding mechanisms dictate the longevity of your fitted cabinetry. Hydraulic dampening technology ensures doors and storage compartments glide shut silently every time, preventing slamming impacts that weaken joints across busy family cooking zones daily."
+      },
+      {
+        "level": "h3",
+        "heading": "Concealed Undermount Slides for Smooth Kitchen Drawer Motion",
+        "body": "Quality manufacturers mount smooth sliding hardware beneath the base panel for maximum stability. This hidden engineering delivers flawless lateral tracking while keeping mechanical parts shielded from accidental spills and food debris dropping inside."
       },
       {
         "level": "h2",
-        "heading": "Sizing and Spatial Clearances Around Drawers in the Kitchen",
-        "body": "Standard depths ranging from five hundred to six hundred millimetres maximise available floor space while accommodating bulky pots and pans easily. Proper planning ensures adequate clearance for island walkways and adjacent appliance doors opening simultaneously in tight domestic layouts.\n\nInternal divider layouts help organise cutlery and utensils effectively to prevent rattling and clutter. Customisable peg systems secure heavy dinner plates safely in place during movement protecting valuable crockery from sliding around inside deep pan storage compartments.",
+        "heading": "Metal Box Sides Versus Laminated Drawers in the Kitchen",
+        "body": "Contemporary kitchen ranges rely heavily on powder coated steel sides instead of traditional boards. These engineered metal frames offer superior structural rigidity, thinner profiles for extra internal storage width, and straightforward clip on front fixings."
+      },
+      {
+        "level": "h3",
+        "heading": "Water Resistant Finishes and Easy Wipe Clean Kitchen Drawers",
+        "body": "Kitchen environments suffer from frequent steam splashes and liquid spills. Melamine faced chipboard components combined with sealed steel perimeters prevent moisture absorption, ensuring your interior storage boxes remain hygienic and simple to wipe down."
+      },
+      {
+        "level": "h2",
+        "heading": "Organising Everyday Utensil Drawers in the Kitchen",
+        "body": "Shallow compartments hold cutlery and small gadgets safely near your preparation zones. Smart internal layout planning stops clutter from building up, ensuring spatulas and knives stay neatly separated and instantly available during fast meal prep sessions."
+      },
+      {
+        "level": "h3",
+        "heading": "Modular Cutlery Trays and Non Slip Liners for Kitchen Drawers",
+        "body": "Moulded plastic inserts and rubber mats prevent contents from sliding around when opened. These removable accessories make cleaning simple while protecting the base panels from scratches caused by heavy metal utensils shifting during daily use."
+      },
+      {
+        "level": "h2",
+        "heading": "Planning Clearances for Opening Drawers in the Kitchen",
+        "body": "Spatial layout design prevents handle clashes between adjacent units and appliances. Careful installation planning ensures pullouts extend fully without striking dishwasher doors or oven handles, keeping your workspace functional and completely safe during busy hours.",
         "image": "https://images.unsplash.com/photo-1713514023762-b3995318dc94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8ZHJhd2VycyUyMGluJTIwdGhlJTIwa2l0Y2hlbnxlbnwwfDB8fHwxNzkwMjk0Mzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Modern drawers in the kitchen installation in a British home",
-        "imageCaption": "drawers in the kitchen architectural detailing and surface materials",
+        "imageCaption": "Clean spatial clearances and durable runners ensure smooth everyday operation",
         "imageCredit": {
           "name": "Sanju Pandita",
           "link": "https://unsplash.com/@spxclicks"
         }
       },
       {
-        "level": "h2",
-        "heading": "British Safety Standards and Regulations for Drawers in the Kitchen",
-        "body": "Adhering to strict United Kingdom safety regulations ensures your family home remains secure and compliant with modern building requirements during renovations.",
+        "level": "h3",
+        "heading": "Island Walkways and Corner Clearances for Kitchen Drawers",
+        "body": "Island walkways require precise spatial calculations before fixing base cabinetry firmly to your kitchen floor. Ensuring adequate walkway clearance prevents open drawer fronts from colliding across narrow galley aisles or blocking family movement during meal prep.",
         "bullets": [
-          "Install tip restraint hardware on large tall pantry units to prevent accidental tipping hazards when heavy internal boxes are fully extended.",
-          "Verify that all timber finishes comply with low emission standards for indoor air quality and safe food preparation proximity.",
-          "Check manufacturer load ratings carefully to avoid overloading sliding hardware beyond certified structural limits during everyday domestic use."
+          "Leave at least one thousand millimetres of clear walkway space opposite islands",
+          "Check adjacent handles do not collide when pulling out corner storage units",
+          "Verify dishwasher doors stay clear of fully extended pull out base units"
         ]
       },
       {
         "level": "h2",
-        "heading": "Long Term Care and Weather Protection for Drawers in the Kitchen",
-        "body": "Applying natural oils or protective sealants safeguards timber surfaces against moisture damage and grease splatters. Regular maintenance routines keep sliding mechanisms free from dust and debris ensuring reliable operation throughout decades of heavy culinary activities.\n\nChecking runner fixings annually prevents loose screws from causing misalignment during daily operations. Simple adjustments maintain perfect alignment so every storage unit opens and closes smoothly without rubbing against adjacent cabinet panels or worktops."
-      },
-      {
-        "level": "h2",
-        "heading": "Final Selection and Buying Advice Regarding Drawers in the Kitchen",
-        "body": "Investing in quality cabinetry transforms your daily cooking routines by bringing organisation and efficiency directly to your fingertips. Take time to assess your storage needs carefully before visiting showrooms to choose the best configuration for your household lifestyle.\n\nPrioritise durable hardware and robust timber construction over temporary aesthetic trends to guarantee lasting satisfaction. Thoughtful planning ensures your new storage solutions enhance both the functionality and value of your home for many years to come."
+        "heading": "How to Align and Adjust Sagging Drawers in the Kitchen",
+        "body": "Fitted furniture often requires minor alignment tweaks after settling into place. Integrated cam adjustment screws let you correct gaps quickly using just a standard screwdriver, restoring perfect panel levels without removing the entire sliding box."
       }
     ],
     "faqs": [
       {
-        "question": "What is the best material for heavy storage units",
-        "answer": "Solid hardwood and engineered moisture resistant boards offer the best combination of strength and durability."
+        "question": "How much weight can modern pan storage safely hold",
+        "answer": "Standard heavy duty metal box systems easily support up to seventy kilograms when installed correctly."
       },
       {
-        "question": "How much weight can modern sliding hardware hold",
-        "answer": "High quality runner systems typically support loads ranging from thirty to fifty kilograms safely."
+        "question": "Why do my units slam shut instead of closing quietly",
+        "answer": "Hydraulic dampeners on your sliding runners may be worn out or obstructed by accumulated kitchen debris."
       },
       {
-        "question": "Are soft closing mechanisms worth the extra investment",
-        "answer": "Yes they prevent impact damage and reduce noise significantly during daily kitchen use."
+        "question": "Can I fix a crooked pull out panel without professional help",
+        "answer": "Yes you can adjust the integrated cam screws on the front fixings using a simple screwdriver."
       }
     ],
     "tags": [
