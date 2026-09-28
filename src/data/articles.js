@@ -88,8 +88,8 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "22.5k",
     "isFeatured": true,
-    "excerpt": "Bring cozy warmth to your garden space with a reliable and efficient outdoor log burner.",
-    "metaDescription": "Transform your British garden with a stylish outdoor log burner. Learn about fuel choices, safe placement, and winter care for maximum warmth.",
+    "excerpt": "Master selecting and maintaining an efficient outdoor log burner for your garden patio space with expert British trade advice.",
+    "metaDescription": "Learn expert advice on selecting the best outdoor log burner for your garden space, ensuring lasting warmth, safety clearances, and winter durability.",
     "heroImage": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
     "heroImageAlt": "Black cast iron outdoor log burner glowing warmly on a paved patio surrounded by green foliage",
@@ -99,24 +99,18 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Why Every British Garden Needs An Outdoor Log Burner",
-        "body": "Bringing family and friends together outdoors becomes remarkably simple when you introduce a roaring fire into your patio setup. British evenings turn chilly very quickly even during midsummer months making added warmth an absolute necessity for comfortable outdoor social gatherings.\n\nSelecting the right model means evaluating your available space carefully while considering how often you plan to host guests outside. Modern designs add incredible aesthetic charm to dull patios turning empty corners into functional gathering hubs that you will use throughout the entire year."
+        "heading": "Selecting Heavy Gauge Metals for an Outdoor Log Burner",
+        "body": "When designing a warm garden seating area, choosing the correct metal thickness makes all the difference. Thin sheet steel often warps within single seasons of intense burning, while heavy gauge materials resist extreme thermal expansion effortlessly.\n\nAs an experienced craftsman, I always advise homeowners to inspect the wall thickness before purchasing any heating unit. A quality outdoor log burner demands sturdy engineering to trap thermal energy efficiently."
+      },
+      {
+        "level": "h3",
+        "heading": "Cast Iron Heat Retention Versus Heavy Corten Steel Longevity",
+        "body": "Traditional cast iron delivers exceptional thermal mass, absorbing intense heat during burns and radiating warmth slowly into the surrounding evening air. However, cast iron units require careful winter storage to prevent surface rust from forming inside the firebox over damp months.\n\nWeathered steel options offer a different set of practical benefits for contemporary British garden settings. Corten steel develops a stable protective surface patina that halts deep rust corrosion naturally, providing exceptional longevity through wet autumn downpours."
       },
       {
         "level": "h2",
-        "heading": "Smart Placement Rules For Safety And Comfort",
-        "body": "Positioning your heating unit correctly protects your property and ensures smoke drifts safely away from seating areas and neighboring windows. Keep the structure well away from wooden fences or overhanging tree branches to prevent accidental fire hazards during dry spells.\n\nAlways place your heavy iron appliance on a flat and completely fireproof surface such as stone slabs or concrete pavers. Setting up a protective perimeter keeps children and pets safely away from hot metal surfaces while allowing everyone to enjoy the natural radiant warmth.",
-        "bullets": [
-          "Position the heater at least three metres away from any wooden boundaries",
-          "Ensure overhead clearance is completely free of branches and awnings",
-          "Place the unit on a solid stone hearth or concrete paving slabs",
-          "Keep a bucket of water or sand nearby for quick emergency safety"
-        ]
-      },
-      {
-        "level": "h2",
-        "heading": "Selecting Dry Fuel For Maximum Heat Output",
-        "body": "Burning properly seasoned hardwood logs guarantees a clean flame and stops heavy black smoke from annoying everyone in the neighborhood. Avoid wet garden waste or treated timber because these materials produce toxic fumes and leave thick sticky residue inside your metal chimney.\n\nStore your firewood supplies inside a covered shelter to protect them from frequent rainfall throughout the autumn and winter months. Dry fuel lights much faster and burns significantly hotter giving you maximum comfort during late evening gatherings in the garden.",
+        "heading": "Flue Height and Smoke Dispersion for Your Outdoor Log Burner",
+        "body": "Proper drafting relies entirely on adequate chimney height to pull fresh oxygen into the firebox efficiently. A well engineered flue creates a strong upward draft that feeds the flames and encourages complete combustion.\n\nPoorly designed units without proper chimneys often dump smoke directly into the faces of seated guests. Investing in a taller vertical pipe transforms your outdoor log burner into a clean operating appliance.",
         "image": "https://images.unsplash.com/photo-1775377617218-f7a3e6c8499e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMGxvZyUyMGJ1cm5lcnxlbnwwfDB8fHwxNzkwNTUzNDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Modern outdoor log burner installation in a British home",
         "imageCaption": "Practical detailing and surfaces for outdoor log burner",
@@ -124,20 +118,61 @@ export const ARTICLES = [
           "name": "Alan Jiang",
           "link": "https://unsplash.com/@alan_j"
         }
+      },
+      {
+        "level": "h3",
+        "heading": "Directing Smoke Plumes Above Garden Seating Areas",
+        "body": "Placing a garden heater near outdoor furniture requires careful attention to prevailing wind patterns and chimney placement. Extending the vertical flue pipe upwards ensures smoke clears human head height completely.\n\nShort chimney flues fail to generate sufficient upward draw, resulting in thick low hanging smoke that clings to damp patio slabs. Investing in an extended chimney flue guarantees continuous airflow and clean combustion during still evenings."
+      },
+      {
+        "level": "h2",
+        "heading": "Patio Ground Clearances and Heat Shielding for an Outdoor Log Burner",
+        "body": "Intense radiant heat directed downwards can easily crack delicate natural stone paving or scorch underlying timber foundations. Maintaining correct vertical and horizontal clearances protects your costly patio investments from permanent thermal damage.\n\nInsulated floor protection pads absorb stray embers and block intense thermal radiation effectively. Positioning certified non combustible hearth slabs beneath your metal appliance prevents costly discoloration and heat cracking across expensive natural stone patio flags."
+      },
+      {
+        "level": "h3",
+        "heading": "Protecting Combustible Timber Decking with Stone Hearth Slabs",
+        "body": "Wooden decking demands robust protection shields whenever you operate a high temperature patio heater. Placing a thick stone slab beneath your heating unit prevents stray embers from igniting dry timber boards.\n\nAlways verify that your hearth pad extends sufficiently far out from the loading door boundary. Falling sparks frequently land just beyond the threshold during log adjustments. A generous protective perimeter completely eliminates this common fire hazard on wooden decks.\n\nFollowing clear clearance protocols protects your garden decking and guarantees complete peace of mind during social evening burns. Taking a few sensible installation precautions before lighting any flames eliminates structural hazards across your outdoor living area.",
+        "bullets": [
+          "Install a thick non combustible stone hearth slab beneath the firebox unit",
+          "Maintain at least three hundred millimetres of floor clearance around all perimeters",
+          "Ensure the ground base remains completely level to prevent sudden tipping hazards",
+          "Keep a bucket of dry sand or water nearby for immediate outdoor safety"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Choosing Efficient Hardwood Fuels for an Outdoor Log Burner",
+        "body": "Burning damp wood creates thick creosote deposits that ruin the interior of your chimney flue rapidly. Wet logs waste immense amounts of thermal energy boiling trapped water out of the timber structure before producing actual flames.\n\nPremium hardwood logs burn hotter, cleaner, and longer than soft alternatives available at garden centres. Your outdoor log burner reaches optimal operating temperatures much faster when fed with dense wood."
+      },
+      {
+        "level": "h3",
+        "heading": "Burning Kiln Dried Ash and Oak Logs for Steady Heat",
+        "body": "Kiln dried ash remains the gold standard for outdoor wood burning appliances due to its remarkably low moisture content. The wood ignites effortlessly and delivers a steady, long lasting flame profile that warms chilly patios effectively.\n\nAvoid burning treated timber scraps or painted pallet wood inside your decorative garden heater. These contaminated materials release toxic chemicals into the atmosphere and damage metal components prematurely. Stick strictly to natural, dry hardwoods for the longevity of your heating unit."
+      },
+      {
+        "level": "h2",
+        "heading": "Essential Winter Weather Protection and Maintenance for an Outdoor Log Burner",
+        "body": "Leaving metal heating units exposed to freezing rain and snow accelerates rust formation across vulnerable exterior surfaces. Taking preventative measures during off seasons extends the operational lifespan of your garden investment significantly.\n\nApplying a specialist high temperature coating helps shield exposed steel components from atmospheric moisture damage. A well maintained outdoor log burner always stands ready to deliver instant radiant warmth whenever unexpected cold snaps strike your local neighbourhood."
+      },
+      {
+        "level": "h3",
+        "heading": "Managing Damp Ash and Using Breathable Rain Covers",
+        "body": "Allowing wet ash to sit inside the firebox overnight creates a corrosive acidic sludge that eats away at metal bases. Scoop out cooled ashes regularly using a dedicated metal bucket and store them safely away from flammable materials.\n\nFitted breathable covers prevent condensation from becoming trapped underneath waterproof fabrics during damp winter months. Traditional plastic tarpaulins often cause accelerated rusting by sealing moisture against the warm metal body. Invest in a quality breathable shield for your outdoor log burner."
       }
     ],
     "faqs": [
       {
-        "question": "Can I use my outdoor log burner on a wooden decking area",
-        "answer": "Placing a burning fire directly onto wooden decking is unsafe unless you use a thick non flammable hearth pad beneath the entire unit."
+        "question": "Can I use an outdoor log burner on a wooden deck",
+        "answer": "Yes provided you place a thick stone hearth slab underneath the unit to protect timber from radiant heat and falling sparks."
+      },
+      {
+        "question": "How do I prevent my outdoor log burner from rusting",
+        "answer": "Apply high temperature stove paint annually and use a breathable waterproof cover whenever the appliance remains unused during winter."
       },
       {
         "question": "What type of wood burns best in a garden heater",
-        "answer": "Seasoned hardwoods like oak and beech burn slowly and provide steady radiant heat with very little smoke."
-      },
-      {
-        "question": "How do I protect my metal heater during heavy winter rain",
-        "answer": "Cover the completely cooled unit with a heavy duty waterproof protector and store internal parts in a dry shed."
+        "answer": "Kiln dried hardwoods like ash and oak deliver the cleanest flame, highest heat output, and minimal smoke production."
       }
     ],
     "tags": [

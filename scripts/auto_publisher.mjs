@@ -285,9 +285,12 @@ CORE EDITORIAL & READER-FIRST REQUIREMENTS:
    - Do NOT force a fixed template or identical structure across articles.
    - Let the article flow naturally based on what is most helpful for this specific item (e.g. practical selection criteria, proper clearances and fit, real-world durability, everyday usability, setup or installation guidance, maintenance and troubleshooting).
    - Use H2 sections with relevant H3 subheadings to keep the guide organized and easy to scan.
-3. SHORT BREATHABLE PARAGRAPHS:
-   - Every single paragraph MUST be strictly between 30 and 42 words.
-   - Keep paragraphs punchy, readable on mobile, and free of long walls of text.
+3. ARTICLE LENGTH & SECTION COUNT (MANDATORY):
+   - TOTAL WORD COUNT: Strictly MINIMUM 800 TO 1000 WORDS! Never write under 800 words.
+   - SECTION COUNT: Strictly MINIMUM 6 TO 10 COMPREHENSIVE SECTIONS (use a healthy structure of H2 and H3 sections to thoroughly explore the topic).
+   - In each section, write 2 to 3 substantive, informative paragraphs.
+   - Every single paragraph MUST be strictly between 30 and 42 words (breathable human cadence).
+   - Never write a short or truncated article. The guide must thoroughly answer all practical questions about "${topic}" to deliver genuine value to British homeowners.
 4. ZERO HYPHENS (-) ANYWHERE:
    - Zero hyphens in title, metaDescription, excerpt, headings, body text, bullets, or FAQs!
    - Spell out all compound terms (e.g. use "soft close", "heavy duty", "water resistant", "heat resistant", "wipe clean", "non slip", "free standing", "built in", "twenty four", "three hundred millimetres").
@@ -316,6 +319,7 @@ Return ONLY raw valid JSON:
     "query 3"
   ],
   "content": [
+    // Array of 6 to 10 comprehensive sections (total 800 to 1000 words):
     {
       "level": "h2",
       "heading": "Fresh topic-specific heading about ${topic}",
