@@ -75,6 +75,95 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "mastering-fablon-sticky-plastic-for-british-homes-guide",
+    "title": "Mastering Fablon Sticky Plastic For British Homes",
+    "slug": "mastering-fablon-sticky-plastic-for-british-homes",
+    "category": "diy",
+    "categoryName": "DIY",
+    "categoryLabel": "WORKSHOP SPACES • RESTORATION CRAFT",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "September 30, 2026",
+    "readTime": "8 min read",
+    "views": "21.9k",
+    "isFeatured": true,
+    "excerpt": "Learn how to apply fablon sticky plastic perfectly across your home furniture.",
+    "metaDescription": "Transform tired kitchen counters and furniture using practical application tips for fablon sticky plastic in your home today.",
+    "heroImage": "https://images.unsplash.com/photo-1687186901093-49c9e08b560f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Y29udGFjdCUyMHBhcGVyJTIwYXBwbGljYXRpb258ZW58MHwwfHx8MTc5MDcyOTEyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1687186901093-49c9e08b560f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Y29udGFjdCUyMHBhcGVyJTIwYXBwbGljYXRpb258ZW58MHwwfHx8MTc5MDcyOTEyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "A person smoothing fablon sticky plastic onto a wooden kitchen countertop with a plastic squeegee.",
+    "imageAlt": "A person smoothing fablon sticky plastic onto a wooden kitchen countertop with a plastic squeegee.",
+    "photographer": "Martin Martz",
+    "photographerUrl": "https://unsplash.com/@martz90",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Why Fablon Sticky Plastic Remains A British DIY Favourite",
+        "body": "British homeowners love quick interior updates that do not cost a fortune. Fablon sticky plastic offers an affordable way to renovate dated kitchen cupboards.\n\nYou can completely change the visual character of old wooden furniture in just a single afternoon. Choosing the right pattern requires thinking carefully about the existing room lighting.\n\nGlossy finishes bounce natural light around small rooms while matte designs hide minor surface blemishes far more effectively. Selecting durable vinyl film ensures your hard work lasts for many years."
+      },
+      {
+        "level": "h2",
+        "heading": "Preparing Your Surfaces Before Application Begins",
+        "body": "Successful vinyl installation depends entirely on the condition of the underlying substrate. Scrub your chosen surface thoroughly using warm soapy water to remove accumulated grease and dust.\n\nAny remaining dirt will prevent the adhesive backing from bonding securely. Allow the cleaned area to dry completely before you open the roll.\n\nEven tiny moisture droplets trapped underneath the material will create bubbles later. Taking extra time during preparation guarantees a smooth finish that looks genuinely professional and neat."
+      },
+      {
+        "level": "h2",
+        "heading": "Essential Tools For Getting A Professional Finish",
+        "body": "Having the correct equipment makes handling fablon sticky plastic remarkably straightforward and stress free. You only need a few basic household items to achieve brilliant results every single time.\n\nGather your supplies before starting so you never have to rush. Always use a sharp craft knife to trim away excess material around edges.\n\nA plastic smoothing tool helps push out trapped air without tearing the delicate vinyl. Keep a long metal ruler nearby to ensure your straight cutting lines stay accurate.",
+        "bullets": [
+          "Sharp craft knife for clean trimming edges",
+          "Soft felt edge squeegee to remove air bubbles",
+          "Long metal ruler for measuring straight lines",
+          "Clean microfiber cloth for final surface dusting"
+        ],
+        "image": "https://images.unsplash.com/photo-1632829882891-5047ccc421bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwRElZJTIwZGVzaWdufGVufDB8MHx8fDE3OTA3MjkxMjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Modern fablon sticky plastic installation in a British home",
+        "imageCaption": "Practical detailing and surfaces for fablon sticky plastic",
+        "imageCredit": {
+          "name": "Spacejoy",
+          "link": "https://unsplash.com/@spacejoy"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Mastering The Art Of Applying Without Air Bubbles",
+        "body": "Peel back only a small section of the paper backing to start your project. Gently press the exposed adhesive edge down onto your target surface first.\n\nTake your time aligning the pattern correctly before you commit the entire length. Smooth the film outward from the center using steady pressure with your hand.\n\nIf an annoying bubble appears simply lift that corner carefully and reapply. Patience during this step prevents frustrating creases from ruining your beautiful new tabletop transformation."
+      },
+      {
+        "level": "h2",
+        "heading": "Wrapping Corners And Edges Like A Seasoned Pro",
+        "body": "Sharp corners require careful planning to avoid bulky folds that look untidy. Snip the vinyl at a diagonal angle before wrapping it around any square edge.\n\nThis clever technique removes excess bulk and creates neat overlapping seams instead. Use a hairdryer on a warm setting to soften the vinyl around tricky curves.\n\nThe gentle heat makes the plastic stretchy enough to mold over awkward shapes. Press the warm material firmly into place until the adhesive grips the surface securely."
+      },
+      {
+        "level": "h2",
+        "heading": "Everyday Maintenance And Cleaning Tips For Long Life",
+        "body": "Maintaining your newly covered surfaces requires very little effort throughout the year. Simply wipe spills immediately using a damp cloth and mild washing up liquid.\n\nAvoid harsh abrasive cleaning powders that might scratch the decorative printed top layer. Place protective mats under hot mugs or frying pans to prevent heat damage.\n\nAlthough vinyl withstands normal room temperatures well extreme heat can cause bubbling. Simple daily care ensures your creative interior updates stay fresh and bright for years."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can fablon sticky plastic be removed easily without leaving glue residue behind",
+        "answer": "Yes you can peel it away gently and use warm soapy water to remove any leftover adhesive."
+      },
+      {
+        "question": "Is fablon sticky plastic completely waterproof around kitchen sinks",
+        "answer": "It resists splashes very well but standing water left on unsealed edges will lift the glue over time."
+      },
+      {
+        "question": "How do I stop air bubbles forming while applying the vinyl film",
+        "answer": "Peel the backing paper off slowly while smoothing the surface down with a soft cloth from the center outwards."
+      }
+    ],
+    "tags": [
+      "fablon sticky plastic",
+      "DIY Design",
+      "UK Interior",
+      "Home Renovation",
+      "Practical Design"
+    ]
+  },
+  {
     "id": "choosing-the-best-outdoor-log-burner-for-your-garden-guide",
     "title": "Choosing The Best Outdoor Log Burner For Your Garden",
     "slug": "choosing-the-best-outdoor-log-burner-for-your-garden",
@@ -87,7 +176,7 @@ export const ARTICLES = [
     "date": "September 27, 2026",
     "readTime": "8 min read",
     "views": "22.5k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Master selecting and maintaining an efficient outdoor log burner for your garden patio space with expert British trade advice.",
     "metaDescription": "Learn expert advice on selecting the best outdoor log burner for your garden space, ensuring lasting warmth, safety clearances, and winter durability.",
     "heroImage": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
