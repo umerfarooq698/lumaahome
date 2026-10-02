@@ -75,6 +75,95 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-and-fitting-modern-lt-kitchen-cabinets-today-guide",
+    "title": "Choosing and Fitting Modern LT Kitchen Cabinets Today",
+    "slug": "choosing-and-fitting-modern-lt-kitchen-cabinets-today",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "October 2, 2026",
+    "readTime": "8 min read",
+    "views": "16.1k",
+    "isFeatured": true,
+    "excerpt": "Expert advice on choosing and fitting durable lt kitchen cabinets for modern British homes.",
+    "metaDescription": "Explore expert guidance on choosing and fitting practical lt kitchen cabinets for your home with advice from LUMAA HOME specialists today.",
+    "heroImage": "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGNhYmluZXRzJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc5MDkwMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGNhYmluZXRzJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc5MDkwMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Modern fitted kitchen showcasing high quality lt kitchen cabinets in a bright family home",
+    "imageAlt": "Modern fitted kitchen showcasing high quality lt kitchen cabinets in a bright family home",
+    "photographer": "Lotus Design N Print",
+    "photographerUrl": "https://unsplash.com/@lotusdnp",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Why British Homeowners Prefer LT Kitchen Cabinets",
+        "body": "Many homeowners across the United Kingdom search for reliable storage solutions that withstand daily cooking routines and frequent family use. Selecting proper lt kitchen cabinets ensures your culinary space remains tidy while offering robust structural integrity throughout years of heavy meal preparation.\n\nModern living demands furniture that blends aesthetic appeal with genuine everyday utility. These specific units provide ample internal volume for cookware and provisions while maintaining a sleek exterior profile that complements both traditional Victorian properties and new build apartments."
+      },
+      {
+        "level": "h2",
+        "heading": "Evaluating Practical Space and Layout Requirements",
+        "body": "Before purchasing new storage units for your cooking space, measuring available wall dimensions accurately prevents costly fitting mistakes. Taking precise notes on ceiling heights and corner angles helps you select lt kitchen cabinets that align perfectly with existing plumbing and electrical sockets.\n\nWorking within compact urban flats or spacious rural houses requires careful planning regarding door swings and walkway clearances. Ensuring adequate room for opening drawers prevents frustrating blockages when multiple family members share the cooking zone during busy evening meal times."
+      },
+      {
+        "level": "h2",
+        "heading": "Selecting Durable Materials for Everyday Kitchen Life",
+        "body": "Kitchen environments experience high humidity levels and frequent temperature fluctuations from boiling kettles and steaming ovens. Choosing sturdy timber veneers or moisture resistant composite panels for your lt kitchen cabinets guarantees long lasting performance against warping and surface peeling.\n\nQuality hardware components such as hinges and drawer runners deserve equal attention during the selection process. Robust metal fixings ensure doors close quietly and securely every single time without sagging after months of repeated opening and closing actions.",
+        "image": "https://images.unsplash.com/photo-1631048498692-af6262577031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHQlMjBraXRjaGVuJTIwY2FiaW5ldHN8ZW58MHwwfHx8MTc5MDkwMzA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Modern lt kitchen cabinets installation in a British home",
+        "imageCaption": "Practical detailing and surfaces for lt kitchen cabinets",
+        "imageCredit": {
+          "name": "Point3D Commercial Imaging Ltd.",
+          "link": "https://unsplash.com/@3dottawa"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Step by Step Assembly and Secure Wall Mounting",
+        "body": "Proper installation requires careful adherence to manufacturer guidelines to guarantee the safety of your household. Positioning each unit level before final tightening prevents structural stress on joints and keeps cabinet doors aligned properly across the entire run of furniture.\n\nSecuring heavy storage units to solid brick walls or reinforced timber studs demands appropriate fixings rated for substantial loads. Taking time to double check wall anchor stability protects your investment and prevents accidental detachment under the weight of heavy dinnerware.",
+        "bullets": [
+          "Check wall construction type before drilling",
+          "Use certified heavy duty fixing screws",
+          "Verify cabinet level using a spirit tool",
+          "Tighten all hinge adjustment screws fully"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Daily Maintenance Habits for Lasting Surface Beauty",
+        "body": "Keeping your culinary workspace looking pristine involves simple daily wiping routines using mild soapy water and soft cloths. Avoiding harsh abrasive cleaners protects the protective finish on your lt kitchen cabinets from premature fading and accidental chemical staining over time.\n\nAddressing accidental liquid spills immediately prevents moisture penetration along vulnerable edge banding joints. Regular inspection of door handles and moving parts ensures small loose screws get tightened promptly before causing permanent damage to surrounding panel materials."
+      },
+      {
+        "level": "h2",
+        "heading": "Enhancing Interior Organization and Storage Efficiency",
+        "body": "Maximizing the internal capacity of your storage units transforms a cluttered cooking area into an organized culinary haven. Adding pull out wire baskets or adjustable shelving inside lt kitchen cabinets allows you to reach everyday spices and heavy pots without awkward stretching.\n\nThoughtful arrangement of utensils based on frequency of use speeds up meal preparation significantly during frantic weekday evenings. Utilizing clear plastic storage boxes inside deep drawers keeps smaller baking accessories neat and easily visible to every member of the household."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What tools are needed to install lt kitchen cabinets",
+        "answer": "You will need a spirit level cordless drill tape measure and appropriate wall fixings for your specific wall type."
+      },
+      {
+        "question": "How do I clean the exterior surfaces safely",
+        "answer": "Wipe surfaces gently using a soft damp cloth with mild washing up liquid and dry thoroughly afterwards."
+      },
+      {
+        "question": "Can I paint over the existing cabinet finish",
+        "answer": "Yes you can paint them after lightly sanding the surface and applying a suitable primer designed for kitchen units."
+      }
+    ],
+    "tags": [
+      "lt kitchen cabinets",
+      "Kitchen Design",
+      "UK Interior",
+      "Home Renovation",
+      "Practical Design"
+    ]
+  },
+  {
     "id": "mastering-fablon-sticky-plastic-for-british-homes-guide",
     "title": "Mastering Fablon Sticky Plastic For British Homes",
     "slug": "mastering-fablon-sticky-plastic-for-british-homes",
@@ -87,7 +176,7 @@ export const ARTICLES = [
     "date": "September 30, 2026",
     "readTime": "8 min read",
     "views": "21.9k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Learn how to apply fablon sticky plastic perfectly across your home furniture.",
     "metaDescription": "Transform tired kitchen counters and furniture using practical application tips for fablon sticky plastic in your home today.",
     "heroImage": "https://images.unsplash.com/photo-1687186901093-49c9e08b560f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Y29udGFjdCUyMHBhcGVyJTIwYXBwbGljYXRpb258ZW58MHwwfHx8MTc5MDcyOTEyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
