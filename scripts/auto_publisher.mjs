@@ -291,18 +291,22 @@ CORE EDITORIAL & READER-FIRST REQUIREMENTS:
    - In each section, write 2 to 3 substantive, informative paragraphs.
    - Every single paragraph MUST be strictly between 30 and 42 words (breathable human cadence).
    - Never write a short or truncated article. The guide must thoroughly answer all practical questions about "${topic}" to deliver genuine value to British homeowners.
-4. ZERO HYPHENS (-) ANYWHERE:
+4. SEMANTIC KEYWORDS & LSI (LATENT SEMANTIC INDEXING) INTEGRATION:
+   - Naturally integrate rich semantic keywords, topical entities, contextual synonyms, and LSI keyword variations related to "${topic}" throughout the entire article.
+   - Include British home terminology, related materials, dimensions, installation fittings, clearances, durability factors, and practical homeowner queries.
+   - Weave these LSI and semantic terms seamlessly into H2 and H3 headings, paragraph bodies, and FAQs to establish strong topical authority for Google search algorithms without keyword stuffing.
+5. ZERO HYPHENS (-) ANYWHERE:
    - Zero hyphens in title, metaDescription, excerpt, headings, body text, bullets, or FAQs!
    - Spell out all compound terms (e.g. use "soft close", "heavy duty", "water resistant", "heat resistant", "wipe clean", "non slip", "free standing", "built in", "twenty four", "three hundred millimetres").
-5. ZERO COLONS (:):
+6. ZERO COLONS (:):
    - Never use colons in any headings, title, or FAQ questions.
-6. ZERO AI BUZZWORDS & NO "DISCOVER":
+7. ZERO AI BUZZWORDS & NO "DISCOVER":
    - Absolutely do NOT use: discover, elevate, delve, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, sanctuary, cocoon, visual poise, timeless allure, unlock, beacon, symphony, bespoke, architectural.
-7. SCANNABLE CHECKLIST:
+8. SCANNABLE CHECKLIST:
    - Under exactly one relevant section where practical, include an array of 3 to 4 concise bullet points (without hyphens) to help the reader quickly reference key safety, clearance, or installation rules. All other sections should be clean narrative paragraphs.
-8. 3 SHORT PRACTICAL FAQS:
+9. 3 SHORT PRACTICAL FAQS:
    - Provide exactly 3 short FAQs answering real user questions about "${topic}", with clear one-sentence answers (zero hyphens, zero colons).
-9. TITLE & METADATA:
+10. TITLE & METADATA:
    - Title: Exactly 50 to 60 characters naturally featuring "${topic}".
    - Meta Description: 145 to 160 characters, direct active tone, containing "${topic}", no hyphens, no "Discover".
    - Excerpt: 85 to 125 characters, informative, no hyphens, no "Discover".
