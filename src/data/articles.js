@@ -75,6 +75,99 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-quality-storage-cabinets-living-room-storage-cabine-guide",
+    "title": "Choosing Quality Storage Cabinets Living Room Storage Cabine",
+    "slug": "choosing-quality-storage-cabinets-living-room-storage-cabine",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "October 6, 2026",
+    "readTime": "8 min read",
+    "views": "24.8k",
+    "isFeatured": true,
+    "excerpt": "Find the best storage cabinets living room storage cabinets for your home interior layout.",
+    "metaDescription": "Transform your British home by choosing durable storage cabinets living room storage cabinets for modern households with practical styling needs.",
+    "heroImage": "https://images.unsplash.com/photo-1636206508343-a6c955887476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGNhYmluZXQlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzkxMjUxNTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "image": "https://images.unsplash.com/photo-1636206508343-a6c955887476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGNhYmluZXQlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzkxMjUxNTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImageAlt": "Modern wooden storage cabinets living room storage cabinets placed inside a bright British sitting room",
+    "imageAlt": "Modern wooden storage cabinets living room storage cabinets placed inside a bright British sitting room",
+    "photographer": "nuddle",
+    "photographerUrl": "https://unsplash.com/@nuddle",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Finding the Right Storage Cabinets Living Room Storage Cabinets",
+        "body": "Many British homeowners struggle to keep family sitting spaces tidy and organized throughout the changing seasons. Selecting proper storage cabinets living room storage cabinets helps you hide clutter while improving overall room aesthetics and daily functionality."
+      },
+      {
+        "level": "h2",
+        "heading": "Measuring Spaces for Storage Cabinets Living Room Storage Cabinets",
+        "body": "Before buying any furniture piece you must measure floor space and ceiling height very carefully. Check clearance zones near internal doors and radiators to ensure your new storage cabinets living room storage cabinets fit the room layout."
+      },
+      {
+        "level": "h2",
+        "heading": "Material Choices for Storage Cabinets Living Room Storage Cabinets",
+        "body": "Solid oak and walnut veneers offer incredible durability for busy households with children and pets. Choosing sturdy materials ensures your storage cabinets living room storage cabinets withstand daily knocks and heavy loads without warping over time.",
+        "image": "https://images.unsplash.com/photo-1560449752-3fd4bdbe7df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c3RvcmFnZSUyMGNhYmluZXRzJTIwbGl2aW5nJTIwcm9vbSUyMHN0b3JhZ2UlMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzkxMjUxNTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+        "imageAlt": "Modern storage cabinets living room storage cabinets installation in a British home",
+        "imageCaption": "Practical detailing and surfaces for storage cabinets living room storage cabinets",
+        "imageCredit": {
+          "name": "Francesca Tosolini",
+          "link": "https://unsplash.com/@fromitaly"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Safety Guidelines for Storage Cabinets Living Room Storage Cabinets",
+        "body": "Wall anchoring is essential when installing tall furniture pieces inside family friendly British living spaces. Follow these key installation steps for complete peace of mind",
+        "bullets": [
+          "Use heavy duty brackets to secure tall units directly into brick walls",
+          "Distribute heavy books evenly across lower internal shelves for better balance",
+          "Check all wall fixings twice a year to ensure lasting stability"
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Maximizing Internal Space in Storage Cabinets Living Room Storage Cabinets",
+        "body": "Adjustable shelving allows you to customize internal compartments according to your specific storage needs. Large board games and bulky photo albums fit easily inside deep lower cupboards of storage cabinets living room storage cabinets."
+      },
+      {
+        "level": "h2",
+        "heading": "Matching Interior Styles with Storage Cabinets Living Room Storage Cabinets",
+        "body": "Traditional homes often benefit from painted timber finishes featuring classic brass handles and ornate molding details. Contemporary apartments look fantastic with minimalist handleless doors on sleek storage cabinets living room storage cabinets."
+      },
+      {
+        "level": "h2",
+        "heading": "Maintenance Tips for Storage Cabinets Living Room Storage Cabinets",
+        "body": "Regular dusting prevents particle buildup on wooden surfaces and keeps finishes looking fresh and vibrant. Treat solid wood panels with nourishing beeswax annually to protect them against dry indoor heating during winter months."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I secure storage cabinets living room storage cabinets safely to drywall",
+        "answer": "Always locate timber studs behind the drywall and use heavy duty toggle anchors for maximum wall stability."
+      },
+      {
+        "question": "What is the best way to clean wooden storage cabinets living room storage cabinets",
+        "answer": "Wipe surfaces gently using a microfiber cloth dampened with warm water and mild dish soap."
+      },
+      {
+        "question": "Can I paint existing storage cabinets living room storage cabinets myself",
+        "answer": "You can easily update old wooden units by sanding the surfaces and applying durable furniture paint."
+      }
+    ],
+    "tags": [
+      "storage cabinets living room storage cabinets",
+      "Kitchen Design",
+      "UK Interior",
+      "Home Renovation",
+      "Practical Design"
+    ]
+  },
+  {
     "id": "bringing-bright-summer-flowers-into-your-british-home-guide",
     "title": "Bringing Bright Summer Flowers Into Your British Home",
     "slug": "bringing-bright-summer-flowers-into-your-british-home",
@@ -87,7 +180,7 @@ export const ARTICLES = [
     "date": "October 4, 2026",
     "readTime": "8 min read",
     "views": "22.9k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Bring seasonal brilliance indoors using vibrant summer flowers for your home interior styling.",
     "metaDescription": "Transform your British living space using vibrant summer flowers with expert interior styling tips for seasonal beauty and lasting freshness.",
     "heroImage": "https://images.unsplash.com/photo-1490349368154-73de9c9bc37c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c3VtbWVyJTIwZmxvd2VycyUyMGluJTIwdmFzZXxlbnwwfDB8fHwxNzkxMDcyMDgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
