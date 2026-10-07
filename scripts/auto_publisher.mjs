@@ -270,7 +270,11 @@ export async function generateArticle(topic, catInfo, usedUrls) {
   const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
   const author = AUTHORS_POOL[Math.floor(Math.random() * AUTHORS_POOL.length)];
 
-  console.log(`[AutoPublisher] Generating dynamic reader-first article for keyword: "${topic}"`);
+  const relatedCandidates = ARTICLES
+    .filter(a => (a.category === catInfo.categoryId || a.categoryName?.toLowerCase() === catInfo.categoryName?.toLowerCase()))
+    .slice(0, 4)
+    .map(a => `- "${a.title}" -> link: "/${a.slug}"`)
+    .join('\n');
 
   const prompt = `You are a Senior British home, garden, and interior design specialist writing for LUMAA HOME™.
 Write an authentic, highly practical, informative (E-E-A-T) article focused on the primary keyword: "${topic}".
@@ -310,6 +314,13 @@ CORE EDITORIAL & READER-FIRST REQUIREMENTS:
    - Title: Exactly 50 to 60 characters naturally featuring "${topic}".
    - Meta Description: 145 to 160 characters, direct active tone, containing "${topic}", no hyphens, no "Discover".
    - Excerpt: 85 to 125 characters, informative, no hyphens, no "Discover".
+11. NATURAL INTERNAL CONTEXTUAL LINK (MANDATORY):
+   - In exactly ONE section AFTER the middle of the article (e.g. section 5, 6, 7, or 8), naturally embed exactly 1 contextual link to one of these related LUMAA HOME guides:
+${relatedCandidates || '- Related Guide -> link: "/choosing-practical-drawers-in-the-kitchen-space"'}
+   - Format as markdown link syntax: [2 to 4 word natural anchor](/slug).
+   - NEVER use robotic phrases (avoid "just as you would", "as outlined in", "check out our guide on").
+   - The anchor text must be short, conversational, and natural to a British homeowner (e.g. "an [outdoor fire pit](/...)", "a [timber storage box](/...)").
+   - Place the sentence naturally — either at the start, middle, or last part of a paragraph.
 
 Return ONLY raw valid JSON:
 {

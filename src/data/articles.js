@@ -132,7 +132,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Maximizing Internal Space in Storage Cabinets Living Room Storage Cabinets",
-        "body": "Adjustable shelving allows you to customize internal compartments according to your specific storage needs. Large board games and bulky photo albums fit easily inside deep lower cupboards of storage cabinets living room storage cabinets."
+        "body": "Adjustable shelving allows you to customize internal compartments according to your specific storage needs. Look for the same solid back panels used in quality [kitchen cabinet design](/mastering-kitchen-cabinets-design-joinery-and-proportion) to prevent the unit from wobbling. Large board games and bulky photo albums fit easily inside deep lower cupboards of storage cabinets living room storage cabinets."
       },
       {
         "level": "h2",
@@ -221,7 +221,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Strategic Placement Ideas Across Different Living Rooms",
-        "body": "Placing summer flowers in key living areas creates an inviting atmosphere for family members and guests alike. Coffee tables benefit from low arrangements that do not obstruct conversation while entryway consoles welcome visitors instantly.\n\nAvoid positioning delicate blooms directly beside hot radiators or under active air conditioning vents. Sudden temperature fluctuations cause petals to drop prematurely and strip the moisture from even the hardiest garden stems."
+        "body": "Placing summer flowers in key living areas creates an inviting atmosphere for family members and guests alike. Coffee tables benefit from low arrangements that do not obstruct conversation while entryway consoles welcome visitors instantly.\n\nAvoid positioning delicate blooms directly beside hot radiators or under active air conditioning vents. Sudden temperature fluctuations cause petals to drop prematurely and strip the moisture from even the hardiest garden stems. Fresh seasonal floral arrangements remain one of the easiest [home interior design ideas](/inspiring-home-interior-design-ideas-for-british-properties) to brighten a dark hallway."
       },
       {
         "level": "h2",
@@ -304,7 +304,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Step by Step Assembly and Secure Wall Mounting",
-        "body": "Proper installation requires careful adherence to manufacturer guidelines to guarantee the safety of your household. Positioning each unit level before final tightening prevents structural stress on joints and keeps cabinet doors aligned properly across the entire run of furniture.\n\nSecuring heavy storage units to solid brick walls or reinforced timber studs demands appropriate fixings rated for substantial loads. Taking time to double check wall anchor stability protects your investment and prevents accidental detachment under the weight of heavy dinnerware.",
+        "body": "Proper installation requires careful adherence to manufacturer guidelines to guarantee the safety of your household. Positioning each unit level before final tightening prevents structural stress on joints and keeps cabinet doors aligned properly across the entire run of furniture.\n\nIf you are following our general [DIY kitchen fitting guide](/crafting-bespoke-diy-kitchens-the-british-fitting-guide), always level your base units before touching any wall cupboards. Securing heavy storage units to solid brick walls or reinforced timber studs demands appropriate fixings rated for substantial loads. Taking time to double check wall anchor stability protects your investment and prevents accidental detachment under the weight of heavy dinnerware.",
         "bullets": [
           "Check wall construction type before drilling",
           "Use certified heavy duty fixing screws",
@@ -376,7 +376,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Preparing Your Surfaces Before Application Begins",
-        "body": "Successful vinyl installation depends entirely on the condition of the underlying substrate. Scrub your chosen surface thoroughly using warm soapy water to remove accumulated grease and dust.\n\nAny remaining dirt will prevent the adhesive backing from bonding securely. Allow the cleaned area to dry completely before you open the roll.\n\nEven tiny moisture droplets trapped underneath the material will create bubbles later. Taking extra time during preparation guarantees a smooth finish that looks genuinely professional and neat."
+        "body": "Successful vinyl installation depends entirely on the condition of the underlying substrate. Scrub your chosen surface thoroughly using warm soapy water to remove accumulated grease and dust.\n\nAny remaining dirt will prevent the adhesive backing from bonding securely. The same surface cleaning rules apply when [applying self adhesive wall tiles](/applying-self-adhesive-wall-tiles-in-modern-british-homes), where kitchen grease can stop the backing from sticking. Allow the cleaned area to dry completely before you open the roll.\n\nEven tiny moisture droplets trapped underneath the material will create bubbles later. Taking extra time during preparation guarantees a smooth finish that looks genuinely professional and neat."
       },
       {
         "level": "h2",
@@ -492,7 +492,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Protecting Combustible Timber Decking with Stone Hearth Slabs",
-        "body": "Wooden decking demands robust protection shields whenever you operate a high temperature patio heater. Placing a thick stone slab beneath your heating unit prevents stray embers from igniting dry timber boards.\n\nAlways verify that your hearth pad extends sufficiently far out from the loading door boundary. Falling sparks frequently land just beyond the threshold during log adjustments. A generous protective perimeter completely eliminates this common fire hazard on wooden decks.\n\nFollowing clear clearance protocols protects your garden decking and guarantees complete peace of mind during social evening burns. Taking a few sensible installation precautions before lighting any flames eliminates structural hazards across your outdoor living area.",
+        "body": "Wooden decking demands robust protection shields whenever you operate a high temperature patio heater. Placing a thick stone slab beneath your heating unit prevents stray embers from igniting dry timber boards.\n\nAlways verify that your hearth pad extends sufficiently far out from the loading door boundary. If you prefer an open flame instead of an enclosed chimney, an [outdoor fire pit](/choosing-the-best-fire-pit-out-for-your-english-garden) needs that same stone base so flying sparks do not reach dry decking. Falling sparks frequently land just beyond the threshold during log adjustments. A generous protective perimeter completely eliminates this common fire hazard on wooden decks.\n\nFollowing clear clearance protocols protects your garden decking and guarantees complete peace of mind during social evening burns. Taking a few sensible installation precautions before lighting any flames eliminates structural hazards across your outdoor living area.",
         "bullets": [
           "Install a thick non combustible stone hearth slab beneath the firebox unit",
           "Maintain at least three hundred millimetres of floor clearance around all perimeters",
@@ -596,7 +596,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Step By Step Setup And Fitting Sequence For A Garden With Borders",
-        "body": "Following a structured installation process ensures your new planting scheme remains stable and weed free for decades.",
+        "body": "Following a structured installation process ensures your new planting scheme remains stable and weed free for decades. Taller architectural grasses like those seen in [London sky garden spaces](/sky-garden-london-principles-for-elevated-botanical-spaces) work well at the back of the border to screen off neighbours.",
         "bullets": [
           "Mark out the desired bed shapes using bright garden twine and flexible canes to visualise curves.",
           "Excavate trenches along the marked lines to a depth of one hundred millimetres for a solid base.",
@@ -693,7 +693,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Organising Everyday Utensil Drawers in the Kitchen",
-        "body": "Shallow compartments hold cutlery and small gadgets safely near your preparation zones. Smart internal layout planning stops clutter from building up, ensuring spatulas and knives stay neatly separated and instantly available during fast meal prep sessions."
+        "body": "When planning [kitchen cabinet joinery](/mastering-kitchen-cabinets-design-joinery-and-proportion), wide cutlery drawers work best when fitted directly under the main food preparation counter. Shallow compartments hold cutlery and small gadgets safely near your preparation zones. Smart internal layout planning stops clutter from building up, ensuring spatulas and knives stay neatly separated and instantly available during fast meal prep sessions."
       },
       {
         "level": "h3",
@@ -823,7 +823,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Kiln Dried Oak Logs and Natural Birch Bark Kindling",
-        "body": "Burn kiln dried ash and oak logs below twenty percent moisture for maximum thermal output and minimal smoke. Start your evening fires using natural birch bark kindling because it catches quickly and burns hot enough to ignite dense logs."
+        "body": "Burn kiln dried ash and oak logs below twenty percent moisture for maximum thermal output and minimal smoke. Start your evening fires using natural birch bark kindling because it catches quickly and burns hot enough to ignite dense logs. You can keep spare kindling dry through wet weather with a sturdy [timber garden storage box](/choosing-a-high-specification-garden-storage-box-for-timber) placed right by the seating area."
       },
       {
         "level": "h2",
@@ -916,7 +916,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Avoiding Costly DIY Installation Mistakes",
-        "body": "Rushing the adhesive curing phase leads to shifted panels when exposed to kitchen steam or humidity. Allow twenty-four hours of undisturbed drying time before exposing the wall to water splashes or heavy cleaning.\n\nAvoid installing these adhesive products directly inside shower enclosures or behind direct gas hob flames without tempered glass protection. High heat exceeding sixty degrees Celsius softens the polyurethane backing and compromises the permanent pressure-sensitive bond.",
+        "body": "Rushing the adhesive curing phase leads to shifted panels when exposed to kitchen steam or humidity. Allow twenty-four hours of undisturbed drying time before exposing the wall to water splashes or heavy cleaning.\n\nMuch like wrapping worktops with [Fablon sticky plastic](/mastering-fablon-sticky-plastic-for-british-homes), pressing out trapped air bubbles with a squeegee stops tiles lifting at the seams. Avoid installing these adhesive products directly inside shower enclosures or behind direct gas hob flames without tempered glass protection. High heat exceeding sixty degrees Celsius softens the polyurethane backing and compromises the permanent pressure-sensitive bond.",
         "bullets": [
           "Never apply tiles over damp plaster or peeling wallpaper substrates",
           "Avoid using abrasive scouring pads during routine post-installation cleaning",
@@ -1036,7 +1036,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Built In Bench Joinery and Low Level Sconces",
-        "body": "Constructing low level banquette seating maximises floor space in narrow Victorian terraced dining rooms. Upholstering the seat back in durable ticking stripe fabric adds classic British charm to the everyday dining experience.\n\nMounting adjustable brass wall sconces directly above the banquette eliminates the need for central pendant lighting. This intimate illumination pool draws the eye downward, creating a cosy tavern-like atmosphere during candlelit suppers."
+        "body": "Constructing low level banquette seating maximises floor space in narrow Victorian terraced dining rooms. Upholstering the seat back in durable ticking stripe fabric adds classic British charm to the everyday dining experience.\n\nMounting adjustable brass wall sconces directly above the banquette eliminates the need for central pendant lighting. In living spaces with heavy wood furniture, [bringing summer flowers into your home](/bringing-bright-summer-flowers-into-your-british-home) adds instant natural colour. This intimate illumination pool draws the eye downward, creating a cosy tavern-like atmosphere during candlelit suppers."
       },
       {
         "level": "h2",
@@ -1142,7 +1142,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Seat Ergonomics and Cushion Filling Depth",
-        "body": "Good seating comes down to simple measurements. Aim for a seat height of four hundred fifty millimetres from the carpet so your feet rest flat on the floor and your knees sit at a right angle.\n\nA seat depth between five hundred twenty and five hundred sixty millimetres stops the edge from digging into the back of your thighs. For cushions, pick high-resilience reflex foam wrapped in a duck feather layer so the seat does not sag flat after six months of daily sitting.",
+        "body": "Good seating comes down to simple measurements. Aim for a seat height of four hundred fifty millimetres from the carpet so your feet rest flat on the floor and your knees sit at a right angle.\n\nWhen pairing an armchair with other [quality bedroom furniture](/crafting-timeless-spaces-with-quality-bedroom-furniture), match the wood finish to your bedside tables for a balanced look. A seat depth between five hundred twenty and five hundred sixty millimetres stops the edge from digging into the back of your thighs. For cushions, pick high-resilience reflex foam wrapped in a duck feather layer so the seat does not sag flat after six months of daily sitting.",
         "image": "https://images.unsplash.com/photo-1691084815367-3bffba1405f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b2FrJTIwY2hhaXIlMjBkZXRhaWwlMjBqb2luZXJ5fGVufDB8MHx8fDE3ODk5ODQwMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Close detail of mortise and tenon joinery on an oak bedroom chair frame",
         "imageCaption": "Precision timber joinery ensures structural stability and long term performance.",
@@ -1220,7 +1220,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Width and Depth Tolerances",
-        "body": "Most pull out bin systems require a minimum internal depth of five hundred millimetres to clear the sliding frame. Before buying, check that your cabinet back panel is not set forward to leave an extra deep service gap.",
+        "body": "Most pull out bin systems require a minimum internal depth of five hundred millimetres to clear the sliding frame. Pull out bins use the exact same heavy duty runners found on [deep kitchen drawers](/choosing-practical-drawers-in-the-kitchen-space), so they handle daily rubbish weight easily. Before buying, check that your cabinet back panel is not set forward to leave an extra deep service gap.",
         "bullets": [
           "Take internal width measurements between hinge plates rather than bare cabinet side panels.",
           "Leave at least twenty millimetres of clear air above the bin buckets to lift them out over the countertop edge.",
@@ -1370,7 +1370,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Hardware and Gas Struts",
-        "body": "Heavy timber lids weigh upwards of fifteen kilograms, especially when soaked with winter rain. A lid that drops without warning can smash fingers or crack internal timber corner bracing when slammed shut by a gust of wind.\n\nTwin gas lift struts make opening a heavy wooden lid effortless with one hand. Quality hydraulic pistons hold the lid safely open while you lift bulky garden tools or chair cushions in and out of the box."
+        "body": "Heavy timber lids weigh upwards of fifteen kilograms, especially when soaked with winter rain. A lid that drops without warning can smash fingers or crack internal timber corner bracing when slammed shut by a gust of wind.\n\nHomeowners running an [outdoor log burner](/choosing-the-best-outdoor-log-burner-for-your-garden) often place the storage unit close to the patio for quick fuel top ups. Twin gas lift struts make opening a heavy wooden lid effortless with one hand. Quality hydraulic pistons hold the lid safely open while you lift bulky garden tools or chair cushions in and out of the box."
       },
       {
         "level": "h3",
@@ -1441,7 +1441,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "The Three Lighting Layers",
-        "body": "Professional lighting schemes work by blending ambient background glow, focused task lighting, and decorative accent beams. When combined, these three distinct layers give your living room visual depth while letting you alter the atmosphere from daytime family living to intimate evening drinks."
+        "body": "Professional lighting schemes work by blending ambient background glow, focused task lighting, and decorative accent beams. Placing warm [floor lamps for living rooms](/floor-lamps-for-living-room-layouts-architectural-guide) in dark corners spreads soft light without bouncing harsh glare off the television. When combined, these three distinct layers give your living room visual depth while letting you alter the atmosphere from daytime family living to intimate evening drinks."
       },
       {
         "level": "h3",
@@ -1576,7 +1576,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Mortise and Tenon Frames for Cabinet Doors",
-        "body": "Five piece Shaker cabinet doors require deep mortise and tenon corner joints to prevent sagging over time. The horizontal door rails feature a machined tenon tongue that seats fully inside a matching mortise slot cut into the vertical stiles.\n\nThe central recessed door panel must remain completely floating within internal grooves rather than glued rigid. This allows the centre timber or moisture resistant panel to expand freely across the seasons without cracking the exterior painted joints."
+        "body": "Five piece Shaker cabinet doors require deep mortise and tenon corner joints to prevent sagging over time. The horizontal door rails feature a machined tenon tongue that seats fully inside a matching mortise slot cut into the vertical stiles.\n\nThe central recessed door panel must remain completely floating within internal grooves rather than glued rigid. Swapping deep shelves for [practical kitchen drawers](/choosing-practical-drawers-in-the-kitchen-space) saves you having to reach into dark base cupboards. This allows the centre timber or moisture resistant panel to expand freely across the seasons without cracking the exterior painted joints."
       },
       {
         "level": "h2",
@@ -1679,7 +1679,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Mandatory Safety Certificates Every Landlord Must Provide",
-        "body": "Landlords carry strict legal duties to keep properties safe before handing over keys. Professional letting agents will readily provide digital copies of all mandatory safety records during your application."
+        "body": "Landlords carry strict legal duties to keep properties safe before handing over keys. Once you move into a rental property, simple [bedroom decor ideas](/refined-bedroom-decor-ideas-for-timeless-british-houses) like fresh linen curtains help make the space feel like home without losing your deposit. Professional letting agents will readily provide digital copies of all mandatory safety records during your application."
       },
       {
         "level": "h3",
@@ -1770,7 +1770,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Setting Out Reference Lines and Dry Laying",
-        "body": "Measure the center point of your wall and use a spirit level to mark straight vertical and horizontal reference lines. Starting your installation in the middle prevents awkward narrow strips appearing at the room corners.\n\nLay out several sheets across the floor dry first to check pattern alignment and color consistency. Taking time to plan your layout guarantees a neat professional finish that looks indistinguishable from traditional tiling."
+        "body": "Measure the center point of your wall and use a spirit level to mark straight vertical and horizontal reference lines. Starting your installation in the middle prevents awkward narrow strips appearing at the room corners.\n\nLay out several sheets across the floor dry first to check pattern alignment and color consistency. Peel and stick vinyls often copy the glazed look of [green bathroom tiles](/designing-serene-spaces-with-premium-green-bathroom-tiles), giving you an earthy look on a small budget. Taking time to plan your layout guarantees a neat professional finish that looks indistinguishable from traditional tiling."
       },
       {
         "level": "h2",
@@ -1843,7 +1843,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Placing Living Room Floor Lamps Beside Sofas and Armchairs",
-        "body": "Placing a reading light beside an armchair requires careful positioning to avoid awkward shadows falling across your book or tablet screen. Position the stem slightly behind and to the side of the seat for optimal reading conditions.\n\nLeave a gap of roughly three hundred millimetres between the sofa arm and the lamp base to prevent accidental bumps. This clearance protects the fitting and keeps your living room layout feeling open and spacious rather than cluttered."
+        "body": "Placing a reading light beside an armchair requires careful positioning to avoid awkward shadows falling across your book or tablet screen. Position the stem slightly behind and to the side of the seat for optimal reading conditions.\n\nTo finish your scheme, follow our practical rules on [how to layer living room lights](/how-to-layer-living-room-lights-for-warm-architectural-depth) so your ceiling pendants and reading lamps work on separate switches. Leave a gap of roughly three hundred millimetres between the sofa arm and the lamp base to prevent accidental bumps. This clearance protects the fitting and keeps your living room layout feeling open and spacious rather than cluttered."
       },
       {
         "level": "h2",
@@ -1941,7 +1941,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Undermount versus Inset Kitchen Sink Mounting Configurations",
-        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old kitchen sink straightforward during renovations.",
+        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old kitchen sink straightforward during renovations. Undermount bowls need solid waterproof support, which works best alongside properly sealed [craft kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes).",
         "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwZ3Jhbml0ZSUyMGtpdGNoZW4lMjBzaW5rJTIwZml4dHVyZXxlbnwwfDB8fHwxNzg5NjczMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Granite composite kitchen sink bowl fitted into dark quartz worktop",
         "imageCaption": "Composite quartz basins absorb physical impacts while dampening acoustic sound",
@@ -2035,7 +2035,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Comparing Glazed Earthenware and Porcelain Green Bathroom Tiles",
-        "body": "Vitrified porcelain bodies offer exceptional thermal stability and dense moisture resistance for demanding areas. These dense ceramic units handle heavy foot traffic and thermal fluctuations without cracking or losing structural integrity over decades of daily residential use.\n\nHand glazed crackle earthenware displays beautiful pooled colour variations across the surface. Artisans achieve these depths through specialized kiln firings requiring installers to apply penetrating sealers immediately to protect the porous clay bodies from moisture ingress."
+        "body": "Vitrified porcelain bodies offer exceptional thermal stability and dense moisture resistance for demanding areas. These dense ceramic units handle heavy foot traffic and thermal fluctuations without cracking or losing structural integrity over decades of daily residential use.\n\nHand glazed crackle earthenware displays beautiful pooled colour variations across the surface. Artisans achieve these depths through specialized kiln firings requiring installers to apply penetrating sealers immediately to protect the porous clay bodies from moisture ingress. Renting tenants who cannot lay real ceramics can try [stick on bathroom tiles](/stunning-transformations-using-stick-on-bathroom-tiles) for a quick splashback update."
       },
       {
         "level": "h2",
@@ -2149,7 +2149,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Dedicated Utility Sinks and Safe Material Management",
-        "body": "Running water is vital for cleaning brushes and mixing plaster but poses major plumbing risks for studios. Install a deep fireclay utility sink paired with a lever operated mixer tap to accommodate large buckets and awkward ceramic vessels."
+        "body": "Running water is vital for cleaning brushes and mixing plaster but poses major plumbing risks for studios. Install a deep fireclay utility sink paired with a lever operated mixer tap to accommodate large buckets and awkward ceramic vessels. Protecting messy craft sinks is easy with wipe clean [self adhesive wall tiles](/applying-self-adhesive-wall-tiles-in-modern-british-homes) that fit straight over old plaster."
       },
       {
         "level": "h3",
@@ -2248,7 +2248,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Splash Zone Protection and Slip Resistant Floor Tiles",
-        "body": "Managing water splashes around the bathing zone keeps the entire family safe from dangerous slips on hard surfaces. Proper flooring specifications reduce liability risks while providing secure traction when carrying a wet infant toward drying areas."
+        "body": "Managing water splashes around the bathing zone keeps the entire family safe from dangerous slips on hard surfaces. Proper flooring specifications reduce liability risks while providing secure traction when carrying a wet infant toward drying areas. Keeping splash water off polished tiles is just as important around a [freestanding bath tub](/architectural-design-principles-luxury-bath-tub)."
       },
       {
         "level": "h3",
@@ -2360,7 +2360,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Built In Joinery and Heritage Alcove Wardrobe Storage",
-        "body": "Maximizing awkward bedroom corners requires smart cabinetry designed specifically for older properties. Custom timber storage solutions make efficient use of dead space while respecting the original decorative moldings of the room."
+        "body": "Maximizing awkward bedroom corners requires smart cabinetry designed specifically for older properties. Custom timber storage solutions make efficient use of dead space while respecting the original decorative moldings of the room. You can ground a neutral colour palette with sturdy [oak bedroom furniture](/crafting-timeless-spaces-with-quality-bedroom-furniture) that gets better with age."
       },
       {
         "level": "h3",
@@ -2466,7 +2466,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Enhancing British Natural Daylight with Light Toned Slab Tiles",
-        "body": "Overcast British weather often starves interior spaces of direct sunlight during winter months. Light toned slab tiles bounce whatever ambient daylight enters through the window. This clever reflection brightens gloomy corners and makes cloakrooms feel remarkably fresh."
+        "body": "When [selecting bathroom tiles](/selecting-bathroom-tiles-for-refined-architectural-homes) for smaller en suites, oversized formats actually make the floor look wider by cutting down on grout lines. Overcast British weather often starves interior spaces of direct sunlight during winter months. Light toned slab tiles bounce whatever ambient daylight enters through the window. This clever reflection brightens gloomy corners and makes cloakrooms feel remarkably fresh."
       },
       {
         "level": "h3",
@@ -2577,7 +2577,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Automated Irrigation and Drainage for Sky Garden London Living",
-        "body": "Reliable watering systems are vital for maintaining lush greenery in dry elevated locations. Manual watering fails because rooftop wind dries surface soil rapidly. Automated setups deliver precise hydration directly to root balls without creating messy water runoff."
+        "body": "Reliable watering systems are vital for maintaining lush greenery in dry elevated locations. Manual watering fails because rooftop wind dries surface soil rapidly. Automated setups deliver precise hydration directly to root balls without creating messy water runoff. Layering your planting heights mimics the tiered look of [traditional British garden borders](/crafting-a-stunning-garden-with-borders-across-britain)."
       },
       {
         "level": "h3",
@@ -2683,7 +2683,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Protecting Wooden Floors Beneath Rugs for Living Room Areas",
-        "body": "Protecting your timber flooring requires mindful accessory choices. Cheap plastic backings ruin wood finishes over time. Always prioritize breathable materials that safeguard your expensive flooring investments from trapped moisture and chemical damage."
+        "body": "Protecting your timber flooring requires mindful accessory choices. Cheap plastic backings ruin wood finishes over time. Always prioritize breathable materials that safeguard your expensive flooring investments from trapped moisture and chemical damage. Make sure all front sofa legs and heavy [living room floor lamps](/floor-lamps-for-living-room-layouts-architectural-guide) rest flat on the rug surface to stop trip hazards."
       },
       {
         "level": "h3",
@@ -2782,7 +2782,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Precision Edge Profiles and Structural Overhangs",
-        "body": "Perimeter edge fabrication defines both user safety and tactile interaction along worktop perimeters. Arris and pencil round profiles remove sharp 90 degree corners, replacing them with smooth 2 to 3 millimetre radii that significantly reduce chipping risks while softening architectural geometry.\n\nFor classic heritage schemes, delicate Ogee and DuPont edge details provide timeless layered mouldings, requiring meticulous hand-finishing with fine silicon carbide abrasives.\n\nManaging extended cantilevered overhangs for island seating zones demands exact engineering and structural planning. Overhangs exceeding 250 millimetres in 20 millimetre quartz require hidden steel support brackets recessed into carcass gables.\n\nThese concealed 6 millimetre flat steel bars transfer vertical live loads directly back into cabinet frames, ensuring complete stability when users lean on worktop edges without compromising comfortable knee clearance below."
+        "body": "Perimeter edge fabrication defines both user safety and tactile interaction along worktop perimeters. Arris and pencil round profiles remove sharp 90 degree corners, replacing them with smooth 2 to 3 millimetre radii that significantly reduce chipping risks while softening architectural geometry.\n\nFor classic heritage schemes, delicate Ogee and DuPont edge details provide timeless layered mouldings, requiring meticulous hand-finishing with fine silicon carbide abrasives. Cutouts for an [undermount kitchen sink](/how-to-select-a-quality-kitchen-sink-for-modern-uk-homes) must be sealed with silicone to stop water seeping into timber cores.\n\nManaging extended cantilevered overhangs for island seating zones demands exact engineering and structural planning. Overhangs exceeding 250 millimetres in 20 millimetre quartz require hidden steel support brackets recessed into carcass gables.\n\nThese concealed 6 millimetre flat steel bars transfer vertical live loads directly back into cabinet frames, ensuring complete stability when users lean on worktop edges without compromising comfortable knee clearance below."
       },
       {
         "level": "h2",
@@ -2875,7 +2875,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Acoustic Dampening and Thermal Conductivity Dynamics",
-        "body": "Hard surfaces like porcelain and marble inherently reflect acoustic energy, creating unwanted reverberation in large master bathrooms. Integrating resilient acoustic underlays beneath floor tile assemblies dampens impact sound transmission by up to 18 decibels.\n\nHigh-density acoustic membranes isolate mechanical vibrations from shower pumps and footfall without compromising the structural rigidity of the overlying mortar bed.\n\nThermal performance remains paramount when installing tiles over electric or water-based underfloor heating circuits. Vitrified porcelain features exceptional thermal conductivity, efficiently transferring heat from embedded sub-screed cables to the room surface.\n\nOperating temperature limits should be monitored via floor-sensing probes, maintaining a steady floor surface temperature of 27 degrees Celsius to preserve adhesive integrity and occupant comfort."
+        "body": "Hard surfaces like porcelain and marble inherently reflect acoustic energy, creating unwanted reverberation in large master bathrooms. Integrating resilient acoustic underlays beneath floor tile assemblies dampens impact sound transmission by up to 18 decibels.\n\nHigh-density acoustic membranes isolate mechanical vibrations from shower pumps and footfall without compromising the structural rigidity of the overlying mortar bed. For walk in wetrooms, pairing small mosaic shower floors with [large bathroom tiles](/transform-british-interiors-with-large-bathroom-tiles-now) on the walls keeps drainage simple.\n\nThermal performance remains paramount when installing tiles over electric or water-based underfloor heating circuits. Vitrified porcelain features exceptional thermal conductivity, efficiently transferring heat from embedded sub-screed cables to the room surface.\n\nOperating temperature limits should be monitored via floor-sensing probes, maintaining a steady floor surface temperature of 27 degrees Celsius to preserve adhesive integrity and occupant comfort."
       },
       {
         "level": "h2",
@@ -2959,7 +2959,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Worktop Calibration and Environmental Stability",
-        "body": "Integrating solid timber or engineered quartz worktops onto installed base carcasses demands careful environmental expansion planning. Solid oak work surfaces expand and contract seasonally across their wood grain, requiring a mandatory 3mm to 5mm expansion gap along all perimeter walls.\n\nFilling this expansion gap with high-modulus neutral-cure silicone allows natural timber movement without bowing cabinet frames or cracking delicate wall plasterwork over time.\n\nPreserving natural timber work surfaces requires disciplined surface preparation and breathable protective oil finishes. Applying three initial coats of microporous hardwax oil seals the wood grain against liquid spills while maintaining tactile grain warmth.\n\nKeeping indoor relative humidity strictly between 45 and 60 percent prevents timber warping, ensuring worktops remain perfectly flat and structurally sound throughout wet British winters and warm summers.\n\nUndermount sink cutouts in timber worktops require rigorous edge waterproofing to prevent timber rot and black mould growth. Sanding timber cutouts down to a smooth 240-grit finish before applying multiple coats of end-grain sealing wax creates an impenetrable barrier against standing water.\n\nInstalling stainless steel drip channels under the front lip directs water droplets away from underlying cabinet timber faces effectively."
+        "body": "Integrating solid timber or engineered quartz worktops onto installed base carcasses demands careful environmental expansion planning. Solid oak work surfaces expand and contract seasonally across their wood grain, requiring a mandatory 3mm to 5mm expansion gap along all perimeter walls.\n\nFilling this expansion gap with high-modulus neutral-cure silicone allows natural timber movement without bowing cabinet frames or cracking delicate wall plasterwork over time. This laser leveling step is essential when hanging [modern kitchen cabinets](/choosing-and-fitting-modern-lt-kitchen-cabinets-today) on uneven plasterboard walls.\n\nPreserving natural timber work surfaces requires disciplined surface preparation and breathable protective oil finishes. Applying three initial coats of microporous hardwax oil seals the wood grain against liquid spills while maintaining tactile grain warmth.\n\nKeeping indoor relative humidity strictly between 45 and 60 percent prevents timber warping, ensuring worktops remain perfectly flat and structurally sound throughout wet British winters and warm summers.\n\nUndermount sink cutouts in timber worktops require rigorous edge waterproofing to prevent timber rot and black mould growth. Sanding timber cutouts down to a smooth 240-grit finish before applying multiple coats of end-grain sealing wax creates an impenetrable barrier against standing water.\n\nInstalling stainless steel drip channels under the front lip directs water droplets away from underlying cabinet timber faces effectively."
       },
       {
         "level": "h2",
@@ -3047,7 +3047,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Joinery Techniques and Structural Integrity",
-        "body": "Traditional joinery methods such as mortise and tenon joints provide superior tensile strength compared to simple mechanical fasteners. These time-tested techniques distribute mechanical stress evenly across the frame, preventing structural wobbling over years of heavy daily use.\n\nHand-cut dovetails on drawer boxes resist pulling forces exerted when sliding heavy contents outward, ensuring drawers remain square and functional indefinitely.",
+        "body": "Traditional joinery methods such as mortise and tenon joints provide superior tensile strength compared to simple mechanical fasteners. These time-tested techniques distribute mechanical stress evenly across the frame, preventing structural wobbling over years of heavy daily use.\n\nHand-cut dovetails on drawer boxes resist pulling forces exerted when sliding heavy contents outward, ensuring drawers remain square and functional indefinitely. Adding an upholstered [master bedroom chair](/how-to-choose-a-master-bedroom-chair-for-timeless-comfort) creates a quiet reading corner away from busy family areas.",
         "bullets": [
           "Inspect drawer boxes for traditional half-blind or through-dovetail joinery",
           "Verify that back panels are rebated into solid grooves rather than stapled",
@@ -3135,7 +3135,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Hydraulic and Plumbing Specs for a Bath Tub",
-        "body": "Flawless hydraulic performance relies on correctly sized supply lines and efficient waste traps. 0 bar for floor-mounted mixers.\n\nSpecifying undersized 15mm supply lines results in sluggish fill times, allowing water to cool prematurely before use.\n\nDrainage systems require equal technical precision, demanding a minimum 40mm to 50mm high-flow waste trap with an accessible cleanout mechanism. Floor-mounted freestanding mixers must be anchored beneath the finished floor using specialized rough-in mounting plates.\n\nThis solid anchorage eliminates flex and strain on water pipe connections, preventing hidden joint leaks within floor cavities or timber subfloor structures over time.\n\nIntegrated overflow systems must comply with local building regulations to prevent accidental flooding. Concealed overflow channels cast directly into stone composite or acrylic walls offer a clean aesthetic while directing excess water straight into the waste outlet.\n\nPlumbers must verify that trap seal depths meet code standards to prevent sewer gas migration into living areas."
+        "body": "Flawless hydraulic performance relies on correctly sized supply lines and efficient waste traps. 0 bar for floor-mounted mixers.\n\nSpecifying undersized 15mm supply lines results in sluggish fill times, allowing water to cool prematurely before use. Families with young children can set up a [safe baby bath tub zone](/designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms) right beside a freestanding bath using a soft non slip floor runner.\n\nDrainage systems require equal technical precision, demanding a minimum 40mm to 50mm high-flow waste trap with an accessible cleanout mechanism. Floor-mounted freestanding mixers must be anchored beneath the finished floor using specialized rough-in mounting plates.\n\nThis solid anchorage eliminates flex and strain on water pipe connections, preventing hidden joint leaks within floor cavities or timber subfloor structures over time.\n\nIntegrated overflow systems must comply with local building regulations to prevent accidental flooding. Concealed overflow channels cast directly into stone composite or acrylic walls offer a clean aesthetic while directing excess water straight into the waste outlet.\n\nPlumbers must verify that trap seal depths meet code standards to prevent sewer gas migration into living areas."
       },
       {
         "level": "h2",

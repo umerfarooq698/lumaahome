@@ -94,6 +94,52 @@ export default function ArticlePage({
     }
   };
 
+  const renderParagraphWithLinks = (text) => {
+    if (!text || typeof text !== 'string') return text;
+    const regex = /\[([^\]]+)\]\(([^)]+)\)/g;
+    if (!regex.test(text)) return text;
+    regex.lastIndex = 0;
+
+    const elements = [];
+    let lastIdx = 0;
+    let match;
+    let key = 0;
+
+    while ((match = regex.exec(text)) !== null) {
+      if (match.index > lastIdx) {
+        elements.push(text.substring(lastIdx, match.index));
+      }
+      const label = match[1];
+      const href = match[2];
+
+      elements.push(
+        <a
+          key={key++}
+          href={href}
+          className="text-[#C8102E] font-medium underline underline-offset-4 hover:text-[#9B0D23] transition-colors"
+          onClick={(e) => {
+            if (href.startsWith('/')) {
+              const targetSlug = href.replace(/^\//, '');
+              const targetArt = allArticles?.find(a => (a.slug === targetSlug || a.id === targetSlug));
+              if (targetArt && onSelectArticle) {
+                e.preventDefault();
+                onSelectArticle(targetArt);
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+              }
+            }
+          }}
+        >
+          {label}
+        </a>
+      );
+      lastIdx = match.index + match[0].length;
+    }
+    if (lastIdx < text.length) {
+      elements.push(text.substring(lastIdx));
+    }
+    return elements;
+  };
+
   return (
     <div className="max-w-7xl mx-auto space-y-8 animate-fadeIn pb-16">
       
@@ -335,13 +381,13 @@ export default function ArticlePage({
                     {Array.isArray(section.body) ? (
                       section.body.map((pText, pIdx) => (
                         <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
-                          {pText.trim()}
+                          {renderParagraphWithLinks(pText.trim())}
                         </p>
                       ))
                     ) : typeof section.body === 'string' ? (
                       section.body.split(/\n+/).filter(p => Boolean(p.trim())).map((pText, pIdx) => (
                         <p key={pIdx} className="text-[#1a1a1a] leading-[1.85] text-base sm:text-lg font-normal mb-4 last:mb-0">
-                          {pText.trim()}
+                          {renderParagraphWithLinks(pText.trim())}
                         </p>
                       ))
                     ) : null}

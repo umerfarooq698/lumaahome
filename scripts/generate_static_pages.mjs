@@ -135,15 +135,23 @@ export function generateStaticPages() {
     const seoTitle = makeArticleSeoTitle(art.title);
 
     // Build rich body text for crawler word count & internal links
+    const formatMarkdownLinks = (text) => {
+      if (!text) return '';
+      const escaped = escapeHtml(text);
+      return escaped.replace(/\[([^\]]+)\]\(([^)]+)\)/g, (m, label, url) => {
+        return `<a href="${url}">${label}</a>`;
+      });
+    };
+
     let bodyTextHtml = '';
     if (Array.isArray(art.content)) {
       bodyTextHtml = art.content.map(sec => {
         const headingTag = sec.level === 'h3' ? 'h3' : 'h2';
         const headingHtml = sec.heading ? `<${headingTag}>${escapeHtml(sec.heading)}</${headingTag}>` : '';
         const bodyContent = typeof sec.body === 'string' 
-          ? `<p>${escapeHtml(sec.body)}</p>` 
+          ? `<p>${formatMarkdownLinks(sec.body)}</p>` 
           : Array.isArray(sec.body) 
-            ? sec.body.map(p => `<p>${escapeHtml(p)}</p>`).join('') 
+            ? sec.body.map(p => `<p>${formatMarkdownLinks(p)}</p>`).join('') 
             : '';
         const bulletsHtml = Array.isArray(sec.bullets) && sec.bullets.length > 0 
           ? `<ul>${sec.bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>` 
