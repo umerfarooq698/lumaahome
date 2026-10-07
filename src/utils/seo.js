@@ -158,12 +158,7 @@ export function buildWebSiteJsonLd() {
       'publisher': {
         '@id': `${SITE_URL}/#organization`
       },
-      'inLanguage': 'en-GB',
-      'potentialAction': {
-        '@type': 'SearchAction',
-        'target': `${SITE_URL}/?search={search_term_string}`,
-        'query-input': 'required name=search_term_string'
-      }
+      'inLanguage': 'en-GB'
     },
     {
       '@type': 'Organization',

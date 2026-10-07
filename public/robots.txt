@@ -4,7 +4,8 @@ Allow: /
 
 # Disallowed paths & query parameters
 Disallow: /rss.xml
-Disallow: /*?search=
+Disallow: /*?search=*
+Disallow: /*?*search*
 Disallow: /?search=
 
 # Sitemap Location
