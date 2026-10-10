@@ -91,7 +91,7 @@ export default function Logo({ size = "default", className = "", align = "center
         </div>
         <div className="flex flex-col text-left">
           <span className="font-serif text-lg sm:text-xl font-black tracking-[0.14em] uppercase text-black leading-none flex items-center">
-            LUMAA HOME<span className="text-[10px] text-[#C8102E] font-normal align-top ml-0.5 -mt-1.5">™</span>
+            LUMAA HOME
           </span>
           <div className="flex items-center gap-1.5 mt-1">
             <span className="w-1 h-1 bg-[#C8102E] rotate-45 shrink-0" />
@@ -114,10 +114,9 @@ export default function Logo({ size = "default", className = "", align = "center
       {/* Main Luxury Brand Typography on the Right */}
       <div className="flex flex-col items-center justify-center text-center">
         {/* Brand Name */}
-        <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl font-black tracking-[0.12em] sm:tracking-[0.16em] text-black uppercase transition-all duration-300 group-hover:tracking-[0.18em] leading-none text-center flex items-center justify-center">
+        <div className="font-serif text-2xl sm:text-4xl md:text-5xl font-black tracking-[0.12em] sm:tracking-[0.16em] text-black uppercase transition-all duration-300 group-hover:tracking-[0.18em] leading-none text-center flex items-center justify-center">
           <span>LUMAA HOME</span>
-          <span className="text-xs sm:text-base align-top text-[#C8102E] font-normal ml-0.5 sm:ml-1 -mt-2 sm:-mt-3">™</span>
-        </h1>
+        </div>
 
         {/* Bespoke Editorial Tagline Perfectly Centered */}
         <div className="flex items-center justify-center gap-2 sm:gap-2.5 mt-1 sm:mt-1.5 w-full text-center">

@@ -135,56 +135,86 @@ export function isKeywordPublished(keyword, existingArticles) {
 }
 
 /**
- * Category & Label mapping based on keyword (ZERO hyphens, ZERO buzzwords)
+ * Category & Label mapping based on keyword (Explicit room names matched first)
  */
 export function mapCategoryInfo(keyword) {
   const kw = keyword.toLowerCase();
-  if (kw.includes('fire pit') || kw.includes('log burner') || kw.includes('garden') || kw.includes('outdoor') || kw.includes('patio') || kw.includes('pergola') || kw.includes('borders')) {
-    return {
-      categoryId: 'garden',
-      categoryName: 'Garden',
-      categoryLabel: 'GARDEN LIVING • OUTDOOR SPECIFICATION'
-    };
-  }
-  if (kw.includes('bath') || kw.includes('shower') || kw.includes('toilet') || kw.includes('wetroom') || kw.includes('tub')) {
-    return {
-      categoryId: 'bathroom',
-      categoryName: 'Bathroom',
-      categoryLabel: 'BATHROOM DESIGN • SANITARY SPECIFICATION'
-    };
-  }
-  if (kw.includes('kitchen') || kw.includes('worktop') || kw.includes('sink') || kw.includes('cabinet') || kw.includes('bin') || kw.includes('drawer')) {
-    return {
-      categoryId: 'kitchen',
-      categoryName: 'Kitchen',
-      categoryLabel: 'KITCHEN DESIGN • CABINET SPECIFICATION'
-    };
-  }
-  if (kw.includes('bedroom') || kw.includes('bed ') || kw.includes('mattress') || kw.includes('wardrobe')) {
-    return {
-      categoryId: 'bedroom',
-      categoryName: 'Bedroom',
-      categoryLabel: 'BEDROOM INTERIORS • JOINERY SPECIFICATION'
-    };
-  }
-  if (kw.includes('living room') || kw.includes('rug') || kw.includes('sofa') || kw.includes('lamp') || kw.includes('light')) {
+  // 1. Explicit room names first so "living room storage cabinets" maps to living-room, not kitchen
+  if (kw.includes('living room') || kw.includes('sitting room') || kw.includes('lounge')) {
     return {
       categoryId: 'living-room',
       categoryName: 'Living Room',
-      categoryLabel: 'LIVING SPACES • INTERIOR PROPORTIONS'
+      categoryLabel: 'LIVING SPACES | INTERIOR PROPORTIONS'
     };
   }
-  if (kw.includes('diy') || kw.includes('paint') || kw.includes('tile') || kw.includes('plastic') || kw.includes('art club')) {
+  if (kw.includes('bedroom') || kw.includes('master suite')) {
+    return {
+      categoryId: 'bedroom',
+      categoryName: 'Bedroom',
+      categoryLabel: 'BEDROOM INTERIORS | JOINERY SPECIFICATION'
+    };
+  }
+  if (kw.includes('bathroom') || kw.includes('wetroom') || kw.includes('ensuite')) {
+    return {
+      categoryId: 'bathroom',
+      categoryName: 'Bathroom',
+      categoryLabel: 'BATHROOM DESIGN | SANITARY SPECIFICATION'
+    };
+  }
+  if (kw.includes('kitchen') || kw.includes('pantry')) {
+    return {
+      categoryId: 'kitchen',
+      categoryName: 'Kitchen',
+      categoryLabel: 'KITCHEN DESIGN | CABINET SPECIFICATION'
+    };
+  }
+  if (kw.includes('garden') || kw.includes('outdoor') || kw.includes('patio') || kw.includes('pergola') || kw.includes('fire pit') || kw.includes('log burner') || kw.includes('borders')) {
+    return {
+      categoryId: 'garden',
+      categoryName: 'Garden',
+      categoryLabel: 'GARDEN LIVING | OUTDOOR SPECIFICATION'
+    };
+  }
+  if (kw.includes('diy') || kw.includes('fablon') || kw.includes('self adhesive') || kw.includes('stick on') || kw.includes('art club')) {
     return {
       categoryId: 'diy',
       categoryName: 'DIY',
-      categoryLabel: 'WORKSHOP SPACES • RESTORATION CRAFT'
+      categoryLabel: 'WORKSHOP SPACES | RESTORATION CRAFT'
+    };
+  }
+  // 2. Secondary fixture keywords
+  if (kw.includes('bath') || kw.includes('shower') || kw.includes('toilet') || kw.includes('tub')) {
+    return {
+      categoryId: 'bathroom',
+      categoryName: 'Bathroom',
+      categoryLabel: 'BATHROOM DESIGN | SANITARY SPECIFICATION'
+    };
+  }
+  if (kw.includes('worktop') || kw.includes('sink') || kw.includes('cabinet') || kw.includes('bin') || kw.includes('drawer')) {
+    return {
+      categoryId: 'kitchen',
+      categoryName: 'Kitchen',
+      categoryLabel: 'KITCHEN DESIGN | CABINET SPECIFICATION'
+    };
+  }
+  if (kw.includes('bed ') || kw.includes('mattress') || kw.includes('wardrobe')) {
+    return {
+      categoryId: 'bedroom',
+      categoryName: 'Bedroom',
+      categoryLabel: 'BEDROOM INTERIORS | JOINERY SPECIFICATION'
+    };
+  }
+  if (kw.includes('rug') || kw.includes('sofa') || kw.includes('lamp') || kw.includes('light')) {
+    return {
+      categoryId: 'living-room',
+      categoryName: 'Living Room',
+      categoryLabel: 'LIVING SPACES | INTERIOR PROPORTIONS'
     };
   }
   return {
     categoryId: 'interiors',
     categoryName: 'Interiors',
-    categoryLabel: 'INTERIOR DESIGN • MATERIAL CRAFT'
+    categoryLabel: 'INTERIOR DESIGN | MATERIAL CRAFT'
   };
 }
 
@@ -389,7 +419,12 @@ Return ONLY raw valid JSON:
     }
   }
   if (articleData.title.length > 60) {
-    articleData.title = articleData.title.substring(0, 60).trim();
+    let cut = articleData.title.substring(0, 60);
+    const lastSpace = cut.lastIndexOf(' ');
+    if (lastSpace > 30) {
+      cut = cut.substring(0, lastSpace);
+    }
+    articleData.title = cut.trim();
   }
 
   articleData.metaDescription = sanitizeStrict(articleData.metaDescription);

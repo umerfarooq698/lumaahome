@@ -27,7 +27,7 @@ export default function ArticleModal({
         {/* Close Button Header */}
         <div className="sticky top-0 bg-white/95 backdrop-blur-md px-6 py-4 border-b border-gray-200 flex items-center justify-between z-20">
           <span className="text-[10px] font-black uppercase tracking-[0.2em] text-[#C8102E]">
-            LUMAA HOME™ EXCLUSIVE FEATURE
+            LUMAA HOME EXCLUSIVE FEATURE
           </span>
           <button
             onClick={onClose}
@@ -44,7 +44,7 @@ export default function ArticleModal({
           {/* Category and Title */}
           <div className="space-y-3">
             <span className="text-xs font-bold text-gray-500 uppercase tracking-widest block">
-              {article.categoryName || article.category} • {article.location ? article.location.toUpperCase() : 'UK EDITION'}
+              {article.categoryName || article.category} | {article.location ? article.location.toUpperCase() : 'UK EDITION'}
             </span>
             <h1 className="font-serif text-2xl sm:text-4xl font-black text-black leading-tight">
               {article.title}
@@ -61,12 +61,12 @@ export default function ArticleModal({
                 <User className="w-3.5 h-3.5 text-[#C8102E]" />
                 BY {article.author}
               </button>
-              <span>•</span>
+              <span>|</span>
               <span className="flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5" />
                 {article.date}
               </span>
-              <span>•</span>
+              <span>|</span>
               <span className="flex items-center gap-1.5 text-black font-bold">
                 <Clock className="w-3.5 h-3.5 text-[#C8102E]" />
                 {article.readTime}

@@ -61,7 +61,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
             >
               BY {coverArticle.author.toUpperCase()}
             </a>
-            <span className="text-gray-400">•</span>
+            <span className="text-gray-400">|</span>
             <span className="text-gray-600">{coverArticle.date}</span>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
                 >
                   BY {article.author.toUpperCase()}
                 </a>
-                <span className="text-gray-400">•</span>
+                <span className="text-gray-400">|</span>
                 <span className="text-gray-600">{article.date}</span>
               </div>
             </div>

@@ -1,4 +1,4 @@
-// Unsplash API Service for LUMAA HOME™ Editorial Magazine
+// Unsplash API Service for LUMAA HOME Editorial Magazine
 const FALLBACK_UNSPLASH_KEY = typeof atob === 'function'
   ? atob('TVlBSVBpbXJuLUVwQUhQckROTDg2b2J3a2t1bGlTZ2o4ejBHOXJ5cjJ6TQ==')
   : '';

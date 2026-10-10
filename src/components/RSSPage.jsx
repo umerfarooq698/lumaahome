@@ -9,8 +9,8 @@ export default function RSSPage({ onBackToHome, onSelectArticle, onNavigatePage 
 
   useEffect(() => {
     updatePageSeo({
-      title: 'Official RSS 2.0 Editorial Feed | LUMAA HOME™',
-      description: 'Subscribe to the official LUMAA HOME™ RSS 2.0 feed for real-time syndication of luxury British interior design guides, period restoration case studies, and joinery articles.',
+      title: 'Official RSS 2.0 Editorial Feed | LUMAA HOME',
+      description: 'Subscribe to the official LUMAA HOME RSS 2.0 feed for real-time syndication of luxury British interior design guides, period restoration case studies, and joinery articles.',
       keywords: 'lumaa home rss feed, xml syndication, interior design rss, period architecture newsfeed',
       canonicalPath: '/rss',
       ogType: 'website'
@@ -55,7 +55,7 @@ export default function RSSPage({ onBackToHome, onSelectArticle, onNavigatePage 
           <span>SYNDICATION & NEWSFEED</span>
         </div>
         <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-black tracking-tight text-black uppercase mb-3">
-          Lumaa Home™ RSS Feed
+          Lumaa Home RSS Feed
         </h1>
         <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-normal">
           Instant syndication for British luxury interior design, heritage architecture restoration, and bespoke DIY woodworking guides.
@@ -185,12 +185,12 @@ export default function RSSPage({ onBackToHome, onSelectArticle, onNavigatePage 
                     <Tag className="w-3 h-3" />
                     {article.categoryName || article.category}
                   </span>
-                  <span>•</span>
+                  <span>|</span>
                   <span className="flex items-center gap-1">
                     <Calendar className="w-3 h-3 text-gray-400" />
                     {article.date || 'Editorial'}
                   </span>
-                  <span>•</span>
+                  <span>|</span>
                   <span className="flex items-center gap-1">
                     <User className="w-3 h-3 text-gray-400" />
                     {article.author}
@@ -223,7 +223,7 @@ export default function RSSPage({ onBackToHome, onSelectArticle, onNavigatePage 
                     className="text-[10px] font-bold uppercase tracking-widest text-black group-hover:text-[#C8102E] transition inline-flex items-center gap-1"
                   >
                     <span>Read Article</span>
-                    <span>→</span>
+                    <span>&rarr;</span>
                   </a>
 
                   <span className="text-[10px] font-mono text-gray-400">

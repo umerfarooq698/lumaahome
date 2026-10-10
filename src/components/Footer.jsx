@@ -93,7 +93,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
             EDITORIAL AND GUIDES
           </h4>
           <ul className="space-y-1.5 text-[11px]">
-            {['interiors', 'diy', 'buying-guides'].map((catId) => {
+            {['interiors', 'diy'].map((catId) => {
               const cat = CATEGORIES.find(c => c.id === catId);
               if (!cat) return null;
               return (
@@ -128,7 +128,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               Editorial inquiries: <a href="mailto:info.lumaahome@gmail.com" className="text-black font-bold hover:text-[#C8102E] underline">info.lumaahome@gmail.com</a>
             </p>
             <p className="text-[10px] text-gray-700 font-medium">
-              © {new Date().getFullYear()} LUMAA HOME™ DIGITAL MEDIA GROUP.
+              (c) {new Date().getFullYear()} LUMAA HOME DIGITAL MEDIA GROUP.
             </p>
           </div>
 
@@ -144,7 +144,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               >
                 Privacy Policy
               </a>
-              <span>•</span>
+              <span>|</span>
               <a
                 href="/terms-of-service"
                 onClick={(e) => {
@@ -168,7 +168,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               >
                 About Us
               </a>
-              <span>•</span>
+              <span>|</span>
               <a
                 href="/contact"
                 onClick={(e) => {
@@ -190,7 +190,7 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               >
                 Sitemap
               </a>
-              <span>•</span>
+              <span>|</span>
               <a
                 href="https://www.lumaahome.co.uk/rss.xml"
                 target="_blank"

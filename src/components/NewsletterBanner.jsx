@@ -28,7 +28,7 @@ export default function NewsletterBanner() {
 
       {subscribed ? (
         <div className="bg-[#C8102E] text-white p-4 max-w-md mx-auto text-xs font-bold uppercase tracking-widest">
-          Thank you for joining the Lumaa Home™ UK Circle.
+          Thank you for joining the Lumaa Home UK Circle.
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row items-center justify-center gap-2 max-w-md mx-auto pt-2">

@@ -4,9 +4,21 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/choosing-quality-storage-cabinets-living-room-storage-cabine",
+      "destination": "/choosing-quality-living-room-storage-cabinets",
+      "permanent": true
+    },
+    {
+      "source": "/category/buying-guides",
+      "destination": "/category/interiors",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
-      "source": "/((?!sitemap\\.xml|rss\\.xml|feed\\.xml|llms\\.txt|llms-full\\.txt|robots\\.txt|favicon\\.svg|images/|assets/).*)",
+      "source": "/((?!sitemap\\.xml|rss\\.xml|feed\\.xml|robots\\.txt|favicon\\.svg|images/|authors/|assets/).*)",
       "destination": "/index.html"
     }
   ],

@@ -68,14 +68,14 @@ async function generateWithModelFallback(requestConfig) {
 export async function generateArticleWithGemini({ topic, category = 'Living Room' }) {
   try {
     
-    const prompt = `You are a Senior Editor and Feature Writer for LUMAA HOME™, crafting an authentic, immersive, reader-first editorial feature on the keyword: "${topic}" for the category: "${category}".
+    const prompt = `You are a Senior Editor and Feature Writer for LUMAA HOME, crafting an authentic, immersive, reader-first editorial feature on the keyword: "${topic}" for the category: "${category}".
 
 STRICT EDITORIAL AND WRITING STANDARDS:
-1. BALANCED, BREATHABLE PARAGRAPHS (MANDATORY): Avoid extremes — neither giant walls of text nor tiny fragmented one-liners. Every section's 'body' must consist of 2 to 3 well-developed, engaging paragraphs separated by double newlines ('\\n\\n'). Each paragraph should be 50 to 75 words in length (approx 3 to 4 substantive, rich sentences) with natural editorial rhythm.
-2. DEEPLY INFORMATIONAL, FRESH AND UNIQUE CONTENT: The content must be packed with specific, fascinating, and actionable real-world information — including authentic historical contexts, architectural specifics, exact dimensions/measurements, material formulations (e.g. hot-mixed lime mortar grades, timber grain cuts, joinery techniques), trade secrets, and practical homeowner guidance. NEVER write vague, generic, or dry textbook summaries. Write high-value masterclasses that keep the reader captivated. Banish robotic AI filler (NEVER say 'Understanding this allows...', 'It is worth noting...', 'Furthermore...', 'Moreover...', 'In conclusion...', 'plays a vital role...').
+1. BALANCED, BREATHABLE PARAGRAPHS (MANDATORY): Avoid extremes - neither giant walls of text nor tiny fragmented one-liners. Every section's 'body' must consist of 2 to 3 well-developed, engaging paragraphs separated by double newlines ('\\n\\n'). Each paragraph should be 50 to 75 words in length (approx 3 to 4 substantive, rich sentences) with natural editorial rhythm.
+2. DEEPLY INFORMATIONAL, FRESH AND UNIQUE CONTENT: The content must be packed with specific, fascinating, and actionable real-world information - including authentic historical contexts, architectural specifics, exact dimensions/measurements, material formulations (e.g. hot-mixed lime mortar grades, timber grain cuts, joinery techniques), trade secrets, and practical homeowner guidance. NEVER write vague, generic, or dry textbook summaries. Write high-value masterclasses that keep the reader captivated. Banish robotic AI filler (NEVER say 'Understanding this allows...', 'It is worth noting...', 'Furthermore...', 'Moreover...', 'In conclusion...', 'plays a vital role...').
 3. HIERARCHICAL HEADING STRUCTURE (H2 AND H3): Organize the article into major thematic pillars ('level': 'h2') and, where appropriate, delve deeper with focused sub-topics ('level': 'h3') rather than a flat repetitive list of equal headings.
 4. NATURAL KEYWORD AND SEMANTIC/LSI INTEGRATION: Naturally weave the primary keyword along with its semantic entities, contextual synonyms, and LSI (Latent Semantic Indexing) keyword variations into H2 and H3 major headings and paragraphs (e.g. related British materials, dimensions, installation fittings, clearances, and common homeowner search queries). Establish comprehensive topical authority without awkward repetition or keyword stuffing.
-5. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings — write organic, unnumbered editorial subheadings instead.
+5. NUMBERED LISTICLE CONDITIONAL RULE: ONLY use numbered headings (e.g. '1. ', '2. ', '3. ') if the topic or keyword explicitly contains a number (such as '5 Ideas', '7 Rules', '6 Ways', '10 Steps'). If the keyword does NOT contain a number (e.g. 'sofa seat covers', 'dining chair', 'kitchen architecture'), NEVER number headings - write organic, unnumbered editorial subheadings instead.
 6. CONDITIONAL MINIMAL BULLET POINTS: Use minimal, high-value bullet points (3 to 4 concise items in the 'bullets' array of a section) ONLY when the topic genuinely warrants a quick checklist, technical specification, or key dimension summary. Do NOT force bullets in every article if the prose flows better as pure narrative.
 7. NATURAL SEARCH INTENT: Address the search intent directly with deep, practical, and engaging insights. Begin with an evocative narrative opening that sets the architectural and lifestyle context.
 8. WORD COUNT: Total article body word count across all sections MUST be strictly between 850 and 1200 words.
@@ -240,7 +240,7 @@ Return ONLY valid JSON matching this exact structure:
  */
 export async function askAIDesignConsultant(userQuestion) {
   try {
-    const prompt = `You are the Chief Architectural and Interior Design Consultant at LUMAA HOME™ Magazine in London, UK.
+    const prompt = `You are the Chief Architectural and Interior Design Consultant at LUMAA HOME Magazine in London, UK.
 Answer the following homeowner/decorator question with tailored British luxury interior design advice:
 "${userQuestion}"
 
@@ -270,8 +270,8 @@ export async function generateLegalContentWithGemini(type = 'privacy') {
     const isPrivacy = type === 'privacy';
 
     const prompt = isPrivacy
-      ? `You are the Lead Legal Counsel and Compliance Officer for LUMAA HOME™ Digital Media Group, London, UK.
-Generate a comprehensive, legally rigorous, Google AdSense and UK GDPR-compliant Privacy Policy for LUMAA HOME™ (lumaahome.co.uk).
+      ? `You are the Lead Legal Counsel and Compliance Officer for LUMAA HOME Digital Media Group, London, UK.
+Generate a comprehensive, legally rigorous, Google AdSense and UK GDPR-compliant Privacy Policy for LUMAA HOME (lumaahome.co.uk).
 
 MANDATORY RULES:
 1. NEVER use the '&' symbol anywhere. Always use the word 'and'.
@@ -290,7 +290,7 @@ Return ONLY valid JSON matching this schema:
   "subtitle": "Google AdSense, UK GDPR, and Data Protection Compliance",
   "lastUpdated": "September 2026",
   "effectiveDate": "September 1, 2026",
-  "companyName": "LUMAA HOME™ Digital Media Group",
+  "companyName": "LUMAA HOME Digital Media Group",
   "contactEmail": "info.lumaahome@gmail.com",
   "introduction": "Introductory summary paragraph...",
   "sections": [
@@ -301,14 +301,14 @@ Return ONLY valid JSON matching this schema:
     }
   ]
 }`
-      : `You are the Lead Legal Counsel for LUMAA HOME™ Digital Media Group.
-Generate a comprehensive, legally binding Terms of Service document for LUMAA HOME™ (lumaahome.co.uk).
+      : `You are the Lead Legal Counsel for LUMAA HOME Digital Media Group.
+Generate a comprehensive, legally binding Terms of Service document for LUMAA HOME (lumaahome.co.uk).
 
 MANDATORY RULES:
 1. NEVER use the '&' symbol anywhere. Always use the word 'and'.
 2. Must strictly comply with:
    - Governing law: Laws of England and Wales.
-   - Copyright and Intellectual Property rights of LUMAA HOME™ Digital Media Group.
+   - Copyright and Intellectual Property rights of LUMAA HOME Digital Media Group.
    - Editorial and DIY Home Renovation safety disclaimers (users undertake DIY, electrical, plumbing, or structural advice at their own risk; certified tradespeople recommended).
    - User conduct, acceptable use, and prohibited actions.
    - Third-party links, advertising networks (including Google), and affiliate disclaimer.
@@ -321,7 +321,7 @@ Return ONLY valid JSON matching this schema:
   "subtitle": "Editorial Terms, Conditions of Use, and DIY Safety Disclaimers",
   "lastUpdated": "September 2026",
   "effectiveDate": "September 1, 2026",
-  "companyName": "LUMAA HOME™ Digital Media Group",
+  "companyName": "LUMAA HOME Digital Media Group",
   "contactEmail": "info.lumaahome@gmail.com",
   "introduction": "Introductory summary paragraph...",
   "sections": [
@@ -349,7 +349,7 @@ Return ONLY valid JSON matching this schema:
       subtitle: sanitize(data.subtitle),
       lastUpdated: sanitize(data.lastUpdated || 'September 2026'),
       effectiveDate: sanitize(data.effectiveDate || 'September 1, 2026'),
-      companyName: sanitize(data.companyName || 'LUMAA HOME™ Digital Media Group'),
+      companyName: sanitize(data.companyName || 'LUMAA HOME Digital Media Group'),
       contactEmail: sanitize(data.contactEmail || 'info.lumaahome@gmail.com'),
       introduction: sanitize(data.introduction),
       sections: Array.isArray(data.sections)

@@ -15,7 +15,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
         '@type': 'AboutPage',
         '@id': `${SITE_URL}/about/#about`,
         'url': `${SITE_URL}/about`,
-        'name': 'About LUMAA HOME™ Magazine',
+        'name': 'About LUMAA HOME Magazine',
         'description': 'The premier independent luxury home decor, period restoration, and bespoke DIY editorial magazine.',
         'inLanguage': 'en-GB'
       }
@@ -42,7 +42,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
             onClick={onBackToHome}
             className="text-[10px] font-black uppercase tracking-wider text-black hover:text-[#C8102E] transition flex items-center gap-1"
           >
-            ← BACK TO HOME
+            &larr; BACK TO HOME
           </button>
         </div>
 
@@ -68,7 +68,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
         </div>
 
         <p className="text-base sm:text-lg text-[#111111] leading-relaxed font-normal">
-          Founded with a passion for historic British architecture and artisan craftsmanship, LUMAA HOME™ serves homeowners, period property custodians, and passionate decorators seeking enduring interior beauty.
+          Founded with a passion for historic British architecture and artisan craftsmanship, LUMAA HOME serves homeowners, period property custodians, and passionate decorators seeking enduring interior beauty.
         </p>
 
         <p className="text-sm sm:text-base text-[#111111] leading-relaxed font-normal">
@@ -78,7 +78,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-gray-200">
           <div className="space-y-1">
             <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
-              01 • HERITAGE
+              01 | HERITAGE
             </span>
             <h4 className="font-serif text-base font-bold text-black">
               Period Authenticity
@@ -90,7 +90,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
 
           <div className="space-y-1">
             <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
-              02 • CRAFTSMANSHIP
+              02 | CRAFTSMANSHIP
             </span>
             <h4 className="font-serif text-base font-bold text-black">
               Bespoke Joinery
@@ -102,7 +102,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
 
           <div className="space-y-1">
             <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
-              03 • MASTERY
+              03 | MASTERY
             </span>
             <h4 className="font-serif text-base font-bold text-black">
               Actionable DIY
@@ -147,7 +147,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
                   <span className="text-[9px] font-black uppercase tracking-[0.2em] text-[#C8102E] bg-red-50 border border-red-200 px-2 py-0.5">
                     EDITORIAL CONTRIBUTOR
                   </span>
-                  <span className="text-gray-400">•</span>
+                  <span className="text-gray-400">|</span>
                   <span className="text-[10px] font-bold text-black uppercase">
                     {author.location}
                   </span>
@@ -181,7 +181,7 @@ export default function AboutPage({ onBackToHome, onSelectAuthor }) {
 
                 <div className="pt-3">
                   <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] group-hover:underline inline-flex items-center gap-1">
-                    VIEW ARTICLES BY {author.name.toUpperCase()} →
+                    VIEW ARTICLES BY {author.name.toUpperCase()} &rarr;
                   </span>
                 </div>
               </div>

@@ -1,11 +1,11 @@
 /**
- * LUMAA HOME™ Advanced SEO & Structured Data (JSON-LD) Engine
+ * LUMAA HOME Advanced SEO & Structured Data (JSON-LD) Engine
  */
 
 export const SITE_URL = 'https://www.lumaahome.co.uk';
-export const SITE_NAME = 'LUMAA HOME™';
+export const SITE_NAME = 'LUMAA HOME';
 export const DEFAULT_OG_IMAGE = 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85';
-export const DEFAULT_DESCRIPTION = 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.';
+export const DEFAULT_DESCRIPTION = 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home.';
 
 export function cleanMetaDescription(str) {
   if (!str) return DEFAULT_DESCRIPTION;
@@ -325,14 +325,23 @@ export function buildAuthorJsonLd(author, articles = []) {
         'jobTitle': author.role,
         'description': author.shortDescription || author.bio,
         'image': author.avatar,
+        'alumniOf': author.alumniOf ? {
+          '@type': 'CollegeOrUniversity',
+          'name': author.alumniOf
+        } : undefined,
+        'memberOf': author.memberOf ? {
+          '@type': 'Organization',
+          'name': author.memberOf
+        } : undefined,
         'worksFor': {
           '@type': 'Organization',
           'name': 'LUMAA HOME DIGITAL MEDIA GROUP',
           'url': SITE_URL
         },
         'sameAs': [
-          author.socials?.instagram,
-          author.socials?.linkedin
+          author.socials?.linkedin,
+          author.socials?.pinterest,
+          author.socials?.instagram
         ].filter(Boolean)
       }
     },

@@ -236,7 +236,7 @@ export default function ArticlePage({
                   </h4>
                   <div className="text-[9px] text-gray-500 font-medium flex items-center gap-1.5 pt-0.5">
                     <span>{item.date}</span>
-                    <span>•</span>
+                    <span>|</span>
                     <span className="text-black font-semibold">{item.readTime}</span>
                   </div>
                 </div>
@@ -283,10 +283,10 @@ export default function ArticlePage({
                   </span>
                 </a>
 
-                <span className="text-gray-300">•</span>
+                <span className="text-gray-300">|</span>
                 <span className="text-gray-600 text-[11px]">{article.date}</span>
 
-                <span className="text-gray-300 hidden sm:inline">•</span>
+                <span className="text-gray-300 hidden sm:inline">|</span>
                 <span className="text-gray-600 text-[11px] hidden sm:inline">{article.readTime}</span>
               </div>
 
@@ -415,7 +415,7 @@ export default function ArticlePage({
                           </span>
                         </div>
                         <div className="pt-2 border-t border-gray-100 flex items-start gap-2.5 text-sm sm:text-[15px] leading-relaxed">
-                          <span className="text-[#C8102E] font-bold text-base leading-tight select-none">•</span>
+                          <span className="text-[#C8102E] font-bold text-base leading-tight select-none">|</span>
                           <div className="font-sans">
                             <span className="font-bold uppercase text-[11px] sm:text-xs tracking-wider text-gray-900 mr-2">
                               {(relatedInternalArticle.categoryName || relatedInternalArticle.category || 'ARCHITECTURE')}:
@@ -472,7 +472,7 @@ export default function ArticlePage({
 
           {/* Editorial Separator */}
           <div className="text-center py-6 text-gray-400 font-serif text-lg tracking-[0.5em]">
-            • • •
+            | | |
           </div>
 
           {/* Author Signature (Clean & Minimalist) */}
@@ -500,11 +500,11 @@ export default function ArticlePage({
                     }}
                     className="text-[10px] font-bold uppercase tracking-wider text-[#C8102E] hover:underline cursor-pointer"
                   >
-                    VIEW PROFILE →
+                    VIEW PROFILE &rarr;
                   </a>
                 </div>
                 <p className="text-xs text-gray-600 font-medium">
-                  {author.role} • {author.location}
+                  {author.role} | {author.location}
                 </p>
                 <p className="text-xs text-[#222222] leading-relaxed pt-1">
                   {author.bio}
@@ -533,7 +533,7 @@ export default function ArticlePage({
               }}
               className="text-[10px] font-bold uppercase tracking-widest text-[#C8102E] hover:underline cursor-pointer"
             >
-              EXPLORE ALL →
+              EXPLORE ALL &rarr;
             </a>
           </div>
 

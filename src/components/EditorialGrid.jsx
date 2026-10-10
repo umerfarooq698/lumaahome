@@ -77,7 +77,7 @@ export default function EditorialGrid({
               >
                 BY {article.author.toUpperCase()}
               </a>
-              <span className="text-gray-400">•</span>
+              <span className="text-gray-400">|</span>
               <span className="text-gray-700">{article.date}</span>
             </div>
           </article>

@@ -88,7 +88,7 @@ export default function AuthorPage({
           
           <div className="absolute top-3 right-4 bg-white/90 backdrop-blur-sm border border-gray-300 px-3 py-1 flex items-center gap-2 text-[9px] font-black uppercase tracking-widest text-black">
             <Award className="w-3.5 h-3.5 text-[#C8102E]" />
-            <span>LUMAA HOME™ MASTHEAD</span>
+            <span>LUMAA HOME MASTHEAD</span>
           </div>
         </div>
 
@@ -116,7 +116,7 @@ export default function AuthorPage({
                 <span className="text-[9px] font-black uppercase tracking-[0.25em] text-[#C8102E] bg-red-50 border border-red-200 px-2 py-0.5">
                   EDITORIAL CONTRIBUTOR
                 </span>
-                <span className="text-gray-300 hidden sm:inline">•</span>
+                <span className="text-gray-300 hidden sm:inline">|</span>
                 <span className="flex items-center gap-1 text-[10px] font-bold text-gray-500 tracking-wider uppercase">
                   <MapPin className="w-3 h-3 text-gray-400" />
                   {author.location}
@@ -131,11 +131,26 @@ export default function AuthorPage({
                 {author.role}
               </p>
 
+              {author.credentials && (
+                <p className="text-[11px] font-bold uppercase tracking-wider text-[#C8102E]">
+                  {author.credentials}
+                </p>
+              )}
+
               {/* Short Summary */}
               {author.shortDescription && (
                 <p className="text-sm sm:text-base text-[#111111] font-serif leading-relaxed max-w-2xl pt-0.5">
                   {author.shortDescription}
                 </p>
+              )}
+
+              {/* Full Biography */}
+              {Array.isArray(author.fullBio) && author.fullBio.length > 0 && (
+                <div className="space-y-2 pt-2 max-w-2xl text-xs sm:text-sm text-gray-700 leading-relaxed">
+                  {author.fullBio.map((para, idx) => (
+                    <p key={idx}>{para}</p>
+                  ))}
+                </div>
               )}
 
               {/* Specialisation Tags */}
@@ -154,25 +169,45 @@ export default function AuthorPage({
 
               {/* Social Links */}
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs font-bold text-black">
-                <a 
-                  href={author.socials.instagram} 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="inline-flex items-center gap-1 hover:text-black transition"
-                >
-                  <Globe className="w-3.5 h-3.5" />
-                  <span>Instagram</span>
-                </a>
-                <span>•</span>
-                <a 
-                  href={author.socials.linkedin} 
-                  target="_blank" 
-                  rel="noreferrer" 
-                  className="inline-flex items-center gap-1 hover:text-black transition"
-                >
-                  <ExternalLink className="w-3.5 h-3.5" />
-                  <span>LinkedIn</span>
-                </a>
+                {author.socials?.linkedin && (
+                  <a 
+                    href={author.socials.linkedin} 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="inline-flex items-center gap-1 hover:text-[#C8102E] transition"
+                  >
+                    <ExternalLink className="w-3.5 h-3.5" />
+                    <span>LinkedIn Profile</span>
+                  </a>
+                )}
+                {author.socials?.pinterest && (
+                  <>
+                    <span>|</span>
+                    <a 
+                      href={author.socials.pinterest} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="inline-flex items-center gap-1 hover:text-[#C8102E] transition"
+                    >
+                      <Globe className="w-3.5 h-3.5" />
+                      <span>Pinterest Boards</span>
+                    </a>
+                  </>
+                )}
+                {author.socials?.instagram && (
+                  <>
+                    <span>|</span>
+                    <a 
+                      href={author.socials.instagram} 
+                      target="_blank" 
+                      rel="noreferrer" 
+                      className="inline-flex items-center gap-1 hover:text-[#C8102E] transition"
+                    >
+                      <Globe className="w-3.5 h-3.5" />
+                      <span>Instagram</span>
+                    </a>
+                  </>
+                )}
               </div>
             </div>
 
@@ -252,7 +287,7 @@ export default function AuthorPage({
                   {/* Meta */}
                   <div className="flex items-center gap-2 text-[10px] font-bold text-gray-400 uppercase tracking-wider">
                     <span>{art.date}</span>
-                    <span>•</span>
+                    <span>|</span>
                     <span className="text-[#C8102E]">{art.readTime}</span>
                   </div>
 
@@ -271,7 +306,7 @@ export default function AuthorPage({
       <section className="bg-[#FDFBF7] p-8 border border-gray-200 space-y-6 text-center mt-12">
         <div className="space-y-1 max-w-xl mx-auto">
           <span className="text-[10px] font-black uppercase tracking-widest text-[#C8102E] block">
-            THE LUMAA HOME™ MASTHEAD
+            THE LUMAA HOME MASTHEAD
           </span>
           <h3 className="font-serif text-xl sm:text-2xl font-bold text-black uppercase">
             Meet Our Other Masthead Editors
@@ -308,7 +343,7 @@ export default function AuthorPage({
                 </p>
               </div>
               <span className="text-[9px] font-bold uppercase tracking-wider text-black group-hover:text-[#C8102E] underline">
-                VIEW PROFILE →
+                VIEW PROFILE &rarr;
               </span>
             </a>
           ))}

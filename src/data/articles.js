@@ -13,7 +13,7 @@ export const CATEGORIES = [
     "title": "Living Room Interiors and Styling",
     "description": "Sophisticated layouts, chimney breast alcoves, fireplace styling, and warm British palettes for your primary entertaining space.",
     "bannerImage": "https://images.unsplash.com/photo-1617972582658-45dd3162f128?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8Mnx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85",
-    "quote": "The heart of British domestic comfort—balancing historic proportions with contemporary relaxation."
+    "quote": "The heart of British domestic comfort-balancing historic proportions with contemporary relaxation."
   },
   {
     "id": "bedroom",
@@ -62,25 +62,17 @@ export const CATEGORIES = [
     "description": "Expert, step-by-step masterclasses: wall panelling, timber restoration, lime plastering, and furniture revamps.",
     "bannerImage": "https://images.unsplash.com/photo-1719297493418-c5de6988f5e8?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8OHx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85",
     "quote": "Demystifying heritage craft techniques so homeowners can execute high-end architectural upgrades."
-  },
-  {
-    "id": "buying-guides",
-    "name": "Buying Guides",
-    "title": "Curated UK Furniture and Decor Buying Guides",
-    "description": "Critical investment reviews: hardwood sofas, handmade mattresses, heritage paint formulas, and statement lighting.",
-    "bannerImage": "https://images.unsplash.com/photo-1758448755778-90ebf4d0f1e7?ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8OXx8bHV4dXJ5JTIwYnJpdGlzaCUyMGxpdmluZyUyMHJvb20lMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5MzEwNzM1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1600&q=85",
-    "quote": "Informed guidance for investing in pieces that gain character with age rather than succumbing to trends."
   }
 ];
 
 export const ARTICLES = [
   {
-    "id": "choosing-quality-storage-cabinets-living-room-storage-cabine-guide",
-    "title": "Choosing Quality Storage Cabinets Living Room Storage Cabine",
-    "slug": "choosing-quality-storage-cabinets-living-room-storage-cabine",
-    "category": "kitchen",
-    "categoryName": "Kitchen",
-    "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
+    "id": "choosing-quality-living-room-storage-cabinets-guide",
+    "title": "Choosing Quality Living Room Storage Cabinets for UK Homes",
+    "slug": "choosing-quality-living-room-storage-cabinets",
+    "category": "living-room",
+    "categoryName": "Living Room",
+    "categoryLabel": "LIVING SPACES | CABINET SPECIFICATION",
     "author": "Sarah Jenkins",
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
@@ -88,32 +80,32 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "24.8k",
     "isFeatured": true,
-    "excerpt": "Find the best storage cabinets living room storage cabinets for your home interior layout.",
-    "metaDescription": "Transform your British home by choosing durable storage cabinets living room storage cabinets for modern households with practical styling needs.",
-    "heroImage": "https://images.unsplash.com/photo-1636206508343-a6c955887476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGNhYmluZXQlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzkxMjUxNTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1636206508343-a6c955887476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bGl2aW5nJTIwcm9vbSUyMGNhYmluZXQlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzkxMjUxNTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Modern wooden storage cabinets living room storage cabinets placed inside a bright British sitting room",
-    "imageAlt": "Modern wooden storage cabinets living room storage cabinets placed inside a bright British sitting room",
-    "photographer": "nuddle",
-    "photographerUrl": "https://unsplash.com/@nuddle",
+    "excerpt": "Practical joinery advice for selecting freestanding credenzas, alcove cupboards, and solid timber living room storage cabinets for British homes.",
+    "metaDescription": "Transform your British sitting room with durable living room storage cabinets, bespoke alcove joinery, and solid oak sideboards built for daily family life.",
+    "heroImage": "/images/british-living-room-cabinets.jpg",
+    "image": "/images/british-living-room-cabinets.jpg",
+    "heroImageAlt": "Bespoke painted Shaker living room storage cabinets with oak shelving in a British townhouse",
+    "imageAlt": "Bespoke painted Shaker living room storage cabinets with oak shelving in a British townhouse",
+    "photographer": "LUMAA HOME Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk/about",
     "content": [
       {
         "level": "h2",
-        "heading": "Finding the Right Storage Cabinets Living Room Storage Cabinets",
-        "body": "Many British homeowners struggle to keep family sitting spaces tidy and organized throughout the changing seasons. Selecting proper storage cabinets living room storage cabinets helps you hide clutter while improving overall room aesthetics and daily functionality."
+        "heading": "Finding the Right Living Room Storage Cabinets for Your Layout",
+        "body": "Many British homeowners struggle to keep family sitting spaces tidy and organised throughout the changing seasons. Selecting well-proportioned living room storage cabinets helps you conceal everyday clutter while improving architectural balance and daily functionality."
       },
       {
         "level": "h2",
-        "heading": "Measuring Spaces for Storage Cabinets Living Room Storage Cabinets",
-        "body": "Before buying any furniture piece you must measure floor space and ceiling height very carefully. Check clearance zones near internal doors and radiators to ensure your new storage cabinets living room storage cabinets fit the room layout."
+        "heading": "Measuring Alcoves and Wall Clearances Before Ordering",
+        "body": "Before commissioning or buying any cabinet, measure your chimney breast alcoves, skirting board depths, and ceiling height carefully. Check door swing clearances near radiators and walkways so your new sideboard or freestanding cupboard sits comfortably within the room."
       },
       {
         "level": "h2",
-        "heading": "Material Choices for Storage Cabinets Living Room Storage Cabinets",
-        "body": "Solid oak and walnut veneers offer incredible durability for busy households with children and pets. Choosing sturdy materials ensures your storage cabinets living room storage cabinets withstand daily knocks and heavy loads without warping over time.",
-        "image": "https://images.unsplash.com/photo-1560449752-3fd4bdbe7df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c3RvcmFnZSUyMGNhYmluZXRzJTIwbGl2aW5nJTIwcm9vbSUyMHN0b3JhZ2UlMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzkxMjUxNTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Modern storage cabinets living room storage cabinets installation in a British home",
-        "imageCaption": "Practical detailing and surfaces for storage cabinets living room storage cabinets",
+        "heading": "Solid Timber vs Veneered Joinery Materials",
+        "body": "Kiln-dried European oak and crown-cut walnut veneers offer impressive durability for busy households with children and pets. Choosing dense, well-seasoned timber ensures your cabinetry withstands daily knocks and heavy book loads without bowing over time.",
+        "image": "https://images.unsplash.com/photo-1560449752-3fd4bdbe7df0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+        "imageAlt": "Bespoke timber living room sideboard installation in a British home",
+        "imageCaption": "Hand-finished timber doors and solid brass hardware on a bespoke living room credenza",
         "imageCredit": {
           "name": "Francesca Tosolini",
           "link": "https://unsplash.com/@fromitaly"
@@ -121,50 +113,50 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Safety Guidelines for Storage Cabinets Living Room Storage Cabinets",
-        "body": "Wall anchoring is essential when installing tall furniture pieces inside family friendly British living spaces. Follow these key installation steps for complete peace of mind",
+        "heading": "Wall Anchoring and Child-Safe Stability Guidelines",
+        "body": "Wall anchoring is essential when fitting tall bookcases or dressers inside family-friendly British sitting rooms. Follow these key installation checks for lasting peace of mind:",
         "bullets": [
-          "Use heavy duty brackets to secure tall units directly into brick walls",
-          "Distribute heavy books evenly across lower internal shelves for better balance",
-          "Check all wall fixings twice a year to ensure lasting stability"
+          "Use heavy-duty steel L-brackets to anchor tall units directly into solid masonry or timber studs",
+          "Place heavier art books and ceramic platters on lower internal shelves to keep the centre of gravity low",
+          "Inspect wall plugs and levelling feet twice a year to ensure the carcass remains plumb"
         ]
       },
       {
         "level": "h2",
-        "heading": "Maximizing Internal Space in Storage Cabinets Living Room Storage Cabinets",
-        "body": "Adjustable shelving allows you to customize internal compartments according to your specific storage needs. Look for the same solid back panels used in quality [kitchen cabinet design](/mastering-kitchen-cabinets-design-joinery-and-proportion) to prevent the unit from wobbling. Large board games and bulky photo albums fit easily inside deep lower cupboards of storage cabinets living room storage cabinets."
+        "heading": "Maximising Internal Shelving and Concealed Media Routing",
+        "body": "Adjustable brass shelf pins allow you to reconfigure internal compartments as your storage needs evolve. Look for the same rigid 18mm back panels used in quality [kitchen cabinet design](/mastering-kitchen-cabinets-design-joinery-and-proportion) to prevent the unit from wobbling. Pre-drilled cable ports in the rear panel also let you tuck routers and media consoles neatly inside lower cupboards."
       },
       {
         "level": "h2",
-        "heading": "Matching Interior Styles with Storage Cabinets Living Room Storage Cabinets",
-        "body": "Traditional homes often benefit from painted timber finishes featuring classic brass handles and ornate molding details. Contemporary apartments look fantastic with minimalist handleless doors on sleek storage cabinets living room storage cabinets."
+        "heading": "Balancing Cabinet Proportions with Period Living Room Decor",
+        "body": "Victorian and Edwardian reception rooms often suit painted Shaker doors paired with unlacquered brass knobs and traditional plinth detailing. Contemporary flats and open-plan extensions look sharpest with low-slung, handleless credenzas that keep sightlines open."
       },
       {
         "level": "h2",
-        "heading": "Maintenance Tips for Storage Cabinets Living Room Storage Cabinets",
-        "body": "Regular dusting prevents particle buildup on wooden surfaces and keeps finishes looking fresh and vibrant. Treat solid wood panels with nourishing beeswax annually to protect them against dry indoor heating during winter months."
+        "heading": "Long-Term Timber Care and Hardware Maintenance",
+        "body": "Regular dusting with a dry microfibre cloth prevents grit build-up on lacquered or oiled wood surfaces. Treat solid timber tops with natural beeswax polish once a year to nourish the grain against dry central heating during winter."
       }
     ],
     "faqs": [
       {
-        "question": "How do I secure storage cabinets living room storage cabinets safely to drywall",
-        "answer": "Always locate timber studs behind the drywall and use heavy duty toggle anchors for maximum wall stability."
+        "question": "How do I secure tall living room storage cabinets safely to plasterboard walls?",
+        "answer": "Always locate the vertical timber studs behind the plasterboard or use heavy-duty hollow-wall toggle anchors rated for the cabinet weight."
       },
       {
-        "question": "What is the best way to clean wooden storage cabinets living room storage cabinets",
-        "answer": "Wipe surfaces gently using a microfiber cloth dampened with warm water and mild dish soap."
+        "question": "What is the safest way to clean oiled or painted wooden cabinetry?",
+        "answer": "Wipe surfaces gently using a soft microfibre cloth wrung out in warm water with a drop of pH-neutral soap, then buff dry immediately."
       },
       {
-        "question": "Can I paint existing storage cabinets living room storage cabinets myself",
-        "answer": "You can easily update old wooden units by sanding the surfaces and applying durable furniture paint."
+        "question": "Can I repaint existing wooden living room cupboards myself?",
+        "answer": "Yes, lightly abrade the existing finish with 180-grit sandpaper, apply a high-adhesion stain-blocking primer, and finish with two coats of water-based eggshell furniture paint."
       }
     ],
     "tags": [
-      "storage cabinets living room storage cabinets",
-      "Kitchen Design",
+      "Living Room Storage Cabinets",
+      "Living Room Design",
+      "Bespoke Joinery",
       "UK Interior",
-      "Home Renovation",
-      "Practical Design"
+      "Alcove Cabinetry"
     ]
   },
   {
@@ -173,7 +165,7 @@ export const ARTICLES = [
     "slug": "bringing-bright-summer-flowers-into-your-british-home",
     "category": "interiors",
     "categoryName": "Interiors",
-    "categoryLabel": "INTERIOR DESIGN • MATERIAL CRAFT",
+    "categoryLabel": "INTERIOR DESIGN | MATERIAL CRAFT",
     "author": "Eleanor Vance",
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
@@ -254,15 +246,19 @@ export const ARTICLES = [
       "UK Interior",
       "Home Renovation",
       "Practical Design"
+    ],
+    "secondaryCategories": [
+      "living-room",
+      "bedroom"
     ]
   },
   {
     "id": "choosing-and-fitting-modern-lt-kitchen-cabinets-today-guide",
-    "title": "Choosing and Fitting Modern LT Kitchen Cabinets Today",
+    "title": "Choosing and Fitting Modern Kitchen Cabinets Today",
     "slug": "choosing-and-fitting-modern-lt-kitchen-cabinets-today",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
+    "categoryLabel": "KITCHEN DESIGN | CABINET SPECIFICATION",
     "author": "Sarah Jenkins",
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
@@ -270,32 +266,32 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "16.1k",
     "isFeatured": false,
-    "excerpt": "Expert advice on choosing and fitting durable lt kitchen cabinets for modern British homes.",
-    "metaDescription": "Explore expert guidance on choosing and fitting practical lt kitchen cabinets for your home with advice from LUMAA HOME specialists today.",
+    "excerpt": "Expert advice on choosing and fitting durable modern kitchen cabinets and modular carcasses for British homes.",
+    "metaDescription": "Practical guidance on choosing and fitting modern kitchen cabinets, moisture-resistant carcasses, and soft-close hardware for UK homes.",
     "heroImage": "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGNhYmluZXRzJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc5MDkwMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1602028915047-37269d1a73f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwa2l0Y2hlbiUyMGNhYmluZXRzJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc5MDkwMzA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Modern fitted kitchen showcasing high quality lt kitchen cabinets in a bright family home",
-    "imageAlt": "Modern fitted kitchen showcasing high quality lt kitchen cabinets in a bright family home",
+    "heroImageAlt": "Modern fitted kitchen showcasing high quality modern kitchen cabinets in a bright family home",
+    "imageAlt": "Modern fitted kitchen showcasing high quality modern kitchen cabinets in a bright family home",
     "photographer": "Lotus Design N Print",
     "photographerUrl": "https://unsplash.com/@lotusdnp",
     "content": [
       {
         "level": "h2",
-        "heading": "Why British Homeowners Prefer LT Kitchen Cabinets",
-        "body": "Many homeowners across the United Kingdom search for reliable storage solutions that withstand daily cooking routines and frequent family use. Selecting proper lt kitchen cabinets ensures your culinary space remains tidy while offering robust structural integrity throughout years of heavy meal preparation.\n\nModern living demands furniture that blends aesthetic appeal with genuine everyday utility. These specific units provide ample internal volume for cookware and provisions while maintaining a sleek exterior profile that complements both traditional Victorian properties and new build apartments."
+        "heading": "Why British Homeowners Prefer Modern Fitted Kitchen Cabinets",
+        "body": "Many homeowners across the United Kingdom search for reliable storage solutions that withstand daily cooking routines and frequent family use. Selecting proper modern fitted kitchen cabinets ensures your culinary space remains tidy while offering robust structural integrity throughout years of heavy meal preparation.\n\nModern living demands furniture that blends aesthetic appeal with genuine everyday utility. These specific units provide ample internal volume for cookware and provisions while maintaining a sleek exterior profile that complements both traditional Victorian properties and new build apartments."
       },
       {
         "level": "h2",
         "heading": "Evaluating Practical Space and Layout Requirements",
-        "body": "Before purchasing new storage units for your cooking space, measuring available wall dimensions accurately prevents costly fitting mistakes. Taking precise notes on ceiling heights and corner angles helps you select lt kitchen cabinets that align perfectly with existing plumbing and electrical sockets.\n\nWorking within compact urban flats or spacious rural houses requires careful planning regarding door swings and walkway clearances. Ensuring adequate room for opening drawers prevents frustrating blockages when multiple family members share the cooking zone during busy evening meal times."
+        "body": "Before purchasing new storage units for your cooking space, measuring available wall dimensions accurately prevents costly fitting mistakes. Taking precise notes on ceiling heights and corner angles helps you select modern fitted kitchen cabinets that align perfectly with existing plumbing and electrical sockets.\n\nWorking within compact urban flats or spacious rural houses requires careful planning regarding door swings and walkway clearances. Ensuring adequate room for opening drawers prevents frustrating blockages when multiple family members share the cooking zone during busy evening meal times."
       },
       {
         "level": "h2",
         "heading": "Selecting Durable Materials for Everyday Kitchen Life",
-        "body": "Kitchen environments experience high humidity levels and frequent temperature fluctuations from boiling kettles and steaming ovens. Choosing sturdy timber veneers or moisture resistant composite panels for your lt kitchen cabinets guarantees long lasting performance against warping and surface peeling.\n\nQuality hardware components such as hinges and drawer runners deserve equal attention during the selection process. Robust metal fixings ensure doors close quietly and securely every single time without sagging after months of repeated opening and closing actions.",
+        "body": "Kitchen environments experience high humidity levels and frequent temperature fluctuations from boiling kettles and steaming ovens. Choosing sturdy timber veneers or moisture resistant composite panels for your modern fitted kitchen cabinets guarantees long lasting performance against warping and surface peeling.\n\nQuality hardware components such as hinges and drawer runners deserve equal attention during the selection process. Robust metal fixings ensure doors close quietly and securely every single time without sagging after months of repeated opening and closing actions.",
         "image": "https://images.unsplash.com/photo-1631048498692-af6262577031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHQlMjBraXRjaGVuJTIwY2FiaW5ldHN8ZW58MHwwfHx8MTc5MDkwMzA3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Modern lt kitchen cabinets installation in a British home",
-        "imageCaption": "Practical detailing and surfaces for lt kitchen cabinets",
+        "imageAlt": "Modern modern kitchen cabinets installation in a British home",
+        "imageCaption": "Practical detailing and surfaces for modern kitchen cabinets",
         "imageCredit": {
           "name": "Point3D Commercial Imaging Ltd.",
           "link": "https://unsplash.com/@3dottawa"
@@ -315,17 +311,17 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Daily Maintenance Habits for Lasting Surface Beauty",
-        "body": "Keeping your culinary workspace looking pristine involves simple daily wiping routines using mild soapy water and soft cloths. Avoiding harsh abrasive cleaners protects the protective finish on your lt kitchen cabinets from premature fading and accidental chemical staining over time.\n\nAddressing accidental liquid spills immediately prevents moisture penetration along vulnerable edge banding joints. Regular inspection of door handles and moving parts ensures small loose screws get tightened promptly before causing permanent damage to surrounding panel materials."
+        "body": "Keeping your culinary workspace looking pristine involves simple daily wiping routines using mild soapy water and soft cloths. Avoiding harsh abrasive cleaners protects the protective finish on your modern fitted kitchen cabinets from premature fading and accidental chemical staining over time.\n\nAddressing accidental liquid spills immediately prevents moisture penetration along vulnerable edge banding joints. Regular inspection of door handles and moving parts ensures small loose screws get tightened promptly before causing permanent damage to surrounding panel materials."
       },
       {
         "level": "h2",
         "heading": "Enhancing Interior Organization and Storage Efficiency",
-        "body": "Maximizing the internal capacity of your storage units transforms a cluttered cooking area into an organized culinary haven. Adding pull out wire baskets or adjustable shelving inside lt kitchen cabinets allows you to reach everyday spices and heavy pots without awkward stretching.\n\nThoughtful arrangement of utensils based on frequency of use speeds up meal preparation significantly during frantic weekday evenings. Utilizing clear plastic storage boxes inside deep drawers keeps smaller baking accessories neat and easily visible to every member of the household."
+        "body": "Maximizing the internal capacity of your storage units transforms a cluttered cooking area into an organized culinary haven. Adding pull out wire baskets or adjustable shelving inside modern fitted kitchen cabinets allows you to reach everyday spices and heavy pots without awkward stretching.\n\nThoughtful arrangement of utensils based on frequency of use speeds up meal preparation significantly during frantic weekday evenings. Utilizing clear plastic storage boxes inside deep drawers keeps smaller baking accessories neat and easily visible to every member of the household."
       }
     ],
     "faqs": [
       {
-        "question": "What tools are needed to install lt kitchen cabinets",
+        "question": "What tools are needed to install modern kitchen cabinets",
         "answer": "You will need a spirit level cordless drill tape measure and appropriate wall fixings for your specific wall type."
       },
       {
@@ -338,11 +334,14 @@ export const ARTICLES = [
       }
     ],
     "tags": [
-      "lt kitchen cabinets",
+      "Modern Kitchen Cabinets",
       "Kitchen Design",
       "UK Interior",
       "Home Renovation",
-      "Practical Design"
+      "Cabinet Fitting"
+    ],
+    "secondaryCategories": [
+      "diy"
     ]
   },
   {
@@ -351,7 +350,7 @@ export const ARTICLES = [
     "slug": "mastering-fablon-sticky-plastic-for-british-homes",
     "category": "diy",
     "categoryName": "DIY",
-    "categoryLabel": "WORKSHOP SPACES • RESTORATION CRAFT",
+    "categoryLabel": "WORKSHOP SPACES | RESTORATION CRAFT",
     "author": "Sarah Jenkins",
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
@@ -440,7 +439,7 @@ export const ARTICLES = [
     "slug": "choosing-the-best-outdoor-log-burner-for-your-garden",
     "category": "garden",
     "categoryName": "Garden",
-    "categoryLabel": "GARDEN LIVING • OUTDOOR SPECIFICATION",
+    "categoryLabel": "GARDEN LIVING | OUTDOOR SPECIFICATION",
     "author": "Oliver Sinclair",
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
@@ -450,16 +449,16 @@ export const ARTICLES = [
     "isFeatured": false,
     "excerpt": "Master selecting and maintaining an efficient outdoor log burner for your garden patio space with expert British trade advice.",
     "metaDescription": "Learn expert advice on selecting the best outdoor log burner for your garden space, ensuring lasting warmth, safety clearances, and winter durability.",
-    "heroImage": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1653223643195-4024487a350a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMHdvb2QlMjBidXJuZXIlMjBwYXRpb3xlbnwwfDB8fHwxNzkwNTUzNDEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImage": "/images/british-garden-log-burner.jpg",
+    "image": "/images/british-garden-log-burner.jpg",
     "heroImageAlt": "Black cast iron outdoor log burner glowing warmly on a paved patio surrounded by green foliage",
     "imageAlt": "Black cast iron outdoor log burner glowing warmly on a paved patio surrounded by green foliage",
-    "photographer": "Sung Jin Cho",
-    "photographerUrl": "https://unsplash.com/@mbuff",
+    "photographer": "LUMAA HOME Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk/about",
     "content": [
       {
         "level": "h2",
-        "heading": "Selecting Heavy Gauge Metals for an Outdoor Log Burner",
+        "heading": "Selecting Heavy-Gauge Metals for Garden Stoves",
         "body": "When designing a warm garden seating area, choosing the correct metal thickness makes all the difference. Thin sheet steel often warps within single seasons of intense burning, while heavy gauge materials resist extreme thermal expansion effortlessly.\n\nAs an experienced craftsman, I always advise homeowners to inspect the wall thickness before purchasing any heating unit. A quality outdoor log burner demands sturdy engineering to trap thermal energy efficiently."
       },
       {
@@ -469,7 +468,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Flue Height and Smoke Dispersion for Your Outdoor Log Burner",
+        "heading": "Flue Height and Smoke Dispersion in Enclosed Patios",
         "body": "Proper drafting relies entirely on adequate chimney height to pull fresh oxygen into the firebox efficiently. A well engineered flue creates a strong upward draft that feeds the flames and encourages complete combustion.\n\nPoorly designed units without proper chimneys often dump smoke directly into the faces of seated guests. Investing in a taller vertical pipe transforms your outdoor log burner into a clean operating appliance.",
         "image": "https://images.unsplash.com/photo-1775377617218-f7a3e6c8499e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8b3V0ZG9vciUyMGxvZyUyMGJ1cm5lcnxlbnwwfDB8fHwxNzkwNTUzNDE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Modern outdoor log burner installation in a British home",
@@ -486,7 +485,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Patio Ground Clearances and Heat Shielding for an Outdoor Log Burner",
+        "heading": "Patio Ground Clearances and Non-Combustible Hearth Slabs",
         "body": "Intense radiant heat directed downwards can easily crack delicate natural stone paving or scorch underlying timber foundations. Maintaining correct vertical and horizontal clearances protects your costly patio investments from permanent thermal damage.\n\nInsulated floor protection pads absorb stray embers and block intense thermal radiation effectively. Positioning certified non combustible hearth slabs beneath your metal appliance prevents costly discoloration and heat cracking across expensive natural stone patio flags."
       },
       {
@@ -502,7 +501,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Choosing Efficient Hardwood Fuels for an Outdoor Log Burner",
+        "heading": "Choosing Kiln-Dried Hardwood Fuels for Clean Combustion",
         "body": "Burning damp wood creates thick creosote deposits that ruin the interior of your chimney flue rapidly. Wet logs waste immense amounts of thermal energy boiling trapped water out of the timber structure before producing actual flames.\n\nPremium hardwood logs burn hotter, cleaner, and longer than soft alternatives available at garden centres. Your outdoor log burner reaches optimal operating temperatures much faster when fed with dense wood."
       },
       {
@@ -512,7 +511,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Essential Winter Weather Protection and Maintenance for an Outdoor Log Burner",
+        "heading": "Winter Weather Protection and Corrosion Prevention",
         "body": "Leaving metal heating units exposed to freezing rain and snow accelerates rust formation across vulnerable exterior surfaces. Taking preventative measures during off seasons extends the operational lifespan of your garden investment significantly.\n\nApplying a specialist high temperature coating helps shield exposed steel components from atmospheric moisture damage. A well maintained outdoor log burner always stands ready to deliver instant radiant warmth whenever unexpected cold snaps strike your local neighbourhood."
       },
       {
@@ -549,7 +548,7 @@ export const ARTICLES = [
     "slug": "crafting-a-stunning-garden-with-borders-across-britain",
     "category": "garden",
     "categoryName": "Garden",
-    "categoryLabel": "GARDEN LIVING • OUTDOOR SPECIFICATION",
+    "categoryLabel": "GARDEN LIVING | OUTDOOR SPECIFICATION",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
@@ -568,7 +567,7 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Understanding British Installation Zones For Your Garden With Borders",
+        "heading": "Planning Sun, Shade, and Soil Aspect for Garden Borders",
         "body": "Establishing a successful outdoor scheme requires careful analysis of local soil conditions and microclimates across the British Isles. Every regional property faces distinct challenges regarding moisture levels, frost exposure, and wind patterns during the changing seasons.",
         "bullets": [
           "Southern regions experience milder winters and drier summers, allowing tender perennials to thrive in well drained soils.",
@@ -578,12 +577,12 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Comparing Materials For Your Garden With Borders",
+        "heading": "Comparing Stone, Corten Steel, and Timber Border Edging",
         "body": "Choosing the right edging material dictates the overall longevity and aesthetic appeal of your planting beds. Natural stone offers organic charm while manufactured alternatives provide exceptional durability against frost damage and heavy foot traffic during damp winter months."
       },
       {
         "level": "h2",
-        "heading": "Surrounding Materials And Garden Finishes",
+        "heading": "Balancing Lawn Transitions and Gravel Pathways",
         "body": "Paving slabs surrounding your planting beds should complement the chosen edging material to maintain a cohesive outdoor aesthetic. Selecting durable paving flags prevents weed ingress and provides a stable walkway for routine maintenance tasks throughout the year.",
         "image": "https://images.unsplash.com/photo-1706450186286-a7a520c345e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z2FyZGVuJTIwd2l0aCUyMGJvcmRlcnN8ZW58MHwwfHx8MTc5MDM4MTM0OHww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Modern garden with borders installation in a British home",
@@ -595,7 +594,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Step By Step Setup And Fitting Sequence For A Garden With Borders",
+        "heading": "Step-by-Step Soil Preparation and Edging Installation",
         "body": "Following a structured installation process ensures your new planting scheme remains stable and weed free for decades. Taller architectural grasses like those seen in [London sky garden spaces](/sky-garden-london-principles-for-elevated-botanical-spaces) work well at the back of the border to screen off neighbours.",
         "bullets": [
           "Mark out the desired bed shapes using bright garden twine and flexible canes to visualise curves.",
@@ -606,13 +605,13 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Routine Care And Seasonal Protection",
+        "heading": "Seasonal Mulching, Dividing Perennials, and Frost Care",
         "body": "Regular upkeep keeps your outdoor beds looking pristine while protecting delicate flora from extreme weather conditions. Applying organic mulch suppresses weed growth and retains vital soil moisture during dry spells without requiring excessive manual watering."
       },
       {
         "level": "h2",
-        "heading": "Final Summary And Selection Advice For A Garden With Borders",
-        "body": "Designing a thriving garden with borders requires thoughtful consideration of local weather patterns, material durability, and ongoing maintenance commitments.\n\nBy selecting quality edgings and nutritious soils suited to your specific British region, you create a robust outdoor space that delivers year round visual appeal, robust structural integrity, and immense personal satisfaction for many seasons to come."
+        "heading": "Final Planting Structure and Year-Round Colour Advice",
+        "body": "Designing a thriving herbaceous border layout requires thoughtful consideration of local weather patterns, material durability, and ongoing maintenance commitments.\n\nBy selecting quality edgings and nutritious soils suited to your specific British region, you create a robust outdoor space that delivers year round visual appeal, robust structural integrity, and immense personal satisfaction for many seasons to come."
       }
     ],
     "faqs": [
@@ -643,7 +642,7 @@ export const ARTICLES = [
     "slug": "choosing-practical-drawers-in-the-kitchen-space",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "KITCHEN DESIGN • CABINET SPECIFICATION",
+    "categoryLabel": "KITCHEN DESIGN | CABINET SPECIFICATION",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Kitchen Fitter and Residential Renovation Specialist",
@@ -662,7 +661,7 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Choosing Deep Pan Drawers in the Kitchen for Heavy Cookware",
+        "heading": "Choosing Deep Pan Drawers for Heavy Cast-Iron Cookware",
         "body": "Modern fitted units require robust storage solutions for large pots and pans. Deep pan choices utilise full extension runners so you access every single item easily without bending down or reaching into dark awkward corner base units."
       },
       {
@@ -672,7 +671,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Soft Close Runners for Modern Drawers in the Kitchen",
+        "heading": "Soft-Close Undermount Runners and Load Ratings",
         "body": "Sliding mechanisms dictate the longevity of your fitted cabinetry. Hydraulic dampening technology ensures doors and storage compartments glide shut silently every time, preventing slamming impacts that weaken joints across busy family cooking zones daily."
       },
       {
@@ -682,7 +681,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Metal Box Sides Versus Laminated Drawers in the Kitchen",
+        "heading": "Twin-Wall Metal Sides vs Solid Timber Drawer Boxes",
         "body": "Contemporary kitchen ranges rely heavily on powder coated steel sides instead of traditional boards. These engineered metal frames offer superior structural rigidity, thinner profiles for extra internal storage width, and straightforward clip on front fixings."
       },
       {
@@ -692,7 +691,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Organising Everyday Utensil Drawers in the Kitchen",
+        "heading": "Organising Everyday Cutlery and Utensil Dividers",
         "body": "When planning [kitchen cabinet joinery](/mastering-kitchen-cabinets-design-joinery-and-proportion), wide cutlery drawers work best when fitted directly under the main food preparation counter. Shallow compartments hold cutlery and small gadgets safely near your preparation zones. Smart internal layout planning stops clutter from building up, ensuring spatulas and knives stay neatly separated and instantly available during fast meal prep sessions."
       },
       {
@@ -702,7 +701,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Planning Clearances for Opening Drawers in the Kitchen",
+        "heading": "Planning Walkway and Corner Clearances for Pull-Out Units",
         "body": "Spatial layout design prevents handle clashes between adjacent units and appliances. Careful installation planning ensures pullouts extend fully without striking dishwasher doors or oven handles, keeping your workspace functional and completely safe during busy hours.",
         "image": "https://images.unsplash.com/photo-1713514023762-b3995318dc94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8ZHJhd2VycyUyMGluJTIwdGhlJTIwa2l0Y2hlbnxlbnwwfDB8fHwxNzkwMjk0Mzc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Modern drawers in the kitchen installation in a British home",
@@ -724,7 +723,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "How to Align and Adjust Sagging Drawers in the Kitchen",
+        "heading": "How to Align and Adjust Drawer Fronts on Cam Screws",
         "body": "Fitted furniture often requires minor alignment tweaks after settling into place. Integrated cam adjustment screws let you correct gaps quickly using just a standard screwdriver, restoring perfect panel levels without removing the entire sliding box."
       }
     ],
@@ -752,11 +751,11 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-the-best-fire-pit-out-for-your-english-garden-guide",
-    "title": "Choosing The Best Fire Pit Out For Your English Garden",
+    "title": "Choosing the Best Outdoor Fire Pit for Your English Garden",
     "slug": "choosing-the-best-fire-pit-out-for-your-english-garden",
     "category": "garden",
     "categoryName": "Garden",
-    "categoryLabel": "GARDEN LIVING • OUTDOOR SPECIFICATION",
+    "categoryLabel": "GARDEN LIVING | OUTDOOR SPECIFICATION",
     "author": "Oliver Sinclair",
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
@@ -764,18 +763,18 @@ export const ARTICLES = [
     "readTime": "8 min read",
     "views": "15.4k",
     "isFeatured": false,
-    "excerpt": "Learn how to choose the absolute finest metal and smokeless fire pit out for your traditional British garden space today.",
-    "metaDescription": "Master choosing the ideal fire pit out for your British garden using durable Corten steel, smokeless airflow engineering, and safe patio clearance distances.",
+    "excerpt": "Learn how to choose the finest Corten steel, cast iron, or smokeless outdoor fire pit for your British garden patio.",
+    "metaDescription": "Master choosing the ideal outdoor fire pit for your British garden using durable Corten steel, smokeless airflow engineering, and safe patio clearances.",
     "heroImage": "https://images.unsplash.com/photo-1778439916499-9d11193169e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwZ2FyZGVuJTIwZmlyZSUyMHBpdHxlbnwwfDB8fHwxNzkwMjA3Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "image": "https://images.unsplash.com/photo-1778439916499-9d11193169e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bW9kZXJuJTIwZ2FyZGVuJTIwZmlyZSUyMHBpdHxlbnwwfDB8fHwxNzkwMjA3Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "A stylish metal fire pit out on a paved patio surrounded by garden seating",
-    "imageAlt": "A stylish metal fire pit out on a paved patio surrounded by garden seating",
+    "heroImageAlt": "A stylish metal outdoor fire pit on a paved patio surrounded by garden seating",
+    "imageAlt": "A stylish metal outdoor fire pit on a paved patio surrounded by garden seating",
     "photographer": "Margo Evardson",
     "photographerUrl": "https://unsplash.com/@stadinstudio",
     "content": [
       {
         "level": "h2",
-        "heading": "Selecting Durable Weatherproof Metals for a Fire Pit Out",
+        "heading": "Selecting Durable Weatherproof Metals for an Outdoor Fire Pit",
         "body": "British weather demands robust outdoor materials that endure constant rain and moisture without failing. Selecting the right metal ensures your investment lasts for decades while looking stunning during frosty autumn evenings across your garden landscape."
       },
       {
@@ -795,10 +794,10 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Patio Clearances and Safe Ground Placement for a Fire Pit Out",
+        "heading": "Patio Clearances and Safe Ground Placement on Stone Slabs",
         "body": "Placing your heating unit safely upon the patio requires careful planning to protect surrounding landscaping features. Follow these clear spacing rules before lighting any fire to ensure total safety for your property and visiting guests.",
         "image": "https://images.unsplash.com/photo-1598833775803-99eea89ad6a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8ZmlyZSUyMHBpdCUyMG91dHxlbnwwfDB8fHwxNzkwMjA3Nzk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Modern fire pit out installation in a British garden setting",
+        "imageAlt": "Modern outdoor fire pit installation in a British garden setting",
         "imageCaption": "Careful ground clearances and durable metal craftsmanship ensure safe patio warmth",
         "imageCredit": {
           "name": "R.D. Smith",
@@ -817,7 +816,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Efficient Seasoned Hardwood Fuels for Your Fire Pit Out",
+        "heading": "Seasoned Hardwood Fuels for Low-Smoke Garden Fires",
         "body": "Selecting proper firewood transforms a mediocre outdoor experience into a roaring success with minimal effort. Burning the right timber products reduces residue buildup inside your metal appliance and guarantees a steady, beautiful golden flame."
       },
       {
@@ -837,7 +836,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Final Practical Guidance When Buying a Fire Pit Out",
+        "heading": "Final Practical Checklist When Buying a Garden Fire Bowl",
         "body": "Buying quality equipment saves money over time by avoiding cheap alternatives that rust through within single seasons. Measure your available patio space carefully and select a robust design that complements your personal outdoor lifestyle preferences wonderfully."
       }
     ],
@@ -856,11 +855,11 @@ export const ARTICLES = [
       }
     ],
     "tags": [
-      "fire pit out",
+      "Outdoor Fire Pit",
       "Garden Design",
-      "UK Interior",
-      "Home Renovation",
-      "Practical Design"
+      "Patio Heating",
+      "UK Gardens",
+      "Corten Steel"
     ]
   },
   {
@@ -869,7 +868,7 @@ export const ARTICLES = [
     "slug": "applying-self-adhesive-wall-tiles-in-modern-british-homes",
     "category": "diy",
     "categoryName": "DIY",
-    "categoryLabel": "HERITAGE RESTORATION • CRAFTSMANSHIP MASTERCLASS",
+    "categoryLabel": "HERITAGE RESTORATION | CRAFTSMANSHIP MASTERCLASS",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
@@ -951,7 +950,7 @@ export const ARTICLES = [
       }
     ],
     "tags": [
-      "self adhesive wall tiles​",
+      "self adhesive wall tiles",
       "Luxury DIY",
       "UK Interior",
       "Architectural Joinery",
@@ -964,7 +963,7 @@ export const ARTICLES = [
     "slug": "inspiring-home-interior-design-ideas-for-british-properties",
     "category": "interiors",
     "categoryName": "Interiors",
-    "categoryLabel": "ARCHITECTURAL DESIGN • MATERIAL PURITY",
+    "categoryLabel": "ARCHITECTURAL DESIGN | MATERIAL PURITY",
     "author": "Oliver Sinclair",
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
@@ -1084,6 +1083,10 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "living-room",
+      "bedroom"
     ]
   },
   {
@@ -1092,7 +1095,7 @@ export const ARTICLES = [
     "slug": "how-to-choose-a-master-bedroom-chair-for-timeless-comfort",
     "category": "bedroom",
     "categoryName": "Bedroom",
-    "categoryLabel": "SANCTUARY SUITES • BESPOKE JOINERY SPECIFICATION",
+    "categoryLabel": "SANCTUARY SUITES | BESPOKE JOINERY SPECIFICATION",
     "author": "Sarah Jenkins",
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
@@ -1102,12 +1105,12 @@ export const ARTICLES = [
     "isFeatured": false,
     "excerpt": "A bespoke bedroom chair elevates private suite design by combining tailored ergonomics with acoustic dampening fabrics and solid hardwood joinery.",
     "metaDescription": "A master bedroom chair requires exact ergonomic proportions, solid hardwood joinery, and premium acoustic dampening fabric for true comfort.",
-    "heroImage": "https://images.unsplash.com/photo-1489269637500-aa0e75768394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVkcm9vbSUyMGNoYWlyJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTk4NDAxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1489269637500-aa0e75768394?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVkcm9vbSUyMGNoYWlyJTIwaW50ZXJpb3J8ZW58MHwwfHx8MTc4OTk4NDAxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImage": "/images/british-bedroom-chair-nook.jpg",
+    "image": "/images/british-bedroom-chair-nook.jpg",
     "heroImageAlt": "A classic master bedroom chair placed beside a tall window with soft curtains and natural timber floorboards",
     "imageAlt": "A classic master bedroom chair placed beside a tall window with soft curtains and natural timber floorboards",
-    "photographer": "Andres Jasso",
-    "photographerUrl": "https://unsplash.com/@andresjasso",
+    "photographer": "LUMAA HOME Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk/about",
     "content": [
       {
         "level": "h2",
@@ -1187,6 +1190,9 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "interiors"
     ]
   },
   {
@@ -1195,7 +1201,7 @@ export const ARTICLES = [
     "slug": "how-to-choose-the-best-kitchen-bin-for-built-in-cabinets",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "categoryLabel": "CULINARY ARCHITECTURE | BESPOKE CABINETRY",
     "author": "Eleanor Vance",
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
@@ -1308,7 +1314,7 @@ export const ARTICLES = [
     "slug": "choosing-a-high-specification-garden-storage-box-for-timber",
     "category": "garden",
     "categoryName": "Garden",
-    "categoryLabel": "LANDSCAPE ARCHITECTURE • BRITISH OUTDOOR LIVING",
+    "categoryLabel": "LANDSCAPE ARCHITECTURE | BRITISH OUTDOOR LIVING",
     "author": "Eleanor Vance",
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
@@ -1416,7 +1422,7 @@ export const ARTICLES = [
     "slug": "how-to-layer-living-room-lights-for-warm-architectural-depth",
     "category": "living-room",
     "categoryName": "Living Room",
-    "categoryLabel": "ENTERTAINING SPACES • ARCHITECTURAL PROPORTIONS",
+    "categoryLabel": "ENTERTAINING SPACES | ARCHITECTURAL PROPORTIONS",
     "author": "Sarah Jenkins",
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
@@ -1511,6 +1517,9 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "interiors"
     ]
   },
   {
@@ -1519,7 +1528,7 @@ export const ARTICLES = [
     "slug": "mastering-kitchen-cabinets-design-joinery-and-proportion",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "categoryLabel": "CULINARY ARCHITECTURE | BESPOKE CABINETRY",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
@@ -1529,12 +1538,12 @@ export const ARTICLES = [
     "isFeatured": false,
     "excerpt": "A practical guide to designing, specifying, and maintaining high-performance kitchen cabinets using authentic timber joinery and British architectural standards.",
     "metaDescription": "Examine structural timber, precision joinery, and custom measurements for enduring kitchen cabinets crafted for modern British homes in U...",
-    "heroImage": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGtpdGNoZW4lMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzg5ODA2MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1729850697938-2ecbec622dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YmVzcG9rZSUyMGtpdGNoZW4lMjBjYWJpbmV0c3xlbnwwfDB8fHwxNzg5ODA2MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImage": "/images/oak-worktop-joinery.jpg",
+    "image": "/images/oak-worktop-joinery.jpg",
     "heroImageAlt": "Custom oak and hand painted kitchen cabinets featuring brass hardware and solid timber drawer joinery in an architectural British home",
     "imageAlt": "Custom oak and hand painted kitchen cabinets featuring brass hardware and solid timber drawer joinery in an architectural British home",
-    "photographer": "Ambitious Studio* | Rick Barrett",
-    "photographerUrl": "https://unsplash.com/@weareambitious",
+    "photographer": "LUMAA HOME Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk/about",
     "content": [
       {
         "level": "h2",
@@ -1627,7 +1636,7 @@ export const ARTICLES = [
     "slug": "finding-the-ideal-3-bedroom-house-for-rent-in-britain",
     "category": "bedroom",
     "categoryName": "Bedroom",
-    "categoryLabel": "SANCTUARY SUITES • BESPOKE JOINERY SPECIFICATION",
+    "categoryLabel": "SANCTUARY SUITES | BESPOKE JOINERY SPECIFICATION",
     "author": "Oliver Sinclair",
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
@@ -1730,7 +1739,7 @@ export const ARTICLES = [
     "slug": "stunning-transformations-using-stick-on-bathroom-tiles",
     "category": "bathroom",
     "categoryName": "Bathroom",
-    "categoryLabel": "BATHROOM DESIGN • TILE SPECIFICATION AND INSTALLATION",
+    "categoryLabel": "BATHROOM DESIGN | TILE SPECIFICATION AND INSTALLATION",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
@@ -1810,6 +1819,9 @@ export const ARTICLES = [
       "UK Home Renovation",
       "Splashback Design",
       "Waterproof Wall Panels"
+    ],
+    "secondaryCategories": [
+      "diy"
     ]
   },
   {
@@ -1818,7 +1830,7 @@ export const ARTICLES = [
     "slug": "floor-lamps-for-living-room-layouts-architectural-guide",
     "category": "living-room",
     "categoryName": "Living Room",
-    "categoryLabel": "ENTERTAINING SPACES • ARCHITECTURAL PROPORTIONS",
+    "categoryLabel": "ENTERTAINING SPACES | ARCHITECTURAL PROPORTIONS",
     "author": "Eleanor Vance",
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
@@ -1837,17 +1849,17 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Best Floor Lamps for Living Room Layouts and Seating Zones",
+        "heading": "Selecting Floor Lamp Proportions for Living Room Seating Zones",
         "body": "Positioning living room floor lamps correctly transforms open plan spaces into cozy seating zones by defining boundaries without blocking foot traffic. We always recommend evaluating your furniture placement before selecting fixtures to ensure the illumination enhances the room layout.\n\nSelecting the right height prevents glare while seated and ensures the light spreads evenly across side tables. Aim for a total fitting height where the bottom of the shade sits around eye level when you are relaxed on the sofa."
       },
       {
         "level": "h3",
-        "heading": "Placing Living Room Floor Lamps Beside Sofas and Armchairs",
+        "heading": "Positioning Reading Lamps Beside Sofas and Armchairs",
         "body": "Placing a reading light beside an armchair requires careful positioning to avoid awkward shadows falling across your book or tablet screen. Position the stem slightly behind and to the side of the seat for optimal reading conditions.\n\nTo finish your scheme, follow our practical rules on [how to layer living room lights](/how-to-layer-living-room-lights-for-warm-architectural-depth) so your ceiling pendants and reading lamps work on separate switches. Leave a gap of roughly three hundred millimetres between the sofa arm and the lamp base to prevent accidental bumps. This clearance protects the fitting and keeps your living room layout feeling open and spacious rather than cluttered."
       },
       {
         "level": "h2",
-        "heading": "Arc versus Tripod Floor Lamps for Living Room Proportions",
+        "heading": "Arc vs Tripod Silhouettes for High and Low Ceilings",
         "body": "Arc fixtures work brilliantly over large coffee tables by bringing overhead illumination directly into the centre of a seating group without requiring ceiling wiring. Make sure the heavy base sits firmly on solid flooring rather than deep pile carpets.\n\nTripod alternatives offer wonderful stability and occupy a wider triangular footprint that suits spacious contemporary rooms. They distribute visual weight evenly across the corner, making them ideal for balancing heavy sectional sofas on the opposite side."
       },
       {
@@ -1857,29 +1869,29 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Safe Floor Lamp Cable Routing for Living Room Floors",
+        "heading": "Discreet Cable Routing Across Timber Floors and Rugs",
         "body": "Exposed flex across walkways creates severe tripping hazards that violate basic interior safety standards in busy family homes. Always plan your furniture layouts around existing wall sockets or use rubber floor channels to conceal trailing wires safely.\n\nChoose models featuring heavy weighted bases that weigh at least fifteen kilograms if you have pets or small children running about. This added mass prevents the pole from tipping over easily if someone catches the fabric cord by mistake.",
         "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Zmxvb3IlMjBsYW1wcyUyMGZvciUyMGxpdmluZyUyMHJvb20lMjBkZXRhaWxzfGVufDB8MHx8fDE3ODk3MjA3MTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Turned solid brass joint and woven fabric cable on a floor lamp",
         "imageCaption": "Solid brass details and fabric cable offer durable performance",
         "imageCredit": {
-          "name": "Naomi Hébert",
+          "name": "Naomi Hebert",
           "link": "https://unsplash.com/@naomish"
         }
       },
       {
         "level": "h2",
-        "heading": "Choosing Living Room Floor Lamp Shades to Prevent Glare",
+        "heading": "Choosing Linen and Parchment Shades to Eliminate Glare",
         "body": "Fabric shades crafted from linen or heavy cotton diffuse harsh LED glare into a soft ambient glow that flatters interior finishes. Avoid translucent plastics that expose the bright bulb directly to anyone sitting across the room from the fitting.\n\nWhite or cream interior linings inside dark outer shades maximize light reflection while maintaining a dramatic exterior colour statement. Match the shade proportions to the room scale, ensuring large drums do not overwhelm slender brass stems."
       },
       {
         "level": "h2",
-        "heading": "Using Floor Lamps to Brighten Dark Living Room Corners",
+        "heading": "Washing Dark Alcoves and Corners with Warm 2700K Light",
         "body": "Dark architectural corners absorb natural daylight during winter months, making the entire living area feel smaller and colder than it actually is. Directing an uplighter towards the ceiling bounces warm white illumination down into the gloomy zones effectively.\n\nChoose LED lamps with a warm white rating of twenty seven hundred kelvin to replicate traditional incandescent bulb warmth. This exact colour temperature creates a relaxing atmosphere that makes family members feel instantly at ease after a long day."
       },
       {
         "level": "h2",
-        "heading": "Checklist for Styling Floor Lamps in Modern Living Rooms",
+        "heading": "Final Placement and Bulb Specification Checklist",
         "body": "Following a structured purchasing and styling process ensures your new lighting investment enhances both daily function and interior aesthetics perfectly. Review these three trade checks before finalising your living room lighting layout.",
         "bullets": [
           "Verify that the shade bottom sits at eye level while seated to prevent harsh bulb glare",
@@ -1908,6 +1920,9 @@ export const ARTICLES = [
       "UK Living Room Design",
       "Interior Lighting Tips",
       "Living Room Layouts"
+    ],
+    "secondaryCategories": [
+      "interiors"
     ]
   },
   {
@@ -1916,7 +1931,7 @@ export const ARTICLES = [
     "slug": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "KITCHEN DESIGN • SINK AND SANITARY SPECIFICATION",
+    "categoryLabel": "KITCHEN DESIGN | SINK AND SANITARY SPECIFICATION",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -1935,13 +1950,13 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Comparing Stainless Steel Fireclay and Composite Kitchen Sink Materials",
-        "body": "Grade three zero four stainless steel offers brilliant longevity for any kitchen sink when you choose sixteen or eighteen gauge thickness. Always inspect the underside for thick acoustic rubber sound deadening pads that stop noisy water splashing.\n\nFireclay ceramic gives a traditional aesthetic backed by extreme durability due to twelve hundred degree firing processes. This heavy thirty kilogram material demands reinforced cabinet timber framing underneath to safely support the massive downward structural load.\n\nGranite composite quartz resin matrix surfaces provide outstanding scratch resistance and heat tolerance. This modern kitchen sink material easily resists stubborn stains from red wine and coffee while keeping a matte finish looking fresh."
+        "heading": "Comparing Brushed Stainless Steel, Belfast Fireclay, and Granite Composite",
+        "body": "Grade three zero four stainless steel offers brilliant longevity for any sink bowl when you choose sixteen or eighteen gauge thickness. Always inspect the underside for thick acoustic rubber sound deadening pads that stop noisy water splashing.\n\nFireclay ceramic gives a traditional aesthetic backed by extreme durability due to twelve hundred degree firing processes. This heavy thirty kilogram material demands reinforced cabinet timber framing underneath to safely support the massive downward structural load.\n\nGranite composite quartz resin matrix surfaces provide outstanding scratch resistance and heat tolerance. This modern kitchen sink material easily resists stubborn stains from red wine and coffee while keeping a matte finish looking fresh."
       },
       {
         "level": "h2",
-        "heading": "Undermount versus Inset Kitchen Sink Mounting Configurations",
-        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old kitchen sink straightforward during renovations. Undermount bowls need solid waterproof support, which works best alongside properly sealed [craft kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes).",
+        "heading": "Undermount vs Inset Basin Mounting for Stone and Timber Worktops",
+        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old culinary basin straightforward during renovations. Undermount bowls need solid waterproof support, which works best alongside properly sealed [craft kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes).",
         "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwZ3Jhbml0ZSUyMGtpdGNoZW4lMjBzaW5rJTIwZml4dHVyZXxlbnwwfDB8fHwxNzg5NjczMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Granite composite kitchen sink bowl fitted into dark quartz worktop",
         "imageCaption": "Composite quartz basins absorb physical impacts while dampening acoustic sound",
@@ -1952,13 +1967,13 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Choosing Kitchen Sink Bowl Depths and Internal Proportions",
+        "heading": "Choosing Single, 1.5, and Double Bowl Depths for Family Cooking",
         "body": "Deep single bowl layouts provide massive internal capacity for washing oversized baking trays and heavy roasting pots easily. Selecting a deeper basin stops water splashing onto surrounding worktops while accommodating bulky cookware without trouble.\n\nOne and a half bowl configurations deliver supreme practicality for busy households needing simultaneous food preparation and dish draining. You can rinse vegetables in the small basin while dirty plates soak in the main bowl."
       },
       {
         "level": "h2",
-        "heading": "British Plumbing Compliance and Kitchen Sink Waste Traps",
-        "body": "Navigating UK plumbing regulations ensures your new kitchen sink setup operates safely without leaks or drainage blockages. Proper installation requires adherence to specific building standards regarding pipe gradients and approved component materials across every connection.",
+        "heading": "UK Plumbing Standards, Basket Strainers, and Overflow Waste Traps",
+        "body": "Navigating UK plumbing regulations ensures your new sink bowl setup operates safely without leaks or drainage blockages. Proper installation requires adherence to specific building standards regarding pipe gradients and approved component materials across every connection.",
         "bullets": [
           "Fit WRAS approved waste fittings to satisfy strict UK water authority standards for public health safety",
           "Install forty millimetre waste pipe traps with proper gradient falls to prevent sluggish grey water drainage",
@@ -1968,13 +1983,13 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Daily Limescale Removal and Protective Kitchen Sink Care",
+        "heading": "Preventing Hard-Water Limescale and Surface Scratching",
         "body": "Removing stubborn southern UK hard water mineral deposits requires gentle citric acid solutions rather than harsh chemicals. Simply apply the natural cleaning liquid and wipe away cloudy calcium buildup to restore original metallic luster.\n\nProtect your investment by avoiding abrasive metal scouring pads that leave permanent scratches on finished surfaces. Always dry the kitchen sink bowl thoroughly using clean microfiber cloths after every heavy cooking session."
       },
       {
         "level": "h2",
-        "heading": "Summary and Final Kitchen Sink Buying Advice",
-        "body": "Measure your cabinet base width carefully before purchasing any kitchen sink to guarantee adequate internal clearance for plumbing pipes and waste disposals. Taking accurate physical dimensions prevents expensive installation delays during kitchen remodeling projects.\n\nBalancing worktop compatibility with daily household cleaning habits ensures long term satisfaction and property value. Investing in quality materials today saves homeowners from premature replacements and ongoing maintenance headaches down the road."
+        "heading": "Final Specification Checklist Before Ordering Your Basin",
+        "body": "Measure your cabinet base width carefully before purchasing any culinary basin to guarantee adequate internal clearance for plumbing pipes and waste disposals. Taking accurate physical dimensions prevents expensive installation delays during kitchen remodeling projects.\n\nBalancing worktop compatibility with daily household cleaning habits ensures long term satisfaction and property value. Investing in quality materials today saves homeowners from premature replacements and ongoing maintenance headaches down the road."
       }
     ],
     "faqs": [
@@ -2005,7 +2020,7 @@ export const ARTICLES = [
     "slug": "designing-serene-spaces-with-premium-green-bathroom-tiles",
     "category": "bathroom",
     "categoryName": "Bathroom",
-    "categoryLabel": "BATHROOM DESIGN • TILE SPECIFICATION AND FINISHES",
+    "categoryLabel": "BATHROOM DESIGN | TILE SPECIFICATION AND FINISHES",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -2015,16 +2030,16 @@ export const ARTICLES = [
     "isFeatured": false,
     "excerpt": "Expert architectural guide on specifying green bathroom tiles covering British wet zones and waterproofing.",
     "metaDescription": "Master green bathroom tiles specification in UK homes with British wet zone standards and waterproof tanking.",
-    "heroImage": "https://images.unsplash.com/photo-1780399370211-1149b7776337?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjBiYXRocm9vbSUyMHRpbGVzfGVufDB8MHx8fDE3ODk2NTU2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1780399370211-1149b7776337?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8Z3JlZW4lMjBiYXRocm9vbSUyMHRpbGVzfGVufDB8MHx8fDE3ODk2NTU2NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "heroImage": "/images/british-green-bathroom-tiles.jpg",
+    "image": "/images/british-green-bathroom-tiles.jpg",
     "heroImageAlt": "Green glazed ceramic tiles installed in a bright modern British bathroom interior",
     "imageAlt": "Green glazed ceramic tiles installed in a bright modern British bathroom interior",
-    "photographer": "Grace Anne Bobadilla",
-    "photographerUrl": "https://unsplash.com/@graceannefully",
+    "photographer": "LUMAA HOME Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk/about",
     "content": [
       {
         "level": "h2",
-        "heading": "British Wet Zone Specifications for Green Bathroom Tiles",
+        "heading": "British Wet-Zone Slip and Porosity Specifications",
         "body": "Designing high performance wet areas requires careful material selection tailored to British standards. Green bathroom tiles transform functional spaces into calming interior environments when specified correctly across distinct domestic moisture zones.",
         "bullets": [
           "Zone One Shower Enclosures require vitrified porcelain tiles with near zero water absorption",
@@ -2034,12 +2049,12 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Comparing Glazed Earthenware and Porcelain Green Bathroom Tiles",
+        "heading": "Comparing Glazed Zellige Earthenware and Matt Porcelain",
         "body": "Vitrified porcelain bodies offer exceptional thermal stability and dense moisture resistance for demanding areas. These dense ceramic units handle heavy foot traffic and thermal fluctuations without cracking or losing structural integrity over decades of daily residential use.\n\nHand glazed crackle earthenware displays beautiful pooled colour variations across the surface. Artisans achieve these depths through specialized kiln firings requiring installers to apply penetrating sealers immediately to protect the porous clay bodies from moisture ingress. Renting tenants who cannot lay real ceramics can try [stick on bathroom tiles](/stunning-transformations-using-stick-on-bathroom-tiles) for a quick splashback update."
       },
       {
         "level": "h2",
-        "heading": "Architectural Colour Pairings for Green Bathroom Tiles",
+        "heading": "Pairing Sage, Olive, and Emerald Tones with Unlacquered Brass",
         "body": "Unlacquered living brass fittings develop a warm organic patina against deep bottle green tiles. This traditional hardware choice introduces rich metallic contrast that complements earthy ceramics while aging gracefully with regular household interaction.\n\nQuarter sawn natural oak vanities introduce organic timber grain against soft sage green glazes. The subtle wood figuring softens the overall room aesthetic while creating a grounded connection to natural materials throughout the domestic interior design scheme.\n\nSelecting warm ivory or charcoal grout helps define geometric tile patterns precisely. Matching grout shades enhances clean sightlines while contrasting options accentuate individual tile shapes to create striking visual geometry across large wall installations.",
         "image": "https://images.unsplash.com/photo-1722942430280-b25dd9c2e836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8c2FnZSUyMGdyZWVuJTIwc3Vid2F5JTIwdGlsZXN8ZW58MHwwfHx8MTc4OTY1NTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Glossy sage green ceramic tiles installed with matching grout",
@@ -2051,8 +2066,8 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Sequential Waterproof Tanking Steps Before Laying Green Bathroom Tiles",
-        "body": "Proper subsurface preparation prevents catastrophic moisture damage behind finished tiled walls. Following strict British installation protocols ensures your green bathroom tiles remain secure and watertight across decades of daily family shower use.",
+        "heading": "Waterproof Tanking and Substrate Priming Before Tiling",
+        "body": "Proper subsurface preparation prevents catastrophic moisture damage behind finished tiled walls. Following strict British installation protocols ensures your botanical ceramic tiles remain secure and watertight across decades of daily family shower use.",
         "bullets": [
           "Step One Mechanically fix cement backer boards to timber studs following British standard fifty three eighty five",
           "Step Two Embed flexible reinforcement tape into all internal wall corners and pipe collars",
@@ -2062,12 +2077,12 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Long Term Glaze Protection for Green Bathroom Tiles",
+        "heading": "Sealing Crackle Glazes and Choosing Epoxy vs Cement Grout",
         "body": "Using strictly pH neutral cleaners prevents etching delicate copper oxide green glaze pigments. Acidic commercial detergents strip protective surface layers and dull the brilliant sheen built by master ceramicists during high temperature kiln firing processes.\n\nGentle daily wiping using microfiber cloths removes hard water limescale without scratching fragile gloss finishes. Preventing mineral buildup avoids the need for aggressive scrubbing tools that permanently damage smooth decorative surfaces over time."
       },
       {
         "level": "h2",
-        "heading": "Final Architectural Summary for Specifying Green Bathroom Tiles",
+        "heading": "Final Layout and Sample Testing Advice for UK Bathrooms",
         "body": "Balancing strict British waterproofing standards with superior glazes ensures your green bathroom tiles deliver lasting domestic value and enduring natural beauty through careful substrate preparation and expert trade installation techniques."
       }
     ],
@@ -2091,6 +2106,9 @@ export const ARTICLES = [
       "UK Bathroom Design",
       "Wall Tiles",
       "Wet Room Design"
+    ],
+    "secondaryCategories": [
+      "interiors"
     ]
   },
   {
@@ -2099,7 +2117,7 @@ export const ARTICLES = [
     "slug": "creating-a-diy-art-club-space-for-collaborative-studios",
     "category": "diy",
     "categoryName": "DIY",
-    "categoryLabel": "HERITAGE RESTORATION • CRAFTSMANSHIP MASTERCLASS",
+    "categoryLabel": "HERITAGE RESTORATION | CRAFTSMANSHIP MASTERCLASS",
     "author": "Oliver Sinclair",
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
@@ -2193,7 +2211,7 @@ export const ARTICLES = [
     "slug": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms",
     "category": "bathroom",
     "categoryName": "Bathroom",
-    "categoryLabel": "BATHROOM DESIGN • DOMESTIC NURSERY SAFETY",
+    "categoryLabel": "BATHROOM DESIGN | DOMESTIC NURSERY SAFETY",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -2305,7 +2323,7 @@ export const ARTICLES = [
     "slug": "refined-bedroom-decor-ideas-for-timeless-british-houses",
     "category": "bedroom",
     "categoryName": "Bedroom",
-    "categoryLabel": "BEDROOM DESIGN • PERIOD RESTORATION",
+    "categoryLabel": "BEDROOM DESIGN | PERIOD RESTORATION",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -2408,6 +2426,9 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "interiors"
     ]
   },
   {
@@ -2416,7 +2437,7 @@ export const ARTICLES = [
     "slug": "transform-british-interiors-with-large-bathroom-tiles-now",
     "category": "bathroom",
     "categoryName": "Bathroom",
-    "categoryLabel": "BATHROOM DESIGN • TILE SPECIFICATION AND FINISHES",
+    "categoryLabel": "BATHROOM DESIGN | TILE SPECIFICATION AND FINISHES",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -2435,7 +2456,7 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Visual Space Expansion with Large Bathroom Tiles in British Homes",
+        "heading": "Expanding Compact UK Ensuites with Large-Format Porcelain",
         "body": "British properties often feature compact rooms that struggle for space. Installing large bathroom tiles changes perception immediately by reducing chaotic visual clutter. Scaling up slab dimensions tricks the eye into seeing grander square footage across restricted UK layouts."
       },
       {
@@ -2455,7 +2476,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Floor to Ceiling Large Bathroom Tiles in Luxury Wetroom Layouts",
+        "heading": "Floor-to-Ceiling Slab Tiling in Walk-In Wetrooms",
         "body": "Waterproofing wetrooms demands reliable materials that withstand daily humidity exposure. Applying large format panels from floor to ceiling minimizes vulnerable mortar joints where moisture penetrates. The result is a watertight envelope that performs exceptionally well."
       },
       {
@@ -2475,7 +2496,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Essential Structural Support for Heavy Large Bathroom Tiles",
+        "heading": "Wall Weight Limits and Backer-Board Support for Heavy Slabs",
         "body": "Heavy porcelain sheets demand proper substrate preparation before adhesive touches the wall. Ignoring weight limits leads to structural failure and expensive repairs. Always verify that timber stud walls can handle the substantial load of oversized materials safely."
       },
       {
@@ -2490,7 +2511,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Final Design Rules to Transform Interiors with Large Bathroom Tiles",
+        "heading": "Final Setting-Out and Grout Joint Rules",
         "body": "Successful tile installation relies on precision planning and strict adherence to trade guidelines. Maintain precise two millimeter joint spacing to allow for subtle thermal movement without cracking. Combine these expert techniques to achieve a clean finish that endures."
       }
     ],
@@ -2522,7 +2543,7 @@ export const ARTICLES = [
     "slug": "sky-garden-london-principles-for-elevated-botanical-spaces",
     "category": "garden",
     "categoryName": "Garden",
-    "categoryLabel": "GARDEN LIVING • ELEVATED BOTANICAL TERRACES",
+    "categoryLabel": "GARDEN LIVING | ELEVATED BOTANICAL TERRACES",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -2541,7 +2562,7 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Understanding Microclimate Lessons from Sky Garden London",
+        "heading": "Understanding High-Altitude Wind and Solar Microclimates",
         "body": "Creating gardens far above ground level requires careful study of local weather patterns. Urban rooftops experience extreme temperature swings and shifting wind currents. By observing professional installations we learn how to protect foliage from sudden drafts and seasonal changes."
       },
       {
@@ -2551,7 +2572,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Resilient Plant Selection for Sky Garden London Environments",
+        "heading": "Drought-Tolerant Mediterranean and Evergreen Planting Palettes",
         "body": "Selecting appropriate vegetation is crucial for surviving harsh urban microclimates. Experienced botanists focus on species that endure intense ultraviolet light and rapid moisture loss. Successful projects rely on tough specimens capable of thriving within restricted root volumes."
       },
       {
@@ -2576,7 +2597,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Automated Irrigation and Drainage for Sky Garden London Living",
+        "heading": "Automated Drip Irrigation and Lightweight Substrate Drainage",
         "body": "Reliable watering systems are vital for maintaining lush greenery in dry elevated locations. Manual watering fails because rooftop wind dries surface soil rapidly. Automated setups deliver precise hydration directly to root balls without creating messy water runoff. Layering your planting heights mimics the tiered look of [traditional British garden borders](/crafting-a-stunning-garden-with-borders-across-britain)."
       },
       {
@@ -2586,7 +2607,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Zoned Seating and Viewing Terraces Inspired by Sky Garden London",
+        "heading": "Zoning Sheltered Seating and Glass Balustrade Sightlines",
         "body": "Public and private sky gardens require thoughtful spatial layouts to accommodate visitors comfortably. Creating distinct zones encourages people to explore winding paths and seating areas. Dense perimeter planting provides privacy while framing panoramic views across the city skyline."
       },
       {
@@ -2596,7 +2617,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Final Practical Rules Inspired by Sky Garden London",
+        "heading": "Final Structural Load and Balcony Planting Checklist",
         "body": "Designing successful elevated landscapes demands rigorous attention to engineering and plant science alike. Every choice from container weight to irrigation impacts garden longevity. Follow these professional standards to build thriving rooftop spaces that endure challenging climates."
       }
     ],
@@ -2628,7 +2649,7 @@ export const ARTICLES = [
     "slug": "choosing-rugs-for-living-room-spaces-with-style",
     "category": "living-room",
     "categoryName": "Living Room",
-    "categoryLabel": "LIVING ROOM • TEXTILE AND RUG STYLING",
+    "categoryLabel": "LIVING ROOM | TEXTILE AND RUG STYLING",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -2647,7 +2668,7 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Sizing and Proportions when Selecting Rugs for Living Room Layouts",
+        "heading": "Sizing Rules and Furniture Leg Placement for Reception Rooms",
         "body": "Getting proportions right makes a massive difference to your room. Too small makes the furniture look disconnected. Aim for balance by measuring your floor space carefully before purchasing any large textiles for the home."
       },
       {
@@ -2657,7 +2678,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Natural Fibre Performance of Wool Rugs for Living Room Comfort",
+        "heading": "Comparing British Wool, Jute, and Flatweave Natural Fibres",
         "body": "Choosing natural materials brings incredible benefits to your home environment. Pure wool features natural lanolin repelling liquid spills naturally. This makes wool an exceptionally smart investment for busy households needing durability."
       },
       {
@@ -2667,7 +2688,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Layering Pattern and Texture with Rugs for Living Room Spaces",
+        "heading": "Balancing Geometric Weaves and Antique Persian Borders",
         "body": "Layering different patterns adds instant character to neutral seating areas. Combine a large jute base with a smaller patterned wool piece over top. This trick defines zones and adds rich visual depth effortlessly."
       },
       {
@@ -2682,7 +2703,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Protecting Wooden Floors Beneath Rugs for Living Room Areas",
+        "heading": "Breathable Felt Underlays for Original Timber Floorboards",
         "body": "Protecting your timber flooring requires mindful accessory choices. Cheap plastic backings ruin wood finishes over time. Always prioritize breathable materials that safeguard your expensive flooring investments from trapped moisture and chemical damage. Make sure all front sofa legs and heavy [living room floor lamps](/floor-lamps-for-living-room-layouts-architectural-guide) rest flat on the rug surface to stop trip hazards."
       },
       {
@@ -2692,7 +2713,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Cleaning and Everyday Maintenance of Rugs for Living Room Use",
+        "heading": "Moth Prevention, Rotation, andGentle Pile Care",
         "body": "Regular upkeep keeps your textile investments looking pristine for years. Simple daily habits prevent dirt from embedding deep into the natural fibers. Proper cleaning routines preserve the rich colors and soft textures of wool."
       },
       {
@@ -2702,7 +2723,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Final Practical Tips on Placing Rugs for Living Room Spaces",
+        "heading": "Final Measuring and Tape-Out Guide Before Buying",
         "body": "Trust your instincts when arranging furniture around your new floor coverings. Take time to test different angles and layouts before making final decisions. Enjoy creating a comfortable living environment that feels both stylish and welcoming."
       }
     ],
@@ -2726,6 +2747,9 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "interiors"
     ]
   },
   {
@@ -2734,7 +2758,7 @@ export const ARTICLES = [
     "slug": "selecting-craft-kitchen-worktops-for-modern-british-homes",
     "category": "kitchen",
     "categoryName": "Kitchen",
-    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "categoryLabel": "CULINARY ARCHITECTURE | BESPOKE CABINETRY",
     "author": "Oliver Sinclair",
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
@@ -2819,6 +2843,9 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "diy"
     ]
   },
   {
@@ -2827,7 +2854,7 @@ export const ARTICLES = [
     "slug": "selecting-bathroom-tiles-for-refined-architectural-homes",
     "category": "bathroom",
     "categoryName": "Bathroom",
-    "categoryLabel": "SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION",
+    "categoryLabel": "SANCTUARY ARCHITECTURE | SANITARYWARE SPECIFICATION",
     "author": "Eleanor Vance",
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
@@ -2909,9 +2936,9 @@ export const ARTICLES = [
     "id": "crafting-bespoke-diy-kitchens-the-british-fitting-guide-guide",
     "title": "Crafting Bespoke DIY Kitchens: The British Fitting Guide",
     "slug": "crafting-bespoke-diy-kitchens-the-british-fitting-guide",
-    "category": "kitchen",
-    "categoryName": "Kitchen",
-    "categoryLabel": "CULINARY ARCHITECTURE • BESPOKE CABINETRY",
+    "category": "diy",
+    "categoryName": "DIY",
+    "categoryLabel": "DIY AND CRAFT | KITCHEN FITTING",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
@@ -2987,6 +3014,9 @@ export const ARTICLES = [
       "UK Interior",
       "Architectural Joinery",
       "Bespoke Craftsmanship"
+    ],
+    "secondaryCategories": [
+      "kitchen"
     ]
   },
   {
@@ -2995,7 +3025,7 @@ export const ARTICLES = [
     "slug": "crafting-timeless-spaces-with-quality-bedroom-furniture",
     "category": "bedroom",
     "categoryName": "Bedroom",
-    "categoryLabel": "SANCTUARY SUITES • BESPOKE JOINERY SPECIFICATION",
+    "categoryLabel": "SANCTUARY SUITES | BESPOKE JOINERY SPECIFICATION",
     "author": "Clara Davenport",
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
@@ -3097,7 +3127,7 @@ export const ARTICLES = [
     "slug": "architectural-design-principles-luxury-bath-tub",
     "category": "bathroom",
     "categoryName": "Bathroom",
-    "categoryLabel": "SANCTUARY ARCHITECTURE • SANITARYWARE SPECIFICATION",
+    "categoryLabel": "SANCTUARY ARCHITECTURE | SANITARYWARE SPECIFICATION",
     "author": "Eleanor Vance",
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
@@ -3116,12 +3146,12 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Architectural Evolution of the Modern Bath Tub",
-        "body": "Sanitaryware design has evolved from purely utilitarian cast stone vessels into sophisticated focal points of private wellness architecture. In contemporary master suites, the placement of a bath tub dictates the spatial geometry, sightlines, and circulation paths of the entire sanctuary.\n\nModern architectural practice treats bathing not merely as personal hygiene, but as a ritualistic experience requiring deliberate lighting, structural preparation, and material harmony.\n\nHistorically, bathing vessels were recessed or obscured within alcoves to manage thermal loss and primitive plumbing configurations. Today, advancements in precision engineering allow the bath tub to sit centrally, functioning as a sculptural anchor within the room.\n\nSelecting the correct silhouette requires balancing spatial proportions against architectural volume, ensuring the fixture enhances the room without visually overwhelming adjacent elements or pathways.\n\nDouble-ended silhouettes with symmetrical lumbar contours have emerged as standard specifications for primary residences. These designs conceal waste mechanisms centrally, offering symmetrical aesthetics and equal comfort at either end.\n\nWhether specifying a traditional roll-top vessel or a minimalist oval profile, aligning the fixture with natural light sources creates dynamic visual movement across the material surfaces throughout the day."
+        "heading": "Architectural Evolution of Freestanding and Inset Soaking Baths",
+        "body": "Sanitaryware design has evolved from purely utilitarian cast stone vessels into sophisticated focal points of private wellness architecture. In contemporary master suites, the placement of a soaking vessel dictates the spatial geometry, sightlines, and circulation paths of the entire sanctuary.\n\nModern architectural practice treats bathing not merely as personal hygiene, but as a ritualistic experience requiring deliberate lighting, structural preparation, and material harmony.\n\nHistorically, bathing vessels were recessed or obscured within alcoves to manage thermal loss and primitive plumbing configurations. Today, advancements in precision engineering allow the bath tub to sit centrally, functioning as a sculptural anchor within the room.\n\nSelecting the correct silhouette requires balancing spatial proportions against architectural volume, ensuring the fixture enhances the room without visually overwhelming adjacent elements or pathways.\n\nDouble-ended silhouettes with symmetrical lumbar contours have emerged as standard specifications for primary residences. These designs conceal waste mechanisms centrally, offering symmetrical aesthetics and equal comfort at either end.\n\nWhether specifying a traditional roll-top vessel or a minimalist oval profile, aligning the fixture with natural light sources creates dynamic visual movement across the material surfaces throughout the day."
       },
       {
         "level": "h2",
-        "heading": "Selecting Materials for Your Bath Tub",
+        "heading": "Comparing Cast Iron, Copper, and Quarrycast Stone Resin",
         "body": "Vitreous enameled cast iron remains the historical gold standard for structural longevity and classic tactile quality. Weighing upwards of 200 kilograms empty, cast iron retains heat exceptionally well once warmed by hot water, though it demands substantial structural subfloor reinforcement.\n\nThe hand-enameled surface resists scratching, chemical etching, and colour fading, preserving its deep lustre through decades of continuous residential use.\n\nMineral resin stone composite offers a contemporary alternative, combining natural crushed minerals with high-performance polymer resins. This monolithic material enables crisp architectural edges, matte velvet finishes, and exceptional thermal insulation without the massive dry weight of cast iron.\n\nStone composite vessels can be finished on-site and seamlessly repaired if scratched, making them highly versatile for modern master ensuite applications.\n\nSanitary-grade acrylic and hand-hammered raw copper represent opposite ends of the material spectrum. High-density cross-linked acrylic provides a lightweight, cost-effective solution with excellent chemical resistance and built-in thermal efficiency.\n\nMeanwhile, raw copper develops a rich living patina over time, offering natural antimicrobial properties and unprecedented heat distribution for homeowners seeking a bespoke artisanal statement piece.",
         "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85",
         "imageAlt": "Modern luxury master bathroom suite featuring a sculptural freestanding bath tub and polished brass fixtures",
@@ -3129,17 +3159,17 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Structural Engineering and Floor Loads for a Bath Tub",
-        "body": "Engineers must carefully evaluate floor structural load capacity before specifying heavyweight sanitaryware fixtures. A standard cast iron bath tub filled with water and an occupant easily reaches a total load of 450 kilograms.\n\nThis concentrated weight requires structural verification, particularly when installing fixtures on timber joist floors in heritage renovations or upper-storey modern residential spaces.\n\nTo prevent floor deflection and structural settlement, timber joists frequently require sistering with 47x200mm stress-graded C24 timber. Distributing the load across multiple joists via a structural marine plywood subdeck prevents micro-cracking in floor tile grout lines.\n\nAdditionally, installers must ensure subfloor surfaces are perfectly level to prevent uneven point loading on adjustable brass tub feet or resin bases.\n\nWhen specifying freestanding models on upper levels, acoustics and floor dampening are equal considerations. Unreinforced subfloors can transmit low-frequency vibration and impact noise through the structure during filling and draining.\n\nIncorporating acoustic isolation pads and elastomeric structural adhesives beneath support feet decouples the fixture from the structural frame, maintaining tranquility throughout lower living spaces."
+        "heading": "Joist Reinforcement and Dead-Load Calculations on Timber Floors",
+        "body": "Engineers must carefully evaluate floor structural load capacity before specifying heavyweight sanitaryware fixtures. A standard cast iron freestanding bath filled with water and an occupant easily reaches a total load of 450 kilograms.\n\nThis concentrated weight requires structural verification, particularly when installing fixtures on timber joist floors in heritage renovations or upper-storey modern residential spaces.\n\nTo prevent floor deflection and structural settlement, timber joists frequently require sistering with 47x200mm stress-graded C24 timber. Distributing the load across multiple joists via a structural marine plywood subdeck prevents micro-cracking in floor tile grout lines.\n\nAdditionally, installers must ensure subfloor surfaces are perfectly level to prevent uneven point loading on adjustable brass tub feet or resin bases.\n\nWhen specifying freestanding models on upper levels, acoustics and floor dampening are equal considerations. Unreinforced subfloors can transmit low-frequency vibration and impact noise through the structure during filling and draining.\n\nIncorporating acoustic isolation pads and elastomeric structural adhesives beneath support feet decouples the fixture from the structural frame, maintaining tranquility throughout lower living spaces."
       },
       {
         "level": "h2",
-        "heading": "Hydraulic and Plumbing Specs for a Bath Tub",
-        "body": "Flawless hydraulic performance relies on correctly sized supply lines and efficient waste traps. 0 bar for floor-mounted mixers.\n\nSpecifying undersized 15mm supply lines results in sluggish fill times, allowing water to cool prematurely before use. Families with young children can set up a [safe baby bath tub zone](/designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms) right beside a freestanding bath using a soft non slip floor runner.\n\nDrainage systems require equal technical precision, demanding a minimum 40mm to 50mm high-flow waste trap with an accessible cleanout mechanism. Floor-mounted freestanding mixers must be anchored beneath the finished floor using specialized rough-in mounting plates.\n\nThis solid anchorage eliminates flex and strain on water pipe connections, preventing hidden joint leaks within floor cavities or timber subfloor structures over time.\n\nIntegrated overflow systems must comply with local building regulations to prevent accidental flooding. Concealed overflow channels cast directly into stone composite or acrylic walls offer a clean aesthetic while directing excess water straight into the waste outlet.\n\nPlumbers must verify that trap seal depths meet code standards to prevent sewer gas migration into living areas."
+        "heading": "Floor-Standing Filler Valves, Pipe Tails, and Trap Depths",
+        "body": "Flawless hydraulic performance relies on correctly sized supply lines and efficient waste traps. 0 bar for floor-mounted mixers.\n\nSpecifying undersized 15mm supply lines results in sluggish fill times, allowing water to cool prematurely before use. Families with young children can set up a [safe baby soaking vessel zone](/designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms) right beside a freestanding bath using a soft non slip floor runner.\n\nDrainage systems require equal technical precision, demanding a minimum 40mm to 50mm high-flow waste trap with an accessible cleanout mechanism. Floor-mounted freestanding mixers must be anchored beneath the finished floor using specialized rough-in mounting plates.\n\nThis solid anchorage eliminates flex and strain on water pipe connections, preventing hidden joint leaks within floor cavities or timber subfloor structures over time.\n\nIntegrated overflow systems must comply with local building regulations to prevent accidental flooding. Concealed overflow channels cast directly into stone composite or acrylic walls offer a clean aesthetic while directing excess water straight into the waste outlet.\n\nPlumbers must verify that trap seal depths meet code standards to prevent sewer gas migration into living areas."
       },
       {
         "level": "h2",
-        "heading": "Spatial Clearance and Ergonomics Around a Bath Tub",
+        "heading": "Perimeter Cleaning Clearances and Bather Ergonomics",
         "body": "Architectural ergonomics determine the comfort and usability of any bathing space. Maintaining a minimum perimeter clearance of 550mm around a freestanding vessel allows comfortable cleaning, access, and movement.\n\nFor optimal physical relaxation, internal lumbar slopes should feature a 28 to 32 degree angle, offering ideal back support and preserving comfortable head alignment during extended soaking sessions.\n\nVessel dimensions must align with occupant height and room proportions. Standard 1700mm x 800mm double-ended dimensions comfortably accommodate average adult heights while fitting standard bathroom layouts.\n\nCompact 1500mm models suit tighter footprint constraints without sacrificing bathing depth, provided the internal sump depth remains at least 420mm to allow full body submersion and proper thermal immersion.\n\nSpatial planning must also account for towel reach and control accessibility. Thermostatic mixer controls should sit within an arm's reach of the seated bather, preventing unnecessary standing or awkward stretching while adjusting water temperature.\n\nIntegrating low-level perimeter lighting or recessed wall niches further enhances both functional safety and spatial atmosphere surrounding the bathing area.",
         "bullets": [
           "Standard double-ended tub size: 1700mm x 800mm",
@@ -3150,7 +3180,7 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Thermal Retention and Maintenance of Your Bath Tub",
+        "heading": "Heat Retention Properties and Enamel Care",
         "body": "Sustained water temperature is essential for a restorative soaking experience. Materials with high specific heat capacity, such as copper and solid stone composites, absorb initial water thermal energy and gradually radiate heat back into the bath.\n\nInsulating outer walls with high-density polyurethane foam during installation significantly reduces ambient heat loss across lighter acrylic and steel bath tub shells.\n\nRoutine maintenance preserves sanitaryware glazes and prevents mineral deposit buildup. Non-abrasive, pH-neutral microfibre cleaning agents protect vitreous enamel and polished resin coatings from microscopic pitting.\n\nHomeowners should avoid harsh acid cleaners or abrasive scouring pads, which strip protective surface seals and create microscopic surface roughness where lime scale, soap scum, and mould spores easily anchor.\n\nPeriodic inspection of silicone seals and waste fittings prevents moisture intrusion into adjacent floor structures. High-grade neutral-cure sanitary silicone should be applied around floor junction lines to block standing water migration.\n\nRe-sealing timber subfloors and inspecting overflow gaskets every few years ensures long-term structural integrity and maintains pristine hygienic conditions in the sanctuary environment."
       }
     ],

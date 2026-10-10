@@ -54,7 +54,7 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
             onClick={onBackToHome}
             className="text-[10px] font-black uppercase tracking-wider text-black hover:text-[#C8102E] transition flex items-center gap-1"
           >
-            ← BACK TO HOME
+            &larr; BACK TO HOME
           </button>
         </div>
 
@@ -103,10 +103,10 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
 
         {/* Metadata Meta Strip */}
         <div className="flex flex-wrap items-center gap-4 text-[11px] text-gray-800 pt-3 border-t border-gray-200 font-mono">
-          <span>PUBLISHED BY: <strong className="text-black">LUMAA HOME™ DIGITAL MEDIA GROUP</strong></span>
-          <span>•</span>
+          <span>PUBLISHED BY: <strong className="text-black">LUMAA HOME DIGITAL MEDIA GROUP</strong></span>
+          <span>|</span>
           <span>LAST UPDATED: <strong className="text-black">{data.lastUpdated.toUpperCase()}</strong></span>
-          <span>•</span>
+          <span>|</span>
           <span>JURISDICTION: <strong className="text-black">ENGLAND AND WALES</strong></span>
         </div>
       </div>
@@ -170,7 +170,7 @@ export default function LegalPage({ type = 'privacy-policy', onBackToHome, onNav
           </a>.
         </p>
         <p className="text-[10px] text-gray-700 font-mono font-semibold">
-          LUMAA HOME™ DIGITAL MEDIA GROUP
+          LUMAA HOME DIGITAL MEDIA GROUP
         </p>
       </div>
 

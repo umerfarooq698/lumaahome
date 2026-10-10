@@ -224,8 +224,8 @@ export default function App() {
   useEffect(() => {
     if (routeState.view === 'home') {
       updatePageSeo({
-        title: 'LUMAA HOME™ | A Luxury UK Home Decor and DIY Magazine',
-        description: 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.',
+        title: 'LUMAA HOME | A Luxury UK Home Decor and DIY Magazine',
+        description: 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home.',
         keywords: 'lumaa home, luxury home decor uk, uk interior design, bespoke diy guides, victorian renovations, british home styling, period joinery',
         canonicalPath: '/',
         ogType: 'website',
@@ -333,7 +333,7 @@ export default function App() {
     const formatted = {
       ...newArticle,
       isCover: true,
-      categoryLabel: `LATEST STORY • ${(newArticle.categoryName || newArticle.category).toUpperCase()}`,
+      categoryLabel: `LATEST STORY | ${(newArticle.categoryName || newArticle.category).toUpperCase()}`,
       slug: newArticle.slug || newArticle.id
     };
     setArticlesList((prev) => {
@@ -352,7 +352,9 @@ export default function App() {
   // Filter articles for category pages and search
   const filteredCategoryArticles = articlesList.filter((article) => {
     if (routeState.category !== 'all') {
-      if (article.category !== routeState.category) {
+      const isPrimary = article.category === routeState.category;
+      const isSecondary = Array.isArray(article.secondaryCategories) && article.secondaryCategories.includes(routeState.category);
+      if (!isPrimary && !isSecondary) {
         return false;
       }
     }

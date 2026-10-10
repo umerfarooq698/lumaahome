@@ -14,7 +14,7 @@ export default function ContactPage({ onBackToHome, onNavigateAbout }) {
         '@type': 'ContactPage',
         '@id': `${SITE_URL}/contact/#contact`,
         'url': `${SITE_URL}/contact`,
-        'name': 'Contact LUMAA HOME™ Editorial Desk',
+        'name': 'Contact LUMAA HOME Editorial Desk',
         'description': 'Direct contact directory for editorial submissions, press, and reader inquiries.',
         'inLanguage': 'en-GB'
       }
@@ -72,7 +72,7 @@ export default function ContactPage({ onBackToHome, onNavigateAbout }) {
             onClick={onBackToHome}
             className="text-[10px] font-black uppercase tracking-wider text-black hover:text-[#C8102E] transition flex items-center gap-1"
           >
-            ← BACK TO HOME
+            &larr; BACK TO HOME
           </button>
         </div>
 
@@ -183,7 +183,7 @@ export default function ContactPage({ onBackToHome, onNavigateAbout }) {
             onClick={onNavigateAbout}
             className="bg-black text-white px-5 py-2.5 text-[10px] uppercase font-bold tracking-widest hover:bg-[#C8102E] transition shrink-0"
           >
-            MEET THE EDITORS →
+            MEET THE EDITORS &rarr;
           </button>
         )}
       </section>

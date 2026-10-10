@@ -13,7 +13,7 @@ export default function SitemapPage({
 }) {
   useEffect(() => {
     updatePageSeo({
-      title: 'HTML Editorial Sitemap | LUMAA HOME™',
+      title: 'HTML Editorial Sitemap | LUMAA HOME',
       description: 'Directory and index of all luxury British interior guides, period restoration articles, room categories, and editorial masthead profiles.',
       keywords: 'lumaa home sitemap, site index, uk interior design directory, period home renovation articles, masthead editors',
       canonicalPath: '/sitemap',
@@ -58,7 +58,7 @@ export default function SitemapPage({
           Editorial Sitemap
         </h1>
         <p className="text-xs sm:text-sm text-gray-700 leading-relaxed font-normal">
-          Complete structural directory of all published architectural guides, rooms, masthead editors, and technical resources on LUMAA HOME™.
+          Complete structural directory of all published architectural guides, rooms, masthead editors, and technical resources on LUMAA HOME.
         </p>
       </div>
 
@@ -158,7 +158,7 @@ export default function SitemapPage({
                   </div>
                   <div className="text-[10px] font-bold uppercase tracking-widest text-[#C8102E] mt-3 flex items-center gap-1">
                     <span>{catArticles.length} {catArticles.length === 1 ? 'Article' : 'Articles'}</span>
-                    <span>→</span>
+                    <span>&rarr;</span>
                   </div>
                 </a>
               );
@@ -211,7 +211,7 @@ export default function SitemapPage({
                                 <Calendar className="w-3 h-3 text-gray-400" />
                                 {article.date || 'Editorial'}
                               </span>
-                              <span>•</span>
+                              <span>|</span>
                               <span className="flex items-center gap-1">
                                 <Clock className="w-3 h-3 text-gray-400" />
                                 {article.readTime || '6 min read'}

@@ -30,7 +30,7 @@ export default function SubscribeModal({ isOpen, onClose }) {
         </button>
 
         <span className="text-[10px] font-black uppercase tracking-[0.25em] text-[#C8102E] block">
-          LUMAA HOME™ PRINT AND DIGITAL
+          LUMAA HOME PRINT AND DIGITAL
         </span>
 
         <h2 className="font-serif text-2xl sm:text-3xl font-bold text-black">
@@ -43,7 +43,7 @@ export default function SubscribeModal({ isOpen, onClose }) {
 
         {submitted ? (
           <div className="p-4 bg-[#C8102E] text-white text-xs font-bold uppercase tracking-widest">
-            Welcome to Lumaa Home™ UK.
+            Welcome to Lumaa Home UK.
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="space-y-3 pt-2">
@@ -65,7 +65,7 @@ export default function SubscribeModal({ isOpen, onClose }) {
         )}
 
         <div className="text-[10px] text-gray-400 uppercase tracking-wider pt-2">
-          Weekly digest • Unsubscribe anytime
+          Weekly digest | Unsubscribe anytime
         </div>
       </div>
     </div>

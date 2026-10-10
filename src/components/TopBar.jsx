@@ -16,7 +16,7 @@ export default function TopBar({ onNavigatePage }) {
           <span className="font-black text-[#C8102E] uppercase tracking-wider sm:tracking-widest text-[9px] sm:text-[10px] bg-red-50 border border-red-200 px-1.5 py-0.5 sm:border-0 sm:bg-transparent sm:p-0">
             UK EDITION
           </span>
-          <span className="text-gray-300 hidden xs:inline">•</span>
+          <span className="text-gray-300 hidden xs:inline">|</span>
           <span className="text-gray-600 font-medium whitespace-nowrap">{currentDate}</span>
         </div>
 
@@ -32,7 +32,7 @@ export default function TopBar({ onNavigatePage }) {
           >
             About
           </a>
-          <span className="text-gray-300">•</span>
+          <span className="text-gray-300">|</span>
           <a
             href="/contact"
             onClick={(e) => {
@@ -43,9 +43,9 @@ export default function TopBar({ onNavigatePage }) {
           >
             Contact
           </a>
-          <span className="text-gray-300 hidden sm:inline">•</span>
+          <span className="text-gray-300 hidden sm:inline">|</span>
           <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-[#C8102E] transition hidden sm:inline">Instagram</a>
-          <span className="text-gray-300 hidden sm:inline">•</span>
+          <span className="text-gray-300 hidden sm:inline">|</span>
           <a href="https://pinterest.com" target="_blank" rel="noreferrer" className="hover:text-[#C8102E] transition hidden sm:inline">Pinterest</a>
         </div>
       </div>

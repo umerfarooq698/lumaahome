@@ -23,15 +23,18 @@ export function generateSitemap() {
     priority: '1.0'
   });
 
-  // 2. Categories (Priority 0.8)
+  // 2. Categories (Priority 0.8) - Only include populated categories
   CATEGORIES.forEach(cat => {
     if (cat.id !== 'all') {
-      urls.push({
-        loc: `${BASE_URL}/category/${cat.id}`,
-        lastmod: currentDate,
-        changefreq: 'weekly',
-        priority: '0.8'
-      });
+      const hasArticles = ARTICLES.some(a => a.category === cat.id || (Array.isArray(a.secondaryCategories) && a.secondaryCategories.includes(cat.id)));
+      if (hasArticles) {
+        urls.push({
+          loc: `${BASE_URL}/category/${cat.id}`,
+          lastmod: currentDate,
+          changefreq: 'weekly',
+          priority: '0.8'
+        });
+      }
     }
   });
 
@@ -140,9 +143,9 @@ export function generateRSS() {
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>LUMAA HOME™ | A Luxury UK Home Decor and DIY Magazine</title>
+    <title>LUMAA HOME | A Luxury UK Home Decor and DIY Magazine</title>
     <link>${BASE_URL}/</link>
-    <description>British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home™.</description>
+    <description>British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home.</description>
     <language>en-GB</language>
     <lastBuildDate>${currentRFC822Date}</lastBuildDate>
     <atom:link href="${BASE_URL}/rss.xml" rel="self" type="application/rss+xml" />

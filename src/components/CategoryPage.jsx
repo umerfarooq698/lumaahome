@@ -69,7 +69,7 @@ export default function CategoryPage({
             }}
             className="text-[10px] font-black uppercase tracking-wider text-black hover:text-[#C8102E] transition flex items-center gap-1 cursor-pointer"
           >
-            ← ALL STORIES
+            &larr; ALL STORIES
           </a>
         </div>
 
@@ -141,7 +141,7 @@ export default function CategoryPage({
                   >
                     BY {art.author.toUpperCase()}
                   </a>
-                  <span className="text-gray-400">•</span>
+                  <span className="text-gray-400">|</span>
                   <span className="text-gray-700">{art.date}</span>
                 </div>
               </article>
@@ -165,7 +165,7 @@ export default function CategoryPage({
               }}
               className="px-4 py-2 bg-white hover:bg-black hover:text-white border border-gray-300 text-black text-xs font-bold uppercase tracking-wider transition shadow-sm"
             >
-              {cat.name} →
+              {cat.name} &rarr;
             </button>
           ))}
         </div>
