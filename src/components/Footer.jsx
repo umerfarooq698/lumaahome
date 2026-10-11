@@ -130,12 +130,6 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
             <p className="text-[10px] text-gray-700 leading-snug">
               42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom
             </p>
-            <p className="text-[10px] text-gray-700">
-              Companies House Reg No: <strong>14892310</strong> (England &amp; Wales)
-            </p>
-            <p className="text-[10px] text-gray-700">
-              Tel: <a href="tel:+442079460821" className="text-black font-semibold hover:text-[#C8102E]">+44 (0)20 7946 0821</a>
-            </p>
             <p className="text-[#111111] font-normal">
               Email: <a href="mailto:info.lumaahome@gmail.com" className="text-black font-bold hover:text-[#C8102E] underline">info.lumaahome@gmail.com</a>
             </p>

@@ -80,7 +80,7 @@ export const INITIAL_PRIVACY_POLICY = {
       heading: "8. Contact Our Legal and Privacy Department",
       content: [
         "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact our legal team:",
-        "Lumaa Home Digital Media Ltd (Registered in England and Wales, Company No. 14892310)\nRegistered Office: 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom\nTelephone: +44 (0)20 7946 0821\nEmail: info.lumaahome@gmail.com"
+        "Lumaa Home Digital Media Ltd\nOffice: 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]
@@ -93,7 +93,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
   effectiveDate: "September 1, 2026",
   companyName: "Lumaa Home Digital Media Ltd",
   contactEmail: "info.lumaahome@gmail.com",
-  introduction: "Welcome to LUMAA HOME (the 'Website', 'Magazine', or 'Service'), operated by Lumaa Home Digital Media Ltd (Registered in England and Wales under Company No. 14892310, with registered office at 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom). By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
+  introduction: "Welcome to LUMAA HOME (the 'Website', 'Magazine', or 'Service'), operated by Lumaa Home Digital Media Ltd (42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom). By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
   sections: [
     {
       id: "acceptance-terms",
@@ -157,7 +157,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       heading: "8. Legal Inquiries and Contact Information",
       content: [
         "For legal notices, copyright permissions, or contractual inquiries, please contact our legal team:",
-        "Lumaa Home Digital Media Ltd (Company No. 14892310)\nRegistered Office: 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom\nTelephone: +44 (0)20 7946 0821\nEmail: info.lumaahome@gmail.com"
+        "Lumaa Home Digital Media Ltd\nOffice: 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]

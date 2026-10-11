@@ -113,16 +113,15 @@ export default function ContactPage({ onBackToHome, onNavigateAbout }) {
 
           <div className="grid sm:grid-cols-2 gap-4 pt-3 text-xs text-gray-800 border-t border-gray-200">
             <div className="space-y-1">
-              <strong className="uppercase tracking-wider text-black block">Registered UK Office Address:</strong>
+              <strong className="uppercase tracking-wider text-black block">UK Editorial Office Address:</strong>
               <p>Lumaa Home Digital Media Ltd</p>
               <p>42 Kensington High Street, Kensington</p>
               <p>London, W8 4PF, United Kingdom</p>
             </div>
             <div className="space-y-1">
-              <strong className="uppercase tracking-wider text-black block">Corporate &amp; Telephone Details:</strong>
-              <p>Companies House Reg No: <strong>14892310</strong> (England &amp; Wales)</p>
-              <p>Editorial Desk Tel: <a href="tel:+442079460821" className="font-bold text-black hover:text-[#C8102E]">+44 (0)20 7946 0821</a></p>
-              <p>Office Hours: Monday - Friday, 09:00 - 17:30 GMT</p>
+              <strong className="uppercase tracking-wider text-black block">Editorial Desk Hours:</strong>
+              <p>Monday - Friday, 09:00 - 17:30 GMT</p>
+              <p>Direct Email: <a href="mailto:info.lumaahome@gmail.com" className="font-bold text-black hover:text-[#C8102E]">info.lumaahome@gmail.com</a></p>
             </div>
           </div>
         </div>

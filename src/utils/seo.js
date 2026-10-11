@@ -165,9 +165,7 @@ export function buildWebSiteJsonLd() {
       '@id': `${SITE_URL}/#organization`,
       'name': 'Lumaa Home Digital Media Ltd',
       'legalName': 'Lumaa Home Digital Media Ltd',
-      'taxID': '14892310',
       'url': SITE_URL,
-      'telephone': '+44-20-7946-0821',
       'email': 'info.lumaahome@gmail.com',
       'address': {
         '@type': 'PostalAddress',
