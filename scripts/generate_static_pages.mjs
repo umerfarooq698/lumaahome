@@ -131,9 +131,9 @@ function generatePageHtml(templateHtml, pageData) {
     html = html.replace(/<script\s+type=["']application\/ld\+json["']\s+id=["']lumaa-seo-schema["']>[\s\S]*?<\/script>/i, `<script type="application/ld+json" id="lumaa-seo-schema">\n${jsonLdString}\n    </script>`);
   }
 
-  // 7. Inject Semantic Pre-rendered Body directly inside <div id="root"> for immediate SSG indexing
+  // 7. Inject Semantic Pre-rendered Body directly inside <div id="root"> wrapped in sr-only so crawlers index it without flashing raw HTML on refresh
   if (bodyHtml) {
-    html = html.replace(/<div id=["']root["']>[\s\S]*?<\/div>(\s*<noscript>[\s\S]*?<\/noscript>)?/i, `<div id="root">\n${bodyHtml}\n    </div>`);
+    html = html.replace(/<div id=["']root["']>[\s\S]*?<\/div>(\s*<noscript>[\s\S]*?<\/noscript>)?/i, `<div id="root">\n<div class="sr-only" style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0;">\n${bodyHtml}\n</div>\n    </div>`);
   }
 
   return html;
