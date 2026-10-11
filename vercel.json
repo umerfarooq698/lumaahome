@@ -14,6 +14,11 @@
       "source": "/category/buying-guides",
       "destination": "/category/interiors",
       "permanent": true
+    },
+    {
+      "source": "/finding-the-ideal-3-bedroom-house-for-rent-in-britain",
+      "destination": "/refined-bedroom-decor-ideas-for-timeless-british-houses",
+      "permanent": true
     }
   ],
   "rewrites": [

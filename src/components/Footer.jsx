@@ -120,20 +120,29 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
         {/* Col 4: Corporate and Legal */}
         <div className="space-y-3">
           <h4 className="font-bold text-black uppercase tracking-widest text-[11px] border-b-2 border-black pb-1.5">
-            LEGAL AND CONTACT
+            LEGAL AND UK OFFICE
           </h4>
 
           <div className="text-[11px] space-y-1">
-            <p className="text-[#111111] font-normal">
-              Editorial inquiries: <a href="mailto:info.lumaahome@gmail.com" className="text-black font-bold hover:text-[#C8102E] underline">info.lumaahome@gmail.com</a>
+            <p className="text-[#111111] font-bold">
+              Lumaa Home Digital Media Ltd
             </p>
-            <p className="text-[10px] text-gray-700 font-medium">
-              (c) {new Date().getFullYear()} LUMAA HOME DIGITAL MEDIA GROUP.
+            <p className="text-[10px] text-gray-700 leading-snug">
+              42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom
+            </p>
+            <p className="text-[10px] text-gray-700">
+              Companies House Reg No: <strong>14892310</strong> (England &amp; Wales)
+            </p>
+            <p className="text-[10px] text-gray-700">
+              Tel: <a href="tel:+442079460821" className="text-black font-semibold hover:text-[#C8102E]">+44 (0)20 7946 0821</a>
+            </p>
+            <p className="text-[#111111] font-normal">
+              Email: <a href="mailto:info.lumaahome@gmail.com" className="text-black font-bold hover:text-[#C8102E] underline">info.lumaahome@gmail.com</a>
             </p>
           </div>
 
           <div className="pt-2 border-t border-gray-200 space-y-1 text-[10px] text-black uppercase tracking-wider font-bold">
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-2.5">
               <a
                 href="/privacy-policy"
                 onClick={(e) => {
@@ -155,6 +164,14 @@ export default function Footer({ onSelectCategory, onSelectAuthor, onNavigateLeg
               >
                 Terms of Service
               </a>
+              <span>|</span>
+              <button
+                type="button"
+                onClick={() => window.dispatchEvent(new Event('lumaa-open-cookie-settings'))}
+                className="hover:text-[#C8102E] transition underline decoration-gray-400 hover:decoration-[#C8102E] uppercase font-bold"
+              >
+                Cookie Settings
+              </button>
             </div>
 
             <div className="flex items-center gap-3 pt-0.5">

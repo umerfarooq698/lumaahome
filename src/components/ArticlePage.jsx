@@ -112,10 +112,13 @@ export default function ArticlePage({
       const label = match[1];
       const href = match[2];
 
+      const isExternal = href.startsWith('http://') || href.startsWith('https://');
       elements.push(
         <a
           key={key++}
           href={href}
+          target={isExternal ? '_blank' : undefined}
+          rel={isExternal ? 'noopener noreferrer' : undefined}
           className="text-[#C8102E] font-medium underline underline-offset-4 hover:text-[#9B0D23] transition-colors"
           onClick={(e) => {
             if (href.startsWith('/')) {
@@ -322,6 +325,11 @@ export default function ArticlePage({
                 </button>
               </div>
             </div>
+
+            {/* UK ASA & Google Product Review Affiliate / Editorial Disclosure */}
+            <div className="bg-[#FAF9F6] border-l-2 border-gray-400 px-3.5 py-2 text-[11px] leading-relaxed text-gray-600">
+              <strong className="text-black uppercase tracking-wider text-[10px]">Editorial &amp; Affiliate Disclosure:</strong> LUMAA HOME is reader-supported. Our editors independently research, test, and specify every material and product featured. When you purchase through retailer links on our site, we may earn an affiliate commission at no extra cost to you, in accordance with UK ASA guidelines.
+            </div>
           </div>
 
           {/* Hero Image */}
@@ -401,6 +409,29 @@ export default function ArticlePage({
                           </li>
                         ))}
                       </ul>
+                    )}
+
+                    {section.table && Array.isArray(section.table.headers) && Array.isArray(section.table.rows) && (
+                      <div className="my-6 overflow-x-auto border border-gray-200">
+                        <table className="w-full text-left border-collapse text-xs sm:text-sm">
+                          <thead>
+                            <tr className="bg-[#FAF9F6] border-b border-gray-300 text-black font-bold uppercase tracking-wider text-[11px]">
+                              {section.table.headers.map((th, thIdx) => (
+                                <th key={thIdx} className="py-3 px-4 border-r last:border-r-0 border-gray-200">{th}</th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody className="divide-y divide-gray-200">
+                            {section.table.rows.map((row, rIdx) => (
+                              <tr key={rIdx} className="hover:bg-gray-50/70">
+                                {row.map((cell, cIdx) => (
+                                  <td key={cIdx} className="py-3 px-4 border-r last:border-r-0 border-gray-200 text-gray-800 leading-relaxed">{cell}</td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
                     )}
                   </div>
 

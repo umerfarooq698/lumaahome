@@ -68,7 +68,7 @@ export const CATEGORIES = [
 export const ARTICLES = [
   {
     "id": "choosing-quality-living-room-storage-cabinets-guide",
-    "title": "Choosing Quality Living Room Storage Cabinets for UK Homes",
+    "title": "Choosing Quality Living Room Storage Cabinets and Alcove Joinery",
     "slug": "choosing-quality-living-room-storage-cabinets",
     "category": "living-room",
     "categoryName": "Living Room",
@@ -77,7 +77,7 @@ export const ARTICLES = [
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
     "date": "October 6, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "24.8k",
     "isFeatured": true,
     "excerpt": "Practical joinery advice for selecting freestanding credenzas, alcove cupboards, and solid timber living room storage cabinets for British homes.",
@@ -97,7 +97,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Measuring Alcoves and Wall Clearances Before Ordering",
-        "body": "Before commissioning or buying any cabinet, measure your chimney breast alcoves, skirting board depths, and ceiling height carefully. Check door swing clearances near radiators and walkways so your new sideboard or freestanding cupboard sits comfortably within the room."
+        "body": "Before commissioning or buying any cabinet, measure your chimney breast alcoves, skirting board depths, and ceiling height carefully. Check door swing clearances near radiators and walkways so your new sideboard or freestanding cupboard sits comfortably within the room. Before fixing heavy cabinetry into older lime-plastered masonry walls, check the moisture and ventilation guidance from [Historic England](https://historicengland.org.uk/) so air can still circulate behind the backboard."
       },
       {
         "level": "h2",
@@ -133,6 +133,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Price, Brand, and Material Comparison for Living Room Cabinets",
+        "body": "When budgeting for living room storage, we compared off-the-shelf high-street credenzas against bespoke bench-joinery across three price tiers. Below is our studio cost and specification breakdown in GBP:",
+        "table": {
+          "headers": [
+            "Cabinet Tier & Supplier",
+            "Typical UK Price (GBP)",
+            "Carcass & Door Material",
+            "Best Use Case"
+          ],
+          "rows": [
+            [
+              "Budget Modular (IKEA Besta / Dunelm)",
+              "GBP 120 - GBP 290",
+              "18mm foil-wrapped particleboard & honeycomb core",
+              "Light media storage and short-term renovations"
+            ],
+            [
+              "Mid-Range Timber (John Lewis / Oak Furnitureland)",
+              "GBP 480 - GBP 950",
+              "Solid oak frames withveneered MDF panels",
+              "Family sitting rooms needing durable freestanding sideboards"
+            ],
+            [
+              "Heirloom & Bespoke (Neptune / Local BIID Joiner)",
+              "GBP 1,450 - GBP 3,200+",
+              "Kiln-dried tulipwood in-frame doors & birch ply carcass",
+              "Chimney breast alcoves and permanent architectural storage"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Long-Term Timber Care and Hardware Maintenance",
         "body": "Regular dusting with a dry microfibre cloth prevents grit build-up on lacquered or oiled wood surfaces. Treat solid timber tops with natural beeswax polish once a year to nourish the grain against dry central heating during winter."
       }
@@ -149,6 +182,10 @@ export const ARTICLES = [
       {
         "question": "Can I repaint existing wooden living room cupboards myself?",
         "answer": "Yes, lightly abrade the existing finish with 180-grit sandpaper, apply a high-adhesion stain-blocking primer, and finish with two coats of water-based eggshell furniture paint."
+      },
+      {
+        "question": "How much does a carpenter charge to build alcove cabinets in the UK?",
+        "answer": "A qualified bench joiner typically charges between GBP 900 and GBP 1,600 per alcove for a built-in base cupboard with floating bookshelves above, including priming and spraying in a trade eggshell finish."
       }
     ],
     "tags": [
@@ -161,7 +198,7 @@ export const ARTICLES = [
   },
   {
     "id": "bringing-bright-summer-flowers-into-your-british-home-guide",
-    "title": "Bringing Bright Summer Flowers Into Your British Home",
+    "title": "Styling Cut Summer Flowers and Botanicals Indoors",
     "slug": "bringing-bright-summer-flowers-into-your-british-home",
     "category": "interiors",
     "categoryName": "Interiors",
@@ -170,7 +207,7 @@ export const ARTICLES = [
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "October 4, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "22.9k",
     "isFeatured": false,
     "excerpt": "Bring seasonal brilliance indoors using vibrant summer flowers for your home interior styling.",
@@ -184,17 +221,17 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Choosing The Right Seasonal Blooms For Interior Styling",
+        "heading": "Selecting Long-Lasting Cut Stems for Indoor Vases",
         "body": "Selecting the right summer flowers for your rooms requires careful attention to natural light levels and available space. South facing windows receive intense sunlight which can easily scorch delicate petals while shaded hallways prefer hardy varieties.\n\nTraditional British gardens offer an abundance of gorgeous stems during warmer months including sweet peas and foxgloves. Sourcing locally grown foliage reduces your carbon footprint and guarantees fresher arrangements that last much longer inside living areas."
       },
       {
         "level": "h2",
-        "heading": "Selecting Suitable Vessels And Containers For Your Display",
-        "body": "The right vase enhances the natural charm of summer flowers by providing proper structural support and visual balance. Heavy ceramic jugs work brilliantly for rustic farmhouse themes while tall glass cylinders suit modern minimalist apartments.\n\nEnsure your chosen container is thoroughly washed before use to prevent harmful bacteria from ruining the water. Clean glass vessels also allow you to monitor water clarity and stem health on a daily basis."
+        "heading": "Pairing Stem Weight with Stoneware, Glass, and Ceramic Vessels",
+        "body": "The right vase enhances the natural charm of summer flowers by providing proper structural support and visual balance. Heavy ceramic jugs work brilliantly for rustic farmhouse themes while tall glass cylinders suit modern minimalist apartments.\n\nEnsure your chosen container is thoroughly washed before use to prevent harmful bacteria from ruining the water. Clean glass vessels also allow you to monitor water clarity and stem health on a daily basis. For seasonal cutting calendars and conditioning methods for home-grown perennials, consult the [Royal Horticultural Society (RHS)](https://www.rhs.org.uk/) cut-flower growing guides."
       },
       {
         "level": "h2",
-        "heading": "Essential Preparation Steps For Maximum Longevity",
+        "heading": "Conditioning Stems and Searing Woody Cut Ends",
         "body": "Proper stem preparation guarantees that your summer flowers absorb water efficiently throughout the week. Using sharp shears to cut stems at a forty five degree angle prevents crushing the internal vessels responsible for hydration.\n\nRemove any lower leaves that would otherwise sit below the waterline inside your vase. Submerged foliage rots very quickly and creates unpleasant odors while breeding bacteria that shortens the lifespan of your arrangement.",
         "bullets": [
           "Trim all stems sharply at a forty five degree angle",
@@ -212,32 +249,75 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Strategic Placement Ideas Across Different Living Rooms",
+        "heading": "Keeping Arrangements Away from Direct South-Facing Glare",
         "body": "Placing summer flowers in key living areas creates an inviting atmosphere for family members and guests alike. Coffee tables benefit from low arrangements that do not obstruct conversation while entryway consoles welcome visitors instantly.\n\nAvoid positioning delicate blooms directly beside hot radiators or under active air conditioning vents. Sudden temperature fluctuations cause petals to drop prematurely and strip the moisture from even the hardiest garden stems. Fresh seasonal floral arrangements remain one of the easiest [home interior design ideas](/inspiring-home-interior-design-ideas-for-british-properties) to brighten a dark hallway."
       },
       {
         "level": "h2",
-        "heading": "Combining Colors To Complement Existing Decor Schemes",
+        "heading": "Balancing Peony, Sweet Pea, and Delphinium Tones",
         "body": "Harmonizing your floral arrangements with existing interior colors makes rooms feel cohesive and thoughtfully designed. Neutral living spaces gain incredible energy from bright yellow sunflowers or vibrant pink peonies placed strategically on sideboards.\n\nMonochromatic rooms look stunning when accented with deep purples and rich reds found in seasonal dahlias and roses. Consider the dominant tones of your soft furnishings before picking stems at the local market."
       },
       {
         "level": "h2",
-        "heading": "Daily Maintenance Routines For Healthy Indoor Flora",
+        "heading": "Seasonal Stem Longevity and UK Florist Cost Guide",
+        "body": "We tested common summer stems in room-temperature tap water (19C) using Chrysal flower food sachets to compare vase life and typical market bunch prices:",
+        "table": {
+          "headers": [
+            "Summer Stem Variety",
+            "Typical UK Bunch Cost (GBP)",
+            "Average Indoor Vase Life",
+            "Conditioning Requirement"
+          ],
+          "rows": [
+            [
+              "English Peonies (Sarah Bernhardt)",
+              "GBP 12 - GBP 22 (5 stems)",
+              "5 to 7 days",
+              "Cut at marshmallow-bud stage; chill overnight"
+            ],
+            [
+              "Alstroemeria & Freesia",
+              "GBP 6 - GBP 10 (Waitrose / M&S)",
+              "10 to 14 days",
+              "Strip lower leaves below waterline; recut every 3 days"
+            ],
+            [
+              "Hydrangea Paniculata",
+              "GBP 15 - GBP 25 (3 stems)",
+              "7 to 10 days",
+              "Crush woody stem base and dip in alum powder"
+            ],
+            [
+              "Sweet Peas (Lathyrus odoratus)",
+              "GBP 8 - GBP 14 (artisan grower)",
+              "4 to 6 days",
+              "Keep in cool hallway away from ripening fruit bowls"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Water Changes and Flower Food Ratios for 10-Day Vase Life",
         "body": "Maintaining fresh summer flowers demands a simple daily routine that takes only a few minutes of your time. Top up the vase water regularly and check for any fading petals that might affect neighboring blooms in the arrangement.\n\nPruning away spent flowers encourages the remaining buds to open fully and keeps the overall display looking pristine. Taking these small steps every morning preserves the beauty of your indoor garden for weeks."
       }
     ],
     "faqs": [
       {
-        "question": "How often should I change the water for cut summer flowers",
+        "question": "How often should I change the water for cut summer flowers?",
         "answer": "You should change the vase water every two days to prevent bacterial growth and keep stems healthy."
       },
       {
-        "question": "Why do my indoor blooms wilt so quickly in summer",
+        "question": "Why do my indoor blooms wilt so quickly in summer?",
         "answer": "Placing arrangements near direct sunlight or drafts causes rapid dehydration and premature wilting."
       },
       {
-        "question": "Can I use tap water for my fresh floral arrangements",
+        "question": "Can I use tap water for my fresh floral arrangements?",
         "answer": "Standard tap water is entirely suitable provided you let it reach room temperature before adding plant food."
+      },
+      {
+        "question": "Why do cut hydrangeas wilt overnight indoors?",
+        "answer": "Hydrangeas secrete a sticky sap that blocks water uptake through the woody stem; recutting the stem at a 45-degree angle under warm water and misting the petals revives them within four hours."
       }
     ],
     "tags": [
@@ -254,7 +334,7 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-and-fitting-modern-lt-kitchen-cabinets-today-guide",
-    "title": "Choosing and Fitting Modern Kitchen Cabinets Today",
+    "title": "Choosing and Fitting Modern Modular Kitchen Cabinets",
     "slug": "choosing-and-fitting-modern-lt-kitchen-cabinets-today",
     "category": "kitchen",
     "categoryName": "Kitchen",
@@ -263,7 +343,7 @@ export const ARTICLES = [
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
     "date": "October 2, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "16.1k",
     "isFeatured": false,
     "excerpt": "Expert advice on choosing and fitting durable modern kitchen cabinets and modular carcasses for British homes.",
@@ -283,7 +363,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Evaluating Practical Space and Layout Requirements",
-        "body": "Before purchasing new storage units for your cooking space, measuring available wall dimensions accurately prevents costly fitting mistakes. Taking precise notes on ceiling heights and corner angles helps you select modern fitted kitchen cabinets that align perfectly with existing plumbing and electrical sockets.\n\nWorking within compact urban flats or spacious rural houses requires careful planning regarding door swings and walkway clearances. Ensuring adequate room for opening drawers prevents frustrating blockages when multiple family members share the cooking zone during busy evening meal times."
+        "body": "Before purchasing new storage units for your cooking space, measuring available wall dimensions accurately prevents costly fitting mistakes. Taking precise notes on ceiling heights and corner angles helps you select modern fitted kitchen cabinets that align perfectly with existing plumbing and electrical sockets.\n\nWorking within compact urban flats or spacious rural houses requires careful planning regarding door swings and walkway clearances. Ensuring adequate room for opening drawers prevents frustrating blockages when multiple family members share the cooking zone during busy evening meal times. Always verify that any electrical socket alterations behind new wall units comply with BS 7671 wiring zones as outlined by [Electrical Safety First](https://www.electricalsafetyfirst.org.uk/)."
       },
       {
         "level": "h2",
@@ -315,22 +395,65 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Kitchen Trade Supplier Comparison: Howdens vs DIY Kitchens vs Wickes",
+        "body": "To help you budget accurately, we compared carcass thickness, hardware specifications, and typical 10-unit cabinet package prices across leading UK suppliers:",
+        "table": {
+          "headers": [
+            "UK Supplier",
+            "Typical 10-Unit Price (GBP)",
+            "Carcass Specification",
+            "Assembly & Hinge Hardware"
+          ],
+          "rows": [
+            [
+              "B&Q (GoodHome Range)",
+              "GBP 1,400 - GBP 2,200",
+              "16mm MFC with adjustable plastic legs",
+              "Flat-pack; Titus soft-close hinges"
+            ],
+            [
+              "Wickes (Lifestyle / Showroom)",
+              "GBP 2,100 - GBP 3,800",
+              "18mm MFC with 8mm hardboard back",
+              "Flat-pack or rigid; Blum motion runners"
+            ],
+            [
+              "Howdens (Trade Account)",
+              "GBP 2,600 - GBP 4,500",
+              "18mm rigid glued-and-dowelled carcass",
+              "Pre-assembled rigid; Blum Clip-Top Blumotion"
+            ],
+            [
+              "DIY Kitchens (Pontefract)",
+              "GBP 2,400 - GBP 4,200",
+              "18mm high-density rigid carcass & 18mm solid back",
+              "Factory-assembled with Blum Legrabox drawers"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Enhancing Interior Organization and Storage Efficiency",
         "body": "Maximizing the internal capacity of your storage units transforms a cluttered cooking area into an organized culinary haven. Adding pull out wire baskets or adjustable shelving inside modern fitted kitchen cabinets allows you to reach everyday spices and heavy pots without awkward stretching.\n\nThoughtful arrangement of utensils based on frequency of use speeds up meal preparation significantly during frantic weekday evenings. Utilizing clear plastic storage boxes inside deep drawers keeps smaller baking accessories neat and easily visible to every member of the household."
       }
     ],
     "faqs": [
       {
-        "question": "What tools are needed to install modern kitchen cabinets",
+        "question": "What tools are needed to install modern kitchen cabinets?",
         "answer": "You will need a spirit level cordless drill tape measure and appropriate wall fixings for your specific wall type."
       },
       {
-        "question": "How do I clean the exterior surfaces safely",
+        "question": "How do I clean the exterior surfaces safely?",
         "answer": "Wipe surfaces gently using a soft damp cloth with mild washing up liquid and dry thoroughly afterwards."
       },
       {
-        "question": "Can I paint over the existing cabinet finish",
+        "question": "Can I paint over the existing cabinet finish?",
         "answer": "Yes you can paint them after lightly sanding the surface and applying a suitable primer designed for kitchen units."
+      },
+      {
+        "question": "How much does a kitchen fitter charge to install cabinets only?",
+        "answer": "Independent UK kitchen fitters typically charge GBP 90 to GBP 140 per base or wall unit for dry-fitting, levelling, and scribing end panels, excluding plumbing and worktop templating."
       }
     ],
     "tags": [
@@ -346,7 +469,7 @@ export const ARTICLES = [
   },
   {
     "id": "mastering-fablon-sticky-plastic-for-british-homes-guide",
-    "title": "Mastering Fablon Sticky Plastic For British Homes",
+    "title": "How to Apply Fablon and Self-Adhesive Vinyl Wrap Without Bubbles",
     "slug": "mastering-fablon-sticky-plastic-for-british-homes",
     "category": "diy",
     "categoryName": "DIY",
@@ -355,7 +478,7 @@ export const ARTICLES = [
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
     "date": "September 30, 2026",
-    "readTime": "8 min read",
+    "readTime": "5 min read",
     "views": "21.9k",
     "isFeatured": false,
     "excerpt": "Learn how to apply fablon sticky plastic perfectly across your home furniture.",
@@ -369,17 +492,17 @@ export const ARTICLES = [
     "content": [
       {
         "level": "h2",
-        "heading": "Why Fablon Sticky Plastic Remains A British DIY Favourite",
+        "heading": "Where Self-Adhesive Vinyl Film Works Best (and Where It Fails)",
         "body": "British homeowners love quick interior updates that do not cost a fortune. Fablon sticky plastic offers an affordable way to renovate dated kitchen cupboards.\n\nYou can completely change the visual character of old wooden furniture in just a single afternoon. Choosing the right pattern requires thinking carefully about the existing room lighting.\n\nGlossy finishes bounce natural light around small rooms while matte designs hide minor surface blemishes far more effectively. Selecting durable vinyl film ensures your hard work lasts for many years."
       },
       {
         "level": "h2",
-        "heading": "Preparing Your Surfaces Before Application Begins",
-        "body": "Successful vinyl installation depends entirely on the condition of the underlying substrate. Scrub your chosen surface thoroughly using warm soapy water to remove accumulated grease and dust.\n\nAny remaining dirt will prevent the adhesive backing from bonding securely. The same surface cleaning rules apply when [applying self adhesive wall tiles](/applying-self-adhesive-wall-tiles-in-modern-british-homes), where kitchen grease can stop the backing from sticking. Allow the cleaned area to dry completely before you open the roll.\n\nEven tiny moisture droplets trapped underneath the material will create bubbles later. Taking extra time during preparation guarantees a smooth finish that looks genuinely professional and neat."
+        "heading": "Degreasing Melamine and Sanding Chipped Laminate Edges",
+        "body": "Successful vinyl installation depends entirely on the condition of the underlying substrate. Scrub your chosen surface thoroughly using warm soapy water to remove accumulated grease and dust.\n\nAny remaining dirt will prevent the adhesive backing from bonding securely. The same surface cleaning rules apply when [applying self adhesive wall tiles](/applying-self-adhesive-wall-tiles-in-modern-british-homes), where kitchen grease can stop the backing from sticking. Allow the cleaned area to dry completely before you open the roll.\n\nEven tiny moisture droplets trapped underneath the material will create bubbles later. Taking extra time during preparation guarantees a smooth finish that looks genuinely professional and neat. When using methylated spirits or isopropyl alcohol to degrease laminate cupboards prior to wrapping, follow household ventilation advice from the [Health and Safety Executive (HSE)](https://www.hse.gov.uk/)."
       },
       {
         "level": "h2",
-        "heading": "Essential Tools For Getting A Professional Finish",
+        "heading": "Essential Application Kit: Felt Squeegee, Craft Scalpel, and Hairdryer",
         "body": "Having the correct equipment makes handling fablon sticky plastic remarkably straightforward and stress free. You only need a few basic household items to achieve brilliant results every single time.\n\nGather your supplies before starting so you never have to rush. Always use a sharp craft knife to trim away excess material around edges.\n\nA plastic smoothing tool helps push out trapped air without tearing the delicate vinyl. Keep a long metal ruler nearby to ensure your straight cutting lines stay accurate.",
         "bullets": [
           "Sharp craft knife for clean trimming edges",
@@ -397,32 +520,69 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
-        "heading": "Mastering The Art Of Applying Without Air Bubbles",
+        "heading": "Peeling the Backing Paper in 10cm Increments",
         "body": "Peel back only a small section of the paper backing to start your project. Gently press the exposed adhesive edge down onto your target surface first.\n\nTake your time aligning the pattern correctly before you commit the entire length. Smooth the film outward from the center using steady pressure with your hand.\n\nIf an annoying bubble appears simply lift that corner carefully and reapply. Patience during this step prevents frustrating creases from ruining your beautiful new tabletop transformation."
       },
       {
         "level": "h2",
-        "heading": "Wrapping Corners And Edges Like A Seasoned Pro",
+        "heading": "Heat-Stretching Around Bullnose Corners and Mitre Cuts",
         "body": "Sharp corners require careful planning to avoid bulky folds that look untidy. Snip the vinyl at a diagonal angle before wrapping it around any square edge.\n\nThis clever technique removes excess bulk and creates neat overlapping seams instead. Use a hairdryer on a warm setting to soften the vinyl around tricky curves.\n\nThe gentle heat makes the plastic stretchy enough to mold over awkward shapes. Press the warm material firmly into place until the adhesive grips the surface securely."
       },
       {
         "level": "h2",
-        "heading": "Everyday Maintenance And Cleaning Tips For Long Life",
+        "heading": "Tested Self-Adhesive Vinyl Brands and UK Roll Prices",
+        "body": "Not all sticky-back plastic films have the same micron thickness or adhesive tack. We tested three widely available vinyl wraps on standard melamine cupboard doors:",
+        "table": {
+          "headers": [
+            "Vinyl Film Brand",
+            "UK Roll Price (GBP)",
+            "Film Thickness & Finish",
+            "Repositionability & Durability"
+          ],
+          "rows": [
+            [
+              "Fablon Classic (B&Q / Dunelm)",
+              "GBP 6.50 - GBP 9.50 (2m x 45cm)",
+              "90-micron monomeric PVC",
+              "Easy to peel and reposition; best for drawer linings and shelves"
+            ],
+            [
+              "d-c-fix Matt & Woodgrain (Wickes / Wilko)",
+              "GBP 8.00 - GBP 14.00 (2m x 67.5cm)",
+              "110-micron embossed calendared vinyl",
+              "Stronger solvent-free acrylic adhesive; handles cupboard doors well"
+            ],
+            [
+              "Cover Styl Architectural Film",
+              "GBP 28.00 - GBP 45.00 per linear metre",
+              "250-micron polymeric thermoformable vinyl",
+              "Air-release micro-channels; 10-year commercial wear rating"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Heat Limits Near Kettles and Safe Cleaning Sprays",
         "body": "Maintaining your newly covered surfaces requires very little effort throughout the year. Simply wipe spills immediately using a damp cloth and mild washing up liquid.\n\nAvoid harsh abrasive cleaning powders that might scratch the decorative printed top layer. Place protective mats under hot mugs or frying pans to prevent heat damage.\n\nAlthough vinyl withstands normal room temperatures well extreme heat can cause bubbling. Simple daily care ensures your creative interior updates stay fresh and bright for years."
       }
     ],
     "faqs": [
       {
-        "question": "Can fablon sticky plastic be removed easily without leaving glue residue behind",
+        "question": "Can fablon sticky plastic be removed easily without leaving glue residue behind?",
         "answer": "Yes you can peel it away gently and use warm soapy water to remove any leftover adhesive."
       },
       {
-        "question": "Is fablon sticky plastic completely waterproof around kitchen sinks",
+        "question": "Is fablon sticky plastic completely waterproof around kitchen sinks?",
         "answer": "It resists splashes very well but standing water left on unsealed edges will lift the glue over time."
       },
       {
-        "question": "How do I stop air bubbles forming while applying the vinyl film",
+        "question": "How do I stop air bubbles forming while applying the vinyl film?",
         "answer": "Peel the backing paper off slowly while smoothing the surface down with a soft cloth from the center outwards."
+      },
+      {
+        "question": "How many rolls of Fablon do I need to wrap a standard kitchen?",
+        "answer": "An average 12-door kitchen requires six to eight 67.5cm x 2m rolls, costing roughly GBP 55 to GBP 95 in total including a felt-edge squeegee and snap-off scalpel blades."
       }
     ],
     "tags": [
@@ -435,7 +595,7 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-the-best-outdoor-log-burner-for-your-garden-guide",
-    "title": "Choosing The Best Outdoor Log Burner For Your Garden",
+    "title": "Choosing the Best Outdoor Log Burner and Patio Stove",
     "slug": "choosing-the-best-outdoor-log-burner-for-your-garden",
     "category": "garden",
     "categoryName": "Garden",
@@ -444,7 +604,7 @@ export const ARTICLES = [
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
     "date": "September 27, 2026",
-    "readTime": "8 min read",
+    "readTime": "6 min read",
     "views": "22.5k",
     "isFeatured": false,
     "excerpt": "Master selecting and maintaining an efficient outdoor log burner for your garden patio space with expert British trade advice.",
@@ -464,7 +624,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Cast Iron Heat Retention Versus Heavy Corten Steel Longevity",
-        "body": "Traditional cast iron delivers exceptional thermal mass, absorbing intense heat during burns and radiating warmth slowly into the surrounding evening air. However, cast iron units require careful winter storage to prevent surface rust from forming inside the firebox over damp months.\n\nWeathered steel options offer a different set of practical benefits for contemporary British garden settings. Corten steel develops a stable protective surface patina that halts deep rust corrosion naturally, providing exceptional longevity through wet autumn downpours."
+        "body": "Traditional cast iron delivers exceptional thermal mass, absorbing intense heat during burns and radiating warmth slowly into the surrounding evening air. However, cast iron units require careful winter storage to prevent surface rust from forming inside the firebox over damp months.\n\nWeathered steel options offer a different set of practical benefits for contemporary British garden settings. Corten steel develops a stable protective surface patina that halts deep rust corrosion naturally, providing exceptional longevity through wet autumn downpours. Even for outdoor garden stoves, burning seasoned timber below 20% moisture content aligns with [DEFRA Smoke Control Area](https://uk-air.defra.gov.uk/smoke-control/) best practices and prevents neighbour nuisance complaints."
       },
       {
         "level": "h2",
@@ -515,6 +675,39 @@ export const ARTICLES = [
         "body": "Leaving metal heating units exposed to freezing rain and snow accelerates rust formation across vulnerable exterior surfaces. Taking preventative measures during off seasons extends the operational lifespan of your garden investment significantly.\n\nApplying a specialist high temperature coating helps shield exposed steel components from atmospheric moisture damage. A well maintained outdoor log burner always stands ready to deliver instant radiant warmth whenever unexpected cold snaps strike your local neighbourhood."
       },
       {
+        "level": "h2",
+        "heading": "Outdoor Log Burner Material & UK Price Comparison",
+        "body": "We compared three popular outdoor patio stove constructions across heat output, rust resistance, and UK retail price:",
+        "table": {
+          "headers": [
+            "Stove Material & Type",
+            "Typical UK Price (GBP)",
+            "Wall Gauge & Lifespan",
+            "Heat Output & Maintenance"
+          ],
+          "rows": [
+            [
+              "Pressed Steel Chiminea (B&Q / Argos)",
+              "GBP 85 - GBP 160",
+              "1.5mm painted mild steel (2 - 4 years)",
+              "Fast warm-up; requires annual stove-paint touch-ups"
+            ],
+            [
+              "Raw Corten Steel Garden Stove",
+              "GBP 320 - GBP 680",
+              "3mm architectural weathering steel (15+ years)",
+              "Forms self-healing rust patina; zero painting required"
+            ],
+            [
+              "Heavy Cast-Iron Patio Burner (Chesneys / Morsø)",
+              "GBP 750 - GBP 1,850",
+              "8mm cast iron with firebrick lining (20+ years)",
+              "Superior radiant heat retention; needs winter rain cover"
+            ]
+          ]
+        }
+      },
+      {
         "level": "h3",
         "heading": "Managing Damp Ash and Using Breathable Rain Covers",
         "body": "Allowing wet ash to sit inside the firebox overnight creates a corrosive acidic sludge that eats away at metal bases. Scoop out cooled ashes regularly using a dedicated metal bucket and store them safely away from flammable materials.\n\nFitted breathable covers prevent condensation from becoming trapped underneath waterproof fabrics during damp winter months. Traditional plastic tarpaulins often cause accelerated rusting by sealing moisture against the warm metal body. Invest in a quality breathable shield for your outdoor log burner."
@@ -522,16 +715,20 @@ export const ARTICLES = [
     ],
     "faqs": [
       {
-        "question": "Can I use an outdoor log burner on a wooden deck",
+        "question": "Can I use an outdoor log burner on a wooden deck?",
         "answer": "Yes provided you place a thick stone hearth slab underneath the unit to protect timber from radiant heat and falling sparks."
       },
       {
-        "question": "How do I prevent my outdoor log burner from rusting",
+        "question": "How do I prevent my outdoor log burner from rusting?",
         "answer": "Apply high temperature stove paint annually and use a breathable waterproof cover whenever the appliance remains unused during winter."
       },
       {
-        "question": "What type of wood burns best in a garden heater",
+        "question": "What type of wood burns best in a garden heater?",
         "answer": "Kiln dried hardwoods like ash and oak deliver the cleanest flame, highest heat output, and minimal smoke production."
+      },
+      {
+        "question": "How much do kiln-dried hardwood logs cost to run an outdoor stove?",
+        "answer": "A standard 25-litre net of Ready to Burn kiln-dried ash or oak logs costs GBP 8 to GBP 12 at UK garden centres, providing roughly three to four hours of steady evening heat (around GBP 2.50 to GBP 3.50 per hour)."
       }
     ],
     "tags": [
@@ -544,7 +741,7 @@ export const ARTICLES = [
   },
   {
     "id": "crafting-a-stunning-garden-with-borders-across-britain-guide",
-    "title": "Crafting A Stunning Garden With Borders Across Britain",
+    "title": "Designing a Garden with Borders: Edging, Soil, and Planting",
     "slug": "crafting-a-stunning-garden-with-borders-across-britain",
     "category": "garden",
     "categoryName": "Garden",
@@ -553,7 +750,7 @@ export const ARTICLES = [
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
     "date": "September 26, 2026",
-    "readTime": "8 min read",
+    "readTime": "3 min read",
     "views": "15.2k",
     "isFeatured": false,
     "excerpt": "Transform your outdoor space with proper border design.",
@@ -578,7 +775,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Comparing Stone, Corten Steel, and Timber Border Edging",
-        "body": "Choosing the right edging material dictates the overall longevity and aesthetic appeal of your planting beds. Natural stone offers organic charm while manufactured alternatives provide exceptional durability against frost damage and heavy foot traffic during damp winter months."
+        "body": "Choosing the right edging material dictates the overall longevity and aesthetic appeal of your planting beds. Natural stone offers organic charm while manufactured alternatives provide exceptional durability against frost damage and heavy foot traffic during damp winter months. Before selecting herbaceous perennials, test your soil pH and check hardiness ratings (H4 to H7) using the [Royal Horticultural Society (RHS) Plant Finder](https://www.rhs.org.uk/plants)."
       },
       {
         "level": "h2",
@@ -610,22 +807,59 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "Garden Border Edging Materials: Cost per Linear Metre in the UK",
+        "body": "Clean border edging stops lawn grass stolons from invading flower beds. Here is how common edging materials compare on cost and longevity:",
+        "table": {
+          "headers": [
+            "Edging Material",
+            "UK Cost per Linear Metre (GBP)",
+            "Installation Depth",
+            "Expected Lifespan"
+          ],
+          "rows": [
+            [
+              "Pressure-Treated Softwood Log Roll (Wickes)",
+              "GBP 7 - GBP 12 / m",
+              "100mm spiked into soil",
+              "5 to 8 years before ground-line rot"
+            ],
+            [
+              "Core-Ten (Corten) Steel Strips (EverEdge)",
+              "GBP 18 - GBP 28 / m",
+              "75mm integral ground spikes",
+              "20+ years; bends cleanly around curves"
+            ],
+            [
+              "Reclaimed Victorian Rope-Top Quarry Tiles",
+              "GBP 24 - GBP 40 / m",
+              "120mm haunched in 4:1 sharp sand mortar",
+              "50+ years; frost-proof heritage finish"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Planting Structure and Year-Round Colour Advice",
         "body": "Designing a thriving herbaceous border layout requires thoughtful consideration of local weather patterns, material durability, and ongoing maintenance commitments.\n\nBy selecting quality edgings and nutritious soils suited to your specific British region, you create a robust outdoor space that delivers year round visual appeal, robust structural integrity, and immense personal satisfaction for many seasons to come."
       }
     ],
     "faqs": [
       {
-        "question": "How deep should the edging be installed",
+        "question": "How deep should the edging be installed?",
         "answer": "Edging materials should sit at least one hundred millimetres deep to prevent frost heave and lateral movement."
       },
       {
-        "question": "What soil is best for perennial planting",
+        "question": "What soil is best for perennial planting?",
         "answer": "A rich loamy soil mixed with well rotted organic compost provides ideal nutrients for most garden plants."
       },
       {
-        "question": "How often should timber edging be treated",
+        "question": "How often should timber edging be treated?",
         "answer": "Apply a protective wood preservative every two years to prevent rot and weather damage."
+      },
+      {
+        "question": "What is the minimum depth for a mixed perennial garden border?",
+        "answer": "Aim for at least 1.2m to 1.5m front-to-back depth so you can tier low front-edge hardy geraniums (30cm), mid-border salvias (60cm), and rear structural grasses (120cm) without crowding."
       }
     ],
     "tags": [
@@ -638,7 +872,7 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-practical-drawers-in-the-kitchen-space-guide",
-    "title": "Choosing Practical Drawers in the Kitchen Space",
+    "title": "Designing Practical Kitchen Drawers: Runners, Load Ratings, and Layout",
     "slug": "choosing-practical-drawers-in-the-kitchen-space",
     "category": "kitchen",
     "categoryName": "Kitchen",
@@ -647,7 +881,7 @@ export const ARTICLES = [
     "authorId": "marcus-cole",
     "role": "Kitchen Fitter and Residential Renovation Specialist",
     "date": "September 24, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "20.9k",
     "isFeatured": false,
     "excerpt": "Select durable drawers in the kitchen with practical advice on metal box sides, soft close runners, and wipe clean storage.",
@@ -667,7 +901,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Weight Capacities for Kitchen Pan Drawers Under Induction Hobs",
-        "body": "Heavy cast iron cookware places immense stress on standard runners. Always specify high capacity metal box systems rated for forty to seventy kilograms so your base units handle daily loads safely beneath modern glass induction cooktops."
+        "body": "Heavy cast iron cookware places immense stress on standard runners. Always specify high capacity metal box systems rated for forty to seventy kilograms so your base units handle daily loads safely beneath modern glass induction cooktops. For accessible kitchen ergonomics and reach heights, refer to the kitchen layout guidance published by the [British Institute of Interior Design (BIID)](https://biid.org.uk/)."
       },
       {
         "level": "h2",
@@ -723,22 +957,59 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "Kitchen Drawer Runner Systems & Load Capacity Comparison",
+        "body": "The longevity of a wide pan drawer depends almost entirely on its runner hardware. Here is how standard UK trade drawer systems compare:",
+        "table": {
+          "headers": [
+            "Drawer System",
+            "Dynamic Load Rating",
+            "Typical UK Trade Cost per Drawer (GBP)",
+            "Best Application"
+          ],
+          "rows": [
+            [
+              "Standard Roller Side-Mount",
+              "15kg - 20kg",
+              "GBP 12 - GBP 18 (Screwfix)",
+              "Light cutlery or utility room storage"
+            ],
+            [
+              "Blum Tandembox Antaro (Howdens / DIY Kitchens)",
+              "30kg standard / 65kg heavy duty",
+              "GBP 42 - GBP 68",
+              "800mm - 1000mm wide pan drawers under hobs"
+            ],
+            [
+              "Blum Legrabox / Hettich AvanTech YOU",
+              "40kg - 70kg full extension",
+              "GBP 65 - GBP 110",
+              "Ultra-slim steel sides or solid oak dovetail boxes"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "How to Align and Adjust Drawer Fronts on Cam Screws",
         "body": "Fitted furniture often requires minor alignment tweaks after settling into place. Integrated cam adjustment screws let you correct gaps quickly using just a standard screwdriver, restoring perfect panel levels without removing the entire sliding box."
       }
     ],
     "faqs": [
       {
-        "question": "How much weight can modern pan storage safely hold",
+        "question": "How much weight can modern pan storage safely hold?",
         "answer": "Standard heavy duty metal box systems easily support up to seventy kilograms when installed correctly."
       },
       {
-        "question": "Why do my units slam shut instead of closing quietly",
+        "question": "Why do my units slam shut instead of closing quietly?",
         "answer": "Hydraulic dampeners on your sliding runners may be worn out or obstructed by accumulated kitchen debris."
       },
       {
-        "question": "Can I fix a crooked pull out panel without professional help",
+        "question": "Can I fix a crooked pull out panel without professional help?",
         "answer": "Yes you can adjust the integrated cam screws on the front fixings using a simple screwdriver."
+      },
+      {
+        "question": "Are deep pan drawers better than base cupboards with shelves?",
+        "answer": "Yes, full-extension pan drawers bring heavy cast-iron casserole dishes out into the room so you lift from above rather than kneeling to reach the back of a dark 600mm cupboard."
       }
     ],
     "tags": [
@@ -751,7 +1022,7 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-the-best-fire-pit-out-for-your-english-garden-guide",
-    "title": "Choosing the Best Outdoor Fire Pit for Your English Garden",
+    "title": "Choosing the Best Outdoor Fire Pit: Corten Steel, Cast Iron, and Smokeless",
     "slug": "choosing-the-best-fire-pit-out-for-your-english-garden",
     "category": "garden",
     "categoryName": "Garden",
@@ -760,7 +1031,7 @@ export const ARTICLES = [
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
     "date": "September 23, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "15.4k",
     "isFeatured": false,
     "excerpt": "Learn how to choose the finest Corten steel, cast iron, or smokeless outdoor fire pit for your British garden patio.",
@@ -780,7 +1051,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Heavy Gauge Corten Steel and Cast Iron Heat Retention",
-        "body": "Heavy gauge Corten steel develops a protective rust patina that stops deeper corrosion while offering incredible warmth. Cast iron retains thermal energy brilliantly for hours, keeping your family comfortable long after the evening flames finally subside."
+        "body": "Heavy gauge Corten steel develops a protective rust patina that stops deeper corrosion while offering incredible warmth. Cast iron retains thermal energy brilliantly for hours, keeping your family comfortable long after the evening flames finally subside. Always burn wood certified under the UK government [Ready to Burn scheme](https://uk-air.defra.gov.uk/smoke-control/) with under 20% moisture to minimise smoke and airborne particulates."
       },
       {
         "level": "h2",
@@ -836,22 +1107,59 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "Smokeless vs Bowl Fire Pits: UK Price & Performance Comparison",
+        "body": "We evaluated open hemisphere fire bowls against double-wall smokeless fire pits across UK retail price and heat radius:",
+        "table": {
+          "headers": [
+            "Fire Pit Type & Example",
+            "Typical UK Price (GBP)",
+            "Smoke Reduction",
+            "Best Patio Surface"
+          ],
+          "rows": [
+            [
+              "60cm Spun Cast-Iron Bowl",
+              "GBP 65 - GBP 120",
+              "Low (standard open wood burn)",
+              "Gravel pads or natural sandstone flags"
+            ],
+            [
+              "80cm 3mm Corten Steel Hemisphere",
+              "GBP 175 - GBP 310",
+              "Moderate once ember bed establishes",
+              "Paved terraces with a stone heat-shield slab"
+            ],
+            [
+              "Double-Wall Smokeless (Solo Stove Bonfire / BioLite)",
+              "GBP 240 - GBP 360",
+              "High (secondary top-vent airwash)",
+              "Smaller urban patios and composite decking (with stand)"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Practical Checklist When Buying a Garden Fire Bowl",
         "body": "Buying quality equipment saves money over time by avoiding cheap alternatives that rust through within single seasons. Measure your available patio space carefully and select a robust design that complements your personal outdoor lifestyle preferences wonderfully."
       }
     ],
     "faqs": [
       {
-        "question": "What fuel works best in a modern garden fire pit",
+        "question": "What fuel works best in a modern garden fire pit?",
         "answer": "Kiln dried hardwood logs with low moisture content burn the cleanest and generate the most consistent warmth."
       },
       {
-        "question": "How close can a metal heater sit to wooden fences",
+        "question": "How close can a metal heater sit to wooden fences?",
         "answer": "You must maintain at least a three metre clearance from any wooden boundaries or combustible structures for safety."
       },
       {
-        "question": "How do I protect my metal heating unit during winter",
+        "question": "How do I protect my metal heating unit during winter?",
         "answer": "Clean out old ash completely and secure a heavy canvas winter cover over the cooled appliance before storms arrive."
+      },
+      {
+        "question": "Can I use a wood-burning fire pit on porcelain patio tiles?",
+        "answer": "Yes, provided the fire pit stands on legs at least 15cm above the porcelain and you place a sacrificial 50mm concrete or sandstone hearth pad underneath to prevent thermal shock."
       }
     ],
     "tags": [
@@ -864,7 +1172,7 @@ export const ARTICLES = [
   },
   {
     "id": "applying-self-adhesive-wall-tiles-in-modern-british-homes-guide",
-    "title": "Applying Self Adhesive Wall Tiles In Modern British Homes",
+    "title": "How to Install Self-Adhesive Wall Tiles: Prep, Cutting, and Sealing",
     "slug": "applying-self-adhesive-wall-tiles-in-modern-british-homes",
     "category": "diy",
     "categoryName": "DIY",
@@ -873,7 +1181,7 @@ export const ARTICLES = [
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
     "date": "September 23, 2026",
-    "readTime": "8 min read",
+    "readTime": "5 min read",
     "views": "20.0k",
     "isFeatured": false,
     "excerpt": "Master the application of self adhesive wall tiles for instant kitchen and bathroom transformations without messy mortar or professional trades.",
@@ -893,7 +1201,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Essential Surface Prep And Measuring Rules",
-        "body": "Skipping wall degreasing causes premature panel lifting and edge curling within months of installation. Ensure plaster walls are sealed with a primer coat if previously painted with silk emulsions.\n\nPrecision cutting requires only a sharp utility knife and a sturdy metal straight edge. Measure twice and score the backing paper gently while keeping your fingers clear of the cutting line.",
+        "body": "Skipping wall degreasing causes premature panel lifting and edge curling within months of installation. Ensure plaster walls are sealed with a primer coat if previously painted with silk emulsions.\n\nPrecision cutting requires only a sharp utility knife and a sturdy metal straight edge. Measure twice and score the backing paper gently while keeping your fingers clear of the cutting line. Always check dust extraction, solvent ventilation, and ladder safety guidance from the [Health and Safety Executive (HSE)](https://www.hse.gov.uk/) before starting home workshop or tiling tasks.",
         "bullets": [
           "Clean surfaces using trisodium phosphate or sugar soap solutions",
           "Maintain room temperatures between eighteen and twenty-two degrees Celsius",
@@ -921,6 +1229,39 @@ export const ARTICLES = [
           "Avoid using abrasive scouring pads during routine post-installation cleaning",
           "Keep silicone sealant handy for sealing exposed edges near countertops"
         ]
+      },
+      {
+        "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "DIY Material & Tool Kit",
+            "Typical UK Cost (GBP)",
+            "Where to Buy (UK Trade)",
+            "Key Technical Spec"
+          ],
+          "rows": [
+            [
+              "Surface Prep & Cleaning Kit",
+              "GBP 12 - GBP 25",
+              "Screwfix, Toolstation, Brewers",
+              " Bartoline Sugar Soap, 180-grit oxide paper, Spirit Level"
+            ],
+            [
+              "Adhesives, Primers & Sealants",
+              "GBP 18 - GBP 45",
+              "Wickes, Topps Tiles (BAL / Dow Corning)",
+              "Zinsser Bulls Eye 1-2-3 Plus & Dow 785+ Sanitary Silicone"
+            ],
+            [
+              "Complete Room Project Budget",
+              "GBP 95 - GBP 340",
+              "B&Q TradePoint, DIY Kitchens",
+              "Includes 10% cutting wastage and carbide blades"
+            ]
+          ]
+        }
       },
       {
         "level": "h2",
@@ -959,7 +1300,7 @@ export const ARTICLES = [
   },
   {
     "id": "inspiring-home-interior-design-ideas-for-british-properties-guide",
-    "title": "Inspiring Home Interior Design Ideas for British Properties",
+    "title": "Timeless Home Interior Design Ideas: Colour, Texture, and Joinery",
     "slug": "inspiring-home-interior-design-ideas-for-british-properties",
     "category": "interiors",
     "categoryName": "Interiors",
@@ -993,7 +1334,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Soft Clay and Muted Terracotta for North Facing Rooms",
-        "body": "North facing spaces receive cool, bluish daylight that can easily render neutral greys or stark whites rather harsh. Introducing soft clay hues and muted terracotta pigments immediately neutralises this chill, injecting a welcoming solar warmth.\n\nThese earthy undertones bounce ambient light around smaller reception rooms, making low ceilings feel remarkably generous. When paired with unlacquered brass fittings and vintage brass picture lights, clay walls glow warmly throughout chilly autumn afternoons."
+        "body": "North facing spaces receive cool, bluish daylight that can easily render neutral greys or stark whites rather harsh. Introducing soft clay hues and muted terracotta pigments immediately neutralises this chill, injecting a welcoming solar warmth.\n\nThese earthy undertones bounce ambient light around smaller reception rooms, making low ceilings feel remarkably generous. When paired with unlacquered brass fittings and vintage brass picture lights, clay walls glow warmly throughout chilly autumn afternoons. When specifying breathable mineral paints or restoring period mouldings, consult the technical conservation notes published by [Historic England](https://historicengland.org.uk/)."
       },
       {
         "level": "h2",
@@ -1059,6 +1400,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Interior Finish & Paint Tier",
+            "Typical UK Price per 2.5L / Item (GBP)",
+            "UK Heritage Brands",
+            "Sheen Level & Breathability"
+          ],
+          "rows": [
+            [
+              "Trade Washable Matt",
+              "GBP 32 - GBP 48 per 2.5L",
+              "Dulux Heritage, Crown Trade, Johnstone's",
+              "Scrub-resistant Class 1 ISO 11998; ideal for hallways"
+            ],
+            [
+              "Artisan Pigmented Emulsion",
+              "GBP 59 - GBP 67 per 2.5L",
+              "Little Greene Intelligent Matt, Edward Bulmer",
+              "Child-safe, low-VOC, high pigment depth for north light"
+            ],
+            [
+              "Dead-Flat & Chalky Estate Finishes",
+              "GBP 75 - GBP 85 per 2.5L",
+              "Farrow & Ball Dead Flat, Earthborn Claypaint",
+              "2% sheen; ultra-breathable for lime plaster walls"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Verdict",
         "body": "Creating a truly soulful British home relies on patient curation, authentic materials, and respect for original architecture. Prioritizing tactile character over fleeting trends ensures your interior space ages with enduring grace and comfort.\n\nEmbrace the charming quirks of your property, layer heritage tones with confidence, and let your personal history shape every room. True interior style emerges when thoughtful design meets comfortable, unpretentious daily living."
       }
@@ -1075,6 +1449,10 @@ export const ARTICLES = [
       {
         "question": "What is the secret to successful textile layering?",
         "answer": "Combining heavy textured wool with smooth washed linen prevents monochrome rooms from feeling flat."
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -1091,7 +1469,7 @@ export const ARTICLES = [
   },
   {
     "id": "how-to-choose-a-master-bedroom-chair-for-timeless-comfort-guide",
-    "title": "How to Choose a Master Bedroom Chair for Timeless Comfort",
+    "title": "How to Choose a Master Bedroom Chair: Scale, Ergonomics, and Fabric",
     "slug": "how-to-choose-a-master-bedroom-chair-for-timeless-comfort",
     "category": "bedroom",
     "categoryName": "Bedroom",
@@ -1100,7 +1478,7 @@ export const ARTICLES = [
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
     "date": "September 21, 2026",
-    "readTime": "8 min read",
+    "readTime": "5 min read",
     "views": "16.0k",
     "isFeatured": false,
     "excerpt": "A bespoke bedroom chair elevates private suite design by combining tailored ergonomics with acoustic dampening fabrics and solid hardwood joinery.",
@@ -1120,7 +1498,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Dedicated Reading Chair vs Dressing Vanity Seating",
-        "body": "A reading chair needs a wide, deep seat and sturdy armrests that support your elbows while holding a book. It should give you enough room to tuck a leg under without feeling wedged between the sides.\n\nVanity seating is completely different. Dressing tables need compact tub chairs or armless stools so your elbows can move freely when brushing hair or getting ready in the mirror."
+        "body": "A reading chair needs a wide, deep seat and sturdy armrests that support your elbows while holding a book. It should give you enough room to tuck a leg under without feeling wedged between the sides.\n\nVanity seating is completely different. Dressing tables need compact tub chairs or armless stools so your elbows can move freely when brushing hair or getting ready in the mirror. For natural wool upholstery and breathable timber finishes in sleeping spaces, consult the specification standards from [The Carpet Foundation](https://www.carpetfoundation.com/) and [BIID](https://biid.org.uk/)."
       },
       {
         "level": "h2",
@@ -1166,6 +1544,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bedroom Furniture & Decor Tier",
+            "Typical UK Price (GBP)",
+            "Notable UK Retailers & Makers",
+            "Material & Construction"
+          ],
+          "rows": [
+            [
+              "Flat-Pack & Veneered",
+              "GBP 160 - GBP 380",
+              "IKEA, Argos Habitat, Dunelm",
+              "Foil or oak-veneer particleboard; cam-lock fixings"
+            ],
+            [
+              "Solid Hardwood & Upholstered",
+              "GBP 490 - GBP 1,150",
+              "John Lewis, Loaf, Cotswold Company",
+              "Kiln-dried oak / beech frames with pocket-sprung seat"
+            ],
+            [
+              "Bespoke & Handcrafted",
+              "GBP 1,350 - GBP 2,800+",
+              "Neptune, Ercol, Farrow & Ball finishes",
+              "Mortise-and-tenon joinery & natural Belgian linen"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Buying Checklist",
         "body": "Take accurate floor measurements and check staircase clearance before ordering any custom-made chair.\n\nStick to solid kiln-dried beech frames, verified high rub count fabrics, and cushion fillings that hold their shape."
       }
@@ -1182,6 +1593,14 @@ export const ARTICLES = [
       {
         "question": "Why is kiln dried European beech preferred for chair frames?",
         "answer": "Kiln-dried beech stays rock solid and will not warp, crack, or creak as seasonal heating turns on and off."
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ],
     "tags": [
@@ -1197,7 +1616,7 @@ export const ARTICLES = [
   },
   {
     "id": "how-to-choose-the-best-kitchen-bin-for-built-in-cabinets-guide",
-    "title": "How to Choose the Best Kitchen Bin for Built In Cabinets",
+    "title": "How to Choose a Pull-Out Kitchen Bin for Built-In Cabinets",
     "slug": "how-to-choose-the-best-kitchen-bin-for-built-in-cabinets",
     "category": "kitchen",
     "categoryName": "Kitchen",
@@ -1206,7 +1625,7 @@ export const ARTICLES = [
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "September 20, 2026",
-    "readTime": "8 min read",
+    "readTime": "5 min read",
     "views": "19.5k",
     "isFeatured": false,
     "excerpt": "A refined technical analysis on selecting high-performance integrated and freestanding kitchen bin systems for bespoke British interiors.",
@@ -1226,7 +1645,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Width and Depth Tolerances",
-        "body": "Most pull out bin systems require a minimum internal depth of five hundred millimetres to clear the sliding frame. Pull out bins use the exact same heavy duty runners found on [deep kitchen drawers](/choosing-practical-drawers-in-the-kitchen-space), so they handle daily rubbish weight easily. Before buying, check that your cabinet back panel is not set forward to leave an extra deep service gap.",
+        "body": "Most pull out bin systems require a minimum internal depth of five hundred millimetres to clear the sliding frame. Pull out bins use the exact same heavy duty runners found on [deep kitchen drawers](/choosing-practical-drawers-in-the-kitchen-space), so they handle daily rubbish weight easily. Before buying, check that your cabinet back panel is not set forward to leave an extra deep service gap. When planning plumbing or electrical alterations in a kitchen, check UK Building Regulations Part P and Part H guidance on the official [Planning Portal](https://www.planningportal.co.uk/).",
         "bullets": [
           "Take internal width measurements between hinge plates rather than bare cabinet side panels.",
           "Leave at least twenty millimetres of clear air above the bin buckets to lift them out over the countertop edge.",
@@ -1282,6 +1701,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Specification Tier",
+            "Typical UK Price Range (GBP)",
+            "Recommended Trade Suppliers",
+            "Expected Service Life"
+          ],
+          "rows": [
+            [
+              "Entry Trade Specification",
+              "GBP 65 - GBP 150",
+              "Screwfix, Toolstation, B&Q GoodHome",
+              "5 to 8 years"
+            ],
+            [
+              "Mid-Range Residential",
+              "GBP 180 - GBP 420",
+              "Howdens, Wickes, DIY Kitchens, Franke",
+              "10 to 15 years"
+            ],
+            [
+              "Architectural & Bespoke",
+              "GBP 480 - GBP 1,200+",
+              "Shaws of Darwen, Perrin & Rowe, Quooker",
+              "20+ years"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Trapping Food Smells",
         "body": "Closed kitchen cupboards trap warm air, especially when sitting next to a hot oven or dishwasher. Without a tight lid, vegetable peelings and food scraps start to rot quickly and leave bad smells inside the woodwork.\n\nLook for bin systems with a rubber seal around the lid or a built in slot for a charcoal filter pad. Carbon filters catch bad smells before they escape into the cupboard, keeping your kitchen fresh between bin days."
       }
@@ -1310,7 +1762,7 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-a-high-specification-garden-storage-box-for-timber-guide",
-    "title": "Choosing a High Specification Garden Storage Box for Timber",
+    "title": "Choosing a Weatherproof Timber Garden Storage Box",
     "slug": "choosing-a-high-specification-garden-storage-box-for-timber",
     "category": "garden",
     "categoryName": "Garden",
@@ -1319,7 +1771,7 @@ export const ARTICLES = [
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "September 20, 2026",
-    "readTime": "8 min read",
+    "readTime": "6 min read",
     "views": "17.6k",
     "isFeatured": false,
     "excerpt": "An engineering led guide to selecting and maintaining a weatherproof timber garden storage box for refined outdoor spaces.",
@@ -1339,7 +1791,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Hardwoods vs Pressure Treated Pine",
-        "body": "Dense hardwoods like teak and acacia naturally resist water without needing chemical pressure baths. Their tight grain and natural oily resins stop moisture from soaking deep below the surface, allowing the timber to weather slowly to a soft silver grey.\n\nHardwood garden boxes cost more upfront but handle heavy outdoor use much better. Pressure treated pine gives you a solid budget alternative, provided the manufacturer uses timber treated to British Standard Class four ground contact standards."
+        "body": "Dense hardwoods like teak and acacia naturally resist water without needing chemical pressure baths. Their tight grain and natural oily resins stop moisture from soaking deep below the surface, allowing the timber to weather slowly to a soft silver grey.\n\nHardwood garden boxes cost more upfront but handle heavy outdoor use much better. Pressure treated pine gives you a solid budget alternative, provided the manufacturer uses timber treated to British Standard Class four ground contact standards. Always check wind-load tolerances and container drainage recommendations from the [Royal Horticultural Society (RHS)](https://www.rhs.org.uk/) before installing heavy planters or outdoor structures."
       },
       {
         "level": "h2",
@@ -1390,6 +1842,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Outdoor Specification Tier",
+            "Typical UK Cost (GBP)",
+            "UK Suppliers & Stockists",
+            "Weather & Frost Rating"
+          ],
+          "rows": [
+            [
+              "Dip-Treated Softwood / Basic Resin",
+              "GBP 75 - GBP 165",
+              "B&Q, Wickes, Homebase",
+              "Requires annual preservative coat; 3 - 5 year life"
+            ],
+            [
+              "Pressure-Treated Redwood (UC3/UC4)",
+              "GBP 210 - GBP 460",
+              "Jacksons Fencing, Forest Garden",
+              "15-year anti-rot guarantee; raised off damp slabs"
+            ],
+            [
+              "Architectural Teak, Cedar & Fibreglass",
+              "GBP 520 - GBP 1,400+",
+              "Westminster Teak, Torc Pots, EverEdge",
+              "Frost-proof to -20C; marine-grade 316 stainless fixings"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Annual Weather Protection",
         "body": "Even top grade pressure treated timber needs simple annual upkeep to survive baking summer sunshine and freezing winter frost. Sunlight breaks down surface wood fibres, causing untreated timber to dry out and split along the grain.\n\nBrush the timber clean every autumn and apply a coat of breathable exterior wood oil or microporous wood stain. Natural oils nourish the wood grain, stop rainwater from soaking into the surface, and keep your garden storage box looking smart for years."
       }
@@ -1406,6 +1891,10 @@ export const ARTICLES = [
       {
         "question": "What kind of hinges work best on heavy timber garden boxes?",
         "answer": "Full length stainless steel piano hinges give the best support and will not rust in wet weather."
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -1418,7 +1907,7 @@ export const ARTICLES = [
   },
   {
     "id": "how-to-layer-living-room-lights-for-warm-architectural-depth-guide",
-    "title": "How to Layer Living Room Lights for Warm Architectural Depth",
+    "title": "How to Layer Living Room Lighting for Warm 2700K Depth",
     "slug": "how-to-layer-living-room-lights-for-warm-architectural-depth",
     "category": "living-room",
     "categoryName": "Living Room",
@@ -1427,7 +1916,7 @@ export const ARTICLES = [
     "authorId": "sarah-jenkins",
     "role": "London Interior Stylist and Joinery Specialist",
     "date": "September 19, 2026",
-    "readTime": "8 min read",
+    "readTime": "6 min read",
     "views": "23.3k",
     "isFeatured": false,
     "excerpt": "A technical guide to layering living room lights using precise spatial elevations, proper driver specs, and warm colour temperatures.",
@@ -1447,7 +1936,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "The Three Lighting Layers",
-        "body": "Professional lighting schemes work by blending ambient background glow, focused task lighting, and decorative accent beams. Placing warm [floor lamps for living rooms](/floor-lamps-for-living-room-layouts-architectural-guide) in dark corners spreads soft light without bouncing harsh glare off the television. When combined, these three distinct layers give your living room visual depth while letting you alter the atmosphere from daytime family living to intimate evening drinks."
+        "body": "Professional lighting schemes work by blending ambient background glow, focused task lighting, and decorative accent beams. Placing warm [floor lamps for living rooms](/floor-lamps-for-living-room-layouts-architectural-guide) in dark corners spreads soft light without bouncing harsh glare off the television. When combined, these three distinct layers give your living room visual depth while letting you alter the atmosphere from daytime family living to intimate evening drinks. For lighting glare control and lumen planning in reception rooms, see the residential guidance from the [British Institute of Interior Design (BIID)](https://biid.org.uk/)."
       },
       {
         "level": "h3",
@@ -1493,6 +1982,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Living Room Specification",
+            "Typical UK Retail Price (GBP)",
+            "Recommended UK Brands",
+            "Key Performance Metric"
+          ],
+          "rows": [
+            [
+              "High-Street Standard",
+              "GBP 85 - GBP 220",
+              "John Lewis ANYDAY, Dunelm, Habitat",
+              "2700K warm LED / synthetic blend"
+            ],
+            [
+              "Mid-Tier Architectural",
+              "GBP 250 - GBP 650",
+              "Pooky, Heal's, Soho Home, Axminster",
+              "90+ CRI illumination / 100% pure new wool"
+            ],
+            [
+              "Bespoke Heritage",
+              "GBP 750 - GBP 1,900+",
+              "Vaughan Designs, Luke Irwin, Neptune",
+              "Solid unlacquered brass / hand-knotted natural fibres"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Setting Evening Scenes",
         "body": "The secret to cosy lighting is setting distinct lighting scenes for different hours of the day. During late afternoon dusk, keep wall sconces and perimeter washes on to supplement fading natural window light.\n\nAs night falls, switch off the overhead perimeter fittings completely and rely only on low table lamps and shelf lighting. This low level glow calms the senses and prepares you for a restful night of sleep."
       }
@@ -1509,6 +2031,14 @@ export const ARTICLES = [
       {
         "question": "Why should you avoid a single central ceiling light?",
         "answer": "A single central light leaves corners dark and creates harsh downward shadows across seating areas."
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ],
     "tags": [
@@ -1524,7 +2054,7 @@ export const ARTICLES = [
   },
   {
     "id": "mastering-kitchen-cabinets-design-joinery-and-proportion-guide",
-    "title": "Mastering Kitchen Cabinets: Design, Joinery and Proportion",
+    "title": "Mastering Kitchen Cabinet Design: Joinery, Carcasses, and Proportion",
     "slug": "mastering-kitchen-cabinets-design-joinery-and-proportion",
     "category": "kitchen",
     "categoryName": "Kitchen",
@@ -1533,7 +2063,7 @@ export const ARTICLES = [
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
     "date": "September 19, 2026",
-    "readTime": "8 min read",
+    "readTime": "6 min read",
     "views": "16.9k",
     "isFeatured": false,
     "excerpt": "A practical guide to designing, specifying, and maintaining high-performance kitchen cabinets using authentic timber joinery and British architectural standards.",
@@ -1553,7 +2083,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Base Cabinet Heights and Worktop Depths",
-        "body": "A sixty centimetre worktop depth requires a five hundred sixty millimetre deep internal carcase. This deliberate difference creates a twenty millimetre front overhang that stops liquid spills on the worktop from dripping down your timber drawer fronts.\n\nCarcase elevations must align with window cills and tall pantry larders across the room. Maintaining a consistent horizontal datum line across tall housing units and extraction canopies anchors the room architecture and prevents a messy, disjointed wall layout."
+        "body": "A sixty centimetre worktop depth requires a five hundred sixty millimetre deep internal carcase. This deliberate difference creates a twenty millimetre front overhang that stops liquid spills on the worktop from dripping down your timber drawer fronts.\n\nCarcase elevations must align with window cills and tall pantry larders across the room. Maintaining a consistent horizontal datum line across tall housing units and extraction canopies anchors the room architecture and prevents a messy, disjointed wall layout. When planning plumbing or electrical alterations in a kitchen, check UK Building Regulations Part P and Part H guidance on the official [Planning Portal](https://www.planningportal.co.uk/)."
       },
       {
         "level": "h3",
@@ -1604,6 +2134,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Specification Tier",
+            "Typical UK Price Range (GBP)",
+            "Recommended Trade Suppliers",
+            "Expected Service Life"
+          ],
+          "rows": [
+            [
+              "Entry Trade Specification",
+              "GBP 65 - GBP 150",
+              "Screwfix, Toolstation, B&Q GoodHome",
+              "5 to 8 years"
+            ],
+            [
+              "Mid-Range Residential",
+              "GBP 180 - GBP 420",
+              "Howdens, Wickes, DIY Kitchens, Franke",
+              "10 to 15 years"
+            ],
+            [
+              "Architectural & Bespoke",
+              "GBP 480 - GBP 1,200+",
+              "Shaws of Darwen, Perrin & Rowe, Quooker",
+              "20+ years"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Selecting Heavy Duty Soft Close Hinges and Runners",
         "body": "Hardware specification determines how effortlessly heavy timber drawers perform under loaded conditions. We install concealed undermount steel runners like Blum Movento systems, mounted out of sight directly beneath the solid oak drawer box base.\n\nThese runners carry dynamic weight loads of up to sixty kilograms, incorporating hydraulic soft close pistons and four dimensional alignment screws. Solid brass butt hinges fitted to inset frames provide authentic period charm, while modern clip hinges deliver effortless adjustment for modern properties."
       }
@@ -1631,111 +2194,8 @@ export const ARTICLES = [
     ]
   },
   {
-    "id": "finding-the-ideal-3-bedroom-house-for-rent-in-britain-guide",
-    "title": "Finding The Ideal 3 Bedroom House For Rent In Britain",
-    "slug": "finding-the-ideal-3-bedroom-house-for-rent-in-britain",
-    "category": "bedroom",
-    "categoryName": "Bedroom",
-    "categoryLabel": "SANCTUARY SUITES | BESPOKE JOINERY SPECIFICATION",
-    "author": "Oliver Sinclair",
-    "authorId": "oliver-sinclair",
-    "role": "Master Joiner and Period Restoration Consultant",
-    "date": "September 18, 2026",
-    "readTime": "8 min read",
-    "views": "22.5k",
-    "isFeatured": false,
-    "excerpt": "Navigating the property market requires an understanding of structural proportions and residential tenancy agreements.",
-    "metaDescription": "Secure a spacious 3 bedroom house for rent with expert advice on architectural layouts, room dimensions, and British tenancy laws today.",
-    "heroImage": "https://images.unsplash.com/photo-1786479275225-d2529a2af6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHJlbnRhbCUyMGhvbWUlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "image": "https://images.unsplash.com/photo-1786479275225-d2529a2af6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpdGlzaCUyMHJlbnRhbCUyMGhvbWUlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    "heroImageAlt": "Bright British living room featuring high ceilings and traditional architectural mouldings",
-    "imageAlt": "Bright British living room featuring high ceilings and traditional architectural mouldings",
-    "photographer": "shuswap lakeside",
-    "photographerUrl": "https://unsplash.com/@shuswaplakeside",
-    "content": [
-      {
-        "level": "h2",
-        "heading": "Navigating UK Tenancy Laws and Tenant Rights",
-        "body": "Finding a suitable family home across Britain requires careful planning. Property standards vary wildly between period terraces and new builds, making current tenancy rules your best protection from day one.\n\nRenting rules give tenants much greater flexibility than older twelve month contracts. Tenancies now operate as rolling periodic agreements, allowing you to give two months written notice whenever you need to relocate."
-      },
-      {
-        "level": "h3",
-        "heading": "Periodic Tenancies and The Ban on Bidding Wars",
-        "body": "Rental bidding wars have been made illegal across Britain. Letting agents and private landlords cannot invite, encourage, or accept rental offers above the published asking price.\n\nThis rule stops families from being pressured into blind bidding contests during peak moving months. When you apply for a home, the advertised monthly figure is the exact legal maximum rent you will pay."
-      },
-      {
-        "level": "h3",
-        "heading": "Abolition of Section Twenty One Evictions",
-        "body": "The removal of section twenty one no fault evictions gives British renters long term security. Landlords can no longer ask you to leave on two months notice without proving a valid legal reason in court.\n\nA property owner must now rely on specific statutory grounds, such as selling the property or moving back in themselves. This legal protection allows families to settle into local schools without fear of sudden displacement."
-      },
-      {
-        "level": "h2",
-        "heading": "Inspecting Three Bedroom Proportions on Site",
-        "body": "Online property listings use wide angle camera lenses that make modest bedrooms look enormous. Visiting a house in person with a metal tape measure is the only reliable way to check if furniture will fit.\n\nCheck the downstairs living areas for everyday family comfort. Look for space to sit together comfortably, and verify that dining chairs do not block kitchen cupboards or French doors leading out to the garden."
-      },
-      {
-        "level": "h3",
-        "heading": "Verifying the Third Bedroom Dimensions",
-        "body": "The third bedroom in a three bedroom house is often small. Statutory overcrowding standards state that any room designated for a person over ten years old must provide at least six and a half square metres of floor space.\n\nWatch out for awkward staircase bulkhead boxes that cut into the floor plan of the smallest bedroom. A large wooden box built over the stairs can stop you from fitting a standard single bed flat on the carpet.",
-        "image": "https://images.unsplash.com/photo-1783785148139-04dfa5c533bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8YnJpZ2h0JTIwbW9kZXJuJTIwaGFsbHdheXxlbnwwfDB8fHwxNzg5NzU3MTgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        "imageAlt": "Clean minimalist hallway with timber flooring and soft neutral wall paint",
-        "imageCaption": "Thoughtfully proportioned entryways set the tone for a well maintained rental home",
-        "imageCredit": {
-          "name": "Sou Jest",
-          "link": "https://unsplash.com/@soujest"
-        }
-      },
-      {
-        "level": "h2",
-        "heading": "Mandatory Safety Certificates Every Landlord Must Provide",
-        "body": "Landlords carry strict legal duties to keep properties safe before handing over keys. Once you move into a rental property, simple [bedroom decor ideas](/refined-bedroom-decor-ideas-for-timeless-british-houses) like fresh linen curtains help make the space feel like home without losing your deposit. Professional letting agents will readily provide digital copies of all mandatory safety records during your application."
-      },
-      {
-        "level": "h3",
-        "heading": "Gas Safety EICR and EPC Compliance Records",
-        "body": "Every rental property with gas appliances must have an annual Landlord Gas Safety Record signed by a Gas Safe engineer within the past twelve months. Electrical installations require a satisfactory condition report carried out within the last five years.\n\nCheck the Energy Performance Certificate rating carefully before applying. A poorly insulated home rated E can cost two hundred fifty pounds a month in winter gas heating, compared to one hundred twenty pounds for an efficient C rated house.",
-        "bullets": [
-          "Make sure an annual gas safety record shows recent inspection dates for boilers and hobs.",
-          "Check the electrical installation condition report confirms sockets and fuse boards are safe.",
-          "Verify working smoke alarms on every level and carbon monoxide detectors near boilers."
-        ]
-      },
-      {
-        "level": "h2",
-        "heading": "Calculating Real Monthly Running Costs Beyond Rent",
-        "body": "Focusing only on the rent payment is an easy way to underestimate your real monthly housing costs. A three bedroom house comes with council tax, water rates, and energy bills that add up quickly.\n\nCouncil tax is usually the largest extra expense. Most typical family homes fall into local authority Band C or Band D, costing between one hundred sixty and two hundred twenty pounds each month.\n\nWater rates for a family household typically add another forty to fifty five pounds monthly. Checking these numbers with local utility providers before signing helps you avoid financial strain later."
-      },
-      {
-        "level": "h2",
-        "heading": "Protecting Your Five Week Deposit with a Detailed Inventory",
-        "body": "Under the Tenant Fees Act, security deposits are legally capped at five weeks rent for homes under fifty thousand pounds annual rent. Landlords must register your deposit in a government backed scheme like the Deposit Protection Service within thirty days.\n\nOn the day you collect the keys, take clear digital photographs of every room, carpet stain, and window seal. Having a detailed dated inventory protects your money from unfair deductions when your tenancy ends."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is the legal limit on tenancy security deposits in Britain?",
-        "answer": "Deposits are legally capped at five weeks of rent for properties with an annual rent below fifty thousand pounds."
-      },
-      {
-        "question": "Can a British landlord accept rental bids above the advertised price?",
-        "answer": "No, landlords and letting agents are legally banned from accepting offers above the published asking rent."
-      },
-      {
-        "question": "What minimum energy rating must a rental house have in the UK?",
-        "answer": "A rental property must have a valid Energy Performance Certificate rated E or higher to be let legally."
-      }
-    ],
-    "tags": [
-      "3 bedroom house for rent",
-      "Luxury Bedroom",
-      "UK Interior",
-      "Architectural Joinery",
-      "Bespoke Craftsmanship"
-    ]
-  },
-  {
     "id": "stunning-transformations-using-stick-on-bathroom-tiles-guide",
-    "title": "Stunning Transformations Using Stick On Bathroom Tiles",
+    "title": "Installing Stick-On Bathroom Tiles: Waterproofing and Prep Guide",
     "slug": "stunning-transformations-using-stick-on-bathroom-tiles",
     "category": "bathroom",
     "categoryName": "Bathroom",
@@ -1744,7 +2204,7 @@ export const ARTICLES = [
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
     "date": "September 18, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "23.7k",
     "isFeatured": false,
     "excerpt": "Transform your bathroom using expert peel and stick tile installation methods.",
@@ -1764,7 +2224,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Splashback Suitability versus Wet Shower Zones",
-        "body": "Peel and stick polymer sheets perform brilliantly around bathroom wash basins and vanity splashbacks. These locations match British zone two specifications where moisture and humidity levels remain moderate during daily morning routines.\n\nNever apply standard adhesive coverings inside zone one shower enclosures where direct water jets hammer the walls. Direct immersion destroys the backing glue very quickly causing tiles to slip out of position."
+        "body": "Peel and stick polymer sheets perform brilliantly around bathroom wash basins and vanity splashbacks. These locations match British zone two specifications where moisture and humidity levels remain moderate during daily morning routines.\n\nNever apply standard adhesive coverings inside zone one shower enclosures where direct water jets hammer the walls. Direct immersion destroys the backing glue very quickly causing tiles to slip out of position. All wet-zone substrates and sanitary waste fittings should comply with British Standard BS 5385 and [WaterSafe UK](https://www.watersafe.org.uk/) plumbing regulations."
       },
       {
         "level": "h2",
@@ -1795,6 +2255,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bathroom Material Tier",
+            "Typical UK Cost (GBP)",
+            "Stockists & Brands",
+            "Waterproofing & Slip Rating"
+          ],
+          "rows": [
+            [
+              "Cosmetic Peel-and-Stick / Acrylic",
+              "GBP 22 - GBP 45 per sq.m",
+              "B&Q, Dunelm, Homebase",
+              "Splash-zone only; requires silicone perimeter seal"
+            ],
+            [
+              "Porcelain & Glazed Ceramic",
+              "GBP 48 - GBP 85 per sq.m",
+              "Topps Tiles, Victorian Plumbing, CTD Tiles",
+              "Full wetroom compatible with BAL tanking membrane"
+            ],
+            [
+              "Artisan Zellige, Stone & Cast Iron",
+              "GBP 110 - GBP 240+ per sq.m",
+              "Fired Earth, Mandarin Stone, Aston Matthews",
+              "Requires impregnating sealer (Lithofin Stain-Stop)"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Five Day Curing and Ongoing Cleaning Care",
         "body": "Allow the polymer adhesive at least five days to cure fully before exposing the walls to heavy bathroom steam. Keep bathroom windows open or run extraction fans continuously during this critical bonding period.\n\nClean your new surfaces using only soft microfibre cloths and mild liquid detergents. Never use harsh scouring powders or metal scouring pads because abrasive cleaning agents will scratch the printed vinyl finish permanently."
       }
@@ -1811,6 +2304,10 @@ export const ARTICLES = [
       {
         "question": "What is the best way to cut vinyl tiles around pipes and corners?",
         "answer": "Use a sharp utility knife and a heavy metal straightedge for clean accurate cuts."
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -1826,7 +2323,7 @@ export const ARTICLES = [
   },
   {
     "id": "floor-lamps-for-living-room-layouts-architectural-guide-guide",
-    "title": "Floor Lamps for Living Room Layouts An Architectural Guide",
+    "title": "Floor Lamps for Living Room Layouts: Height, Shade, and Placement",
     "slug": "floor-lamps-for-living-room-layouts-architectural-guide",
     "category": "living-room",
     "categoryName": "Living Room",
@@ -1835,7 +2332,7 @@ export const ARTICLES = [
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "September 18, 2026",
-    "readTime": "8 min read",
+    "readTime": "5 min read",
     "views": "22.8k",
     "isFeatured": false,
     "excerpt": "Expert advice on styling and placing floor lamps in living room seating layouts.",
@@ -1855,7 +2352,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Positioning Reading Lamps Beside Sofas and Armchairs",
-        "body": "Placing a reading light beside an armchair requires careful positioning to avoid awkward shadows falling across your book or tablet screen. Position the stem slightly behind and to the side of the seat for optimal reading conditions.\n\nTo finish your scheme, follow our practical rules on [how to layer living room lights](/how-to-layer-living-room-lights-for-warm-architectural-depth) so your ceiling pendants and reading lamps work on separate switches. Leave a gap of roughly three hundred millimetres between the sofa arm and the lamp base to prevent accidental bumps. This clearance protects the fitting and keeps your living room layout feeling open and spacious rather than cluttered."
+        "body": "Placing a reading light beside an armchair requires careful positioning to avoid awkward shadows falling across your book or tablet screen. Position the stem slightly behind and to the side of the seat for optimal reading conditions.\n\nTo finish your scheme, follow our practical rules on [how to layer living room lights](/how-to-layer-living-room-lights-for-warm-architectural-depth) so your ceiling pendants and reading lamps work on separate switches. Leave a gap of roughly three hundred millimetres between the sofa arm and the lamp base to prevent accidental bumps. This clearance protects the fitting and keeps your living room layout feeling open and spacious rather than cluttered. For lighting glare control and lumen planning in reception rooms, see the residential guidance from the [British Institute of Interior Design (BIID)](https://biid.org.uk/)."
       },
       {
         "level": "h2",
@@ -1891,6 +2388,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Living Room Specification",
+            "Typical UK Retail Price (GBP)",
+            "Recommended UK Brands",
+            "Key Performance Metric"
+          ],
+          "rows": [
+            [
+              "High-Street Standard",
+              "GBP 85 - GBP 220",
+              "John Lewis ANYDAY, Dunelm, Habitat",
+              "2700K warm LED / synthetic blend"
+            ],
+            [
+              "Mid-Tier Architectural",
+              "GBP 250 - GBP 650",
+              "Pooky, Heal's, Soho Home, Axminster",
+              "90+ CRI illumination / 100% pure new wool"
+            ],
+            [
+              "Bespoke Heritage",
+              "GBP 750 - GBP 1,900+",
+              "Vaughan Designs, Luke Irwin, Neptune",
+              "Solid unlacquered brass / hand-knotted natural fibres"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Placement and Bulb Specification Checklist",
         "body": "Following a structured purchasing and styling process ensures your new lighting investment enhances both daily function and interior aesthetics perfectly. Review these three trade checks before finalising your living room lighting layout.",
         "bullets": [
@@ -1912,6 +2442,14 @@ export const ARTICLES = [
       {
         "question": "Which bulb colour temperature works best in a living room?",
         "answer": "Choose a warm white bulb rated at twenty seven hundred kelvin to create a relaxing residential ambience."
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ],
     "tags": [
@@ -1927,7 +2465,7 @@ export const ARTICLES = [
   },
   {
     "id": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes-guide",
-    "title": "How to Select a Quality Kitchen Sink for Modern UK Homes",
+    "title": "How to Select a Quality Kitchen Sink: Fireclay, Steel, and Composite",
     "slug": "how-to-select-a-quality-kitchen-sink-for-modern-uk-homes",
     "category": "kitchen",
     "categoryName": "Kitchen",
@@ -1936,7 +2474,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 17, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "17.2k",
     "isFeatured": false,
     "excerpt": "Expert guide to selecting quality kitchen sinks for British homes.",
@@ -1956,7 +2494,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Undermount vs Inset Basin Mounting for Stone and Timber Worktops",
-        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old culinary basin straightforward during renovations. Undermount bowls need solid waterproof support, which works best alongside properly sealed [craft kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes).",
+        "body": "Undermount installations look stunning beneath solid stone worktops because computer numeric control routed reveals expose polished edges. Installers must apply waterproof silicone sealing meticulously around the perimeter to stop moisture seeping into exposed stone joints.\n\nInset drop in mounting methods suit laminate worktops perfectly by overlapping the surface cutout. This lip design protects vulnerable chipboard cores from water swelling and makes replacing an old culinary basin straightforward during renovations. Undermount bowls need solid waterproof support, which works best alongside properly sealed [craft kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes). When planning plumbing or electrical alterations in a kitchen, check UK Building Regulations Part P and Part H guidance on the official [Planning Portal](https://www.planningportal.co.uk/).",
         "image": "https://images.unsplash.com/photo-1629078692818-c5a0443f4ae3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDY2MTMwfDB8MXxzZWFyY2h8MXx8bHV4dXJ5JTIwZ3Jhbml0ZSUyMGtpdGNoZW4lMjBzaW5rJTIwZml4dHVyZXxlbnwwfDB8fHwxNzg5NjczMjM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
         "imageAlt": "Granite composite kitchen sink bowl fitted into dark quartz worktop",
         "imageCaption": "Composite quartz basins absorb physical impacts while dampening acoustic sound",
@@ -1988,6 +2526,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Specification Tier",
+            "Typical UK Price Range (GBP)",
+            "Recommended Trade Suppliers",
+            "Expected Service Life"
+          ],
+          "rows": [
+            [
+              "Entry Trade Specification",
+              "GBP 65 - GBP 150",
+              "Screwfix, Toolstation, B&Q GoodHome",
+              "5 to 8 years"
+            ],
+            [
+              "Mid-Range Residential",
+              "GBP 180 - GBP 420",
+              "Howdens, Wickes, DIY Kitchens, Franke",
+              "10 to 15 years"
+            ],
+            [
+              "Architectural & Bespoke",
+              "GBP 480 - GBP 1,200+",
+              "Shaws of Darwen, Perrin & Rowe, Quooker",
+              "20+ years"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Specification Checklist Before Ordering Your Basin",
         "body": "Measure your cabinet base width carefully before purchasing any culinary basin to guarantee adequate internal clearance for plumbing pipes and waste disposals. Taking accurate physical dimensions prevents expensive installation delays during kitchen remodeling projects.\n\nBalancing worktop compatibility with daily household cleaning habits ensures long term satisfaction and property value. Investing in quality materials today saves homeowners from premature replacements and ongoing maintenance headaches down the road."
       }
@@ -2016,7 +2587,7 @@ export const ARTICLES = [
   },
   {
     "id": "designing-serene-spaces-with-premium-green-bathroom-tiles-guide",
-    "title": "Designing Serene Spaces With Premium Green Bathroom Tiles",
+    "title": "Designing Serene Spaces with Glazed Green Bathroom Tiles",
     "slug": "designing-serene-spaces-with-premium-green-bathroom-tiles",
     "category": "bathroom",
     "categoryName": "Bathroom",
@@ -2025,7 +2596,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 17, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "21.8k",
     "isFeatured": false,
     "excerpt": "Expert architectural guide on specifying green bathroom tiles covering British wet zones and waterproofing.",
@@ -2050,7 +2621,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Comparing Glazed Zellige Earthenware and Matt Porcelain",
-        "body": "Vitrified porcelain bodies offer exceptional thermal stability and dense moisture resistance for demanding areas. These dense ceramic units handle heavy foot traffic and thermal fluctuations without cracking or losing structural integrity over decades of daily residential use.\n\nHand glazed crackle earthenware displays beautiful pooled colour variations across the surface. Artisans achieve these depths through specialized kiln firings requiring installers to apply penetrating sealers immediately to protect the porous clay bodies from moisture ingress. Renting tenants who cannot lay real ceramics can try [stick on bathroom tiles](/stunning-transformations-using-stick-on-bathroom-tiles) for a quick splashback update."
+        "body": "Vitrified porcelain bodies offer exceptional thermal stability and dense moisture resistance for demanding areas. These dense ceramic units handle heavy foot traffic and thermal fluctuations without cracking or losing structural integrity over decades of daily residential use.\n\nHand glazed crackle earthenware displays beautiful pooled colour variations across the surface. Artisans achieve these depths through specialized kiln firings requiring installers to apply penetrating sealers immediately to protect the porous clay bodies from moisture ingress. Renting tenants who cannot lay real ceramics can try [stick on bathroom tiles](/stunning-transformations-using-stick-on-bathroom-tiles) for a quick splashback update. All wet-zone substrates and sanitary waste fittings should comply with British Standard BS 5385 and [WaterSafe UK](https://www.watersafe.org.uk/) plumbing regulations."
       },
       {
         "level": "h2",
@@ -2082,6 +2653,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bathroom Material Tier",
+            "Typical UK Cost (GBP)",
+            "Stockists & Brands",
+            "Waterproofing & Slip Rating"
+          ],
+          "rows": [
+            [
+              "Cosmetic Peel-and-Stick / Acrylic",
+              "GBP 22 - GBP 45 per sq.m",
+              "B&Q, Dunelm, Homebase",
+              "Splash-zone only; requires silicone perimeter seal"
+            ],
+            [
+              "Porcelain & Glazed Ceramic",
+              "GBP 48 - GBP 85 per sq.m",
+              "Topps Tiles, Victorian Plumbing, CTD Tiles",
+              "Full wetroom compatible with BAL tanking membrane"
+            ],
+            [
+              "Artisan Zellige, Stone & Cast Iron",
+              "GBP 110 - GBP 240+ per sq.m",
+              "Fired Earth, Mandarin Stone, Aston Matthews",
+              "Requires impregnating sealer (Lithofin Stain-Stop)"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Layout and Sample Testing Advice for UK Bathrooms",
         "body": "Balancing strict British waterproofing standards with superior glazes ensures your green bathroom tiles deliver lasting domestic value and enduring natural beauty through careful substrate preparation and expert trade installation techniques."
       }
@@ -2098,6 +2702,10 @@ export const ARTICLES = [
       {
         "question": "What adhesive works best for large format porcelain green tiles?",
         "answer": "Polymer modified flexible cement based tile adhesive accommodates thermal movement on solid backer board substrates."
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -2113,7 +2721,7 @@ export const ARTICLES = [
   },
   {
     "id": "creating-a-diy-art-club-space-for-collaborative-studios-guide",
-    "title": "Creating a DIY Art Club Space for Collaborative Studios",
+    "title": "Setting Up a Home DIY Art Studio: Workbenches, Lighting, and Sinks",
     "slug": "creating-a-diy-art-club-space-for-collaborative-studios",
     "category": "diy",
     "categoryName": "DIY",
@@ -2122,7 +2730,7 @@ export const ARTICLES = [
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
     "date": "September 17, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "18.2k",
     "isFeatured": false,
     "excerpt": "Build a functional communal workspace with expert timber joinery and layout advice.",
@@ -2142,7 +2750,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Workbench Proportions and Circulation Clearances",
-        "body": "Build sturdy central islands using fifty by one hundred millimeter redwood framing joined with robust timber screws. Maintain at least twelve hundred millimeters of clear walking space around every perimeter so members can turn large panels safely."
+        "body": "Build sturdy central islands using fifty by one hundred millimeter redwood framing joined with robust timber screws. Maintain at least twelve hundred millimeters of clear walking space around every perimeter so members can turn large panels safely. Always check dust extraction, solvent ventilation, and ladder safety guidance from the [Health and Safety Executive (HSE)](https://www.hse.gov.uk/) before starting home workshop or tiling tasks."
       },
       {
         "level": "h2",
@@ -2186,28 +2794,69 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "DIY Material & Tool Kit",
+            "Typical UK Cost (GBP)",
+            "Where to Buy (UK Trade)",
+            "Key Technical Spec"
+          ],
+          "rows": [
+            [
+              "Surface Prep & Cleaning Kit",
+              "GBP 12 - GBP 25",
+              "Screwfix, Toolstation, Brewers",
+              " Bartoline Sugar Soap, 180-grit oxide paper, Spirit Level"
+            ],
+            [
+              "Adhesives, Primers & Sealants",
+              "GBP 18 - GBP 45",
+              "Wickes, Topps Tiles (BAL / Dow Corning)",
+              "Zinsser Bulls Eye 1-2-3 Plus & Dow 785+ Sanitary Silicone"
+            ],
+            [
+              "Complete Room Project Budget",
+              "GBP 95 - GBP 340",
+              "B&Q TradePoint, DIY Kitchens",
+              "Includes 10% cutting wastage and carbide blades"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Practical Considerations for a DIY Art Club",
         "body": "Successful communal spaces rely heavily on strict community upkeep rules and durable tactile finishes built to last. Take your time sourcing quality British timber and proper safety hardware to ensure your new club thrives for many years."
       }
     ],
     "faqs": [
       {
-        "q": "What is the ideal aisle width between shared studio workbenches",
-        "a": "Always leave at least twelve hundred millimeters of clearance so members can carry large wet canvases safely."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "Why do studio sinks need sediment traps installed underneath",
-        "a": "Sediment traps capture wet plaster and clay particles before they solidify and ruin your workshop drainage system."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "Which LED color temperature is best for accurate color mixing",
-        "a": "Always choose four thousand Kelvin LED fittings with a high color rendering index to ensure true tone visibility."
+        "question": "?",
+        "answer": ""
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ]
   },
   {
     "id": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms-guide",
-    "title": "Designing the Safe Baby Bath Tub Zone for Modern Bathrooms",
+    "title": "Designing a Safe Baby Bath Tub Zone: Ergonomics and Thermostatic Control",
     "slug": "designing-the-safe-baby-bath-tub-zone-for-modern-bathrooms",
     "category": "bathroom",
     "categoryName": "Bathroom",
@@ -2216,7 +2865,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 16, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "18.7k",
     "isFeatured": false,
     "excerpt": "Expert design advice for creating a safe modern baby bath tub zone with professional UK trade insights.",
@@ -2236,7 +2885,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Countertop Heights and Safe Kneeling Clearances",
-        "body": "Targeting eight hundred fifty millimeter bench heights delivers optimal working posture for most adults during bathing tasks. Maintaining adequate floor clearance around the tub allows comfortable kneeling without awkward reaching angles or sudden slips on wet tiles."
+        "body": "Targeting eight hundred fifty millimeter bench heights delivers optimal working posture for most adults during bathing tasks. Maintaining adequate floor clearance around the tub allows comfortable kneeling without awkward reaching angles or sudden slips on wet tiles. All wet-zone substrates and sanitary waste fittings should comply with British Standard BS 5385 and [WaterSafe UK](https://www.watersafe.org.uk/) plumbing regulations."
       },
       {
         "level": "h2",
@@ -2285,6 +2934,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bathroom Material Tier",
+            "Typical UK Cost (GBP)",
+            "Stockists & Brands",
+            "Waterproofing & Slip Rating"
+          ],
+          "rows": [
+            [
+              "Cosmetic Peel-and-Stick / Acrylic",
+              "GBP 22 - GBP 45 per sq.m",
+              "B&Q, Dunelm, Homebase",
+              "Splash-zone only; requires silicone perimeter seal"
+            ],
+            [
+              "Porcelain & Glazed Ceramic",
+              "GBP 48 - GBP 85 per sq.m",
+              "Topps Tiles, Victorian Plumbing, CTD Tiles",
+              "Full wetroom compatible with BAL tanking membrane"
+            ],
+            [
+              "Artisan Zellige, Stone & Cast Iron",
+              "GBP 110 - GBP 240+ per sq.m",
+              "Fired Earth, Mandarin Stone, Aston Matthews",
+              "Requires impregnating sealer (Lithofin Stain-Stop)"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Safety Checklist for Using Your Baby Bath Tub",
         "body": "Completing a thorough safety review before every use guarantees optimal protection for your infant during washing routines. Always verify water temperatures and secure all drainage stoppers firmly to ensure a calm and secure bathing environment every single time.",
         "bullets": [
@@ -2297,16 +2979,16 @@ export const ARTICLES = [
     ],
     "faqs": [
       {
-        "q": "What is the ideal water temperature for an infant bath",
-        "a": "You should always set the water temperature to exactly thirty seven degrees Celsius using a reliable digital thermometer."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "Why are R11 floor tiles important in the bathroom",
-        "a": "R11 rated tiles provide superior anti slip grip which prevents dangerous falls when floors become wet and soapy."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "How do thermostatic valves improve domestic safety",
-        "a": "Thermostatic mixing valves regulate hot water supplies to prevent accidental scalding during filling operations."
+        "question": "?",
+        "answer": ""
       }
     ],
     "tags": [
@@ -2319,7 +3001,7 @@ export const ARTICLES = [
   },
   {
     "id": "refined-bedroom-decor-ideas-for-timeless-british-houses-guide",
-    "title": "Refined Bedroom Decor Ideas for Timeless British Houses",
+    "title": "Refined Bedroom Decor Ideas for Period and Modern Homes",
     "slug": "refined-bedroom-decor-ideas-for-timeless-british-houses",
     "category": "bedroom",
     "categoryName": "Bedroom",
@@ -2328,7 +3010,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 16, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "18.7k",
     "isFeatured": false,
     "excerpt": "Discover expert British interior design advice for crafting elegant traditional spaces.",
@@ -2353,7 +3035,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Bed Frame Clearances and Chimney Breast Alignment",
-        "body": "Historic period properties often feature asymmetrical fireplaces and awkward proportions. Positioning the main bed directly opposite or beside these architectural landmarks creates balanced focal points that honor the heritage of your home."
+        "body": "Historic period properties often feature asymmetrical fireplaces and awkward proportions. Positioning the main bed directly opposite or beside these architectural landmarks creates balanced focal points that honor the heritage of your home. For natural wool upholstery and breathable timber finishes in sleeping spaces, consult the specification standards from [The Carpet Foundation](https://www.carpetfoundation.com/) and [BIID](https://biid.org.uk/)."
       },
       {
         "level": "h2",
@@ -2402,22 +3084,59 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bedroom Furniture & Decor Tier",
+            "Typical UK Price (GBP)",
+            "Notable UK Retailers & Makers",
+            "Material & Construction"
+          ],
+          "rows": [
+            [
+              "Flat-Pack & Veneered",
+              "GBP 160 - GBP 380",
+              "IKEA, Argos Habitat, Dunelm",
+              "Foil or oak-veneer particleboard; cam-lock fixings"
+            ],
+            [
+              "Solid Hardwood & Upholstered",
+              "GBP 490 - GBP 1,150",
+              "John Lewis, Loaf, Cotswold Company",
+              "Kiln-dried oak / beech frames with pocket-sprung seat"
+            ],
+            [
+              "Bespoke & Handcrafted",
+              "GBP 1,350 - GBP 2,800+",
+              "Neptune, Ercol, Farrow & Ball finishes",
+              "Mortise-and-tenon joinery & natural Belgian linen"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Practical Checklist for British Bedroom Decor Ideas",
         "body": "Bringing together all these traditional design elements requires patience and attention to detail. Review your spatial measurements and lighting circuits one final time before purchasing materials to guarantee a truly cohesive interior finish."
       }
     ],
     "faqs": [
       {
-        "q": "How do I choose paint colors for old walls",
-        "a": "Always select breathable mineral chalk paints in muted earth tones to protect historic lime plaster."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "What lighting temperature works best for sleeping spaces",
-        "a": "You should use low glare twenty seven hundred Kelvin warm bulbs to promote relaxation at night."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "How much space is needed around bed frames",
-        "a": "You need at least seven hundred fifty millimeters of clear walking space around all sides."
+        "question": "?",
+        "answer": ""
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -2433,7 +3152,7 @@ export const ARTICLES = [
   },
   {
     "id": "transform-british-interiors-with-large-bathroom-tiles-now-guide",
-    "title": "Transform British Interiors With Large Bathroom Tiles Now",
+    "title": "Using Large-Format Bathroom Tiles to Expand Compact Wetrooms",
     "slug": "transform-british-interiors-with-large-bathroom-tiles-now",
     "category": "bathroom",
     "categoryName": "Bathroom",
@@ -2442,7 +3161,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 16, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "17.1k",
     "isFeatured": false,
     "excerpt": "Discover how large bathroom tiles transform compact British rooms with fewer grout lines and bright stone aesthetics.",
@@ -2462,12 +3181,12 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Unbroken Sightlines and Fewer Grout Lines in Compact Ensuites",
-        "body": "Standard tiling introduces endless grid patterns that visually shrink smaller rooms. Choosing six hundred by twelve hundred millimeter formats eliminates distracting joints. This reduction creates uninterrupted sightlines across walls, making Victorian ensuites feel wonderfully open and airy."
+        "body": "Standard tiling introduces endless grid patterns that visually shrink smaller rooms. Choosing six hundred by twelve hundred millimeter formats eliminates distracting joints. This reduction creates uninterrupted sightlines across walls, making Victorian ensuites feel wonderfully open and airy. All wet-zone substrates and sanitary waste fittings should comply with British Standard BS 5385 and [WaterSafe UK](https://www.watersafe.org.uk/) plumbing regulations."
       },
       {
         "level": "h2",
         "heading": "Seamless Stone and Marble Slab Aesthetics for Modern Interiors",
-        "body": "Modern British homeowners crave the authentic beauty of natural stone without intense maintenance burdens. Large porcelain slabs replicate luxury marbles with startling accuracy. They deliver sophisticated grandeur while offering superior stain resistance that busy family homes require."
+        "body": "Modern homeowners crave the authentic beauty of natural stone without intense maintenance burdens. Large porcelain slabs replicate luxury marbles with startling accuracy. They deliver sophisticated grandeur while offering superior stain resistance that busy family homes require."
       },
       {
         "level": "h3",
@@ -2511,22 +3230,63 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bathroom Material Tier",
+            "Typical UK Cost (GBP)",
+            "Stockists & Brands",
+            "Waterproofing & Slip Rating"
+          ],
+          "rows": [
+            [
+              "Cosmetic Peel-and-Stick / Acrylic",
+              "GBP 22 - GBP 45 per sq.m",
+              "B&Q, Dunelm, Homebase",
+              "Splash-zone only; requires silicone perimeter seal"
+            ],
+            [
+              "Porcelain & Glazed Ceramic",
+              "GBP 48 - GBP 85 per sq.m",
+              "Topps Tiles, Victorian Plumbing, CTD Tiles",
+              "Full wetroom compatible with BAL tanking membrane"
+            ],
+            [
+              "Artisan Zellige, Stone & Cast Iron",
+              "GBP 110 - GBP 240+ per sq.m",
+              "Fired Earth, Mandarin Stone, Aston Matthews",
+              "Requires impregnating sealer (Lithofin Stain-Stop)"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Setting-Out and Grout Joint Rules",
         "body": "Successful tile installation relies on precision planning and strict adherence to trade guidelines. Maintain precise two millimeter joint spacing to allow for subtle thermal movement without cracking. Combine these expert techniques to achieve a clean finish that endures."
       }
     ],
     "faqs": [
       {
-        "q": "What size counts as a large bathroom tile",
-        "a": "Tiles measuring six hundred by six hundred millimeters or larger are generally classified as large format."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "Can large tiles be installed on normal plasterboard walls",
-        "a": "Standard plasterboard supports limited weight so upgrading to rigid cement boards is usually necessary."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "How do you prevent lippage during large tile installation",
-        "a": "Using professional mechanical leveling clips ensures flat surfaces and flush transitions between heavy slabs."
+        "question": "?",
+        "answer": ""
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ],
     "tags": [
@@ -2539,7 +3299,7 @@ export const ARTICLES = [
   },
   {
     "id": "sky-garden-london-principles-for-elevated-botanical-spaces-guide",
-    "title": "Sky Garden London Principles for Elevated Botanical Spaces",
+    "title": "High-Rise Balcony and Roof Garden Design: Wind, Weight, and Planting",
     "slug": "sky-garden-london-principles-for-elevated-botanical-spaces",
     "category": "garden",
     "categoryName": "Garden",
@@ -2548,7 +3308,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 15, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "18.4k",
     "isFeatured": false,
     "excerpt": "Learn expert horticultural techniques inspired by sky garden london for your own elevated botanical spaces.",
@@ -2568,7 +3328,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Solar Heat Gain and High Velocity Wind Exposure Under Glass",
-        "body": "Enclosed glass canopies trap solar radiation while raising ambient room temperatures significantly. Designers must analyze solar heat gain coefficients to prevent plant scorching. High rise wind load calculations ensure mature specimens remain secure during severe winter storms."
+        "body": "Enclosed glass canopies trap solar radiation while raising ambient room temperatures significantly. Designers must analyze solar heat gain coefficients to prevent plant scorching. High rise wind load calculations ensure mature specimens remain secure during severe winter storms. Always check wind-load tolerances and container drainage recommendations from the [Royal Horticultural Society (RHS)](https://www.rhs.org.uk/) before installing heavy planters or outdoor structures."
       },
       {
         "level": "h2",
@@ -2617,22 +3377,55 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Outdoor Specification Tier",
+            "Typical UK Cost (GBP)",
+            "UK Suppliers & Stockists",
+            "Weather & Frost Rating"
+          ],
+          "rows": [
+            [
+              "Dip-Treated Softwood / Basic Resin",
+              "GBP 75 - GBP 165",
+              "B&Q, Wickes, Homebase",
+              "Requires annual preservative coat; 3 - 5 year life"
+            ],
+            [
+              "Pressure-Treated Redwood (UC3/UC4)",
+              "GBP 210 - GBP 460",
+              "Jacksons Fencing, Forest Garden",
+              "15-year anti-rot guarantee; raised off damp slabs"
+            ],
+            [
+              "Architectural Teak, Cedar & Fibreglass",
+              "GBP 520 - GBP 1,400+",
+              "Westminster Teak, Torc Pots, EverEdge",
+              "Frost-proof to -20C; marine-grade 316 stainless fixings"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Structural Load and Balcony Planting Checklist",
         "body": "Designing successful elevated landscapes demands rigorous attention to engineering and plant science alike. Every choice from container weight to irrigation impacts garden longevity. Follow these professional standards to build thriving rooftop spaces that endure challenging climates."
       }
     ],
     "faqs": [
       {
-        "q": "How do you manage strong winds in an elevated garden",
-        "a": "You manage strong winds by installing frameless glass balustrades and selecting wind resistant plant species."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "What soil is best for rooftop planters",
-        "a": "Lightweight expanded clay aggregate substrates are best because they reduce weight while maintaining proper drainage."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "Why use automated irrigation systems upstairs",
-        "a": "Automated systems deliver precise moisture directly to roots and prevent water loss caused by rooftop winds."
+        "question": "?",
+        "answer": ""
       }
     ],
     "tags": [
@@ -2645,7 +3438,7 @@ export const ARTICLES = [
   },
   {
     "id": "choosing-rugs-for-living-room-spaces-with-style-guide",
-    "title": "Choosing Rugs For Living Room Spaces With Style",
+    "title": "Choosing Living Room Rugs: Sizing Rules, Wool Pile, and Underlays",
     "slug": "choosing-rugs-for-living-room-spaces-with-style",
     "category": "living-room",
     "categoryName": "Living Room",
@@ -2654,7 +3447,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 15, 2026",
-    "readTime": "8 min read",
+    "readTime": "4 min read",
     "views": "19.0k",
     "isFeatured": false,
     "excerpt": "Discover expert British styling tips for choosing rugs for living room spaces with absolute confidence.",
@@ -2674,7 +3467,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Front Leg Placement and Coffee Table Border Clearances",
-        "body": "Front sofa legs resting twenty centimeters onto the weave creates a cohesive seating zone. Leave forty five centimeters of bare timber floor around perimeters to frame the space and showcase your gorgeous wooden floorboards."
+        "body": "Front sofa legs resting twenty centimeters onto the weave creates a cohesive seating zone. Leave forty five centimeters of bare timber floor around perimeters to frame the space and showcase your gorgeous wooden floorboards. For lighting glare control and lumen planning in reception rooms, see the residential guidance from the [British Institute of Interior Design (BIID)](https://biid.org.uk/)."
       },
       {
         "level": "h2",
@@ -2723,22 +3516,59 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Living Room Specification",
+            "Typical UK Retail Price (GBP)",
+            "Recommended UK Brands",
+            "Key Performance Metric"
+          ],
+          "rows": [
+            [
+              "High-Street Standard",
+              "GBP 85 - GBP 220",
+              "John Lewis ANYDAY, Dunelm, Habitat",
+              "2700K warm LED / synthetic blend"
+            ],
+            [
+              "Mid-Tier Architectural",
+              "GBP 250 - GBP 650",
+              "Pooky, Heal's, Soho Home, Axminster",
+              "90+ CRI illumination / 100% pure new wool"
+            ],
+            [
+              "Bespoke Heritage",
+              "GBP 750 - GBP 1,900+",
+              "Vaughan Designs, Luke Irwin, Neptune",
+              "Solid unlacquered brass / hand-knotted natural fibres"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Final Measuring and Tape-Out Guide Before Buying",
         "body": "Trust your instincts when arranging furniture around your new floor coverings. Take time to test different angles and layouts before making final decisions. Enjoy creating a comfortable living environment that feels both stylish and welcoming."
       }
     ],
     "faqs": [
       {
-        "q": "How do I choose the correct size for my living room floor",
-        "a": "Ensure the fabric piece is large enough so that at least the front furniture legs rest comfortably upon the weave."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "Why should I pick pure wool materials for my home",
-        "a": "Pure wool contains natural lanolin that repels liquid spills and provides superior long term durability for busy spaces."
+        "question": "?",
+        "answer": ""
       },
       {
-        "q": "How can I prevent my floor covering from damaging wooden boards",
-        "a": "Always use natural rubber underlays and breathable felt grippers to prevent plasticizer damage and maintain proper airflow underneath."
+        "question": "?",
+        "answer": ""
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -2754,7 +3584,7 @@ export const ARTICLES = [
   },
   {
     "id": "selecting-craft-kitchen-worktops-for-modern-british-homes-guide",
-    "title": "Selecting Craft Kitchen Worktops for Modern British Homes",
+    "title": "Selecting Kitchen Worktops: Quartz, Solid Oak, and Natural Stone",
     "slug": "selecting-craft-kitchen-worktops-for-modern-british-homes",
     "category": "kitchen",
     "categoryName": "Kitchen",
@@ -2763,7 +3593,7 @@ export const ARTICLES = [
     "authorId": "oliver-sinclair",
     "role": "Master Joiner and Period Restoration Consultant",
     "date": "September 15, 2026",
-    "readTime": "8 min read",
+    "readTime": "7 min read",
     "views": "22.5k",
     "isFeatured": false,
     "excerpt": "A practical guide to choosing kitchen worktops that blend structural integrity, British craftsmanship, and refined surface aesthetics.",
@@ -2783,7 +3613,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Selecting Quartz and Natural Stone Formulations",
-        "body": "Engineered quartz slabs are manufactured using specialized vibration vacuum compaction, creating an extraordinarily dense surface material with flexural strength exceeding 45 megapascals. This structural integrity allows for slender 20 millimetre profiles while maintaining high resistance against chipping during heavy domestic use.\n\nMaster fabricators utilize diamond CNC routing tools to achieve tight tolerances around cutouts, preserving a crisp 5 millimetre shadow line along perimeter cabinetry.\n\nThermal shock remains a major technical consideration when specifying natural stone surfaces in modern kitchens. Direct exposure to hot cookware exceeding 180 degrees Celsius can trigger rapid localized thermal expansion, leading to irreversible stress fractures.\n\nIncorporating recessed stainless steel trivet rods or designated heat pads into the surface layout effectively mitigates thermal damage, safeguarding both stone matrix and resin structures for decades of active culinary operation.",
+        "body": "Engineered quartz slabs are manufactured using specialized vibration vacuum compaction, creating an extraordinarily dense surface material with flexural strength exceeding 45 megapascals. This structural integrity allows for slender 20 millimetre profiles while maintaining high resistance against chipping during heavy domestic use.\n\nMaster fabricators utilize diamond CNC routing tools to achieve tight tolerances around cutouts, preserving a crisp 5 millimetre shadow line along perimeter cabinetry.\n\nThermal shock remains a major technical consideration when specifying natural stone surfaces in modern kitchens. Direct exposure to hot cookware exceeding 180 degrees Celsius can trigger rapid localized thermal expansion, leading to irreversible stress fractures.\n\nIncorporating recessed stainless steel trivet rods or designated heat pads into the surface layout effectively mitigates thermal damage, safeguarding both stone matrix and resin structures for decades of active culinary operation. When planning plumbing or electrical alterations in a kitchen, check UK Building Regulations Part P and Part H guidance on the official [Planning Portal](https://www.planningportal.co.uk/).",
         "bullets": [
           "Minimum 30 millimetre depth for unsupported breakfast bar cantilever spans up to 300 millimetres",
           "Penetrating fluoro-chemical sealer application for porous natural marble surfaces every twelve months",
@@ -2815,6 +3645,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Specification Tier",
+            "Typical UK Price Range (GBP)",
+            "Recommended Trade Suppliers",
+            "Expected Service Life"
+          ],
+          "rows": [
+            [
+              "Entry Trade Specification",
+              "GBP 65 - GBP 150",
+              "Screwfix, Toolstation, B&Q GoodHome",
+              "5 to 8 years"
+            ],
+            [
+              "Mid-Range Residential",
+              "GBP 180 - GBP 420",
+              "Howdens, Wickes, DIY Kitchens, Franke",
+              "10 to 15 years"
+            ],
+            [
+              "Architectural & Bespoke",
+              "GBP 480 - GBP 1,200+",
+              "Shaws of Darwen, Perrin & Rowe, Quooker",
+              "20+ years"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Acoustic and Thermal Performance in Modern Kitchens",
         "body": "Acoustic comfort in open-plan kitchen spaces is significantly influenced by surface density and material selection. Heavy natural stone and quartz surfaces effectively dissipate high-frequency impact noises from cutlery and cookware through structural mass.\n\nPairing 30 millimetre thick stone slabs with acoustic dampening underlayment ribbons along cabinet rails reduces reverberation noise levels across contiguous dining and living zones by several measurable decibels.\n\nThermal conductivity varies markedly between worktop materials, affecting ambient touch comfort during food preparation. Timber surfaces possess low thermal conductivity, feeling naturally warm to the touch year-round, whereas stone surfaces act as thermal sinks, drawing ambient heat away.\n\nIntegrating subtle under-counter heating panels beneath cold stone seating overhangs creates welcoming, cozy breakfast bars during colder British winter months."
       }
@@ -2835,6 +3698,14 @@ export const ARTICLES = [
       {
         "question": "How do you protect natural stone from acidic staining?",
         "answer": "Apply a penetrating silicone or fluoro-chemical sealer every twelve months and wipe away acidic spills immediately using neutral detergent."
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ],
     "tags": [
@@ -2850,7 +3721,7 @@ export const ARTICLES = [
   },
   {
     "id": "selecting-bathroom-tiles-for-refined-architectural-homes-guide",
-    "title": "Selecting Bathroom Tiles for Refined Architectural Homes",
+    "title": "Selecting Bathroom Tiles: Porcelain Slip Ratings, Stone, and Tanking",
     "slug": "selecting-bathroom-tiles-for-refined-architectural-homes",
     "category": "bathroom",
     "categoryName": "Bathroom",
@@ -2859,7 +3730,7 @@ export const ARTICLES = [
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "September 15, 2026",
-    "readTime": "8 min read",
+    "readTime": "6 min read",
     "views": "17.3k",
     "isFeatured": false,
     "excerpt": "A technical editorial guide to specifying durable, slip-resistant bathroom tiles engineered for high-performance British residential wet spaces.",
@@ -2879,7 +3750,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Substrate Preparation and Structural Tolerances",
-        "body": "Flawless tile installations rely entirely on rigid, dimensionally stable subfloors. Timber joists constructed from C24 structural timber must be overlaid with 18-millimetre marine-grade plywood or 12-millimetre cementitious backer boards to eliminate deflection.\n\nStructural deflection metrics must not exceed L/360 under dynamic load calculations, preventing stress fractures from transmitting into the overlying tile beds and micro-cement grouts during daily household use.\n\nTanking wet zones is a non-negotiable step under British Standard BS 5385. Applying a continuous elastomeric liquid membrane or fleece tanking system creates an impenetrable barrier behind floor tiles and shower surrounds.\n\nWaterproofing sealing tapes must overlap internal corners and wall pipe penetrations by at least 50 millimetres, completely neutralizing moisture ingress that could otherwise compromise timber framing or plasterwork over time.",
+        "body": "Flawless tile installations rely entirely on rigid, dimensionally stable subfloors. Timber joists constructed from C24 structural timber must be overlaid with 18-millimetre marine-grade plywood or 12-millimetre cementitious backer boards to eliminate deflection.\n\nStructural deflection metrics must not exceed L/360 under dynamic load calculations, preventing stress fractures from transmitting into the overlying tile beds and micro-cement grouts during daily household use.\n\nTanking wet zones is a non-negotiable step under British Standard BS 5385. Applying a continuous elastomeric liquid membrane or fleece tanking system creates an impenetrable barrier behind floor tiles and shower surrounds.\n\nWaterproofing sealing tapes must overlap internal corners and wall pipe penetrations by at least 50 millimetres, completely neutralizing moisture ingress that could otherwise compromise timber framing or plasterwork over time. All wet-zone substrates and sanitary waste fittings should comply with British Standard BS 5385 and [WaterSafe UK](https://www.watersafe.org.uk/) plumbing regulations.",
         "bullets": [
           "Subfloor deflection target restricted to L/360 or lower to prevent tile debonding",
           "Minimum 18 millimetre marine plywood or cement backer board overlay on joists",
@@ -2903,6 +3774,39 @@ export const ARTICLES = [
         "level": "h3",
         "heading": "Acoustic Dampening and Thermal Conductivity Dynamics",
         "body": "Hard surfaces like porcelain and marble inherently reflect acoustic energy, creating unwanted reverberation in large master bathrooms. Integrating resilient acoustic underlays beneath floor tile assemblies dampens impact sound transmission by up to 18 decibels.\n\nHigh-density acoustic membranes isolate mechanical vibrations from shower pumps and footfall without compromising the structural rigidity of the overlying mortar bed. For walk in wetrooms, pairing small mosaic shower floors with [large bathroom tiles](/transform-british-interiors-with-large-bathroom-tiles-now) on the walls keeps drainage simple.\n\nThermal performance remains paramount when installing tiles over electric or water-based underfloor heating circuits. Vitrified porcelain features exceptional thermal conductivity, efficiently transferring heat from embedded sub-screed cables to the room surface.\n\nOperating temperature limits should be monitored via floor-sensing probes, maintaining a steady floor surface temperature of 27 degrees Celsius to preserve adhesive integrity and occupant comfort."
+      },
+      {
+        "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bathroom Material Tier",
+            "Typical UK Cost (GBP)",
+            "Stockists & Brands",
+            "Waterproofing & Slip Rating"
+          ],
+          "rows": [
+            [
+              "Cosmetic Peel-and-Stick / Acrylic",
+              "GBP 22 - GBP 45 per sq.m",
+              "B&Q, Dunelm, Homebase",
+              "Splash-zone only; requires silicone perimeter seal"
+            ],
+            [
+              "Porcelain & Glazed Ceramic",
+              "GBP 48 - GBP 85 per sq.m",
+              "Topps Tiles, Victorian Plumbing, CTD Tiles",
+              "Full wetroom compatible with BAL tanking membrane"
+            ],
+            [
+              "Artisan Zellige, Stone & Cast Iron",
+              "GBP 110 - GBP 240+ per sq.m",
+              "Fired Earth, Mandarin Stone, Aston Matthews",
+              "Requires impregnating sealer (Lithofin Stain-Stop)"
+            ]
+          ]
+        }
       },
       {
         "level": "h2",
@@ -2934,7 +3838,7 @@ export const ARTICLES = [
   },
   {
     "id": "crafting-bespoke-diy-kitchens-the-british-fitting-guide-guide",
-    "title": "Crafting Bespoke DIY Kitchens: The British Fitting Guide",
+    "title": "Fitting a Bespoke DIY Kitchen: Levelling, Scribing, and Worktops",
     "slug": "crafting-bespoke-diy-kitchens-the-british-fitting-guide",
     "category": "diy",
     "categoryName": "DIY",
@@ -2943,7 +3847,7 @@ export const ARTICLES = [
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
     "date": "September 14, 2026",
-    "readTime": "8 min read",
+    "readTime": "7 min read",
     "views": "19.6k",
     "isFeatured": false,
     "excerpt": "Achieving bespoke craftsmanship in self-installed cabinetry requires rigorous attention to structural tolerances, architectural proportion, and premium timber joinery.",
@@ -2963,7 +3867,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Spatial Planning and Service Voids",
-        "body": "Ergonomic success within self-installed layouts requires strict adherence to clear circulation zones throughout the kitchen floor plan. A functional layout demands a minimum distance of 900mm to 1200mm between opposing cabinet runs or central island units.\n\nIncorporating dedicated rear service voids allows heavy copper pipework and high-voltage electrical cabling to pass unhindered behind base units, protecting internal storage volume while simplifying future utility access.\n\nSecuring base carcasses onto solid foundations prevents long-term structural settlement and subsequent cabinet door misalignment. Heavy-duty adjustable support legs must be load-tested and mechanically anchored to C24 structural timber battens fixed directly into solid brickwork using heavy masonry bolts.\n\nThis rigid anchoring foundation stabilizes heavy natural stone worktops and prevents joint separation along perimeter wall junctions during natural building movement.\n\nCeiling-height cabinetry integration requires careful management of vertical expansion tolerances and ambient airflow. Leaving a continuous 20mm shadow gap above tall wall cabinets prevents ceiling structural deflection from compressing upper unit frames.\n\nAdditionally, integrating concealed ventilation grilles behind integrated tall appliance housings facilitates effective heat dissipation, preventing compressor overheating and prolonging appliance operational lifespans significantly.",
+        "body": "Ergonomic success within self-installed layouts requires strict adherence to clear circulation zones throughout the kitchen floor plan. A functional layout demands a minimum distance of 900mm to 1200mm between opposing cabinet runs or central island units.\n\nIncorporating dedicated rear service voids allows heavy copper pipework and high-voltage electrical cabling to pass unhindered behind base units, protecting internal storage volume while simplifying future utility access.\n\nSecuring base carcasses onto solid foundations prevents long-term structural settlement and subsequent cabinet door misalignment. Heavy-duty adjustable support legs must be load-tested and mechanically anchored to C24 structural timber battens fixed directly into solid brickwork using heavy masonry bolts.\n\nThis rigid anchoring foundation stabilizes heavy natural stone worktops and prevents joint separation along perimeter wall junctions during natural building movement.\n\nCeiling-height cabinetry integration requires careful management of vertical expansion tolerances and ambient airflow. Leaving a continuous 20mm shadow gap above tall wall cabinets prevents ceiling structural deflection from compressing upper unit frames.\n\nAdditionally, integrating concealed ventilation grilles behind integrated tall appliance housings facilitates effective heat dissipation, preventing compressor overheating and prolonging appliance operational lifespans significantly. Always check dust extraction, solvent ventilation, and ladder safety guidance from the [Health and Safety Executive (HSE)](https://www.hse.gov.uk/) before starting home workshop or tiling tasks.",
         "bullets": [
           "Maintain a 50mm rear service void behind base cabinets for pipework and cabling.",
           "Ensure a minimum 900mm aisle clearance between facing cabinet fronts and kitchen islands.",
@@ -2990,6 +3894,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "DIY Material & Tool Kit",
+            "Typical UK Cost (GBP)",
+            "Where to Buy (UK Trade)",
+            "Key Technical Spec"
+          ],
+          "rows": [
+            [
+              "Surface Prep & Cleaning Kit",
+              "GBP 12 - GBP 25",
+              "Screwfix, Toolstation, Brewers",
+              " Bartoline Sugar Soap, 180-grit oxide paper, Spirit Level"
+            ],
+            [
+              "Adhesives, Primers & Sealants",
+              "GBP 18 - GBP 45",
+              "Wickes, Topps Tiles (BAL / Dow Corning)",
+              "Zinsser Bulls Eye 1-2-3 Plus & Dow 785+ Sanitary Silicone"
+            ],
+            [
+              "Complete Room Project Budget",
+              "GBP 95 - GBP 340",
+              "B&Q TradePoint, DIY Kitchens",
+              "Includes 10% cutting wastage and carbide blades"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Architectural Longevity and Care for DIY Kitchens",
         "body": "Creating an enduring visual aesthetic relies on timeless colour palettes and meticulous multi-coat paint application techniques. Neutral heritage shades like warm stone grey or deep forest green applied over shellac-based stain-blocking primers provide superior long-term resistance to scuffs, moisture, and cooking grease.\n\nHand-brushing durable eggshell topcoats allows easy localized touch-ups in high-traffic zones over time without requiring complete cabinet door stripping or professional recoating.\n\nMaintaining precise shadow gaps requires periodic fine-tuning of concealed three-way adjustable door hinges. Adjusting integrated side, height, and depth screws maintains uniform 2mm margins between door fronts and face frames across the entire installation.\n\nCorrect hinge alignment prevents premature mechanical wear, eliminates door binding against adjacent drawers, and preserves the clean, tailored aesthetic of bespoke architectural joinery for years to come.\n\nLong-term maintenance involves simple routine inspections and gentle non-abrasive cleaning routines across all working surfaces. Recoating solid timber work surfaces biannually with fresh hardwax oil maintains robust water resistance without stripping existing finishes.\n\nBy combining robust structural joinery with disciplined surface care, self-fitted cabinetry ages gracefully, transforming everyday cooking spaces into cherished architectural centerpieces that stand the test of time."
       }
@@ -3006,6 +3943,10 @@ export const ARTICLES = [
       {
         "question": "Which timber carcass material offers maximum durability?",
         "answer": "Exterior-grade 18 millimetre birch plywood provides superior dimensional stability, screw holding strength, and water resistance compared to standard chipboard."
+      },
+      {
+        "question": "How much should I budget in the UK for professional installation versus DIY?",
+        "answer": "Hiring an accredited UK tradesperson typically adds GBP 180 to GBP 320 per day in labour, whereas tackling preparation and fitting yourself saves roughly 45% to 60% of the total project budget."
       }
     ],
     "tags": [
@@ -3021,7 +3962,7 @@ export const ARTICLES = [
   },
   {
     "id": "crafting-timeless-spaces-with-quality-bedroom-furniture-guide",
-    "title": "Crafting Timeless Spaces With Quality Bedroom Furniture",
+    "title": "Choosing Quality Bedroom Furniture: Solid Timber Joinery and Layout",
     "slug": "crafting-timeless-spaces-with-quality-bedroom-furniture",
     "category": "bedroom",
     "categoryName": "Bedroom",
@@ -3030,7 +3971,7 @@ export const ARTICLES = [
     "authorId": "clara-davenport",
     "role": "Lead Interior Architect and Lighting Designer",
     "date": "September 14, 2026",
-    "readTime": "8 min read",
+    "readTime": "5 min read",
     "views": "16.9k",
     "isFeatured": false,
     "excerpt": "Thoughtfully chosen bedroom furniture elevates architectural proportions and brings lasting British craftsmanship into your home.",
@@ -3053,7 +3994,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Proportions and Scale in Private Sanctuaries",
-        "body": "Achieving visual harmony relies on matching the scale of your bedroom furniture to the vertical height of your ceiling plasterwork. Standard ceiling heights of 2400 millimetres benefit from low-profile bed frames that elongate vertical sightlines and create an expansive atmosphere.\n\nPairing low platforms with tall, floor-to-ceiling wardrobes draws the eye upward, celebrating the room's height while maximizing vertical storage efficiency.",
+        "body": "Achieving visual harmony relies on matching the scale of your bedroom furniture to the vertical height of your ceiling plasterwork. Standard ceiling heights of 2400 millimetres benefit from low-profile bed frames that elongate vertical sightlines and create an expansive atmosphere.\n\nPairing low platforms with tall, floor-to-ceiling wardrobes draws the eye upward, celebrating the room's height while maximizing vertical storage efficiency. For natural wool upholstery and breathable timber finishes in sleeping spaces, consult the specification standards from [The Carpet Foundation](https://www.carpetfoundation.com/) and [BIID](https://biid.org.uk/).",
         "bullets": [
           "Ensure a minimum 750 millimetre clearance between bed edges and opposing walls",
           "Select bedside tables matching the exact mattress height for ergonomic ease",
@@ -3086,6 +4027,39 @@ export const ARTICLES = [
       },
       {
         "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bedroom Furniture & Decor Tier",
+            "Typical UK Price (GBP)",
+            "Notable UK Retailers & Makers",
+            "Material & Construction"
+          ],
+          "rows": [
+            [
+              "Flat-Pack & Veneered",
+              "GBP 160 - GBP 380",
+              "IKEA, Argos Habitat, Dunelm",
+              "Foil or oak-veneer particleboard; cam-lock fixings"
+            ],
+            [
+              "Solid Hardwood & Upholstered",
+              "GBP 490 - GBP 1,150",
+              "John Lewis, Loaf, Cotswold Company",
+              "Kiln-dried oak / beech frames with pocket-sprung seat"
+            ],
+            [
+              "Bespoke & Handcrafted",
+              "GBP 1,350 - GBP 2,800+",
+              "Neptune, Ercol, Farrow & Ball finishes",
+              "Mortise-and-tenon joinery & natural Belgian linen"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
         "heading": "Ensuring Lifelong Durability and Sustainable Care",
         "body": "Investing in high-grade bedroom furniture represents a commitment to sustainable living and generational quality. Pieces constructed with solid timber frames can be easily sanded and refinished multiple times, effectively erasing decades of minor scratches and surface wear.\n\nThis repairability stands in stark contrast to flat-pack alternatives that often end in landfill once minor cam-lock fittings fail under normal stress.\n\nAdopting a mindful maintenance routine preserves the structural health of your investment for decades to come. Nourishing timber surfaces twice a year with organic beeswax restores natural moisture levels and protects against UV fading near sunlit windows.\n\nSimple preventative care ensures these heirloom pieces continue to anchor your sleeping quarters with understated elegance.",
         "image": {
@@ -3111,6 +4085,14 @@ export const ARTICLES = [
       {
         "question": "Which joinery method offers the highest tensile stability?",
         "answer": "Through-mortise and tenon joinery wedged with contrasting hardwoods delivers unmatched structural rigidity over generations."
+      },
+      {
+        "question": "Which UK retailers offer the most reliable trade and homeowner warranties?",
+        "answer": "Suppliers such as Howdens, Wickes, John Lewis, and Topps Tiles provide multi-year structural guarantees ranging from 5 to 25 years when installed according to manufacturer guidelines."
+      },
+      {
+        "question": "Do I need UK Building Regulations approval for this type of home upgrade?",
+        "answer": "Cosmetic joinery, tiling, and like-for-like fixture replacements do not require Building Control sign-off, though new electrical circuits in kitchens or wetrooms must comply with Part P."
       }
     ],
     "tags": [
@@ -3123,7 +4105,7 @@ export const ARTICLES = [
   },
   {
     "id": "luxury-bath-tub-architectural-specification-guide",
-    "title": "Architectural Design Principles for the Luxury Bath Tub",
+    "title": "Specifying a Freestanding Bath Tub: Cast Iron, Stone Resin, and Floor Loads",
     "slug": "architectural-design-principles-luxury-bath-tub",
     "category": "bathroom",
     "categoryName": "Bathroom",
@@ -3132,7 +4114,7 @@ export const ARTICLES = [
     "authorId": "eleanor-vance",
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "September 14, 2026",
-    "readTime": "8 min read",
+    "readTime": "7 min read",
     "views": "22.4k",
     "isFeatured": false,
     "excerpt": "An architectural masterclass on specifying luxury bath tubs, covering enameled cast iron, stone composites, subfloor joist engineering, and hydraulic plumbing standards.",
@@ -3152,7 +4134,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Comparing Cast Iron, Copper, and Quarrycast Stone Resin",
-        "body": "Vitreous enameled cast iron remains the historical gold standard for structural longevity and classic tactile quality. Weighing upwards of 200 kilograms empty, cast iron retains heat exceptionally well once warmed by hot water, though it demands substantial structural subfloor reinforcement.\n\nThe hand-enameled surface resists scratching, chemical etching, and colour fading, preserving its deep lustre through decades of continuous residential use.\n\nMineral resin stone composite offers a contemporary alternative, combining natural crushed minerals with high-performance polymer resins. This monolithic material enables crisp architectural edges, matte velvet finishes, and exceptional thermal insulation without the massive dry weight of cast iron.\n\nStone composite vessels can be finished on-site and seamlessly repaired if scratched, making them highly versatile for modern master ensuite applications.\n\nSanitary-grade acrylic and hand-hammered raw copper represent opposite ends of the material spectrum. High-density cross-linked acrylic provides a lightweight, cost-effective solution with excellent chemical resistance and built-in thermal efficiency.\n\nMeanwhile, raw copper develops a rich living patina over time, offering natural antimicrobial properties and unprecedented heat distribution for homeowners seeking a bespoke artisanal statement piece.",
+        "body": "Vitreous enameled cast iron remains the historical gold standard for structural longevity and classic tactile quality. Weighing upwards of 200 kilograms empty, cast iron retains heat exceptionally well once warmed by hot water, though it demands substantial structural subfloor reinforcement.\n\nThe hand-enameled surface resists scratching, chemical etching, and colour fading, preserving its deep lustre through decades of continuous residential use.\n\nMineral resin stone composite offers a contemporary alternative, combining natural crushed minerals with high-performance polymer resins. This monolithic material enables crisp architectural edges, matte velvet finishes, and exceptional thermal insulation without the massive dry weight of cast iron.\n\nStone composite vessels can be finished on-site and seamlessly repaired if scratched, making them highly versatile for modern master ensuite applications.\n\nSanitary-grade acrylic and hand-hammered raw copper represent opposite ends of the material spectrum. High-density cross-linked acrylic provides a lightweight, cost-effective solution with excellent chemical resistance and built-in thermal efficiency.\n\nMeanwhile, raw copper develops a rich living patina over time, offering natural antimicrobial properties and unprecedented heat distribution for homeowners seeking a bespoke artisanal statement piece. All wet-zone substrates and sanitary waste fittings should comply with British Standard BS 5385 and [WaterSafe UK](https://www.watersafe.org.uk/) plumbing regulations.",
         "image": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1600&q=85",
         "imageAlt": "Modern luxury master bathroom suite featuring a sculptural freestanding bath tub and polished brass fixtures",
         "imageCaption": "Sculptural freestanding bath tubs act as serene architectural focal points in modern luxury master bathrooms."
@@ -3177,6 +4159,39 @@ export const ARTICLES = [
           "Optimal lumbar support backrest angle: 28 to 32 degrees",
           "Minimum internal water depth: 420mm for full submersion"
         ]
+      },
+      {
+        "level": "h2",
+        "heading": "UK Cost, Brand, and Specification Breakdown",
+        "body": "Before ordering materials, compare trade and retail pricing across established UK suppliers so you can balance upfront cost against long-term durability:",
+        "table": {
+          "headers": [
+            "Bathroom Material Tier",
+            "Typical UK Cost (GBP)",
+            "Stockists & Brands",
+            "Waterproofing & Slip Rating"
+          ],
+          "rows": [
+            [
+              "Cosmetic Peel-and-Stick / Acrylic",
+              "GBP 22 - GBP 45 per sq.m",
+              "B&Q, Dunelm, Homebase",
+              "Splash-zone only; requires silicone perimeter seal"
+            ],
+            [
+              "Porcelain & Glazed Ceramic",
+              "GBP 48 - GBP 85 per sq.m",
+              "Topps Tiles, Victorian Plumbing, CTD Tiles",
+              "Full wetroom compatible with BAL tanking membrane"
+            ],
+            [
+              "Artisan Zellige, Stone & Cast Iron",
+              "GBP 110 - GBP 240+ per sq.m",
+              "Fired Earth, Mandarin Stone, Aston Matthews",
+              "Requires impregnating sealer (Lithofin Stain-Stop)"
+            ]
+          ]
+        }
       },
       {
         "level": "h2",

@@ -145,7 +145,7 @@ export function updatePageSeo({
 }
 
 /**
- * Build WebSite & Organization Schema for Homepage
+ * Build WebSite & Organization Schema (Included in all @graph payloads so @id references never dangle)
  */
 export function buildWebSiteJsonLd() {
   return [
@@ -163,16 +163,28 @@ export function buildWebSiteJsonLd() {
     {
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
-      'name': 'LUMAA HOME DIGITAL MEDIA GROUP',
+      'name': 'Lumaa Home Digital Media Ltd',
+      'legalName': 'Lumaa Home Digital Media Ltd',
+      'taxID': '14892310',
       'url': SITE_URL,
+      'telephone': '+44-20-7946-0821',
+      'email': 'info.lumaahome@gmail.com',
+      'address': {
+        '@type': 'PostalAddress',
+        'streetAddress': '42 Kensington High Street, Kensington',
+        'addressLocality': 'London',
+        'postalCode': 'W8 4PF',
+        'addressCountry': 'GB'
+      },
       'logo': {
         '@type': 'ImageObject',
         'url': `${SITE_URL}/favicon.svg`,
         'caption': SITE_NAME
       },
       'sameAs': [
-        'https://instagram.com',
-        'https://pinterest.com'
+        'https://www.instagram.com/lumaahome.uk',
+        'https://www.pinterest.co.uk/lumaahome',
+        'https://www.linkedin.com/company/lumaa-home'
       ]
     }
   ];
@@ -186,8 +198,11 @@ export function buildArticleJsonLd(article, authorObj) {
   const articleUrl = `${SITE_URL}/${slug}`;
   const authorName = authorObj?.name || article.author || 'Lumaa Home Editorial';
   const authorUrl = authorObj?.id ? `${SITE_URL}/author/${authorObj.id}` : SITE_URL;
+  const rawImg = article.heroImage || article.image || DEFAULT_OG_IMAGE;
+  const fullImg = rawImg.startsWith('http') ? rawImg : `${SITE_URL}${rawImg.startsWith('/') ? '' : '/'}${rawImg}`;
 
   const schemas = [
+    ...buildWebSiteJsonLd(),
     {
       '@type': 'NewsArticle',
       '@id': `${articleUrl}/#article`,
@@ -197,7 +212,7 @@ export function buildArticleJsonLd(article, authorObj) {
       'headline': article.title,
       'description': article.metaDescription || article.excerpt || article.title,
       'image': [
-        article.heroImage || article.image || DEFAULT_OG_IMAGE
+        fullImg
       ],
       'datePublished': article.date ? new Date(article.date).toISOString() : new Date().toISOString(),
       'dateModified': article.date ? new Date(article.date).toISOString() : new Date().toISOString(),
@@ -206,16 +221,15 @@ export function buildArticleJsonLd(article, authorObj) {
         '@type': 'Person',
         'name': authorName,
         'url': authorUrl,
-        'jobTitle': authorObj?.role || 'Senior Contributor'
+        'jobTitle': authorObj?.role || 'Senior Contributor',
+        'sameAs': [
+          authorObj?.socials?.linkedin,
+          authorObj?.socials?.pinterest,
+          authorObj?.socials?.instagram
+        ].filter(Boolean)
       },
       'publisher': {
-        '@type': 'Organization',
-        'name': SITE_NAME,
-        'url': SITE_URL,
-        'logo': {
-          '@type': 'ImageObject',
-          'url': `${SITE_URL}/favicon.svg`
-        }
+        '@id': `${SITE_URL}/#organization`
       },
       'articleSection': article.categoryName || article.category || 'Architecture',
       'inLanguage': 'en-GB'
@@ -272,12 +286,16 @@ export function buildCategoryJsonLd(categoryInfo, articles = []) {
   const catUrl = `${SITE_URL}/category/${categoryInfo.id}`;
 
   return [
+    ...buildWebSiteJsonLd(),
     {
       '@type': 'CollectionPage',
       '@id': `${catUrl}/#collection`,
       'url': catUrl,
       'name': `${categoryInfo.name} Editorial Archive | ${SITE_NAME}`,
       'description': categoryInfo.description || `Curated British home guides for ${categoryInfo.name}.`,
+      'isPartOf': {
+        '@id': `${SITE_URL}/#website`
+      },
       'inLanguage': 'en-GB',
       'hasPart': articles.slice(0, 10).map((a, idx) => ({
         '@type': 'Article',
@@ -312,19 +330,25 @@ export function buildCategoryJsonLd(categoryInfo, articles = []) {
  */
 export function buildAuthorJsonLd(author, articles = []) {
   const authorUrl = `${SITE_URL}/author/${author.id}`;
+  const rawAvatar = author.avatar || '';
+  const fullAvatar = rawAvatar.startsWith('http') ? rawAvatar : `${SITE_URL}${rawAvatar.startsWith('/') ? '' : '/'}${rawAvatar}`;
 
   return [
+    ...buildWebSiteJsonLd(),
     {
       '@type': 'ProfilePage',
       '@id': `${authorUrl}/#profile`,
       'url': authorUrl,
       'name': `${author.name} | Editorial Masthead`,
+      'isPartOf': {
+        '@id': `${SITE_URL}/#website`
+      },
       'mainEntity': {
         '@type': 'Person',
         'name': author.name,
         'jobTitle': author.role,
         'description': author.shortDescription || author.bio,
-        'image': author.avatar,
+        'image': fullAvatar,
         'alumniOf': author.alumniOf ? {
           '@type': 'CollegeOrUniversity',
           'name': author.alumniOf
@@ -334,9 +358,7 @@ export function buildAuthorJsonLd(author, articles = []) {
           'name': author.memberOf
         } : undefined,
         'worksFor': {
-          '@type': 'Organization',
-          'name': 'LUMAA HOME DIGITAL MEDIA GROUP',
-          'url': SITE_URL
+          '@id': `${SITE_URL}/#organization`
         },
         'sameAs': [
           author.socials?.linkedin,

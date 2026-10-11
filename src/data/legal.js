@@ -80,7 +80,7 @@ export const INITIAL_PRIVACY_POLICY = {
       heading: "8. Contact Our Legal and Privacy Department",
       content: [
         "If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact our legal team:",
-        "LUMAA HOME Digital Media Group\nAttention: Legal and Compliance Department\nEmail: info.lumaahome@gmail.com"
+        "Lumaa Home Digital Media Ltd (Registered in England and Wales, Company No. 14892310)\nRegistered Office: 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom\nTelephone: +44 (0)20 7946 0821\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]
@@ -91,15 +91,15 @@ export const INITIAL_TERMS_OF_SERVICE = {
   subtitle: "Editorial Terms, Conditions of Use, and DIY Safety Disclaimers",
   lastUpdated: "September 2026",
   effectiveDate: "September 1, 2026",
-  companyName: "LUMAA HOME Digital Media Group",
+  companyName: "Lumaa Home Digital Media Ltd",
   contactEmail: "info.lumaahome@gmail.com",
-  introduction: "Welcome to LUMAA HOME (the 'Website', 'Magazine', or 'Service'), operated by LUMAA HOME Digital Media Group. By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
+  introduction: "Welcome to LUMAA HOME (the 'Website', 'Magazine', or 'Service'), operated by Lumaa Home Digital Media Ltd (Registered in England and Wales under Company No. 14892310, with registered office at 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom). By accessing, browsing, or using this Website, you acknowledge that you have read, understood, and agree to be legally bound by these Terms of Service, along with our Privacy Policy.",
   sections: [
     {
       id: "acceptance-terms",
       heading: "1. Acceptance of Terms and Governing Law",
       content: [
-        "These Terms of Service constitute a legally binding agreement between you and LUMAA HOME Digital Media Group. If you do not agree with any part of these terms, you must immediately discontinue your use of the Website.",
+        "These Terms of Service constitute a legally binding agreement between you and Lumaa Home Digital Media Ltd. If you do not agree with any part of these terms, you must immediately discontinue your use of the Website.",
         "These terms are governed by and construed in accordance with the laws of England and Wales. You irrevocably agree that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this agreement."
       ]
     },
@@ -107,7 +107,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       id: "intellectual-property",
       heading: "2. Intellectual Property and Copyright Notice",
       content: [
-        "All content published on LUMAA HOME, including but not limited to editorial articles, architectural guides, bespoke DIY blueprints, photographs, graphic elements, trademarks, logos, and software code, is the exclusive property of LUMAA HOME Digital Media Group or its licensed content contributors.",
+        "All content published on LUMAA HOME, including but not limited to editorial articles, architectural guides, bespoke DIY blueprints, photographs, graphic elements, trademarks, logos, and software code, is the exclusive property of Lumaa Home Digital Media Ltd or its licensed content contributors.",
         "All rights are reserved under UK and international copyright conventions. You may read, print, or download individual articles for personal, non-commercial home improvement reference only. Republication, redistribution, syndication, or commercial exploitation without prior written consent from LUMAA HOME is strictly prohibited."
       ]
     },
@@ -141,7 +141,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       heading: "6. Limitation of Liability and Disclaimer of Warranties",
       content: [
         "The Website and all editorial content are provided on an 'as is' and 'as available' basis without warranties of any kind, either express or implied, including warranties of merchantability, fitness for a particular architectural purpose, or non-infringement.",
-        "To the fullest extent permitted by law, LUMAA HOME Digital Media Group, its directors, editors, and contributors shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of the Service."
+        "To the fullest extent permitted by law, Lumaa Home Digital Media Ltd, its directors, editors, and contributors shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of the Service."
       ]
     },
     {
@@ -157,7 +157,7 @@ export const INITIAL_TERMS_OF_SERVICE = {
       heading: "8. Legal Inquiries and Contact Information",
       content: [
         "For legal notices, copyright permissions, or contractual inquiries, please contact our legal team:",
-        "LUMAA HOME Digital Media Group\nLegal Department\nEmail: info.lumaahome@gmail.com"
+        "Lumaa Home Digital Media Ltd (Company No. 14892310)\nRegistered Office: 42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom\nTelephone: +44 (0)20 7946 0821\nEmail: info.lumaahome@gmail.com"
       ]
     }
   ]

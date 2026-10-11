@@ -16,6 +16,7 @@ import RSSPage from './components/RSSPage';
 import SubscribeModal from './components/SubscribeModal';
 const AIGeneratorModal = React.lazy(() => import('./components/AIGeneratorModal'));
 import Footer from './components/Footer';
+import CookieConsentBanner from './components/CookieConsentBanner';
 import { updatePageSeo, buildWebSiteJsonLd } from './utils/seo';
 
 // Universal SEO Route Parser for Articles, Categories, Authors, Legal, About, and Contact Pages (Clean HTML5 Pathname Routing)
@@ -521,6 +522,9 @@ export default function App() {
           />
         </React.Suspense>
       )}
+
+      {/* UK GDPR & AdSense Cookie Consent Banner */}
+      <CookieConsentBanner onNavigateLegal={handleNavigatePage} />
     </div>
   );
 }

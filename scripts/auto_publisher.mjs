@@ -507,7 +507,7 @@ Return ONLY raw valid JSON:
     authorId: author.id,
     role: author.role,
     date: dateStr,
-    readTime: '8 min read',
+    readTime: `${Math.max(3, Math.round(totalBodyWords / 200))} min read`,
     views: `${(Math.random() * 10 + 15).toFixed(1)}k`,
     isFeatured: true,
     excerpt: articleData.excerpt,
@@ -519,10 +519,13 @@ Return ONLY raw valid JSON:
     photographer: heroImage.credit.name,
     photographerUrl: heroImage.credit.link,
     content: processedContent,
-    faqs: (articleData.faqs || []).map(f => ({
-      question: sanitizeStrict(f.question),
-      answer: sanitizeStrict(f.answer)
-    })),
+    faqs: (articleData.faqs || []).map(f => {
+      const q = sanitizeStrict(f.question);
+      return {
+        question: q.endsWith('?') ? q : `${q}?`,
+        answer: sanitizeStrict(f.answer)
+      };
+    }),
     tags: [
       topic,
       `${catInfo.categoryName} Design`,
