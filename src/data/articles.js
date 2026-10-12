@@ -67,6 +67,140 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-and-installing-a-cabinet-in-the-living-room",
+    "title": "Choosing and Installing a Cabinet in the Living Room: A Joiner's Guide",
+    "slug": "choosing-and-installing-a-cabinet-in-the-living-room",
+    "primaryKeyword": "cabinet in the living room",
+    "category": "living-room",
+    "categoryName": "Living Room",
+    "categoryLabel": "LIVING SPACES | INTERIOR PROPORTIONS",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "October 12, 2026",
+    "readTime": "7 min read",
+    "views": "12.5k",
+    "isFeatured": true,
+    "excerpt": "A professional joinery manual covering exact UK dimensions, AV heat management, and timber selection for living room storage.",
+    "metaDescription": "Master cabinet specification, timber selection, chimney breast scribing, and AV ventilation for living rooms with this expert guide.",
+    "heroImage": "/images/choosing-and-installing-a-cabinet-in-the-living-room-hero.jpg",
+    "image": "/images/choosing-and-installing-a-cabinet-in-the-living-room-hero.jpg",
+    "heroImageAlt": "Custom fitted walnut cabinet in the living room with integrated fluted glass doors and concealed LED lighting",
+    "imageAlt": "Custom fitted walnut cabinet in the living room with integrated fluted glass doors and concealed LED lighting",
+    "photographer": "LUMAA HOME Architectural Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Architectural Anatomy of Living Room Storage: Form Meets Function",
+        "body": "Designing a functional cabinet in the living room requires understanding how different architectural typologies interact with spatial flow. Freestanding living room units offer flexible configuration but lack the seamless integration of bespoke living room joinery, which can be tailored to irregular wall dimensions.\n\nFrom low-profile media wall cabinets and freestanding display cabinets with glass doors to tall vertical display cupboards and credenza style sideboards, each unit serves a distinct purpose in managing household clutter.\n\nEvaluating the internal structural framework determines whether a piece will withstand daily wear. Rigid factory-built or custom-made carcasses utilizing birch plywood carcass construction far outperform standard cam-and-dowel assembly furniture.\n\nWhen integrating cupboard storage solutions alongside open living room shelving units or bookshelves with lower cupboards, balancing solid door panels with reeded glass texture cabinets prevents visual heaviness while concealing everyday items."
+      },
+      {
+        "level": "h2",
+        "heading": "Mastering the Layout: Ergonomic Dimensions and Space Planning",
+        "body": "Precise dimensional planning prevents a cabinet in the living room from dominating floor space or obstructing walkways.\n\nStandard low sideboards uk typically adhere to a depth of 450mm to maintain clear walkways, whereas media console units often require 550mm of depth to comfortably accommodate older AV receivers and modern cooling gaps at the rear.\n\nFor TV bench cabinets, maintaining a top surface height between 450mm and 550mm ensures ergonomic eye-level viewing from standard sofa seat heights of 430mm.\n\nTraffic clearances should never drop below 750mm between the edge of a sideboard and coffee tables or upholstered seating.\n\nWhen designing tall display cabinets or bookcases with glass doors, keep upper display shelves below 1,600mm from the finished floor level for comfortable reach, reserving higher tiers above 1,800mm for seasonal decorative objects and sculpture placement rather than daily access items."
+      },
+      {
+        "level": "h2",
+        "heading": "Material Selection: Solid Timber, Engineered Core, and Finishes",
+        "body": "Selecting materials for a cabinet in the living room involves balancing aesthetic warmth against dimensional stability under fluctuating British central heating conditions.\n\nSolid hardwoods like European oak and American walnut offer unmatched tactile beauty and durability, but they are susceptible to timber shrinkage and expansion tolerances if ambient relative humidity drops below 40% in winter.\n\nTo mitigate warping, professional joiners often pair solid timber lipping with moisture-resistant MDF cores or stable veneered mdf cabinetry.\n\nFor painted finishes inspired by Farrow & Ball styled cabinetry or Little Greene palettes, moisture-resistant MR-MDF provides a flawless, knot-free substrate that resists the cracking often seen at wooden joints.\n\nSpray-lacquered UV-cured polyurethane topcoats offer superior scratch and heat resistance compared to traditional brush applications, ensuring high-traffic zones like table tops and push-to-open drawer mechanisms maintain their finish over years of daily handling.",
+        "image": "/images/choosing-and-installing-a-cabinet-in-the-living-room-detail.jpg",
+        "imageAlt": "Detailed view of professional cabinet installation showing laser levelling and scribing against a period plaster wall",
+        "imageCaption": "Material specification, joinery tolerances, and surface finishing for cabinet in the living room.",
+        "imageCredit": {
+          "name": "LUMAA HOME Architectural Studio",
+          "link": "https://www.lumaahome.co.uk"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Chimney Breast Alcoves and Period Property Challenges",
+        "body": "Fitting a cabinet in the living room of a Victorian terrace or Edwardian semi requires overcoming out-of-square masonry, sloping timber floors, and projecting plasterwork. Precision laser measuring is essential before manufacturing alcove storage cabinets, as brickwork chimneys rarely feature parallel sides or ninety-degree right angles.\n\nInstallers must use adjustable levelling feet hidden behind a removable plinth and skirting board scribing techniques to bridge gaps between the furniture carcass and undulating plaster.\n\nIntegrating bespoke joinery around original architectural mouldings means hand-scribing matching timber filler panels and running precise scribe moulding to follow the contours of existing skirting boards and picture rails.\n\nSolid oak architectural joinery or primed timber infills should be undercut with a hand jigsaw and smoothed with abrasive blocks on-site for a flush, gap-free fit that looks built directly into the fabric of the building.",
+        "bullets": [
+          "Incorporate adjustable screw feet to compensate for sloping period floorboards.",
+          "Hand-scribe side filler panels to match undulating Victorian plasterwork accurately.",
+          "Scribe base plinths cleanly around existing timber skirting profiles."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Engineering the Modern Media Cabinet: Ventilation and Cable Management",
+        "body": "Enclosing high-performance AV equipment within a cabinet in the living room demands rigorous thermal calculations to prevent overheating and premature component failure.\n\nModern 4K gaming consoles and high-wattage AV receivers generate significant thermal loads, requiring continuous passive airflow or discreet ventilation grilles cut into the rear plywood backing or bottom toe-kick channel.\n\nIntegrating acoustic fabric door panels or perforated steel media cabinet panels allows remote control infrared signals to pass through while exhausting trapped heat.\n\nCable management requires pre-drilled cable access grommets, brushed metal floor ports, and internal vertical wire-routing channels.\n\nTo keep wiring tidy, specify backless media cabinets or leave a 50mm service void behind internal adjustable shelving, ensuring power cables, HDMI leads, and Ethernet cords never pinch against rear walls or distort cabinet back panels.",
+        "table": {
+          "headers": [
+            "Specification Tier",
+            "2026 UK Price Range (GBP)",
+            "Recommended UK Suppliers",
+            "Expected Service Life & Application"
+          ],
+          "rows": [
+            [
+              "Entry Retail Specification (18mm MFC / Foil)",
+              "£95 – £240",
+              "B&Q GoodHome, Wickes, Wayfair UK",
+              "5 to 8 years; light domestic storage"
+            ],
+            [
+              "Mid-Range Trade Joinery (MR MDF / Oak Veneer)",
+              "£280 – £690",
+              "Howdens, DIY Kitchens, John Lewis, Cotswold Co",
+              "12 to 18 years; daily family living rooms"
+            ],
+            [
+              "Bespoke Solid Hardwood & Fitted Alcove Joinery",
+              "£850 – £2,400+",
+              "Neptune, Heals, Local UK Master Joiners",
+              "25+ years; structural period & modern homes"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Material Specifications and Cost Tier Comparison",
+        "body": "When budgeting for living room cabinetry through UK suppliers like John Lewis, Neptune, or independent bespoke workshops, material specifications directly dictate structural longevity and price points. The following table compares three primary manufacturing tiers for a standard 1,800mm wide living room media and storage cabinet."
+      },
+      {
+        "level": "h2",
+        "heading": "Hardware Engineering: Hinges, Runners, and Push-Latches",
+        "body": "The tactile experience of opening and closing a cabinet in the living room is dictated entirely by concealed architectural hardware. Premium soft-close cabinet hinges featuring integrated hydraulic dampening prevent slamming and offer three-way adjustment screw alignment to keep heavy timber doors plumb over time.\n\nFor handleless contemporary minimalist cabinets, push-to-open drawer mechanisms and magnetic touch-latch hardware provide clean exterior sightlines without protruding handles or knobs.\n\nDrawer storage benefits immensely from full-extension undermount drawer slides with dynamic load ratings of 30kg to 40kg per drawer, allowing complete access to contents right to the back without sagging.\n\nPairing these runners with dovetail drawer joinery crafted from solid oak or birch plywood ensures the internal boxes withstand thousands of smooth opening cycles without joint separation or mechanical failure."
+      },
+      {
+        "level": "h2",
+        "heading": "Safety, Compliance, and Professional Installation Methodology",
+        "body": "Ensuring stability against tipping is critical when installing a tall cabinet in the living room, particularly in households with young children. Wall-anchoring safety straps and heavy-duty masonry wall plugging techniques must be employed in accordance with [British Standards Institution (BSI)](https://www.bsigroup.com/en-GB/) guidelines.\n\nFor modern lath-and-plaster or timber-stud partition walls, fixings must drive directly into vertical timber studs using structural coach screws rather than relying on hollow-wall toggle bolts alone.\n\nProfessional installation follows a strict methodology: acclimatising solid timber furniture to room temperature for 48 hours, dry-fitting carcasses on adjustable levelling feet, securing wall brackets, and finally installing scribe moulding and [alcove storage cabinets](/choosing-quality-living-room-storage-cabinets) with flexible decorator's caulk.\n\nOnce anchored, touch up any minor nail holes with color-matched wax sticks and apply a protective beeswax or low-sheen lacquer polish."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the standard depth for a living room media cabinet in the UK?",
+        "answer": "Standard media cabinets range from 450mm to 550mm in depth. The 550mm depth is specifically recommended for housing larger AV receivers and gaming consoles with adequate rear ventilation space."
+      },
+      {
+        "question": "How do you install a living room cabinet against uneven period property walls?",
+        "answer": "Installers use adjustable hidden levelling feet beneath the base plinth and hand-scribe timber filler panels on-site using a jigsaw and abrasive block to match undulating plaster surfaces perfectly."
+      },
+      {
+        "question": "What is the maximum weight capacity for floating wall-mounted cabinets?",
+        "answer": "Wall-mounted cabinets secured directly into structural timber studs using heavy-duty concealed brackets can safely support between 50kg and 100kg, depending on the fixing method and carcass material."
+      },
+      {
+        "question": "How do you prevent AV equipment from overheating inside an enclosed media cabinet?",
+        "answer": "Prevent overheating by cutting discrete ventilation grilles into the rear plywood backing panel, utilizing louvered toe kicks, and installing acoustic fabric door panels that permit continuous passive airflow."
+      }
+    ],
+    "tags": [
+      "cabinet in the living room",
+      "Living Room Design",
+      "UK Interior Specification",
+      "2026 Home Guide",
+      "cabinet in the living room",
+      "living room cabinets uk",
+      "built-in living room cabinetry",
+      "bespoke living room joinery"
+    ]
+  },
+  {
     "id": "choosing-quality-living-room-storage-cabinets-guide",
     "title": "Choosing Quality Living Room Storage Cabinets and Alcove Joinery",
     "slug": "choosing-quality-living-room-storage-cabinets",
@@ -79,7 +213,7 @@ export const ARTICLES = [
     "date": "October 6, 2026",
     "readTime": "4 min read",
     "views": "24.8k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "Practical joinery advice for selecting freestanding credenzas, alcove cupboards, and solid timber living room storage cabinets for British homes.",
     "metaDescription": "Transform your British sitting room with durable living room storage cabinets, bespoke alcove joinery, and solid oak sideboards built for daily family life.",
     "heroImage": "/images/british-living-room-cabinets.jpg",

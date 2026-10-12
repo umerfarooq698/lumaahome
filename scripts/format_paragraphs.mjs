@@ -13,8 +13,8 @@ export function splitLongParagraph(paragraph, maxWords = 48) {
   const words = p.split(/\s+/);
   if (words.length <= maxWords) return p;
 
-  // Split into sentences using regex matching punctuation + space
-  const sentences = p.match(/[^.!?]+[.!?]+(\s|$)/g) || [p];
+  // Split into sentences only on punctuation followed by whitespace (never inside URLs like .org.uk or decimals)
+  const sentences = p.split(/(?<=[.!?])\s+(?=[A-Z0-9\[£"])/g).filter(Boolean);
   const newParagraphs = [];
   let currentP = [];
   let currentCount = 0;
