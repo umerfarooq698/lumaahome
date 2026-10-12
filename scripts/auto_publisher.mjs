@@ -421,7 +421,8 @@ Return ONLY valid JSON with this exact schema:
 
   // Fallback safeguard: Guarantee comparison table if AI omitted it
   if (!hasTable && processedContent.length >= 4) {
-    const targetIdx = Math.min(4, processedContent.length - 2);
+    let targetIdx = processedContent.findIndex(s => /cost|price|comparison|tier|budget/i.test(s.heading || '') || /following table/i.test(s.body || ''));
+    if (targetIdx === -1) targetIdx = Math.min(4, processedContent.length - 2);
     processedContent[targetIdx].table = {
       headers: [
         'Specification Tier',
@@ -497,13 +498,13 @@ Return ONLY valid JSON with this exact schema:
     photographerUrl: heroImageObj.credit.link,
     content: processedContent,
     faqs,
-    tags: [
+    tags: [...new Set([
       topic,
       `${catInfo.categoryName} Design`,
       'UK Interior Specification',
       '2026 Home Guide',
-      ...lsiKeywords.slice(0, 4)
-    ]
+      ...lsiKeywords.filter(k => k.toLowerCase() !== topic.toLowerCase()).slice(0, 4)
+    ])]
   };
 
   return {

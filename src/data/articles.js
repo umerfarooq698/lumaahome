@@ -125,7 +125,12 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Engineering the Modern Media Cabinet: Ventilation and Cable Management",
-        "body": "Enclosing high-performance AV equipment within a cabinet in the living room demands rigorous thermal calculations to prevent overheating and premature component failure.\n\nModern 4K gaming consoles and high-wattage AV receivers generate significant thermal loads, requiring continuous passive airflow or discreet ventilation grilles cut into the rear plywood backing or bottom toe-kick channel.\n\nIntegrating acoustic fabric door panels or perforated steel media cabinet panels allows remote control infrared signals to pass through while exhausting trapped heat.\n\nCable management requires pre-drilled cable access grommets, brushed metal floor ports, and internal vertical wire-routing channels.\n\nTo keep wiring tidy, specify backless media cabinets or leave a 50mm service void behind internal adjustable shelving, ensuring power cables, HDMI leads, and Ethernet cords never pinch against rear walls or distort cabinet back panels.",
+        "body": "Enclosing high-performance AV equipment within a cabinet in the living room demands rigorous thermal calculations to prevent overheating and premature component failure.\n\nModern 4K gaming consoles and high-wattage AV receivers generate significant thermal loads, requiring continuous passive airflow or discreet ventilation grilles cut into the rear plywood backing or bottom toe-kick channel.\n\nIntegrating acoustic fabric door panels or perforated steel media cabinet panels allows remote control infrared signals to pass through while exhausting trapped heat.\n\nCable management requires pre-drilled cable access grommets, brushed metal floor ports, and internal vertical wire-routing channels.\n\nTo keep wiring tidy, specify backless media cabinets or leave a 50mm service void behind internal adjustable shelving, ensuring power cables, HDMI leads, and Ethernet cords never pinch against rear walls or distort cabinet back panels."
+      },
+      {
+        "level": "h2",
+        "heading": "Material Specifications and 2026 UK Cost Tier Comparison",
+        "body": "When budgeting for living room cabinetry through UK suppliers like Howdens, John Lewis, Neptune, or independent bespoke workshops, material specifications directly dictate structural longevity and price points. The following table compares three primary manufacturing tiers for a standard 1,800mm wide living room media and storage cabinet:",
         "table": {
           "headers": [
             "Specification Tier",
@@ -156,12 +161,7 @@ export const ARTICLES = [
         }
       },
       {
-        "level": "h2",
-        "heading": "Material Specifications and Cost Tier Comparison",
-        "body": "When budgeting for living room cabinetry through UK suppliers like John Lewis, Neptune, or independent bespoke workshops, material specifications directly dictate structural longevity and price points. The following table compares three primary manufacturing tiers for a standard 1,800mm wide living room media and storage cabinet."
-      },
-      {
-        "level": "h2",
+        "level": "h3",
         "heading": "Hardware Engineering: Hinges, Runners, and Push-Latches",
         "body": "The tactile experience of opening and closing a cabinet in the living room is dictated entirely by concealed architectural hardware. Premium soft-close cabinet hinges featuring integrated hydraulic dampening prevent slamming and offer three-way adjustment screw alignment to keep heavy timber doors plumb over time.\n\nFor handleless contemporary minimalist cabinets, push-to-open drawer mechanisms and magnetic touch-latch hardware provide clean exterior sightlines without protruding handles or knobs.\n\nDrawer storage benefits immensely from full-extension undermount drawer slides with dynamic load ratings of 30kg to 40kg per drawer, allowing complete access to contents right to the back without sagging.\n\nPairing these runners with dovetail drawer joinery crafted from solid oak or birch plywood ensures the internal boxes withstand thousands of smooth opening cycles without joint separation or mechanical failure."
       },
@@ -194,7 +194,6 @@ export const ARTICLES = [
       "Living Room Design",
       "UK Interior Specification",
       "2026 Home Guide",
-      "cabinet in the living room",
       "living room cabinets uk",
       "built-in living room cabinetry",
       "bespoke living room joinery"
