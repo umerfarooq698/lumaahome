@@ -62,7 +62,11 @@ export function sanitizeEditorialText(str) {
     /\bseamlessly\b/gi, /\bparamount\b/gi, /\bcrucial\b/gi,
     /\bfurthermore\b/gi, /\bmoreover\b/gi, /\bin conclusion\b/gi,
     /\bsanctuary\b/gi, /\bcocoon\b/gi, /\bvisual poise\b/gi,
-    /\btimeless allure\b/gi, /\bunlock\b/gi, /\bbeacon\b/gi, /\bsymphony\b/gi
+    /\btimeless allure\b/gi, /\bunlock\b/gi, /\bbeacon\b/gi, /\bsymphony\b/gi,
+    /\banatomy of\b/gi, /\bblueprint\b/gi, /\bframework\b/gi,
+    /\bchampions and gap fillers\b/gi, /\bgap fillers\b/gi,
+    /\bmonocultures\b/gi, /\bmonoculture\b/gi, /\bnostalgic romanticism\b/gi,
+    /\bdynamic biodiversity\b/gi, /\bsub-surface conditioning\b/gi
   ];
   for (const b of banned) {
     s = s.replace(b, '');

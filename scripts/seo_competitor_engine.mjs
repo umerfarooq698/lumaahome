@@ -775,13 +775,18 @@ export function verifyPublishedArticle({
     detail: `Present in HTML: ${hasDisclosure}`
   });
 
-  // 11. Check Zero Forced Geo-Modifier Title Spam & Zero Mojibake
+  // 11. Check Zero Forced Geo-Modifier Title Spam, Zero Mojibake & Zero AI Robotic Buzzwords
   const hasForcedGeoTitle = /\b(for British Homes|Across Britain|in Modern British Homes|in Britain)\b/i.test(article.title);
   const hasMojibake = distHtml.includes('\uFFFD');
+  const roboticWordRegex = /\b(delve|elevate|tapestry|testament|revolutionize|revolutionise|nestled|seamlessly|paramount|furthermore|moreover|sanctuary|cocoon|visual poise|timeless allure|beacon|symphony|anatomy of|the .* blueprint|the .* framework|champions and gap fillers|gap fillers|sub-surface conditioning)\b/i;
+  const headingsAndBody = (article.content || []).map(s => `${s.heading || ''} ${s.body || ''}`).join(' ');
+  const roboticMatch = headingsAndBody.match(roboticWordRegex);
+  const hasRoboticContent = !!roboticMatch;
+
   checks.push({
-    check: '11. Clean Title (No Forced Geo Spam) & Zero Encoding Bugs',
-    passed: !hasForcedGeoTitle && !hasMojibake,
-    detail: `Title: "${article.title}" | Forced Geo: ${hasForcedGeoTitle} | Mojibake: ${hasMojibake}`
+    check: '11. Clean Title (No Forced Geo) & Zero AI Robotic Buzzwords',
+    passed: !hasForcedGeoTitle && !hasMojibake && !hasRoboticContent,
+    detail: `Title: "${article.title}" | Geo Spam: ${hasForcedGeoTitle} | Mojibake: ${hasMojibake} | Robotic Found: ${roboticMatch ? roboticMatch[0] : 'None (100% Human)'}`
   });
 
   // 12. Save Audit Report JSON
