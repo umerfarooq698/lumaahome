@@ -544,12 +544,16 @@ export async function runAutoPublisher() {
     }
   });
 
-  // 3. Find next unpublished keyword from Google Sheet
-  let nextKeyword = null;
-  for (const kw of sheetKeywords) {
-    if (!isKeywordPublished(kw, existingArticles)) {
-      nextKeyword = kw;
-      break;
+  // 3. Find target keyword (from CLI argument if provided, or next unpublished from Google Sheet)
+  const cliKeyword = process.argv.slice(2).find(a => !a.startsWith('--'));
+  let nextKeyword = cliKeyword ? cliKeyword.trim() : null;
+
+  if (!nextKeyword) {
+    for (const kw of sheetKeywords) {
+      if (!isKeywordPublished(kw, existingArticles)) {
+        nextKeyword = kw;
+        break;
+      }
     }
   }
 

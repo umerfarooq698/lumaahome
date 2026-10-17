@@ -67,6 +67,150 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "designing-a-modern-cottage-garden-complete-planting-guide",
+    "title": "Designing a Modern Cottage Garden: Complete Planting Guide",
+    "slug": "designing-a-modern-cottage-garden-complete-planting-guide",
+    "primaryKeyword": "cottage garden plants",
+    "category": "garden",
+    "categoryName": "Garden",
+    "categoryLabel": "GARDEN LIVING | OUTDOOR SPECIFICATION",
+    "author": "Clara Davenport",
+    "authorId": "clara-davenport",
+    "role": "Lead Interior Architect and Lighting Designer",
+    "date": "October 17, 2026",
+    "readTime": "7 min read",
+    "views": "12.5k",
+    "isFeatured": true,
+    "excerpt": "Comprehensive 2026 blueprint for establishing a high-impact 10m x 2m border with perennials, climbers, and structure.",
+    "metaDescription": "Master traditional cottage garden plants with soil matrix advice, seasonal maintenance schedules, RHS pollinator picks, and 2026 UK cost calculations.",
+    "heroImage": "/images/designing-a-modern-cottage-garden-complete-planting-guide-hero.jpg",
+    "image": "/images/designing-a-modern-cottage-garden-complete-planting-guide-hero.jpg",
+    "heroImageAlt": "A vibrant English cottage garden border with purple delphiniums, pink roses, yellow lady's mantle, and foxgloves",
+    "imageAlt": "A vibrant English cottage garden border with purple delphiniums, pink roses, yellow lady's mantle, and foxgloves",
+    "photographer": "LUMAA HOME Architectural Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Anatomy of the Modern British Cottage Garden",
+        "body": "The modern interpretation of the cottage garden strips away purely ornamental strictness in favour of dynamic, multi-layered biodiversity. Originating as functional spaces where workers combined culinary herbs, soft fruit, and hardy perennials, today's cottage garden design balances nostalgic romanticism with modern ecological standards.\n\nInstead of rigid monocultures, these spaces rely on dense planting schemes where self-seeding annuals and biennials intermingle with long-lived herbaceous borders.\n\nMicroclimate variations across the UK dictate plant resilience and selection. A coastal plot in Cornwall experiences mild, frost-free winters with maritime winds averaging 35 km/h, requiring salt-tolerant, sturdy structural choices like *Escallonia* and *Rosmarinus officinalis*.\n\nConversely, an upland plot in North Yorkshire or Aberdeenshire faces severe frosts dipping below -10°C alongside wet, heavy clay soils. Adapting traditional cottage garden plants to these local conditions requires precise plant placement, soil conditioning, and microclimate awareness rather than relying on generic plant lists."
+      },
+      {
+        "level": "h2",
+        "heading": "Soil Preparation and Sub-Surface Conditioning",
+        "body": "A thriving border depends entirely on the mechanical and biological health of the root zone. British soils range from heavy, anaerobic Oxford clay to hungry, rapidly draining chalk across the South Downs.\n\nMost classic cottage specimens—such as *Paeonia lactiflora*, *Delphinium*, and English roses—require a neutral to slightly acidic pH between 6.2 and 7.0, combined with adequate moisture retention that does not lead to winter waterlogging.\n\nTo condition heavy clay prior to spring planting, incorporate 50mm of well-rotted farmyard manure alongside 25mm of sharp horticultural grit dug down to a depth of 300mm. For light, sandy loam, incorporate equal parts leaf mould and coarse garden compost to boost organic matter and cation exchange capacity.\n\nApplying a 75mm layer of coarse bark mulch across the surface every autumn prevents weed emergence, insulates root balls against severe ground frosts, and reduces summer irrigation requirements by up to 40 percent."
+      },
+      {
+        "level": "h2",
+        "heading": "The Four-Tier Planting Stratification Blueprint",
+        "body": "Establishing depth and visual interest in a standard 10m x 2m border requires a rigorous four-tier layout strategy. Without structured height gradients, dense cottage planting collapses into a flat, tangled mass by mid-July.\n\nTier 1 forms the rear backdrop, utilizing structural specimens reaching 1500mm to 2400mm in height. Tier 2 houses mid-border performers between 800mm and 1200mm, while Tier 3 provides structural volume at 400mm to 700mm.\n\nTier 4 carpets the front edge at 100mm to 300mm, spilling naturally onto stone paths or lawn edges.\n\nWhen positioning plants, cross-reference height specs with sunlight demands and pollinator accessibility. The [Royal Horticultural Society (RHS)](https://www.rhs.org.uk/) recommends grouping plants with open, single-petal bloom structures to grant bees direct access to nectar reserves across continuous flowering windows from March through October.",
+        "bullets": [
+          "Tier 1 (Backdrop: 1500–2400mm): Delphinium 'Elatum Group', Digitalis purpurea, Verbascum olympicum, and espaliered fruit trees.",
+          "Tier 2 (Mid-Border Spires & Volume: 800–1200mm): David Austin English roses, Paeonia 'Sarah Bernhardt', Echinacea purpurea, and Phlox paniculata.",
+          "Tier 3 (Fillers & Ground Texture: 400–700mm): Astrantia major, Aquilegia vulgaris, Salvia 'Caradonna', and Iris germanica.",
+          "Tier 4 (Front-Edge Spillers: 100–300mm): Alchemilla mollis, Cranesbill Geranium 'Rozanne', Stachys byzantina, and Angustifolia lavender."
+        ],
+        "image": "/images/designing-a-modern-cottage-garden-complete-planting-guide-detail.jpg",
+        "imageAlt": "Close-up detail of hazel obelisk supports integrated with flowering sweet peas and climbing roses in a rich soil bed",
+        "imageCaption": "A multi-layered English cottage garden planting scheme with delphiniums, foxgloves, and David Austin roses.",
+        "imageCredit": {
+          "name": "LUMAA HOME Botanical Studio",
+          "link": "https://www.lumaahome.co.uk"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Essential Perennials and Heritage Classics",
+        "body": "Heritage perennials form the permanent skeletal framework of any cottage planting scheme. David Austin English roses—such as 'Olivia Rose Austin' or 'Gabriel Oak'—offer repeat-flowering capabilities alongside exceptional disease resistance against black spot and rust.\n\nPair these shrubs with tall, dramatic spires like *Delphinium* 'Pacific Giants' and *Digitalis purpurea* (foxgloves) to drive vertical lines through soft horizontal drifts of foliage.\n\nHerbaceous peonies like *Paeonia lactiflora* 'Duchesse de Nemours' require deep, fertile soil and minimum crown burial—plant the eyes no deeper than 25mm to 50mm below the surface, or flowering will fail completely.\n\nComplement these with hardy cranesbill geraniums (*Geranium* 'Rozanne' or *Geranium macrorrhizum*), which act as living weed suppressors, flowering continuously from late May until the first hard frosts in November."
+      },
+      {
+        "level": "h2",
+        "heading": "Self-Seeding Champions and Gap Fillers",
+        "body": "Self-seeding annuals and biennials provide the spontaneous, informal movement that defines traditional cottage garden design. Species such as *Aquilegia* (granny's bonnet), *Calendula officinalis* (pot marigold), *Borage*, *Papaver rhoeas* (field poppy), and *Nigella damascena* (love-in-a-mist) drop seeds directly into soil crevices, filling unexpected gaps between established perennials.\n\nManaging self-seeders requires intervention in late spring to prevent aggressive species from smothering delicate companions. Thin self-sown seedlings out with a hand fork, leaving a minimum of 150mm spacing around main perennial crowns.\n\nHoeing unwanted seedlings early in the season preserves border harmony while leaving enough self-sowers to yield natural, unscripted drifts of colour."
+      },
+      {
+        "level": "h2",
+        "heading": "Structural Architecture and Winter Interest",
+        "body": "A common mistake in traditional planting schemes is ignoring the winter landscape. When herbaceous perennials die back in November, the border can appear barren without structural evergreen topiary, hard landscaping, and persistent seed heads.\n\nIncorporate column topiary using *Taxus baccata* (yew) or box alternatives like *Ilex crenata* 'Dark Green' spaced at 2000mm intervals to establish visual anchor points year-round.\n\nVertical hazel obelisks (1800mm height) woven with peeled willow branches or custom 12mm steel rebar pyramids support climbers like *Clematis viticella* and scented *Lonicera periclymenum* (honeysuckle).\n\nLeave ornamental seed heads on *Echinacea*, *Phlox*, and *Rudbeckia* intact through winter; they provide cold-weather texture while offering seed reserves for native goldfinches."
+      },
+      {
+        "level": "h2",
+        "heading": "The 2026 UK Budgeting and Sourcing Framework",
+        "body": "Budgeting for a classic 10m x 2m (20m²) cottage border depends on plant maturity at purchase. Bare-root perennials and roses ordered between November and March cost significantly less than potted container stock bought during peak spring months.\n\nAllocating 60 percent of your budget to core perennials, 25 percent to structural topiary or supports, and 15 percent to soil conditioners ensures long-term viability without overspending.\n\nWhen installing physical supports or hard edging around your beds, integrating structural elements such as stone setts or timber retainers keeps aggressive root systems contained.\n\nIf your garden design incorporates physical hardscaping alongside borders, consulting a detailed guide on [crafting a stunning garden border](/crafting-a-stunning-garden-with-borders-across-britain) will ensure sub-base drainage and timber retainers are installed correctly before planting begins.",
+        "table": {
+          "headers": [
+            "Specification / Material Tier",
+            "2026 UK Price Range (GBP)",
+            "Recommended UK Suppliers",
+            "Load / Durability & Best Use"
+          ],
+          "rows": [
+            [
+              "Tier 1: Bare-Root & Seed Starter (20m² Border)",
+              "£180 - £280 total",
+              "Thompson & Morgan, Dobies, Sarah Raven",
+              "Economical option; requires 2-3 growing seasons to establish full mature density."
+            ],
+            [
+              "Tier 2: Standard 9cm & 2L Container Combination",
+              "£450 - £750 total",
+              "Crocus, RHS Partner Nurseries, B&Q",
+              "Balanced approach; gives immediate volume in Year 1 with optimal root establishment."
+            ],
+            [
+              "Tier 3: Mature Specimen & Topiary Framework",
+              "£1,200 - £2,100 total",
+              "Architectural Plants, Majestic Trees, Local Trade Nurseries",
+              "Instant architectural structure using 10L-15L yew cones, espaliered apples, and mature roses."
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Integrated Pest Management and Disease Control",
+        "body": "British climate patterns—characterized by wet springs and humid mid-summer stretches—create prime conditions for fungal diseases like powdery mildew and rust. Hollyhocks (*Alcea rosea*) are especially susceptible to rust (*Puccinia malvacearum*).\n\nMitigate infection by stripping lower leaves at the first sign of orange pustules and ensuring a minimum 450mm spacing between plants to maximize airflow.\n\nSlugs and snails present a persistent threat to soft young shoots of *Delphinium* and *Hosta*. Avoid chemical metaldehyde pellets, which harm songbirds and hedgehogs.\n\nInstead, apply biological control nematodes (*Phasmarhabditis hermaphrodita*) twice yearly (April and September) when soil temperatures exceed 5°C. For vine weevil larvae targeting container-grown specimens, drench pot media with liquid nematode treatments in late summer."
+      },
+      {
+        "level": "h2",
+        "heading": "The UK Cottage Garden Seasonal Maintenance Calendar",
+        "body": "Maintaining a dynamic herbaceous border requires timely seasonal interventions to prolong flowering windows and prevent overcrowding. Following a structured month-by-month calendar maintains border health while keeping high-maintenance tasks manageable."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I control powdery mildew on cottage garden perennials naturally?",
+        "answer": "Prevent powdery mildew by improving air circulation around foliage and mulching roots to maintain soil moisture. Spray affected leaves with a organic solution of 5g potassium bicarbonate per litre of water every 10 days during hot, humid weather."
+      },
+      {
+        "question": "What is the best time to perform the Chelsea Chop on herbaceous plants?",
+        "answer": "Perform the Chelsea Chop in late May during the week of the RHS Chelsea Flower Show. Cut back selected mid- and late-summer flowering perennials by one-third to one-half using sharp bypass secateurs to promote bushier growth and delayed, sturdier blooms."
+      },
+      {
+        "question": "Which cottage garden plants are most resistant to heavy clay soil?",
+        "answer": "Hardy cranesbill geraniums, *Astrantia major*, *Alchemilla mollis*, and *Paeonia lactiflora* thrive in heavy clay soils provided organic matter is incorporated. Ensure beds are not submerged in standing water during winter by digging in coarse horticultural grit prior to planting."
+      },
+      {
+        "question": "How deep should bare-root roses be planted in autumn?",
+        "answer": "Plant bare-root roses so that the graft union (the swollen join between the stem and roots) sits exactly 25mm below the soil surface line. Dig a hole roughly 400mm wide by 300mm deep, backfilling with soil mixed with well-rotted manure and mycorrhizal fungi."
+      },
+      {
+        "question": "How do I prevent digitalis and aquilegia from choking out other flowers?",
+        "answer": "Thin out self-sown seedlings in early April using a hand weeding fork, maintaining a minimum spacing of 150mm to 300mm between plants. Remove seed heads before they shatter in late summer if you want to restrict spread completely."
+      }
+    ],
+    "tags": [
+      "cottage garden plants",
+      "Garden Design",
+      "UK Interior Specification",
+      "2026 Home Guide",
+      "english cottage garden",
+      "cottage garden design",
+      "traditional english cottage garden",
+      "cottage garden planting scheme"
+    ]
+  },
+  {
     "id": "choosing-and-installing-a-cabinet-in-the-living-room",
     "title": "Choosing and Installing a Cabinet in the Living Room: A Joiner's Guide",
     "slug": "choosing-and-installing-a-cabinet-in-the-living-room",
@@ -80,7 +224,7 @@ export const ARTICLES = [
     "date": "October 12, 2026",
     "readTime": "7 min read",
     "views": "12.5k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A professional joinery manual covering exact UK dimensions, AV heat management, and timber selection for living room storage.",
     "metaDescription": "Master cabinet specification, timber selection, chimney breast scribing, and AV ventilation for living rooms with this expert guide.",
     "heroImage": "/images/choosing-and-installing-a-cabinet-in-the-living-room-hero.jpg",
