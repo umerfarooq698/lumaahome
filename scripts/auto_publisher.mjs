@@ -266,14 +266,15 @@ ${JSON.stringify(recommendedOutline, null, 2)}
 ${lsiKeywords.slice(0, 160).join(', ')}
 
 STRICT 2026 GOOGLE HELPFUL CONTENT UPDATE (HCU) & E-E-A-T REQUIREMENTS:
-1. NO COOKIE-CUTTER FORMULA OR ROBOTIC HEADINGS:
-   - Every H2 and H3 heading must be 100% specific to "${topic}" and directly address the content gaps above.
-   - NEVER repeat the exact keyword phrase unnaturally in every heading. Use natural variations, technical terms, and reader-first phrasing.
+1. NATURAL, HUMAN HEADINGS (STRICTLY NO AI CLICHÉS):
+   - Every H2 and H3 heading must be natural, straightforward, and conversational, exactly as an experienced British home or garden journalist writes (e.g., "How to Layer Plants by Height", "Preparing Heavy Clay Soil", "What Does a Cottage Border Cost in the UK?", "Protecting Beds from Slugs and Mildew").
+   - NEVER use robotic heading formulas such as: "Anatomy of...", "The ... Blueprint", "The ... Framework", "... Champions and Gap Fillers", "Mastering the Art...", "Navigating...", "Structural Architecture...".
+   - Vary the heading phrasing dynamically based on the exact search intent of "${topic}".
 2. NO FORCED GEO-MODIFIER SPAM:
    - Do NOT append forced phrases like "for British Homes", "Across Britain", or "in Modern UK Homes" to the title.
    - Inside paragraphs, do NOT spam "British homeowners" or "period British properties" in every paragraph. Instead, demonstrate authentic UK experience naturally by mentioning real UK suppliers (e.g., Howdens, Wickes, B&Q, Neptune, John Lewis, Screwfix, Farrow & Ball, Little Greene), real 2026 prices in GBP (£), and UK standards (mm dimensions, BS/EN standards).
 3. COMPREHENSIVE DEPTH (NO ARTIFICIAL LENGTH LIMIT):
-   - Write 8 to 10 comprehensive sections (mix of H2 and H3) covering every single content gap thoroughly (aim for 1,200 to 1,800+ words total).
+   - Write 7 to 9 practical, human-written sections covering the content gaps thoroughly (aim for 1,100 to 1,600 words total).
    - Each section must have 2 to 3 detailed, practical paragraphs with real measurements in millimetres (mm), load capacities in kg, installation tolerances, and 2026 cost guidance in £ (GBP).
 4. MANDATORY 2026 UK PRICE & SPECIFICATION COMPARISON TABLE:
    - In one dedicated section (around section 5 or 6), include a "table" object comparing 3 to 4 specification tiers or material options for "${topic}", with columns:
@@ -289,8 +290,9 @@ ${relatedCandidates || '- "Choosing Quality Living Room Storage Cabinets and Alc
 7. VARIED FAQS (4 TO 6 FAQS) WITH QUESTION MARKS (?):
    - Include 4 to 6 real, high-intent FAQs that competitors failed to answer clearly.
    - Every FAQ question MUST end with a question mark (?).
-8. ZERO AI BUZZWORDS:
-   - Never use: delve, elevate, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, sanctuary, cocoon, visual poise, timeless allure, unlock, beacon, symphony.
+8. ZERO AI BUZZWORDS & ZERO ROBOTIC JARGON:
+   - NEVER USE: delve, elevate, tapestry, testament, revolutionize, nestled, seamlessly, paramount, crucial, furthermore, moreover, sanctuary, cocoon, visual poise, timeless allure, unlock, beacon, symphony, anatomy, blueprint, framework, champions, gap fillers, biodiversity, monoculture, romanticism, strictness, sub-surface conditioning, mechanical and biological health, multifaceted, nuanced, testament to, realm, journey.
+   - Write in down-to-earth, clear, everyday professional English that sounds human and direct.
 
 Return ONLY valid JSON with this exact schema:
 {
