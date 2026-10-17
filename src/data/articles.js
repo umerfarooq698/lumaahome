@@ -158,7 +158,7 @@ export const ARTICLES = [
               "Balanced approach; gives immediate volume in Year 1 with optimal root establishment."
             ],
             [
-              "Tier 3: Mature Specimen & Topiary Framework",
+              "Tier 3: Mature Plants & Evergreen Topiary",
               "£1,200 - £2,100 total",
               "Architectural Plants, Majestic Trees, Local Trade Nurseries",
               "Instant architectural structure using 10L-15L yew cones, espaliered apples, and mature roses."
