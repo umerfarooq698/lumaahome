@@ -67,6 +67,144 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "choosing-authentic-heritage-paint-colours-for-period-rooms",
+    "title": "Choosing Authentic Heritage Paint Colours for Period Rooms",
+    "slug": "choosing-authentic-heritage-paint-colours-for-period-rooms",
+    "primaryKeyword": "heritage paint colours",
+    "category": "interiors",
+    "categoryName": "Interiors",
+    "categoryLabel": "INTERIOR DESIGN | MATERIAL CRAFT",
+    "author": "Eleanor Vance",
+    "authorId": "eleanor-vance",
+    "role": "Senior Architectural Historian and Heritage Curator",
+    "date": "October 22, 2026",
+    "readTime": "7 min read",
+    "views": "13.4k",
+    "isFeatured": true,
+    "excerpt": "A guide to historic paint palettes, sheen levels, breathable mineral formulas and matching colors across British architectural eras.",
+    "metaDescription": "Find historic palettes for Georgian and Victorian homes. Compare breathable formulas, chalky finishes and exterior masonry options.",
+    "heroImage": "/images/choosing-authentic-heritage-paint-colours-for-period-rooms-hero.jpg",
+    "image": "/images/choosing-authentic-heritage-paint-colours-for-period-rooms-hero.jpg",
+    "heroImageAlt": "Authentic period living room with Georgian cornicing and fireplace painted in muted heritage sage green and chalky off-white",
+    "imageAlt": "Authentic period living room with Georgian cornicing and fireplace painted in muted heritage sage green and chalky off-white",
+    "photographer": "LUMAA HOME Heritage Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "What Defines an Authentic Heritage Palette",
+        "body": "Historic properties have architectural character that standard modern paints often flatten. Brilliant white emulsions and plastic-heavy vinyl paints reflect light harshly, washing out intricate plasterwork and period woodwork.\n\nChoosing the right heritage paint colours brings depth and authentic balance back into older interiors. These palettes rely on complex earthy pigments derived from ochres, umbers and mineral oxides. Instead of sitting flat on the wall, historic shades shift subtly as natural light moves across the room from morning until evening.\n\nToday, homeowners can choose from major collections like dulux heritage paint colours, crown heritage paint colours, historic ranges from Little Greene plus iconic heritage paint colours farrow and ball formulations. However, using heritage paint colours uk wide requires understanding how historic pigments react to light, which finishes suit different rooms and why exterior period walls need breathable paint.\n\nModern synthetic paints rely on titanium dioxide and bright chemical tints. In contrast, authentic english heritage paint colours recreate traditional recipes mixed from natural ground minerals and lime bases.",
+        "bullets": [
+          "Muted Undertones: Colors never look neon or artificially bright. A heritage green will carry soft brown or grey undertones, making it blend naturally with stone, brick and dark timber.",
+          "Light Absorption: Traditional matte emulsions have very low sheen levels between 2% and 4%. They absorb light rather than reflecting glare, creating a soft velvety appearance on uneven plaster.",
+          "Metameric Shift: Because historic paints contain multiple pigment types, the paint appears to change color under different light sources. A grey-based off-white might look warm cream in southern sunlight but shift to a crisp pale stone in northern exposure."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Historic Colour Choices by Architectural Era",
+        "body": "Historic buildings in Britain fall into distinct architectural periods. Each period favored different color combinations based on the pigment technology and fashion of its time:\n\nGeorgian Interiors (1714–1837): Georgian architecture focused on balance, proportion and classical elegance. Rooms on the ground floor and formal parlors featured soft, muted tones. Popular choices included pea green, warm stone, pale olive, sky blue and straw yellow. Woodwork was rarely painted bright white; decorators used tinted off-whites like pearl, parchment or soft buff to match the plaster.\n\nVictorian Interiors (1837–1901): As industrial manufacturing made pigments cheaper, Victorian interiors shifted toward rich, dark, dramatic hues. Dining rooms and entry halls were often finished in terracotta, deep forest green, inky navy, rich claret red and chocolate brown. Skirting boards and doors were frequently painted in deep gloss tones or grained to resemble dark mahogany and oak.\n\nEdwardian Interiors (1901–1910): Edwardian homeowners moved away from the heavy, dark Victorian look. They wanted fresh, airy spaces that maximized natural daylight. Palettes favored soft pastels, duck egg blue, primrose yellow, soft dove grey and clean ivory."
+      },
+      {
+        "level": "h2",
+        "heading": "Comparing Heritage Paint Brands",
+        "body": "Different paint makers offer historic palettes designed for specific budgets, room conditions and practical requirements:",
+        "table": {
+          "headers": [
+            "Brand and Range",
+            "Historic Palette Focus",
+            "Typical Sheen Levels",
+            "Breathability and Base",
+            "Best Use"
+          ],
+          "rows": [
+            [
+              "Farrow and Ball",
+              "Georgian and Victorian historic shades",
+              "2% dead flat matt; 20% eggshell",
+              "Moderate breathability; water-based acrylic resin",
+              "Low-traffic living rooms, bedrooms and ceilings"
+            ],
+            [
+              "Little Greene",
+              "National Trust authentic archival palettes",
+              "3% absolute matt; 20% eggshell",
+              "High breathability options; eco-formulated water base",
+              "True period restorations and high-pigment feature walls"
+            ],
+            [
+              "Dulux Heritage",
+              "Classic 112-shade curated historic collection",
+              "Extra matt velvet; durable eggshell",
+              "Low breathability; durable washable acrylic",
+              "Busy family homes, hallways, kitchens and staircases"
+            ],
+            [
+              "Crown Heritage",
+              "Historic British architectural shades",
+              "Soft matt; durable mid-sheen",
+              "Low breathability; standard trade emulsion",
+              "Budget-conscious projects and rental renovations"
+            ],
+            [
+              "Graphenstone / Earthborn",
+              "Pure mineral and silicate historic tones",
+              "1% ultra-flat mineral matte",
+              "Exceptional breathability; zero polymer film",
+              "Lime plaster, heritage brick and listed stone walls"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Sheen Levels and Everyday Living",
+        "body": "Traditional dead-flat matte finishes look stunning on ceilings and parlor walls, but they mark easily in busy family areas. Choosing the right sheen for each surface keeps your walls looking good without constant repainting:\n\nFlat or Chalky Matt (1% to 3% Sheen): Best for ceilings, formal sitting rooms and historic plaster. It hides wall bumps and gives the deep velvety look historic paint is famous for. However, scrubbing marks can cause burnishing.\n\nWashable Matt (4% to 7% Sheen): Brands like Dulux Heritage and Little Greene now produce washable flat emulsions. These allow you to wipe away scuff marks and fingerprints with a damp cloth without leaving shiny patches.\n\nEggshell (15% to 20% Sheen): The standard finish for interior woodwork, skirting boards, door frames and window sills. It provides a tough, wipeable coat that resists daily scuffs from shoes and furniture. If you are fitting new joinery or [choosing quality living room storage cabinets](/choosing-quality-living-room-storage-cabinets), finishing your fitted alcove cupboards in an eggshell heritage tone ties the joinery neatly into the surrounding walls.\n\nSatin and Gloss (30% to 65% Sheen): Historic front doors, exterior sills and metal railings benefit from higher gloss finishes that repel rainwater and withstand heavy weathering.",
+        "image": "/images/choosing-authentic-heritage-paint-colours-for-period-rooms-detail.jpg",
+        "imageAlt": "Detailed close-up of Georgian wood panelling and skirting boards painted in a soft historic chalky eggshell finish",
+        "imageCaption": "Historic wood panelling finished in a durable eggshell sheen for wipeability and soft light absorption.",
+        "imageCredit": {
+          "name": "LUMAA HOME Heritage Studio",
+          "link": "https://www.lumaahome.co.uk"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "How to Test Heritage Samples in Room Light",
+        "body": "Never choose a heritage shade from a printed color card or a computer screen. Screen backlights make colors look significantly brighter than they appear on a wall.\n\nFollow these testing steps before buying full cans:\n\n1. Paint Large Test Cards: Paint two coats of sample paint onto large pieces of heavy white card, leaving a white border around the edge. Avoid painting sample patches directly onto existing colored walls, because the old color will alter your perception of the new shade.\n2. Move the Card Around: Tape the card to the wall facing the window, then move it to the darker alcoves beside the chimney breast.\n3. Observe Throughout the Day: Check the test card in morning light, mid-afternoon sun and under artificial evening lighting. Warm halogen or 2700K LED bulbs bring out yellow and red undertones, while cool daylight bulbs can make warm greys look cold and blue."
+      },
+      {
+        "level": "h2",
+        "heading": "Using Heritage Paint Colours on Exterior Walls",
+        "body": "Applying heritage paint colours exterior surfaces requires caution on older buildings.\n\nMost modern exterior masonry paints contain acrylic or vinyl polymers that form a waterproof, plastic-like skin over brick and stone. While this works fine on modern cavity-wall houses, applying non-breathable exterior paint to pre-1919 solid brick, flint or lime-rendered walls can cause structural damage.\n\nOlder buildings rely on breathable materials so trapped ground moisture can evaporate freely through the walls. If you seal an old exterior wall with modern plastic paint, moisture gets trapped behind the film. During winter, trapped water freezes, expands and blows the face off your historic brickwork or cracks the lime render.\n\nFor exterior period walls, always check the SD value (steam diffusion resistance). An SD value below 0.05 meters indicates high breathability. Choose potassium silicate mineral paints, graphene-based lime coatings or traditional limewashes tinted in historic stone, ochre and earth tones."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the most popular heritage paint colour in the UK?",
+        "answer": "Muted off-whites and soft greens are the most widely used heritage shades across the UK. Popular examples include soft greenish neutrals like French Gray, inky blue tones like Hague Blue and warm chalky whites like Pointing or Shirting."
+      },
+      {
+        "question": "Can you wash walls painted with flat heritage emulsion?",
+        "answer": "Standard historic chalky emulsions will burnish or leave shiny spots if scrubbed. If you have children or pets, choose modern washable formulations like Dulux Heritage Velvet Matt or Little Greene Intelligent Matt, which can be wiped down with warm water and mild soap."
+      },
+      {
+        "question": "Why do heritage paint colours cost more than standard emulsions?",
+        "answer": "Heritage brands use higher concentrations of finely milled mineral pigments and fewer synthetic fillers like chalk and clay. This high pigment density gives the paint its depth of color and superior coverage, requiring fewer coats to achieve a solid finish."
+      }
+    ],
+    "tags": [
+      "heritage paint colours",
+      "dulux heritage paint colours",
+      "english heritage paint colours",
+      "heritage paint colours farrow and ball",
+      "crown heritage paint colours",
+      "heritage paint colours uk",
+      "heritage paint colours exterior",
+      "Period Restoration"
+    ]
+  },
+  {
     "id": "how-to-choose-and-safely-use-a-liner-oven-mat-at-home",
     "title": "How to Choose and Safely Use a Liner Oven Mat at Home",
     "slug": "how-to-choose-and-safely-use-a-liner-oven-mat-at-home",
@@ -80,7 +218,7 @@ export const ARTICLES = [
     "date": "October 22, 2026",
     "readTime": "7 min read",
     "views": "12.1k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A practical guide to choosing and fitting a protective oven liner without damaging your cooker floor or voiding warranties.",
     "metaDescription": "Stop burnt spills from ruining your oven floor. Safe placement rules for gas and electric ranges to catch grease without melting your mat.",
     "heroImage": "/images/how-to-choose-and-safely-use-a-liner-oven-mat-at-home-hero.jpg",
