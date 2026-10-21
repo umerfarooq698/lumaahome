@@ -67,6 +67,139 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "how-to-choose-and-safely-use-a-liner-oven-mat-at-home",
+    "title": "How to Choose and Safely Use a Liner Oven Mat at Home",
+    "slug": "how-to-choose-and-safely-use-a-liner-oven-mat-at-home",
+    "primaryKeyword": "liner oven",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "KITCHEN DESIGN | CABINET SPECIFICATION",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "October 22, 2026",
+    "readTime": "7 min read",
+    "views": "12.1k",
+    "isFeatured": true,
+    "excerpt": "A practical guide to choosing and fitting a protective oven liner without damaging your cooker floor or voiding warranties.",
+    "metaDescription": "Stop burnt spills from ruining your oven floor. Safe placement rules for gas and electric ranges to catch grease without melting your mat.",
+    "heroImage": "/images/how-to-choose-and-safely-use-a-liner-oven-mat-at-home-hero.jpg",
+    "image": "/images/how-to-choose-and-safely-use-a-liner-oven-mat-at-home-hero.jpg",
+    "heroImageAlt": "Modern kitchen oven with door open showing a heat-resistant non-stick oven liner fitted across the bottom wire rack",
+    "imageAlt": "Modern kitchen oven with door open showing a heat-resistant non-stick oven liner fitted across the bottom wire rack",
+    "photographer": "LUMAA HOME Kitchen Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "What These Liners Are Made Of",
+        "body": "Burnt pie syrup, melted cheese and roasting fat bake into oven floors quickly. Once baked on, cleaning this residue off porcelain enamel takes hours of hard scraping with harsh chemical sprays.\n\nA reusable liner oven sheet helps avoid that mess. Sold under names like oven liner or oven liner mat, these non-stick sheets sit below your racks to catch drippings before they reach the metal base.\n\nMany people buy oven liners for bottom of oven protection without checking their cooker type first. Putting a mat in the wrong spot can crack enamel, trap heat or melt the sheet onto the floor panel. This guide explains how oven liners work, where they belong in gas and electric units, plus how to use them without damaging your cooker.\n\nMost oven liners use two materials: a fiberglass cloth core and a polytetrafluoroethylene (PTFE) coating.\n\nThe woven fiberglass cloth acts as the base. It keeps the sheet flat so it will not stretch, warp or tear under heat. The PTFE coating sits on both sides. This is the same non-stick substance found on frying pans. Food cannot stick to it, meaning grease and burned sugar wash off with basic dish soap.\n\nWhen fat or sauce drips from a dish, it drops onto the sheet instead of hot metal. Because the mat stays cooler than an oven element, the spill does not turn into hard black crust. Once cooking finishes, you pull the sheet out, wipe it clean in your sink then put it back.",
+        "bullets": [
+          "0.2mm sheets feel like parchment paper. In convection cookers, air from the fan gets under the corners, making them curl and crease.",
+          "0.3mm to 0.4mm sheets have enough weight to stay flat on their own. They do not slide when pulling racks out and last through years of washing. Pick a 0.3mm or thicker sheet for any standard home oven."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Proper Placement for Gas and Electric Ovens",
+        "body": "Where your mat sits depends on how your cooker makes heat. Putting a sheet on the floor of the wrong oven ruins appliances fast.\n\nNever put an oven liner directly on the floor of a gas oven. The burner tube on a gas stove sits under the floor panel. Heat enters the main oven box through vents and cutouts around the floor perimeter. Dropping a mat on the floor covers those openings. That cuts off airflow, which makes the gas flame burn poorly. Bad combustion produces black soot and carbon monoxide. At the same time, trapped heat can damage gas safety valves below the floor. Correct placement: Put your trimmed mat on the lowest wire rack. Put your baking dishes on the racks above it.\n\nIn electric ovens with visible floor coils, do not slide the mat onto the floor beneath the heating coil. Even though coils sit slightly above the floor on small metal feet, downward heat is strong. Temperatures right under an active coil reach past 550°F (288°C). That kind of heat will blister the PTFE coating and produce smoke. Correct placement: Slide the liner onto the lowest wire shelf just above the bottom element.\n\nIn modern electric ovens with hidden floor elements (Whirlpool, GE, Samsung, Bosch), never put a mat directly on the smooth floor panel. The baking element sits right under the porcelain floor. When baking, that metal floor gets hot enough to radiate heat upward. Placing a mat directly on that surface traps heat between the sheet and the floor. Temperatures spike over 600°F (315°C). The mat softens, sticks to the porcelain and fuses permanently. Pulling it off chips the enamel away, exposing bare metal to rust. Correct placement: Put the mat on the lowest wire rack, leaving the oven floor empty."
+      },
+      {
+        "level": "h2",
+        "heading": "Comparing Drip Protection Options",
+        "body": "Different drip protectors handle high heat and everyday cooking spills differently across standard household ranges.",
+        "table": {
+          "headers": [
+            "Material",
+            "Safe Heat Limit",
+            "Non-Stick Quality",
+            "Lifespan",
+            "Main Drawback"
+          ],
+          "rows": [
+            [
+              "Heavy PTFE Fiberglass",
+              "500°F (260°C)",
+              "High (sugars slide right off)",
+              "2 to 4 years",
+              "Melts during self-clean cycles"
+            ],
+            [
+              "Food-Grade Silicone",
+              "446°F (230°C)",
+              "Medium",
+              "1 to 2 years",
+              "Absorbs grease smells over time"
+            ],
+            [
+              "Aluminum Kitchen Foil",
+              "Fuses at 450°F",
+              "Very poor",
+              "Single use",
+              "Fuses permanently to porcelain floors"
+            ],
+            [
+              "Steel Enamel Drip Tray",
+              "700°F+ (370°C)",
+              "Low (needs scrubbing)",
+              "5+ years",
+              "Fixed size; cannot be cut"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "How to Cut and Install Your Mat",
+        "body": "Standard sheets measure about 16 x 24 inches (40 x 60 cm), which is larger than most home racks. You need to trim them to size:\n\n1. Let the cooker cool completely before measuring.\n2. Measure the width and depth of your lowest wire rack.\n3. Cut the sheet 1.5 to 2 inches smaller than the oven walls. The mat must not touch the side walls, back wall, door glass or temperature sensor probe. Leaving this open border keeps air flowing so baking temperatures stay even throughout the box.\n4. Cut along straight lines with household scissors. Round off the four sharp corners slightly so they do not catch on wire shelf rungs.\n5. Place the sheet on the lowest rack. Slide the shelf back and forth to confirm the mat stays flat.\n\nIf you are upgrading an older kitchen or [fitting modern modular kitchen cabinets](/choosing-and-fitting-modern-lt-kitchen-cabinets-today), keeping small protective accessories like this clean helps maintain your cooking appliances for the long haul.",
+        "image": "/images/how-to-choose-and-safely-use-a-liner-oven-mat-at-home-detail.jpg",
+        "imageAlt": "Close-up of a trimmed heat-resistant non-stick oven liner sheet on an oven wire rack with a 1.5-inch border gap",
+        "imageCaption": "A trimmed oven liner placed with a clear border gap along the oven wall to preserve ventilation.",
+        "imageCredit": {
+          "name": "LUMAA HOME Kitchen Studio",
+          "link": "https://www.lumaahome.co.uk"
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Why Kitchen Foil Damages Oven Floors",
+        "body": "Many home cooks line the floor of their cooker with regular aluminum foil. This is a bad idea in modern appliances:\n\nHot porcelain has tiny surface pores. When grease pools over thin foil under high heat, the aluminum bonds directly into the porcelain enamel. Scraping fused foil off tears the enamel off with it, leaving bare steel that rusts quickly.\n\nIn electric ovens, loose foil can shift during baking, touch exposed heating element terminals and short out control boards.\n\nLight foil crinkles easily, sliding over air vents in gas stoves without you noticing.\n\nA heavy PTFE sheet stays flat, handles normal baking heat and will not weld to wire racks."
+      },
+      {
+        "level": "h2",
+        "heading": "Cleaning and Care",
+        "body": "Keeping your mats clean prevents old grease from smoking during baking:\n\nFor a quick wash, let the oven cool. Take the mat out by its corners so crumbs do not fall into the cooker. Wipe away loose oil with a paper towel. Wash the sheet with warm water, standard dish soap and a soft sponge.\n\nIf sweet marinades or pie fillings harden on the sheet, soak it in a sink with warm water and two tablespoons of baking soda for 15 minutes. The crust softens and wipes away without effort. Never use steel wool, knives or rough scouring pads. They scratch the PTFE layer and ruin the non-stick finish.\n\nMost mats can go on the top shelf of a dishwasher. Lay the mat flat without bending it sharply."
+      },
+      {
+        "level": "h2",
+        "heading": "Safety Rules to Remember",
+        "body": "Self-cleaning cycles run between 850°F and 950°F (450°C to 500°C) to turn grease into ash. PTFE starts breaking down at 500°F (260°C). If you leave a liner inside, it melts, ruins your racks and fills your home with toxic chemical fumes. Always take the mat out before running self-clean.\n\nBroiling elements run over 600°F. If you broil food on the top shelf, take the bottom mat out so direct high heat does not damage it.\n\nBirds have sensitive breathing systems. Overheated PTFE fumes cause severe breathing problems in birds. Keep baking temperatures below 450°F and run an exhaust fan while cooking.\n\nThrow the mat out if the non-stick coating starts peeling, if edges fray into loose fiberglass threads or if sharp folds crack through the material."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I place food directly on an oven liner?",
+        "answer": "Yes, the PTFE coating is food-safe. However, dedicated silicone baking mats work better on cookie sheets, while these thicker sheets work best on the bottom rack to catch drips."
+      },
+      {
+        "question": "Will an oven liner void my appliance warranty?",
+        "answer": "If placed incorrectly on the oven floor, yes. Brands like GE and Whirlpool do not pay for damage caused by melted mats or blocked vents. Placed on a wire rack with an air gap, they do not affect warranty claims."
+      },
+      {
+        "question": "Does an oven liner change cooking times?",
+        "answer": "No. As long as you leave an air border around the rack edges, heat rises freely and your food cooks normally."
+      }
+    ],
+    "tags": [
+      "liner oven",
+      "oven liners",
+      "oven liner",
+      "oven liner mat",
+      "oven liners for bottom of oven",
+      "Kitchen Care"
+    ]
+  },
+  {
     "id": "designing-a-modern-cottage-garden-complete-planting-guide",
     "title": "Designing a Modern Cottage Garden: Complete Planting Guide",
     "slug": "designing-a-modern-cottage-garden-complete-planting-guide",
@@ -80,7 +213,7 @@ export const ARTICLES = [
     "date": "October 17, 2026",
     "readTime": "7 min read",
     "views": "12.5k",
-    "isFeatured": true,
+    "isFeatured": false,
     "excerpt": "A practical guide to choosing cottage garden plants in the UK, with planting heights, soil tips, and 2026 plant prices in GBP (£).",
     "metaDescription": "Guide to traditional UK cottage garden plants: soil preparation, perennial layering by height, seasonal pruning, and plant prices in GBP.",
     "heroImage": "/images/designing-a-modern-cottage-garden-complete-planting-guide-hero.jpg",
