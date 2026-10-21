@@ -66,7 +66,7 @@ export const CATEGORIES = [
 ];
 
 export const ARTICLES = [
-  {
+{
     "id": "choosing-authentic-heritage-paint-colours-for-period-rooms",
     "title": "Choosing Authentic Heritage Paint Colours for Period Rooms",
     "slug": "choosing-authentic-heritage-paint-colours-for-period-rooms",
@@ -79,9 +79,9 @@ export const ARTICLES = [
     "role": "Senior Architectural Historian and Heritage Curator",
     "date": "October 22, 2026",
     "readTime": "9 min read",
-    "views": "13.9k",
+    "views": "14.2k",
     "isFeatured": true,
-    "excerpt": "A practical home guide to choosing historic paint shades, matching room lighting, selecting washable finishes and painting old exterior walls safely.",
+    "excerpt": "A practical home guide to choosing historic paint shades, matching room daylight, selecting durable finishes and painting old exterior walls safely.",
     "metaDescription": "Find historic palettes for Georgian and Victorian homes. Compare breathable formulas, chalky finishes and exterior masonry options.",
     "heroImage": "/images/choosing-authentic-heritage-paint-colours-for-period-rooms-hero.jpg",
     "image": "/images/choosing-authentic-heritage-paint-colours-for-period-rooms-hero.jpg",
@@ -93,89 +93,82 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Why Heritage Shades Look Different from Modern Paint",
-        "body": "Painting an older house with modern brilliant white emulsion often feels wrong. Sharp white paint bounces light harshly off uneven plaster, making cozy sitting rooms look cold and highlighting every bump in the wall.\n\nOlder rooms look far better with heritage paint colours. These shades use natural mineral tints like ochres, umbers and clay pigments. Instead of looking like a plastic coating, historic shades feel soft and earthy. They gently shift throughout the day, looking warm in morning light and cozy when table lamps turn on at night.\n\nToday you can find beautiful collections from brands like dulux heritage paint colours, crown heritage paint colours, archival cards from Little Greene alongside classic heritage paint colours farrow and ball tins. Finding the right heritage paint colours uk homeowners love comes down to room lighting, daily wear and knowing why old exterior walls need special breathable paint.\n\nStandard retail emulsions rely on chemical brighteners and pure white bases. Historic formulas use ground earth pigments that behave completely differently inside a home."
+        "body": "Brilliant white emulsion looks stark and cold inside an older property. On uneven historic plaster, high-sheen synthetic white throws hard shadows across every bump, turning a quiet sitting room chilly and exposing minor surface flaws.\n\nOld rooms sit much better with heritage paint colours made from natural earth pigments like yellow ochre, raw umber, red iron oxide and burnt sienna. These pigments do not bounce light back like modern titanium dioxide bases. They absorb and scatter daylight across the wall, giving plaster an earthy, muted depth that alters as the sun moves across the sky.\n\nToday you can choose from ranges like dulux heritage paint colours, crown heritage paint colours, archival cards from Little Greene and traditional heritage paint colours farrow and ball collections. Getting the right heritage paint colours uk homeowners want means looking at how your room faces the sun, how much daily wear the walls take and whether your exterior walls need breathable mineral paint.\n\nModern trade emulsions use chemical brighteners and pure white bases. Historic paint formulas rely on ground minerals that behave completely differently inside a home."
       },
       {
         "level": "h3",
         "heading": "Soft Chalky Finish Instead of Plastic Sheen",
-        "body": "Modern vinyl matte paints often leave a faint plastic sheen when light hits them sideways. Traditional paints dry with an ultra-flat chalky finish that carries only 2% to 3% sheen. This flat surface scatters light gently across the room. If your home has lath-and-plaster walls, old settling cracks or slightly uneven surfaces, a chalky finish hides those bumps while making the room feel calm and warm."
+        "body": "Standard retail vinyl emulsion leaves a faint rubbery sheen when daylight hits the wall from an angle. Historic paint dries dead flat, usually carrying no more than 2% or 3% sheen. That chalky surface scatters natural daylight in every direction. If your room has old lime plaster, repaired settlement cracks or wavy walls, a dead flat finish disguises every lump and keeps the room quiet to the eye."
       },
       {
         "level": "h3",
         "heading": "How Natural Daylight Changes the Colour in Your Room",
-        "body": "Because authentic english heritage paint colours contain multiple mineral pigments mixed together, they react strongly to natural light. A soft off-white might look pale and warm when morning sun pours through the window, look slightly grey by midday and turn into a golden cream under warm evening lamps. This natural color movement gives older rooms life without needing bright accent walls."
+        "body": "Traditional english heritage paint colours mix multiple mineral pigments into a single tin. Because of that complex mix, the wall reacts to every shift in weather. A soft off-white can look pale and fresh under morning sun, take on a cool greenish cast around midday and settle into a buttery cream by late evening under warm table lamps. You get depth without needing loud accent walls or glossy feature wallpaper."
       },
       {
         "level": "h2",
         "heading": "Picking Colours by House Style and Age",
-        "body": "Different eras of British homes used different color palettes depending on the building style and the pigments available at the time."
+        "body": "Every period of British building used distinct palettes shaped by local materials and architectural proportions."
       },
       {
         "level": "h3",
         "heading": "Georgian Homes: Light Muted Stones and Soft Sage Greens",
-        "body": "Georgian houses built between 1714 and 1837 were designed around symmetry, high ceilings and big sash windows. Homeowners in this period preferred soft, elegant shades that kept rooms feeling light. Pale sage green, muted stone, straw yellow, soft olive and gentle powder blue were common choices. Skirting boards and doors were almost never painted bright white. Decorators used warm off-whites tinted with a splash of wall color so the woodwork blended softly with the plaster."
+        "body": "Builders between 1714 and 1837 prioritized tall proportions, symmetrical layouts and tall sliding sash windows. Homeowners favored pale, quiet tones that let daylight travel deep into rooms. Pale stone, straw yellow, soft sage green, quiet olive and muted sky blue were standard choices. Skirting boards and architraves were never painted stark white. Decorators used stone off-whites tinted with a splash of the wall color so the joinery eased into the plaster."
       },
       {
         "level": "h3",
         "heading": "Victorian Terraces: Rich Terracotta, Deep Navy and Dark Green",
-        "body": "Victorian homes from 1837 to 1901 embraced cozy, dramatic colors. As manufacturing made paint more affordable, dining rooms, parlors and hallways were painted in rich, deep shades. Warm terracotta, forest green, navy blue, burgundy and deep chocolate brown created intimate rooms lit by gaslight and open fireplaces. Baseboards and four-panel doors were often painted in dark matching tones or coated in dark varnish to resist scuffs from heavy boots."
+        "body": "Victorian properties built between 1837 and 1901 leaned toward saturated, heavy shades. Industrial mills made pigments affordable, while gas lamps and coal fireplaces suited deeper tones. Parlours, hallways and dining rooms took rich terracotta, dark hunter green, navy blue, plum and chocolate brown. Skirting boards and four-panel doors were painted dark to match the walls or given dark brown varnish to resist scuffs from soot and dirty boots."
       },
       {
         "level": "h3",
         "heading": "Edwardian Rooms: Bright Pastels and Sunny Neutrals",
-        "body": "Edwardian homes built after 1901 moved away from heavy Victorian darks. Builders added wider entry halls and large bay windows to let in fresh air and sunlight. Palettes shifted toward fresh pastels, sunny primrose yellow, soft duck egg blue, dove grey and clean ivory. These colors keep smaller bedrooms and family breakfast rooms feeling bright all year round."
+        "body": "Edwardian homes from 1901 onward rejected heavy Victorian darks. Builders put in wide hallways and generous casement windows to pull in light and garden views. Decorators switched to light tones: primrose yellow, duck egg blue, soft dove grey, pale lilac and warm ivory. These shades make morning rooms, bedrooms and kitchens feel airy throughout long British winters."
       },
       {
         "level": "h2",
         "heading": "Solving Common Lighting Problems in Older Rooms",
-        "body": "The direction your windows face completely changes how a paint shade looks on the wall. Matching your paint undertone to the natural daylight keeps rooms from feeling cold or overly yellow."
+        "body": "Your window exposure dictates how pigments perform inside a room. Picking a shade without checking your daylight leads to dingy walls or overwhelming glare."
       },
       {
         "level": "h3",
         "heading": "Cold North-Facing Rooms: Using Yellow and Red Bases to Add Warmth",
-        "body": "North-facing windows only receive indirect, cool daylight with a bluish tint. Painting a northern room in a cool grey or bright white makes the room feel freezing and gloomy. To fix this, always choose shades with a yellow, pink or red undertone. Warm stone, soft biscuit, peach-toned off-white or muted terracotta bounce warm light into dark corners, making a north-facing sitting room feel inviting."
+        "body": "North-facing windows pull in weak, blue-tinted daylight that stays flat all afternoon. Cool greys and bright whites look freezing in these spaces. Counter that cold cast with paints carrying a yellow, red or peach undertone. Buff stone, biscuit, muted terracotta and warm cream turn weak northern light into an inviting glow that keeps living rooms comfortable."
       },
       {
         "level": "h3",
         "heading": "Sunny South-Facing Rooms: Using Cool Greys and Greens to Soften Glare",
-        "body": "South-facing rooms get warm, golden sunlight all day. This strong light can make warm creamy paints look uncomfortably yellow by mid-afternoon. South-facing spaces look best in cooler heritage tones. Soft sage green, pale French grey, muted blue and crisp stone balance the strong sunlight, keeping the room relaxing during bright summer afternoons."
+        "body": "South-facing rooms receive bright, golden sunshine from mid-morning to sunset. Warm cream paints can turn garish yellow in this strong light. Balance that intense sun with cool tones. Muted sage green, French grey, chalky slate blue and soft stone absorb bright sun and create a calm retreat during midsummer heat."
       },
       {
         "level": "h3",
         "heading": "Dark Hallways and Stairs: Light Without Glare",
-        "body": "Hallways often have no windows, relying on light spill from open doorways. Instead of using clinical white paint, choose a warm, pale heritage neutral with good light-reflecting qualities. A soft parchment or pale putty tone brightens the space without looking harsh under hallway pendant lights."
+        "body": "Terraced hallways often have no direct windows, relying entirely on light leaking through fanlights and open interior doors. Brilliant white looks clinical here. Choose a pale stone, parchment or putty tone with high light reflection. These shades brighten long corridors without glaring under electric pendant bulbs."
       },
       {
         "level": "h2",
         "heading": "Choosing the Right Finish for Walls, Skirting and Doors",
-        "body": "Traditional flat finishes look beautiful, but you need to balance historic style with practical family living."
+        "body": "Every surface in an old home demands a finish matched to its daily wear."
       },
       {
         "level": "h3",
         "heading": "Living Rooms and Ceilings: Soft Chalky Matt",
-        "body": "Flat chalky emulsion (under 3% sheen) works best on ceilings, formal living rooms and bedrooms. It gives that velvety heritage look that absorbs light and hides plaster flaws. However, chalky matte paint marks if scrubbed hard, so keep it in rooms where walls do not get touched often."
+        "body": "Dead flat emulsion under 3% sheen belongs on ceilings, drawing rooms and bedrooms. It gives an authentic chalky look that swallows glare and conceals bumps in old plaster. Keep it away from sticky fingers, as scrubbing traditional flat paint leaves shiny burnish marks."
       },
       {
         "level": "h3",
         "heading": "Kitchens and Hallways: Washable Matt That Wipes Clean",
-        "body": "In high-traffic areas like entryways, stairs and kitchens, standard chalky paint will leave shiny patches if you scrub off mud or fingerprints. Major brands now offer durable washable matte paints like Dulux Heritage Velvet Matt and Little Greene Intelligent Matt. These formulations let you wipe off scuffs with a damp cloth and warm soapy water without damaging the flat finish."
+        "body": "High-traffic hallways, staircases and family kitchens take regular grease, mud and scuffs. Traditional flat paint stains easily, but modern scrubbable mattes like Dulux Heritage Velvet Matt and Little Greene Intelligent Matt wipe clean with a wet cloth and warm soapy water without losing their flat look."
       },
       {
         "level": "h3",
         "heading": "Woodwork, Skirting Boards and Doors: Durable Eggshell",
-        "body": "Woodwork takes daily bumps from vacuum cleaners, shoes and moving furniture. Use an eggshell finish (around 15% to 20% sheen) on skirting boards, door frames, window sills and internal doors. Eggshell is wipeable, tough and carries a soft satin glow that looks traditional.",
-        "image": "/images/choosing-authentic-heritage-paint-colours-for-period-rooms-detail.jpg",
-        "imageAlt": "Detailed close-up of Georgian wood panelling and skirting boards painted in a soft historic chalky eggshell finish",
-        "imageCaption": "Historic wood panelling finished in a durable eggshell sheen for wipeability and soft light absorption.",
-        "imageCredit": {
-          "name": "LUMAA HOME Heritage Studio",
-          "link": "https://www.lumaahome.co.uk"
-        }
+        "body": "Baseboards take constant hits from vacuum cleaners, shoes and pets. Paint skirting boards, door frames, window sills and panel doors with an eggshell finish carrying 15% to 20% sheen. Eggshell resists knocks, wipes down easily and provides a traditional soft satin glow."
       },
       {
         "level": "h2",
         "heading": "How the Major Paint Brands Compare for Everyday Homes",
-        "body": "Different brands offer historic palettes for different budgets and decorating needs:",
+        "body": "Paint makers target different budgets and surface requirements across the UK.",
         "table": {
           "headers": [
             "Brand",
@@ -226,84 +219,74 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Farrow and Ball: Chalky Finish and Classic Heritage Names",
-        "body": "Farrow and Ball is famous for iconic shades like Cornforth White, French Gray, Elephant's Breath and Hague Blue. Their Estate Emulsion offers a powdery, chalky look that suits period homes. For family areas, their Modern Emulsion offers better moisture and stain resistance."
+        "body": "Farrow and Ball built its reputation on historic shades like Cornforth White, French Gray, Pigeon and Hague Blue. Their Estate Emulsion offers an authentic powdery texture ideal for low-wear reception rooms. For kitchens and bathrooms, their Modern Emulsion provides a durable wipeable resin base."
       },
       {
         "level": "h3",
         "heading": "Little Greene: Deep Pigment and National Trust Palettes",
-        "body": "Little Greene works directly with the National Trust to recreate authentic paints found in historic homes. Their paints carry high pigment loads that give rich color depth. Their Intelligent Matt range is washable and child-safe, making it a reliable choice for busy period houses."
+        "body": "Little Greene partners with the National Trust to reproduce authentic shades documented in historic country estates. Their formulas carry dense pigment loads that yield rich coverage in two coats. Their Intelligent Matt range wipes clean with water, making it dependable for busy households with young children."
       },
       {
         "level": "h3",
         "heading": "Dulux Heritage and Crown: Hard-Wearing and Budget-Friendly Options",
-        "body": "Dulux Heritage offers a carefully chosen set of classic colors designed for everyday life. It costs roughly a third less than boutique brands and scrubs clean easily without leaving shiny marks. Crown Heritage also offers classic tones in trade formulations that cover large rooms on a reasonable budget."
+        "body": "Dulux Heritage supplies 112 historic shades formulated for modern scrubbing. It costs about a third less than boutique designer brands and stands up to wet sponge cleaning. Crown Heritage delivers period palettes in trade-grade emulsions that keep decorating costs sensible across large renovations."
       },
       {
         "level": "h2",
         "heading": "Painting Exterior Brick and Stone Without Damaging the Walls",
-        "body": "Using heritage paint colours exterior walls needs careful planning on older properties built before 1919."
+        "body": "Applying heritage paint colours exterior walls on pre-1919 houses requires strict attention to wall breathability."
       },
       {
         "level": "h3",
         "heading": "The Problem with Standard Masonry Paint on Old Walls",
-        "body": "Most high-street exterior masonry paints use acrylic or vinyl polymers that dry into a thin plastic layer over the wall. On modern cavity-wall homes with damp-proof courses, this works fine. But on historic solid brick, flint or stone walls, plastic paint creates serious damp issues.\n\nOlder solid walls are designed to breathe. They absorb small amounts of rain and ground moisture, which then dries out naturally in the wind and sun. If you paint an old solid wall with modern plastic paint, moisture gets trapped behind the film. When winter frost arrives, trapped water freezes and expands, cracking the brickwork and pushing the paint off in large bubbles."
+        "body": "Retail masonry paints dry into a flexible plastic film across the brickwork. On modern cavity walls with damp courses, that waterproof skin causes no trouble. On historic solid brick, stone or cob walls, plastic coatings trigger serious damp decay.\n\nOld walls manage water by breathing. They take in small amounts of driving rain and let it evaporate through open pores in the masonry and lime mortar. A plastic paint traps that moisture inside the brick. When winter temperatures drop below freezing, trapped water turns to ice, expands and blows the face off old brickwork while pushing the paint away in damp bubbles."
       },
       {
         "level": "h3",
         "heading": "Breathable Paints That Let Moisture Dry Out",
-        "body": "For older exterior walls, always use breathable paints like potassium silicate paints or traditional limewash tinted with natural earth pigments. Silicate mineral paints soak into the brick or lime render and bond directly with the wall without forming a plastic skin. Moisture moves freely through the paint, keeping your walls dry and your brickwork sound."
+        "body": "Historic exteriors need mineral silicate paints or traditional limewash tinted with lime-fast earth pigments. Silicate paints soak directly into porous stone and lime render, forming a chemical bond without building an impermeable skin. Water vapour passes out freely, keeping the solid wall dry and preserving soft period brickwork."
       },
       {
         "level": "h2",
         "heading": "The Best Way to Test Paint Samples on Your Walls",
-        "body": "Never pick a paint color directly from a printed paper card or a phone screen. Printed ink cannot show how minerals reflect real daylight."
+        "body": "Never choose a shade from a glossy paper card or a phone display. Printing inks cannot replicate how natural pigments react to British weather."
       },
       {
         "level": "h3",
         "heading": "Why You Should Paint Cardboard Instead of the Wall",
-        "body": "Avoid painting sample patches directly onto your colored wall. The existing wall paint will trick your eyes, making the new sample look darker or warmer than it really is. Instead, paint two coats onto a large piece of white cardboard, leaving a clean white border around the edge. The white border gives your eyes a neutral frame to judge the real undertone."
+        "body": "Painting test patches straight onto an existing wall leads to mistakes. The old paint color skews your perception of the new sample. Roll two coats of sample paint onto large white lining paper or cardboard, leaving a two-inch white margin around the edge. That clean white frame lets your eyes evaluate the undertone cleanly."
       },
       {
         "level": "h3",
         "heading": "Checking the Sample Under Morning Sun and Evening Lamps",
-        "body": "Move your painted board around the room throughout the day. Place it next to the window in the morning, move it into the dark fireplace alcove in the afternoon and check it under your living room table lamps at night. Because evening light completely changes how a shade feels, [layering living room lighting](/how-to-layer-living-room-lights-for-warm-architectural-depth) with warm 2700K table lamps brings out the rich pigments in your walls without creating harsh overhead glare. This simple test stops you from buying full tins of a color that looks good at noon but turns dingy once the sun goes down."
+        "body": "Move the painted board around your room across the day. Set it beside the window in morning light, shift it into a shadowy corner by afternoon and prop it against the skirting board after sunset. Evening light alters pigment warmth. Investing in [layering living room lighting](/how-to-layer-living-room-lights-for-warm-architectural-depth) with warm 2700K floor and table lamps brings out the true depth of your walls without harsh overhead glare. Testing your sample under day and night lighting keeps you from buying full tins of a shade that turns murky once the sun sets."
       }
     ],
     "faqs": [
       {
-        "question": "What is the most popular heritage paint colour in the UK?",
-        "answer": "Soft sage greens and warm off-whites are the most popular heritage choices across the UK. Common examples include French Gray, Pigeon, rich navies like Hague Blue and warm chalky neutrals like Pointing or Shirting."
+        "question": "Which heritage colours are most popular in UK homes?",
+        "answer": "Soft sage greens and warm stone neutrals lead UK sales. Common favorites include French Gray, Pigeon, deep navy tones like Hague Blue and warm off-whites like Pointing or Shirting."
       },
       {
-        "question": "Can you wipe marks off a flat chalky wall?",
-        "answer": "Standard chalky matte paint will leave shiny marks if scrubbed with a sponge. For homes with children or pets, choose washable matte formulations like Dulux Heritage Velvet Matt or Little Greene Intelligent Matt, which wipe clean with warm water and gentle soap."
+        "question": "Can flat chalky paint be washed without leaving marks?",
+        "answer": "Standard chalky paint burnishes and leaves shiny spots if scrubbed. If you have children or pets, pick durable matte formulas like Dulux Heritage Velvet Matt or Little Greene Intelligent Matt, which wipe clean using warm water and mild soap."
       },
       {
-        "question": "Why does heritage paint cost more than trade emulsion?",
-        "answer": "Heritage paint makers use high concentrations of finely ground mineral pigments without cheap chalk fillers. This dense pigment mixture gives deeper color and better coverage, often needing fewer coats to cover dark walls."
+        "question": "Why do heritage brands cost more than standard trade paint?",
+        "answer": "Heritage paint manufacturers use higher ratios of finely ground natural pigments without cheap chalk or clay fillers. This dense pigment mix provides deeper light absorption and superior coverage, reducing the number of coats required."
       },
       {
-        "question": "Should woodwork and doors always be painted white?",
-        "answer": "No, painting woodwork pure white was uncommon in Georgian and Victorian homes. Decorators usually painted skirting boards, architraves and doors in an off-white tinted with a touch of wall color, or in a darker matching tone to frame the room."
+        "question": "Did Georgian and Victorian painters use pure white on doors and woodwork?",
+        "answer": "No, bright brilliant white was not invented until the 20th century. Georgian and Victorian decorators used off-whites tinted with umber or wall pigment, or painted trim in deep greens and browns to disguise scuffs."
       },
       {
-        "question": "Can I put regular exterior paint on old stone or lime render?",
-        "answer": "Never use standard acrylic exterior paint on old stone or lime render. Standard masonry paint traps moisture inside solid walls, causing frost damage and damp. Always use breathable silicate paint or traditional limewash on historic exteriors."
+        "question": "Can modern masonry paint go onto old stone or lime render?",
+        "answer": "Never apply standard vinyl or acrylic masonry paint to solid brick or stone walls built before 1919. It traps moisture inside the masonry and causes frost spalling. Always use breathable silicate paint or limewash."
       },
       {
-        "question": "What paint should I use on an old cast-iron radiator?",
-        "answer": "Standard wall paint will dry out, crack and peel over hot radiator pipes. Use an acrylic eggshell designed for interior woodwork and metal, or an oil-based satin paint that can handle temperature changes without yellowing."
+        "question": "What paint finish works best on cast-iron radiators?",
+        "answer": "Standard emulsion will crack and flake when heating pipes expand. Use an acrylic eggshell formulated for interior wood and metal, or a specialist metal paint that tolerates temperature swings without yellowing."
       }
-    ],
-    "tags": [
-      "heritage paint colours",
-      "dulux heritage paint colours",
-      "english heritage paint colours",
-      "heritage paint colours farrow and ball",
-      "crown heritage paint colours",
-      "heritage paint colours uk",
-      "heritage paint colours exterior",
-      "Period Restoration"
     ]
   },
   {
