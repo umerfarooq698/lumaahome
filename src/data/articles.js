@@ -66,6 +66,153 @@ export const CATEGORIES = [
 ];
 
 export const ARTICLES = [
+  {
+    "id": "fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms",
+    "title": "Are Stick on Wall Tiles Worth It for Kitchens and Bathrooms",
+    "slug": "fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms",
+    "primaryKeyword": "stick on wall tiles",
+    "category": "diy",
+    "categoryName": "DIY",
+    "categoryLabel": "UK HOME RENOVATION | DIY GUIDE",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "London Interior Stylist and Joinery Specialist",
+    "date": "October 24, 2026",
+    "readTime": "9 min read",
+    "views": "12.3k",
+    "isFeatured": true,
+    "excerpt": "An honest look at stick on wall tiles for UK homes. Find out if they look cheap, how they handle kitchen grease and steam plus what they cost.",
+    "metaDescription": "Find out if stick on wall tiles are worth buying. See how peel and stick sheets handle steam, grease and daily cleaning in UK homes.",
+    "heroImage": "/images/fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms-hero.jpg",
+    "image": "/images/fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms-hero.jpg",
+    "heroImageAlt": "Modern British kitchen splashback fitted with glossy white bevelled subway stick on wall tiles above an oak worktop",
+    "imageAlt": "Modern British kitchen splashback fitted with glossy white bevelled subway stick on wall tiles above an oak worktop",
+    "photographer": "LUMAA HOME Interior Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "The Honest Truth About Stick on Wall Tiles",
+        "body": "Hiring a tiler in the UK right now is expensive. Between paying day rates of three hundred pounds, buying bags of powdered adhesive and dealing with tile cutters grinding on the patio for three days, a small kitchen splashback can easily turn into a massive job. If you live in a rented house or flat, taking a hammer and chisel to the landlord walls is out of the question.\n\nThat is why stick on wall tiles have exploded in popularity over the last few years. The idea sounds great: buy a few boxes, peel off the paper back and press them straight onto the wall over a rainy Saturday afternoon. No mixing buckets, no messy grey grout smeared everywhere plus no waiting days for mortar to dry.\n\nYet almost everyone asks the same question before buying: do stick on kitchen wall tiles actually look good in person, or do they look cheap and tacky? Having tested them on multiple budget revamps, the answer depends entirely on the type you pick, the condition of your walls and how carefully you stick them down."
+      },
+      {
+        "level": "h2",
+        "heading": "Do Stick on Wall Tiles Look Cheap in Real Life?",
+        "body": "Ten years ago, peel-and-stick tiles looked pretty grim. They were thin vinyl stickers with flat pictures of tiles printed on them. The moment sunlight hit them from a window, they showed every single lump in the plaster and looked like plastic sticky-back paper.\n\nModern sheets are completely different. The good ones use a thick raised gel layer that mimics the glossy glaze and bevelled edges of real ceramic metro tiles. They have sunken faux grout lines that catch room light just like real cement grout. From normal walking distance across a kitchen, most guests will never guess they are self-adhesive sheets unless they walk right up to the wall and tap them with a fingernail.\n\nWhen you touch them, you will notice they feel slightly rubbery rather than cold and hard like real kiln-fired clay. That flexible gel surface is actually a benefit because it absorbs small knocks from mugs or pans instead of chipping like ceramic."
+      },
+      {
+        "level": "h2",
+        "heading": "Where They Work Best Inside a British Home",
+        "body": "You can use stick on wall kitchen tiles in plenty of rooms, but you have to be sensible about moisture and heat exposure."
+      },
+      {
+        "level": "h3",
+        "heading": "Kitchen Splashbacks Above Sinks and Worktops",
+        "body": "The primary spot for kitchen stick on wall tiles is the splashback run between your worktop and upper cupboards. They do a brilliant job catching coffee splashes, washing up water and stray pasta sauce. You can wipe tomato puree straight off them with a damp microfibre cloth and warm soapy water.\n\nWhen [selecting craft kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes), keep in mind that timber and laminate surfaces move slightly with changing seasons. Leave a couple of millimetres gap between your worktop upstand and the bottom row of stick on tiles for kitchen walls. Run a clean bead of silicone along that junction to keep water from sneaking underneath."
+      },
+      {
+        "level": "h3",
+        "heading": "Downstairs Toilets and Cloakroom Basins",
+        "body": "Downstairs cloakrooms are usually tiny, plain spaces that cry out for character. Adding a two-row splashback of bathroom stick on wall tiles behind a small hand basin takes under two hours and completely changes the feel of the room. Because cloakrooms rarely get filled with heavy shower steam, the adhesive backing stays firmly stuck for years without any hassle."
+      },
+      {
+        "level": "h3",
+        "heading": "Where You Should Never Fit Stick-on Sheets",
+        "body": "There are two places where kitchen wall tiles stick on will fail. The first is inside an enclosed shower cubicle. Daily pressurized water jets from a shower head will eventually force water past the seams, turning the glue soft and slimy. Stick to real porcelain or waterproof shower wall panels for wet zones.\n\nThe second danger zone is right behind an open gas hob. Building rules require at least 200mm of clearance between open gas flames and any vinyl or plastic wall product. If a hot frying pan sits on a back burner, the heat will warp and melt your tiles in minutes. Fit a stainless steel plate or glass panel behind the gas burners first, then tile around it."
+      },
+      {
+        "level": "h2",
+        "heading": "Are Stick on Wall Tiles Waterproof or Is It Just Marketing?",
+        "body": "You will often see stick on wall tiles waterproof printed across packaging. That claim is half true. The clear gel surface on the front of the tile is completely waterproof. Water simply beads up on it and runs down the wall.\n\nThe real weak point is the joint where sheets meet and the outer edges. If water pools along the edge of a tile, it slowly creeps behind the backing paper. Once moisture gets between the glue and your plaster, the bond softens and the corner pops forward.\n\nIf you plan to use stick on wall tiles for bathroom splashbacks, you must seal every open edge with sanitary silicone. Run a thin, neat line of clear or white silicone along the sink rim, up both sides of the tiled panel and along the top edge. That locks out steam and splashing water, keeping the adhesive bone dry."
+      },
+      {
+        "level": "h2",
+        "heading": "Buying from High Street Retailers in the UK",
+        "body": "You do not have to order blind from random online sellers. Major UK homeware shops now stock good ranges in their decorating aisles."
+      },
+      {
+        "level": "h3",
+        "heading": "What to Look for at The Range, B&Q and Dunelm",
+        "body": "Picking up stick on wall tiles the range, B and Q or Dunelm is handy because you can touch the tile before spending money. Look closely at the sample packs on the shelves. You want tiles with an overlapping edge lip so each sheet locks neatly into the next without leaving visible gaps.\n\nCheck how stiff the sheet feels. Good tiles feel weighty and flexible without feeling flimsy. Look for packs that state they use 3M adhesive or heavy-duty acrylic glue. Avoid paper-thin sheets that bend like cardboard, as those will show every bump in your wall."
+      },
+      {
+        "level": "h3",
+        "heading": "Checking Batch Numbers and Buying Spare Packs",
+        "body": "Just like paint and wallpaper, peel-and-stick tiles come in production batches. Two boxes with the same name can have slightly different white tones or darker faux grout if made weeks apart. Always check the batch number printed near the barcode and make sure all your boxes match.\n\nBuy one extra pack beyond what you measured. You will almost certainly make a mistake on your first socket cut or miscalculate a corner. Having three or four spare sheets left in a drawer also means you can easily replace a damaged tile years down the road without retiling the whole wall."
+      },
+      {
+        "level": "h2",
+        "heading": "Five Practical Rules for a Professional Finish",
+        "body": "Fitting these tiles is not difficult, but skipping basic steps leads to wonky lines and peeling corners."
+      },
+      {
+        "level": "h3",
+        "heading": "Rule One: Clean with Sugar Soap, Not Washing Up Liquid",
+        "body": "Wiping your wall with Fairy liquid leaves a thin slippery film behind that ruins tile glue. Buy a bottle of liquid sugar soap from a hardware shop, mix it with hot water and scrub the wall hard with a scouring sponge. Rinse with clean water and let the wall dry for a full day before sticking anything down."
+      },
+      {
+        "level": "h3",
+        "heading": "Rule Two: Never Trust Your Worktop to Be Level",
+        "body": "Kitchen counters in British homes rarely sit dead level, especially in older terraces. If you rest your first tile row directly on an uneven worktop, your grout lines will lean sideways across the room. Use a spirit level to draw a pencil line across the wall and start your first row from that level guide."
+      },
+      {
+        "level": "h3",
+        "heading": "Rule Three: Tuck Cut Edges Behind Plug Sockets",
+        "body": "Do not try to cut a square hole around your socket faceplate with a knife. Turn off the kitchen sockets at your fuse box, loosen the faceplate screws by a few turns and pull the socket forward. Slide your tile edges behind the plastic plate, screw it back tight and your cuts stay completely hidden."
+      },
+      {
+        "level": "h3",
+        "heading": "Rule Four: Use a Metal Ruler and a Fresh Stanley Blade",
+        "body": "Plastic school rulers slip and get gouged by sharp utility blades. Use a heavy metal safety ruler on an old chopping board or cutting mat. Score the tile twice with a fresh Stanley blade and snap the sheet cleanly along the line for crisp edges."
+      },
+      {
+        "level": "h3",
+        "heading": "Rule Five: Pull Boiling Kettles Away from the Wall",
+        "body": "A fast-boiling kettle shoots a plume of hot steam at ninety-five degrees straight up the wall. That heat softens tile adhesive and causes nearby corners to curl. Keep your kettle and toaster pulled forward four inches from the tiles to protect the glue."
+      },
+      {
+        "level": "h2",
+        "heading": "Removing Them Without Losing Your Tenancy Deposit",
+        "body": "The biggest worry for renters is whether pulling these tiles down will rip off the landlord paint or damage the plaster skim."
+      },
+      {
+        "level": "h3",
+        "heading": "The Hairdryer Trick for Clean Removal",
+        "body": "If you try to rip cold tiles off the wall with your fingers, you will pull paint and paper with them. Warm the surface first with a hairdryer on medium heat for thirty seconds. The heat softens the glue, letting you peel the sheet down slowly at a forty-five degree angle without tearing the wall."
+      },
+      {
+        "level": "h3",
+        "heading": "Clearing Sticky Residue from the Paint",
+        "body": "Any gummy glue left behind on the wall wipes away easily with a cloth soaked in white spirit or rubbing alcohol. It dissolves the glue residue in seconds without harming sound paintwork underneath. Give the wall a quick wash with soapy water afterwards and nobody will ever know tiles were there."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you put stick on wall tiles over old existing tiles?",
+        "answer": "Yes, they stick firmly to old ceramic tiles as long as you scrub the old surface with sugar soap first to remove kitchen grease and limescale. If your old tiles have very deep grout lines, fill them smooth with ready-mixed wall filler so the new flexible sheets do not dip into the grooves."
+      },
+      {
+        "question": "Are stick on wall tiles safe to use behind a gas hob?",
+        "answer": "No, vinyl and gel stick-on tiles should never sit within 200mm of an open gas burner flame. Heat from gas burners melts the gel surface and creates a fire hazard. Fit a stainless steel or toughened glass panel directly behind the hob first, then tile around it."
+      },
+      {
+        "question": "Will bathroom steam make stick on wall tiles peel off?",
+        "answer": "Steam will lift the corners if the outer edges are left unsealed. While the tile face sheds water easily, steam can creep into open edge seams. Seal the outer perimeter and the sink junction with anti-mould sanitary silicone to keep moisture away from the glue."
+      },
+      {
+        "question": "How do you get clean cuts around double plug sockets?",
+        "answer": "Turn off the kitchen sockets at your fuse box, loosen the faceplate screws by a few millimetres and pull the socket forward. Cut your tile so the edges tuck behind the plastic faceplate, then screw the plate back down tight to hide all raw cuts."
+      },
+      {
+        "question": "How long do stick on wall tiles last in a busy home?",
+        "answer": "Good quality gel tiles fitted over clean, grease-free walls typically last between three and five years. Sealing the edges with silicone and keeping boiling kettles pulled away from the wall stops the adhesive from loosening early."
+      },
+      {
+        "question": "How do you remove stick on wall tiles without damaging paint?",
+        "answer": "Warm the tile with a hairdryer on medium heat for thirty seconds to soften the adhesive, then peel it away slowly from the top corner. Wipe any leftover sticky residue off the wall using a cloth dampened with white spirit or rubbing alcohol."
+      }
+    ]
+  },
 {
     "id": "choosing-authentic-heritage-paint-colours-for-period-rooms",
     "title": "Choosing Authentic Heritage Paint Colours for Period Rooms",
