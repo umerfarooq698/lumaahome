@@ -217,7 +217,14 @@ export function generateStaticPages() {
           const trs = sec.table.rows.map(r => `<tr>${r.map(c => `<td>${escapeHtml(c)}</td>`).join('')}</tr>`).join('');
           tableHtml = `<table><thead><tr>${ths}</tr></thead><tbody>${trs}</tbody></table>`;
         }
-        return `${headingHtml}${bodyContent}${bulletsHtml}${tableHtml}`;
+        let imageHtml = '';
+        if (sec.image) {
+          const imgSrc = typeof sec.image === 'object' && sec.image?.url ? sec.image.url : sec.image;
+          const imgAlt = sec.imageAlt || (typeof sec.image === 'object' && sec.image?.alt) || sec.heading || art.title;
+          const imgCap = sec.imageCaption || (typeof sec.image === 'object' && sec.image?.caption);
+          imageHtml = `<figure><img src="${escapeHtml(imgSrc)}" alt="${escapeHtml(imgAlt)}" loading="lazy" />${imgCap ? `<figcaption>${escapeHtml(imgCap)}</figcaption>` : ''}</figure>`;
+        }
+        return `${headingHtml}${imageHtml}${bodyContent}${bulletsHtml}${tableHtml}`;
       }).join('\n');
     } else if (typeof art.content === 'string') {
       bodyTextHtml = `<p>${escapeHtml(art.content.replace(/<[^>]+>/g, ' '))}</p>`;
