@@ -67,6 +67,272 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "kitchen-unit-carcasses-buyers-guide",
+    "title": "Kitchen Unit Carcasses Buying Guide and Sizes",
+    "slug": "kitchen-unit-carcasses-buyers-guide",
+    "primaryKeyword": "kitchen unit carcasses",
+    "category": "kitchen",
+    "categoryName": "Kitchen",
+    "categoryLabel": "KITCHEN ARCHITECTURE | JOINERY BUYING GUIDE",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "Interior Stylist and Joinery Specialist",
+    "date": "November 4, 2026",
+    "readTime": "13 min read",
+    "views": "9.4k",
+    "isFeatured": true,
+    "excerpt": "A practical trade guide to kitchen unit carcasses. Compare 18mm vs 15mm board density, factory rigid versus flat-pack joints, service voids and standard cabinet sizes.",
+    "metaDescription": "Compare 18mm vs 15mm kitchen unit carcasses, service voids and rigid vs flat-pack builds. Practical trade advice on Howdens, B&Q and standard cabinet sizes.",
+    "heroImage": "/images/kitchen-unit-carcasses-guide-hero.jpg",
+    "image": "/images/kitchen-unit-carcasses-guide-hero.jpg",
+    "heroImageAlt": "Row of rigid 18mm kitchen unit carcasses fitted with adjustable legs on a concrete floor during kitchen installation",
+    "imageAlt": "Row of rigid 18mm kitchen unit carcasses fitted with adjustable legs on a concrete floor during kitchen installation",
+    "photographer": "LUMAA HOME Joinery Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Why the Cabinet Box Matters More Than the Doors",
+        "body": "Most buyers spend weeks picking door colours, stone worktop samples and brass handles, then order whatever cheap white boxes are listed in the sale. That is a costly mistake. Your cupboard doors only look as good as the box behind them.\n\nA kitchen unit carcass carries the real physical load of the room. It supports solid stone worktops, keeps internal wire pullouts running smoothly and holds heavy hinges in place through thousands of door swings. If that box flexes or drops by just two millimetres, your doors will rub against each other and your drawers will never shut flush.\n\nBuying cheap kitchen unit carcasses made of weak, low-density chipboard causes trouble fast. Within two or three years, base shelves start bowing in the middle, hinge screws pull out of stripped holes and minor water drips around the sink cause the panels to swell up like wet cardboard.",
+        "bullets": [
+          "18mm core thickness stops wide shelves from sagging under stacks of dinner plates.",
+          "A solid back panel between 8mm and 18mm stops the cabinet twisting out of square.",
+          "High-density P2 particleboard gives hinge screws the grip they need to stay tight.",
+          "Factory 2mm ABS front edging stops steam and water drips swelling the chipboard.",
+          "Pre-drilled 32mm hole rows let you move shelves up and down without drilling fresh holes."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Board Thickness: 18mm Trade Standard vs 15mm Budget Board",
+        "body": "Always check the panel thickness on the specification sheet before placing an order. In the UK trade, 18mm melamine faced chipboard is the baseline standard for base units and wall cupboards. High-quality cabinet boxes carry fira gold product certification, proving the core meets p2 grade high density board standards for heavy furniture.\n\nBudget DIY lines frequently substitute 15mm budget carcass board to cut manufacturing costs and lighten flat-pack boxes. While three millimetres sounds small, it cuts the structural strength of the box by over twenty-five percent. Screws have less wood to bite into, which lowers screw holding pullout strength and leaves heavy cupboard doors drooping after a few months.\n\nIf you plan to fit a solid quartz or granite worktop, avoid 15mm boxes completely. Solid stone exerts massive downward pressure that 15mm panels cannot handle without bowing in the centre.",
+        "table": {
+          "headers": [
+            "Specification",
+            "18mm High-Density MFC",
+            "15mm Budget Chipboard"
+          ],
+          "rows": [
+            [
+              "Core Material",
+              "Dense P2 grade furniture chipboard",
+              "Standard low-density particleboard"
+            ],
+            [
+              "Back Panel Thickness",
+              "Solid 8mm to 18mm rebated panel",
+              "3mm to 4mm hardboard pinned into grooves"
+            ],
+            [
+              "Stone Worktop Support",
+              "Full heavy quartz worktop support",
+              "Needs extra timber battens to stop sagging"
+            ],
+            [
+              "Screw Grip",
+              "High pullout resistance for hinge plates",
+              "Prone to stripping under heavy doors"
+            ],
+            [
+              "Shelf Span",
+              "Stays flat across spans up to 1000mm",
+              "Noticeable sagging on spans over 600mm"
+            ],
+            [
+              "Warranty",
+              "Up to 25-year structural cabinet warranty",
+              "Typically 5 to 10 years limited warranty"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Rigid Pre-Built Units vs Flat-Pack Boxes",
+        "body": "When you shop for kitchen carcass units, you have to choose between rigid factory assembled units and flat-pack cam and dowel boxes. Both options build a kitchen, but they work very differently on site during installation.\n\nRigid units are built in a factory using wooden dowels, glue and hydraulic factory press assembly. They arrive at your door as solid, square boxes. Your fitter takes them straight off the lorry and starts levelling them on day one. This saves days of on-site assembly time.\n\nFlat-pack units arrive in flat cardboard boxes packed with panels, plastic fittings and wooden pegs. Your fitter has to build every single box by hand on the floor using metal eccentric cam locks. If your floor is uneven, tightening those cams can pull the box out of square before it ever touches the wall.\n\nWhile flat-pack boxes cost less upfront and fit easily up tight staircases, building twenty boxes takes a carpenter twelve to sixteen hours on site. That extra fitting labour often wipes out whatever money you saved on the purchase price.",
+        "bullets": [
+          "Rigid units arrive glued and clamped dead square, cutting on-site installation time by half.",
+          "Flat-pack units fit through narrow doorways and tight stairwells, making them handy for attic flats.",
+          "Flat-pack units rely on you or your fitter tightening cams evenly to keep the box square.",
+          "Rigid cabinets do not need diagonal cross-measuring on site before hanging them on the wall."
+        ]
+      },
+      {
+        "level": "h2",
+        "heading": "Standard Cabinet Sizing: Widths, Heights and Depths",
+        "body": "Fitted kitchens follow standardized metric measurements so worktops, sinks and integrated appliances fit without custom carpentry. A standard kitchen base unit carcass uses a 720mm standard base height without legs. Beneath the base panel, 150mm adjustable cabinet legs lift the frame off the floor so your fitter can level the units using a cabinet levelling spirit level. Once your 30mm or 40mm worktop is fitted on top, the total height sits at the standard 900mm or 910mm mark.\n\nBase cupboards come in fixed width steps. You can use a 150mm spice rack pullout to fill awkward gaps beside cookers, standard 300mm to 600mm single units for general storage, or a wide 1000mm double base cabinet. For heavy pots, specify a pull out pan drawer base measuring 800mm to 1000mm across with reinforced metal sides.\n\nBase cupboards use a standard 560mm carcass depth, leaving a twenty to twenty-five millimetre front overhang beneath a standard 600mm laminate worktop to stop spills running down the doors. Wall cupboards sit shallower at 300mm wall cabinet depth so you do not bang your head while chopping food.\n\nFor food pantries and eye-level ovens, use a larder tower housing or an integrated appliance housing. These tall cabinets measure 1960mm, 2115mm or 2300mm high to align with the top of tall wall cupboards. If you are fitting twin ovens, pick a double oven tall housing with fixed, heavy-duty intermediate shelves rated to hold appliances over eighty kilograms.",
+        "table": {
+          "headers": [
+            "Unit Type",
+            "Common Widths (mm)",
+            "Carcass Depth (mm)",
+            "Carcass Height (mm)"
+          ],
+          "rows": [
+            [
+              "Single Base Cupboard",
+              "300, 400, 500, 600",
+              "560",
+              "720 (870 with legs)"
+            ],
+            [
+              "Double Base Cupboard",
+              "800, 900, 1000",
+              "560",
+              "720 (870 with legs)"
+            ],
+            [
+              "Spice Rack Pullout",
+              "150, 200",
+              "560",
+              "720 (870 with legs)"
+            ],
+            [
+              "Pan Drawer Base",
+              "600, 800, 900, 1000",
+              "560",
+              "720 (870 with legs)"
+            ],
+            [
+              "Wall Cupboard",
+              "300, 400, 500, 600, 800",
+              "300 to 350",
+              "575, 720, 900"
+            ],
+            [
+              "Tall Larder / Oven Tower",
+              "600",
+              "560",
+              "1960, 2115, 2300"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "The Service Void: Why Pipe Clearances Make or Break a Fit",
+        "body": "Before you order any cabinets, check the wall behind your units. In almost every home, water pipes, heating feeds or gas lines run along the bottom of external brick walls. This is where the rear service void matters.\n\nThe service void is simply an empty space left between the back panel of the cupboard and the plaster wall. A deep void lets tradespeople route surface mounted copper pipes and waste runs horizontally behind the units without cutting chunks out of the cabinet sides.\n\nTrade cabinet suppliers specify a deep 72mm pipe cavity behind base units. This wide gap gives comfortable waste pipe routing clearance for 40mm waste pipes and 22mm heating pipes without touching the back of internal drawers. Behind this gap sits a solid 8mm back panel rebated directly into the cabinet sides, which keeps the box dead square and stops appliances vibrating through the frame.\n\nWatch out for flat-pack systems from overseas like the ikea metod suspension rail. These units hang flush against the plaster with almost zero rear void (around 10mm). If your wall has pipes running across it, your fitter will have to chase channels into your brickwork or pack the cupboards off the wall with timber battens. Doing that forces you to buy custom sixty-five centimetre worktops so the front overhang still covers the doors.",
+        "image": "/images/kitchen-unit-carcasses-guide-detail.jpg",
+        "imageAlt": "Close-up of an 18mm kitchen base unit carcass corner showing solid back panel joinery, 2mm ABS impact edging and plumbing service void",
+        "imageCaption": "A recessed rear service void and 2mm ABS impact edging protect cabinet boxes from pipework clashes and daily wear."
+      },
+      {
+        "level": "h2",
+        "heading": "Where to Buy: Trade Counters, Online Direct and High Street Sheds",
+        "body": "When shopping for kitchen unit carcasses uk, you have three main routes: trade suppliers, direct online manufacturers and high street DIY retailers. Each route suits a different type of project and budget.",
+        "table": {
+          "headers": [
+            "Brand / Supplier",
+            "Build Format",
+            "Board Spec",
+            "Service Void",
+            "Back Panel",
+            "Who Can Buy"
+          ],
+          "rows": [
+            [
+              "Howdens Joinery",
+              "Rigid (factory glued)",
+              "18mm MFC",
+              "72mm void",
+              "Solid 6mm/8mm",
+              "Trade account only"
+            ],
+            [
+              "DIY Kitchens",
+              "Rigid (factory glued)",
+              "18mm MFC",
+              "42mm void",
+              "Solid 8mm",
+              "Open to the public online"
+            ],
+            [
+              "B&Q (GoodHome)",
+              "Flat-pack (cam/dowel)",
+              "18mm MFC",
+              "50mm void",
+              "Slotted thin hardboard",
+              "Open to everyone in store"
+            ],
+            [
+              "Wickes (Ready to Fit)",
+              "Flat-pack or Rigid",
+              "18mm MFC",
+              "45mm void",
+              "Solid 8mm on rigid lines",
+              "Retail and trade counters"
+            ],
+            [
+              "IKEA (Metod)",
+              "Flat-pack (rail mount)",
+              "18mm Particleboard",
+              "0mm to 10mm gap",
+              "Thin back on rail",
+              "Retail store and online"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Trade Suppliers: Howdens and Online Direct Sellers",
+        "body": "Professional fitters frequently use kitchen unit carcasses howdens for full house renovations. Howdens cabinets arrive fully rigid with 18mm board, glued dowels and a generous 72mm pipe void. Because Howdens operates hundreds of local branches, your fitter can collect a replacement unit or extra corner post directly from the trade kitchen supply counter on the same morning if room dimensions change.\n\nIf you want trade-quality rigid units without hiring a builder to buy them for you, diy kitchens rigid carcasses are a proven alternative. They sell pre-built cabinets directly to the public online, complete with carcass colour matching options like a natural oak finish carcass or an anthracite grey cabinet box so the inside of the cupboard matches your door colour."
+      },
+      {
+        "level": "h3",
+        "heading": "High Street Stores: B&Q and Wickes Flat-Packs",
+        "body": "Homeowners doing DIY renovations often pick kitchen unit carcasses b&q. B&Q sells modular flat-packs under their GoodHome range with 18mm panels and 50mm service voids. These flat boxes fit straight into the back of an estate car, making them practical if you are renovating room by room over several weekends.\n\nYou can also check out wickes ready to fit units, which include both budget flat-pack lines and assembled units. Just remember to factor in fitting costs. If you pay a fitter by the day, assembling flat-pack boxes can cost you hundreds of pounds in extra labour."
+      },
+      {
+        "level": "h2",
+        "heading": "Worktop Weight and Corner Layouts",
+        "body": "Solid stone worktops like 20mm or 30mm quartz, granite and ceramic put massive weight on your base units. A granite countertop load can top seventy kilograms per linear metre. Your base cabinets must carry that weight without sagging across the middle.\n\nLook for cabinets built with a solid top front stretcher rail made from timber or 18mm MFC, or a full solid top panel on drawer units. Avoid cheap units that only have a flimsy plastic corner bracket at the top front. Under heavy stone, those plastic brackets bend, the front of the cabinet spreads open and the silicone joints in your stone worktop will crack.\n\nTo lock everything together, your installer should drill through the sides using connecting cabinet carcass bolts. Bolting adjoining units together turns separate boxes into one rigid run that will not move.\n\nIf you have an L-shaped kitchen, use a blind corner kitchen unit or a corner base carousel unit. A blind corner unit gives you an adjustable filler post so you can pull the unit away from uneven walls without leaving ugly gaps in the front."
+      },
+      {
+        "level": "h2",
+        "heading": "Hardware: Hinges, Wall Brackets and Drawer Runners",
+        "body": "A cabinet box is only as good as the hardware screwed into it. Quality units come with 32mm system line boring, which is a pair of pre-drilled five-millimetre holes running up both interior sides. This standard lets you shift shelves up and down or add wire pullouts whenever your storage needs change.\n\nDoor hinges should screw into these pre-drilled holes using blum soft close hinges or equivalent German metal fittings. These hinges have built-in cam screws so your fitter can tweak door height, sideways gap and depth with a single screwdriver turn.\n\nFor wall cupboards, look for concealed wall hanging brackets fitted inside the top rear corners. These hook directly onto a metal wall unit hanging rail bolted to the wall, letting your fitter level the cupboard from inside without wrestling brackets behind the unit.\n\nFor pan drawers, insist on undermount drawer runners that fit underneath the drawer box rather than on the sides. Quality undermount runners support working loads of thirty to fifty kilograms and close with a smooth, cushioned pull.\n\nUnderneath the kitchen, plastic legs clip directly onto kickboards using a cabinet plinth clip system, keeping plinths locked in place when you vacuum the floor."
+      },
+      {
+        "level": "h2",
+        "heading": "Water Leaks and Protecting Chipboard from Rot",
+        "body": "The core inside your cabinets is chipboard made of compressed wood shavings held together with resin glue. While moisture resistant mfc easily handles everyday kitchen steam, standing water will destroy it. If water seeps into raw, unsealed chipboard edges, the wood swells up like a sponge, causing blown chipboard water damage that cannot be fixed. Once a panel blows, the only option is to throw it away.\n\nProtect your cabinet boxes using four simple trade steps:",
+        "bullets": [
+          "Sink Protection: Put dedicated sink base unit protection in place by laying an aluminium drip tray liner across the floor of the sink cupboard. The raised lip holds leaked water from loose waste traps, stopping drips from soaking into the wood.",
+          "Edge Banding: Check that all front cabinet edges have thick 2mm abs impact edging bonded with waterproof glue. Thin paper edging chips off when bumped by pans, letting steam into the wood core.",
+          "Seal Pipe Holes: Whenever your plumber cuts holes in the back panel for pipes, coat the raw cut chipboard edges with silicone sealant or waterproof wood glue immediately.",
+          "Door Refacing: If your existing 18mm carcasses are dry, level and solid, you can do a kitchen refacing makeover by fitting replacement kitchen cabinet doors and matching plant-on end panels, giving you a fresh kitchen at half the cost of a full refit."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the standard thickness for kitchen unit carcasses in the UK?",
+        "answer": "The trade standard for durable kitchen carcasses is 18mm melamine faced chipboard (MFC). Cheaper flat-pack ranges often use 15mm board, which flexes more easily under heavy stone worktops and offers weaker screw retention for hinges."
+      },
+      {
+        "question": "What is the difference between rigid and flat-pack kitchen unit carcasses?",
+        "answer": "Rigid carcasses arrive pre-assembled from the factory, joined with wooden dowels and glue under hydraulic press pressure for maximum strength and squareness. Flat-pack carcasses arrive in flat cartons and require manual assembly on site using cam and dowel fixings."
+      },
+      {
+        "question": "Why do kitchen base unit carcasses have a rear service void?",
+        "answer": "The service void (typically 42mm to 72mm deep) is a rear cavity that lets water pipes, gas lines and electrical cables run horizontally behind cabinets without cutting into internal storage shelves."
+      },
+      {
+        "question": "Can 18mm kitchen unit carcasses support quartz and granite worktops?",
+        "answer": "Yes, 18mm high-density MFC carcasses with solid back panels and front stretcher rails are engineered to carry the heavy load of 20mm and 30mm quartz or granite worktops, which can weigh up to 75kg per linear metre."
+      },
+      {
+        "question": "Is it worth replacing kitchen unit carcasses or just the doors?",
+        "answer": "If existing carcasses are 18mm thick, dry, level and free from water swelling, replacing just the doors and drawer fronts saves considerable money and time. If carcasses are 15mm, sagging or water-damaged around the sink, replacing the entire carcass unit is necessary."
+      },
+      {
+        "question": "How do you protect a kitchen sink carcass from water damage?",
+        "answer": "Fit a pressed aluminium drip tray liner over the bottom panel of the sink base unit, ensure all cabinet front edges have 2mm ABS impact edging and seal any plumbing pipe cutouts with silicone sealant."
+      }
+    ]
+  },
+  {
     "id": "garden-slideshow-inspiring-outdoor-spaces",
     "title": "Garden Slideshow Inspiring Outdoor Spaces",
     "slug": "garden-slideshow-inspiring-outdoor-spaces",
