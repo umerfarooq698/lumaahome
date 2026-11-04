@@ -209,7 +209,7 @@ export function generateStaticPages() {
             ? sec.body.map(p => `<p>${formatMarkdownLinks(p)}</p>`).join('') 
             : '';
         const bulletsHtml = Array.isArray(sec.bullets) && sec.bullets.length > 0 
-          ? `<ul>${sec.bullets.map(b => `<li>${escapeHtml(b)}</li>`).join('')}</ul>` 
+          ? `<ul>${sec.bullets.map(b => `<li>${formatMarkdownLinks(b)}</li>`).join('')}</ul>` 
           : '';
         let tableHtml = '';
         if (sec.table && Array.isArray(sec.table.headers) && Array.isArray(sec.table.rows)) {
