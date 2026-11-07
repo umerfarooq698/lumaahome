@@ -67,6 +67,115 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "self-adhesive-vinyl-buying-and-fitting-guide",
+    "title": "Self Adhesive Vinyl Installation and Buying Guide",
+    "slug": "self-adhesive-vinyl-buying-and-fitting-guide",
+    "primaryKeyword": "self adhesive vinyl",
+    "category": "diy",
+    "categoryName": "DIY",
+    "categoryLabel": "SURFACE FINISHES | PRACTICAL DIY GUIDE",
+    "author": "Sarah Jenkins",
+    "authorId": "sarah-jenkins",
+    "role": "Interior Stylist and Joinery Specialist",
+    "date": "November 7, 2026",
+    "readTime": "12 min read",
+    "views": "10.4k",
+    "isFeatured": true,
+    "excerpt": "A practical guide to self adhesive vinyl. Learn how thick your tiles need to be, how to prepare plywood or concrete plus how to stop edges lifting.",
+    "metaDescription": "Practical guide to self adhesive vinyl. Compare peel and stick tiles, floor planks and furniture wrap with exact subfloor prep rules and fitting steps.",
+    "heroImage": "/images/self-adhesive-vinyl-guide-hero.jpg",
+    "image": "/images/self-adhesive-vinyl-guide-hero.jpg",
+    "heroImageAlt": "Fitting self-adhesive vinyl planks and geometric peel-and-stick tiles on a clean primed subfloor with knife and roller",
+    "imageAlt": "Fitting self-adhesive vinyl planks and geometric peel-and-stick tiles on a clean primed subfloor with knife and roller",
+    "photographer": "LUMAA HOME DIY Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "What Self Adhesive Vinyl Is and How It Works",
+        "body": "Under the decorative print, self adhesive vinyl is a sheet of flexible PVC backed with pressure sensitive acrylic adhesive. A peel-off paper liner keeps the glue clean until you lay it. When you press the tile down, the glue grabs into the tiny surface pores of your floor or furniture.\n\nYou can buy self adhesive vinyl in three different styles:\n\n1. Square Floor Tiles: These are standard peel and stick floor tiles measuring 305mm square vinyl tiles. Most range from 1.2mm to 2.0mm thick, with patterns like encaustic pattern floor tiles that give a tiled look without the mess of cement grout.\n\n2. Wood-Look Planks: These are self adhesive vinyl flooring planks measuring about 914mm vinyl wood planks by 152mm wide. Better brands add an embossed woodgrain texture and tiny beveled edge vinyl planks so they look like real timber planks under room lights.\n\n3. Furniture and Worktop Wrap: This is a thinner, flexible sheet sold as self adhesive vinyl wrap for furniture. Products like d-c-fix architectural wrap and sticky back plastic film use waterproof pvc floor film that is only 0.1mm to 0.2mm thick, making it easy to wrap around cupboard doors, desks and tables.\n\nTemperature makes a huge difference to how well the glue sticks. Keep your boxes in the room for forty-eight hours before you start fitting, with the room heating set between eighteen and twenty-two degrees Celsius. If the room is freezing, the vinyl becomes stiff and the glue will not grab properly."
+      },
+      {
+        "level": "h2",
+        "heading": "Tile Thickness and Wear Layers: What to Look For",
+        "body": "When you choose self adhesive vinyl flooring, two numbers tell you how long the floor will last: total thickness and wear layer thickness.\n\nTotal thickness ranges from 1.2mm on budget tiles up to 2.5mm on heavy planks. Thicker planks feel firmer when you walk on them and do a much better job of hiding tiny bumps in the subfloor.\n\nThe wear layer is the clear protective coating pressed over the printed design. It stops shoes, pet paws and grit from scratching through the print:\n\n* 0.07mm to 0.10mm: Light wear only. Fine for a small guest toilet or pantry that does not see much use.\n* 0.15mm to 0.20mm: Medium everyday wear. Good for bedrooms and home offices.\n* 0.20mm to 0.30mm: Heavy domestic wear. For a high traffic hallway floor, buy a 0.2mm clear wear layer or thicker so the pattern does not wear thin after a year or two.\n\nWhen ordering your packs, always add a 10 percent cutting waste allowance to your room size so you have enough tiles for corner cuts. Also check the batch production shade variation code printed on the boxes. Boxes from different factory runs can have slight colour differences that stand out once laid next to each other."
+      },
+      {
+        "level": "h2",
+        "heading": "Preparing Your Subfloor So Tiles Do Not Lift",
+        "body": "If self-stick tiles fail, the floor underneath is almost always the cause. Because vinyl is thin and flexible, it molds itself to whatever it sits on. If there is grit, an uneven board edge or an open grout line beneath, you will feel it under your feet and see it on the surface within a couple of weeks. Fitters call this the subfloor surface show through problem.\n\nHere is how to prep the main floor types before laying your tiles."
+      },
+      {
+        "level": "h3",
+        "heading": "Wooden Floorboards: Why You Need Plywood First",
+        "body": "Never stick self adhesive vinyl tiles straight onto bare wooden floorboards. Floorboards expand and shrink as the weather and heating change while that movement pulls your tile seams apart, leaving an unsightly shrinkage gap between seams across the room.\n\nTo give your tiles a flat, stable base, fit a flooring grade plywood overlay over the floorboards. Do not use cheap, rough shuttering ply from a builder's yard; buy 6mm sp101 plywood, which is made specifically for flooring with a knot-free, sanded surface.\n\nLay the plywood sheets across the room perpendicular to the direction of your floorboards. Stagger the joints like brickwork so four corners never meet in one spot. Fix the sheets down with ring shank flooring nails or wood screws, keeping countersunk screw spacing 150mm across the middle of the board and 100mm along the edges. Skim every joint and screw head with feather finish floor repair paste, then sand it completely flat once dry."
+      },
+      {
+        "level": "h3",
+        "heading": "Concrete Floors: Testing for Damp and Using Primer",
+        "body": "Concrete subfloors must be clean, flat and completely dry. Test for damp using a relative humidity moisture test with a hygrometer box taped to the floor. The reading must be below 75 percent. If the concrete is damp, ground moisture will turn the water-based glue into a milky mess so your tiles slide around underfoot.\n\nIf the concrete is rough or uneven, pour a 3mm layer of latex smoothing compound to smooth it out. Once dry, roll an acrylic floor primer sealer across the whole floor. Bare concrete and fresh plywood are thirsty materials that pull the liquid straight out of the tile adhesive. Primer seals the surface and leaves a tacky base for the glue to bond with."
+      },
+      {
+        "level": "h3",
+        "heading": "Laying Over Old Ceramic Tiles or Lino",
+        "body": "You can lay self-stick tiles over old ceramic tiles if the old tiles are firmly stuck down. Scrub the floor thoroughly with sugar soap degreaser to remove old floor polish and grease.\n\nNext, fill all the sunken grout lines flush with the tile surface using feather-finish compound. If you leave grout lines unfilled, your vinyl tiles will sink into the grooves over time, leaving an outline of the old tiled grid right through your new floor."
+      },
+      {
+        "level": "h2",
+        "heading": "How to Fit Floor Tiles and Planks Step by Step",
+        "image": "/images/self-adhesive-vinyl-guide-detail.jpg",
+        "imageAlt": "Scoring a self-adhesive vinyl plank with a utility knife and steel ruler on a smooth primed plywood subfloor",
+        "body": "To get straight rows and neat cuts, follow these five steps on fitting day:\n\nStep 1: Find the Room Centre\nNever start laying tiles against a wall. House walls are rarely straight while following a crooked wall will throw your whole pattern out of square. Measure your walls to find the middle of the room before snapping two chalk lines that cross in the centre. The chalk line room centre is where your first tile goes.\n\nStep 2: Dry Lay Your Rows\nLay a test row of tiles along both chalk lines without peeling off the paper backing. Look at the cuts where the tiles meet the skirting board. If your edge pieces end up narrower than 50mm, shift your centre chalk line by half a tile width so the border cuts stay wide on both sides of the room.\n\nStep 3: Lay the Main Tiles\nPeel the backing paper off the first tile. Line up two sides against the chalk lines and press down firmly from the middle outward to push out any trapped air. Push the next tiles tightly against the edges without letting them buckle upward.\n\nStep 4: Cut the Edge Tiles\nCutting self-adhesive vinyl is easy with a sharp snap off utility knife blade and a steel straight edge ruler. Place a fresh tile over the last full tile in the row. Place another tile on top, push it up to the skirting board and use its edge as your guide. Score through the top wear layer with your knife, bend the tile down to snap the core, then cut through the backing paper.\n\nLeave a 3mm expansion gap at skirting boards and doorways. While vinyl does not expand as much as wood, sunlight thermal expansion through patio doors will warm the floor, causing tightly wedged tiles to lift at the edges. Cover the gap with Scotia trim or slide the tiles under undercut skirting.\n\nStep 5: Roll the Entire Floor\nPressing tiles down with your hands is not enough. Roll a heavy 50kg floor roller across the floor in both directions. The heavy roller pushes the glue deep into the primed surface pores so the tiles stay stuck down.\n\nIn busy doorways or near the kitchen sink where foot traffic twists, roll a thin tackifier adhesive coat over the primed floor before dropping the tiles in place. This gives extra grip so edges do not lift when shoes drag over them."
+      },
+      {
+        "level": "h2",
+        "heading": "Common Fitting Mistakes and How to Fix Them",
+        "body": "If your floor runs into trouble, here is how to handle floor tile adhesive failure and lifting edges:\n\n* Lifting Corners: If a corner starts curling, warm it up with a hairdryer to soften the vinyl. Put a small dab of vinyl contact glue on the subfloor with a matchstick, press the tile down flat before placing a heavy book or weight on top for six hours.\n* Underfloor Heating: Always check underfloor heating compatibility before you buy. Keep the heating dial below the radiant floor temperature limit of twenty-seven degrees Celsius. Any hotter will soften the glue and make the planks shift around.\n* Spongy Underlays: Never put self-adhesive tiles on soft acoustic vinyl underlay. Any bounce in the floor will snap the glue bond straight away. If you need soundproofing or heavy-duty durability, look at loose lay vinyl comparison options or click luxury vinyl tile lvt instead."
+      },
+      {
+        "level": "h2",
+        "heading": "How to Wrap Kitchen Cupboards and Furniture",
+        "body": "Using self adhesive vinyl wrap for furniture is a great way to refresh tired kitchen cabinets and desks without spending thousands on new units. But when you do kitchen cupboard door wrapping, getting the surface clean is everything.\n\nCooking grease builds up on kitchen doors over the years while vinyl glue will not stick to oil. Take all the doors off their hinges, unscrew the handles and lay them flat on a table. If you need advice on taking doors off hinges, see our guide on [choosing and fitting modern modular kitchen cabinets](/choosing-and-fitting-modern-lt-kitchen-cabinets-today).\n\nWash the doors thoroughly with sugar soap degreaser, rinse with clean water then wipe them down with an isopropyl alcohol surface wipe to strip away any remaining grease. Let them dry for five minutes.\n\nCut your vinyl with 25mm of extra material on all sides so you have enough to wrap around the edges. Peel back about ten centimetres of the backing paper, line the vinyl up with the top edge of the door before smoothing it down using a felt edge squeegee tool. Work from the centre outward in overlapping strokes so you do not trap air bubbles.\n\nIf you are wrapping shaker door vinyl wrapping with recessed panels, wrap the flat centre panel first. Trim the edges flush with the inner frame, then wrap the outer rails separately, making neat 45-degree vinyl wrap relief cuts at the corners.\n\nTo wrap curved door edges, warm the vinyl gently with a heat gun set to eighty degrees Celsius. This curved edge stretching technique softens the PVC so you can pull it smoothly around corners without folds. Once the edge is wrapped, do a quick heat gun post heating pass by warming the wrapped edge to ninety degrees. This heat resets the vinyl so it stays wrapped and never pulls back.\n\nIf an air bubble gets trapped, prick the middle with an air bubble release needle and smooth the air out toward the pinhole.\n\nWhen wrapping kitchen worktops, vinyl has a worktop heat resistance 75c limit. It is fine for warm plates, but hot pans straight off the stove will melt the surface, so always use trivets. Run a protective silicone worktop edge bead along the sink rim to keep water from getting underneath the wrap. You can also read our guide on [selecting kitchen worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes) or look at fitting [stick on wall tiles](/fitting-stick-on-wall-tiles-a-practical-guide-for-uk-interiors) to finish off the space."
+      },
+      {
+        "level": "h2",
+        "heading": "Waterproofing Bathrooms and Kitchen Floors",
+        "body": "Vinyl itself does not let water through, but water sitting on top of the floor can seep between the seams and attack the glue underneath. If you are fitting in a bathroom, lay a bathroom floor moisture barrier over the subfloor before sticking your tiles.\n\nOnce the floor is down, run a neat silicone bead perimeter seal around the edges where the tiles meet the skirting board, bath panel and shower tray. That silicone bead stops bath splashes and leaks from getting under the floor and rotting the wood beneath."
+      },
+      {
+        "level": "h2",
+        "heading": "How to Remove Self Adhesive Vinyl Cleanly",
+        "body": "If you live in a rented home and want a renters temporary floor makeover, you need to be able to take the vinyl up later without ruining the floorboards or cupboards underneath.\n\nDo not pull cold vinyl up by hand, or it will snap into little pieces and leave sticky glue all over the floor. Warm the vinyl first with a hairdryer adhesive removal pass, holding the hairdryer ten centimetres away for thirty seconds. The warm air softens the glue so you can peel the tile back slowly at a flat forty-five-degree angle.\n\nIf any sticky glue stays behind on the subfloor, wipe it with a glue residue solvent cleaner or isopropyl alcohol. Let the solvent sit for a few minutes to soften the glue, scrape it gently with a plastic scraper, then wipe the floor clean with a cloth."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you stick self adhesive vinyl tiles straight over wooden floorboards?",
+        "answer": "No, floorboards expand and contract with room temperature and humidity, which pulls the tile seams apart and makes them lift. Always fit 6mm SP101 flooring plywood over floorboards first, screw it down every 150mm and fill the seams flat."
+      },
+      {
+        "question": "Do you really need primer before laying self adhesive vinyl flooring?",
+        "answer": "Yes, porous subfloors like concrete, screed and fresh plywood soak up the moisture from the tile glue, causing it to dry out and fail. An acrylic floor primer seals the surface and leaves a tacky base for the tiles to grip."
+      },
+      {
+        "question": "Can you put hot pans on vinyl wrapped kitchen worktops?",
+        "answer": "No, architectural vinyl wraps usually handle heat up to 75 degrees Celsius, which is fine for hot mugs and warm plates. A hot pan straight off the hob will scorch and melt the vinyl, so you must always use heat trivets and chopping boards."
+      },
+      {
+        "question": "How do you stop peel and stick vinyl tiles lifting at the corners?",
+        "answer": "Prime your subfloor with an acrylic floor sealer, roll the whole floor with a 50kg roller to activate the glue while applying a thin tackifier coat in busy doorways where foot traffic twists."
+      },
+      {
+        "question": "Can you take self adhesive vinyl up without damaging the surface underneath?",
+        "answer": "Yes, warm the vinyl with a hairdryer to soften the glue, then peel it back slowly at a 45-degree angle. Clean off any leftover sticky residue with isopropyl alcohol or a citrus-based adhesive remover."
+      },
+      {
+        "question": "Can you use self adhesive vinyl on bathroom floors?",
+        "answer": "Yes, self-adhesive vinyl works well on cloakroom and bathroom floors as long as you seal the edges around skirting boards and the bath with silicone. Do not use it inside walk-in showers or wet rooms where water stands constantly."
+      }
+    ]
+  },
+  {
     "id": "kitchen-unit-carcasses-buyers-guide",
     "title": "Kitchen Unit Carcasses Buying Guide and Sizes",
     "slug": "kitchen-unit-carcasses-buyers-guide",
