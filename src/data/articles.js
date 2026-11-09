@@ -67,6 +67,265 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+    "id": "garden-ornaments-placement-and-care-guide",
+    "title": "Garden Ornaments Placement and Care Guide",
+    "slug": "garden-ornaments-placement-and-care-guide",
+    "primaryKeyword": "garden ornaments",
+    "category": "garden",
+    "categoryName": "Garden",
+    "categoryLabel": "LANDSCAPE ARCHITECTURE | TECHNICAL SPECIFICATION MANUAL",
+    "author": "Marcus Cole",
+    "authorId": "marcus-cole",
+    "role": "Principal Architect and Timber Craft Specialist",
+    "date": "November 9, 2026",
+    "readTime": "18 min read",
+    "views": "9.5k",
+    "isFeatured": true,
+    "excerpt": "A practical technical guide to garden ornaments. Learn how to calculate scale, choose frost-proof cast stone or metal plus how to anchor statues securely against wind.",
+    "metaDescription": "Practical guide to garden ornaments. Learn how to calculate scale, install solid stone foundations, prevent frost cracks and maintain exterior metal.",
+    "heroImage": "/images/garden-ornaments-guide-hero.jpg",
+    "image": "/images/garden-ornaments-guide-hero.jpg",
+    "heroImageAlt": "Weathered reconstituted cast stone garden urn on a stone plinth at the end of a gravel pathway in a landscaped garden",
+    "imageAlt": "Weathered reconstituted cast stone garden urn on a stone plinth at the end of a gravel pathway in a landscaped garden",
+    "photographer": "LUMAA HOME Landscape Studio",
+    "photographerUrl": "https://www.lumaahome.co.uk",
+    "content": [
+      {
+        "level": "h2",
+        "heading": "Types of Garden Ornaments for UK Patios and Borders",
+        "body": "Choosing garden ornaments requires matching the material to your outdoor space, local weather and surrounding plants. An ornament is an architectural feature that anchors a planting scheme through every season, not just a casual decorative accessory.\n\nIn the UK, garden ornaments range from heavy reconstituted stone urns and classical statues to rusted corten steel panels, solar lighting features, carved granite troughs and decorative wildlife figures. Each material behaves differently in outdoor conditions. Heavy stone resists high winds but needs a solid foundation pad to prevent sinking. Thin metals need secure ground anchors so winter gales do not bend the stems. Solar features need direct sunlight and sealed battery housings to withstand driving rain.",
+        "table": {
+          "headers": [
+            "Garden Ornament Category",
+            "Common Materials Used",
+            "Weather Durability",
+            "Typical Weight",
+            "Recommended Garden Position"
+          ],
+          "rows": [
+            [
+              "Stone Urns and Planters",
+              "Architectural cast stone or granite",
+              "BS 1217 frost proof",
+              "35kg – 120kg+",
+              "Gravel path terminations, formal patio corners, low terrace walls"
+            ],
+            [
+              "Metal Garden Sculptures",
+              "Corten weathering steel or cast iron",
+              "Self-sealing protective rust layer",
+              "10kg – 45kg",
+              "Perennial borders, ornamental grass beds, courtyard paving"
+            ],
+            [
+              "Decorative Garden Stakes",
+              "Laser-cut steel or powder coated aluminium",
+              "Treated against rust",
+              "1kg – 4kg",
+              "Herbaceous flowerbeds, vegetable borders, pathway edges"
+            ],
+            [
+              "Solar Garden Ornaments",
+              "Weather-sealed resin with LED unit",
+              "IP44 to IP65 splash proof",
+              "1kg – 5kg",
+              "Sunny pathway edges, patio table tops, low front borders"
+            ],
+            [
+              "Wildlife and Bird Figures",
+              "Carved stone, bronze resin or cast iron",
+              "High frost resistance",
+              "5kg – 50kg",
+              "Pond margins, damp shaded rockeries, under mature shrubs"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Large Garden Ornaments and Statues: Sizing and Placement Rules",
+        "body": "When setting out large garden ornaments and statues, scale is the first detail to get right. If you place a 40cm stone rabbit in the middle of a 10-metre lawn, you will barely notice it from your patio doors. Open sky, tall boundary fences and mature trees dwarf small garden pieces immediately.\n\nOn site, we use the three metre viewing distance rule to stop pieces from disappearing. Measure the distance between your everyday viewing spot (such as your kitchen window, patio chair or garden gate) and where the statue will sit. If you stand three metres away, an ornament needs to stand at least 900mm tall to carry visual weight. If the viewing distance is five metres or more, look for a piece between 1.2 metres and 1.5 metres tall.\n\nDo not guess the size from an online catalogue photo. Before installing large garden ornaments, run a quick box mockup scale test. Take three or four cardboard delivery boxes, tape them together to match the exact height and width of the piece, then leave them in the border for three days. Walk past them in the morning. View them from inside your house on an overcast afternoon. If the cardboard stack looks small from the sofa, the real sculpture will vanish once your summer plants fill out.\n\nLine your large garden statues up with how you walk through the plot. Every sculpture works best when it anchors a clear garden focal point sightline. Place it at the far end of a straight gravel path, set it directly opposite an outdoor bench, or frame it inside a timber arch. Sticking small statues randomly across an open lawn creates visual clutter. One bold, well-scaled piece sitting in a deep herbaceous border garden sculpture pocket gives your plot clear shape right through December and January, providing strong winter garden structure after summer perennials die down to the roots.",
+        "table": {
+          "headers": [
+            "Viewing Distance from House or Patio",
+            "Recommended Ornament Height",
+            "Visual Impact on the Plot",
+            "Ideal Placement Setting"
+          ],
+          "rows": [
+            [
+              "Under 3 Metres",
+              "450mm – 750mm",
+              "Close-up detailed viewing",
+              "Patio dining tables, doorstep borders, low stone boundary walls"
+            ],
+            [
+              "3 to 5 Metres",
+              "900mm – 1200mm",
+              "Mid-border focal anchor",
+              "Perennial flowerbeds, gravel path intersections, courtyard corners"
+            ],
+            [
+              "5 to 10 Metres",
+              "1200mm – 1600mm",
+              "Dominant focal sightline",
+              "End of straight garden paths, hedge recesses, lawn boundaries"
+            ],
+            [
+              "Over 10 Metres",
+              "1800mm+ or paired urns",
+              "Architectural landmark",
+              "Paddock treelines, wide lawns, stone retaining wall pilasters"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h2",
+        "heading": "Stone Garden Ornaments: Cast Stone Quality and Frost Protection",
+        "body": "When selecting stone garden ornaments united kingdom yards stock two main materials: solid quarried stone and architectural cast stone.\n\nNatural quarried granite, slate and sandstone are chiselled straight from rock beds. A solid hand carved granite water feature will sit in wet soil for a century without flaking because hard granite has virtually zero water absorption. The downside is cost and weight: granite is difficult to carve and very heavy to move by hand.\n\nReconstituted stone ornaments, commonly called cast stone, are made by blending crushed natural limestone, sand, Portland cement and chemical waterproofing liquids before packing the mix into rigid rubber or fiberglass moulds. When specifying materials, verify that the casting conforms to the bs 1217 cast stone standard. That standard sets a maximum water absorption limit of under five percent. Low absorption stops water from soaking deep into the core of the casting. If water fills open stone pores and freezes, ice expands by nine percent. That sudden hydraulic expansion causes frost thaw thermal cracking, popping chunks off urn rims and snapping heads off statues.\n\nBe careful with cheap resin-bonded stone sold at discount retail outlets. These cast items mix stone dust with liquid polyester resin. They feel heavy in the hand, but the resin breaks down under summer sun, shedding dust and cracking after two winters outdoors.\n\nOver four or five years, genuine frost resistant garden statues pick up a natural antique stone patina moss coating across the damp, north-facing side. Most gardeners love that weathered, aged look. If you prefer bright, clean stone, scrub the piece down once every spring with a stiff nylon scrubbing brush and a specialist non acidic stone cleaner. Never use a high-pressure pressure washer tip closer than 300mm to cast stone. High water pressure strips away the fine cement paste on the surface, leaving rough underlying sand grains exposed to winter moisture."
+      },
+      {
+        "level": "h2",
+        "heading": "Metal Garden Ornaments: Corten Steel, Urns and Decorative Stakes",
+        "image": "/images/garden-ornaments-guide-detail.jpg",
+        "imageAlt": "Close up of weathered architectural stone ornament with lichen patina alongside rusted corten metal garden stakes among foliage",
+        "body": "Metal garden ornaments bring sharp lines, rusty cottage textures and durable metalwork into flower borders. Different metals react differently to rain and soil:",
+        "table": {
+          "headers": [
+            "Metal Type",
+            "Outdoor Weathering Behaviour",
+            "Rust Risk",
+            "Recommended Siting",
+            "Yearly Maintenance Routine"
+          ],
+          "rows": [
+            [
+              "Corten Steel",
+              "Forms dark orange-brown protective oxide skin",
+              "Zero internal decay",
+              "Gravel borders, soil beds, dark slate",
+              "None (Keep off pale stone during year 1)"
+            ],
+            [
+              "Cast Iron",
+              "Heavy weight, oxidises slowly to dark brown",
+              "High surface rust if bare",
+              "Patios, stable gravel pads, lawns",
+              "Coat every two years with rust inhibitor spray"
+            ],
+            [
+              "Powder Coated Aluminium",
+              "Lightweight, baked colour finish, UV proof",
+              "Zero rust risk",
+              "Fences, garden walls, windy courtyards",
+              "Wipe with warm soapy water once a year"
+            ],
+            [
+              "Hot-Dip Galvanized Zinc",
+              "Industrial matte-grey zinc oxide coating",
+              "Zero rust risk for 30+ years",
+              "Planters, garden troughs, heavy stakes",
+              "None"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Metal Care Rules and Heavy-Duty Anchors",
+        "body": "Corten Weathering Steel: A corten weathering steel sculpture leaves the workshop looking like ordinary bare steel. Left outside in the rain, the surface oxidises into a dense, velvety rust crust. That skin acts as a protective shield, sealing the steel beneath from rotting through. Corten needs no paint and lasts forty years. The only warning: during the first nine months of rainfall, loose orange rust particles wash off the metal in runoff water. Keep new Corten pieces off pale Indian sandstone or light porcelain paving slabs until the crust settles, or the runoff will leave bright orange stains in the stone.\n\nTraditional Cast Iron: Heavy cast iron garden urns and garden bench ends survive windstorms without budging. Bare cast iron oxidises to a dark chocolate brown. If you want to keep it looking fresh, spray it down every two years with an exterior rust inhibitor exterior spray or brush the metal with boiled linseed oil on a dry afternoon.\n\nMarine-Grade Aluminium: Statues made from powder coated aluminium never rust, weigh a fraction of stone and can be bolted straight to timber fence posts. Tough polyester powder coatings stop UV fading in sunny backyards.\n\nGalvanized Steel and Zinc: A heavy zinc galvanized garden trough or rolled steel trough will sit in wet soil for thirty years without rotting, making it great for damp pond edges and water features.\n\nStakes, Signs and Boundary Fencing: Tall decorative metal garden stakes, garden stake ornaments and cut-out flying bird garden ornaments stick up above border plants. In windy gardens, slim steel rods bend over in wet ground. Drive a 400mm ground anchor rebar spike deep into the earth directly behind the stem and clip the two together using two stainless steel ties. When screwing metal garden signs, garden shed signs or rustic timber garden signs into timber fence rails as garden fence decorations, always pre-drill and use marine-grade stainless steel screws with soft rubber sealing washers so rust marks do not run down your fence palings."
+      },
+      {
+        "level": "h2",
+        "heading": "Solar Garden Ornaments: Battery Care and Weatherproofing",
+        "body": "Solar garden ornaments and solar powered ornaments for the garden give you soft night-time lighting without digging trenches for mains electrical cables. But cheap solar decorations garden sets bought from supermarkets often pack up within twelve weeks.\n\nThe reality of winter daylight: A solar cell needs direct sun to fill its battery. In July, a panel gets fifteen hours of daylight, running an LED until sunrise. In December, UK daylight drops to seven or eight hours of overcast grey sky. On dark winter afternoons, a small solar panel will only gather enough juice to run the LED for forty to sixty minutes before shutting off.",
+        "bullets": [
+          "Check for IP44 (splash-proof) or IP65 (water-jet resistant) waterproof rating stamps",
+          "Avoid glued units: check that the battery compartment has screws and a silicone gasket",
+          "Confirm battery type: look for a standard 1.2V NiMH rechargeable cell (AA or AAA)",
+          "Inspect solar glass: choose monocrystalline or polycrystalline glass panels over cloudy plastic films",
+          "Wipe dust, tree sap and bird lime off the panel face monthly with a damp cloth"
+        ]
+      },
+      {
+        "level": "h3",
+        "heading": "Solar Battery Compartment and Replacement Rules",
+        "body": "Inspect the battery housing carefully. Check that the fixture features an ip44 waterproof solar battery compartment or IP65 sealed housing. Budget units leave the battery compartment unsealed. Rain gets sucked inside when temperatures drop at night, rotting the thin copper battery springs into green slime within a few months.\n\nAlways pick fittings with a user-serviceable nimh rechargeable solar cell inside. Cheap fixtures solder cheap generic lithium batteries straight onto the circuit board. Once that battery dies, the whole thing goes in the wheelie bin. Better fittings use a standard 1.2V AA or AAA NiMH rechargeable cell held in place with stainless steel screws and a soft silicone seal. Swapping in a fresh four-pound rechargeable cell every two years gets the light running like brand new again."
+      },
+      {
+        "level": "h2",
+        "heading": "Bird Garden Ornaments, Wildlife Statues and Animal Figures",
+        "body": "Wildlife figures are among the most popular garden ornaments chosen by UK homeowners. Stone, bronze and cast metal animal sculptures create natural focal points when blended into garden planting.\n\nSolid stone or cast bronze bird garden ornaments placed near wildlife ponds give small garden birds a safe perch to drink from. Position birdbaths at least two metres away from dense shrubbery so feeding birds have clear sightlines to spot approaching cats. If you want characterful animal sculptures, chunky elephant ornaments or bronze hares look best set low among tall ornamental grasses like feather reed grass or fountain grass.\n\nWhen positioning animal figures, keep them at ground level or on low flat stones tucked into foliage rather than raised high on plinths. This grounding makes the sculpture look like part of the living garden habitat rather than a formal monument."
+      },
+      {
+        "level": "h2",
+        "heading": "Garden Fence Decorations, Shed Signs and Wall Plaques",
+        "body": "Boundary fences and wooden outbuildings offer wide vertical surfaces that benefit from outdoor ornamentation. Turning bare timber panels into feature walls gives small courtyards and narrow side returns much needed visual depth.\n\nWhen selecting garden fence decorations, timber garden signs, garden shed signs or laser-cut metal garden signs, consider how the materials attach to the wood. Bare iron screws will react with natural tannins in cedar or pressure-treated fence boards, leaving black streaks down the panels within six months.\n\nAlways mount fence art using marine-grade 316 stainless steel screws fitted with soft neoprene rubber washers. The rubber washer acts as a spacer, leaving a 2mm air gap between the metal sign and the timber board. This gap allows trapped rainwater to drain and dry out, stopping wet spots from rotting the fence rail behind the plaque."
+      },
+      {
+        "level": "h2",
+        "heading": "Unusual Garden Ornaments UK: Kinetic Art and Creative DIY Ideas",
+        "body": "When putting together ideas for garden ornaments, pick materials that match your house walls and planting style. A modern polished granite sphere looks odd in a wild cottage border, while a small mossy gnome looks out of place on a sleek porcelain terrace.\n\nUnusual Contemporary Sculptures: For urban courtyard gardens, unusual garden ornaments uk metalworkers fabricate include kinetic garden wind sculpture poles, rusted steel armillary spheres plus hand-cut geometric granite pillars. Wind sculptures spin on sealed stainless steel ball bearings, turning in light breezes to add movement to small enclosed patios where trees cannot grow.\n\nPractical DIY Projects: You do not need to spend hundreds of pounds at a boutique showroom. Some of the most charming diy garden ornaments come from salvaged building materials. Stack reclaimed clay chimney pots as tall planters for tumbling trailing ivy, clean up an old zinc dolly tub for a mini patio waterlily pond, or dry-lay old Yorkstone cobbles into a spiralling herb mound. For practical guidance on planning boundaries and patio layouts, take a look at our trade guide on [garden design and outdoor seating spaces](/garden-slideshow-inspiring-outdoor-spaces). You can also read our step-by-step notes on [choosing and fitting outdoor garden log burners](/garden-log-burner-buying-and-safety-guide) or [selecting craft kitchen worktops for modern homes](/selecting-craft-kitchen-worktops-for-modern-british-homes)."
+      },
+      {
+        "level": "h2",
+        "heading": "Why Indoor and Living Room Ornaments Fail Outdoors",
+        "body": "Homeowners often ask if they can move spare indoor decorative pieces out onto the patio. The short answer is no. Common household ornaments made for bedrooms or living rooms cannot handle outdoor rain and frost.\n\nResin ornaments for living room display, glazed bathroom ornaments, high-gloss black ornaments, shiny gold ornaments and shop-bought next ornaments use light craft glues, soft plaster fillers and paints with zero UV inhibitors.\n\nDelicate decorative items like carved willow tree ornaments, thin glass ornaments and crystal swarovski christmas ornaments are built strictly for dry, heated indoor rooms. The same rule applies to holiday craft items like salt dough ornaments, christmas tree ornaments and festive christmas ornaments brought outside for a garden party. Even resin fish tank ornaments fall apart in open weather. Aquarium resin is formulated for constant room-temperature tap water, not sun exposure. Left in the garden, UV radiation degrades the resin binder within months, turning the surface powdery and bleaching the colour chalk white.\n\nReal garden ornaments uk builders and landscapers install have to survive rapid freeze-thaw cycles. In autumn and winter, UK weather swings from soaking wet rain during the day to minus-four frost overnight. When moisture gets inside tiny surface holes and freezes, it expands with enough force to crack cheap resin and blow the glaze off bathroom ceramics. True exterior pieces require dense reconstituted stone, hot-dip galvanized metal, thick marine aluminium or heavy Corten steel built to sit in freezing mud year after year."
+      },
+      {
+        "level": "h2",
+        "heading": "How to Bed and Anchor Heavy Garden Ornaments",
+        "body": "Never plonk heavy large garden ornaments and statues straight down onto raw turf or topsoil. Wet lawn soil gives way as earthworms dig and rainwater pools. A seventy-kilogram stone birdbath or urn sitting directly on mud will tilt sideways within three months, collect puddles around the foot and crack during the first hard frost.\n\nAlways support heavy stone with proper plinth and pedestal mounting. A pedestal gets the piece up above surrounding border foliage while isolating the bottom base from damp soil.",
+        "bullets": [
+          "Spade, hand punner or mechanical plate compactor for subgrade compaction",
+          "100mm depth of compacted MOT Type 1 crushed limestone road stone aggregate",
+          "50mm thick concrete council paving slab (600mm x 600mm) laid flat and level",
+          "Sharp sand and Portland cement mixed at an 8:1 ratio as a semi-dry bedding cushion",
+          "Spirit level and rubber mallet to tap the plinth true in both directions",
+          "12mm masonry drill bit and 316 marine-grade stainless steel dowel bar (150mm length)",
+          "Exterior two-part epoxy resin adhesive injected into pre-drilled locating sockets"
+        ]
+      },
+      {
+        "level": "h3",
+        "heading": "Building a Solid Stone Pad Step by Step",
+        "body": "1. Dig down 150mm into the subsoil, making your hole 100mm wider than the pedestal footprint on every side.\n\n2. Shovel in 100mm of mot type 1 sub base aggregate and pound it down flat using a heavy hand tamper until it will not move under your boot heel.\n\n3. Pour a 50mm concrete pad foundation or drop a heavy pre-cast concrete slab flat onto the compacted stone. Check it with a spirit level in both directions.\n\n4. Mix an 8:1 sand and cement bedding mortar with just enough water to hold together like damp brown sugar. Spread a 25mm layer across the concrete slab and press the stone plinth down into the mortar, tapping it level with a rubber mallet. That semi-dry mortar bed takes up small surface dips and spreads the load evenly, stopping high spots from snapping stone corners under point pressure.\n\n5. For tall, top-heavy large garden statues, drill a 12mm hole 60mm deep into the centre of the pedestal top and a matching 12mm hole into the base of the statue. Slap two-part exterior epoxy into the holes and insert a 316 stainless steel dowel fixing. The concealed steel rod locks the two pieces together, so strong wind gusts or climbing children cannot push the statue over."
+      },
+      {
+        "level": "h2",
+        "heading": "Winter Care, Basin Drainage and Cleaning Garden Ornaments",
+        "body": "Freezing temperatures cause ninety percent of all ornament breakages in the UK. Water gets trapped inside stone hollows, turns to solid ice overnight, forcing the stone apart from within.\n\nEmptying Basins and Fountain Bowls: Water left standing inside birdbaths, stone troughs or tiered fountains will freeze solid during a hard frost. As ice expands by nine percent, it blows the bottom out of heavy stone bowls. For urns and basins that have a pre-drilled drain hole, fit a soft drainage hole rubber bung in October so autumn downpours drain away freely. For solid stone birdbaths with no drain hole, take the bowl off the plinth and lean it upright against a wall, or cover the top with a fitted wooden board so rainwater cannot collect.\n\nWrapping Garden Statues: Move soft terracotta pots, thin glazed planters and small cast resin items into an unheated garage or garden shed before November ground frosts start. For heavy stone pieces that are too heavy to shift, wrap the stone in a breathable hessian winter wrap tied securely with rough jute garden string. Never wrap exterior stone in plastic bubble wrap or polyethylene sheets. Plastic traps rising ground moisture against cold stone, creating a damp sweatbox that causes the surface face to peel and spall during frost snaps.\n\nStopping Garden Theft: Cast stone antiques and solid bronze sculptures attract opportunist thieves. Lock valuable items down by setting a heavy anti theft ground anchor into a 300mm cube of ready-mix concrete buried flush below your lawn turf. Thread a plastic-coated high-tensile steel wire rope through the base of the sculpture and clamp it with a weatherproof marine padlock hidden under surrounding foliage."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I leave cast stone garden ornaments outside through UK winter frosts?",
+        "answer": "Yes, genuine cast stone made to BS 1217 standards handles sub-zero frosts easily because its low water absorption stops internal freezing. However, you must stop water from pooling inside hollow urns or birdbath bowls. Standing water turns to ice, expands by nine percent and cracks stone bowls. Empty basins or cover them with breathable hessian before hard freezing weather arrives."
+      },
+      {
+        "question": "How do you stop tall metal garden ornaments blowing over in winter gales?",
+        "answer": "Anchor tall metal stakes and kinetic wind sculptures by hammering a 400mm ribbed steel rebar stake into the ground directly behind the stem, then clamp the two pieces together with stainless steel ties. For heavy free-standing stone or metal statues, bed the base onto a flat concrete slab with an 8:1 sand-cement mortar and a central stainless steel dowel."
+      },
+      {
+        "question": "Why do solar garden ornaments stop working after a couple of months?",
+        "answer": "Most solar ornament failures happen when rainwater leaks into unsealed battery boxes, or when the internal rechargeable battery wears out. Choose solar fittings with IP44 or IP65 waterproof ratings, wipe the solar panel glass clean each month, then replace the internal rechargeable AA or AAA battery every two years."
+      },
+      {
+        "question": "How do you stop corten steel garden ornaments staining stone patios?",
+        "answer": "Corten weathering steel sheds loose iron oxide rust during its first nine to twelve months of rain exposure. To protect light sandstone, granite or porcelain paving from permanent orange rust stains, set new corten ornaments on gravel borders, grass or dark slate until the dense protective patina has fully matured."
+      },
+      {
+        "question": "What is the best way to clean green algae off stone garden statues?",
+        "answer": "Scrub the stone using clean water, a soft nylon scrubbing brush plus a neutral, non-acidic stone cleaner or mild biological patio soap. Never blast stone with a high-pressure jet washer nozzle held closer than thirty centimetres, as aggressive water jets strip away the smooth surface cement cream and leave underlying sand grains exposed to frost."
+      },
+      {
+        "question": "Can I put indoor ceramic or resin ornaments out in the garden?",
+        "answer": "No. Indoor ceramics, living room resin figures and bathroom ornaments lack UV stabilisers and frost-proof binders. Exposure to rain and sub-zero frost causes internal water absorption that shatters the glaze, while sunlight bleaches the paint chalky white within weeks. Outdoor ornaments require weather-rated cast stone, bronze, aluminium or galvanized steel."
+      }
+    ]
+  },
+  {
     "id": "garden-log-burner-buying-and-safety-guide",
     "title": "Garden Log Burner Buying and Safety Guide",
     "slug": "garden-log-burner-buying-and-safety-guide",
@@ -875,7 +1134,6 @@ export const ARTICLES = [
       }
     ]
   },
-
   {
     "id": "how-to-make-a-roman-blind-step-by-step-guide",
     "title": "How to Make a Roman Blind with Lining for Any Window",
@@ -1051,7 +1309,6 @@ export const ARTICLES = [
       }
     ]
   },
-
   {
     "id": "fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms",
     "title": "Are Stick on Wall Tiles Worth It for Kitchens and Bathrooms",
@@ -1199,7 +1456,7 @@ export const ARTICLES = [
       }
     ]
   },
-{
+  {
     "id": "choosing-authentic-heritage-paint-colours-for-period-rooms",
     "title": "Choosing Authentic Heritage Paint Colours for Period Rooms",
     "slug": "choosing-authentic-heritage-paint-colours-for-period-rooms",
