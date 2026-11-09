@@ -85,8 +85,8 @@ export const ARTICLES = [
     "metaDescription": "Practical guide to garden ornaments. Learn how to calculate scale, install solid stone foundations, prevent frost cracks and maintain exterior metal.",
     "heroImage": "/images/garden-ornaments-guide-hero.jpg",
     "image": "/images/garden-ornaments-guide-hero.jpg",
-    "heroImageAlt": "Weathered reconstituted cast stone garden urn on a stone plinth at the end of a gravel pathway in a landscaped garden",
-    "imageAlt": "Weathered reconstituted cast stone garden urn on a stone plinth at the end of a gravel pathway in a landscaped garden",
+    "heroImageAlt": "Classical architectural cast stone birdbath with sculpted bronze bird beside a geometric corten steel sculpture in an English garden",
+    "imageAlt": "Classical architectural cast stone birdbath with sculpted bronze bird beside a geometric corten steel sculpture in an English garden",
     "photographer": "LUMAA HOME Landscape Studio",
     "photographerUrl": "https://www.lumaahome.co.uk",
     "content": [
@@ -189,7 +189,7 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Metal Garden Ornaments: Corten Steel, Urns and Decorative Stakes",
         "image": "/images/garden-ornaments-guide-detail.jpg",
-        "imageAlt": "Close up of weathered architectural stone ornament with lichen patina alongside rusted corten metal garden stakes among foliage",
+        "imageAlt": "Close up architectural detail of geometric corten steel garden sculpture alongside weathered stone ornament and flowering salvia",
         "body": "Metal garden ornaments bring sharp lines, rusty cottage textures and durable metalwork into flower borders. Different metals react differently to rain and soil:",
         "table": {
           "headers": [
