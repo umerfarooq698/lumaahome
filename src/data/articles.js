@@ -189,7 +189,7 @@ export const ARTICLES = [
         "level": "h2",
         "heading": "Metal Garden Ornaments: Corten Steel, Urns and Decorative Stakes",
         "image": "/images/garden-ornaments-guide-detail.jpg",
-        "imageAlt": "Close up architectural detail of geometric corten steel garden sculpture alongside weathered stone ornament and flowering salvia",
+        "imageAlt": "Close up macro architectural detail of carved stone ornament with lichen patina alongside rusted corten steel flying bird garden stakes among fern foliage",
         "body": "Metal garden ornaments bring sharp lines, rusty cottage textures and durable metalwork into flower borders. Different metals react differently to rain and soil:",
         "table": {
           "headers": [
