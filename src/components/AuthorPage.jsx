@@ -21,9 +21,9 @@ export default function AuthorPage({
   useEffect(() => {
     if (author) {
       updatePageSeo({
-        title: `${author.name} | Editorial Masthead`,
+        title: `${author.name} | ${author.role} | LUMAA HOME`,
         description: author.metaDescription || author.shortDescription || author.bio,
-        keywords: `${author.name}, ${author.role}, british interior architect, lumaa home editor, period home specialist`,
+        keywords: `${author.name}, ${author.role}, master joiner, timber craft, period woodwork restoration, lumaa home editor`,
         canonicalPath: `/author/${author.id}`,
         ogType: 'profile',
         image: author.avatar,
@@ -233,6 +233,59 @@ export default function AuthorPage({
           </div>
         </div>
       </section>
+
+      {/* 2.5 EDITORIAL METHODOLOGY & TESTING PRACTICE */}
+      {Array.isArray(author.editorialMethodology) && author.editorialMethodology.length > 0 && (
+        <section className="bg-white border border-gray-200 p-6 sm:p-8 space-y-4 shadow-sm">
+          <div className="flex items-center gap-2 border-b border-gray-100 pb-3">
+            <Award className="w-4 h-4 text-[#C8102E]" />
+            <h2 className="font-serif text-lg sm:text-xl font-bold uppercase tracking-wide text-black">
+              Editorial Standards &amp; Workshop Testing Practice
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6 pt-2">
+            {author.editorialMethodology.map((m, idx) => {
+              const parts = m.split(': ');
+              const title = parts.length > 1 ? parts[0] : `Standard ${idx + 1}`;
+              const desc = parts.length > 1 ? parts.slice(1).join(': ') : m;
+              return (
+                <div key={idx} className="space-y-1.5 border-l-2 border-[#C8102E] pl-3.5">
+                  <h3 className="text-xs font-bold uppercase tracking-wider text-black">{title}</h3>
+                  <p className="text-xs text-gray-600 leading-relaxed">{desc}</p>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      {/* 2.6 CAREER MILESTONES & ACCREDITATIONS */}
+      {Array.isArray(author.milestones) && author.milestones.length > 0 && (
+        <section className="bg-[#FAFAF8] border border-gray-200 p-6 sm:p-8 space-y-4 shadow-sm">
+          <div className="flex items-center gap-2 border-b border-gray-200 pb-3">
+            <Sparkles className="w-4 h-4 text-[#C8102E]" />
+            <h2 className="font-serif text-lg sm:text-xl font-bold uppercase tracking-wide text-black">
+              Professional Career &amp; Conservation Milestones
+            </h2>
+          </div>
+          <div className="space-y-3 pt-2">
+            {author.milestones.map((ms, idx) => (
+              <div key={idx} className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-4 text-xs">
+                <span className="font-bold text-[#C8102E] shrink-0 w-28 uppercase tracking-wider">{ms.year}</span>
+                <span className="font-bold text-black shrink-0 w-48">{ms.title}</span>
+                <span className="text-gray-600 leading-relaxed">{ms.description}</span>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* 2.7 CRAFT PHILOSOPHY QUOTE */}
+      {author.quote && (
+        <blockquote className="border-l-4 border-black bg-white p-5 italic font-serif text-sm sm:text-base text-gray-800 shadow-sm">
+          &ldquo;{author.quote}&rdquo; &mdash; <span className="font-sans font-bold not-italic text-xs uppercase tracking-wider text-black">{author.name}</span>
+        </blockquote>
+      )}
 
       {/* 3. PUBLISHED ARTICLES BY THIS AUTHOR */}
       <section className="space-y-6 pt-4 border-t border-black">

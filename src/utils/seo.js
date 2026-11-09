@@ -355,6 +355,12 @@ export function buildAuthorJsonLd(author, articles = []) {
           '@type': 'Organization',
           'name': author.memberOf
         } : undefined,
+        'hasCredential': author.credentials ? {
+          '@type': 'EducationalOccupationalCredential',
+          'credentialCategory': 'Professional Certification',
+          'name': author.credentials
+        } : undefined,
+        'knowsAbout': author.specialties || undefined,
         'worksFor': {
           '@id': `${SITE_URL}/#organization`
         },

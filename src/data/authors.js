@@ -108,27 +108,44 @@ export const AUTHORS = [
     id: 'oliver-sinclair',
     name: 'Oliver Sinclair',
     role: 'Master Joiner and Period Restoration Consultant',
-    credentials: 'City & Guilds Advanced Bench Joinery | Heritage Crafts Association Member',
+    credentials: 'City & Guilds Level 3 NVQ Advanced Bench Joinery | Member of the Institute of Carpenters (MICarp) | Heritage Crafts Association (HCA)',
     alumniOf: 'Building Crafts College, London',
-    memberOf: 'Heritage Crafts Association (HCA) & Institute of Carpenters',
+    memberOf: 'Heritage Crafts Association (HCA) & Institute of Carpenters (MICarp)',
     location: 'Yorkshire and London, UK',
     avatar: '/authors/oliver-sinclair.jpg',
     coverImage: '/images/oak-worktop-joinery.jpg',
-    metaDescription: 'Master joinery manuals, timber craft techniques, and period woodwork restoration guides by consultant Oliver Sinclair on Lumaa Home.',
-    shortDescription: 'Yorkshire master joiner and Building Crafts College alumnus documenting traditional timber joinery, cabinet fitting, and architectural woodwork.',
-    bio: 'Master bench joiner and historic woodwork specialist with over twenty years of hands-on experience fitting bespoke cabinetry, solid oak worktops, and box sash windows across British residences.',
+    metaDescription: 'Master joinery manuals, timber craft techniques plus period woodwork restoration guides by consultant Oliver Sinclair on LUMAA HOME.',
+    shortDescription: 'North Yorkshire master bench joiner and Building Crafts College alumnus documenting traditional timber joinery, custom-built cabinet fitting plus Grade II listed woodwork restoration with over twenty years on site.',
+    bio: 'Master bench joiner and historic woodwork specialist with over twenty years of hands-on experience crafting custom-built cabinetry, solid oak worktops plus restoring Grade II listed box sash windows across British homes.',
     fullBio: [
-      'Oliver Sinclair trained at the Building Crafts College in London before completing his apprenticeship in traditional timber workshops in North Yorkshire. Over two decades on site, he has commissioned and fitted hundreds of bespoke kitchens, alcove bookcases, and architectural timber panelling schemes.',
-      'A member of the Heritage Crafts Association and the Institute of Carpenters, Oliver works alongside conservation officers and homeowners to preserve traditional dovetail and mortise-and-tenon joinery while testing modern concealed hardware and moisture-resistant substrates.',
-      'Oliver writes LUMAA HOME hands-on fitting manuals, covering everything from scribed cabinet fillers and worktop expansion gaps to natural hardwax oil finishes.'
+      'Oliver Sinclair trained at the historic Building Crafts College in Stratford, East London, earning his City & Guilds Advanced Craft qualifications in Bench Joinery in 2002. He subsequently completed a traditional four-year indentured apprenticeship under veteran cabinetmakers in North Yorkshire, mastering hand-cut dovetail drawer boxes, mortise-and-tenon structural joints plus period architectural moulding profiles.',
+      'With more than twenty-four years of active workshop and on-site joinery practice, Oliver specialises in historic timber preservation across Georgian, Victorian and Edwardian properties. As a member of the Institute of Carpenters (MICarp) and the Heritage Crafts Association (HCA), he works alongside conservation officers and heritage architects to repair listed box sash windows, rebuild rotten sills, reproduce hand-planed architraves, consolidating original timber framing using reversible, breathable craft methods.',
+      'Beyond historic conservation, Oliver commissions and installs custom-made residential cabinetry, fitted alcove joinery plus solid timber worktops across London, Yorkshire and the Home Counties. His workshop practice bridges heritage timber selection (such as slow-grown European oak, quarter-sawn English ash and prime walnut) with contemporary concealed hardware systems from Blum, Hafele and Grass, ensuring period aesthetics perform reliably under modern family use.',
+      'Since 2022, Oliver has served as a senior timber craft consultant for LUMAA HOME, authoring in-depth technical manuals and buying guides. His editorial work focuses on precise trade execution: scribing cabinet filler strips to out-of-plumb plaster walls, calculating seasonal expansion allowances (averaging 3mm to 4mm per metre on solid timber), specifying moisture-resistant MDF substrates for wet areas, selecting durable food-safe hardwax oils.',
+      'A committed advocate for traditional British craft standards, Oliver regularly mentors apprentice joiners and consults on timber provenance and sustainability. He ensures every guide published under his name provides honest, workshop-verified guidance that empowers homeowners and DIY woodworkers to build durable, beautiful joinery that lasts for generations.'
     ],
-    quote: 'Wood remembers every hand that has worked it, and rewards patience with centuries of quiet elegance.',
+    editorialMethodology: [
+      'Workshop Material Testing: Before recommending any adhesive, finish or timber substrate on LUMAA HOME, Oliver tests products in his North Yorkshire workshop. Wood moisture content is verified using a calibrated pin-type resistance meter to confirm equilibrium moisture content below 10% to 12% for indoor installations.',
+      'Hardware & Joint Tolerance Analysis: Drawer runners, concealed cabinet hinges plus mechanical biscuit or domino joints are evaluated under realistic workshop conditions. Scribe lines, shadow gaps and expansion clearances are measured with digital callipers to provide readers with trade-accurate tolerances rather than theoretical approximations.',
+      'Finish Durability Trials: Timber finishes, from cold-pressed linseed oils and beeswax polishes to modern micro-porous hardwax oils, are tested against boiling water, hot coffee, red wine and acidic foodstuffs, observing surface penetration and liquid resistance over 72-hour exposure cycles.'
+    ],
+    milestones: [
+      { year: '2002', title: 'Building Crafts College', description: 'Graduated with City & Guilds Level 3 NVQ in Advanced Bench Joinery in London.' },
+      { year: '2006', title: 'Apprenticeship Completion', description: 'Completed a four-year traditional indentured bench joinery apprenticeship in North Yorkshire.' },
+      { year: '2011', title: 'Institute of Carpenters', description: 'Admitted as a full Member of the Institute of Carpenters (MICarp) for excellence in craft joinery.' },
+      { year: '2017', title: 'Heritage Crafts Association', description: 'Joined the Heritage Crafts Association (HCA), consulting on Grade II and Grade II* listed fenestration and period timber restoration.' },
+      { year: '2022 - Present', title: 'LUMAA HOME Senior Consultant', description: 'Appointed Senior Timber Craft & Joinery Consultant, authoring trade manuals on cabinetry, worktops and outdoor timber structures.' }
+    ],
+    quote: 'Wood is a living material that never stops moving; respect its grain and moisture, then it will reward your home with centuries of quiet strength.',
     specialties: [
       'Master Bench Joinery',
-      'Kitchen Cabinet Fitting',
+      'Kitchen Cabinet Carcasses & Fitting',
+      'Solid Oak & Hardwood Worktops',
       'Box Sash Window Restoration',
-      'Solid Oak Worktops',
-      'Hardwax Oil and Beeswax Finishes'
+      'Timber Moisture Testing',
+      'Hardwax Oil & Beeswax Finishes',
+      'Grade II Listed Woodwork Conservation',
+      'Mortise and Tenon Joinery'
     ],
     socials: {
       linkedin: 'https://www.linkedin.com/in/oliver-sinclair-joinery-uk',

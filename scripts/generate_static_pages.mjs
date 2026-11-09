@@ -421,8 +421,8 @@ export function generateStaticPages() {
     const authorArticles = ARTICLES.filter(a => (a.authorId && a.authorId === author.id) || (a.author && a.author.toLowerCase() === author.name.toLowerCase()));
     
     // Distinct Title vs H1
-    const seoTitle = `${author.name} | Architectural & Design Editor`;
-    const h1Heading = `${author.name} - Editorial Profile`;
+    const seoTitle = `${author.name} | ${author.role} | LUMAA HOME`;
+    const h1Heading = `${author.name} - ${author.role}`;
 
     const authorArticlesHtml = authorArticles.length > 0 
       ? authorArticles.map(a => `<article style="margin-bottom: 24px;"><h3><a href="${BASE_URL}/${a.slug || a.id}">${escapeHtml(a.title)}</a></h3><p>${escapeHtml(a.excerpt || a.metaDescription || '')}</p><p>${escapeHtml(a.date)} | ${escapeHtml(a.readTime || '5 min read')}</p></article>`).join('\n')
@@ -442,14 +442,19 @@ export function generateStaticPages() {
       ? `<h3>Areas of Specialist Expertise</h3><ul>${author.specialties.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul>`
       : '';
 
-    const authorPhilosophyHtml = `
-      <section style="margin-top: 24px;">
-        <h2>Design Philosophy &amp; British Craftsmanship</h2>
-        <p>At LUMAA HOME, our editorial team champions the enduring integrity of authentic British architecture. Believing that residential design should be measured by longevity and tactile resonance rather than ephemeral trends, our contributors document historic preservation techniques alongside contemporary artisan manufacturing.</p>
-      </section>
-    `;
+    const methodologyHtml = Array.isArray(author.editorialMethodology) && author.editorialMethodology.length > 0
+      ? `<section style="margin-top: 24px; padding: 20px; background: #ffffff; border: 1px solid #e5e5e5;"><h2>Editorial Standards &amp; Workshop Testing Practice</h2>${author.editorialMethodology.map(m => `<p style="margin-bottom: 12px; line-height: 1.6;">${escapeHtml(m)}</p>`).join('\n')}</section>`
+      : '';
 
-    const authorRootHtml = `<header><a href="${BASE_URL}/">LUMAA HOME</a><nav>${navCategoriesHtml}</nav></header><main><header><h1>${escapeHtml(h1Heading)}</h1><p><strong>${escapeHtml(author.role)}</strong> | ${escapeHtml(author.location)}</p>${credentialsHtml}${socialLinksHtml}</header><section><h2>Editorial Biography &amp; Practice</h2>${fullBioHtml}${specialtiesHtml}</section>${authorPhilosophyHtml}<section><h2>Published Architectural Articles (${authorArticles.length})</h2>${authorArticlesHtml}</section></main><footer>${navFooterHtml}</footer>`;
+    const milestonesHtml = Array.isArray(author.milestones) && author.milestones.length > 0
+      ? `<section style="margin-top: 24px;"><h2>Professional Career &amp; Conservation Milestones</h2><ul style="list-style-type: none; padding-left: 0;">${author.milestones.map(m => `<li style="margin-bottom: 12px; border-left: 3px solid #C8102E; padding-left: 12px;"><strong>${escapeHtml(m.year)} &mdash; ${escapeHtml(m.title)}:</strong> ${escapeHtml(m.description)}</li>`).join('\n')}</ul></section>`
+      : '';
+
+    const authorPhilosophyHtml = author.quote 
+      ? `<section style="margin-top: 24px; padding: 16px 20px; border-left: 4px solid #111111; background: #fafaf8; font-style: italic;"><h2>Craft Philosophy</h2><p>&ldquo;${escapeHtml(author.quote)}&rdquo; &mdash; <strong>${escapeHtml(author.name)}</strong></p></section>`
+      : '';
+
+    const authorRootHtml = `<header><a href="${BASE_URL}/">LUMAA HOME</a><nav>${navCategoriesHtml}</nav></header><main><header><h1>${escapeHtml(h1Heading)}</h1><p><strong>${escapeHtml(author.role)}</strong> | ${escapeHtml(author.location)}</p>${credentialsHtml}${socialLinksHtml}</header><section><h2>Editorial Biography &amp; Practice</h2>${fullBioHtml}${specialtiesHtml}</section>${methodologyHtml}${milestonesHtml}${authorPhilosophyHtml}<section><h2>Published Architectural Articles (${authorArticles.length})</h2>${authorArticlesHtml}</section></main><footer>${navFooterHtml}</footer>`;
 
     const jsonLd = {
       "@context": "https://schema.org",
@@ -477,6 +482,12 @@ export function generateStaticPages() {
               "@type": "Organization",
               "name": author.memberOf
             } : undefined,
+            "hasCredential": author.credentials ? {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Professional Certification",
+              "name": author.credentials
+            } : undefined,
+            "knowsAbout": author.specialties || undefined,
             "worksFor": {
               "@id": `${BASE_URL}/#organization`
             },
