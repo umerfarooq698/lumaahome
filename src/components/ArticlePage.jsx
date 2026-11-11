@@ -405,7 +405,7 @@ export default function ArticlePage({
                         {section.bullets.map((bullet, bIdx) => (
                           <li key={bIdx} className="flex items-start gap-3 text-[#1a1a1a] text-base sm:text-lg leading-relaxed">
                             <span className="w-1.5 h-1.5 rounded-full bg-[#C8102E] mt-2.5 shrink-0" />
-                            <span>{bullet}</span>
+                            <span>{renderParagraphWithLinks(bullet)}</span>
                           </li>
                         ))}
                       </ul>
