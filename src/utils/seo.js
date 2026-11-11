@@ -7,6 +7,26 @@ export const SITE_NAME = 'LUMAA HOME';
 export const DEFAULT_OG_IMAGE = 'https://images.unsplash.com/photo-1704040686413-2c607dbd2f06?auto=format&fit=crop&w=1600&q=85';
 export const DEFAULT_DESCRIPTION = 'British interior luxury, period architectural restorations, and bespoke joinery guides curated for UK design enthusiasts by Lumaa Home.';
 
+const AUTHOR_SHORT_ROLES = {
+  'sarah-jenkins': 'Joinery and Interior Editor',
+  'eleanor-vance': 'Architectural Restoration',
+  'oliver-sinclair': 'Joinery and Restoration',
+  'marcus-cole': 'Architect and Timber Craft',
+  'clara-davenport': 'Lighting and Interiors'
+};
+
+/** Build an SEO-friendly <= 60 character title tag for author pages */
+export function makeAuthorSeoTitle(author) {
+  if (!author) return SITE_NAME;
+  const brand = ` | ${SITE_NAME}`;
+  const shortRole = AUTHOR_SHORT_ROLES[author.id] || author.role || 'Editor';
+  const full = `${author.name} | ${shortRole}${brand}`;
+  if (full.length <= 60) return full;
+  const maxRole = Math.max(8, 60 - author.name.length - 3 - brand.length);
+  const trimmedRole = shortRole.slice(0, maxRole).replace(/\s+\S*$/, '').trim();
+  return trimmedRole ? `${author.name} | ${trimmedRole}${brand}` : `${author.name}${brand}`;
+}
+
 export function cleanMetaDescription(str) {
   if (!str) return DEFAULT_DESCRIPTION;
   let cleaned = str

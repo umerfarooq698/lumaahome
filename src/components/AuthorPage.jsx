@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { AUTHORS, getAuthorById } from '../data/authors';
 import { ArrowLeft, MapPin, Globe, Award, Sparkles, ChevronRight, ExternalLink } from 'lucide-react';
-import { updatePageSeo, buildAuthorJsonLd } from '../utils/seo';
+import { updatePageSeo, buildAuthorJsonLd, makeAuthorSeoTitle } from '../utils/seo';
 
 export default function AuthorPage({ 
   authorId, 
@@ -21,7 +21,7 @@ export default function AuthorPage({
   useEffect(() => {
     if (author) {
       updatePageSeo({
-        title: `${author.name} | ${author.role} | LUMAA HOME`,
+        title: makeAuthorSeoTitle(author),
         description: author.metaDescription || author.shortDescription || author.bio,
         keywords: `${author.name}, ${author.role}, master joiner, timber craft, period woodwork restoration, lumaa home editor`,
         canonicalPath: `/author/${author.id}`,

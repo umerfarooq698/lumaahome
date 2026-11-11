@@ -3,6 +3,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { ARTICLES, CATEGORIES } from '../src/data/articles.js';
 import { AUTHORS, getAuthorById } from '../src/data/authors.js';
+import { makeAuthorSeoTitle } from '../src/utils/seo.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -420,8 +421,8 @@ export function generateStaticPages() {
     const canonicalUrl = `${BASE_URL}/author/${author.id}`;
     const authorArticles = ARTICLES.filter(a => (a.authorId && a.authorId === author.id) || (a.author && a.author.toLowerCase() === author.name.toLowerCase()));
     
-    // Distinct Title vs H1
-    const seoTitle = `${author.name} | ${author.role} | LUMAA HOME`;
+    // Distinct Title vs H1 (kept within 60 chars)
+    const seoTitle = makeAuthorSeoTitle(author);
     const h1Heading = `${author.name} - ${author.role}`;
 
     const authorArticlesHtml = authorArticles.length > 0 
@@ -541,6 +542,20 @@ export function generateStaticPages() {
       h1Heading: 'Terms of Service & Editorial Policies',
       description: 'Terms and conditions governing the use of the LUMAA HOME publication operated by Lumaa Home Digital Media Ltd in England and Wales.',
       bodyHtml: `<header><a href="${BASE_URL}/">LUMAA HOME</a><nav>${navCategoriesHtml}</nav></header><main><article><header><h1>Terms of Service &amp; Editorial Policies</h1><p>Governing conditions for Lumaa Home Digital Media Ltd</p></header><section><h2>Acceptance of Terms</h2><p>By accessing <strong>https://www.lumaahome.co.uk</strong>, operated by Lumaa Home Digital Media Ltd (42 Kensington High Street, Kensington, London, W8 4PF, United Kingdom), you agree to be bound by these Terms of Service and the laws of England and Wales.</p><h2>Intellectual Property &amp; Copyright</h2><p>All editorial content, photography, and technical guides published on LUMAA HOME are the intellectual property of Lumaa Home Digital Media Ltd.</p><h2>Editorial Disclaimer &amp; Technical Advice</h2><p>Architectural, electrical, plumbing, and joinery guides are provided for informational purposes. Structural or regulated works in the UK should always be validated by certified tradespeople and Building Control.</p></section></article></main><footer>${navFooterHtml}</footer>`
+    },
+    {
+      path: 'sitemap',
+      seoTitle: 'HTML Editorial Sitemap & Archive | LUMAA HOME',
+      h1Heading: 'LUMAA HOME Complete Editorial Directory',
+      description: 'Complete structural directory of all published UK interior guides, joinery manuals, room categories, and author profiles on LUMAA HOME.',
+      bodyHtml: `<header><a href="${BASE_URL}/">LUMAA HOME</a><nav>${navCategoriesHtml}</nav></header><main><h1>LUMAA HOME Complete Editorial Directory</h1><p>Browse all ${ARTICLES.length} technical guides, room categories, and editor profiles published on LUMAA HOME.</p><section><h2>Published Guides (${ARTICLES.length})</h2><ul>${ARTICLES.map(a => `<li><a href="${BASE_URL}/${a.slug || a.id}">${escapeHtml(a.title)}</a></li>`).join('')}</ul></section><section><h2>Masthead Editors</h2><ul>${AUTHORS.map(au => `<li><a href="${BASE_URL}/author/${au.id}">${escapeHtml(au.name)} - ${escapeHtml(au.role)}</a></li>`).join('')}</ul></section></main><footer>${navFooterHtml}</footer>`
+    },
+    {
+      path: 'rss',
+      seoTitle: 'Official RSS 2.0 Editorial Feed | LUMAA HOME',
+      h1Heading: 'Official RSS 2.0 Syndication Newsfeed',
+      description: 'Subscribe to the official LUMAA HOME RSS 2.0 XML newsfeed for live interior architecture, joinery, and garden guides.',
+      bodyHtml: `<header><a href="${BASE_URL}/">LUMAA HOME</a><nav>${navCategoriesHtml}</nav></header><main><h1>Official RSS 2.0 Syndication Newsfeed</h1><p>Subscribe to our XML feed at <a href="${BASE_URL}/rss.xml">${BASE_URL}/rss.xml</a> for automatic updates.</p><section><h2>Recent Articles in Feed</h2><ul>${ARTICLES.slice(0, 15).map(a => `<li><a href="${BASE_URL}/${a.slug || a.id}">${escapeHtml(a.title)}</a> (${escapeHtml(a.date)})</li>`).join('')}</ul></section></main><footer>${navFooterHtml}</footer>`
     }
   ];
 
