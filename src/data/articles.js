@@ -327,100 +327,222 @@ export const ARTICLES = [
   },
   {
     "id": "garden-log-burner-buying-and-safety-guide",
-    "title": "Garden Log Burner Buying and Safety Guide",
+    "title": "Garden Log Burner Safety Clearances and Flue Guide",
     "slug": "garden-log-burner-buying-and-safety-guide",
     "primaryKeyword": "garden log burner",
     "category": "garden",
     "categoryName": "Garden",
-    "categoryLabel": "OUTDOOR LIVING | TECHNICAL SPECIFICATION GUIDE",
+    "categoryLabel": "OUTDOOR LIVING | SAFETY & INSTALLATION MANUAL",
     "author": "Marcus Cole",
     "authorId": "marcus-cole",
     "role": "Principal Architect and Timber Craft Specialist",
-    "date": "November 8, 2026",
-    "readTime": "12 min read",
-    "views": "8.9k",
+    "date": "November 11, 2026",
+    "readTime": "16 min read",
+    "views": "11.4k",
     "isFeatured": true,
-    "excerpt": "A practical guide to choosing a garden log burner. Compare cast iron, corten steel and heavy plate stoves with exact hearth clearances, curing steps plus smoke laws.",
-    "metaDescription": "Practical guide to choosing a garden log burner. Compare cast iron, corten and heavy steel stoves with exact hearth rules, curing steps and smoke laws.",
+    "excerpt": "Practical human guide to garden log burner safety clearances, decking hearths, twin-wall pergola flues, three-stage stove paint curing and UK smoke laws.",
+    "metaDescription": "Practical UK guide to garden log burner safety. Covers timber decking hearths, twin-wall pergola flues, three-stage paint curing, Clean Air Act smoke laws and care.",
     "heroImage": "/images/garden-log-burner-guide-hero.jpg",
     "image": "/images/garden-log-burner-guide-hero.jpg",
-    "heroImageAlt": "Heavy duty steel garden log burner with glowing fire and tall chimney on a paved stone terrace at dusk",
-    "imageAlt": "Heavy duty steel garden log burner with glowing fire and tall chimney on a paved stone terrace at dusk",
-    "photographer": "LUMAA HOME Outdoor Studio",
+    "heroImageAlt": "Cast iron and heavy steel garden log burner stove lit on a stone garden patio beside stacked seasoned logs",
+    "imageAlt": "Cast iron and heavy steel garden log burner stove lit on a stone garden patio beside stacked seasoned logs",
+    "photographer": "LUMAA HOME Landscape Studio",
     "photographerUrl": "https://www.lumaahome.co.uk",
     "content": [
       {
         "level": "h2",
-        "heading": "Why Chimneys Beat Open Fire Pits for Real Garden Warmth",
-        "body": "An open fire bowl sends smoke drifting sideways with every wind change while most heat escapes straight upward into the air. An outdoor wood burning stove uses an enclosed firebox to pull air upward through a chimney flue, throwing directional radiant heat forward across seating level. In an open fire pit smoke comparison, an enclosed garden log burner burns hotter, cleaner and uses half the wood of an open bowl.\n\nInside the stove, burning logs heat the air in the chamber. As hot air expands, it rises up the chimney pipe, creating suction at the bottom. This chimney draught pulls fresh air through the lower vents directly into the embers, feeding the fire continuously without blowing ash onto your clothes.\n\nAirflow depends directly on the draught draw chimney height. A flue pipe must rise at least 1.2 metres above the firebox to create steady suction. In exposed gardens where gusts drop over fences or roofs, fit a chimney flue cowl with a spark arrestor mesh on top. The metal hood stops downdraughts from pushing smoke out through the door while the steel mesh stops flying embers from landing on dry plants."
+        "heading": "How a Garden Log Burner Actually Throws Heat Forward",
+        "body": "An open fire bowl sends most of its heat straight up into the night sky while blowing smoke straight into whichever chair sits downwind. A proper garden log burner encloses the fire inside a metal box connected to an upright chimney pipe, pulling cold air across the embers and bouncing radiant warmth horizontally toward where people sit.\n\nHot combustion gases expand inside the firebox before rushing upward through the chimney flue. That rising column creates natural suction at the stove base, drawing steady fresh oxygen in through lower air slides so logs burn hotter with less smouldering.\n\nChimney height governs how clean a stove burns. Once a vertical flue rises at least 1.2 metres above the stove top, draw becomes stable enough to pull smoke clear above seated guests' heads. Fit a top chimney cowl sporting steel spark arrestor mesh across enclosed courtyards surrounded by overhanging conifers. The cowl keeps shifting down-gusts from pushing wood smoke back out through the door while the fine mesh catches floating red embers before they drift onto dry garden fencing."
       },
       {
         "level": "h2",
-        "heading": "Cast Iron, Corten Steel or Heavy Plate: Which Lasts Longer?",
-        "body": "Log burners for the garden come in three metals: cast iron, corten steel or mild plate steel. Each metal reacts differently to rain, frost and heat.\n\nCast Iron: A cast iron garden stove stores heat better than plate steel. Once hot, heavy iron castings radiate gentle warmth for two hours after the fire goes out. However, cast iron is brittle. Cold water spilled on hot iron or rainwater freezing inside open joints causes thermal shock cracking that splits the metal. Cast iron also needs a paste wax coat twice a year to prevent orange rust.\n\nCorten Steel: A corten steel outdoor fireplace is made from a specialised weathering alloy. Over six to twelve months of rain and sun, the surface develops a tight weathering steel protective patina. This dark oxide layer seals the steel core from oxygen and moisture, eliminating the need for paint or rust treatments.\n\nCorten steel has one major trade risk during its first year: rust run off patio staining. As the metal weathers, rainfall washes loose iron oxide onto the ground. This runoff permanently stains pale sandstone, limestone and porcelain patio slabs. Position a new corten burner on gravel, grass or dark slate until the patina stabilizes.\n\nHeavy Gauge Steel: Thin pressed-tin garden log burners sold in supermarkets burn through in a single damp winter. Quality stoves use heavy gauge steel with a 3mm thick body and 5mm top plate. A well-built patio log burner should also include a vermiculite fire brick lining inside the combustion chamber. These refractory bricks reflect heat back into the fire, raising firebox temperatures above five hundred degrees Celsius for cleaner combustion while protecting the outer steel walls from warping under high heat.\n\nA built-in log store base compartment beneath the firebox keeps seasoned logs dry while raising the fire chamber to eye level when seated."
+        "heading": "Comparing Stove Metals: Cast Iron vs Corten vs 3mm Heavy Plate Steel",
+        "body": "Most log burners for the garden come pressed or cast in one of three metals. Light supermarket fire baskets use 1mm thin sheet tin that buckles and rusts through inside one wet winter. Serious outdoor stoves rely on thick castings or structural steel plates built to survive repeated frost and 500-degree internal fires.\n\nWhen checking the inside of any steel stove, pull open the door to look for removable vermiculite firebricks. Vermiculite insulation lines the firebox interior, bouncing intense heat straight back into flames so logs ignite cleanly without warping the outer steel casing. A raised log store compartment beneath the box lifts the glass viewing window closer to chair eye height while keeping tonight's dry ash logs stacked handy off damp patio flags.",
+        "table": {
+          "headers": [
+            "Stove Metal Type",
+            "Plate Gauge",
+            "Heat Retention",
+            "Rust & Cracking Behaviour",
+            "Patio Care Warning"
+          ],
+          "rows": [
+            [
+              "Cast Iron",
+              "6mm – 10mm thick cast sections",
+              "Holds warmth for 2 hours after embers fade",
+              "Brittle under sudden thermal shock or cold hose splashes",
+              "Brush yearly with black stove wax paste to slow orange rust"
+            ],
+            [
+              "Corten Weathering Steel",
+              "3mm – 4mm weathering alloy",
+              "Fast heat-up, cools promptly once wood dies",
+              "Tight rust oxide skin seals deeper steel for decades",
+              "Sheds orange rust runoff for 12 months; keep off pale stone"
+            ],
+            [
+              "Heavy Gauge Mild Steel",
+              "3mm body / 5mm top steel plate",
+              "Reaches working heat in under 15 minutes",
+              "Relies on high-temp silicone stove paint to resist rust",
+              "Touch up chipped paint early before winter damp creeps in"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "Why Corten Stoves Stain Pale Sandstone Patios",
+        "body": "Corten weathering steel arrives looking matte slate-grey before slowly oxidising into its deep orange-brown velvety coat over six to twelve months outdoors. That dense rust crust prevents structural metal rot completely without needing cans of spray paint. Just remember that rain passing over fresh Corten during its first year washes loose iron oxide particles straight onto surrounding slabs. Never park a brand-new Corten garden log burner directly onto cream limestone, Indian sandstone or light porcelain paving until winter rain completes that initial patina—set it over gravel borders, turf edges or dark basalt flagstones instead."
       },
       {
         "level": "h2",
-        "heading": "Where to Put Your Burner So You Do Not Scorch Timber Decking",
-        "body": "A log burner garden setup generates high radiant heat that can scorch fences, melt plastics and crack stone. Safe positioning requires strict distance rules.\n\nKeep a boundary fence clearance 2 metres minimum between the stove body and wooden fences, garden sheds or low tree branches. Radiant heat dries out timber rapidly, creating an ignition risk without flame contact. In narrow courtyards with less clearance, mount a cement-fibre heat shielding board on 25mm ceramic spacers behind the stove to block heat transfer.\n\nStone and Porcelain Patios: Stone flags withstand heat, but falling red-hot coals can scorch slate or chip soft sandstone. Place a non combustible slate hearth slab directly beneath the stove to catch dropped embers and hot fat.\n\nTimber and Composite Decking: Sticking a hot stove straight onto deck boards is a major fire hazard. Maintain strict combustible timber decking clearance. The stove must stand on factory legs providing a 50mm air gap beneath the base. Beneath the legs, lay a 50mm thick concrete or slate slab that provides a 300mm hearth projection forward from the stove door and 150mm on both sides.\n\nThis raised slab catches popping embers when opening the door. It also prevents composite decking heat damage. Composite boards contain plastic resins that soften and warp at sixty degrees Celsius. An insulated hearth slab blocks radiant heat from softening the boards below."
+        "heading": "Safe Clearances on Timber Decking, Composite Boards and Fences",
+        "body": "Standing a hot stove onto wood decking or pushing it inches from larch fence panels is where garden fires go wrong. Steel bases radiate fierce downward heat long before orange flames touch anything nearby.\n\nEven moderate sustained warmth dries out timber cells silently over months through a chemical breakdown called pyrolysis—lowering the wood's ignition point until bare radiant warmth suddenly chars the grain. Meanwhile, plastic-wood composite decking softens, swells and blisters once surface temperatures cross roughly sixty degrees Celsius. Adding a proper hearth slab underneath blocks both falling embers and downward heat transfer.",
+        "table": {
+          "headers": [
+            "Garden Location / Surface",
+            "Mandatory Clearance or Pad Size",
+            "Recommended Protective Barrier",
+            "Hazard If Skipped"
+          ],
+          "rows": [
+            [
+              "Timber Decking Boards",
+              "300mm front hearth overhang / 150mm sides",
+              "50mm stone, concrete or toughened glass hearth pad",
+              "Embers drop through board gaps and ignite joists underneath"
+            ],
+            [
+              "Composite Plastic Decking",
+              "Minimum 50mm stove legs + solid insulated slab",
+              "Solid sandstone flagstone or thick slate paver over air gap",
+              "Polymer resins soften, blister and warp around 60C"
+            ],
+            [
+              "Boundary Wood Fences & Sheds",
+              "2 metres bare clearance (or shielded)",
+              "12mm cement fibre board bolted on 25mm ceramic spacers",
+              "Radiant heat dries timber fence rails toward ignition"
+            ],
+            [
+              "Pergola Overhead Rafters",
+              "450mm min around single-skin flue pipe",
+              "Switch to twin-wall insulated flue (50mm–75mm air clearance)",
+              "Hot single-skin chimney tubes ignite dry canopy roofs"
+            ]
+          ]
+        }
+      },
+      {
+        "level": "h3",
+        "heading": "How to Build a Non-Combustible Hearth Over Decking",
+        "body": "Never stand metal stove feet directly on grooved pine deck boards. Even tall steel legs pass high heat straight downward while popping ash sparks fall vertically whenever someone prods logs with a poker. Review our related tips on [garden design and outdoor seating layouts](/garden-slideshow-inspiring-outdoor-spaces) before marking out fire zones near dining sets.",
+        "bullets": [
+          "Lay a solid 50mm concrete flagstone, thick slate hearth slab or toughened glass pad flat over deck boards",
+          "Check hearth dimensions extend at least 300mm forward from the stove door and 150mm beyond both sides and back",
+          "Ensure stove legs preserve a 50mm ventilated gap beneath the ash pan so heat dissipates before hitting the stone",
+          "Close open seams between slab joints tight so red coals never trickle down between gaps onto dry joists below"
+        ]
       },
       {
         "level": "h2",
-        "heading": "Can You Put a Log Burner Under a Covered Pergola?",
-        "body": "To run a freestanding patio fireplace under a timber pergola, verandah or covered canopy, you must vent smoke through the roof. Never let smoke gather under a timber roof where heat dries out the rafters.\n\nA safe covered pergola installation requires a twin wall insulated flue kit. This pipe consists of an inner stainless steel flue surrounded by 25mm of dense ceramic insulation and an outer stainless tube. The insulation keeps the outer pipe cool, allowing it to pass safely through timber roof sheets with just 50mm clearance to wood.\n\nFit a flexible silicone roof flashing around the roof hole to seal out rain, then top the flue with a stainless steel rain cap to stop water entering the firebox. Single-skin black pipe gets dangerously hot and must stay at least 450mm away from wood.\n\nCarbon Monoxide Safety: Never close in all four sides of a covered shelter around a wood fire. A smouldering fire produces carbon monoxide, an invisible gas that builds up in still air. Keep at least two full walls open to the garden to maintain continuous cross-ventilation and ensure carbon monoxide outdoor safety."
+        "heading": "Fitting a Garden Log Burner Safely Under a Covered Pergola",
+        "body": "Installing a log burner garden stove underneath a timber shelter or polycarbonate lean-to keeps autumn drizzle off your shoulders, yet venting hot gases straight beneath wooden rafters demands indoor-grade chimney parts.\n\nNever trap wood smoke under a roof canopy or run hot single-skin black stovepipe close to dry structural joists. Once heated past five hundred degrees inside the chamber, plain single-wall flue pipe glows hot enough to set roof timber ablaze across up to 450mm of empty air. Any flue rising through a pergola roof must convert cleanly to a twin-wall insulated stainless steel chimney above stove height.",
+        "bullets": [
+          "Transition from single-skin stove pipe to insulated twin-wall stainless steel flue well below roof rafters",
+          "Maintain the strict 50mm to 75mm perimeter air gap required around twin-wall pipe passing through timber framing",
+          "Seal roof holes with a vented metal firestop spacer bracket plus high-temperature silicone flashing boot against rain",
+          "Keep at least two full pergola walls open to outdoor breeze at all times to stop silent carbon monoxide accumulation",
+          "Terminate the cowl above the highest roof apex edge so wind never pushes smoke eddies back under the canopy"
+        ]
       },
       {
         "level": "h2",
-        "heading": "Lighting the First Fire: How to Cure Paint Without Bad Smells",
+        "heading": "Curing New Stove Paint Without Smoke Blisters or Chemical Smells",
         "image": "/images/garden-log-burner-guide-detail.jpg",
         "imageAlt": "Close up of an open garden log burner showing vermiculite firebrick lining, glowing hardwood embers and an integrated swing out grill",
-        "body": "New steel stoves need an initial first fire paint burn off in the open air before everyday use. The high temperature stove paint curing process releases chemical smoke and solvent fumes once the steel hits two hundred degrees Celsius. If you do this under a covered shelter, the chemical smell sinks into timber and chair cushions for weeks.\n\nHow to Cure the Paint with a Top-Down Burn:\n\n1. Place two split hardwood logs flat on the base. Lay six small pieces of dry kindling across them in a grid pattern. Place a natural wax kindling firelighter top down burn block directly on top of the kindling. Lighting from the top preheats the flue pipe immediately, starting the chimney draught before larger logs catch.\n\n2. Light the firelighter and leave the door slightly open for ten minutes to feed air to the kindling. Once the wood catches, shut the door and set the flue damper airflow control halfway open.\n\n3. Run a small fire for sixty minutes, then let the stove cool down completely. The heating and cooling cycle bakes the paint onto the steel, forming a durable coating that resists scratching and moisture.\n\nA built-in airwash clean burn glass slot directs a thin sheet of cooler air down the inside of the door. This air cushion stops soot and resin from sticking to the glass, keeping the fire visible without daily cleaning."
+        "body": "High-temperature exterior coatings on new painted garden log burners (rated up to 650 degrees Celsius with Silicone-resin pigments such as Stove Bright or Vitcas) arrive green and slightly soft out of the carton. Lighting a roaring oak blaze straight away boils trapped paint solvents into ugly orange blisters.\n\nOutdoor builders cure fresh stove paint using stepped gentle heat cycles. Expect thin white acrid smoke and a sharp resin smell around 200 degrees Celsius while chemical binders cross-link permanently onto raw steel—another reason why curing must take place outdoors in fresh breeze rather than under closed canopies. Follow the three-stage heating table below, using small dry split sticks lit top-down so chimney pipe draught wakes up cleanly.",
+        "table": {
+          "headers": [
+            "Paint Curing Step",
+            "Fuel Load",
+            "Target Stove Temp",
+            "Burn Window",
+            "Required Cooldown"
+          ],
+          "rows": [
+            [
+              "Stage 1: Initial Warm",
+              "Handful of thin dry softwood kindling",
+              "120C – 150C gentle warmth",
+              "15 to 20 minutes",
+              "Let steel cool cold to touch"
+            ],
+            [
+              "Stage 2: Binder Bake",
+              "One small split log + wax firelighter",
+              "200C – 230C medium heat",
+              "30 to 45 minutes",
+              "Cool down completely again"
+            ],
+            [
+              "Stage 3: Full Cure",
+              "Two normal seasoned hardwood logs",
+              "300C+ steady ember bed",
+              "60 minutes normal burn",
+              "Finish complete; coating is hardened"
+            ]
+          ]
+        }
       },
       {
         "level": "h2",
-        "heading": "Smoke Rules, Annoyed Neighbours and the Best Firewood to Burn",
-        "body": "Under the UK Clean Air Act, a garden log burner has a smoke control areas exemption because DEFRA appliance rules apply strictly to indoor heating. However, outdoor fires fall under the Environmental Protection Act 1990. Councils can issue an environmental protection act statutory nuisance abatement notice with fines up to £5,000 if smoke drifts into neighbouring homes.\n\nPreventing smoke problems starts with your choice of firewood:\n\n* Never Burn Treated Wood: Never burn pallets, painted fencing or chipboard. Chemical preservatives and glues produce poisonous fumes, leave sticky creosote soot buildup in the chimney pipe while sending dense white smoke across garden fences.\n* Burn Certified Dry Wood: Use only kiln dried hardwood logs bearing the ready to burn certified logs symbol. These logs have a moisture content below 20 percent.\n* Hardwood vs Softwood: In an ash hardwood vs softwood logs comparison, dense hardwoods like ash, oak and beech burn slowly with little smoke, leaving hot coals that radiate steady heat. Conifer softwoods like pine spit sparks and burn out in minutes.\n\nStore firewood off the ground in a sheltered rack to maintain proper seasoned firewood storage through wet British autumns."
+        "heading": "UK Clean Air Act Smoke Rules, Abatement Fines and Proper Logs",
+        "body": "Homeowners living in city Smoke Control Areas often worry about legal smoke limits. Under UK DEFRA guidelines, freestanding movable garden appliances (chimineas, fire pits and freestanding garden log burners not hooked to a building chimney) sit outside domestic chimney smoke restrictions.\n\nWatch one crucial legal trap: running a fixed stove chimney permanently through a summerhouse wall, timber log cabin or insulated garden room turns your burner into a fixed building flue inside a Smoke Control Area—meaning you legally require a DEFRA-exempt indoor stove burning certified smokeless wood or fuels.\n\nEven open patio fires fall strictly under local council checks. If thick acrid smoke rolls repeatedly across a neighbour's open washing or bedroom window, councils issue Statutory Nuisance Abatement Notices under the Environmental Protection Act 1990, carrying potential magistrates' court fines reaching five thousand pounds. Preventing bad smoke starts cleanly at your wood rack:\n\nNever Toss Scrap Wood Inside: Treated tanalised fence panels, painted door timber and pallet chips smoke heavily while spewing chemical preservatives and copper chrome arsenic fumes into your patio seating. Burn clean natural kiln dried hardwood carrying the Ready to Burn certified stamp holding under 20 percent internal moisture.\n\nPick Dense Hardwoods Over Pine: Dense ash, silver birch, oak and seasoned beech light steadily, spit minimal sparks and build long-lasting bright glowing coals. Cheap resinous garden offcuts spit sharp hot cinders across clothing before turning to grey dust inside ten minutes. Keep spare stacks off damp lawn soil inside a ventilated shed—compare timber storage and weatherproofing tips alongside [crafting durable outdoor worktops](/selecting-craft-kitchen-worktops-for-modern-british-homes) or splash protection using [heat-resistant wall surfaces](/fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms)."
       },
       {
         "level": "h2",
-        "heading": "Turning Your Fire Into an Outdoor Cooker: Planchas, Grills and Pizza Stones",
-        "body": "Many garden log burners double as outdoor cooking units when fitted with hot plates or grates. Instead of running a separate barbecue, you can cook directly over wood embers.\n\nPlancha Cooking: A 6mm thick bbq plancha grill ring fitted around the flue base creates two distinct heat zones: high heat near the centre pipe for searing steaks and burgers, with gentler heat near the outer edge for cooking vegetables and toasting buns.\n\nSwing Grates: Stoves with an internal cooking grate swing arm let you move food over the coals. Let the wood burn down to glowing embers, swing the steel grate into the firebox, then grill food over direct heat. Always wear protective thermal gloves when adjusting hot iron grates.\n\nPizza Baking: Models with an integrated pizza oven chamber sit an insulated baking box above the fire. Heat wraps around a cordierite baking stone, reaching four hundred degrees Celsius in fifteen minutes for fast stone-baked pizzas.\n\nPull out and empty the removable ash pan every two burns. Clearing ash keeps the lower air intake vents open and stops damp ash from corroding the steel base. For garden layout ideas that incorporate outdoor cooking, view our guide on [garden design and outdoor seating spaces](/garden-slideshow-inspiring-outdoor-spaces). You can also read practical tips for [crafting durable outdoor worktops and surfaces](/selecting-craft-kitchen-worktops-for-modern-british-homes) or [fitting heat-resistant wall tiles and backsplashes](/fitting-stick-on-wall-tiles-in-kitchens-and-bathrooms) around an outdoor preparation station."
+        "heading": "Planchas, Swing Grates and Baking Pizza Over Your Stove",
+        "body": "Several mid-to-heavyweight garden stoves ship with flat steel top plates, welded side lugs or removable fire grates designed specifically for outdoor cooking over fading hardwood coals.\n\n1. Hot-Ring BBQ Planchas: Heavy 6mm carbon steel griddle rings clamp snug around bottom flue pipes, dividing cooking zones naturally between searing steak heat near the hot collar and slow pepper or onion browning toward cooler outer rims. Lightly wipe cool plates clean with paper towel plus a thin coat of vegetable oil after every cookout so atmospheric damp never settles.\n\n2. Internal Swing Cooking Grates: Cast-iron or stainless rod swing arms hook inside door hinges so you let split beech burn completely down into deep glowing orange coals, swivel the grate in over clean heat, grill skewers safely wearing leather welding gauntlets, then lift cooked food cleanly aside.\n\n3. Upper Oven Compartments: Integrated wood-fired pizza chambers float an insulated baking deck directly above firebox flames. Firebrick roofs wrap convective heat down onto thick cordierite pizza stones reaching roughly 400 degrees Celsius inside fifteen minutes for fast crispy crusts.\n\nClear cold white wood ash out regularly after complete cooldowns. Moist left-behind wood ashes turn mildly alkaline and corrosive when mixed with rainwater, eating tiny pinholes straight through thin steel ash pans over wet months."
       },
       {
         "level": "h2",
-        "heading": "Stopping Rust, Cleaning Glass and Packing Away for Winter",
-        "body": "Rain and frost cause surface oxidation on unpainted mild steel and cast iron. Remove orange surface rust each spring with a wire brush or steel wool, then spray the metal with high-temperature stove paint rated to 650 degrees Celsius. For cast iron, rub cast iron rust treatment paste into the pores with a rag to restore a dark graphite finish.\n\nInspect the glass door seals each autumn. If the woven rope seal becomes stiff or comes loose, replace it with new fibreglass rope glued into the channel with refractory fire cement repair paste. A tight door seal stops wind gusts pulling air into the firebox.\n\nWhen soot clouds the door glass, spray it with stove glass cleaner spray or dip wet newspaper into cold wood ash and rub the glass clean. The fine alkaline ash dissolves soot deposits without scratching ceramic glass.\n\nIf leaving the stove unused over winter, empty out all ash, pull the flue cowl indoors, then cover the unit with a breathable heat resistant stove cover. Plastic sheets trap condensation against cold steel, accelerating rust."
-      },
-      {
-        "level": "h2",
-        "heading": "Chiminea vs Stove: Working Out Size, Heat and Fuel Costs",
-        "body": "Outdoor heating types differ in heat output, fuel use and durability:\n\n* Portable Chimineas: In a portable chiminea comparison, clay or cast chimineas cost £70 to £150. They warm small patio corners but hold small timber cuts and crack if exposed to winter frost.\n* Upright Steel Log Burners: Mid-size steel stoves cost £220 to £450 with a thermal output kw rating between 6kW and 10kW. They project strong forward heat while handling full 250mm split logs.\n* Heavy Architectural Fireplaces: Heavy 5mm plate and corten models cost £600 to £1,500+, producing 15kW to 22kW of heat with wide ceramic glass panels.\n\nPosition your stove in a corner sheltered from crosswinds. Good patio windbreak positioning cuts wind turbulence, keeps the flue pulling steadily while improving overall patio heat retention. Setting up outdoor living space zoning with chairs placed two metres from the firebox keeps everyone warm while keeping outdoor heating running costs low through efficient wood consumption."
+        "heading": "Chiminea vs Box Stove plus Winter Rust Maintenance",
+        "body": "People torn between slim clay chimineas and rectangular steel log burners for the garden usually overlook fuel savings and heat spread. Open terracotta chimineas warm knees cleanly on quiet calm evenings, yet clay fractures violently if struck by rain showers while red hot. Tall steel box stoves sporting glass doors and upper airwash intake slots recycle secondary combustion air cleanly across viewing glass, doubling active radiated warmth per log burned while cutting wasted firewood roughly in half.\n\nTo make steel units outlast ten tough UK winters, brush stubborn ash buildup off hinges each October, inspect firebricks for split corners, mist bare bolts gently with heatproof aerosol paint once cool then slip a vented breathable cover down over dry metal (checking our notes on weatherproof masonry and garden sculpture placement in our [garden ornaments care guide](/garden-ornaments-placement-and-care-guide)). Avoid tight plastic dustbin bags wrapped directly over cold steel—trapped humid condensation rusts unpainted joints rapidly beneath black plastic sheets.",
+        "bullets": [
+          "Clear wet rain-soaked ash promptly out of ash pans so alkaline wood salts never pit steel floors",
+          "Check glass door rope gasket cords every autumn and re-glue frayed seals using stove cord adhesive",
+          "Wire-brush surface orange spots lightly before respraying touch-up coats with 650C aerosol paint",
+          "Cover dried cold stoves using loose vented outdoor canvas covers rather than air-tight polythene tarps"
+        ]
       }
     ],
     "faqs": [
       {
-        "question": "Can I use a garden log burner on wooden or composite decking safely?",
-        "answer": "Yes, but you must never place the burner directly on timber or composite boards. You need an insulated non-combustible slate or concrete hearth at least 50mm thick with a 300mm projection in front of the door. Composite decking softens at 60 degrees Celsius, so a raised hearth pad with an air gap underneath is essential."
+        "question": "Can I put a garden log burner directly onto wooden or composite decking?",
+        "answer": "No. Radiant heat downwards and popping sparks from a garden log burner pose an immediate fire risk on timber decking, while composite boards soften and warp around 60 degrees Celsius. Set the stove on legs with a 50mm air gap atop a solid 50mm stone, concrete or toughened glass hearth slab extending 300mm in front of the door and 150mm on each side."
       },
       {
-        "question": "Do UK smoke control laws ban garden log burners?",
-        "answer": "No, domestic garden wood burners are exempt from indoor Clean Air Act DEFRA appliance restrictions. However, under the Environmental Protection Act 1990, councils can issue abatement notices with fines up to £5,000 if your stove creates a statutory smoke nuisance for neighbours. Always burn kiln-dried hardwood with less than 20 percent moisture to keep smoke to a minimum."
+        "question": "How far should a garden log burner sit from wooden fences or sheds?",
+        "answer": "Maintain a minimum clear safety distance of 2 metres between the hot stove casing and wooden boundary fences, dry garden sheds or overhanging conifer foliage. In tight patios with narrow margins, screw a 12mm non-combustible cement fibre heat board onto 25mm ceramic spacers against fences to intercept radiant heat."
       },
       {
-        "question": "Why does my new garden log burner smell like burning chemicals on the first fire?",
-        "answer": "New steel stoves are coated with high-temperature silicone paint that must cure during the first burn. As the steel reaches 200 degrees Celsius, the paint releases harmless but acrid chemical fumes and light smoke. Always carry out a 60-minute curing burn with kindling in open air before using the stove under a shelter or with guests."
+        "question": "Can you put an outdoor log burner underneath a wooden pergola roof?",
+        "answer": "Yes, provided hot smoke vents safely through the roof via an insulated twin-wall stainless steel flue keeping a 50mm to 75mm clearance away from timber framing (never run hot single-wall flue through wood). Pair twin-wall pipes with proper silicone roof flashing boots and leave at least two pergola sides open for carbon monoxide safety."
       },
       {
-        "question": "Can I burn regular garden trimmings and pallet wood in my outdoor stove?",
-        "answer": "No. Green garden cuttings contain up to 50 percent water, producing thick white smoke, low heat and heavy soot that blackens the glass door. Pallet wood and scrap timber are often treated with copper or chemical preservatives that release toxic fumes when burned. Burn only clean, untreated, kiln-dried hardwood logs."
+        "question": "Are garden log burners legal in UK Smoke Control Areas?",
+        "answer": "Freestanding movable outdoor garden log burners sit exempt from Clean Air Act indoor chimney rules in UK Smoke Control Areas—unless connected via a fixed chimney to a building such as a garden cabin. Even outside indoor rules, councils can enforce fines up to £5,000 for nuisance smoke under the Environmental Protection Act 1990, so always burn dry Ready to Burn logs under 20% moisture."
       },
       {
-        "question": "How far should a garden log burner be from boundary fences and sheds?",
-        "answer": "Keep a minimum clearance of 2 metres between the stove body and any combustible structure, including wooden fence panels, shed cladding and overhanging trees. If space is tight, fit a cement-fibre heat shield board mounted on 25mm spacers behind the burner to disperse radiant heat."
+        "question": "How do you cure new stove paint on a garden log burner without blistering?",
+        "answer": "Cure fresh 650C high-temperature stove paint outdoors over three gentle stepped burns: start with 15 to 20 minutes of gentle kindling heat around 120C–150C then cool completely, burn a medium small log fire for 45 minutes around 200C–230C then cool completely, before running a normal hot fire. Stepping heat slowly prevents trapped solvents bubbling."
       },
       {
-        "question": "Can you leave a corten steel garden fireplace outside all winter in the UK?",
-        "answer": "Yes, corten steel is designed to stay outdoors year-round. It forms a dense, stable rust-like patina that protects the steel core from structural corrosion without needing any paint. However, during the first six to twelve months of weathering, rain can wash rust runoff onto pale patio slabs, so stand the unit on gravel, dark slate or grass until the patina settles."
+        "question": "Why does Corten steel rust water stain pale patio slabs?",
+        "answer": "Corten weathering steel develops its protective rust skin gradually across six to twelve months of UK rain, washing loose iron oxide particles onto pavers underneath. Keep fresh Corten burners positioned on gravel beds, grass borders or dark slate rather than pale sandstone or light porcelain until that oxide skin settles."
       }
     ]
   },
@@ -1001,7 +1123,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Sunken Firepit Seating and Shaded Benches",
-        "body": "In exposed gardens, excavating a sunken seating firepit area forty-five centimetres below lawn level creates a sheltered microclimate protected from prevailing winds. Build low retaining stone walls around the perimeter and lay permeable stone slabs over a sub-base drainage sump.\n\nConstruct a timber built-in seating bench with lift-up lid access for storing outdoor throws and cushions. In compact gardens, position a shaded reading nook under tree canopies, or install a low-maintenance lawn alternative using micro-clover or creeping thyme that eliminates regular weekly mowing."
+        "body": "In exposed gardens, excavating a sunken seating firepit area forty-five centimetres below lawn level creates a sheltered microclimate protected from prevailing winds. Build low retaining stone walls around the perimeter and lay permeable stone slabs over a sub-base drainage sump. If planning an enclosed stove inside your sunken seating zone, verify minimum fence clearances and wind cowls in our [garden log burner safety and flue guide](/garden-log-burner-buying-and-safety-guide).\n\nConstruct a timber built-in seating bench with lift-up lid access for storing outdoor throws and cushions. In compact gardens, position a shaded reading nook under tree canopies, or install a low-maintenance lawn alternative using micro-clover or creeping thyme that eliminates regular weekly mowing."
       },
       {
         "level": "h2",
@@ -2761,7 +2883,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Protecting Combustible Timber Decking with Stone Hearth Slabs",
-        "body": "Wooden decking demands robust protection shields whenever you operate a high temperature patio heater. Placing a thick stone slab beneath your heating unit prevents stray embers from igniting dry timber boards.\n\nAlways verify that your hearth pad extends sufficiently far out from the loading door boundary. If you prefer an open flame instead of an enclosed chimney, an [outdoor fire pit](/choosing-the-best-fire-pit-out-for-your-english-garden) needs that same stone base so flying sparks do not reach dry decking. Falling sparks frequently land just beyond the threshold during log adjustments. A generous protective perimeter completely eliminates this common fire hazard on wooden decks.\n\nFollowing clear clearance protocols protects your garden decking and guarantees complete peace of mind during social evening burns. Taking a few sensible installation precautions before lighting any flames eliminates structural hazards across your outdoor living area.",
+        "body": "Wooden decking demands robust protection shields whenever you operate a high temperature patio heater. Placing a thick stone slab beneath your heating unit prevents stray embers from igniting dry timber boards.\n\nAlways verify that your hearth pad extends sufficiently far out from the loading door boundary. If you prefer an open flame instead of an enclosed chimney, an [outdoor fire pit](/choosing-the-best-fire-pit-out-for-your-english-garden) needs that same stone base so flying sparks do not reach dry decking. Falling sparks frequently land just beyond the threshold during log adjustments. A generous protective perimeter completely eliminates this common fire hazard on wooden decks.\n\nFollowing clear clearance protocols protects your garden decking and guarantees complete peace of mind during social evening burns. Taking a few sensible installation precautions before lighting any flames eliminates structural hazards across your outdoor living area. For exact twin-wall pergola flue gaps, paint curing steps and Clean Air Act rules, read our dedicated manual on [garden log burner safety clearances and flues](/garden-log-burner-buying-and-safety-guide).",
         "bullets": [
           "Install a thick non combustible stone hearth slab beneath the firebox unit",
           "Maintain at least three hundred millimetres of floor clearance around all perimeters",
@@ -3188,7 +3310,7 @@ export const ARTICLES = [
       {
         "level": "h3",
         "heading": "Natural Stone Hearth Bases and Combustible Decking Distances",
-        "body": "Maintain a strict three metre clearance from wooden fences and combustible structures to eliminate fire risks. Use solid sandstone patio heat shields underneath your unit because natural stone absorbs intense thermal radiation safely without cracking or breaking.",
+        "body": "Maintain a strict three metre clearance from wooden fences and combustible structures to eliminate fire risks. Use solid sandstone patio heat shields underneath your unit because natural stone absorbs intense thermal radiation safely without cracking or breaking. Where seating spaces sit near timber pergolas or composite decking boards, compare hearth overhang distances in our guide to [garden log burner decking clearances and smoke laws](/garden-log-burner-buying-and-safety-guide).",
         "bullets": [
           "Maintain a strict three metre perimeter clearance away from boundary fences and overhanging trees",
           "Position heavy metal basins on natural stone flags rather than directly atop combustible timber decking",
@@ -3928,7 +4050,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "Ground Clearance and Rot Prevention",
-        "body": "The bottom of a garden storage box takes the most punishment from standing water and damp paving stones. Timber left sitting directly on wet soil or wet stone flagstones draws groundwater upward through end grain capillary action.\n\nQuality timber boxes sit on raised bearer feet that keep the base at least fifty millimetres above the patio. This gap lets air circulate under the floorboards, drying out damp ground after rain and keeping wet leaves from piling against the bottom rails.",
+        "body": "The bottom of a garden storage box takes the most punishment from standing water and damp paving stones. Timber left sitting directly on wet soil or wet stone flagstones draws groundwater upward through end grain capillary action.\n\nQuality timber boxes sit on raised bearer feet that keep the base at least fifty millimetres above the patio. This gap lets air circulate under the floorboards, drying out damp ground after rain and keeping wet leaves from piling against the bottom rails. If using a ventilated timber store specifically for kiln-dried firewood beside a patio stove, keep storage boxes safely outside the two-metre clearance zone noted in our [garden log burner safety clearances guide](/garden-log-burner-buying-and-safety-guide).",
         "bullets": [
           "Place the box on level paving flags or a compacted gravel bed rather than bare garden soil.",
           "Leave at least seventy five millimetres of clear air between the back of the box and brick garden walls.",
