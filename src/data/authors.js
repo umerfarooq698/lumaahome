@@ -32,7 +32,7 @@ export const AUTHORS = [
       email: 'info.lumaahome@gmail.com'
     },
     publishedYear: '2023 - Present',
-    articleCount: 12
+    articleCount: 13
   },
   {
     id: 'eleanor-vance',

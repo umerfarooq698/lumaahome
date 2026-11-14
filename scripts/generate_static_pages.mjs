@@ -84,6 +84,7 @@ function makeArticleSeoTitle(title) {
   if (lastSpace > 25) {
     truncated = truncated.slice(0, lastSpace);
   }
+  truncated = truncated.trim().replace(/\s+(for|and|with|in|on|at|to|of|the|a|an|by)\s*$/i, '');
   return `${truncated.trim()}${brand}`;
 }
 
