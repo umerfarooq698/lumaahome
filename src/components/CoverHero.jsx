@@ -22,8 +22,8 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
             {/* Crisp Image without dark gradient overlay */}
             <div className="relative overflow-hidden bg-gray-100 aspect-[16/10] sm:aspect-[16/9] border border-gray-200">
               <img
-                src={coverArticle.heroImage}
-                alt={coverArticle.title}
+                src={coverArticle.heroImage || coverArticle.image}
+                alt={coverArticle.heroImageAlt || coverArticle.title}
                 fetchPriority="high"
                 decoding="async"
                 className="w-full h-full object-cover group-hover:scale-105 transition duration-700 ease-out"
@@ -87,8 +87,8 @@ export default function CoverHero({ coverArticle, stackedArticles, onSelectArtic
               >
                 <div className="aspect-[16/10] bg-gray-100 overflow-hidden border border-gray-200">
                   <img
-                    src={article.heroImage}
-                    alt={article.title}
+                    src={article.heroImage || article.image}
+                    alt={article.heroImageAlt || article.title}
                     className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                   />
                 </div>

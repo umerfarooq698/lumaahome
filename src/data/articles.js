@@ -75,6 +75,8 @@ export const ARTICLES = [
   "date": "2026-11-14",
   "readTime": "15 min read",
   "image": "/images/lightweight-cupboards-materials-hero.jpg",
+  "heroImage": "/images/lightweight-cupboards-materials-hero.jpg",
+  "heroImageAlt": "Modern lightweight flat-panel cupboards installed on a pale wall with warm ambient lighting",
   "detailImage": "/images/lightweight-cupboards-detail.jpg",
   "excerpt": "Find out how lightweight cupboards make room storage simple, fit small hallways, hold everyday belongings safely plus stay secure on hollow drywall.",
   "metaDescription": "See how lightweight cupboards make room storage simpler, fit narrow spaces, hold everyday items safely plus stay secure on hollow drywall.",
