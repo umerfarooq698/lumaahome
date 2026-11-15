@@ -67,6 +67,160 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+  "id": "how-to-pick-the-right-oak-cabinet-for-your-home",
+  "title": "How to Pick the Right Oak Cabinet for Your Home",
+  "slug": "how-to-pick-the-right-oak-cabinet-for-your-home",
+  "category": "living-room",
+  "author": "Sarah Jenkins",
+  "date": "2026-11-15",
+  "readTime": "12 min read",
+  "image": "/images/oak-cabinet-living-room-hero.jpg",
+  "heroImage": "/images/oak-cabinet-living-room-hero.jpg",
+  "heroImageAlt": "Modern pale oak cabinet styled in a bright minimalist living room with warm ambient light",
+  "detailImage": "/images/oak-cabinet-joinery-detail.jpg",
+  "excerpt": "Find out how to choose the right oak cabinet for TVs, shoes, books plus kitchens with practical advice on airflow, shelf weight limits plus easy spill care.",
+  "metaDescription": "Learn how to choose the right oak cabinet for TVs, shoes, books plus kitchens with practical advice on airflow, shelf weight limits plus easy spill care.",
+  "content": [
+    {
+      "level": "h2",
+      "heading": "What to Check Before You Buy an Oak Cabinet",
+      "body": "Not all wooden furniture is built the same way. Knowing what to look for inside the drawers and behind the doors will save you from wasting money on poorly made pieces.\n\nSolid oak is heavy, dense, plus you can sand it down if it gets scratched. Oak veneer is a thin layer of real oak glued over stable plywood or dense board. Veneer is not fake wood; in fact, a good veneer is often better near radiators because it does not shrink or warp when the heating turns on. Just check the edges: make sure the core board underneath is solid plywood, not cheap crumbly chipboard. If you are comparing different storage builds for your home, our [guide on choosing lightweight cupboards](/choosing-the-best-lightweight-cupboards-for-home-storage) explains how lighter materials compare to solid timber frames."
+    },
+    {
+      "level": "h3",
+      "heading": "Checking the drawer joints and runners",
+      "body": "Pull a drawer all the way out and look at the corners. Proper dovetail joints (the interlocking wooden fingers) mean the drawer face will never pull off in your hands. Check the runners underneath too. Soft-close steel runners stop drawers rattling, while cheap wooden runners on bare wood tend to stick during humid summer weather."
+    },
+    {
+      "level": "h3",
+      "heading": "Securing heavy oak cabinets to the wall",
+      "body": "An empty solid oak cabinet easily weighs forty to sixty kilograms. When you load it with plates or books, the weight shifts forward. Always screw an anti-tip strap or bracket into a wall stud so curious toddlers or climbing pets cannot pull the heavy unit over."
+    },
+    {
+      "level": "h2",
+      "heading": "Oak TV Cabinets: Keeping Cables Tidy and Consoles Cool",
+      "body": "The living room television area quickly turns into a mess of tangled power leads, extension plugs, plus gaming gear. A good media unit needs to keep that clutter out of sight."
+    },
+    {
+      "level": "h3",
+      "heading": "Stop your games console overheating",
+      "body": "A modern PlayStation or Xbox gets very hot when running games. If you stick a console inside a closed wooden box with no air, it will overheat, slow down, plus the cooling fans will run at full blast.\n\nWhen looking for an oak tv cabinet, pick one with open shelves or slatted front doors. Slats hide the black boxes while still letting hot air escape. Check the back panel too. You want pre-drilled cable holes that are at least five centimetres wide so thick power plugs can pass straight through without you needing to take a drill to the wood yourself."
+    },
+    {
+      "level": "h3",
+      "heading": "Set your screen at the right height",
+      "body": "A lot of people put their TV too high on the wall or buy a tall sideboard by mistake. When you sit on a sofa, your eyes should rest naturally on the top third of the screen.\n\nA low-profile oak tv cabinet keeps the screen at a comfortable sitting height so your neck does not ache after watching a movie. Because oak is dense and strong, a wide sixty-inch screen will never make the top shelf sag."
+    },
+    {
+      "level": "h2",
+      "heading": "Oak Shoe Cabinets: Clearing Hallway Floor Space",
+      "body": "Hallways are usually the smallest parts of a house. When shoes and boots pile up behind the front door, people trip over them every time they walk inside."
+    },
+    {
+      "level": "h3",
+      "heading": "Pick a shallow drop-down cabinet for narrow spaces",
+      "body": "Normal cupboards are forty to fifty centimetres deep, which blocks narrow hallways and stops doors opening fully.\n\nA slim oak shoe cabinet uses pull-down drawer compartments instead. The shoes sit vertically inside the doors, cutting the cabinet depth down to twenty-five or thirty centimetres. You can fit ten to fifteen pairs of trainers and flat shoes in a unit that takes up almost no floor room."
+    },
+    {
+      "level": "h3",
+      "heading": "Make sure air can get inside so shoes do not smell",
+      "body": "Damp shoes carry outdoor rain and foot sweat. If you put damp trainers into a completely sealed box, moisture gets trapped inside and the cabinet will smell bad within a week.\n\nLook for shoe cabinets with small air gaps, slatted door fronts, or cutouts in the back panel. Air needs to move through the cabinet so shoes dry out properly overnight."
+    },
+    {
+      "level": "h2",
+      "heading": "Oak Book Cabinets: Shelves That Do Not Bend",
+      "body": "Anyone who owns stacks of heavy books has seen cheap particleboard shelves bend into a sad curve. Once that happens, the shelf is permanently ruined."
+    },
+    {
+      "level": "h3",
+      "heading": "Why cheap shelves bend and oak stays flat",
+      "body": "Hardback books, heavy folders, plus photo albums weigh a lot. A standard eighty-centimetre chipboard shelf starts bowing with just fifteen kilograms on it.\n\nAn oak book cabinet uses solid hardwood or thick oak-veneered core boards. A solid twenty-millimetre oak shelf easily carries thirty to forty kilograms of heavy books without bending. Look for shelves that rest on solid metal pins or wooden cleats rather than loose plastic clips."
+    },
+    {
+      "level": "h3",
+      "heading": "Open shelves versus glass doors",
+      "body": "Open bookcases are great if you want to grab books quickly or show off small plants, photo frames, plus pots.\n\nIf you hate dusting, get a book cabinet with glass doors. The glass keeps dust off the tops of your books and stops pages yellowing, but you can still see all your book spines clearly."
+    },
+    {
+      "level": "h2",
+      "heading": "Oak Kitchen Cabinets: Dealing with Heat, Steam plus Spills",
+      "image": "/images/oak-cabinet-joinery-detail.jpg",
+      "body": "Kitchens are wet, warm, plus greasy. Steam rises from boiling pots on the hob, kettles pump out moisture, plus water splashes around the sink every day."
+    },
+    {
+      "level": "h3",
+      "heading": "Protecting the wood near cookers and kettles",
+      "body": "Raw wood absorbs cooking grease and steam, which leaves dark stains around door edges.\n\nGood oak kitchen cabinets are sealed with a clear matte lacquer or a hardwax oil. This creates a barrier so water beads on the surface instead of soaking in. If curry sauce or cooking oil splashes onto a door, you simply wipe it off with a cloth and warm soapy water before it dries. For advice on structural kitchen framing, check out our [kitchen unit carcasses trade guide](/kitchen-unit-carcasses-buyers-guide)."
+    },
+    {
+      "level": "h3",
+      "heading": "Why oak beats chipboard if a pipe leaks",
+      "body": "A small plumbing leak under the kitchen sink will destroy a cheap chipboard carcass in twenty minutes. The sawdust inside swells like bread and never shrinks back.\n\nSolid oak and oak-faced ply can take accidental spills and water contact much better. As long as you dry the puddle up, the wood dries out naturally without falling apart or warping out of shape."
+    },
+    {
+      "level": "h2",
+      "heading": "How to Stop Oak Looking Like an Old 1990s Cupboard",
+      "body": "A lot of people worry that buying an oak cabinet will make their living room look old-fashioned, like an old house from thirty years ago."
+    },
+    {
+      "level": "h3",
+      "heading": "Choose matte finishes instead of glossy orange varnish",
+      "body": "Old furniture looks orange because it was coated in thick polyurethane varnish that turned yellow under sunlight over time.\n\nModern furniture makers use white oak timber finished with clear, dead-matte oils. The wood stays a pale, cool biscuit colour that looks raw and natural. It does not reflect shiny light, plus it will not turn into that brassy orange shade."
+    },
+    {
+      "level": "h3",
+      "heading": "Wall paints that work well with oak",
+      "body": "Bright, cold hospital-white paint can make warm wood look out of place. Dark brown walls make a room feel gloomy.\n\nOak looks best paired with soft off-whites, warm stone, pale grey-beige, plus muted sage green. These quiet colours let the natural wood grain stand out without making the room feel dark or crowded."
+    },
+    {
+      "level": "h3",
+      "heading": "Swap the handles for black or brass",
+      "body": "If you buy a second-hand oak unit or an older style cabinet, changing the handles takes ten minutes and updates the entire piece.\n\nTake off old wooden or shiny chrome knobs and screw on slim matte black metal handles. Black gives a sharp, clean contrast against pale oak. If you want something warmer, brushed satin brass handles look smart without being flashy."
+    },
+    {
+      "level": "h2",
+      "heading": "Quick Fixes for Spills, Stains plus Scratches",
+      "body": "You do not need to treat an oak cabinet like fragile glass. Real wood is forgiving. Most household accidents are easy to fix yourself."
+    },
+    {
+      "level": "h3",
+      "heading": "Lifting white tea mug rings with a hairdryer",
+      "body": "If someone puts a hot tea mug or a wet glass directly on the wood without a coaster, you might see a cloudy white ring appear. That is not burnt wood; it is just trapped moisture inside the top finish.\n\nPut a clean, dry tea towel over the white ring. Take a hairdryer on medium heat and blow warm air over the towel for two to three minutes. The heat evaporates the trapped water vapour so the white mark fades away on its own."
+    },
+    {
+      "level": "h3",
+      "heading": "Cleaning with a cloth instead of sticky sprays",
+      "body": "Do not spray cheap supermarket furniture polish all over your oak cabinet. Most of those aerosol sprays contain silicone, which creates a sticky film over the wood and attracts more dust.\n\nAll you need is a soft microfibre cloth. Wipe the cabinet down once a week to clear dust. If a sticky spill happens, wipe it with a damp cloth, dry it with a tea towel, then you are done."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can solid oak furniture sit directly next to a radiator?",
+      "answer": "Keep at least thirty centimetres of space between solid oak and a radiator because continuous dry heat can make natural timber shrink, warp, or crack over time."
+    },
+    {
+      "question": "How do you stop an oak cabinet from turning orange?",
+      "answer": "Keep the piece out of harsh direct sunlight and make sure it is finished with a UV-stable clear matte oil or lacquer rather than old-fashioned high-gloss polyurethane varnish."
+    },
+    {
+      "question": "How much weight can an oak book shelf hold?",
+      "answer": "A twenty-millimetre thick solid oak shelf can comfortably hold thirty to forty kilograms of books without bending, which is more than double the weight limit of cheap flat-pack chipboard."
+    },
+    {
+      "question": "Is oak veneer worse quality than solid oak?",
+      "answer": "High-grade oak veneer over stable plywood is actually better than solid wood in centrally heated rooms because it does not expand or contract when the temperature changes."
+    },
+    {
+      "question": "How do you clean cooking grease off oak kitchen cabinets?",
+      "answer": "Wipe the cabinet doors with a soft cloth dipped in warm water and mild dish soap, then dry the surface straight away with a clean tea towel."
+    },
+    {
+      "question": "Do you need to oil an oak cabinet every year?",
+      "answer": "Lacquered oak cabinets never need oiling, while oiled wood benefits from a thin coat of clear hardwax oil once every twelve to eighteen months to keep water from soaking in."
+    }
+  ]
+},
+  {
   "id": "choosing-the-best-lightweight-cupboards-for-home-storage",
   "title": "Choosing the Best Lightweight Cupboards for Home Storage",
   "slug": "choosing-the-best-lightweight-cupboards-for-home-storage",
@@ -84,7 +238,7 @@ export const ARTICLES = [
     {
       "level": "h2",
       "heading": "Why Heavy Storage Is Such a Headache in Modern Flats and Houses",
-      "body": "Dragging a fifty-kilogram wardrobe made from solid oak or thick chipboard up two flights of stairs is exhausting work. Traditional storage furniture is heavy, awkward to carry, plus difficult to squeeze around tight stair landings. If you live alone or move flats every year or two, heavy cabinets quickly become a major burden.\n\nModern building practices make heavy furniture even harder to manage. Most interior partition walls today are built as a drylined hollow wall where thin plaster sheets cover an empty wall cavity. Hanging a thirty-kilogram wooden cabinet on that kind of wall puts intense outward strain on wall fixings. If screws work loose under heavy weight, the cupboard can pull straight off the wall, leaving a messy hole in the plaster."
+      "body": "Dragging a fifty-kilogram wardrobe made from solid oak or thick chipboard up two flights of stairs is exhausting work. If you are comparing solid timber pieces for your rooms, our guide on [how to pick the right oak cabinet](/how-to-pick-the-right-oak-cabinet-for-your-home) breaks down where hardwood works best. Traditional storage furniture is heavy, awkward to carry, plus difficult to squeeze around tight stair landings. If you live alone or move flats every year or two, heavy cabinets quickly become a major burden.\n\nModern building practices make heavy furniture even harder to manage. Most interior partition walls today are built as a drylined hollow wall where thin plaster sheets cover an empty wall cavity. Hanging a thirty-kilogram wooden cabinet on that kind of wall puts intense outward strain on wall fixings. If screws work loose under heavy weight, the cupboard can pull straight off the wall, leaving a messy hole in the plaster."
     },
     {
       "level": "h3",
