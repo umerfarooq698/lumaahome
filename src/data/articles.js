@@ -67,6 +67,150 @@ export const CATEGORIES = [
 
 export const ARTICLES = [
   {
+  "id": "how-to-pick-garden-furniture-that-lasts-for-years",
+  "title": "Choosing Garden Furniture That Lasts for Years",
+  "slug": "how-to-pick-garden-furniture-that-lasts-for-years",
+  "category": "garden",
+  "author": "Marcus Cole",
+  "date": "2026-11-17",
+  "readTime": "11 min read",
+  "image": "/images/garden-furniture-patio-dining-hero.jpg",
+  "heroImage": "/images/garden-furniture-patio-dining-hero.jpg",
+  "heroImageAlt": "Contemporary powder-coated aluminium and teak garden dining table on a flagstone patio surrounded by flowering plants",
+  "detailImage": "/images/garden-furniture-materials-detail.jpg",
+  "excerpt": "Find out how to choose garden furniture that survives wet winters, spot genuine clearance and ex-display deals plus keep cushions mould-free all year.",
+  "metaDescription": "Find out how to choose garden furniture that survives wet winters, spot genuine clearance and ex-display deals plus keep cushions mould-free all year.",
+  "content": [
+    {
+      "level": "h2",
+      "heading": "Hunting Clearance Deals and Ex-Display Bargains",
+      "body": "Late summer is when shops clear out outdoor stock to make room for autumn goods. An end of season garden sale or garden furniture clearance gives you the biggest price drops of the year.\n\nMost garden furniture sets look good when brand new in a shop. Two months later, the bolts rust, the table wobbles, plus the cushions soak up water like a sponge. Nobody wants to buy chairs in May only to throw them out the next spring. Before you buy a garden furniture set, you need to know how different materials handle rain and frost, how to find cheap clearance stock, plus how to measure your patio properly."
+    },
+    {
+      "level": "h3",
+      "heading": "Boxed clearance sets versus floor display models",
+      "body": "Boxed clearance stock gives you brand-new items in flat boxes with fresh screws and clean paint. Floor models are different. In an ex display garden furniture clearance, you buy the actual chairs and tables that shoppers sat on all summer. That wear and tear is why ex display garden furniture comes with heavy discounts. Look online for ex display garden furniture clearance uk shops to find showroom ex display bargains at half price."
+    },
+    {
+      "level": "h3",
+      "heading": "Checking welds and cushion foam before buying",
+      "body": "When inspecting ex display floor models, run your fingers over every joint. Checking frame weld quality on chair legs and table corners tells you if the frame will crack under weight. Small paint chips let water into the metal, which creates hidden rust. Press the seat cushions down hard. If the quick dry foam padding stays flat, you will have to buy patio furniture replacement cushions out of pocket. Ask about the garden furniture warranty too, because some shops sell floor pieces as-seen with no returns."
+    },
+    {
+      "level": "h3",
+      "heading": "Getting pre-assembled garden furniture home",
+      "body": "Flat pack garden furniture assembly takes an hour at home, plus the flat cardboard boxes slide straight into a car boot. But pre assembled patio furniture from a shop floor is already bolted together. A wide garden corner sofa or an extendable outdoor table will not fit inside a normal car. Check van delivery vs car transport costs before paying, or a private delivery driver will eat up your sale savings."
+    },
+    {
+      "level": "h2",
+      "heading": "Comparing B&Q, Homebase plus The Range",
+      "body": "Each high street shop sells different types of furniture at different price points."
+    },
+    {
+      "level": "h3",
+      "heading": "B&Q garden furnitures and thicker metal frames",
+      "body": "If you look at b&q garden furnitures, you will notice their metal tables and chairs use thicker metal tubes. The heavier metal keeps chairs steady during stormy weather. Their powder coating also holds up well against steady rain without flaking off at the corners."
+    },
+    {
+      "level": "h3",
+      "heading": "Homebase garden furniture with softer styling",
+      "body": "If you use your patio as an outdoor entertaining space for weekend barbecues, homebase garden furniture offers classic wooden tables and chairs. You will find comfortable seating like a 4 seater patio set, deep outdoor lounge chairs, plus wooden patio chairs. Their cushions feel soft, but you must keep them dry when rain starts."
+    },
+    {
+      "level": "h3",
+      "heading": "The Range garden furniture for tight budgets",
+      "body": "If you want to spend as little money as possible, look at the range garden furniture. They sell low-cost garden furniture sets, rope-weave chairs, plus UV resistant synthetic rattan dining sets. Cheaper metal items from discount shops usually use powder coated steel instead of aluminium. Scratched steel rusts orange in days, so keep these sets under rain protection covers whenever bad weather rolls in."
+    },
+    {
+      "level": "h2",
+      "heading": "Aluminium Versus Real Timber on the Patio",
+      "image": "/images/garden-furniture-materials-detail.jpg",
+      "body": "Aluminium and hardwood react very differently to damp weather."
+    },
+    {
+      "level": "h3",
+      "heading": "Aluminium sets that never rust in wet weather",
+      "body": "An aluminium garden furniture set requires almost no maintenance. Pure aluminium cannot rust, even if you scratch the paint on stone paving. A rust proof aluminium frame is light enough to move around easily when sweeping your patio. But light chairs can blow across the garden in a storm, so pick a wind resistant outdoor table with solid legs."
+    },
+    {
+      "level": "h3",
+      "heading": "Solid wood patio table chairs that stay put",
+      "body": "If your garden gets strong winds, heavy wooden garden furniture will not blow into fences. A solid teak garden set or treated acacia wood table is heavy and stays in place. Real wood patio table chairs also stay warm to sit on during cool evenings. Look for tight joints on wooden garden patio chairs so the legs stay firm over time. If you plan to heat your patio for evening dining, our [garden log burner safety guide](/garden-log-burner-buying-and-safety-guide) explains how to keep clear separation between stoves and timber seating."
+    },
+    {
+      "level": "h3",
+      "heading": "Simple annual oiling for wooden furniture",
+      "body": "Rain and sun cause natural wood grain weathering on eucalyptus patio furniture and teak, turning the timber silver-grey. If you want to keep the honey colour, treat the wood once a year. Scrub the wood clean with an outdoor wood cleaner, do light seasonal timber sanding on rough spots, plus apply a teak oil treatment or moisture resistant wood finish. Applying exterior wood sealant takes an hour and stops water soaking in, preventing wood rot."
+    },
+    {
+      "level": "h2",
+      "heading": "Planning Your Patio Space for Easy Movement",
+      "body": "An outdoor dining set is frustrating if people cannot push their chairs back without hitting walls."
+    },
+    {
+      "level": "h3",
+      "heading": "Leaving space behind chairs so guests move",
+      "body": "When setting out your stone patio furniture layout, always check chair pull out space clearance. Leave eighty centimetres behind every seat so people can stand up comfortably. If your patio is narrow, an outdoor dining set with a garden bench with backrest pushes flat against a wall to save room."
+    },
+    {
+      "level": "h3",
+      "heading": "Stackable and folding chairs for small spaces",
+      "body": "Use simple small patio space saving ideas if you have a tiny courtyard. Instead of a bulky 6 seater garden table, pick a folding patio bistro set or balcony bistro seating that folds flat against the wall. Stackable patio chairs and folding garden chairs tuck into corners. Fitting non slip furniture foot pads stops metal scratching your decking, helping with levelling wobbly patio chairs on uneven stone."
+    },
+    {
+      "level": "h3",
+      "heading": "Keeping parasols upright during windy gusts",
+      "body": "Most tables come with an outdoor parasol hole with cap in the middle. Never rely on the table alone to hold an umbrella. A sudden summer breeze catches the fabric like a sail and snaps the table top. Always lock the pole into a heavy twenty-kilogram concrete base on the ground."
+    },
+    {
+      "level": "h2",
+      "heading": "Looking After Cushions and Beating Winter Grime",
+      "body": "Winter damp ruins outdoor furniture faster than anything else."
+    },
+    {
+      "level": "h3",
+      "heading": "Why water-repellent cushions need dry boxes",
+      "body": "Outdoor cushions use water repellent cushions made from weatherproof outdoor fabric. Light drizzle runs off, but heavy rain soaks through the stitched seams. Wet foam grows green mould and smells sour. Put cushions inside a garden shed cushion storage box between uses so they stay dry. For durable timber storage options, read our [weatherproof timber storage box guide](/choosing-a-high-specification-garden-storage-box-for-timber)."
+    },
+    {
+      "level": "h3",
+      "heading": "Breathable covers versus sweaty plastic tarps",
+      "body": "Covering your table with a cheap plastic tarp traps moisture rising from the wet ground. That damp air turns into mould on wooden garden table and chairs. Buy a heavy duty garden furniture cover made from breathable fabric with built-in air vents. It keeps winter patio storage dry while letting moisture escape."
+    },
+    {
+      "level": "h3",
+      "heading": "A five-minute soapy wash to clean off grime",
+      "body": "In spring, wash off green winter grime with warm water, washing-up liquid, plus a soft brush. It cleans aluminium, wood plus synthetic rattan without damaging the surface. If you use a jet wash, follow basic pressure washer cleaning tips: hold the nozzle thirty centimetres back on a wide fan setting so you do not strip metal paint or gouge soft timber."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can aluminium garden furniture stay outside all winter?",
+      "answer": "Yes, powder-coated aluminium will not rust in rain or snow. Just tie the set down in windy spots and cover it with a breathable sheet to keep off bird dirt and falling leaves."
+    },
+    {
+      "question": "What is the best month to find a garden furniture sale?",
+      "answer": "Late August through to October is the best period. Retailers clear outdoor stock to make room for winter lines, offering autumn clearance discounts of up to sixty percent."
+    },
+    {
+      "question": "How do you stop wooden garden furniture turning grey?",
+      "answer": "Wash the wood with warm soapy water each spring, let it dry for twenty-four hours, plus brush on a coat of natural teak oil or exterior wood sealant."
+    },
+    {
+      "question": "Can you leave outdoor cushions outside in light rain?",
+      "answer": "Light drizzle will bead off water-repellent fabric, but rain quickly seeps into zipper seams. Always store cushions in a dry deck box when you finish sitting outside."
+    },
+    {
+      "question": "Is ex-display garden furniture worth buying?",
+      "answer": "Yes, ex-display pieces often carry massive discounts. Just inspect the frame joints for hairline cracks, check cushion foam thickness, plus make sure you have transport to take it home assembled."
+    },
+    {
+      "question": "How much space should you leave around a garden dining table?",
+      "answer": "Leave at least eighty centimetres between the table edge and any wall or fence so guests can pull chairs out comfortably without knocking their knees."
+    }
+  ]
+},
+  {
   "id": "how-to-pick-the-right-oak-cabinet-for-your-home",
   "title": "How to Pick the Right Oak Cabinet for Your Home",
   "slug": "how-to-pick-the-right-oak-cabinet-for-your-home",
@@ -726,7 +870,7 @@ export const ARTICLES = [
       {
         "level": "h2",
         "heading": "How a Garden Log Burner Actually Throws Heat Forward",
-        "body": "An open fire bowl sends most of its heat straight up into the night sky while blowing smoke straight into whichever chair sits downwind. A proper garden log burner encloses the fire inside a metal box connected to an upright chimney pipe, pulling cold air across the embers and bouncing radiant warmth horizontally toward where people sit.\n\nHot combustion gases expand inside the firebox before rushing upward through the chimney flue. That rising column creates natural suction at the stove base, drawing steady fresh oxygen in through lower air slides so logs burn hotter with less smouldering.\n\nChimney height governs how clean a stove burns. Once a vertical flue rises at least 1.2 metres above the stove top, draw becomes stable enough to pull smoke clear above seated guests' heads. Fit a top chimney cowl sporting steel spark arrestor mesh across enclosed courtyards surrounded by overhanging conifers. The cowl keeps shifting down-gusts from pushing wood smoke back out through the door while the fine mesh catches floating red embers before they drift onto dry garden fencing."
+        "body": "An open fire bowl sends most of its heat straight up into the night sky while blowing smoke straight into whichever chair sits downwind. A proper garden log burner encloses the fire inside a metal box connected to an upright chimney pipe, pulling cold air across the embers and bouncing radiant warmth horizontally toward where people sit. If you are arranging patio seating around a stove or terrace, our [guide on choosing durable garden furniture](/how-to-pick-garden-furniture-that-lasts-for-years) details practical clearance spacing between tables, chairs, and outdoor heat sources.\n\nHot combustion gases expand inside the firebox before rushing upward through the chimney flue. That rising column creates natural suction at the stove base, drawing steady fresh oxygen in through lower air slides so logs burn hotter with less smouldering.\n\nChimney height governs how clean a stove burns. Once a vertical flue rises at least 1.2 metres above the stove top, draw becomes stable enough to pull smoke clear above seated guests' heads. Fit a top chimney cowl sporting steel spark arrestor mesh across enclosed courtyards surrounded by overhanging conifers. The cowl keeps shifting down-gusts from pushing wood smoke back out through the door while the fine mesh catches floating red embers before they drift onto dry garden fencing."
       },
       {
         "level": "h2",
